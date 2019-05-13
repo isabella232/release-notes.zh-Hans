@@ -8,7 +8,7 @@ title: 联系方式和法律信息
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
 
 Adobe Marketing Cloud 客户关怀团队在此为您提供帮助，同时还提供了大量的参与机制：
 
-请参阅[联系 Adobe 企业支持](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+请参阅[联系 Adobe 企业支持](https://helpx.adobe.com/cn/contact/enterprise-support.ec.html)
 
 ## 服务、功能和账单 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -41,8 +41,8 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
  <li> Published by Adobe Systems Incorporated. </li> 
 </ul>
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy/policy.html)
+[使用条款](https://www.adobe.com/go/marketingcloud_terms_of_use_cn) | [隐私中心](https://www.adobe.com/cn/privacy/policy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 商标符号（®、™ 等）表示 Adobe 商标。
 
-所有第三方商标都是其各自拥有者的资产。更新信息/其他第三方编码信息可在 [https://www.adobe.com/go/thirdparty_cn](https://www.adobe.com/products/eula/third_party/) 上找到。
+所有第三方商标都是其各自拥有者的资产。更新信息/其他第三方代码信息位于：[https://www.adobe.com/go/thirdparty_cn](https://www.adobe.com/cn/products/eula/third_party/)。
