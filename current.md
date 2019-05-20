@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 5 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3be54c2a7d063c6ebc9c0535efd6712abada071d
+source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 **发布日期：2019年月**
 
-* [体验平台](#platform)
+* [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -30,9 +30,13 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Magento](#magento)
 * [Primetime](#primetime)
 
-## 体验平台 {#platform}
+## Adobe Experience Platform {#platform}
 
-Experience Cloud Platform的发行说明，包括管理、激活(体验平台启动)、ID服务、资产、优惠和人员。
+### Adobe Experience Platform发行说明
+
+1.0版本，2019年月15日
+
+* 有关体验平台的最新更新，请参阅 [Adobe. io](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 上的Experience Platform发行说明。
 
 ### Experience Platform Launch
 
@@ -40,11 +44,11 @@ Experience Cloud Platform的发行说明，包括管理、激活(体验平台启
 
 ### Experience Cloud ID 服务
 
-发布日期 **：2019年月13日**
+发行日期：**2019 年 5 月 13 日**
 
-* 访客API4.3.0支持
-* IDP2.1支持。
-* 修复了有关SecureKeokie配置的问题。
+* 支持访客 API 4.3.0
+* 支持 ITP 2.1。
+* 修复了有关 secureCookie 配置的问题。
 
 ## Analytics {#analytics}
 
