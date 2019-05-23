@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 5 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c5d973e002c607c1b9b7422c9d3abaa9c827a000
+source-git-commit: eb567f2f7b740c2fab9b95540cfdf240cf1f6955
 
 ---
 
@@ -63,6 +63,7 @@ Adobe Analytics 的新增功能和修复：
 
 | 功能 | 描述 |
 | -----------| ---------- |  
+| **AppMeasurement版2.14.0** <ul><li>修复了在等待多个点击时，跟踪器参数状态管理的问题。(AN-176931，AN-176629，DTM-12758)</li><li>更新了AppMeasurement以包含访客. js4.3.0(AN-180049)</li></ul> |
 | **Analysis Workspace：** 新增 _功能：重复实例_ 流可视化设置 | “包含重复实例”__流量设置使您可以选择包含还是排除重复实例，例如页面重新载入。此外，所有流量可视化图表现在仅基于实例。 |
 | **临时分析：** 与Java11的兼容性 | 现在，Ad Hoc Analysis 已与 Java 11 兼容。了解如何在 [Java11上运行Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/adhoc-java.html)。 |
 | **数据收集：** 新的s_ ecid cookie | 新增了第一方服务器 s_ecid Cookie，其中的数据收集用于存储访客的 ECID。 |
