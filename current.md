@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 5 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4dd5facd0c7c7088f177285fe04991254da17ff9
+source-git-commit: 79b40383300bb2b48fe916caeaade87c8a8ba5d4
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics 的新增功能和修复：
 | -----------| ---------- | ---------- |
 | 即将支持 **[!UICONTROL 日期和]****[!UICONTROL 数值分类的支持更改]** | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。此更改将在2019年月维护版本生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
 | 即将更改“报表总数”计算__ | 更新日期：2019 年 5 月 2 日 | 在 **2019 年 6 月 13 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的“报表总数”__计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论“未指定”__是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除“未指定”__行项目。<br/>自 2019 年 6 月 13 日开始，“未指定”__将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，在进行此项更改之后，对于某些维度，使用“存在”__或“不存在”__逻辑的区段可能会显示不同结果。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
-| 更新到CSV下载 [!DNL Analysis Workspace] | 2019 年 4 月 10 日 | 从2019年月11日开始， **[!UICONTROL 对CSV下载]** (和 **[!UICONTORL 复制到剪贴板]**)进行了多次更改，从 [!DNL Analysis Workspace] 导出的数据中删除格式。  <ul><li>千分分隔符不再包含。小数分隔符将继续包含在内，并将遵循**[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]**下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
+| 更新到CSV下载 [!DNL Analysis Workspace] | 2019 年 4 月 10 日 | 从2019年月11日开始， **[!UICONTROL 对CSV下载]** (和 **[!UICONTORL 复制到剪贴板]**)进行了多次更改，从 [!DNL Analysis Workspace] 导出的数据中删除格式。  <ul><li>千分分隔符不再包含。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]** 下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
 | 即将更改 [!DNL Analysis Workspace] 的调试器命令 | 2019 年 4 月 4 日 | 打开 [!DNL Analysis Workspace] 调试器的控制台命令将于2019年 **月13日更改为** AdobeTools. debug. includeOberXML。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
 | 生命周期结束 [!DNL Ad Hoc Analysis] | 2019 年 1 月 29 日 | Adobe于2018年月日宣布有意终止生命 [!DNL Ad Hoc Analysis]。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
@@ -185,7 +185,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| 搜索工具 | （拥有 Google Ads 帐号的广告商）Advertising Cloud 可以选择将其跟踪的所有转化数据上传到 Google Ads，这些数据是使用 Advertising Cloud 转化跟踪服务的 Google Ads 营销活动的跟踪数据。每日上传包含使用广告商级别的归因模型定义的转化值。所有上传的转化都以“Adobe_ACS_”作为前缀（例如，“Adobe_ACS_Subscriptions”表示“Subscriptions”转化）。 <br/> **注意：**上传内容不包含从馈送文件上传到 Advertising Cloud 的转化数据。 |
+| 搜索工具 | （拥有 Google Ads 帐号的广告商）Advertising Cloud 可以选择将其跟踪的所有转化数据上传到 Google Ads，这些数据是使用 Advertising Cloud 转化跟踪服务的 Google Ads 营销活动的跟踪数据。每日上传包含使用广告商级别的归因模型定义的转化值。所有上传的转化都以“Adobe_ACS_”作为前缀（例如，“Adobe_ACS_Subscriptions”表示“Subscriptions”转化）。 <br/> **注意：** 上传内容不包含从馈送文件上传到 Advertising Cloud 的转化数据。 |
 | 搜索促销活动 | **“搜索”** &gt; **“营销活动** ”&gt; **“营销活动”** 中的菜单现在为层次结构，并通过帐户下的营销活动进行分类；营销活动下的广告组；关键字(带有子菜单)、广告、产品组(仅限实时视图)、占位符(带有子菜单)和广告组下的自动目标。<br/>在实时视图中，受众和扩展与帐户同级，并具有自己的子菜单。 |
 
 ## Target Standard/Premium 19.5.1 {#target}
