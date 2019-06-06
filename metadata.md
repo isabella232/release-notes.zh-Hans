@@ -2,16 +2,16 @@
 cloud: experience-cloud
 solution-title: Experience Cloud
 solution-hub-url: https://helpx.adobe.com/cn/support/experience-cloud.html
-solution-icon: assets/experience-cloud-logo-24.png
-getting-started-title: Experience League
+solution-icon: assets/assets/experience-cloud-logo-24.png
+getting-started-title: 入门指南
 getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教程
 tutorials-url: https://helpx.adobe.com/cn/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
-index: false
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+index: true
+translation-type: tm+mt
+source-git-commit: 8e54bd3d73d2729e22d09765069d311bc0bc5248
 
 ---
 
@@ -22,7 +22,7 @@ metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存
 
 | 元数据 | 作用 |
 |--- |--- |
-| solution-title | 在文章标题中用作链接 |
+| solution-title | 在文章标题中用作链接。保持简短。 |
 | solution-hub-url | 打开 helpx 中心页面 |
 | solution-icon | 在解决方案标题旁边显示解决方案图标。尚未实施 |
 | getting-started-title | 教程不合适时鲜少使用 |
