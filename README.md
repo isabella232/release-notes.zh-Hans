@@ -1,6 +1,6 @@
 ---
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
-translation-type: ht
+source-git-commit: d97a18edd04952f15a93be3197cf707c3de729d0
+translation-type: tm+mt
 
 ---
 # 贡献文章
@@ -9,17 +9,18 @@ translation-type: ht
 
 ## Adobe Open Source 行为准则
 
-此项目遵循 [Adobe 开源行为准则](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/code-of-conduct.html)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[贡献](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/contributing.html)一文。
+
+该项目采用了 [Adobe Open Source 行为准则](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/code-of-conduct.html)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[参与](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/contributing.html)文章。
 
 ## 关于您对 Adobe 内容的贡献
 
-请参阅[《Adobe 文档贡献者指南》](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
 您的参与方式取决于您的身份以及您想提供的更改类型：
 
 ### 次要更改
 
-如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的**编辑**链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅常用的[《Adobe 文档贡献者指南》](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的 **编辑** 链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -39,14 +40,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅[《Adobe 文档贡献者指南》](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html)。
+有关详细信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html)。
 
 ## 如何使用 Markdown 格式化您的主题
 
 此存储库中的所有文章都使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，请参阅：
 
 * [Markdown 基础知识](https://help.github.com/articles/markdown-basics/)
-* [可打印的 Markdown 备忘单](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可打印 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签
 
