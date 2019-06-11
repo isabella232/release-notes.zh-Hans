@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
+source-git-commit: 1055e2ece605b5c1147f92cfd06cf103860e3d4c
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 ## Adobe Experience Platform {#platform}
 
-### Adobe Experience Platform发行说明
+### Adobe Experience Platform 发行说明
 
 * 有关体验平台的最新更新，请参阅 [Adobe. io](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 上的Experience Platform发行说明。
 
@@ -47,12 +47,12 @@ Adobe Experience Cloud 的新增功能和修复。
 
 Adobe Analytics 的新增功能和修复：
 
-* [Adobe Analytics中的新增功能和修复](#aa-features)
+* [Adobe Analytics 的新增功能和修复](#aa-features)
 * [Analytics 管理员的重要注意事项](#aa-notices)
 
 有关产品文档，请参阅 [Analytics 帮助主页](https://marketing.adobe.com/resources/help/en_US/reference/)。
 
-### Adobe Analytics中的新增功能和修复 {#aa-features}
+### Adobe Analytics 的新增功能和修复{#aa-features}
 
 | 功能 | 描述 |
 | -----------| ---------- |  
@@ -60,6 +60,7 @@ Adobe Analytics 的新增功能和修复：
 | **区段** | 新的细分运营商： **[!UICONTROL 等于任何]** 且 **[!UICONTROL 不]** 等于任何。 |
 | **调试程序** | 使用Adobe ID登录后，您可以选择检索Experience Cloud调试器中的后处理点击。经过后处理的点击是服务器调用完成后的服务器调用，它经过 [!UICONTROL 处理规则] 和VISTA规则，允许您验证 [!UICONTROL 处理规则] 和您的VISTA规则。**注意**：如果您使用的是A4T(ElementalDataHelp)，后期处理数据可能需要几分钟才能返回。 |
 | **Analysis Workspace:** | 为左边栏搜索添加了现成的过滤器。除您当前看到的内容(维度、指标、批准等)之外，还包括计算指标、客户属性、eVar、Prop、Video等新筛选器。从而更轻松地查找所需的组件。 |
+| **Analysis Workspace** | 我们为将在您添加区段时将显示的流失可视化添加了一条警告-某些无效区段容器组合将导致无效的流失图表，如 <ul><li>在访客上下文流失可视化中使用基于访客的区段作为触点</li><li>在访问上下文流失可视化中使用基于访客的区段作为触点</li><li>在访问上下文流失可视化中使用基于访问的区段作为触点</li></ul> <br> [更多信息...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
 
 **Analysis Workspace 修复**
 
@@ -80,17 +81,17 @@ Adobe Analytics 的新增功能和修复：
 | -----------| ---------- | ---------- |
 | 分类规则构建器限制 | 添加于2019年月日 | 这些限制不是新的，但已添加到此处的文档 [](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html)中。 |
 | 新的细分运营商限制 | 添加了2019年月31日 | 从2019年月18日开始，区段操作符“包含”，“不包含”，“包含全部”，“不包含全部”将限制为每输入字段100个单词。此限制将应用于此日期之后的所有新和修改的区段。超出限制的现有区段将继续受到支持，但在输入字段减少之前，不能修改或保存。这些限制作为不断努力提高查询性能的一部分加以应用。 |
-| 即将支持 **[!UICONTROL 日期和]****[!UICONTROL 数值分类的支持更改]** | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。此更改将在2019年月维护版本生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
+| 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]** 的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
 | 即将更改“报表总数”计算__ | 更新日期：2019 年 5 月 2 日 | 在 **2019 年 6 月 13 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的“报表总数”__计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论“未指定”__是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除“未指定”__行项目。<br/>自 2019 年 6 月 13 日开始，“未指定”__将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，在进行此项更改之后，对于某些维度，使用“存在”__或“不存在”__逻辑的区段可能会显示不同结果。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
-| 更新到CSV下载 [!DNL Analysis Workspace] | 2019 年 4 月 10 日 | 从2019年月11日开始， **[!UICONTROL 对CSV下载]** (和 **[!UICONTORL 复制到剪贴板]**)进行了多次更改，从 [!DNL Analysis Workspace] 导出的数据中删除格式。  <ul><li>千分分隔符不再包含。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]** 下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
-| 即将更改 [!DNL Analysis Workspace] 的调试器命令 | 2019 年 4 月 4 日 | 打开 [!DNL Analysis Workspace] 调试器的控制台命令将于2019年 **月13日更改为** AdobeTools. debug. includeOberXML。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
+| 更新从 [!DNL Analysis Workspace] 下载 CSV 时的操作 | 2019 年 4 月 10 日 | 从 2019 年 4 月 11 日开始，已对 [!DNL Analysis Workspace] 中的 **[!UICONTROL CSV 下载]** （和 **[!UICONTORL 复制到剪切板]**）进行了一些更改，以删除导出数据中的格式。  <ul><li>千位分隔符将不再包含在内。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]** 下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
+| 即将更改 [!DNL Analysis Workspace] 调试器命令 | 2019 年 4 月 4 日 | 自 **2019 年 6 月 13 日** 起，用于开启 [!DNL Analysis Workspace] 调试器的控制台命令将变为 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
-| 生命周期结束 [!DNL Ad Hoc Analysis] | 2019 年 1 月 29 日 | Adobe于2018年月日宣布有意终止生命 [!DNL Ad Hoc Analysis]。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
+| 终止 [!DNL Ad Hoc Analysis] 的生命周期 | 2019 年 1 月 29 日 | 2018 年 8 月 6 日，Adobe 宣布计划终止 [!DNL Ad Hoc Analysis] 的生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
 | 简短 Analytics 报表链接 | 2019 年 1 月 14 日 | 系统将从 2019 年 1 月 17 日星期四开始按照滚动计划表清理和删除任何在一年内未被访问过的简短 Analytics 报表链接。 |
-| 停止对 TLS 1.0 的支持 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。如果您在2019年月11日之后无法连接到Adobe Analytics报告，则应将浏览器升级到 [最新版本](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html)。<br/>自 2019 年 2 月 20 日起，Adobe Analytics 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅“更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2”。__） </li><li>使用Java的API客户端不应受到影响，因为默认设置为TLS1.2。</li><li> 使用其他框架的 API 客户端将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
-| 数据馈送：post_product_list 列 - 大小更改 | 2019 年 1 月 9 日 | 2019 年 2 月 7 日，Adobe 将 post_product_list 列的大小从 64 KB 扩展到 16 MB。此更改可确保在处理过程中添加到post_ product_ list的推销eVar值不会截断产品和收入值。如果您的流程需要获取 post_product_list 值，请确保这些流程可以处理长度最大为 16 MB 的值，否则会将值截断为 16 KB，以避免数据获取失败。 |
-| 影响非活动 [!DNL Analytics Live Stream] 端点的管理更改 | 2018 年 12 月 20 日 | 自2019年月日起，可能禁用90天无活动消费者连接的 [!DNL Live Stream] 端点。您可以联系客户服务部门来查询您 [!DNL Live Stream] 的端点，如果有必要，可以重新启用它们。此外，请确保您的客户进程按照服务设计要求保持持久连接，并在连接断开或中断时实施重新连接。 |
-| 由于对 TLS 1.0 的支持终止而更新 Adobe [!DNL Report Builder] | 2018 年 9 月 7 日 | 由于TLS1.0支持结束，我们建议 [!DNL Report Builder] 用户在2019年月之前下载版本v5.6.21。在该日期之后，旧版本 [!DNL Report Builder] 将不再起作用。 |
+| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。如果您在2019年月11日之后无法连接到Adobe Analytics报告，则应将浏览器升级到 [最新版本](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html)。<br/>自 2019 年 2 月 20 日起，Adobe Analytics 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅“更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2”。__） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
+| 数据馈送：post_product_list 列 - 大小更改 | 2019 年 1 月 9 日 | 2019 年 2 月 7 日，Adobe 将 post_product_list 列的大小从 64 KB 扩展到 16 MB。这项更改可确保在处理过程中添加到 post_product_list 的推销 eVar 值不会导致产品和收入值截断。如果您的流程需要提取 post_product_list 值，请确保这些流程可以处理长度最大为 16 MB 的值，否则系统将按照 16 KB 的长度将该值截断，以避免数据获取失败。 |
+| 影响不活动的 [!DNL Analytics Live Stream] 端点的管理更改 | 2018 年 12 月 20 日 | 从 2019 年 2 月 1 日开始，可能会禁用持续 90 天没有活动客户连接的 [!DNL Live Stream] 端点。您可以联系客户关怀团队查询您的 [!DNL Live Stream] 端点，并在必要时重新启用它们。此外，请确保您的客户进程按照服务设计要求保持持久连接，并在连接断开或中断时实施重新连接。 |
+| 由于对 TLS 1.0 的支持终止而更新 Adobe [!DNL Report Builder] | 2018 年 9 月 7 日 | 由于对 TLS 1.0 的支持即将终止，我们建议 [!DNL Report Builder] 用户在 2019 年 2 月之前下载 v5.6.21 版。在该日期之后，以前版本的 [!DNL Report Builder] 将无法再正常运行。 |
 
 ## Audience Manager {#aam}
 
@@ -269,7 +270,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 Magento 是一个电子商务平台，可为在线商家提供灵活方便的购物车系统，并控制其在线商店的外观、内容和功能。Magento 提供有开源版本和功能更全面的商业版本。
 
-Magento Commerce 是 Adobe Commerce Cloud 的一部分，它为 B2C 和 B2B 体验提供了一个具有企业级能力、无限可扩展性和开源灵活性的电子商务解决方案.
+Magento Commerce 是 Adobe Commerce Cloud 的一部分，它为 B2C 和 B2B 体验提供了一个具有企业级能力、无限可扩展性和开源灵活性的电子商务解决方案。
 
 可在 [“发行信息](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) ”页面上找到我们的Open Source和Commerce版本的发行说明。
 
