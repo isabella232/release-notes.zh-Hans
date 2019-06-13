@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
+source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
 
 ---
 
@@ -58,6 +58,8 @@ Adobe Analytics 的新增功能和修复：
 | **调试程序** | 使用Adobe ID登录后，您可以选择检索Experience Cloud调试器中的后处理点击。经过后处理的点击是服务器调用完成后的服务器调用，它经过 [!UICONTROL 处理规则] 和VISTA规则，允许您验证 [!UICONTROL 处理规则] 和您的VISTA规则。**注意**：如果您使用的是A4T(ElementalDataHelp)，后期处理数据可能需要几分钟才能返回。 |
 | **Analysis Workspace:** | 为左边栏搜索添加了现成的过滤器。除您当前看到的内容(维度、指标、批准等)之外，还包括计算指标、客户属性、eVar、Prop、Video等新筛选器。从而更轻松地查找所需的组件。 |
 | **Analysis Workspace** | 我们为将在您添加区段时将显示的流失可视化添加了一条警告-某些无效区段容器组合将导致无效的流失图表，如 <ul><li>在访客上下文流失可视化中使用基于访客的区段作为触点</li><li>在访问上下文流失可视化中使用基于访客的区段作为触点</li><li>在访问上下文流失可视化中使用基于访问的区段作为触点</li></ul> <br> [更多信息...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
+| **分析文档改进** | 分析文档已重新组织，现在包含可让您改进内容的协作功能！您可以根据文档记录问题并建议编辑。文档集已移至 [新域](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。应重新定向。 |
+| **新技术说明用户指南** | [“技术说明”用户指南](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) 现已可用。目前，它致力于帮助用户更熟悉第三方分析工具(如Google Analytics)来更加熟悉Adobe Analytics。技术说明用户指南将在未来几个月内扩展，以包含更多内容。 |
 
 **Analysis Workspace 修复**
 
