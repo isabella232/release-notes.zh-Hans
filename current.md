@@ -5,22 +5,19 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1055e2ece605b5c1147f92cfd06cf103860e3d4c
+source-git-commit: d216b079f73662c1d43e154b2a4e8195d09a2f18
 
 ---
 
 
-# 早期访问- Adobe Experience Cloud发行说明
+# Adobe Experience Cloud 发行说明
 
 Adobe Experience Cloud 的新增功能和修复。
-
->[!IMPORTANT]
->此页面包含预发行内容，在发行版之前可能会发生更改。
 
 >[!NOTE]
 >若要通过电子邮件接收关于即将发布版本的通知，请订阅 [Adobe 产品更新早知道](https://www.adobe.com/subscription/priority-product-update.html)。您将在版本发行前的三到五个工作日收到通知。对于发行之后发布的新信息，将使用发布日期进行标记。
 
-**发布日期：2019年月**
+**发布日期：2019 年 6 月 13 日**
 
 * [Adobe Experience Platform](#platform)
 * [Analytics](#analytics)
@@ -56,8 +53,8 @@ Adobe Analytics 的新增功能和修复：
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| **区段** | 细分中维度的新归因模型：<ul><li>重复(默认)：包括实例的实例+持久值。</li><li>实例：包括维度实例。</li><li>非重复实例：包括维度的唯一实例(非重复)。</li></ul> |
-| **区段** | 新的细分运营商： **[!UICONTROL 等于任何]** 且 **[!UICONTROL 不]** 等于任何。 |
+| **区段** | 细分中维度的新归因模型：<ul><li>重复(默认)：包括实例的实例+持久值。</li><li>实例：包括维度实例。</li><li>非重复实例：包括维度的唯一实例(非重复)。</li></ul> [更多](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
+| **区段** | 新的细分运营商： **[!UICONTROL 等于任何]** 且 **[!UICONTROL 不]** 等于任何。[更多...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | **调试程序** | 使用Adobe ID登录后，您可以选择检索Experience Cloud调试器中的后处理点击。经过后处理的点击是服务器调用完成后的服务器调用，它经过 [!UICONTROL 处理规则] 和VISTA规则，允许您验证 [!UICONTROL 处理规则] 和您的VISTA规则。**注意**：如果您使用的是A4T(ElementalDataHelp)，后期处理数据可能需要几分钟才能返回。 |
 | **Analysis Workspace:** | 为左边栏搜索添加了现成的过滤器。除您当前看到的内容(维度、指标、批准等)之外，还包括计算指标、客户属性、eVar、Prop、Video等新筛选器。从而更轻松地查找所需的组件。 |
 | **Analysis Workspace** | 我们为将在您添加区段时将显示的流失可视化添加了一条警告-某些无效区段容器组合将导致无效的流失图表，如 <ul><li>在访客上下文流失可视化中使用基于访客的区段作为触点</li><li>在访问上下文流失可视化中使用基于访客的区段作为触点</li><li>在访问上下文流失可视化中使用基于访问的区段作为触点</li></ul> <br> [更多信息...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
