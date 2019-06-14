@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0c4355bbb17d5b67a8f136a07b7fc2a682441a01
+source-git-commit: dbcd180c5fd07abd8a6b8ed9ec47b3b1d996f275
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [[！DNL Campaign]](#ac)
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -34,11 +34,11 @@ Adobe Experience Cloud 的新增功能和修复。
 
 ### Adobe Experience Platform 发行说明
 
-* 有关体验平台的最新更新，请参阅 [Adobe. io](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) 上的Experience Platform发行说明。
+* 请参阅 [[！Adobe. io上的DNL Experience Platform]发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) ，获取最新更新 [!DNL Experience Platform]。
 
-### Experience Platform Launch
+### [!DNL Experience Platform Launch]
 
-* 有关最新信息，请参阅 [Experience Platform Launch](https://docs.adobelaunch.com/) 。
+* 请参阅 [[！DNL Experience Platform Launch]](https://docs.adobelaunch.com/) 了解最新信息。
 
 ## Analytics {#analytics}
 
@@ -101,7 +101,7 @@ Adobe Analytics 的新增功能和修复：
 * 解决了导致特征文件夹内容无法显示的问题，然后文件夹名称包含圆括号和/或括号。
 * 解决了在仅选择一种特征类型时导致特征排序失败的问题。
 * 解决了一个问题，该问题导致特征文件夹树在您每次创建或更新新子文件夹时折叠到 [!UICONTROL “所有特征] ”视图。
-* 解决了在尝试删除合作伙伴时所需的VIEW_数据原始数据权限的问题。
+* 解决了在尝试删除合作伙伴时所需 [!DNL VIEW_DATASOURCES] 权限的问题。
 * 解决了导致区段页面中的 [!UICONTROL 搜索] 框在 [!UICONTROL 所有] 文件夹而非选定的文件夹中搜索的问题。
 * 解决了创建新算法模型时无法通过标题控件对 [!UICONTROL 排除特征] 表进行排序的问题。
 * 解决了导致Audience Manager在运行具有空间隔日期的报告时崩溃的问题。
@@ -213,23 +213,23 @@ XML文档解决方案的3.3发行版现已推出。请参阅以下发行说明�
 * [Scene7 发布系统发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
-## Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
-### Campaign Classic19.1春季版
+### [!DNL Campaign Classic] 19.1Spring Release
 
 | 功能 | 描述 |
 | ------------- | ----------- |
 | 控制面板 | 要以管理员用户的身份提高工作效率，可以通过监视存储、白名单IP地址以及为每个实例安装SSH密钥来管理SFTP服务器的设置。请注意，控制面板仅适用于AWS上托管的客户。[通过Experience Cloud登录](https://experiencecloud.adobe.com/campaign/controlpanel/)。<br> 有关详细信息，请参阅 [详细的文档](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [操作方法视频](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)。 |
 | 审计线索 | 作为管理员，通过监视和管理Adobe Campaign Classic实例中所做的更改提高工作效率。审核线索将记录在源架构、工作流和选项上做出的操作。您可以快速查看元素是否已创建、修改或删除。<br>有关详细信息，请参阅 [详细的文档](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 和 [操作方法视频](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
-| Guardril、稳健性和可伸缩性 | Campaign Classic增加了一系列改进。Guardril、稳健性和可伸缩性改进列在 [Campaign Classic发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html)中。 |
+| Guardril、稳健性和可伸缩性 | 添加了一系列改进 [!DNL Campaign Classic]。Guardril、稳健性和可伸缩性改进在 [Adobe Campaign Classic发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html)中列出。 |
 | 安全SMS Messaging(TLS) | 现在，通过扩展通用SMPP连接器支持安全SMS。这允许向提供者提供加密连接。<br>有关更多信息，请参阅[详细的文档](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
 | 兼容性矩阵更新 | 通过此新版本，Adobe Campaign现在支持以下数据库系统。请参阅 [兼容性矩阵](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle18c</li><li>MySQL5.7(FDA)</li><li>SQL Server2017</li><li>Teradata16(FDA)</li><li>postGreQl11</li></ul> |
 
-有关修复和改进，请参阅 [Adobe Campaign Classic 发行说明](http://docs.campaign.adobe.com/doc/AC/en/RN.html)。
+请参阅 [Adobe Campaign Classic] 发行说明](仅限修复和改进)。
 
-### Campaign Standard19.2Spring Release
+### [!DNL Campaign Standard] 19.2Spring Release
 
 | 功能 | 描述 |
 | ------------- | ----------- |
