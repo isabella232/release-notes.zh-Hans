@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a4233ae2bcb89b8695b92385142ee25b654a2300
+source-git-commit: 7708f905e8f5baf0843e7ccb6c652a3450dd5d82
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [！DNL [Campaign](#ac)]
+* [!DNL Campaign](#ac)
 * [Mobile Services](#mobile)
 * [Advertising Cloud](#adcloud)
 * [Target Standard/Premium 19.6.1](#target)
@@ -38,7 +38,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 ### [!DNL Experience Platform Launch]
 
-* 请参阅 [[！DNL Experience Platform Launch]](https://docs.adobelaunch.com/) 了解最新信息。
+* 请参阅 [!DNL Experience Platform Launch](https://docs.adobelaunch.com/) 最新信息。
 
 ## Analytics {#analytics}
 
