@@ -10,7 +10,7 @@ tutorials-url: https://helpx.adobe.com/cn/experience-cloud/tutorials.html
 mini-toc-levels: '1'
 git-repo: https://github.com/AdobeDocs/release-notes.en
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e54bd3d73d2729e22d09765069d311bc0bc5248
 
 ---
@@ -22,7 +22,7 @@ metadata.md 文件包括可传递给存储库中用户指南 TOC.md 文件的存
 
 | 元数据 | 作用 |
 |--- |--- |
-| solution-title | 在文章标题中用作链接。保持简短。 |
+| solution-title | 在文章标题中用作链接。简明扼要。 |
 | solution-hub-url | 打开 helpx 中心页面 |
 | solution-icon | 在解决方案标题旁边显示解决方案图标。尚未实施 |
 | getting-started-title | 教程不合适时鲜少使用 |
