@@ -3,7 +3,7 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 发行说明
 user-guide-url: https://www.adobe.com/cn
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f156e4fcbd0d39b27f2c254e2117ad2e4e0b793
 
 ---
