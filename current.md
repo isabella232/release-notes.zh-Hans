@@ -4,8 +4,8 @@ description: Experience Cloud 2019 年 6 月版发行说明
 doc-type: 发行说明
 last-update: 2019 年 6 月
 author: mfrei
-translation-type: ht
-source-git-commit: 9fbbe902ba5f95b86f8bf2eed7d3e85b4785ba6e
+translation-type: tm+mt
+source-git-commit: 271087e92e26cd3b0aa382fe9760021d50414a13
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发布日期：2019 年 6 月 13 日**
 
 * [Adobe Experience Platform](#platform)
-* [Analytics](#analytics)
+* [分析](#analytics)**(更新日期：2019年月24日)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -34,32 +34,32 @@ Adobe Experience Cloud 的新增功能和修复。
 
 ### Adobe Experience Platform 发行说明
 
-* 有关 [!DNL Experience Platform] 的最新更新，请参阅 Adobe.io 上的 [Adobe Experience Platform 发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md)。
+* See [Adobe Experience Platform release notes](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes-20190515.md) on Adobe.io for the latest updates to [!DNL Experience Platform].
 
 ### [!DNL Experience Platform Launch]
 
-* 有关最新信息，请参阅 [!DNL Experience Platform Launch](https://docs.adobelaunch.com/)。
+* See [!DNL Experience Platform Launch](https://docs.adobelaunch.com/) for the latest information.
 
 ## Analytics {#analytics}
 
 Adobe Analytics 的新增功能和修复：
 
 * [Adobe Analytics 的新增功能和修复](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics管理员的重要声明](#aa-notices)**(更新于2019年月24日)**
 
-有关产品文档，请参阅 [Analytics 帮助主页](https://marketing.adobe.com/resources/help/zh_CN/reference/)。
+有关产品文档，请参阅 [Analytics 帮助主页](https://marketing.adobe.com/resources/help/en_US/reference/)。
 
 ### Adobe Analytics 的新增功能和修复{#aa-features}
 
-| 功能 | 描述 |
+| 功能/增强 | 描述 |
 | -----------| ---------- |  
-| **区段** | 区段中维度的新归因模型：<ul><li>重复（默认）：包含维度的实例和持久值。</li><li>实例：包含维度的实例。</li><li>非重复实例：包括维度的唯一实例（非重复）。</li></ul> [更多信息](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
-| **区段** | 新的区段运算符：**[!UICONTROL 等于任一项]** 以及 **[!UICONTROL 不等于任一项]**。[更多信息...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
+| **区段** | 区段中维度的新归因模型：<ul><li>重复（默认）：包含维度的实例和持久值。</li><li>实例：包含维度的实例。</li><li>非重复实例：包括维度的唯一实例（非重复）。</li></ul> [更多](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html) |
+| **区段** | 新的区段运算符：**[!UICONTROL 等于任一项]** 以及 **[!UICONTROL 不等于任一项]**。[更多...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-operators.html) |
 | **调试程序** | 现在，使用 Adobe ID 登录后，您可以选择在 Experience Cloud 调试器中检索后处理的命中。后处理的命中是指顺利通过 [!UICONTROL 处理规则] 和 VISTA 规则后的服务器调用，可让您验证自己的 [!UICONTROL 处理规则] 和 VISTA 规则。**注意**：如果您使用的是 A4T (SupplementalDataID)，后处理数据可能需要几分钟才能返回。 |
 | **Analysis Workspace** | 左边栏搜索新增了开箱即用的过滤器。除了您现在看到的这些过滤器（维度、量度、已批准等）之外，还新增了一些过滤器（例如计算指标、客户属性、eVar、Prop、视频等）以更便于查找所需的组件。 |
-| **Analysis Workspace** | 我们在流失可视化图表中添加了一个警告消息，当您添加某个区段作为接触点时，会显示该警告消息 - 某些无效区段容器组合将导致无效的流失图表，例如 <ul><li>在访客上下文流失可视化图表中使用基于访客的区段作为接触点</li><li>在访问上下文流失可视化图表中使用基于访客的区段作为接触点</li><li>在访问上下文流失可视化图表中使用基于访问的区段作为接触点</li></ul> <br> [更多信息...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html) </br> |
-| **Analytics 文档改进** | Analytics 文档进行了重新组织，现在包含可让您改进内容的协作功能！您可以记录文档存在的相关问题并给出编辑建议。文档集已移至[新域](https://docs.adobe.com/content/help/cn/analytics/landing/home.html)。应实施重新定向。 |
-| **新技术说明用户指南** | [技术说明用户指南](https://docs.adobe.com/content/help/cn/analytics/technotes/home.html)现已可用。目前，本指南的目标是帮助那些对第三方分析工具（如 Google Analytics）有着更多经验的用户越来越熟悉 Adobe Analytics。在未来几个月内，技术说明用户指南将进行扩展以包含更多内容。 |
+| **Analysis Workspace** | 我们在流失可视化图表中添加了一个警告消息，当您添加某个区段作为接触点时，会显示该警告消息 - 某些无效区段容器组合将导致无效的流失图表，例如 <ul><li>在访客上下文流失可视化图表中使用基于访客的区段作为接触点</li><li>在访问上下文流失可视化图表中使用基于访客的区段作为接触点</li><li>在访问上下文流失可视化图表中使用基于访问的区段作为接触点</li></ul> <br> [更多信息...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)</br> |
+| **Analytics 文档改进** | Analytics 文档进行了重新组织，现在包含可让您改进内容的协作功能！您可以记录文档存在的相关问题并给出编辑建议。The doc set has moved to a [new domain](https://docs.adobe.com/content/help/en/analytics/landing/home.html). 应实施重新定向。 |
+| **新技术说明用户指南** | [“技术说明”用户指南](https://docs.adobe.com/content/help/en/analytics/technotes/home.html) 现已可用。目前，本指南的目标是帮助那些对第三方分析工具（如 Google Analytics）有着更多经验的用户越来越熟悉 Adobe Analytics。在未来几个月内，技术说明用户指南将进行扩展以包含更多内容。 |
 
 **Analysis Workspace 修复**
 
@@ -77,8 +77,9 @@ Adobe Analytics 的新增功能和修复：
 ### Analytics 管理员的重要注意事项 {#aa-notices}
 
 | 注意 | 添加或更新日期 | 描述 |
-| -----------| ---------- | ---------- |
-| 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | 这些不是新限制，但已添加到[此处](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html)的文档。 |
+| -----------| ---------- | ---------- | 
+| 审核日志UI更改 | 添加于 2019 年 6 月 24 日 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>时间戳格式从Unix时间戳更改为ISO8601时间</li><li>审核日志结果现在包含报表包ID而不是报表套件名称。 </li></ul> |
+| 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符“包含任意”、“不包含任意”、“包含全部”和“不包含全部”将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]** 的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
 | 即将更改 _报表总数_ 计算 | 更新日期：2019 年 5 月 2 日 | 在 **2019 年 6 月 13 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 13 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，在进行此项更改之后，对于某些维度，使用 _存在_ 或 _不存在_ 逻辑的区段可能会显示不同结果。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
@@ -87,7 +88,7 @@ Adobe Analytics 的新增功能和修复：
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
 | 终止 [!DNL Ad Hoc Analysis] 的生命周期 | 2019 年 1 月 29 日 | 2018 年 8 月 6 日，Adobe 宣布计划终止 [!DNL Ad Hoc Analysis] 的生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
 | 简短 Analytics 报表链接 | 2019 年 1 月 14 日 | 系统将从 2019 年 1 月 17 日星期四开始按照滚动计划表清理和删除任何在一年内未被访问过的简短 Analytics 报表链接。 |
-| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。如果您在 2019 年 2 月 11 日后无法连接 Adobe Analytics 报表，则应将您的浏览器升级到[最新版本](https://marketing.adobe.com/resources/help/zh_CN/sc/user/requirements.html)。<br/>自 2019 年 2 月 20 日起，Adobe Analytics 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅“更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2”。__ ） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
+| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>自 2019 年 2 月 20 日起，Adobe Analytics 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅“更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2”。__ ） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
 | 数据馈送：post_product_list 列 - 大小更改 | 2019 年 1 月 9 日 | 2019 年 2 月 7 日，Adobe 将 post_product_list 列的大小从 64 KB 扩展到 16 MB。这项更改可确保在处理过程中添加到 post_product_list 的推销 eVar 值不会导致产品和收入值截断。如果您的流程需要提取 post_product_list 值，请确保这些流程可以处理长度最大为 16 MB 的值，否则系统将按照 16 KB 的长度将该值截断，以避免数据获取失败。 |
 | 影响不活动的 [!DNL Analytics Live Stream] 端点的管理更改 | 2018 年 12 月 20 日 | 从 2019 年 2 月 1 日开始，可能会禁用持续 90 天没有活动客户连接的 [!DNL Live Stream] 端点。您可以联系客户关怀团队查询您的 [!DNL Live Stream] 端点，并在必要时重新启用它们。此外，请确保您的客户进程按照服务设计要求保持持久连接，并在连接断开或中断时实施重新连接。 |
 | 由于对 TLS 1.0 的支持终止而更新 Adobe [!DNL Report Builder] | 2018 年 9 月 7 日 | 由于对 TLS 1.0 的支持即将终止，我们建议 [!DNL Report Builder] 用户在 2019 年 2 月之前下载 v5.6.21 版。在该日期之后，以前版本的 [!DNL Report Builder] 将无法再正常运行。 |
@@ -191,11 +192,11 @@ XML 文档解决方案的 3.3 版现已推出。请参阅以下发行说明：
 
 ### 社区
 
-**[Cloud Manager Skill Builder 网络研讨会系列](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)**
+**[Cloud Manager技能生成器网络研讨会系列](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)**
 
 您有兴趣想要了解 DevOps 流程如何简化云中 Adobe Experience Manager 管理的日常活动吗？Cloud Manager 为 Adobe Experience Manager 提供第一代云原生功能，无论您的组织是刚刚开始 DevOps 转型，还是正在寻找扩充现有 DevOps 流程的策略，Cloud Manager 都有助于实现云敏捷性。
 
-[在本月的网络研讨会系列中](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)，您可以直接向 Adobe 的产品团队学习如何入门，以及如何使用 Cloud Manager 功能简化云中的 Adobe Experience Manager 管理。
+[在此月度系列中](https://cloudmanagerskillbuilder.experienceleague.adobeevents.com/)，您可以直接从Adobe的产品团队那里了解如何入门并使用Cloud Manager功能简化云中的Adobe Experience Manager管理。
 
 您将学习以下内容：
 * 如何开始使用 Cloud Manager 和设置 CI/CD 管线
@@ -204,13 +205,13 @@ XML 文档解决方案的 3.3 版现已推出。请参阅以下发行说明：
 
 ### 其他资源
 
-* [AEM 6.5 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-5.html)
-* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
-* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
-* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
-* [旧版 AEM 文档](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
-* [Scene7 Publishing System 发行说明](https://marketing.adobe.com/resources/help/zh_CN/s7/release_notes/index.html)
+* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [更早版本的 AEM 文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Scene7 发布系统发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
@@ -221,27 +222,27 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 功能 | 描述 |
 | ------------- | ----------- |
-| 控制面板 | 为提高管理员用户的工作效率，请通过监控存储、将 IP 地址列入白名单以及为每个实例安装 SSH 密钥来管理 SFTP 服务器的设置。请注意，自即日起，控制面板仅适用于 AWS 上托管的客户。[通过 Experience Cloud 登录](https://experiencecloud.adobe.com/campaign/controlpanel/)。<br>有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/kb/control-panel.html)和[操作方法视频](https://helpx.adobe.com/cn/campaign/kt/acc/using/acc-control-panel-video-use.html)。 |
-| 审核记录 | 作为管理员，可通过监控和管理 Adobe Campaign Classic 实例中所做的更改来提高工作效率。审核记录会记录对源架构、工作流和选项所做的操作。您可以快速查看是否已创建、修改或删除某个元素。<br>有关更多信息，请参阅[详细文档](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html)和[操作方法视频](https://helpx.adobe.com/cn/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
-| 护栏、稳健性和可扩展性 | 向 [!DNL Campaign Classic] 添加了一系列改进功能。[Adobe Campaign Classic 发行说明](https://docs.campaign.adobe.com/doc/AC/cn/RN.html)中列出了护栏、稳健性和可扩展性方面的改进。 |
-| 安全短信 (TLS) | 现在，可通过扩展的通用 SMPP 连接器支持安全短信。这让您能够与提供商之间建立加密连接。<br>有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/kb/sms-connector-protocol-and-settings.html)。 |
-| 兼容性一览表更新 | 通过此新版本，Adobe Campaign 现在支持以下数据库系统。请参阅[兼容性一览表](https://helpx.adobe.com/cn/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>PostgreSQL 11</li></ul> |
+| 控制面板 | 为提高管理员用户的工作效率，请通过监控存储、将 IP 地址列入白名单以及为每个实例安装 SSH 密钥来管理 SFTP 服务器的设置。请注意，自即日起，控制面板仅适用于 AWS 上托管的客户。[通过Experience Cloud登录](https://experiencecloud.adobe.com/campaign/controlpanel/)。<br> 有关详细信息，请参阅 [详细的文档](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [操作方法视频](https://helpx.adobe.com/campaign/kt/acc/using/acc-control-panel-video-use.html)。 |
+| 审核记录 | 作为管理员，可通过监控和管理 Adobe Campaign Classic 实例中所做的更改来提高工作效率。审核记录会记录对源架构、工作流和选项所做的操作。您可以快速查看是否已创建、修改或删除某个元素。<br>有关详细信息，请参阅 [详细的文档](https://docs.campaign.adobe.com/doc/AC/en/PRO_Production_procedures_Audit_trail.html) 和 [操作方法视频](https://helpx.adobe.com/campaign/kt/acc/using/acc-audit-trail-feature-video-use.html)。 |
+| 护栏、稳健性和可扩展性 | 向 [!DNL Campaign Classic] 添加了一系列改进功能。Guardrail, robustness and scalability improvements are listed in [Adobe Campaign Classic Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html). |
+| 安全短信 (TLS) | 现在，可通过扩展的通用 SMPP 连接器支持安全短信。这让您能够与提供商之间建立加密连接。<br>有关更多信息，请参阅[详细的文档](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)。 |
+| 兼容性一览表更新 | 通过此新版本，Adobe Campaign 现在支持以下数据库系统。Refer to the [Compatibility Matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) <ul><li>Oracle 18c</li><li>MySQL 5.7 (FDA)</li><li>SQL Server 2017</li><li>Teradata 16 (FDA)</li><li>PostgreSQL 11</li></ul> |
 
-有关修复和改进功能，请参阅 [Adobe Campaign Classic 发行说明](http://docs.campaign.adobe.com/doc/AC/cn/RN.html)。
+有关修复和改进，请参阅 [Adobe Campaign Classic 发行说明](http://docs.campaign.adobe.com/doc/AC/en/RN.html)。
 
 ### [!DNL Campaign Standard] 19.2 春季版
 
 | 功能 | 描述 |
 | ------------- | ----------- |
-| 控制面板 | 为帮助提高管理员用户的工作效率，您可以轻松监控容量和管理实例设置（从 SFTP 服务器管理开始）。<br>有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/kb/control-panel.html)和[操作方法视频](https://helpx.adobe.com/cn/campaign/kt/acs/using/acs-control-panel-video-use.html)。 |
-| 本地通知消息 | 本地通知消息传送允许您在移动应用程序中提供新数据时通知您的用户，即使没有连接 Internet 或未在前台运行移动应用程序时也是如此。本地通知由移动应用程序在特定时间根据具体活动而触发。<br>有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)。 |
-| 工作流程增强功能 - 将有效负载添加到外部信号活动 | 在成功满足已定义的条件情况下，使用来自另一工作流程的有效负载或 REST API 调用启动工作流程，以与外部系统集成。这还包括一项新的测试活动，您可以从中对此功能运行测试。<br>有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)和[操作方法视频](https://helpx.adobe.com/cn/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html)。 |
-| 登陆页面增强功能 - Google reCAPTCHA | 利用 Google reCAPTCHA 阻止登陆页面上的垃圾邮件，无需客户采取任何行动。<br>有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/standard/channels/using/designing-a-landing-page.html#setting-google-recaptcha)。 |
+| 控制面板 | 为帮助提高管理员用户的工作效率，您可以轻松监控容量和管理实例设置（从 SFTP 服务器管理开始）。<br> 有关详细信息，请参阅 [详细的文档](https://helpx.adobe.com/campaign/kb/control-panel.html) 和 [操作方法视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html)。 |
+| 本地通知消息 | 本地通知消息传送允许您在移动应用程序中提供新数据时通知您的用户，即使没有连接 Internet 或未在前台运行移动应用程序时也是如此。本地通知由移动应用程序在特定时间根据具体活动而触发。<br>有关更多信息，请参阅[详细的文档](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type)。 |
+| 工作流程增强功能 - 将有效负载添加到外部信号活动 | 在成功满足已定义的条件情况下，使用来自另一工作流程的有效负载或 REST API 调用启动工作流程，以与外部系统集成。这还包括一项新的测试活动，您可以从中对此功能运行测试。<br>有关详细信息，请参阅 [详细的文档](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html#customizing-a-local-notification-message-type) 和 [操作方法视频](https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html)。 |
+| 登陆页面增强功能 - Google reCAPTCHA | 利用 Google reCAPTCHA 阻止登陆页面上的垃圾邮件，无需客户采取任何行动。<br>有关更多信息，请参阅[详细的文档](https://helpx.adobe.com/campaign/standard/channels/using/designing-a-landing-page.html#setting-google-recaptcha)。 |
 
 有关产品文档，请参阅：
 
-* Adobe Campaign Standard：[文档](https://helpx.adobe.com/cn/support/campaign/standard.html) - [发行说明](https://helpx.adobe.com/cn/campaign/standard/rn/using/release-notes.html) - [功能视频](https://helpx.adobe.com/cn/campaign/kt/acs/index/acs-videos.html)
-* Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/cn/RN.html) - [功能视频](https://helpx.adobe.com/cn/campaign/kt/acc/index/acc-videos.html)
+* Adobe Campaign Standard：[文档](https://helpx.adobe.com/support/campaign/standard.html) - [发行说明](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [专题视频](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
+* Adobe Campaign Classic：[文档](https://helpx.adobe.com/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [专题视频](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
 
 ## Mobile Services {#mobile}
 
@@ -261,9 +262,9 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 请参阅 Adobe Target 发行说明，了解最新的发布信息。
 
-[Target 发行说明（预发行）](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)
+[Target 发行说明（预发行版本）](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)
 
-[Target 发行说明（当前）](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+[Target 发行说明（当前版本）](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 
 ## Magento {#magento}
 
@@ -271,11 +272,11 @@ Magento 是一个电子商务平台，可为在线商家提供灵活方便的购
 
 Magento Commerce 是 Adobe Commerce Cloud 的一部分，它为 B2C 和 B2B 体验提供了一个具有企业级能力、无限可扩展性和开源灵活性的电子商务解决方案。
 
-可在[版本信息](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html)页面上找到我们的开源版本和商业版本的发行说明。
+Release Notes for both our Open Source and Commerce editions can be found on the [Release Information](https://devdocs.magento.com/guides/v2.3/release-notes/bk-release-notes.html) page.
 
 ## Primetime {#primetime}
 
 Adobe Primetime 是一个多屏幕电视平台，可以帮助媒体公司打造一种完美的个性化观看体验，并从中盈利。
 
-[Primetime 发行说明](http://help.adobe.com/zh_CN/primetime/release_notes/index.html)
-[Primetime 帮助主页](http://help.adobe.com/zh_CN/primetime/)
+[Primetime 发行说明](http://help.adobe.com/en_US/primetime/release_notes/index.html)
+[Primetime 帮助主页](http://help.adobe.com/en_US/primetime/)
