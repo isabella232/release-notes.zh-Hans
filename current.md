@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 6 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 382a2936c5294fe04bb65fb0cfa6415175ce1da6
+source-git-commit: 6af4853d00495a347671d31700c969c4d431b9b8
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发布日期：2019 年 6 月 13 日**
 
 * [Adobe Experience Platform](#platform)
-* [分析](#analytics)**(更新日期：2019年月24日)**
+* [分析](#analytics)**(更新日期：2019年月25日)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -45,7 +45,7 @@ Adobe Experience Cloud 的新增功能和修复。
 Adobe Analytics 的新增功能和修复：
 
 * [Adobe Analytics 的新增功能和修复](#aa-features)
-* [Analytics管理员的重要声明](#aa-notices)**(更新于2019年月24日)**
+* [Analytics管理员的重要声明](#aa-notices)**(更新日期：2019年月25日)**
 
 有关产品文档，请参阅 [Analytics 帮助主页](https://marketing.adobe.com/resources/help/en_US/reference/)。
 
@@ -78,7 +78,7 @@ Adobe Analytics 的新增功能和修复：
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- | 
-| 审核日志UI更改 | 添加于 2019 年 6 月 24 日 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>时间戳格式从Unix时间戳更改为ISO8601时间</li><li>审核日志结果现在包含报表包ID而不是报表套件名称。 </li></ul> |
+| 审核日志UI更改 | 更新日期：2019年月25日 | In the API `Logs.GetUsageLog`, the following changes were made to the UI: <ul><li>The response headers in the API were changed: a) from `timestamp` to `dateCreated`, b) from `login` to `companyLogin`, c) from `event_num` to `eventType`, d) from `event_type` to `event_type`, e) from `ip_address` to `ipAddress`, f) from `report_suite` to `rsid`, g) from `event_details` to `logText`. </li><li>时间戳格式从Unix时间戳更改为ISO8601时间</li></ul><br>在API以及管理员日志UI中，审核日志结果现在包含报表包ID而不是报表包名称。 |
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符“包含任意”、“不包含任意”、“包含全部”和“不包含全部”将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]** 的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
