@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 6 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bce30f27c81de2552fca9cce91235f7a649b0d91
+source-git-commit: 1497ca9d05ff219055d8a08c9633bd2eb8bf5477
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发布日期：2019 年 6 月 13 日**
 
 * [Adobe Experience Platform](#platform)
-* [Analytics](#analytics)**（更新日期：2019 年 6 月 27 日）**
+* [Analytics](#analytics)**（更新日期：2019 年 7 月 9 日）**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -45,7 +45,7 @@ Adobe Experience Cloud 的新增功能和修复。
 Adobe Analytics 的新增功能和修复：
 
 * [Adobe Analytics 的新增功能和修复](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)**（更新日期：2019 年 6 月 27 日）**
+* [Analytics管理员的重要声明](#aa-notices)**(更新后，2019年月日)**
 
 有关产品文档，请参阅 [Analytics 帮助主页](https://marketing.adobe.com/resources/help/en_US/reference/)。
 
@@ -79,17 +79,17 @@ Adobe Analytics 的新增功能和修复：
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
 | 数据收集更新 | 添加于 2019 年 6 月 27 日 | All Adobe Analytics cookies with the “same-site-by-default-cookies” flag now have this flag set to `SameSite=None`. |
-| 审核日志UI更改 | 更新日期：2019年月25日 | 在 API `Logs.GetUsageLog` 中，对 UI 进行了以下更改： <ul><li>API 中响应标头的更改如下：a) 从 `timestamp` 更改为 `dateCreated`、b) 从 `login` 更改为 `companyLogin`、c) 从 `event_num` 更改为 `eventType`、d) 从 `event_type` 更改为 `event_type`、e) 从 `ip_address` 更改为 `ipAddress`、f) 从 `report_suite` 更改为 `rsid`、g) 从 `event_details` 更改为 `logText`。 </li><li>时间戳格式从 Unix 时间戳更改为 ISO 8601 时间</li></ul><br>在API以及管理员日志UI中，审核日志结果现在包含报表包ID而不是报表包名称。 |
+| 审核日志 UI 更改 | 更新日期：2019 年 6 月 25 日 | 在 API `Logs.GetUsageLog` 中，对 UI 进行了以下更改： <ul><li>API 中响应标头的更改如下：a) 从 `timestamp` 更改为 `dateCreated`、b) 从 `login` 更改为 `companyLogin`、c) 从 `event_num` 更改为 `eventType`、d) 从 `event_type` 更改为 `event_type`、e) 从 `ip_address` 更改为 `ipAddress`、f) 从 `report_suite` 更改为 `rsid`、g) 从 `event_details` 更改为 `logText`。 </li><li>时间戳格式从 Unix 时间戳更改为 ISO 8601 时间</li></ul><br>在 API 及管理日志 UI 中，审核日志结果现在包含报表包 ID 而不是报表包名称。 |
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符“包含任意”、“不包含任意”、“包含全部”和“不包含全部”将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]** 的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
-| 即将更改 _报表总数_ 计算 | 更新日期：2019 年 5 月 2 日 | 在 **2019 年 6 月 13 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 13 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，在进行此项更改之后，对于某些维度，使用 _存在_ 或 _不存在_ 逻辑的区段可能会显示不同结果。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
+| 即将更改 _报表总数_ 计算 | 更新日期：2019年月日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 18 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. 此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
 | 更新从 [!DNL Analysis Workspace] 下载 CSV 时的操作 | 2019 年 4 月 10 日 | 从 2019 年 4 月 11 日开始，已对 [!DNL Analysis Workspace] 中的 **[!UICONTROL CSV 下载]** （和 **[!UICONTROL 复制到剪切板]**）进行了一些更改，以删除导出数据中的格式。  <ul><li>千位分隔符将不再包含在内。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]** 下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
 | 即将更改 [!DNL Analysis Workspace] 调试器命令 | 2019 年 4 月 4 日 | 自 **2019 年 6 月 13 日** 起，用于开启 [!DNL Analysis Workspace] 调试器的控制台命令将变为 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
 | 终止 [!DNL Ad Hoc Analysis] 的生命周期 | 2019 年 1 月 29 日 | 2018 年 8 月 6 日，Adobe 宣布计划终止 [!DNL Ad Hoc Analysis] 的生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
 | 简短 Analytics 报表链接 | 2019 年 1 月 14 日 | 系统将从 2019 年 1 月 17 日星期四开始按照滚动计划表清理和删除任何在一年内未被访问过的简短 Analytics 报表链接。 |
-| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>自 2019 年 2 月 20 日起，Adobe Analytics 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅“更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2”。__ ） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
+| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>自 2019 年 2 月 20 日起，Adobe Analytics 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅 _更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2_。） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
 | 数据馈送：post_product_list 列 - 大小更改 | 2019 年 1 月 9 日 | 2019 年 2 月 7 日，Adobe 将 post_product_list 列的大小从 64 KB 扩展到 16 MB。这项更改可确保在处理过程中添加到 post_product_list 的推销 eVar 值不会导致产品和收入值截断。如果您的流程需要提取 post_product_list 值，请确保这些流程可以处理长度最大为 16 MB 的值，否则系统将按照 16 KB 的长度将该值截断，以避免数据获取失败。 |
 | 影响不活动的 [!DNL Analytics Live Stream] 端点的管理更改 | 2018 年 12 月 20 日 | 从 2019 年 2 月 1 日开始，可能会禁用持续 90 天没有活动客户连接的 [!DNL Live Stream] 端点。您可以联系客户关怀团队查询您的 [!DNL Live Stream] 端点，并在必要时重新启用它们。此外，请确保您的客户进程按照服务设计要求保持持久连接，并在连接断开或中断时实施重新连接。 |
 | 由于对 TLS 1.0 的支持终止而更新 Adobe [!DNL Report Builder] | 2018 年 9 月 7 日 | 由于对 TLS 1.0 的支持即将终止，我们建议 [!DNL Report Builder] 用户在 2019 年 2 月之前下载 v5.6.21 版。在该日期之后，以前版本的 [!DNL Report Builder] 将无法再正常运行。 |
