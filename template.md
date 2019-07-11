@@ -5,12 +5,12 @@ doc-type: 发行说明
 last-update: 2019 年 3 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+source-git-commit: 9bb54a57fa2b905fcc01951c81fd32e6444c8cd6
 
 ---
 
 
-# Adobe Experience Cloud发行说明
+# Adobe Experience Cloud 发行说明
 
 Adobe Experience Cloud 的新增功能和修复。
 
@@ -24,30 +24,30 @@ Adobe Experience Cloud 的新增功能和修复。
 
 **发布日期：2019**
 
-* [Experience Cloud核心服务和管理](#experiencecloud)
-* [Analytics](#analytics)
+* [Experience Cloud 核心服务和管理](#experiencecloud)
+* [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [目标](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (指向解决方案帮助的链接)
-* [Primetime](https://helpx.adobe.com/primetime/user-guide.html) (指向解决方案帮助的链接)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (链接到解决方案帮助)
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (链接到解决方案帮助)
 
-## Experience Cloud核心服务和管理 {#experiencecloud}
+## Experience Cloud 核心服务和管理 {#experiencecloud}
 
-Experience Cloud界面的发行说明，包括 [!UICONTROL 平台] 核心服务和产品管理。
+Experience Cloud 界面的发行说明，其中包括[!UICONTROL 平台]核心服务和产品管理。
 
 * [核心服务](#core-services)
 * [Experience Cloud ID 服务](#ecid)
-* [Mobile Services和Mobile SDK](#mobile)
+* [Mobile Services 和 Mobile SDK](#mobile)
 * [管理和开发人员](#admin)
-* [Launch，by Adobe](https://docs.adobelaunch.com/) (链接到产品帮助)
+* [Experience Cloud Launch](https://docs.adobelaunch.com/) (链接到产品帮助)
 
-### 核心服务 {#core-services}
+### Core services {#core-services}
 
 功能和修复。
 
-有关产品文档，请参阅 [Experience Cloud和核心服务](https://marketing.adobe.com/resources/help/en_US/mcloud/)
+For product documentation, see [Experience Cloud and Core Services](https://marketing.adobe.com/resources/help/en_US/mcloud/)
 
 ### Experience Cloud ID 服务 {#ecid}
 
@@ -55,7 +55,7 @@ Experience Cloud界面的发行说明，包括 [!UICONTROL 平台] 核心服务�
 
 有关产品文档，请参阅 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
-### Mobile Services和Mobile SDK {#mobile}
+### Mobile Services 和 Mobile SDK {#mobile}
 
 **功能**
 
@@ -72,21 +72,21 @@ Experience Cloud界面的发行说明，包括 [!UICONTROL 平台] 核心服务�
 
 有关 Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://marketing.adobe.com/resources/help/en_US/mobile/android/)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)。
 
-### 管理和开发人员 {#admin}
+### Administration and developer {#admin}
 
 功能和修复。
 
 有关产品文档，请参阅 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
-## Analytics {#analytics}
+## [!DNL Analytics] {#analytics}
 
-Adobe Analytics中的新增功能和修复：
+Adobe Analytics 的新增功能和修复：
 
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [适用于 iOS 和 Android 的 Media Analytics SDK （以前称为 VHL SDK）](#aa-va)
-* [Analytics管理员的重要声明](analytics-important-notices.md)
+* [Analytics 管理员的重要注意事项](analytics-important-notices.md)
 
-有关产品文档，请参阅 [Analytics 帮助主页](https://marketing.adobe.com/resources/help/en_US/reference/)。
+For product documentation, see [Adobe Analytics Help Home](https://marketing.adobe.com/resources/help/en_US/reference/).
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
@@ -96,7 +96,7 @@ Adobe Analytics中的新增功能和修复：
 | 功能 B | 文本 |
 | 功能 C | 文本 |
 
-### 适用于 iOS 和 Android 的 Media Analytics SDK （以前称为 VHL SDK）{#aa-va}
+### [!DNL Media Analytics] 适用于iOS和Android的SDK(以前称为VHL SDK) {#aa-va}
 
 | 功能 | 描述 |
 | -----------| ---------- |  
@@ -104,7 +104,7 @@ Adobe Analytics中的新增功能和修复：
 | 功能 B | 文本 |
 | 功能 C | 文本 |
 
-### Data Workbench {#aa-dwb}
+### [!DNL Data Workbench] {#aa-dwb}
 
 请参阅 [Data Workbench 发行说明](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)，以了解最新信息。
 
@@ -131,7 +131,7 @@ Adobe Analytics中的新增功能和修复：
 * Flash-Flex
 * OSX
 * Windows Phone、XBOX、Silverlight 和 .NET
-* BlackBerry
+* [!DNL BlackBerry]
 * Java
 * PHP
 * Symbian
@@ -207,7 +207,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 * 修复了“未定义”错误地
 * 修复了“未定义”错误地
 
-## 社交 {#soc}
+## [!DNL Social] {#soc}
 
 | 功能 | 描述 |
 | -----------| ---------- |  
@@ -222,7 +222,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 * 修复了“未定义”错误地
 * 修复了“未定义”错误地
 
-## Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
