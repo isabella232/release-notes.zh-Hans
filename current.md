@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 91126cc2d75b6c50afe429a1b4313309ab76108a
+source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发行日期：2019 年 7 月 18 日**
 
 * [Experience Cloud 核心服务和管理](#experiencecloud)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics)**(月15日更新)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -84,10 +84,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ## [!DNL Analytics] {#analytics}
 
-* [Adobe Analytics 的新增功能和修复](#aa-features)
+* [Adobe Analytics中的新增功能和修复](#aa-features)**(月15日更新)**
 * [Analytics 管理员的重要注意事项](#aa-notices)
 
-### 中的新功能：[!DNL Analytics]{#aa-features}
+###  中的新功能：[!DNL Analytics]{#aa-features}
 
 有关产品文档，请参阅 [Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
@@ -95,7 +95,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | -----------| ---------- |   
 | Analysis Workspace-群组分析增强功能 | 新增了“群组分析”设置： <ul><li>仅显示%</li><li>四舍五入到最近的整个整数</li><li>在顶部显示平均行</li></ul> |
 | Analysis Workspace | In the left rail, users now have the option to _Show items from last 18 months_. 以前，查看期最长为个月。这样，您可以比18个月前的最后一年中的页面或营销活动更轻松地进行比较。 |
-| Analytics 数据馈送 | Users can now see the history for all feeds that are enabled with the _Make Feed Visible to Customer_ flag. |
+| 新的Analysis Workspace模板 | 我们添加了一个名为“杂志：营销和商务”到Analysis Workspace。它专为杂志电子商务客户设计，但任何零售商都可使用它获得有关其商务活动的独特洞察。 |
 
 #### [!DNL Analysis Workspace] 修复
 
@@ -103,9 +103,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 * 修复了可视化错误的问题-当出现可视化错误时，我们现在显示红色错误栏。(AN-175542)
 * 修复了在本地化环境中维度名称显示为英语的问题。(AN-178695)
 
-#### [!DNL Reports & Analytics] 修复
+#### [!DNL Analytics] 修复
 
 * 修复了导致实时向下钻取报告中折线图为空的问题。(AN-181690)
+* 修复了在某些情况下，数据馈送历史记录的部分未在Admin Console UI中显示的问题。(AN-176219)
 
 ### [!DNL Analytics] 管理员的重要注意事项{#aa-notices}
 
