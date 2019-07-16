@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 19b6c0547d06a3ec5887f6fd17bcd662528844ca
+source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
 
 ---
 
@@ -62,13 +62,13 @@ iOS和Android更新如下：
 
 * Adobe Target: All requests now include the client and the `sessionId` in the URL query parameters.
 * Adobe Target：修复了内存泄漏。
-* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. 此问题已修复。
+* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. 双编码导致这些API中的返回值被某些安全审阅标记。
 
 **Android**
 
 * 目标：所有请求现在都包括客户端和URL查询参数中的sessionID。
-* 修复了一个问题，该问题导致当消息用空点进URL触发时，Android应用程序崩溃。
-* The double encoding of the visitor ID URL, which contains characters such as _%25_, was being flagged in security reviews. 此问题已修复。
+* 应用程序内消息传递：修复了一个问题，该问题导致当消息用空点进URL触发时，Android应用程序崩溃。
+* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. 双编码导致这些API中的返回值被某些安全审阅标记。
 
 有关产品文档，请参阅 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
 
