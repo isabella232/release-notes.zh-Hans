@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b4a91b853cfb5d228fc2195d65b4370e607475f2
+source-git-commit: 9d10de6924f3c40435d172602746f312195a675e
 
 ---
 
@@ -114,10 +114,10 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | -----------| ---------- | ---------- |
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符“包含任意”、“不包含任意”、“包含全部”和“不包含全部”将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
-| 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]** 的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
-| 即将更改 _报表总数_ 计算 | 更新日期：2019年月日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 18 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the &quot;Typed/Bookmarked&quot; line item for Referrer Type dimension or the &quot;Other&quot; line item for the Device Type dimension. 此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
-| 更新从 [!DNL Analysis Workspace] 下载 CSV 时的操作 | 2019 年 4 月 10 日 | 从 2019 年 4 月 11 日开始，已对 [!DNL Analysis Workspace] 中的 **[!UICONTROL CSV 下载]** （和 **[!UICONTORL 复制到剪切板]**）进行了一些更改，以删除导出数据中的格式。  <ul><li>千位分隔符将不再包含在内。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]** 下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
-| 即将更改 [!DNL Analysis Workspace] 调试器命令 | 2019 年 4 月 4 日 | 自 **2019 年 6 月 13 日** 起，用于开启 [!DNL Analysis Workspace] 调试器的控制台命令将变为 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
+| 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]**&#x200B;的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
+| 即将更改 _报表总数_ 计算 | 更新日期：2019年月日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 18 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。Additionally, segments using _exists_ or _does not exist_ logic may see different results for some dimensions after this change, specifically dimensions where _Unspecified_ has a special name such as the "Typed/Bookmarked" line item for Referrer Type dimension or the "Other" line item for the Device Type dimension. 此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
+| 更新从 [!DNL Analysis Workspace] 下载 CSV 时的操作 | 2019 年 4 月 10 日 | 从 2019 年 4 月 11 日开始，已对 [!DNL Analysis Workspace] 中的 **[!UICONTROL CSV 下载]** （和 **[!UICONTORL 复制到剪切板]**）进行了一些更改，以删除导出数据中的格式。  <ul><li>千位分隔符将不再包含在内。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]**&#x200B;下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
+| 即将更改 [!DNL Analysis Workspace] 调试器命令 | 2019 年 4 月 4 日 | 自 **2019 年 6 月 13 日**&#x200B;起，用于开启 [!DNL Analysis Workspace] 调试器的控制台命令将变为 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
 | 终止 [!DNL Ad Hoc Analysis] 的生命周期 | 2019 年 1 月 29 日 | 2018 年 8 月 6 日，Adobe 宣布计划终止 [!DNL Ad Hoc Analysis] 的生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
 | Short [!DNL Analytics] report links | 2019 年 1 月 14 日 | Any short [!DNL Analytics] report links that have not been visited within one year will be cleaned up and deleted starting on Thursday, January 17, 2019, on a rolling schedule. |
@@ -128,12 +128,12 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ### AppMeasurement {#appm}
 
-发布日期：2019年月15日
+2019 年 7 月 15 日发行:
 
-**JavaScript 2.15.0**
+**AppMeasurement for JavaScript2.15.0**
 
-* 将DIL7.2添加到AppMeasuremMet。(AN-175142)
-* 修复了Experience Cloud ID Service optin设置为true且未在s. t()调用上生成MID而无需重新加载页面的问题。(CORE-30890)
+* 为活动地图扩展添加了活动地图滚动范围跟踪(AN-172949)
+* 为AppMeasurement添加了DIL9.2。(AN-182472)
 
 请参阅 [AppMeasurement 版本历史](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，了解下列平台上 AppMeasurement 的版本更新历史：
 
@@ -159,7 +159,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 **修复和增强功能**
 
 * [!UICONTROL 在区段概述] 页面上，区段存储文件夹的宽度现在是灵活的。这允许您区分具有较长名称的区段。(AAM-48400)
-* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model&#39;s reach or accuracy. (AAM-47996)
+* Fixed an issue in [!UICONTROL Algorithmic Models], where moving the **Adjust Reach &amp; Accuracy** slider did not affect the model's reach or accuracy. (AAM-47996)
 * 修复了Analytics目标中的一个问题，该问题导致按钮下载与数据导出控件和/或第三方数据共享策略冲突的区段的. csv文件已断开。(AAM-48100)
 * 修复了客户在登录Audience Manager用户界面时看到随机“访问被拒绝”错误的问题。(AAM-47632)
 
