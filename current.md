@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2010152649fccb8997913f52b6d43e11c3a5d18e
+source-git-commit: e8470127c1cd343637d61bc0ac6bdd26339a8e2c
 
 ---
 
@@ -93,7 +93,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 | 组件 | 描述 |
 | -----------| ---------- |   
-| Analysis Workspace – 阶层分析增强功能 | 为阶层分析新增以下设置： <ul><li>仅显示 %</li><li>将 % 四舍五入到最近的整数</li><li>在顶部显示 Avg % 行</li></ul> |
+| Analysis Workspace – 阶层分析增强功能 | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>仅显示百分比</li><li>四舍五入到最近的整个整数</li><li>显示平均百分比行</li></ul> |
 | Analysis Workspace | 在左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。以前，回看周期最长为 6 个月。这样，用户就可以更轻松地比较去年（最长 18 个月前）的页面或营销活动。 |
 | 新的 Analysis Workspace 模板 | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. 它专为 Magento 电子商务客户设计，不过任何零售商都可使用它来获得有关其商务活动的独特洞察。 |
 
