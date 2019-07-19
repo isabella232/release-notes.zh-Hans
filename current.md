@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 50a8aaf58413337e4aa0478e5505f8ea9d8edd36
+source-git-commit: c45b9f49e0732e52b01677c0acb8e6b12d155e77
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发行日期：2019 年 7 月 18 日**
 
 * [Experience Cloud 核心服务和管理](#experiencecloud)
-* [!DNL Analytics](#analytics)  **（更新日期：7 月 15 日）**
+* [!DNL Analytics](#analytics) - **(月15日更新)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -58,13 +58,13 @@ iOS 和 Android 更新如下：
 
 * Adobe Target：现在所有请求都包含客户端和 URL 查询参数中的 `sessionId`。
 * Adobe Target：修复了一个内存泄漏问题。
-* Visitor ID Service: The `visitorAppendToURL` and `visitorGetUrlVariablesAsync` APIs no longer double-encode their return values. 双编码导致这些API中的返回值被某些安全审阅标记。
+* 访客 ID 服务：`visitorAppendToURL` 和 `visitorGetUrlVariablesAsync` API 不再对其返回值进行双重编码。双重编码会导致来自这些 API 中的返回值被某些安全审阅添加标记。
 
 **Android**
 
 * Target：现在所有请求都包含客户端和 URL 查询参数中的 sessionId。
-* 应用程序内消息传递：修复了一个问题，该问题导致当消息用空点进URL触发时，Android应用程序崩溃。
-* Visitor ID Service: The `Visitor.appendToURL` and `Visitor.getUrlVariablesAsync` APIs no longer double-encode their return values. 双编码导致这些API中的返回值被某些安全审阅标记。
+* 应用程序内消息传递：修复了如下问题：如果通过空的点击链接 URL 触发消息，则 Android 应用程序就会崩溃。
+* 访客 ID 服务：`Visitor.appendToURL` 和 `Visitor.getUrlVariablesAsync` API 不再对其返回值进行双重编码。双重编码会导致来自这些 API 中的返回值被某些安全审阅添加标记。
 
 有关产品文档，请参阅 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
 
@@ -124,12 +124,12 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ### AppMeasurement {#appm}
 
-2019 年 7 月 15 日发行:
+2019 年 7 月 15 日发行：
 
-**AppMeasurement for JavaScript2.15.0**
+**AppMeasurement for JavaScript 2.15.0**
 
-* 为活动地图扩展添加了活动地图滚动范围跟踪(AN-172949)
-* 为AppMeasurement添加了DIL9.2。(AN-182472)
+* 为 Activity Map 扩展添加了 Activity Map 滚动范围跟踪 (AN-172949)
+* 向 AppMeasurement 中添加了 DIL 9.2。(AN-182472)
 
 请参阅 [AppMeasurement 版本历史](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，了解下列平台上 AppMeasurement 的版本更新历史：
 
