@@ -4,7 +4,7 @@ description: Experience Cloud 2019 年 7 月版发行说明
 doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 700dc5c07df31cf744588cd79f6d51c05234c0a0
 
 ---
@@ -21,7 +21,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发行日期：2019 年 7 月 18 日**
 
 * [Experience Cloud 核心服务和管理](#experiencecloud)
-* [!DNL Analytics](#analytics) - **(月15日更新)**
+* [!DNL Analytics](#analytics) - **(更新日期：7 月 15 日)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -48,7 +48,7 @@ Experience Cloud 界面的发行说明，其中包括[!UICONTROL 平台]核心�
 * 可选更新：添加了 `optIn.off`，用于取消订阅活动。
 * 修复了一个与 `setTimeout` 函数相关的问题。(CORE-30623)
 
-See [Experience Cloud ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) for cumulative release notes.
+有关累积发行说明，请参阅 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-release-notes.html)。
 
 ### Mobile Services 和 Mobile SDK {#mobile}
 
@@ -68,15 +68,15 @@ iOS 和 Android 更新如下：
 
 有关产品文档，请参阅 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
 
-有关 Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+有关 Mobile SDK 的更多信息，请参阅：[适用于 Experience 解决方案的 Android SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
 
 ### Experience Platform Launch {#launch}
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) (links to product help) for release notes and product documentation.
+有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)（产品帮助链接）。
 
 ### 安全公告和通知{#security}
 
-See [Security bulletins and advisories](https://helpx.adobe.com/security.html) for important information regarding security vulnerabilities that could affect specific versions of Adobe products.
+有关可能影响 Adobe 产品特定版本的安全漏洞的重要信息，请参阅[安全公告和通知](https://helpx.adobe.com/cn/security.html)。
 
 ## [!DNL Analytics] {#analytics}
 
@@ -89,9 +89,9 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 | 组件 | 描述 |
 | -----------| ---------- |   
-| Analysis Workspace – 阶层分析增强功能 | New [Cohort Analysis settings](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html) have been added: <ul><li>仅显示百分比</li><li>四舍五入到最近的整个整数</li><li>显示平均百分比行</li></ul> |
+| Analysis Workspace – 阶层分析增强功能 | 新增了[同类群组分析设置](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.html)： <ul><li>仅显示百分比</li><li>将百分比四舍五入到最接近的整数</li><li>显示平均百分比行</li></ul> |
 | Analysis Workspace | 在左边栏中，用户现在可以选择&#x200B;_显示过去 18 个月内的项目_。以前，回看周期最长为 6 个月。这样，用户就可以更轻松地比较去年（最长 18 个月前）的页面或营销活动。 |
-| 新的 Analysis Workspace 模板 | We added a new template called ["Magento: Marketing &amp; Commerce"](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html) to Analysis Workspace. 它专为 Magento 电子商务客户设计，不过任何零售商都可使用它来获得有关其商务活动的独特洞察。 |
+| 新的 Analysis Workspace 模板 | 我们在 Analysis Workspace 中新增了一个名为[“Magento：营销和商务”](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)的模板。它专为 Magento 电子商务客户设计，不过任何零售商都可使用它来获得有关其商务活动的独特洞察。 |
 
 #### [!DNL Analysis Workspace] 修复
 
@@ -108,7 +108,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html). |
+| 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | 这些不是新限制，但已添加到[此处](https://marketing.adobe.com/resources/help/zh_CN/reference/classification_rule_builder.html)的文档。 |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符“包含任意”、“不包含任意”、“包含全部”和“不包含全部”将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]**&#x200B;的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
 | 即将更改 _报表总数_ 计算 | 更新日期：2019 年 7 月 9 日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 18 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，进行此项更改之后，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;逻辑的区段，对于不同的维度可能会看到不同的结果，尤其是其中的&#x200B;_未指定_&#x200B;具有特殊名称（如推荐人类型维度的“已键入/已添加书签”行项目或设备类型维度的“其他”行项目）的维度。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
@@ -117,7 +117,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
 | 终止 [!DNL Ad Hoc Analysis] 的生命周期 | 2019 年 1 月 29 日 | 2018 年 8 月 6 日，Adobe 宣布计划终止 [!DNL Ad Hoc Analysis] 的生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间将兼容的 Java 版本），请访问[探索工作区](https://adobe.ly/discoverworkspace)。 |
 | 简短 [!DNL Analytics] 报表链接 | 2019 年 1 月 14 日 | 系统已从 2019 年 1 月 17 日星期四起开始按照滚动计划表清理和删除任何在一年内未被访问过的简短 [!DNL Analytics] 报表链接。 |
-| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html).<br/>[!DNL Analytics]自 2019 年 2 月 20 日起，Adobe 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅 _更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2_。） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
+| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。如果您在 2019 年 2 月 11 日后无法连接 Adobe Analytics 报表，则应将您的浏览器升级到[最新版本](https://marketing.adobe.com/resources/help/zh_CN/sc/user/requirements.html)。<br/>[!DNL Analytics]自 2019 年 2 月 20 日起，Adobe 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅&#x200B;_更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2_。） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
 | 数据馈送：post_product_list 列 - 大小更改 | 2019 年 1 月 9 日 | 2019 年 2 月 7 日，Adobe 将 post_product_list 列的大小从 64 KB 扩展到 16 MB。这项更改可确保在处理过程中添加到 post_product_list 的推销 eVar 值不会导致产品和收入值截断。如果您的流程需要提取 post_product_list 值，请确保这些流程可以处理长度最大为 16 MB 的值，否则系统将按照 16 KB 的长度将该值截断，以避免数据获取失败。 |
 | 影响不活动的 [!DNL Analytics Live Stream] 端点的管理更改 | 2018 年 12 月 20 日 | 从 2019 年 2 月 1 日开始，可能会禁用持续 90 天没有活动客户连接的 [!DNL Live Stream] 端点。您可以联系客户关怀团队查询您的 [!DNL Live Stream] 端点，并在必要时重新启用它们。此外，请确保您的客户进程按照服务设计要求保持持久连接，并在连接断开或中断时实施重新连接。 |
 | 由于对 TLS 1.0 的支持终止而更新 Adobe [!DNL Report Builder] | 2018 年 9 月 7 日 | 由于对 TLS 1.0 的支持即将终止，我们建议 [!DNL Report Builder] 用户在 2019 年 2 月之前下载 v5.6.21 版。在该日期之后，以前版本的 [!DNL Report Builder] 将无法再正常运行。 |
@@ -131,7 +131,7 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 * 为 Activity Map 扩展添加了 Activity Map 滚动范围跟踪 (AN-172949)
 * 向 AppMeasurement 中添加了 DIL 9.2。(AN-182472)
 
-请参阅 [AppMeasurement 版本历史](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，了解下列平台上 AppMeasurement 的版本更新历史：
+有关 AppMeasurement 在以下平台上的发布历史记录，请参阅 [AppMeasurement 发布历史记录](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)：
 
 * JavaScript
 * iOS
@@ -146,9 +146,9 @@ See [Security bulletins and advisories](https://helpx.adobe.com/security.html) f
 
 ### Data Workbench {#aa-dwb}
 
-* Updated the help definition for [log (X, B)](https://marketing.adobe.com/resources/help/en_US/insight/client/c_syntx_mtrc_exp.html) metric syntax documentation. (AN-180527)
+* 更新了适用于 [log (X, B)](https://marketing.adobe.com/resources/help/zh_CN/insight/client/c_syntx_mtrc_exp.html) 度量语法文档的帮助定义。(AN-180527)
 
-请参阅 [Data Workbench 发行说明](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)，以了解最新信息。
+有关最新信息，请参阅 [Data Workbench 发行说明](https://marketing.adobe.com/resources/help/zh_CN/insight/whatsnew/)。
 
 ## Audience Manager {#aam}
 
@@ -169,7 +169,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 #### Cloud Manager 2019.6.0
 
-The latest Cloud Manager release (2019.6.0) contains a new [Product Update Wizard](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/product-update-wizard/overview-productupdate-wizard.html) to help customers successfully run an AEM update.
+最新的 Cloud Manager 版本（2019.6.0）包含一个新的[产品更新向导](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/product-update-wizard/overview-productupdate-wizard.html)，可帮助客户成功运行 AEM 更新。
 
 * [Cloud Manager 2019.6.0 发行说明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 
@@ -218,45 +218,45 @@ XML 文档 3.4 解决方案现已可用。
 
 发布于 2019 年 6 月 6 日的 AEM 6.2 Service Pack 1–Cumulative Fix Pack 20 (6.2.1.20) 是一项重要更新，其中包括自 2016 年 12 月推出 AEM 6.2 SP1 通用版本以来发布的多项关键客户修复。
 
-* [发行说明](https://helpx.adobe.com/experience-manager/release-notes--aem-6-2-cumulative-fix-pack.html)
-* [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* [发行说明](https://helpx.adobe.com/cn/experience-manager/release-notes--aem-6-2-cumulative-fix-pack.html)
+* [AEM Forms CFP 版本](https://helpx.adobe.com/cn/aem-forms/kb/aem-forms-releases.html)
 
 **AEM 6.3.3.5**
 
 发布于 2019 年 7 月 3 日的 AEM 6.3.3.5 是一项重要更新，其中包括自 2017 年 4 月推出的 AEM 6.3 通用版本以来发布的多项关键客户修复。
 
-* [发行说明](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html)
-* [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* [发行说明](https://helpx.adobe.com/cn/experience-manager/6-3/release-notes/sp3-release-notes.html)
+* [AEM Forms CFP 版本](https://helpx.adobe.com/cn/aem-forms/kb/aem-forms-releases.html)
 
 **AEM 6.4.5.0**
 
 发布于 2019 年 7 月 3 日的 AEM 6.4.5.0 是一项重要更新，其中包括自 2018 年 4 月推出 AEM 6.4 通用版本以来发布的多项关键客户修复。
 
-* [发行说明](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
-* [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* [发行说明](https://helpx.adobe.com/cn/experience-manager/6-4/release-notes/sp-release-notes.html)
+* [AEM Forms CFP 版本](https://helpx.adobe.com/cn/aem-forms/kb/aem-forms-releases.html)
 
 **AEM 6.5.1.0**
 
 发布于 2019 年 7 月 3 日的 AEM 6.5.1.0 是一项重要更新，其中包括自 2019 年 4 月推出 AEM 6.5 通用版本以来发布的多项关键客户修复。
 
-* [发行说明](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
-* [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+* [发行说明](https://helpx.adobe.com/cn/experience-manager/6-5/release-notes/sp-release-notes.html)
+* [AEM Forms CFP 版本](https://helpx.adobe.com/cn/aem-forms/kb/aem-forms-releases.html)
 
 ### 自助
 
 **AEM 缓存失效更新**
 
-[AEM6.5.1.0更新](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html) 或此 [知识库文章可提供AEM6.5clientlibs缓存失效初始化的重要AEM修补](https://helpx.adobe.com/experience-manager/kb/avoid-crx-quickstart-deletion-in-aem-6-5.html)程序。
+适用于 AEM 6.5 clientlibs 缓存失效的重要 AEM 修补程序可通过 [AEM 6.5.1.0 更新](https://helpx.adobe.com/cn/experience-manager/6-5/release-notes/sp-release-notes.html)或此 [KB 文章](https://helpx.adobe.com/cn/experience-manager/kb/avoid-crx-quickstart-deletion-in-aem-6-5.html)获取。
 
 ### 其他资源
 
-* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [更早版本的 AEM 文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Scene7 发布系统发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [AEM 6.5 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-5.html)
+* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
+* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
+* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
+* [旧版 AEM 文档](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System 发行说明](https://marketing.adobe.com/resources/help/zh_CN/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
@@ -265,23 +265,23 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 有关发行说明，请参阅：
 
-* Adobe Campaign Classic [19.1.2](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – build 9029
+* Adobe Campaign Classic [19.1.2](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - 版本号 9029
 * Adobe Campaign Standard [19.2.3](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-3---june-2019)
 * Adobe Campaign Standard [19.2.4](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-4---june-2019)
 * Adobe Campaign Standard [19.2.7](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-19-2-7---july-2019)
 
 有关产品文档，请参阅：
 
-* Adobe Campaign Standard：[文档](https://helpx.adobe.com/support/campaign/standard.html) - [发行说明](https://helpx.adobe.com/campaign/standard/rn/using/release-notes.html) - [专题视频](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
-* Adobe Campaign Classic：[文档](https://helpx.adobe.com/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [专题视频](https://helpx.adobe.com/campaign/kt/acc/index/acc-videos.html)
+* Adobe Campaign Standard：[文档](https://helpx.adobe.com/cn/support/campaign/standard.html) - [发行说明](https://helpx.adobe.com/cn/campaign/standard/rn/using/release-notes.html) - [功能视频](https://helpx.adobe.com/cn/campaign/kt/acs/index/acs-videos.html)
+* Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [功能视频](https://helpx.adobe.com/cn/campaign/kt/acc/index/acc-videos.html)
 
 ## [!DNL Target] {#target}
 
-See [Target release notes (pre-release)](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) for the latest release information about Target.
+有关 Target 最新发布信息，请参阅 [Target 发行说明（预发布）](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)。
 
 ## Magento {#magento}
 
 有关 Magento Commerce 和 Magento Open Source 发行说明的信息，请参阅：
 
-* [Magento Open Source2.3.2发行说明](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2OpenSource.html)
-* [Magento Commerce2.3.2发行说明](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html)
+* [Magento Open Source 2.3.2 发行说明](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2OpenSource.html)
+* [Magento Commerce 2.3.2 发行说明](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.2Commerce.html)
