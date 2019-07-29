@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 7 月
 author: mfrei
 translation-type: ht
-source-git-commit: 41b4cbb1b93fe857c80cebd631a785e234e2ce07
+source-git-commit: dd7674ce4a4dbac46ee7238ef3798513c3bd6ab4
 
 ---
 
@@ -128,7 +128,10 @@ iOS 和 Android 更新如下：
 
 **AppMeasurement for JavaScript 2.15.0**
 
-* 为 Activity Map 扩展添加了 Activity Map 滚动范围跟踪 (AN-172949)
+* 为 Activity Map 扩展添加了 Activity Map 滚动范围跟踪 (AN-172949)。
+>[!NOTE]
+>
+>此功能将作为未来更新 Activity Map 的先决条件发布。在发布其他这些组件之前，此功能可能没有价值。
 * 向 AppMeasurement 中添加了 DIL 9.2。(AN-182472)
 
 有关 AppMeasurement 在以下平台上的发布历史记录，请参阅 [AppMeasurement 发布历史记录](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)：
