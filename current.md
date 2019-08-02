@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 626b6b170539ebe54c86f17eec0593bd2decd4e5
+source-git-commit: b3fa98427b027218e9600cb4c5e10dd2ba880f89
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * 修复了Experience Cloud登录中导致某些用户退出会话的关键问题。(MCUI-6908)
 * 更新了Experience Cloud登录，以提高性能并减少滞后时间。(MQUI-6854、MUI-6869、MQUI-6883)
 * 界面已更新。(MUI-6861、MUI-6911、MQUI-6862)
-* Fixed an issue with Experience Cloud [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
+* 修复了Experience Cloud [!UICONTROL 触发器] 存在的一个问题，该问题导致触发器定义中 _对Like_ 子句 [!UICONTROL 的解释] 有误。(MCUI-6611)
 
 For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
 
@@ -78,7 +78,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
-| 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | Starting on July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. 这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
+| 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | Starting July 18, 2019, the segment operators _contains any of_, _does not contain any of_, _contains all of_ and _does not contain all_ of will be limited to 100 words per input field. 这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]**&#x200B;的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
 | 即将更改 _报表总数_ 计算 | 更新日期：2019 年 7 月 9 日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 将以一致的方式处理所有维度和量度中的 _报表总数_ 计算。这将导致某些报表（通常为 Prop 或客户属性报表）的总数发生更改。在进行此项更改之前，无论 _未指定_ 是否显示在报表中，某些报表总数都会不一致地在总数中包含或排除 _未指定_ 行项目。<br/>自 2019 年 6 月 18 日开始， _未指定_ 将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，进行此项更改之后，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;逻辑的区段，对于不同的维度可能会看到不同的结果，尤其是其中的&#x200B;_未指定_&#x200B;具有特殊名称（如推荐人类型维度的“已键入/已添加书签”行项目或设备类型维度的“其他”行项目）的维度。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
 | 更新从 [!DNL Analysis Workspace] 下载 CSV 时的操作 | 2019 年 4 月 10 日 | 从 2019 年 4 月 11 日开始，已对 [!DNL Analysis Workspace] 中的 **[!UICONTROL CSV 下载]** （和 **[!UICONTORL 复制到剪切板]**）进行了一些更改，以删除导出数据中的格式。  <ul><li>千位分隔符将不再包含在内。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]**&#x200B;下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
@@ -97,7 +97,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| `sendBeacon` 支持退出链接 | Implemented `sendBeacon` support in [!UICONTROL AppMeasurement] for exit links. 这将改进退出链接跟踪，并可能会增加流量。 |
+| `sendBeacon` 支持退出链接 | 为 `sendBeacon` 退出链接实施 [!UICONTROL AppMeasurement] 支持。这将改进退出链接跟踪，并可能会增加流量。 |
 | EID/fid值 | 即使optin设置更改，EID/fid值现在第一次点击时缓存。 |
 | DIL 9.3 | 将受众管理模块更新到DIL9.3 |
 | 滚动到达跟踪 | s. activityMap. trackScrollAccess中的暴露开关可打开或关闭滚动到达跟踪。 |
@@ -140,8 +140,8 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| 外部API活动(公共测试版) | 为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。此功能目前处于公共测试版中。For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html). |
-| 工作流区段报告 | 此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。For more information, refer to the [detailed documentation](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) and the [how-to video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html). |
+| 外部API活动(公共测试版) | 为实现更深入的个性化，外部API活动允许您通过REST API调用将外部系统中的数据引入工作流。REST端点可以是客户管理系统、Adobe I/Runtime或Adobe Experience Cloud REST端点(例如，Data Platform、Target、Analytics、Campaign)。此功能目前处于公共测试版中。有关详细信息，请参阅 [详细的文档](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) 和 [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html)。 |
+| 工作流区段报告 | 此功能允许营销人员按细分代码细分投放绩效。创建工作流并使用分段活动将区段分配给交付人群时，这些区段现在可以进入相同的交付。这允许您在单个分发中显示基于多个区段的打开/单击统计数据。有关详细信息，请参阅 [详细的文档](https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/customizing-reports/creating-a-report-workflow-segment.html) 和 [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html)。 |
 
 ### Adobe Campaign Classic
 
@@ -151,7 +151,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 [新的控制面板功能](https://helpx.adobe.com/campaign/kb/control-panel-instance-settings.html) 包括添加Campaign Classic连接用于数据/文件传输的URL的功能。
 
-Please note that [!UICONTROL Control Panel] is available for both Adobe Campaign Classic and Adobe Campaign Standard customers hosted on AWS. 访问控制面板无需升级。
+请注意 [!UICONTROL ，控制面板] 可用于AWS上托管的Adobe Campaign Classic和Adobe Campaign Standard客户。访问控制面板无需升级。
 
 ### 其他资源
 
