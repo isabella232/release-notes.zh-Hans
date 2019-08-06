@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 09b88aee612dfb84e3810d1f75da703d3d4c233d
+source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
 
 ---
 
@@ -78,6 +78,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
+| 支持历史时区偏移 | 2019年月日 | Analytics现在将自动处理时区偏移，以获得时间戳。在月日发生此更改之后，历史处理数据载入的系统将不再需要调整时区偏移，然后发送数据。 |
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符&#x200B;_包含任意_、_不包含任意_、_包含全部_&#x200B;和&#x200B;_不包含全部_&#x200B;将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 即将更改对 **[!UICONTROL 启用日期]** 和 **[!UICONTROL 数字 2 分类]**&#x200B;的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改将随 2019 年 6 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
