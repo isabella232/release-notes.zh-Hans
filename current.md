@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7a65c16ecebddc5baacefd675d0015af65ef1060
+source-git-commit: 6e1d9c4b083968fe1632d1309900058c90206fe1
 
 ---
 
@@ -68,7 +68,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | -----------| ---------- |  
 | 支持 SameSite cookie 设置 | [SaveSite cookie设置](https://web.dev/samesite-cookies-explained) 将被Analytics添加到所有cookies设置。此更改使您能够符合需要 SameSite cookie 字段的 Chrome 更改要求。Analytics cookie将默认为 `none`。如果您专门使用了第一方域(例如stats.domain.com)，则可以让Adobe `lax` ClientCare将其设置为第一方集合域。 |
 | 工作区：将下拉筛选器的项目限制从 50 提高至 200 | 我们将可放置在下拉筛选器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
-| 为A4T指标启用归因IQ | 我们为Attribution IQ启用了两个Analytics for Target(A4T)指标：活动印象和活动转化。在Analysis Workspace中，与Reports&amp; Analytics相比，这些指标已膨胀。通过此更改，用户现在可以应用“相同触摸”归因模型，这将使Analysis Workspace与Reports&amp; Analytics保持一致。 |
+| 为归因IQ启用A4T活动印象和活动转换 | 我们为Attribution IQ启用了两个Analytics for Target(A4T)指标：活动印象和活动转化。在Analysis Workspace中，与Reports&amp; Analytics相比，这些指标已膨胀。通过此更改，用户现在可以应用“相同触控”归因模型，这将使Analysis Workspace与Reports&amp; Analytics保持一致。 |
 
 #### 修复
 
