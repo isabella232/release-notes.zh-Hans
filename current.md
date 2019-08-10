@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f63c0117090ec65a989b298bc555e4028fc3e5ad
+source-git-commit: 1e8bca79345949fe99903857eb24771d8a9d9f98
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [!DNL Campaign](#ac)
-* [!DNL Ad Cloud](# ad cloud)
+* [!DNL Ad Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (链接到解决方案帮助)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (链接到解决方案帮助)
 
