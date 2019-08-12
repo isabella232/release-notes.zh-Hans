@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e8bca79345949fe99903857eb24771d8a9d9f98
+source-git-commit: 4c069f031b48a2e1eccecc09e21e2a202da874b1
 
 ---
 
@@ -23,6 +23,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Experience Platform 和管理](#platform)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
+* [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Ad Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (链接到解决方案帮助)
@@ -128,6 +129,25 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * 您现在可以调整特征文件夹列表的大小 (AAM-48800)。
 * 多 UI 可访问性优化（AAM-48865 和 AAM-48933）。
 * 管理和数据源页面的加载优化 (AAM-48514)。
+
+## Experience Manager {#aem}
+
+Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
+
+### 产品停产
+
+Digital Publishing Suite Classic(DPCSC)将于2019年月31日终止。有关更多信息，请参阅 [Digital Publishing Suite Classic最终生命问题常见问题](https://helpx.adobe.com/digital-publishing-suite/help/eol-statement-for-dpsc.html)解答。
+
+### 其他资源
+
+* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [更早版本的 AEM 文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Scene7 发布系统发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
 
