@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1483a7a90f2f3ab00cc471081631cb737f324a6b
+source-git-commit: 8ec590d7cbf63b67cfaf869f54c3707dbb5c2e83
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 **发行日期：2019 年 8 月 8 日**
 
-* [Experience Platform 和管理](#platform)
+* [Experience Cloud和Experience Platform](#platform)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -29,7 +29,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (链接到解决方案帮助)
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (链接到解决方案帮助)
 
-## [!UICONTROL Experience Platform] 和管理 {#platform}
+## [!DNL Experience Cloud] 并且 [!DNL Experience Platform]{#platform}
 
 [!UICONTROL Experience Platform]、Experience Cloud 界面、产品管理、Experience Platform Launch、Identity Service 和安全公告的发行说明。
 
