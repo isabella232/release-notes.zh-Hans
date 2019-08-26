@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c4e89f21b3cd1231592f962bf5abfca49571f943
+source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Experience Cloud 的新增功能和修复。
 **发行日期：2019 年 8 月 8 日**
 
 * [Experience Cloud 和 Experience Platform](#platform)
-* [!DNL Analytics](#analytics)（**更新日期：2019 年 8 月 20 日**）
+* [!DNL Analytics](#analytics)（**更新日期：2019 年 8 月 23 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -56,7 +56,7 @@ Adobe Analytics 中的新增功能和修复：
 
 * [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)（**更新日期：2019 年 8 月 20 日**）
 * [Analytics 管理员的重要注意事项](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm)（**更新日期：2019 年 8 月 23 日**）
 
 For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
 
@@ -96,7 +96,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 ### AppMeasurement {#appm}
 
-2019 年 8 月 8 日的 [!UICONTROL AppMeasurement] 2.16.0 发行版。
+[!UICONTROL AppMeasurement] 2.17.0(于2019年月23日发布)。
+
+| 功能/修复 | 描述 |
+| -----------| ---------- |
+| 添加了Baidu支持 | 增加了对Baidu查询字符串重新排序的支持。 |
+| 修复 | 修复了一个问题，该问题导致在等待选择加入时，在排队排队的点击中存在陈旧的访客值。 |
+
+[!UICONTROL AppMeasurement] 2.16.0(于2019年月日发布)。
 
 | 功能 | 描述 |
 | -----------| ---------- |
