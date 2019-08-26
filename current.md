@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 8 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71a796a132a752b69a10b9ac9cce3530b7d02b27
+source-git-commit: bf128d5ab0d16a15935f73fd8b80c7eab12b4e1f
 
 ---
 
@@ -64,7 +64,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| 支持 SameSite cookie 设置 | [SameSite Cookie 设置](https://web.dev/samesite-cookies-explained)将会添加到 Analytics 设置的所有 Cookie 中。这种变化与要求 SameSite Cookie 字段的 Chrome 变化相兼容。Analytics Cookie 默认情况下设置为 `none`。如果您仅仅使用了第一方域名（例如 stats.domain.com），则可以让 Adobe ClientCare 将其设置为适合第一方集合域名的 `lax`。 |
+| 支持 SameSite cookie 设置 | [SameSite Cookie 设置](https://web.dev/samesite-cookies-explained)将会添加到 Analytics 设置的所有 Cookie 中。这种变化与要求 SameSite Cookie 字段的 Chrome 变化相兼容。Analytics Cookie 默认情况下设置为 `none`。If you have exclusively used a 1st-party domain (e.g. stats.domain.com) you can have Adobe Customer Care set it to `lax` for 1st-party collection domains. |
 | 工作区：将下拉筛选器的项目限制从 50 提高至 200 | 我们将可放置在下拉筛选器中的项目限制从 50 提高到了 200。此增强功能适用于各种用例，例如将所有国家/地区 (195) 添加到筛选器，或将所有美国州和省 (52) 添加到筛选器。 |
 | 为 Attribution IQ 启用了 A4T“活动展示次数”和“活动转化” | 我们为 Attribution IQ 启用了两个 Analytics for Target (A4T) 量度：“活动展示次数”和“活动转化”。在以前的版本中，相较于 Reports &amp; Analytics，Analysis Workspace 的这些量度值过高，有夸大之嫌。借助这项更改，用户现在可以应用“同一接触”归因模型，进而将 Analysis Workspace 与 Reports &amp; Analytics 保持一致。 |
 
