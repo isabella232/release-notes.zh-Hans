@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019年月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b26af48364509946706cd183c1261ea8c15eab2
+source-git-commit: fdcc0f53ea326b9c440e511ca5968749e68861cd
 
 ---
 
@@ -87,7 +87,7 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| **旅程IQ：跨设备分析** | Adobe Analytics于2019年月推出了对Analytics Ultimate客户的早期访问，该功能称为旅程IQ：跨设备分析。跨设备分析(CDA)将Adobe Analytics从以设备为中心的设备转变为以人为中心的分析工具。使用CDA，您可以回答诸如以下问题的问题： <ul><li>有多少人与我的品牌互动？他们使用多少种设备？它们如何重叠？</li><li>人们在移动设备上开始任务的频率如何，然后后来移动到桌面PC以完成任务？在一台设备上登陆的营销活动点击是否会导致转换其他位置？</li><li>如果我考虑跨设备旅程，我如何理解营销活动有效性？我的漏斗分析如何改变？</li><li>用户从一台设备到另一台设备的最常用路径是什么？他们在哪里放弃？他们在何处取得成功？</li><li>具有多种设备的用户的行为如何与使用单个设备的用户不同？</li></ul><br/>要了解更多信息，请访问 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
+| **旅程IQ：跨设备分析** | Adobe Analytics在2019年月推出了一项称为旅程IQ的强大功能：跨设备分析。(请注意，此功能仅适用于Analytics Ultimate客户。)跨设备分析(CDA)将Adobe Analytics从以设备为中心的设备转变为以人为中心的分析工具。使用CDA，您可以回答诸如以下问题的问题： <ul><li>有多少人与我的品牌互动？他们使用多少种设备？它们如何重叠？</li><li>人们在移动设备上开始任务的频率如何，然后后来移动到桌面PC以完成任务？在一台设备上登陆的营销活动点击是否会导致转换其他位置？</li><li>如果我考虑跨设备旅程，我如何理解营销活动有效性？我的漏斗分析如何改变？</li><li>用户从一台设备到另一台设备的最常用路径是什么？他们在哪里放弃？他们在何处取得成功？</li><li>具有多种设备的用户的行为如何与使用单个设备的用户不同？</li></ul><br/>要了解更多信息，请访问 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
 | **更新的分类体系结构** | 从九月份开始，对分类架构的更新将在几个月内向客户迁移。月发行版包括少数较早者的迁移。<br/>更新大幅缩短了导入/摄取和提供用于报告的上传(包括规则逻辑)所花费的时间。 |
 
 #### 修复
@@ -133,7 +133,7 @@ Audience Manager中的新增功能、增强和修复。
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| **[基于人员的目标](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNLP基于EoT的目标是] 付费Audience Manager插件，可帮助您使用散列标识符(如电子邮件地址)在Facebook等基于人员的环境中激活第一方受众细分。 |
+| **[[！基于DNL人员的目标]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一款付费Audience Manager插件，可帮助您使用散列标识符(如电子邮件地址)在Facebook等基于人员的环境中激活第一方受众细分。 |
 | **[将Twitter定制的受众配置为基于自助服务设备的目标](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我们将Twitter目标迁移到自助服务配置模型。本文解释了在迁移后，您需要为现有Twitter集成做什么以继续工作。 |
 | **[受众市场帐单示例](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 我们添加了一个新示例，案例3，我们详细了解了如何利用激活和建模用例对细分进行计费。 |
 
