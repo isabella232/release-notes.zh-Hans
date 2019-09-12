@@ -31,7 +31,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)（指向解决方案帮助的链接）
-* [!DNL Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html)（指向解决方案帮助的链接）
+* [!DNL Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html) （指向解决方案帮助的链接）
 
 ## Experience Cloud 和 Experience Platform{#platform}
 
