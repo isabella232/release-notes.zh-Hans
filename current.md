@@ -4,19 +4,19 @@ description: Experience Cloud 发行说明模板
 doc-type: 发行说明
 last-update: 2019 年 9 月
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: adb17defaa34adc0866985a5eb5a621e9fb36c7d
 
 ---
 
 
-# Experience Cloud发行说明-2019年月
+# Experience Cloud 发行说明 - 2019 年 9 月
 
 Adobe Experience Cloud 的新增功能和修复。
 
 >[!NOTE]
 >
->Subscribe to the [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) to be notified via email about upcoming releases. 您将在版本发行前的三到五个工作日收到通知。对于发行之后发布的新信息，将使用发布日期进行标记。
+>若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [[!DNL Adobe 产品更新早知道]](https://www.adobe.com/subscription/priority-product-update.html)。您将在版本发行前的三到五个工作日收到通知。对于发行之后发布的新信息，将使用发布日期进行标记。
 
 ## 发行日期：2019 年 9 月 12 日
 
@@ -26,8 +26,8 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (链接到解决方案帮助)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (链接到解决方案帮助)
+* [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)（指向解决方案帮助的链接）
+* [!DNL Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html) （指向解决方案帮助的链接）
 
 ## Experience Cloud 界面 {#ecloud}
 
@@ -36,7 +36,7 @@ Experience Cloud 界面和产品管理的发行说明。
 * 修复了一个安全漏洞，包含了推荐的 HTTP 标头。(MCUI-9942)
 * 修复了在 Analytics 登录公司之间切换的问题。(MCUI-10049)
 
-For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html).
+有关产品文档，请参阅 [Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)。
 
 ## Experience Platform {#platform}
 
@@ -44,11 +44,11 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 
 * [Experience Platform Launch](#launch)
 * [Mobile Services 和 Mobile SDK](#mobile)
-* [安全公告和建议](https://helpx.adobe.com/security.html) (所有Adobe产品)
+* [安全公告与建议](https://helpx.adobe.com/cn/security.html)（所有 Adobe 产品）
 
 ### Experience Platform Launch {#launch}
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html) for release notes and product documentation.
+有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/release-notes/current.html)。
 
 ### Mobile Services 和 Mobile SDK {#mobile}
 
@@ -77,20 +77,20 @@ Adobe Analytics 中的新增功能和修复：
 * [Analytics 管理员的重要注意事项](#aa-notices)
 * [AppMeasurement](#appm)
 
-For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.com/content/help/en/analytics/landing/home.html).
+有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html)。
 
 ### Adobe Analytics 中的新增功能、增强功能和修复 {#aa-features}
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| **历程 IQ：跨设备分析** | Adobe Analytics在2019年月推出了一项称为旅程IQ的强大功能：跨设备分析。(请注意，此功能仅适用于Analytics Ultimate客户。)利用跨设备分析 (CDA) 功能，Adobe Analytics 分析工具将会由“以设备为中心”转变为“以人为中心”。通过使用 CDA，您可以回答类似下面的问题： <ul><li>有多少人在与我的品牌互动？他们使用多少台设备？设备的类型如何？这些设备如何进行交叠？</li><li>出现下面这种情况的频率是多少：人们先是在移动设备上开启一项任务，随后为了完成该任务而移至桌面 PC？登陆一台设备后执行的促销活动点进次数是否会导致转换到其他设备上？</li><li>如果考虑跨设备历程，我对促销活动效用的理解会有怎样的变化？我的漏斗分析会有怎样的变化？</li><li>用户从一台设备转到另一台设备时最常用的路径是什么？他们在哪里退出？他们在哪里继续？</li><li>使用多台设备的用户，其行为与使用单台设备的用户有何区别？</li></ul><br/>要了解更多信息，请访问 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
+| **历程 IQ：跨设备分析** | Adobe Analytics 在 2019 年 9 月推出了一项称为 Journey IQ 的强大功能：Cross-Device Analytics。（请注意，此功能仅适用于 Analytics Ultimate 客户。）利用跨设备分析 (CDA) 功能，Adobe Analytics 分析工具将会由“以设备为中心”转变为“以人为中心”。通过使用 CDA，您可以回答类似下面的问题： <ul><li>有多少人在与我的品牌互动？他们使用多少台设备？设备的类型如何？这些设备如何进行交叠？</li><li>出现下面这种情况的频率是多少：人们先是在移动设备上开启一项任务，随后为了完成该任务而移至桌面 PC？登陆一台设备后执行的促销活动点进次数是否会导致转换到其他设备上？</li><li>如果考虑跨设备历程，我对促销活动效用的理解会有怎样的变化？我的漏斗分析会有怎样的变化？</li><li>用户从一台设备转到另一台设备时最常用的路径是什么？他们在哪里退出？他们在哪里继续？</li><li>使用多台设备的用户，其行为与使用单台设备的用户有何区别？</li></ul><br/>要了解更多信息，请访问 [adobe.ly/aacda](https://spark.adobe.com/page/8ZpjsX6Lp5XTM/)。 |
 | **更新的分类体系结构** | 从 9 月开始，一项针对分类体系结构的更新将会在几个月内陆续向客户迁移。9 月的发行版包括面向少量早期采用者的迁移。<br/>这项更新显著缩短了导入/引入上传（包括规则逻辑）以及生成相应报表所花费的时间。 |
 
 #### 修复
 
 * 修复了无法通过 Experience Cloud 主菜单访问[!UICONTROL 人员]和[!UICONTROL 选件]核心服务的问题。(AN-184294)
 * 修复了 [!UICONTROL Analysis Workspace] 的左边栏在有滚动条和无滚动条之间来回变化的问题，该问题会导致一种颤动的结果。(AN-183904)
-* 修复了错误报表中的问题。首先映入您眼帘的将是更多具体的错误消息，而不仅仅是红色的错误标记。具体而言，错误报表应该有助于您了解何时因负载过重、错误或创建过于复杂的报表请求而导致出现问题。(AN-184135) [更多…](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/optimizing-performance.html)
+* 修复了错误报表中的问题。首先映入您眼帘的将是更多具体的错误消息，而不仅仅是红色的错误标记。具体而言，错误报表应该有助于您了解何时因负载过重、错误或创建过于复杂的报表请求而导致出现问题。(AN-184135) [更多信息...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/optimizing-performance.translate.html)
 * 修复了阻止成功下载 `.pdf/.xls/.rtf` 格式的流失报表的问题。(AN-183165)
 * 修复了通过 Experience Cloud 登录，然而却切换到不同 Experience Cloud 解决方案或切换到其他登录公司的问题。(AN-183376)
 * 修复了计划项目资产转移无法正常工作的问题。现在，各个组是在 [!UICONTROL Admin Console] 中进行管理，为此我们在转移资产时，不能继续在用户之间进行复制。(AN-183751)
@@ -100,10 +100,10 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 更新 Analysis Workspace 自由格式表总数 | 2019 年 9 月 12 日 | 在2019年10月，自由表格总行数将开始计算应用的 [报告过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。迄今为止，总数仅计算的是分段数目。根据这项变化，作为从属的可视化图表（例如，链接的[!UICONTROL 概要数字]可视化图表）将会进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 更新 Analysis Workspace 自由格式表总数 | 2019 年 9 月 12 日 | 在 2019 年 10 月，自由格式表总行数将开始计算所应用的[报表过滤器](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.translate.html)。迄今为止，总数仅计算的是分段数目。根据这项变化，作为从属的可视化图表（例如，链接的[!UICONTROL 概要数字]可视化图表）将会进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 面向 Analytics 用户的 `createDate` 字段即将发生变化 | 2019 年 8 月 30 日 | 在 2019 年 10 月或 11 月，Analytics 用户的 `createDate` 字段将由美国太平洋时间更新为包含时区信息且格式正确的日期/时间值。(AN-183468) |
 | 支持历史时区偏移 | 2019 年 8 月 8 日 | Analytics 现在将自动为带有时间戳的点击处理时区偏移。在 8 月 8 日实施此更改后，载入数据以进行历史处理的系统在发送数据之前将不再需要调整时区偏移。 |
-| 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
+| 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | 这些限制不是新限制，但已添加到[此处](https://docs.adobe.com/content/help/zh-Hans/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)文档中。 |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符&#x200B;_包含任意_、_不包含任意_、_包含全部_&#x200B;和&#x200B;_不包含全部_&#x200B;将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 更改对&#x200B;**[!UICONTROL 启用日期]**&#x200B;和&#x200B;**[!UICONTROL 数字 2 分类]**&#x200B;的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改已随 2019 年 7 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
 | 更改&#x200B;_报表总数_&#x200B;的计算 | 更新日期：2019 年 7 月 9 日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 采取了统一方式计算所有维度和量度中的&#x200B;_报表总数_。这导致某些报表（通常是 Prop 或客户归因报表）的总数出现变化。进行此项更改之前，在计算总数时，无论&#x200B;_未指定_&#x200B;是否显示在报表中，有些报表总数要么包含要么排除&#x200B;_未指定_&#x200B;行项目，总之处理方式并不一致。<br/>自 2019 年 6 月 18 日开始，_未指定_&#x200B;将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，进行此项更改之后，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;逻辑的区段，对于不同的维度可能会看到不同的结果，尤其是其中的&#x200B;_未指定_&#x200B;具有特殊名称（如推荐人类型维度的“已键入/已添加书签”行项目或设备类型维度的“其他”行项目）的维度。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
@@ -112,14 +112,14 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
 | 终止 [!DNL Ad Hoc Analysis] 的生命周期 | 2019 年 1 月 29 日 | 2018 年 8 月 6 日，Adobe 宣布计划终止 [!DNL Ad Hoc Analysis] 的生命周期。确定终止日期后，Adobe 会立即与大家共享此信息。<br/>有关更多信息（包括在此期间，将兼容哪个 Java 版本），请访问 [[!DNL Discover Workspace]](https://adobe.ly/discoverworkspace)。 |
 | 简短 [!DNL Analytics] 报表链接 | 2019 年 1 月 14 日 | 系统已从 2019 年 1 月 17 日星期四起开始按照滚动计划表清理和删除任何在一年内未被访问过的简短 [!DNL Analytics] 报表链接。 |
-| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。If you are unable to connect to Adobe Analytics reporting after February 11, 2019, you should upgrade your browser to the [latest version](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html).<br/>[!DNL Analytics]自 2019 年 2 月 20 日起，Adobe 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅&#x200B;_更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2_。） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
+| 停止支持 TLS 1.0 | 更新日期：2019 年 1 月 10 日 | 自 2019 年 2 月 11 日起，Adobe Analytics 报表不再支持 TLS（传输层安全性）1.0 加密。这一更改体现了我们为维持最高安全标准和提升客户数据安全性所做的不懈努力。如果您在 2019 年 2 月 11 日后无法连接 Adobe Analytics 报表，则应将您的浏览器升级到[最新版本](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/server-side-forwarding/ssf-requirements.html)。<br/>[!DNL Analytics]自 2019 年 2 月 20 日起，Adobe 数据收集不再支持 TLS 1.0。在实施此次更改后，如果最终用户使用不支持 TLS 1.1 或更高版本的旧设备或 Web 浏览器，Adobe 将不再从这些最终用户那里收集 Analytics 数据。我们希望这不会对客户数据或报表产生重大影响。（如果您的网站已不支持 TLS 1.0，则不会受到影响。）<br/>从 2019 年 4 月 11 日开始，Adobe Analytics 报表 API 不再支持 TLS 1.0 加密。访问该 API 的客户应当确认他们不会受到影响。 <ul><li>在默认设置下使用 Java 7 的 API 客户端将需要[做出修改才能支持 TLS 1.2](https://www.java.com/en/configure_crypto.html)。（请参阅&#x200B;_更改客户端端点的默认 TLS 协议版本：将 TLS 1.0 更改为 TLS 1.2_。） </li><li>使用 Java 8 的 API 客户端应该不会受到影响，因为其默认设置为 TLS 1.2。</li><li> 使用其他框架的 API 客户端，将需要联系各自的供应商来获取有关 TLS 1.2 支持的详细信息。</li></ul> |
 | 数据馈送：post_product_list 列 - 大小更改 | 2019 年 1 月 9 日 | 2019 年 2 月 7 日，Adobe 将 post_product_list 列的大小从 64 KB 扩展到 16 MB。这项更改可确保在处理过程中添加到 post_product_list 的推销 eVar 值不会导致产品和收入值截断。如果您的流程需要提取 post_product_list 值，请确保这些流程可以处理长度最大为 16 MB 的值，否则系统将按照 16 KB 的长度将该值截断，以避免数据获取失败。 |
 | 影响不活动的 [!DNL Analytics Live Stream] 端点的管理更改 | 2018 年 12 月 20 日 | 从 2019 年 2 月 1 日开始，可能会禁用持续 90 天没有活动客户连接的 [!DNL Live Stream] 端点。您可以联系客户关怀团队查询您的 [!DNL Live Stream] 端点，并在必要时重新启用它们。此外，请确保您的客户进程按照服务设计要求保持持久连接，并在连接断开或中断时实施重新连接。 |
 | 由于对 TLS 1.0 的支持终止而更新 Adobe [!DNL Report Builder] | 2018 年 9 月 7 日 | 由于对 TLS 1.0 的支持即将终止，我们建议 [!DNL Report Builder] 用户在 2019 年 2 月之前下载 v5.6.21 版。在该日期之后，以前版本的 [!DNL Report Builder] 将无法再正常运行。 |
 
 ### [!DNL AppMeasurement] {#appm}
 
-请参阅 [AppMeasurement for Javascript发行说明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)。
+请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)。
 
 ## Audience Manager {#aam}
 
@@ -129,9 +129,9 @@ Audience Manager 中的新增功能、增强功能和修复。
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| **[[！基于DNL人员的目标]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一款付费Audience Manager插件，可帮助您使用散列标识符(如电子邮件地址)在Facebook等基于人员的环境中激活第一方受众细分。 |
-| **[将Twitter定制的受众配置为基于自助服务设备的目标](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我们正在将 Twitter 目标迁移到自助服务配置模型中。本文解释了在迁移后，您需要为现有的 Twitter 集成执行哪些操作以继续使之正常运转。 |
-| **[受众市场帐单示例](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 我们新增了一个示例（案例 3），在该示例中，我们详细介绍了如何利用激活和建模用例对细分进行计费。 |
+| **[[!DNL People-Based Destinations]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一个付费的 Audience Manager 加载项，可帮助您使用哈希标识符（如电子邮件地址）在 Facebook 等基于人物的环境中，激活第一方受众区段。 |
+| **[将 Twitter Tailored Audiences 配置为基于自助服务设备的目标](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.translate.html)** | 我们正在将 Twitter 目标迁移到自助服务配置模型中。本文解释了在迁移后，您需要为现有的 Twitter 集成执行哪些操作以继续使之正常运转。 |
+| **[Audience Marketplace 账单示例](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.translate.html#billing-examples)** | 我们新增了一个示例（案例 3），在该示例中，我们详细介绍了如何利用激活和建模用例对细分进行计费。 |
 
 **修复和改进**
 
@@ -151,51 +151,51 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，并增加了对选择性构建内容包的支持。
 
-* [Cloud Manager 2019.8.0 发行说明](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
+* [Cloud Manager 2019.8.0 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-manager/using/release-notes/release-notes-current.translate.html)
 
-**软件分发**
+**Software Distribution**
 
-[软件分发](https://downloads.experiencecloud.adobe.com/) 是新的用户界面，旨在简化AEM包的搜索和下载。它目前处于Beta状态，仅供Adobe Managed Services客户访问。
+[Software Distribution](https://downloads.experiencecloud.adobe.com/) 是新的用户界面，旨在简化 AEM Packages 的搜索和下载。它目前处于测试版状态，只有 Adobe Managed Services 客户才能访问。
 
-* [在所有客户有权访问软件分发之前，包共享](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) 仍可保持访问。
-* 所有包均可从包共享和软件分发中获得。
+* 在所有客户都有权访问 Software Distribution 之前，可以继续访问 [Package Share](https://helpx.adobe.com/cn/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare)。
+* 所有包均可从 Package Share 和 Software Distribution 中获取。
 
 ### 产品维护
 
 **AEM 维护版路线图**
 
-请参阅此处发布 [的AEM维护发行路线图](https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html)。
+请参阅发布在[此处](https://helpx.adobe.com/cn/experience-manager/maintenance-releases-roadmap.html)的 AEM 维护版路线图。
 
 ### 自助
 
 **Asset Link 1.1 预发行版**
 
-* [关于Adobe资产链接预发行](https://helpx.adobe.com/enterprise/using/adobe-asset-link-prerelease.html)
-* [为预发布的Adobe Asset Link配置AEM](https://helpx.adobe.com/enterprise/using/configure-aem-for-aal-prerelease.html)
+* [关于 Adobe Asset Link 预发行版](https://helpx.adobe.com/cn/enterprise/using/adobe-asset-link-prerelease.html)
+* [为 Adobe Asset Link 预发行版配置 AEM](https://helpx.adobe.com/cn/enterprise/using/configure-aem-for-aal-prerelease.html)
 
 **AEM 桌面应用程序 2.0**
 
 适用于 MAC 的 AEM 桌面应用程序 2.0 于 2019 年 8 月 30 日发布。适用于 Windows 的 AEM 桌面应用程序 2.0 将于 9 月初发布。
 
-在此处访问文档和下载 [](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html)。
+单击[此处](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html)以访问文档并下载。
 
 **资产智能标记**
 
-了解在此处过期 [后如何更新证书](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate)。
+单击[此处](https://helpx.adobe.com/cn/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate)以了解如何在证书过期后进行更新。
 
 **AEM 6.5 Screens 用户指南**
 
-有关&#x200B;_网络部署指南_&#x200B;的新文档现已推出。请参阅[《 用户指南》](https://helpx.adobe.com/experience-manager/6-5/screens/user-guide.html)。
+有关&#x200B;_网络部署指南_&#x200B;的新文档现已推出。请参阅[用户指南](https://helpx.adobe.com/cn/experience-manager/6-5/screens/user-guide.html)。
 
 **自动化表单转换服务**
 
-有关 AEM 表单自动化表单转换服务的文档现已推出。请参阅 [自动化表单转换服务简介](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)。
+有关 AEM 表单自动化表单转换服务的文档现已推出。请参阅[自动化表单转换服务简介](https://helpx.adobe.com/cn/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)。
 
 ### 社区
 
 **AEM 技能培养网络研讨会**
 
-* [Adobe Experience Manager Sites](https://forums.adobe.com/thread/2647742)
+* [Adobe Experience Manager 网站](https://forums.adobe.com/thread/2647742)
 
    | 网络研讨会 | 日期 |
    | -----------| ---------- |  
@@ -205,7 +205,7 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
    | _流畅体验_ | 2019 年 9 月 17 日 |
    | _创建并管理多种语言、多个国家/地区的版本以设计全球网站结构_ | 2019 年 9 月 24 日 |
 
-* [Adobe Experience Manager Assets](https://forums.adobe.com/thread/2647743)
+* [Adobe Experience Manager 资产](https://forums.adobe.com/thread/2647743)
 
    | 网络研讨会 | 日期 |
    | -----------| ---------- |  
@@ -215,7 +215,7 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
    | _Dynamic Media_ | 2019 年 9 月 19 日 |
    | _资产链接_ | 2019 年 9 月 26 日 |
 
-* [Adobe Experience Manager Forms](https://forums.adobe.com/thread/2647744)
+* [Adobe Experience Manager 表单](https://forums.adobe.com/thread/2647744)
 
    | 网络研讨会 | 日期 |
    | -----------| ---------- |  
@@ -233,29 +233,29 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
 
 ### 其他资源
 
-* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [AEM 6.4 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [AEM 6.3 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [AEM文档旧版本](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Dynamic Media经典帮助主页](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
-* [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [AEM 6.5 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-5.html)
+* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
+* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
+* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
+* [旧版 AEM 文档](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
+* [Dynamic Media Classic 帮助主页](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+* [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/zh_CN/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### 产品生命周期
 
-[!DNL Digital Publishing Suite Classic] (DPSC) 将于 2019 年 8 月 31 日终止生命周期。For more information, see the [[!DNL Digital Publishing Suite Classic] End-of-Life FAQ](https://helpx.adobe.com/digital-publishing-suite/help/eol-statement-for-dpsc.html).
+[!DNL Digital Publishing Suite Classic] (DPSC) 将于 2019 年 8 月 31 日终止生命周期。有关更多信息，请参阅 [[!DNL Digital Publishing Suite Classic] 终止生命周期常见问题解答](https://helpx.adobe.com/cn/digital-publishing-suite/help/eol-statement-for-dpsc.html)。
 
 ### 其他资源
 
-* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
-* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [更早版本的 AEM 文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Scene7 发布系统发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [AEM 6.5 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-5.html)
+* [AEM 6.4 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
+* [AEM 6.3 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
+* [AEM 6.2 学习与支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
+* [旧版 AEM 文档](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System 发行说明](https://marketing.adobe.com/resources/help/zh_CN/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
@@ -264,12 +264,12 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic19.1.4更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) -构建9032
-* [Campaign Classic19.1.5更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) -构建9033
+* [Campaign Classic 19.1.4 更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) - 内部版本 9032
+* [Campaign Classic 19.1.5 更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) – 内部版本 9033
 
 ### Adobe Campaign [!UICONTROL 控制面板]
 
-我们为管理员用户添加了新功能，以便所在域的 SSL 证书过期之前，他们能够接收通知。有关更多信息，请参阅[详细的文档](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)。
+我们为管理员用户添加了新功能，以便所在域的 SSL 证书过期之前，他们能够接收通知。有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/kb/control-panel-subdomains-certificates.html)。
 
 此外，管理员用户现在可以删除曾经为了访问 SFTP 服务器而添加的 SSH 密钥。
 
@@ -277,5 +277,5 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### 其他资源
 
-* Adobe Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign Standard：[文档](https://helpx.adobe.com/cn/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) - [操作视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
