@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 9 月
 author: mfrei
 translation-type: ht
-source-git-commit: adb17defaa34adc0866985a5eb5a621e9fb36c7d
+source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
 
 ---
 
@@ -268,6 +268,8 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * [Campaign Classic 19.1.5 更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) – 内部版本 9033
 
 ### Adobe Campaign [!UICONTROL 控制面板]
+
+我们为管理员用户添加了一些可将要连接到 Campaign Classic 实例的 IP 地址添加到白名单的新功能。此外，管理员用户现在可以查看实例列表以及版本升级的资格。有关更多信息，请参阅[专用文档](https://helpx.adobe.com/cn/campaign/kb/control-panel-instance-settings.html)。
 
 我们为管理员用户添加了新功能，以便所在域的 SSL 证书过期之前，他们能够接收通知。有关更多信息，请参阅[详细文档](https://helpx.adobe.com/cn/campaign/kb/control-panel-subdomains-certificates.html)。
 
