@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 9 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8e959510cb32eef2e619f562cd998b4e75c2c8d3
+source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
 
 ---
 
@@ -54,18 +54,26 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 发行日期：**9 月 26 日**
 
-**iOS (4.18.8)**
+**iOS: Version 4.18.8**
 
-* 修复了每次 Analytics 调用时，SDK 数据同步到配对的 watchOS 应用程序中的错误。
-* 修复了推送点进次数有效负载无法用作应用程序内消息传递特征的错误。
-* 更新至用户通知框架 API，而不是从 iOS 10 就已弃用的 UILocalNotification API。
-* 更新至 WKWebView，而不是从 iOS 12 就已弃用的 UIWebView。
+发行日期：2019 年 9 月 20 日
 
-**Android 4.17.10**
+* 应用程序内消息传递：
+   * 在运行iOS 10或更高版本的设备上，现在使用UserNotifications框架为链接到UserNotifications.framework的应用程序安排本地通知。
+   * 全屏消息现在使用WebKit.framework中的WKWebViews，必须在Xcode项目中链接它。
+   * Fixed a bug where the Push click-through payload could not be used as traits for In-App Messaging.
+   * 修复了崩溃问题。
+* 常规——修复了每次Analytics调用时SDK数据与成对的watchOS应用程序同步的错误。
 
-* 增加了对 BCP 47 语言标记的支持。
+**Android:版本4.17.10**
+
+发行日期：2019 年 9 月 20 日
+
+* 常规：修复了Android API 21级或更高版本上某些区域的区域设置字符串生成。
 
 **Unity**
+
+发行日期：2019 年 9 月 26 日
 
 * 增效工具更新至适用于 iOS 的 4.18.7 版本和适用于 Android 的 4.17.9 版本
 
@@ -129,9 +137,9 @@ Audience Manager 中的新增功能、增强功能和修复。
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| **[[!DNL People-Based Destinations]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一个付费的 Audience Manager 加载项，可帮助您使用哈希标识符（如电子邮件地址）在 Facebook 等基于人物的环境中，激活第一方受众区段。 |
-| **[Configuring Twitter Tailored Audiences as a Self-Service Device-Based Destination](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我们正在将 Twitter 目标迁移到自助服务配置模型中。本文解释了在迁移后，您需要为现有的 Twitter 集成执行哪些操作以继续使之正常运转。 |
-| **[Audience Marketplace Billing Examples](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 我们新增了一个示例（案例 3），在该示例中，我们详细介绍了如何利用激活和建模用例对细分进行计费。 |
+| **[[!DNL基于人员的目标]](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-overview.html)** | [!DNL People-Based Destinations] 是一个付费的 Audience Manager 加载项，可帮助您使用哈希标识符（如电子邮件地址）在 Facebook 等基于人物的环境中，激活第一方受众区段。 |
+| **[将Twitter定制受众配置为基于设备的自助服务目标](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/device-based/twitter-tailored-audiences.html)** | 我们正在将 Twitter 目标迁移到自助服务配置模型中。本文解释了在迁移后，您需要为现有的 Twitter 集成执行哪些操作以继续使之正常运转。 |
+| **[Audience Marketplace计费示例](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/audience-marketplace/audience-marketplace-for-data-buyers/marketplace-buyer-billing.html#billing-examples)** | 我们新增了一个示例（案例 3），在该示例中，我们详细介绍了如何利用激活和建模用例对细分进行计费。 |
 
 **修复和改进**
 
@@ -155,9 +163,9 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
 
 **Software Distribution**
 
-[Software Distribution](https://downloads.experiencecloud.adobe.com/) is the new user interface designed to simplify the search and download of AEM Packages. 它目前处于测试版状态，只有 Adobe Managed Services 客户才能访问。
+[Software Distribution](https://downloads.experiencecloud.adobe.com/) 是新的用户界面，旨在简化AEM包的搜索和下载。 它目前处于测试版状态，只有 Adobe Managed Services 客户才能访问。
 
-* [Package Share](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) will remain accessible until all customers have access to Software Distribution.
+* [包共享](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html#PackageShare) ，在所有客户都有权访问软件分发之前，将一直保持可访问。
 * 所有包均可从 Package Share 和 Software Distribution 中获取。
 
 ### 产品维护
@@ -181,7 +189,7 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
 
 **资产智能标记**
 
-在此处了解证书过期后如何更 [新](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate)。
+Learn how to update a certificate after it has expired [here](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate).
 
 **AEM 6.5 Screens 用户指南**
 
@@ -189,7 +197,7 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
 
 **自动化表单转换服务**
 
-有关 AEM 表单自动化表单转换服务的文档现已推出。请参 [阅自动表单转换服务简介](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)。
+有关 AEM 表单自动化表单转换服务的文档现已推出。See [Introduction to Automated Forms Conversion service](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html).
 
 ### 社区
 
@@ -238,7 +246,7 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
 * [AEM 6.3 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [AEM 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [Older Versions of AEM Documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [旧版AEM文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic Help Home](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
@@ -264,7 +272,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic 19.1.4更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) -内部版本9032
+* [Campaign Classic 19.1.4 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) – build 9032
 * [Campaign Classic 19.1.5 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) – build 9033
 
 ### Adobe Campaign [!UICONTROL 控制面板]
