@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 9 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: eb150b48019a2fc54c3de3fa58475a9eb475505f
+source-git-commit: b8639c07c29e929b786b515b0d8e1e3cb89fa45a
 
 ---
 
@@ -52,9 +52,7 @@ See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/u
 
 ### Mobile Services 和 Mobile SDK {#mobile}
 
-发行日期：**9 月 26 日**
-
-**iOS: Version 4.18.8**
+**iOS:版本4.18.8**
 
 发行日期：2019 年 9 月 20 日
 
@@ -189,7 +187,7 @@ Cloud Manager 2019.8.0 版修复了大量次要错误，提高了构建性能，
 
 **资产智能标记**
 
-Learn how to update a certificate after it has expired [here](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate).
+在此处了解证书过期后如何更 [新](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-smart-tagging.html#Obtainpubliccertificate)。
 
 **AEM 6.5 Screens 用户指南**
 
@@ -197,7 +195,7 @@ Learn how to update a certificate after it has expired [here](https://helpx.adob
 
 **自动化表单转换服务**
 
-有关 AEM 表单自动化表单转换服务的文档现已推出。See [Introduction to Automated Forms Conversion service](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html).
+有关 AEM 表单自动化表单转换服务的文档现已推出。请参 [阅自动表单转换服务简介](https://helpx.adobe.com/experience-manager/Automated-Forms-Conversion-Service/introduction-to-automated-form-conversion-service.html)。
 
 ### 社区
 
@@ -247,7 +245,7 @@ Learn how to update a certificate after it has expired [here](https://helpx.adob
 * [AEM 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
 * [旧版AEM文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Dynamic Media Classic Help Home](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+* [Dynamic Media Classic帮助主页](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
@@ -272,8 +270,8 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Adobe Campaign Classic
 
-* [Campaign Classic 19.1.4 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) – build 9032
-* [Campaign Classic 19.1.5 update](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) – build 9033
+* [Campaign Classic 19.1.4更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9032) -内部版本9032
+* [Campaign Classic 19.1.5更新](https://docs.campaign.adobe.com/doc/AC/en/RN.html#9033) -内部版本9033
 
 ### Adobe Campaign [!UICONTROL 控制面板]
 
