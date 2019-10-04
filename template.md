@@ -30,8 +30,8 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
-* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) (links to solution help)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解决方案帮助的链接）
 
 ## Experience Cloud 和 Experience Platform{#platform}
 
@@ -42,7 +42,7 @@ Experience Platform、Experience Cloud 界面、产品管理、Experience Platfo
 * [Mobile Services 和 Mobile SDK](#mobile)
 * [管理和开发人员](#admin)
 * [Experience Platform Launch](#launch)
-* [安全公告和通知](https://helpx.adobe.com/security.html) (All Adobe products)
+* [安全公告与建议](https://helpx.adobe.com/security.html) （所有Adobe产品）
 
 ### 核心服务 {#core-services}
 
@@ -77,7 +77,7 @@ For product documentation, see [Experience Cloud and Core Services](https://docs
 
 功能和修复。
 
-For product documentation, see [Manage user and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
+有关产品文档，请参阅 [管理用户和产品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ### Experience Platform Launch {#launch}
 
