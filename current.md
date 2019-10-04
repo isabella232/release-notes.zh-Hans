@@ -5,22 +5,22 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6efac6a7bd4bac8b9ee42a743761e2ea1fb82e82
+source-git-commit: 04228df4d9a7279fe2c8627aeb0bb7492d34327e
 
 ---
 
 
-# Early Access - Experience Cloud Release Notes - October 2019
+# 早期访问- Experience cloud发行说明- 2019年10月
 
 Adobe Experience Cloud 的新增功能和修复。
 
 >[!IMPORTANT]
 >
 >此页面包含预发行内容，在发行版之前可能会发生更改。
-
+>
 >[!NOTE]
 >
->Subscribe to the [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) to be notified via email about upcoming releases. 您将在版本发行前的三到五个工作日收到通知。对于发行之后发布的新信息，将使用发布日期进行标记。
+>Subscribe to the [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html) to be notified via email about upcoming releases. 对于发行之后发布的新信息，将使用发布日期进行标记。
 
 ## 发行日期：2019 年 10 月 10 日
 
@@ -30,7 +30,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) (links to solution help)
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解决方案帮助的链接）
 
 <!-- ## Experience Cloud interface {#ecloud}
@@ -47,7 +47,7 @@ For product documentation, see [Experience Cloud](https://docs.adobe.com/content
 Experience Platform、Experience Platform Launch、Identity Service 和安全公告的发行说明。
 
 * [Experience Platform Launch](#launch)
-* [安全公告和通知](https://helpx.adobe.com/security.html) (All Adobe products)
+* [安全公告和通知](https://helpx.adobe.com/security.html) （所有Adobe产品）
 
 ### Experience Platform Launch {#launch}
 
@@ -67,28 +67,28 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| 隐私服务API:CCPA | 加利福尼亚消费者隐私法(CCPA)增强了美国加利福尼亚州居民的隐私权和消费者保护。 本法定于2020年1月1日生效。<br/>CCPA为加利福尼亚州居民提供了新的数据隐私权，如访问和删除其个人数据、了解其个人数据是被出售还是被披露（以及向谁）以及拒绝销售其个人数据的权利。<br/>根据CCPA的预期，隐私服务将支持选择不销售个人数据的请求。<br/>隐私服务以前称为GDPR服务，并保留了之前的所有功能，现在扩展为支持CCPA。<br/>分析中的CCPA:隐私 `[Link to new CCPA page in Analytics]()`<br/>[服务概述](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
-| 隐私报告：Analytics Admin Console | 为Analytics启用隐私报告功能可向报表包添加一组保留变量。  这些变量设计为有助于在点击级别收集消费者同意数据。<br/>新维度：<br/><ul><li>同意管理选择退出</li><li>同意管理选择加入</li><li>同意管理变量： `[Link to new Consent Variables page in Analytics]()`</li></ul> |
-| 音频和视频分析：隐私支持 | Media Collection API中新增了两个变量：<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul>这些是可选变量，可用于捕获点击时消费者同意的状态。<br/>[Media Collection API文](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/>档新的Analytics Concent Management上下文数据变量已添加到Federated Analytics表单中。 这些变量现在可用于标记联盟的“选择退出共享”或“销售”点击。<br/>[下载Federated Form](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
-| Analysis Workspace:更新到自由格式表总计 | 自由格式表现在包括两个总 **[!UICONTROL 计，一个]** “表” **[!UICONTROL 和一个“总计”]**。 已应用报告过滤器的“表 [”总行](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 以前，仅受细分影响的总计。 [Learn moreIn addition, Show Totals and Show Grand Total options have been added to Column Settings.](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>************<br/>对自由形式总计进行此更改后，将更新相关可视化(例如，链接的 **[!UICONTROL 摘要编号可视化]** )以及导出的CSV和PDF数据。 |
+| 隐私服务API:CCPA | 加利福尼亚消费者隐私法(CCPA)增强了美国加利福尼亚州居民的隐私权和消费者保护。 This Act is set to become effective on January 1, 2020.<br/>CCPA为加利福尼亚州居民提供了新的数据隐私权，如访问和删除其个人数据、了解其个人数据是被出售还是被披露（以及向谁）以及拒绝销售其个人数据的权利。<br/>In anticipation of the CCPA, the Privacy Service will support requests to opt out of the selling of personal data.<br/>The Privacy Service was formerly called the GDPR Service and retains all the previous functionality, now extended to support CCPA.<br/>CCPA in Analytics: Privacy Service Overview`[Link to new CCPA page in Analytics]()`<br/>[](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
+| Privacy Reporting: Analytics Admin Console | Enabling Privacy Reporting for Analytics adds a set of reserved variables to a report suite.  The variables are designed to assist in the collection of consumer consent data at a hit level.<br/>New Dimensions:<br/><ul><li>Consent Management Opt-Out</li><li>Consent Management Opt-In</li><li>Consent Management Variables: `[Link to new Consent Variables page in Analytics]()`</li></ul> |
+| Audio and Video Analytics: Privacy Support | Two new variables have been added to the Media Collection API:<br/><ul><li>analytics.optOutServerSideForwarding</li><li> analytics.optOutShare</li></ul>这些是可选变量，可用于捕获点击时消费者同意的状态。<br/>[Media Collection API文](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/>档新的Analytics Concent Management上下文数据变量已添加到Federated Analytics表单中。 这些变量现在可用于标记联盟的“选择退出共享”或“销售”点击。<br/>[下载Federated Form](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
+| Analysis Workspace:更新到自由格式表总计 | 自由格式表现在包括两个总 **[!UICONTROL 计，一个]** “表” **[!UICONTROL 和一个“总计”]**。 已应用报告过滤器的“表 [”总行](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 以前，仅受细分影响的总计。 [了](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多此 **[!UICONTROL 外，“显]** 示总计”和“显 **[!UICONTROL 示总计]** ”选项已添加到“列 **[!UICONTROL 设置”中]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如，链接的 **[!UICONTROL 摘要编号可视化]** )以及导出的CSV和PDF数据。 |
 | Analysis Workspace:用于删除“未指定”/“无”的选项 | 轻松删除“未指定（无）”的功能已添加为报告过滤器的选项。 |
-| Analysis Workspace: Deprecation of purple granularity components | Purple granularity time components (Minute, Hour, Day, Week, Month, Quarter, Year) have been deprecated. The purple time components have always behaved exactly like their orange dimension counterparts, so this change will simplify the experience. **No action needs to taken if you previously used one of the purple time components.**<br/>With this change, the purple Time section has also been renamed to Date Ranges.******** |
+| Analysis Workspace:弃用紫色粒度组件 | 已弃用紫色粒度时间组件（分钟、小时、日、周、月、季度、年）。 紫色时间组件的行为一直与橙色尺寸组件完全相同，因此此更改将简化体验。 **如果您之前使用** 紫色时间组件之一，则无需执行任何操作。<br/>通过此更改，紫色 **[!UICONTROL 时间]** (Time)部分也已更名为 **[!UICONTROL 日期范围]**。 |
 
 #### 修复
 
-* Analysis Workspace: Fixed an issue that resulted in incorrect search results when searching for dimension items in the left rail. (AN-185065)
-* Fixed issues with being unable to delete or unpublish shared segments in Adobe Audience Manager (AAM). The fix is to not delete the segment if AAM is unresponsive. (AN-185882, AN-185883, AN-184607)
-* Fixed a timeout issue with being unable to load segments in Ad Hoc Analysis. (AN-184654)
-* Fixed an issue that occurred when the report suite you last used was subsequently hidden or you no longer had permissions to access this report suite. In this case, you could no longer log in through Experience Cloud. (AN-181777)
+* Analysis Workspace:修复了在左边栏中搜索维项目时导致搜索结果错误的问题。 (AN-185065)
+* 修复了在Adobe Audience Manager(AAM)中无法删除或取消发布共享区段的问题。 如果AAM无响应，则修复不删除段。 (AN-185882、AN-185883、AN-184607)
+* 修复了在临时分析中无法加载区段的超时问题。 (AN-184654)
+* 修复了您上次使用的报表包随后被隐藏或您不再具有访问此报表包的权限时出现的问题。 在这种情况下，您无法再通过Experience cloud登录。 (AN-181777)
 * 修复了区段中的超时问题，该问题导致难以基于区段创建VRS。 (AN-179684)
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | By March 31, 2020, Adobe Analytics will remove support for TLS 1.1. This change is part of our ongoing efforts to maintain the highest security standards and promote the safety of customer data. |
-| San Jose FTP Broker Ending for London and Singapore | 2020 年 7 月 | For customers in London and Singapore, we will no longer be supporting brokering of data between London or Singapore and the San Jose data center ftp.omniture.com.[](ftp://ftp.omniture.com/)<br/>对于伦敦， [请使用ftp3.omniture.](ftp://ftp3.omniture.com/)<br/>com对于新加坡，请 [使用ftp4.omniture.com](ftp://ftp4.omniture.com/) |
-| 更新 Analysis Workspace 自由格式表总数 | 2019 年 9 月 12 日 | 在2019年10月，自由格式表总行数将开始计入所应用的报 [表过滤器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 迄今为止，总数仅计算的是分段数目。根据这项变化，作为从属的可视化图表（例如，链接的[!UICONTROL 概要数字]可视化图表）将会进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
+| 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 到2020年3月31日，Adobe Analytics将删除对TLS 1.1的支持。这一变化是我们不断努力维护最高安全标准并促进客户数据安全的一部分。 |
+| 圣何塞FTP经纪人结束伦敦和新加坡 | 2020 年 7 月 | 对于伦敦和新加坡的客户，我们将不再支持伦敦或新加坡与圣何塞数据中心 [ftp.omniture.com之间的数据代理](ftp://ftp.omniture.com/)。<br/>对于伦敦， [请使用ftp3.omniture.](ftp://ftp3.omniture.com/)<br/>com对于新加坡，请 [使用ftp4.omniture.com](ftp://ftp4.omniture.com/) |
+| 更新 Analysis Workspace 自由格式表总数 | 2019 年 9 月 12 日 | In October 2019, freeform table total rows will begin accounting for report filters applied. [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)迄今为止，总数仅计算的是分段数目。根据这项变化，作为从属的可视化图表（例如，链接的[!UICONTROL 概要数字]可视化图表）将会进行相应的更新，导出的 CSV 和 PDF 数据同样也会更新。 |
 | 面向 Analytics 用户的 `createDate` 字段即将发生变化 | 2019 年 8 月 30 日 | 在 2019 年 10 月或 11 月，Analytics 用户的 `createDate` 字段将由美国太平洋时间更新为包含时区信息且格式正确的日期/时间值。(AN-183468) |
 | 支持历史时区偏移 | 2019 年 8 月 8 日 | Analytics 现在将自动为带有时间戳的点击处理时区偏移。在 8 月 8 日实施此更改后，载入数据以进行历史处理的系统在发送数据之前将不再需要调整时区偏移。 |
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | These limits are not new, but have been added to the documentation [here](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html). |
@@ -115,11 +115,11 @@ Audience Manager 中的新增功能、增强功能和修复。
 **修复和改进**
 
 * 在2019年7月1日之后创建的所有客户帐户将自动获得一个许 [!DNL Tableau] 可证，允许他们访问其报告。 如果您的帐户是在2019年7月1日之前创建的，并且您仍无权访问报告，请 [!DNL Tableau] 联系客户关怀。
-* 我们删除了未与特征数据源进行ID同步的访客配置文件的生成不正确的活动特征成员关系(AAM-45371)。
-* 我们从全局数据源中删除了无效的全局设备ID。 请参 [阅全局数据源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) ，了解Audience Manager应接受哪些有效设备ID(AAM-41259)。
-* 修复了在尝试删除受保护的区段时导致“区段”页面停止响应的错误(AAM-49881)。
-* 编辑Twitter定制受众的目标时， [!UICONTROL “帐户] ”选择器现在仅在目标未分配帐户时 [!DNL Twitter Ads] 处于活动状态(AAM-49975)。
-* 修复了在禁用订阅时阻止用 [!UICONTROL 户禁用Audience Marketplace] 数据源的错误(AAM-49640)。
+* We've removed incorrectly generated activity trait memberships for visitor profiles that did not have an ID synchronization with the trait data source (AAM-45371).
+* We've removed invalid global device IDs from global data sources. See Global Data Sources to learn what valid device IDs should look like to be accepted by Audience Manager (AAM-41259).[](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html)
+* Fixed a bug causing the Segments page to stop responding when you attempt to delete a protected segment (AAM-49881).
+* When editing destinations for Twitter Tailored Audiences, the Account selector is now active only if the destination does not have a  account assigned (AAM-49975).[!DNL Twitter Ads]
+* Fixed a bug preventing users from disabling Audience Marketplace data feeds when subscriptions are disabled (AAM-49640).
 * 我们执行了一些与 Audience Manager 用户界面辅助功能有关的改进。
 
 ## Experience Manager {#aem}
@@ -130,7 +130,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * **AEM 6.3.3.6**
 
-   AEM 6.3, Service Pack 3, Cumulative Fix Pack 6 (6.3.3.6 released September 25, 2019) is an important update that includes key customer fixes released since the general availability of AEM 6.3, April 2017.
+   AEM 6.3、Service Pack 3、Cumulative Fix Pack 6（2019年9月25日发布的6.3.3.6）是一项重要更新，其中包括自2017年4月AEM 6.3通用版本发布以来发布的关键客户修复。
    * [发行说明](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
    * [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
@@ -146,20 +146,20 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 ### 自助
 
-* **Scene7:重新处理资产工作流**
+* **Scene7: Reprocess Assets workflow**
 
-   您现在可以重新处理文件夹中的资产，该文件夹中已有您稍后更改的现有处理配置文件。
-请参 [阅在编辑文件夹的处理配置文件后重新处理文件夹中的资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/processing-profiles.html#Reprocessingassetsinafolderafteryouhaveediteditsprocessingprofile)。
+   You can now reprocess assets in a folder that already has an existing processing profile that you later changed.
+See Reprocessing assets in a folder after you have edited its processing profile.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/processing-profiles.html#Reprocessingassetsinafolderafteryouhaveediteditsprocessingprofile)
 
-* **Dynamic Media Viewer与Adobe Analytics和Adobe Launch的集成**
+* **Integration of Dynamic Media Viewers with Adobe Analytics and Adobe Launch**
 
-   Adobe Launch的Dynamic Media Viewers扩展以及Dynamic Media Viewer 5.13的发布使Dynamic Media、Adobe Analytics和Adobe Launch的客户能够在其Adobe Launch配置中使用特定于Dynamic Media查看器的事件和数据。
-请参 [阅将Dynamic Media Viewer与Adobe Analytics和Adobe Launch集成](https://helpx.adobe.com/experience-manager/6-5/assets/using/launch.html)。
+   The Dynamic Media Viewers extension for Adobe Launch, along with the release of Dynamic Media Viewers 5.13, lets customers of Dynamic Media, Adobe Analytics, and Adobe Launch use events and data specific for the Dynamic Media Viewers in their Adobe Launch configuration.
+See Integrating Dynamic Media Viewers with Adobe Analytics and Adobe Launch.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/launch.html)
 
-* **AEM桌面应用程序**
+* **AEM desktop app**
 
-   AEM桌面应用程序2.0现在可供创意人员、营销人员和业务线用户使用，以便与AEM资产结合使用。
-请参阅 [AEM桌面应用程序发行说明。](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
+   AEM desktop app 2.0 is now available for creatives, marketers, and line-of-business users, to work with AEM Assets.
+See the AEM desktop app Release notes.[](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html)
 
 * **核心组件**
    * 了解核心组件的本地化功能及其如何使用AEM模板。
@@ -171,8 +171,8 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 请参 [阅查找类似图像](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html#visualsearch)。
    * 除了图像文件格式外，连接的资产功能现在还使用远程DAM部署中可用的文档。
 请参 [阅使用已连接的资产在AEM站点中共享DAM资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/use-assets-across-connected-assets-instances.html)。
-   * 有关资产搜索和发现的最新内容。 The Search assets in AEM topic is your one-stop-shop for information on using, configuring, troubleshooting, limitations, and tips.
-__ See Search assets in AEM.[](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)
+   * 有关资产搜索和发现的最新内容。 AEM __ 中的搜索资产主题是一站式商店，以了解有关使用、配置、疑难解答、限制和提示的信息。
+请参阅 [在AEM中搜索资产](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)。
 
 ### 其他资源
 
@@ -181,7 +181,7 @@ __ See Search assets in AEM.[](https://helpx.adobe.com/experience-manager/6-5/as
 * [AEM 6.3 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
 * [AEM 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
 * [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [旧版AEM文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Older Versions of AEM Documentation](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic帮助主页](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
 * [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
