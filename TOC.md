@@ -14,7 +14,7 @@ source-git-commit: 7759ee9ded40d019321df67478cf08565f6830cc
 + [发行说明](current.md)
 + 以前的发行说明 {#previous}
    + 2019 年 {#2019}
-      + [September 2019](c-legacy-releases/2019/09122019.md)
+      + [2019年9月](c-legacy-releases/2019/09122019.md)
       + [2019 年 8 月](c-legacy-releases/2019/08082019.md)
       + [2019 年 7 月](c-legacy-releases/2019/07182019.md)
       + [2019 年 6 月](c-legacy-releases/2019/06132019.md)
