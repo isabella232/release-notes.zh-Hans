@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ef4569f130fe606dc9119a11e288f57205b7c0e
+source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
 
 ---
 
@@ -81,6 +81,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 * 修复了在临时分析中无法加载区段的超时问题。 (AN-184654)
 * 修复了您上次使用的报表包随后被隐藏或您不再具有访问此报表包的权限时出现的问题。 在这种情况下，您无法再通过Experience cloud登录。 (AN-181777)
 * 修复了区段中的超时问题，该问题导致难以基于区段创建VRS。 (AN-179684)
+* 修复了在少数情况下，如果编码不正确，数据会被截断的问题。 (AN-186707)
+* Yandex搜索引擎现在按国家／地区正确分类。 (AN-181728)
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
