@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6660591c30a677b429967c0b7dbee6a306ed7f54
+source-git-commit: b4a973b8292ecfd8b203b7fac0b391e42924a7ca
 
 ---
 
@@ -117,7 +117,7 @@ Audience Manager 中的新增功能、增强功能和修复。
 **修复和改进**
 
 * 在2019年7月1日之后创建的所有客户帐户将自动获得一个许 [!DNL Tableau] 可证，允许他们访问其报告。 如果您的帐户是在2019年7月1日之前创建的，并且您仍无权访问报告，请 [!DNL Tableau] 联系客户关怀。
-* 我们删除了未与特征数据源进行ID同步的访客配置文件的生成不正确的活动特征成员关系(AAM-45371)。
+* 我们修复了一个错误，该错误导致生成错误的活动特征并人为地提高匹配率和受众规模。 在此修复之后，您可能会注意到使用自动生成的活动特征创建的区段的大小有所减小。 这是正常的预期行为(AAM-45371)。
 * 我们从全局数据源中删除了无效的全局设备ID。 请参 [阅全局数据源](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/data-sources/global-data-sources.html) ，了解Audience Manager应接受哪些有效设备ID(AAM-41259)。
 * 修复了在尝试删除受保护的区段时导致“区段”页面停止响应的错误(AAM-49881)。
 * 编辑Twitter定制受众的目标时， [!UICONTROL “帐户] ”选择器现在仅在目标未分配帐户时 [!DNL Twitter Ads] 处于活动状态(AAM-49975)。
