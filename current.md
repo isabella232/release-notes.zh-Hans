@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 42a453578bc4ce826306b93f893bec47c84329a5
+source-git-commit: dc067709de5d85aa142067f4d2e14e80cca4476e
 
 ---
 
@@ -67,8 +67,8 @@ For product documentation, see [Adobe Analytics Help Home](https://docs.adobe.co
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| 隐私服务API:CCPA | 加利福尼亚消费者隐私法(CCPA)增强了美国加利福尼亚州居民的隐私权和消费者保护。 本法定于2020年1月1日生效。<br/><br/>CCPA为加利福尼亚州居民提供了新的数据隐私权，如访问和删除其个人数据、了解其个人数据是被出售还是被披露（以及向谁）以及拒绝销售其个人数据的权利。<br/><br/>根据CCPA的预期，隐私服务将支持拒绝销售个人数据的请求。<br/><br/>隐私服务以前称为GDPR服务，并保留了之前的所有功能，现在扩展为支持CCPA。<br/><br/>[Analytics隐私服务](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>[概述中的CCPA](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
-| 隐私报告：Analytics Admin Console | 为Analytics启用隐私报告功能可向报表包添加一组保留变量。  这些变量设计为有助于在点击级别收集消费者同意数据。<br/><br/>新维度：<br/><ul><li>同意管理选择退出</li><li>同意管理选择加入</li><li>[同意管理变量](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
+| 隐私服务API:CCPA | 加利福尼亚消费者隐私法(CCPA)增强了美国加利福尼亚州居民的隐私权和消费者保护。 本法定于2020年1月1日生效。<br/><br/>CCPA为加利福尼亚州居民提供了新的数据隐私权，如访问和删除其个人数据、了解其个人数据是被出售还是被披露（以及向谁）以及拒绝销售其个人数据的权利。<br/><br/>根据CCPA的预期，隐私服务将支持拒绝销售个人数据的请求。<br/><br/>隐私服务以前称为GDPR服务，并保留了之前的所有功能，现在扩展为支持CCPA。<br/><br/>[分析中的CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br/><br/>`Link activating by 10/10/19 - [Privacy Service Overview](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)` |
+| 隐私报告：Analytics Admin Console | 为Analytics启用隐私报告功能可向报表包添加一组保留变量。  这些变量设计为有助于在点击级别收集消费者同意数据。<br/><br/>新维度：<br/><ul><li>同意管理选择退出</li><li>同意管理选择加入</li><li>`Link activating by 10/10/19 - [Consent Management Variables](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)`</li></ul> |
 | 音频和视频分析：隐私支持 | Media Collection API中新增了两个变量：<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>这些是可选变量，可用于捕获点击时消费者同意的状态。<br/><br/>[Media Collection API文](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>档新的Analytics Concent Management上下文数据变量已添加到Federated Analytics表单中。 这些变量现在可用于标记联盟的“选择退出共享”或“销售”点击。<br/><br/>[下载Federated Form](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
 | Analysis Workspace:更新到自由格式表总计 | 自由格式表现在包括两个总 **[!UICONTROL 计，一个]** “表” **[!UICONTROL 和一个“总计”]**。 已应用报告过滤器的“表 [”总行](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html) 。 以前，仅受细分影响的总计。 [了](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>解更多此 **[!UICONTROL 外，“显]** 示总计”和“显 **[!UICONTROL 示总计]** ”选项已添加到“列 **[!UICONTROL 设置”中]**。<br/>对自由形式总计进行此更改后，将更新相关可视化(例如，链接的 **[!UICONTROL 摘要编号可视化]** )以及导出的CSV和PDF数据。 |
 | Analysis Workspace:用于删除“未指定”/“无”的选项 | 轻松删除“未指定（无）”的功能已添加为报告过滤器的选项。 |
