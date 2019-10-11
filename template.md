@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 94ac88d981c552deb801877398489b1819d1fc54
+source-git-commit: bf2c8f512aac526511b959108b00023f02765de3
 
 ---
 
@@ -42,7 +42,7 @@ Experience Platform、Experience Cloud 界面、产品管理、Experience Platfo
 * [Mobile Services 和 Mobile SDK](#mobile)
 * [管理和开发人员](#admin)
 * [Experience Platform Launch](#launch)
-* [安全公告与建议](https://helpx.adobe.com/security.html) （所有Adobe产品）
+* [安全公告和通知](https://helpx.adobe.com/security.html) （所有Adobe产品）
 
 ### 核心服务 {#core-services}
 
@@ -244,7 +244,10 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * 修复
 * 修复
 
-有关产品文档，请参阅：
+### 其他资源
+
+* Adobe Campaign Standard:文 [档](https://helpx.adobe.com/support/campaign/standard.html) -发 [行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) -操 [作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -发 [行计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## Advertising Cloud {#adcloud}
 
