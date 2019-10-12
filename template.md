@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bf2c8f512aac526511b959108b00023f02765de3
+source-git-commit: f29249827ee258caa8f4cc7e78d45ae4e6f84e08
 
 ---
 
@@ -244,7 +244,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * 修复
 * 修复
 
-### 其他资源
+**其他资源**
 
 * Adobe Campaign Standard:文 [档](https://helpx.adobe.com/support/campaign/standard.html) -发 [行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) -操 [作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -发 [行计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
