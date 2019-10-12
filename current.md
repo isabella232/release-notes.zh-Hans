@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 10 月 日
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0b28b2835840757a936434b28597526069e19517
+source-git-commit: 0371f31dcb1feb368bd8a2937a9f2d9583e208dc
 
 ---
 
@@ -28,6 +28,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html) （解决方案帮助的链接）
+* [!DNL Advertising Cloud](#adcloud)
 
 <!-- ## Experience Cloud interface {#ecloud}
 
@@ -204,3 +205,17 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 * Adobe Campaign Standard:文 [档](https://helpx.adobe.com/support/campaign/standard.html) -发 [行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) -操 [作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) -发 [行计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+
+## Advertising Cloud {#adcloud}
+
+更新日期：2019年10月12日，版本
+
+| 查看 | 功能 |
+|------|---------|
+| 搜索促销活动 | Advertising cloud现在可同步并提供Yahoo！上帐户的广告级跟踪 日本显示网络。 如果您为某个帐户提供登录详细信息，则帐户中的所有现有营销活动、广告组和广告在营销活动管理视图中均可以只读方式使用。 单击、成本、转化率和其他绩效数据可在营销活动管理视图以及基本和高级报告中使用。 |
+|  | （使用Google Analytics的广告商）Advertising Cloud Search可以同步特定Google Analytics帐户、属性和查看组合的转化量度，以便进行优化和报告。 页面查看次数、会话数、跳出率（计算为弹回次数／会话数）和会话持续时间将自动包含在内。 每个数据源最多可包含16个额外指标。 |
+|  | （现有Google Ads帐户面向具有Advertising Cloud-Adobe Analytics集成的广告商）s_kwcid跟踪代码有一种新格式，它允许Advertising cloud通过Adobe Analytics报告和分析功能共享有关该帐户的数据。 最新格式包括系列活动ID和广告组ID的参数，这是在Analytics中准确报告Google草稿和实验系列活动的系列活动和广告组级别所必需的。 如果您的现有Google帐户包括Google草稿和实验活动，请编辑每个帐户的“帐户跟踪”设置以迁移到新的s_kwcid。 如果您没有Google草稿和实验活动，则迁移到新格式是可选的。 注意：所有新的Google帐户都会自动使用新格式。 |
+| 搜索高级促销活动管理 (ACM) | （Google广告营销活动）您现在可以为Google文本广告和购物广告模板配置营销活动级别的最终URL后缀。 |
+|  | （Google广告营销活动）可选的“标题3”和“描述2”字段可用于Google扩展文本广告。 |
+| 报表 | 以下必应广告印象共享指标（已与最新的必应广告API一起停止）不会在10月11日之后收集： 搜索因排名而丢失%，搜索因竞价(Bing)而丢失%，搜索因页面相关性(Bing)而丢失%，搜索因关键字相关性(Bing)而丢失%。 之前收集的指标仍可用于报告。 |
+| Adobe Analytics 集成 | （仅限使用Adobe Analytics的广告商）在Analysis Workspace中，“设备(AMO ID)”维度（从未收集过数据）不再可用。 要报告在线Analytics数据，请使用维度“移动设备类型”。要按设备类型报告搜索引擎流量指标（如点击量、成本和印象），请继续在Advertising Cloud search中使用报告。 |
