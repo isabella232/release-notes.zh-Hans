@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 发行说明
 description: Experience Cloud 发行说明模板
 doc-type: 发行说明
-last-update: 2019 年 11 月 日
+last-update: 2019 年 10 月 30 日
 author: mfrei
 translation-type: tm+mt
 source-git-commit: 2c6076aa0af7b9a273e31b1f8919e006ff48e6b4
@@ -18,7 +18,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 > [!NOTE]若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [[!DNL Adobe 产品更新早知道]](https://www.adobe.com/subscription/priority-product-update.html)。对于发行之后发布的新信息，将使用发布日期进行标记。
 
-**发行日期：2019 年 30 月 10 日**
+**发行日期：2019 年 10 月 30 日**
 
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
