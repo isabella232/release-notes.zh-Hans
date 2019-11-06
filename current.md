@@ -5,7 +5,7 @@ doc-type: 发行说明
 last-update: 2019 年 11 月
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 69b1516bd6bea67429843ba6a47082bf7e211a4c
+source-git-commit: 0fba1b7a9cef1262a4fa03188ba81b1d1a15a2e4
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 69b1516bd6bea67429843ba6a47082bf7e211a4c
 
 Adobe Experience Cloud 的新增功能和修复。
 
-> [!NOTE] 要通过电子邮件接收有关即将发行的版本的通知，请订阅[[!DNL Adobe 产品更新早知道]](https://www.adobe.com/subscription/priority-product-update.html)。对于在版本发行之后发布的新信息，将使用发布日期进行标记。
+> [!NOTE] 要通过电子邮件接收有关即将发行的版本的通知，请订阅 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)。对于在版本发行之后发布的新信息，将使用发布日期进行标记。
 
 **发行日期：2019 年 10 月 31 日**
 
@@ -68,7 +68,7 @@ Adobe Analytics 中的新增功能和修复：
 
 | 功能 | 描述 |
 | -----------| ---------- | 
-| 客户历程分析 | 2019 年 11 月 21 日，Adobe 将提供[客户历程分析](https://www.adobe.com/analytics/customer-journey-analytics.html)作为 Adobe Analytics 的附加组件。<br><br/>“客户历程分析”允许您从任何渠道（在线和离线）将所有客户数据纳入到 Adobe Experience Platform 中，然后像现在使用 Analysis Workspace 分析现有数字数据一样分析这些数据。利用“客户历程分析”中包含的功能，可以控制如何在 Analysis Workspace 中通过任何通用客户 ID 连接在线和离线数据，从而最终在 Adobe Analytics 中对整个客户数据集执行归因和细分并分析客户流向和流失等。<br><br/>Analytics Select、Prime 和 Ultimate 客户有资格购买此附加产品。有关更多详细信息，请与您的 Adobe 客户团队联系。 |
+| 客户历程分析 | On November 21, 2019, [Customer Journey Analytics](https://www.adobe.com/analytics/customer-journey-analytics.html) becomes available as an add-on to Adobe Analytics.<br><br/>客户旅程分析允许您从您选择的任何渠道中获取客户数据— 线上及线下均可— Adobe Experience Platform中，然后像现在使用Analysis Workspace分析现有数字数据一样分析这些数据。 利用“客户历程分析”中包含的功能，可以控制如何在 Analysis Workspace 中通过任何通用客户 ID 连接在线和离线数据，从而最终在 Adobe Analytics 中对整个客户数据集执行归因和细分并分析客户流向和流失等。<br><br/>Analytics Select、Prime 和 Ultimate 客户有资格购买此附加产品。有关更多详细信息，请与您的 Adobe 客户团队联系。 |
 | 隐私服务 API：CCPA | 《加州消费者隐私法案》(CCPA) 加强了对美国加利福尼亚州居民的隐私权和消费者保护。这项法案将于 2020 年 1 月 1 日正式生效。<br><br/>CCPA 为加州居民提供了新的数据隐私权，例如，访问和删除个人数据的权利，知晓其个人数据是否被出售或披露（包括披露给谁）的权利，以及拒绝出售其个人数据的权利。<br><br/>为应对即将生效的 CCPA，我们的“隐私服务”将支持选择退出出售个人数据的请求。<br><br/>“隐私服务”此前称为 GDPR 服务，现在不仅保留了以前的各项功能，而且扩展到可支持 CCPA。<br/><br/>[Analytics 中的 CCPA](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[隐私服务概述](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
 | 隐私报告：Analytics Admin Console | 启用 Analytics 的隐私报告之后，会为报表包添加一系列保留变量。这些变量旨在协助收集点击层面的消费者同意数据。<br><br/>新维度：<br/><ul><li>同意管理选择退出</li><li>同意管理选择加入</li><li>[同意管理变量](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/consent-variables.html)</li></ul> |
 | 音频和视频分析：隐私支持 | 两个新变量已添加到媒体收集 API：<br/><ul><li>analytics.optOutServerSideForwarding</li><li>analytics.optOutShare</li></ul><br/><br/>它们是可选变量，可用于捕获消费者在点击时的同意状态。<br/><br/>[媒体收集 API 文档](https://docs.adobe.com/content/help/en/media-analytics/using/media-collection-api/mc-api-overview.html)<br/><br/>新的 Analytics 同意管理上下文数据变量已添加到 Analytics 的联盟合作表单中。现在，可以使用这些变量来标记包括合作伙伴在内的“选择退出共享或销售”点击次数。<br/><br/>[下载联盟合作表单](https://docs.adobe.com/content/help/en/media-analytics/using/federated-analytics.html#download-the-federated-analytics-form) |
@@ -113,7 +113,7 @@ Audience Manager 中的新增功能、增强功能和修复。
 | 功能 | 描述 |
 |--- |----|
 | [配置文件合并规则增强功能](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rules-overview.html) | 我们发布了针对[!UICONTROL 配置文件合并规则]的一系列增强功能： <ul><li>现在，最多支持对 100 个设备进行批量区段评估。</li><li>我们改进了特征和区段人口的报告准确性。</li><li>我们改进了使用跨设备 ID 生成的批处理文件的准确性。</li><li>我们更新了相关文档，以在其中包含每个规则的更详细使用案例。请参阅[配置文件合并规则通用使用案例](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/merge-rule-targeting-options.html)、[外部设备图形使用案例](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/external-graph-use-cases.html)以及[配置文件链接设备图形使用案例](https://docs.adobe.com/help/en/audience-manager/user-guide/features/profile-merge-rules/profile-link-use-case.html)。</li></ul> |
-| [Adobe Sensei支持的受众市场数据智能推荐](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | 通过特征推荐，在 [Segment Builder中构建或编辑区段时](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)，您现在可以从  Audience Marketplace数据源中获得关于可包含的其他特征的推荐，这些特征是您未订阅的。 将推荐的特征添加到区段中，可增加目标受众。<br>  此外，我们重新设计了 [!UICONTROL Marketplace] （市场）页面，使您能更轻松地查找相似特征和过滤数据源。 |
+| [由 Adobe Sensei 提供支持的 Audience Marketplace 数据智能推荐](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/trait-recommendations.html) | 现在，借助“特征推荐”，在[区段生成器](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/segments/segment-builder.html)中构建或编辑区段时，您可以从未订阅的 [!UICONTROL Audience Marketplace] 数据馈送中获得关于可包含的其他特征的推荐。将推荐的特征添加到区段中，可增加目标受众。<br>此外，我们还重新设计了 [!UICONTROL Marketplace] 页面，使您能够更轻松地查找相似特征和过滤数据馈送。 |
 | [批量管理工具](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) | 我们发布了“批量管理”工作表的新版本，该工作表适用于 MacOS 和 Microsoft Windows 操作系统，并支持 Experience Cloud 登录。 |
 | [HTTP Strict-Transport-Security](https://docs.adobe.com/help/en/audience-manager/user-guide/overview/data-security-and-privacy/data-security.html#hsts) | 我们增加了对 [!DNL HTTP Strict-Transport-Security] 的支持，该 Web 安全策略可抵御 Cookie 劫持和协议降级攻击。 |
 
@@ -123,7 +123,7 @@ Audience Manager 中的新增功能、增强功能和修复。
 * 我们修复了“派生的信号”中的以下错误：客户在短时间内无法新建派生的信号。(AAM-50968)
 * 我们修复了基于人员的目标中的以下错误：客户无法更改目标的名称。(AAM-51025)
 * 我们修复了以下错误：一些用户使用重复的帐户登录到 Audience Manager UI。由于与重复帐户关联的权限，这些用户无法访问 UI 的某些部分和执行操作。(AAM-50818)
-* 我们将继续改进 Audience Manager UI 的辅助功能。(AAM-48932、AAM-48997、AAM-49043、AAM-49054、AAM-49371、AAM-49375、AAM-51313)
+* 我们将继续改进 Audience Manager UI 的辅助功能。（AAM-48932、AAM-48997、AAM-49043、AAM-49054、AAM-49371、AAM-49375、AAM-51313）
 
 ## Experience Manager {#aem}
 
@@ -210,10 +210,10 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## Advertising Cloud {#adcloud}
 
-更新日期：2019年11月2日，版本
+更新日期：2019 年 11 月 2 日
 
 | 视图 | 功能 |
 |------|---------|
-| 转换跟踪 | 基于Advertising Cloud javaScript的转换映射标记现在支持Mozilla Firefox版本69及更高版本的跟踪点进，默认情况下会阻止第三方Cookie。 同一标签已包含对Apple Safari的支持。<br><br/>如果您使用Advertising cloud转化跟踪，但尚未部署Advertising cloud转化映射标记，请在所有登录页面上部署以下代<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>码：此标签支持Advertising Cloud javaScript v2和v3转换跟踪标签，而不支持图像跟踪标签。 |
-| 项目组合 | 启用“启用营销活动最大支出%目标”组合选项后，现在不会超出最大支出目标。 以前，Advertising cloud在达到最佳效果时会超过最大支出目标。 |
-| 搜索受众 | 您位于“搜索”&gt;“受众”&gt;“库”的受众库现在自动包括“受众规模”列，该列每天从Bing Ads和Google ads填充。 您可以选择将列用作数据过滤器。 |
+| 转化跟踪 | 基于 JavaScript 的 Advertising Cloud 转化映射标记现在支持跟踪来自 Mozilla Firefox 版本 69 及更高版本的点进次数，默认情况下会阻止第三方 Cookie。该标记已包含对 Apple Safari 的支持。<br><br/>如果您使用 Advertising Cloud 转化跟踪，但尚未部署 Advertising Cloud 转化映射标记，请在所有登陆页面上部署以下代码：<br></br>`<script src="//www.everestjs.net/static/amo-conversion-mapper.js"></script>`<br></br>注意：此标记支持 Advertising Cloud JavaScript v2 和 v3 转化跟踪标记，而不支持图像跟踪标记。 |
+| 组合选项 | 现在，启用组合选项“启用促销活动最大支出 % 目标”后，从不会超出最大支出目标。以前，Advertising Cloud 在首选这样做时会超出最大支出目标。 |
+| 搜索受众 | 位于“搜索”&gt;“受众”&gt;“库”中的受众库现在将自动包含“受众大小”列，该列每天从 Bing Ads 和 Google Ads 填充。您可以选择将该列用作数据过滤器。 |
