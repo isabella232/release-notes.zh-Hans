@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99ff53a630caedb0073076d19e306504235a98ab
+source-git-commit: e023f8bb366a21e41013e6f94682d48e0a194ee6
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**更新日期：2019年11月21日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -48,7 +48,7 @@ Experience Cloud 界面和产品管理的发行说明。
 Experience Platform、Experience Platform Launch、Identity Service 和安全公告的发行说明。
 
 * [Experience Platform Launch](#launch)
-* [安全公告和通知](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
+* [安全公告与建议](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
 
 ### Experience Platform Launch {#launch}
 
@@ -59,7 +59,7 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 Adobe Analytics 中的新增功能和修复：
 
 * [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics 管理员的重要注意事项](#aa-notices) (**更新日期：2019年11月21日**)
 * [AppMeasurement](#appm)
 
 有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
@@ -81,7 +81,7 @@ Adobe Analytics 中的新增功能和修复：
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| **[!UICONTROL 强制 IP 登录限制]**&#x200B;选项生命周期终止 | 2019年11月21日 | Announcing the October, 2020, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. （最初于2020年1月宣布） |
+| **[!UICONTROL 强制 IP 登录限制]**&#x200B;选项生命周期终止 | 2019年11月21日 | Announcing the *October, 2020*, end-of-life date for the IP login whitelisting (**[!UICONTROL Enforce IP Login Restrictions]**) functionality under the **[!UICONTROL Admin &gt; Company Settings &gt; Security]** menu. （这是2020年1月宣布的。） |
 | **[!UICONTROL 查看存档]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 &gt; 功能板]**）中的&#x200B;**[!UICONTROL 查看存档]**&#x200B;选项。 |
 | 更新了对 Cookie 中的 SameSite 属性的处理 | 2019 年 10 月 15 日 | 2019 年 8 月，Adobe 宣布向由 Analytics 设置的所有 Cookie 中添加 SameSite Cookie 设置。在以下情况下，将应用逻辑中的更新：<ul><li>所有不基于 Webkit 的第三方 Cookie 的 SameSite 属性均设置为 `none`。</li><li>所有其他 Cookie 未设置 SameSite 属性。</li></ul> |
 | 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 我们一直不懈努力，致力于维持最高安全标准并提升客户数据安全。为此，Adobe Analytics 对 TLS 1.1 的支持将持续到 2020 年 3 月 31 日，在这之后将不再支持 TLS 1.1。 |
