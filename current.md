@@ -60,7 +60,7 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 
 * [Experience platform发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [安全公告与建议](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
+* [安全公告和通知](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
 
 ### Experience Platform Launch {#launch}
 
