@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: November 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a21c646e95be9fd812ba64adb193dfcdfd9416f4
+source-git-commit: 729d021a7bddb5d10d06f466bb7e9f141f236bd0
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) (**更新日期：2019年12月18日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -60,7 +60,7 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 
 * [Experience platform发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [安全公告和通知](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
+* [安全公告与建议](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
 
 ### Experience Platform Launch {#launch}
 
@@ -71,7 +71,7 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 Adobe Analytics 中的新增功能和修复：
 
 * [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics 管理员的重要注意事项](#aa-notices) (**更新日期：2019年12月18日**)
 * [AppMeasurement](#appm)
 
 有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
@@ -93,6 +93,7 @@ Adobe Analytics 中的新增功能和修复：
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
+| 新的Adobe Analytics域 | 2019年12月18日 | 2020年1月16日，Adobe Analytics将移至新域- https://experience.adobe.com/analytics。 此更改可能导致在Safari中加载Analytics时出现Cookie问题。 取消选中Safari隐私首选项中的“防止跨站点跟踪”将启用跨域（和所有跨站点体验）的Cookie，并允许Analytics在这个新的Adobe Experience cloud域上运行。 用户可以无问题地使用其他浏览器，因为这仅影响Safari用户。 |
 | **[!UICONTROL 查看存档]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 &gt; 功能板]**）中的&#x200B;**[!UICONTROL 查看存档]**&#x200B;选项。 |
 | **[!UICONTROL 强制 IP 登录限制]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用&#x200B;**[!UICONTROL 管理 &gt; 公司设置 &gt; 安全]**&#x200B;菜单下的 IP 登录白名单（**[!UICONTROL 强制 IP 登录限制]**）功能。 |
 | 更新了对 Cookie 中的 SameSite 属性的处理 | 2019 年 10 月 15 日 | 2019 年 8 月，Adobe 宣布向由 Analytics 设置的所有 Cookie 中添加 SameSite Cookie 设置。在以下情况下，将应用逻辑中的更新：<ul><li>所有不基于 Webkit 的第三方 Cookie 的 SameSite 属性均设置为 `none`。</li><li>所有其他 Cookie 未设置 SameSite 属性。</li></ul> |
@@ -104,7 +105,7 @@ Adobe Analytics 中的新增功能和修复：
 | 分类规则生成器限制 | 添加于 2019 年 6 月 5 日 | 这些不是新限制，只是最近已添加到[此处](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html)的文档。 |
 | 新的区段运算符限制 | 添加于 2019 年 5 月 31 日 | 从 2019 年 7 月 18 日开始，区段运算符&#x200B;_包含任意_、_不包含任意_、_包含全部_&#x200B;和&#x200B;_不包含全部_&#x200B;将限制为每个输入字段 100 个词。这项限制将适用于此日期之后的所有新增区段和修改区段。超出此限制的现有区段将继续受到支持，但在缩短输入字段前，将无法进行修改或保存。作为我们持续不断努力的一个组成部分，将应用这些限制以提高查询性能。 |
 | 更改对&#x200B;**[!UICONTROL 启用日期]**&#x200B;和&#x200B;**[!UICONTROL 数字 2 分类]**&#x200B;的支持 | 更新日期：2019 年 5 月 28 日 | 已从代码库中移除了导入数字 2 分类和启用日期的分类的功能。这项更改已随 2019 年 7 月维护版本的发布而生效。如果您的导入文件中包含“数字”或“启用日期”列，则这些单元格会被静默忽略，同时该文件中的任何其他数据均会正常导入。<br/>现有的分类仍可以通过标准分类工作流程导出，并将继续在报表中可用。 |
-| 更改&#x200B;_报表总数_&#x200B;的计算 | 更新日期：2019 年 7 月 9 日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 采取了统一方式计算所有维度和量度中的&#x200B;_报表总数_。这导致某些报表（通常是 Prop 或客户归因报表）的总数出现变化。进行此项更改之前，在计算总数时，无论&#x200B;_未指定_&#x200B;是否显示在报表中，有些报表总数要么包含要么排除&#x200B;_未指定_&#x200B;行项目，总之处理方式并不一致。<br/>自 2019 年 6 月 18 日开始，_未指定_&#x200B;将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，进行此项更改之后，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;逻辑的区段，对于不同的维度可能会看到不同的结果，尤其是其中的&#x200B;_未指定_&#x200B;具有特殊名称（如推荐人类型维度的“已键入/已添加书签”行项目或设备类型维度的“其他”行项目）的维度。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。 |
+| 更改&#x200B;_报表总数_&#x200B;的计算 | 更新日期：2019 年 7 月 9 日 | 在 **2019 年 6 月 18 日**，Adobe Analytics 采取了统一方式计算所有维度和量度中的&#x200B;_报表总数_。这导致某些报表（通常是 Prop 或客户归因报表）的总数出现变化。进行此项更改之前，在计算总数时，无论&#x200B;_未指定_&#x200B;是否显示在报表中，有些报表总数要么包含要么排除&#x200B;_未指定_&#x200B;行项目，总之处理方式并不一致。<br/>自 2019 年 6 月 18 日开始，_未指定_&#x200B;将始终显示在报表总数中，即使它在报表中未显示为行项目也是如此。此外，进行此项更改之后，使用&#x200B;_存在_&#x200B;或&#x200B;_不存在_&#x200B;逻辑的区段，对于不同的维度可能会看到不同的结果，尤其是其中的&#x200B;_未指定_&#x200B;具有特殊名称（如推荐人类型维度的“已键入/已添加书签”行项目或设备类型维度的“其他”行项目）的维度。此更改将影响 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder 和报表 API。<br>**注意**:此报 _表总计算_ ，现在称为 _总计_。 请参阅“Analysis Workspace:“更新至自由格式表总计”。 |
 | 更新从 Analysis Workspace 下载 CSV 时的操作 | 2019 年 4 月 10 日 | 从 2019 年 4 月 11 日开始，已对 Analysis Workspace 中的 **[!UICONTROL CSV 下载]**&#x200B;功能（和&#x200B;**[!UICONTORL 复制到剪贴板]**）进行了一些更改，目的在于从导出的数据中删除格式。  <ul><li>千位分隔符将不再包含在内。小数分隔符将继续包含在内，并将遵循 **[!UICONTROL 组件 &gt; 报表格式 &gt; 千位分隔符]**&#x200B;下定义的格式。注意：使用逗号作为小数分隔符的数值将会继续在导出的 CSV 中引用。</li><li>不会显示任何货币符号。</li><li>不会显示任何百分比符号。百分数将以小数形式显示。例如，75% 将表示为 0.75。</li><li>时间将以秒为单位显示。</li><li>同类群组表将只显示原始值；百分比将被删除。</li><li>如果数字无效，将显示空单元格。</li></ul> |
 | Analysis Workspace 调试器命令即将变更 | 2019 年 4 月 4 日 | **2019 年 6 月 13 日**，开启 Analysis Workspace 调试器的控制台命令变为 adobeTools.debug.includeOberonXml。adobe.tools.debug.includeOberonXml 命令将于该日期之后停止运行。 |
 | 移动浏览器版本号 | 2019 年 2 月 7 日 | 从 2019 年 1 月 8 日开始，我们将移动浏览器版本号的截断级别从 2 更改为 1。在该日期之后，版本号将只显示前两个级别（例如 _Firefox 64.0.2_ 现在报告为 _Firefox 64.0_）。 |
