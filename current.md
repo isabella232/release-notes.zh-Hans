@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 51e45852d84bd30b5d0fb21640b2e9f31080840c
+source-git-commit: b0f2fe07102a20e343f69b1c156f48ca4f284966
 
 ---
 
@@ -65,7 +65,7 @@ Adobe将更新域和界面标题，以统一和改进您在所有Experience clou
 
 * 新的解决方案URL:所 `experience.adobe.com/<application name>.` 有产品最终都会采用此URL模式。 寻找新的URL以在月内生效。
 * 更轻松地在组织之间切换或切换到其他应用程序。
-* 改进的产品帮助：Experience League  （体验联盟）已集成到产品中，因此帮助搜索还包括来自社区论坛和视频内容的结果。 此更改简化了对更多内容的访问，并有助于您充分利用Experience Cloud。 此外，单击“ **[!UICONTROL 帮助]**>**[!UICONTROL &#x200B;反馈]** ”，报告问题或与产品Adobe分享您的想法。
+* 改进的产品帮助：Experience League  （体验联盟）已集成到产品中，因此帮助搜索还包括来自社区论坛和视频内容的结果。 此更改简化了对更多内容的访问，并有助于您充分利用Experience Cloud。 此外，单击“ **[!UICONTROL 帮助]**>**[!UICONTROL &#x200B;反馈]** ”，报告问题或与Adobe分享您的想法。
 * 改进的通知：“通 [!UICONTROL 知] ”下拉菜单现在有两个选项卡，一个用于您自己的产品通知，一个用于全局产品通知。
 
 **** 注意：源 [!UICONTROL 页面] （2020年1月已弃用）。 请查看产品内的弃用通知。
