@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7ec12529edf495c36cc153028458257939782e41
+source-git-commit: d92cffebc2db7e6a6d7d7b531390b6e307b2943e
 
 ---
 
@@ -63,13 +63,15 @@ Adobe将更新域和界面标题，以统一和改进您在所有Experience clou
 
 更新包括：
 
-* 新的解决方案URL:所 `experience.adobe.com/<application name>.` 有产品最终都会采用此URL模式。 寻找新的URL以在月内生效。 注意：
-   * 域更改可能导致Safari中的cookie问题。 Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain. 您可以无问题地使用其他浏览器，因为这仅影响Safari用户。
+* 新的解决方案URL: `experience.adobe.com/<application name>`:
+   * 所有产品最终都将采用此URL模式。 寻找新的URL以在月内生效。
+   * 支持的浏览 [!DNL Microsoft Edge]器包括 [!DNL Google Chrome]、 [!DNL Firefox]、 [!DNL Safari]和(最 [!DNL Opera] 新版本)。
+   * (仅[!DNL Safari] 限)域更改可能导致Cookie问题 [!DNL Safari]。 Unchecking _Prevent cross-site tracking_ in the [!DNL Safari] Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Experience Cloud to function on this new domain.
 * 更轻松地在组织之间切换或切换到其他应用程序。
 * 改进的产品帮助：Experience League  （体验联盟）已集成到产品中，因此帮助搜索还包括来自社区论坛和视频内容的结果。 此更改简化了对更多内容的访问，并有助于您充分利用Experience Cloud。 此外，单击“ **[!UICONTROL 帮助]**>**[!UICONTROL &#x200B;反馈]** ”，报告问题或与Adobe分享您的想法。
 * 改进的通知：“通 [!UICONTROL 知] ”下拉菜单现在有两个选项卡，一个用于您自己的产品通知，一个用于全局产品通知。
 
-**注意：** 源 [!UICONTROL 页面] （2020年1月已弃用）。 请查看产品内的弃用通知。
+**** 注意：源 [!UICONTROL 页面] （2020年1月已弃用）。 请查看产品内的弃用通知。
 
 有关产品文档，请参阅 [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)。
 
@@ -136,8 +138,8 @@ Adobe Analytics 中的新增功能和修复：
 | -----------| ---------- | ---------- |
 | 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 2020年1月16日，Adobe Analytics将开始移至新域——注 `https://experience.adobe.com/analytics.`<br>**意&#x200B;**:此更改适用于使用其Adobe ID或Enterprise ID访问Analytics的所有用户。<ul><li>域更改可能在Safari中加载Analytics时导致Cookie问题。 Unchecking _Prevent cross-site tracking_ in the Safari Privacy Preferences enables cookies across domains (and all cross-site experiences), and allows Analytics to function on this new Adobe Experience Cloud domain. 您可以无问题地使用其他浏览器，因为这仅影响Safari用户。</li><li>在特定情况下，域更改可 [!UICONTROL 能会导致Activity Map] （活动图）停 [止为某些客户工作](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)。</li></ul> |
 | 生命结束- Analytics Legacy API | 2020 年 1 月 9 日 | 在2020年11月，以下Analytics Legacy API服务将停止使用并关闭。 使用这些服务构建的当前集成将停止工作。 <ul><li>1.3分析API</li><li>1.4 SOAP分析API</li><li>旧版OAuth身份验证（OAuth和JWT）</li></ul>我们提供了 [Legacy API EOL常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) ，以帮助回答您的问题并提供有关如何继续的指导。 使用这些服务的API集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email)[或2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。 旧版OAuth帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics集成帐户，该帐户可用于访问1.4 Analytics API和2.0 Analytics API。 |
-| **[!UICONTROL 查看存档]** 选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 > 功能板]**）中的 **[!UICONTROL &#x200B;查看存档]** 选项。 |
-| **[!UICONTROL 强制 IP 登录限制]** 选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用&#x200B;**[!UICONTROL 管理 > 公司设置 > 安全]** 菜单下的 IP 登录白名单（**[!UICONTROL &#x200B;强制 IP 登录限制]**）功能。 |
+| **[!UICONTROL 查看存档]**选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 > 功能板]**）中的**[!UICONTROL &#x200B;查看存档]**选项。 |
+| **[!UICONTROL 强制 IP 登录限制]**选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用&#x200B;**[!UICONTROL 管理 > 公司设置 > 安全]**菜单下的 IP 登录白名单（**[!UICONTROL &#x200B;强制 IP 登录限制]**）功能。 |
 | 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 我们一直不懈努力，致力于维持最高安全标准并提升客户数据安全。为此，Adobe Analytics 对 TLS 1.1 的支持将持续到 2020 年 3 月 31 日，在这之后将不再支持 TLS 1.1。 |
 | 圣何塞 FTP 中转站停止为伦敦和新加坡提供支持 | 2020 年 7 月 | 对于位于伦敦和新加坡的客户，我们将不再提供伦敦或新加坡与圣何塞数据中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之间的数据中转支持。<br/><ul><li>伦敦客户，请使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>新加坡客户，请使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | 面向 Analytics 用户的 `createDate` 字段即将发生变化 | 2019 年 8 月 30 日 | In October or November 2019, the `createDate` field for Analytics users was updated from US Pacific Time to a correctly formatted date and time value with time zone information.(AN-183468) |
@@ -158,7 +160,7 @@ Audience manager中添加的修复和功能。
 
 ### 修复和改进 {#aam-fixes-and-improvements}
 
-* 修复了创建目标工作 [!UICONTROL 流中的一个问题，该问题导致在选择“集成平台] ”作为“类别”后， “基本信息”部分会消失，而且无法完成该工作流。 (AAM-52397, AAM-52414)
+* 修复了创建目标工作 [!UICONTROL 流中的一个问题，该问题导致在选择“集成平台] ”作为“类别”后， ****“基本信息”部分会消失，而且无法完成该工作流。 (AAM-52397, AAM-52414)
 * 我们修复了在Apple Safari和Mozilla Firefox [!UICONTROL 浏览器中不加载“创建／编辑目标] ”页面的错误。 (AAM-51784)
 
 ## Experience Manager {#aem}
