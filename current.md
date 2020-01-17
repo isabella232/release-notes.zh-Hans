@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e49bdb89cd3cf434a4932d1669d6f3a2df973769
+source-git-commit: dec998d8e23bf8ac302d750fd36b13eb330abafe
 
 ---
 
 
-# 抢先体验 - Adobe Experience Cloud 发行说明 - 2020 年 1 月
+# Adobe Experience cloud发行说明- 2020年1月
 
 Adobe Experience Cloud 的新增功能和修复。
-
->[!IMPORTANT]
->此页面包含预发行内容，且在每款产品计划发行之前可能会进行更改。
 
 >[!NOTE]
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)。对于在版本发行之后发布的新信息，将使用发布日期进行标记。
