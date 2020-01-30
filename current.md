@@ -65,7 +65,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
    * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
    * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
 * 更轻松地在组织之间切换，或切换到其他应用程序。
-* 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]**>**[!UICONTROL &#x200B;反馈]**，可报告问题或与 Adobe 分享您的想法。
+* 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]**&#x200B;>&#x200B;**[!UICONTROL &#x200B;反馈]**&#x200B;，可报告问题或与 Adobe 分享您的想法。
 * 改进了通知：现在，[!UICONTROL 通知]下拉菜单有两个选项卡，一个用于您自己的产品通知，一个用于全球产品通知。
 
 **注意：**[!UICONTROL 信息源]页面将在 2020 年 1 月被弃用。请查看产品内的弃用通知。
@@ -117,7 +117,7 @@ Adobe Analytics 中的新增功能和修复：
 | 功能 | 描述 |
 | -----------| ---------- |
 | Analysis Workspace — 用户界面改进 | 在 2020 年 1 月 16 日，Analysis Workspace 将开始进行用户界面改进，此过程将持续几个月。这些更改的目标是使我们的用户能够更方便地访问该应用程序，并在 Adobe Experience Cloud 中提供更加一致的体验。 |
-| Analysis Workspace – 自由格式表生成器 | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新。相反，单击&#x200B;**[!UICONTROL 生成]**后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table.html)。 |
+| Analysis Workspace – 自由格式表生成器 | 启用表生成器后，您可以通过拖放多个维度、细分、量度和区段来构建可解答更复杂业务问题的表。数据不会立即更新。相反，单击&#x200B;**[!UICONTROL 生成]**&#x200B;后才会进行更新，这样可在您知道自己要构建什么表的情况下节省您的时间。此外，此功能还提供：<ul><li>**预览**：您可以先预览表的格式，然后再花费时间渲染实际数据。</li><li>**灵活的行和划分设置**：您可以为每个维度行设置行级别和划分级别。以前，工作区施加了一些默认值，这些默认值在返回数据之前无法更改。</li><li>**按状态划分**：您可以将维度行设置为始终&#x200B;_按状态划分_&#x200B;而不是&#x200B;_按特定项目_（默认值）划分。</li><li>**手动静态行排序**：您可以手动对静态行进行排序，以使表行完全按照您的需要显示。以前，静态行只能按度量列或按字母顺序排序。</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/freeform-table.html)。 |
 | 适用于跨设备分析 (CDA) 的新的[!UICONTROL 标识的状态]维度 | 我们将向 CDA 虚拟报表包中添加一个名为[!UICONTROL 标识的状态]的新维度。该维度的值有两种：_已识别_&#x200B;和&#x200B;_未识别_。_已识别_&#x200B;表示设备图表已经识别了人员。_未识别_&#x200B;表示设备图表尚未识别人员。<br>这意味着，CDA 用户现在可以创建计算量度，例如[!UICONTROL 设备图覆盖]，此量度描述设备图表可识别虚拟包表包中的人员数量。此量度有助于对 CDA 压缩率进行故障诊断。如果识别出的人数很少，则拼接的级别将较低。 |
 | Data Warehouse API 中的 VRS 支持 | 现在，可通过 Data Warehouse API 使用虚拟报表包。以前，它们只能通过 Data Warehouse UI 使用。现在，使用 Data Warehouse API 时，您可以查看和查询虚拟报表包，但前提是应用于虚拟报表包的区段与 Data Warehouse 兼容。 |
 | 隐私服务 API：CCPA | 《加州消费者隐私法案》(CCPA) 加强了对美国加利福尼亚州居民的隐私权和消费者保护。此法案已于 2020 年 1 月 1 日生效。<br><br/>CCPA 为加州居民提供了新的数据隐私权，例如，访问和删除个人数据的权利，知晓其个人数据是否被出售或披露（包括披露给谁）的权利，以及拒绝出售其个人数据的权利。<br><br/>“隐私服务”支持选择退出出售个人数据的请求。<br><br/>“隐私服务”此前称为 GDPR 服务，现在不仅保留了以前的各项功能，而且扩展到可支持 CCPA。<br/><br/>[Analytics 中的 CCPA](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/data-governance/an-ccpa-overview.html)<br><br/>[隐私服务概述](https://www.adobe.io/apis/experiencecloud/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md) |
@@ -134,10 +134,10 @@ Adobe Analytics 中的新增功能和修复：
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意&#x200B;**：这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 Safari 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上正常运行。您可以使用其他浏览器而不会出现任何问题，因为该更改仅影响 Safari 用户。</li><li>[在特定情况下](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
+| 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意&#x200B;**&#x200B;：这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 Safari 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上正常运行。您可以使用其他浏览器而不会出现任何问题，因为该更改仅影响 Safari 用户。</li><li>[在特定情况下](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
 | 生命周期结束 - Analytics 旧版 API | 2020 年 1 月 9 日 | 2020 年 11 月，以下 Analytics 旧版 API 服务将停止使用并关闭。当前使用这些服务构建的集成将会停止工作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
-| **[!UICONTROL 查看存档]**选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 > 功能板]**）中的**[!UICONTROL &#x200B;查看存档]**选项。 |
-| **[!UICONTROL 强制 IP 登录限制]**选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用&#x200B;**[!UICONTROL 管理 > 公司设置 > 安全]**菜单下的 IP 登录白名单（**[!UICONTROL &#x200B;强制 IP 登录限制]**）功能。 |
+| **[!UICONTROL 查看存档]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 > 功能板]** ）中的&#x200B;**[!UICONTROL &#x200B;查看存档]**&#x200B;选项。 |
+| **[!UICONTROL 强制 IP 登录限制]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用&#x200B;**[!UICONTROL 管理 > 公司设置 > 安全]**&#x200B;菜单下的 IP 登录白名单（**[!UICONTROL &#x200B;强制 IP 登录限制]** ）功能。 |
 | 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 我们一直不懈努力，致力于维持最高安全标准并提升客户数据安全。为此，Adobe Analytics 对 TLS 1.1 的支持将持续到 2020 年 3 月 31 日，在这之后将不再支持 TLS 1.1。 |
 | 圣何塞 FTP 中转站停止为伦敦和新加坡提供支持 | 2020 年 7 月 | 对于位于伦敦和新加坡的客户，我们将不再提供伦敦或新加坡与圣何塞数据中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之间的数据中转支持。<br/><ul><li>伦敦客户，请使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>新加坡客户，请使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 | 面向 Analytics 用户的 `createDate` 字段即将发生变化 | 2019 年 8 月 30 日 | 在 2019 年 10 月或 11 月，Analytics 用户的 `createDate` 字段已由美国太平洋时间更新为包含时区信息且格式正确的日期和时间值。(AN-183468) |
@@ -158,7 +158,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ### 修复和改进 {#aam-fixes-and-improvements}
 
-* 修复了[!UICONTROL 创建目标]工作流程中的一个问题：当选择&#x200B;**[!UICONTROL 集成平台]**作为[!UICONTROL 类别]时，[!UICONTROL 基本信息]部分可能会消失，且工作流程可能无法完成。（AAM-52397、AAM-52414）
+* 修复了[!UICONTROL 创建目标]工作流程中的一个问题：当选择&#x200B;**[!UICONTROL 集成平台]**&#x200B;作为[!UICONTROL 类别]时，[!UICONTROL 基本信息]部分可能会消失，且工作流程可能无法完成。（AAM-52397、AAM-52414）
 * 我们修复了无法在 Apple Safari 和 Mozilla Firefox 浏览器中加载[!UICONTROL 创建/编辑]目标页的错误。(AAM-51784)
 
 ## Experience Manager {#aem}
