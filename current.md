@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c7acef23595f68b576422738fb54a1bdf09a81c4
+source-git-commit: 99c054f82fd5ed798478330059a8f3e1f6484432
 
 ---
 
@@ -19,17 +19,19 @@ Adobe Experience Cloud 的新增功能和修复。
 
 **发行日期：2020 年 1 月 16 日**
 
+最新更新：2020年2月10日
+
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面和核心服务](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services 和 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics)（**更新日期：2020 年 1 月 21 日**）
+* [!DNL Analytics](#analytics) ( **更新日期：2020年1月21日)**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)（链接到解决方案帮助）
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html)（链接到解决方案帮助）
-* [!DNL Advertising Cloud](#adcloud)
+* [!DNL Advertising Cloud](#adcloud) ( **更新于2020年2月10日)**
 
 在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
