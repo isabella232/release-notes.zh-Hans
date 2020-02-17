@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0a9f95d1d9a2bba69cecada0d0c39f70e507c995
+source-git-commit: d2b03da33ea1c49d683fc9486ae8b7d7bc59c87f
 
 ---
 
@@ -156,10 +156,13 @@ Adobe Analytics 中的新增功能和修复：
 |----|----|
 | [活动使用情况报告](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | “活 [!UICONTROL 动使用情况报告] ”可帮助您查看和跟踪Audience Manager实例的活动使用情况，让您清楚地了解活动使用情况与合同约定的相比情况。 |
 
-<!-- ### Fixes and Improvements {#aam-fixes-and-improvements}
+### 修复和改进 {#aam-fixes-and-improvements}
 
-* Fixes
-* Fixes -->
+* 修复了导致目标创建流程中断“集成帐户”选择的UI的错误(AAM-52414)。
+* 修复了在“算法模型”创建流程中导航时导致UI中断的错误(AAM-37942)。
+* 修复了使用Adobe Experience Platform集成(AAM-52814)的客户在保存新目标或现有目标的数据导出控件时，导致“数据导出”选择不保存的错误。
+* 修复了导致第三方特征推荐对名称中包含管道字符(`|`)的特征(AAM-51635)工作不正确的错误。
+* 整个UI中的多种辅助功能改进。
 
 ## Experience Manager {#aem}
 
@@ -222,13 +225,13 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## Advertising Cloud {#adcloud}
 
-2020年2月10日更新，2月8日版本
+更新日期：2020 年 2 月 10 日（适用于 2 月 8 日版）
 
 | 视图 | 功能 |
 |------|---------|
-| 组合选项 | 您现在可以添加Yahoo! 日本展示网络(YDN)营销活动到组合以优化营销活动预算和广告组级别竞价。 相同的出价适用于广告组中的所有广告。 YDN营销活动的数据包含在组合的模拟中。 |
-| “搜索”>“批量工作表” | 您现在可以使用批量表创建、编辑和删除Google响应式搜索广告(RSA)。 以前，仅通过“搜索”>“营销活动”的标准营销活动管理界面提供 **[!UICONTROL 支持]****[!UICONTROL ,]** |
-| “搜索”>“营销活动”、“报告” | Google ads重要性指标 `Impr. (Abs. Top) %` 和 `Impr. (Top) %` Google ads重要性指标现在可在所有基本报告和实体级营销活动管理视图中使用，购物产品组除外，还可在 [!UICONTROL Campaign Daily Ispension Share] 、  Keyword Daily Ispension Share报告以及标签和约束视图中使用。 |
+| 项目组合 | 如今，您可以在项目组合中添加 Yahoo! Japan Display Network (YDN) 促销活动，以优化促销活动预算和广告组级别的竞价。相同的竞价适用于广告组中的所有广告。YDN 促销活动的数据包含在项目组合的各个模拟中。 |
+| 搜索 > 批量工作表 | 现在，您可以通过批量工作表来创建、编辑和删除 Google 响应式搜索广告 (RSA)。Previously, support was available only through the standard campaign management interface at **[!UICONTROL Search]** > **[!UICONTROL Campaigns]** |
+| 搜索 > 促销活动、报表 | The Google Ads prominence metrics `Impr. (Abs. Top) %` and `Impr. (Top) %` are now available in all basic reports and entity-level campaign management views except for those for shopping product groups, in the [!UICONTROL Campaign Daily Impression Share] and [!UICONTROL Keyword Daily Impression Share] reports, and in the labels and constraints views. |
 
 ## [!DNL Magento] {#magento}
 
