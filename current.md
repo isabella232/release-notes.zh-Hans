@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
+source-git-commit: 7a8c0c680195b5308dfb6c0214b1d56ceda88584
 
 ---
 
@@ -21,13 +21,13 @@ Adobe Experience Cloud 的新增功能和修复。
 
 （具体产品发布日期可能有所不同）
 
-最新更新：2020年2月10日
+最新更新：2020年2月21日
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面和核心服务](#ecloud)
 * [Experience Platform](#platform)
 * [Mobile Services 和 Mobile SDK](#mobile)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) （更新日期：2020年2月21日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -105,9 +105,9 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 
 Adobe Analytics 中的新增功能和修复：
 
-* [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)（更新日期：2020 年 1 月 21 日）
+* [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)
 * [Analytics 管理员的重要注意事项](#aa-notices)
-* [AppMeasurement](#appm)
+* [AppMeasurement](#appm) (2020 年 2 月 21 日更新)
 
 有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
@@ -141,7 +141,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ### [!DNL AppMeasurement] {#appm}
 
-请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。版本2.18.0已于2020年2月13日发布。
+请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。版本2.19.0已于2020年2月21日发布。
 
 ## Audience Manager {#aam}
 
