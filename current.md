@@ -5,17 +5,14 @@ doc-type: release notes
 last-update: February 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 71ba31c62c66771c16273131db3b72bbaa614d52
+source-git-commit: c62d85f09ce596482a019aa5d0f1d517bf2df9fe
 
 ---
 
 
-# 早期访问- Adobe Experience cloud发行说明- 2020年2月
+# Adobe Experience cloud发行说明- 2020年2月
 
 Adobe Experience Cloud 的新增功能和修复。
-
->[!IMPORTANT]
->此页面包含预发行内容，在发行版之前可能会发生更改。
 
 >[!NOTE]
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)。对于在版本发行之后发布的新信息，将使用发布日期进行标记。
@@ -209,16 +206,13 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
-### Campaign Classic
+### Campaign Classic 19.2.3
 
-* [Campaign Classic 20.1](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)
-* [Campaign Classic 19.2.3更新](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-2.html)
+有关修复和改进，请参阅 [Adobe Campaign Classic 发行说明](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html)。
 
-### Campaign Standard
+### Campaign Standard 20.1
 
-* [Campaign Standard 20.1.3更新](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1-3---february-2020)
-* [Campaign Standard 20.1.2更新](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.htmll#release-20-1-2---february-2020)
-* [Campaign Standard 20.1](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html#release-20-1---february-2020)
+有关修复和改进，请参阅 [Adobe Campaign Standard 发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html)。
 
 ### 其他资源
 
