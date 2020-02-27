@@ -102,7 +102,7 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 
 ## Mobile Services 和 Mobile SDK {#mobile}
 
-2020年2月4日：版本4.19.0
+**2020 年 2 月 4 日：版本 4.19.0**
 
 此版本中进行了以下更新：
 
