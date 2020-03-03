@@ -4,24 +4,22 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: February 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 8ee099db4445862bdae3c94010f70ba2696798f9
+translation-type: tm+mt
+source-git-commit: 9ed727b23cbc90965f44c4bb914728bbc2394d6b
 
 ---
 
 
-# Adobe Experience Cloud 发行说明 - 2020 年 2 月
+# Adobe Experience cloud发行说明- 2020年3月
 
 Adobe Experience Cloud 的新增功能和修复。
 
 >[!NOTE]
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [[!DNL Adobe Priority Product Update]](https://www.adobe.com/subscription/priority-product-update.html)。对于在版本发行之后发布的新信息，将使用发布日期进行标记。
 
-**发行日期：2020 年 2 月 20 日**
+**发行日期：2020 年 3 月**
 
 （具体产品的发布日期可能有所不同）
-
-最近更新日期：2020 年 2 月 26 日
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面和核心服务](#ecloud)（更新日期：**2020 年 2 月 26 日**）
@@ -31,13 +29,13 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)（链接到解决方案帮助）
-* [!DNL Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html)（链接到解决方案帮助）
+* [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)（链接到解决方案帮助）
+* [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html)（链接到解决方案帮助）
 * [!DNL Advertising Cloud](#adcloud)
 * [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)（更新日期：**2019 年 2 月 26 日**）
+* [!DNL Marketo](#marketo)
 
-在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html)。
+在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
 ## Adobe 系统状态 {#status}
 
@@ -65,11 +63,6 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 | -----------| ---------- |
 | 管理工具 - 查看用户详细信息 | 管理员可以在新的“管理工具”中查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
 
-**修复**
-
-* **客户属性：**&#x200B;客户属性 UI 现在可显示在 Target 中同步的其他配置文件状态。(MCUI-10231)
-* **触发器核心服务：**&#x200B;由于很少使用，删除了在创建终止类型触发器时的倾向得分“30 天内回访的可能性”。(MCUI-10056)
-
 ### 统一的产品域
 
 Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cloud 应用程序中的体验。这些增强功能旨在以细微而重要的方式简化您的体验。这些增强不会更改您当前的工作流程。
@@ -78,7 +71,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 
 * 新解决方案 URL：`experience.adobe.com/<application name>`：
    * 所有产品最终都将采用此 URL 模式。寻找即将在本月内生效的新 URL。
-   * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
+   * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
    * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
 * 更轻松地在组织之间切换，或切换到其他应用程序。
 * 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]** > **[!UICONTROL 反馈]**，可报告问题或与 Adobe 分享您的想法。
@@ -86,7 +79,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 
 **注意：**[!UICONTROL 信息源]页面将在 2020 年 1 月被弃用。请查看产品内的弃用通知。
 
-有关产品文档，请参阅 [Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)。
+有关产品文档，请参阅 [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)。
 
 ## Experience Platform {#platform}
 
@@ -94,19 +87,15 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 
 * [Experience Platform 发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [安全公告与建议](https://helpx.adobe.com/cn/security.html)（所有 Adobe 产品）
+* [安全公告与建议](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
 
 ### Experience Platform Launch {#launch}
 
-有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/release-notes/current.html)。
+有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
 
 ## Mobile Services 和 Mobile SDK {#mobile}
 
-2020 年 2 月 4 日：版本 4.19.0
-
-此版本中进行了以下更新：
-
-**生命周期：**&#x200B;添加了一个新的 API `pauseCollectingLifecycleData`，可缓解从某些旧 iOS 设备报告的异常会话时长数据。
+移动内容。
 
 ## [!DNL Analytics] {#analytics}
 
@@ -116,29 +105,25 @@ Adobe Analytics 中的新增功能和修复：
 * [Analytics 管理员的重要注意事项](#aa-notices)
 * [AppMeasurement](#appm) (2020 年 2 月 21 日更新)
 
-有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html)。
+有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
 
 ### Adobe Analytics 中的新增功能、增强功能和修复 {#aa-features}
 
-<!--* **Support for multiple report suites in Workspace:** You can now bring in data from multiple report suites into a single project to view side by side. Beginning on Feb 20, 2020, the feature will roll out to all customers over the course of several weeks. [Learn more...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)-->
-* 新增&#x200B;**可供使用跨设备分析的组织使用的 Workspace 模板：**&#x200B;此模板显示 CDA 在拼接访问方面的效果，并向您介绍 CDA 专用的维度和量度。需要使用 CDA 的报表包。有关更多信息，请参阅[设置跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/cda-setup.html)。
-* **使用专用图形的组织的 CDA 拼接延迟缩短为一天：**&#x200B;专用图形功能已得到增强，可减少图形生成延迟，从每周批处理流程缩短为每日更新的图形，从而使 CDA 客户能够访问更多最新的标识图形和链接。
-* **实验室（技术预览）：**&#x200B;这一新增的 Analytics 功能可让您在生产中测试新功能原型，并向 Adobe 提供有价值的反馈。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/tech-previews/overview.html)
-* **Workspace 中的新热键：**<ul><li>折叠/展开所有面板：`alt + m`</li><li>折叠/展开活动面板：`alt + ctrl + m`</li><li>搜索左边栏：`ctrl + /`</li><li>移到下一个面板：`alt + Right Key`</li><li>移到上一个面板：`alt + Left Key`</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)
-* **其他 Workspace 增强功能：**<ul><li>将面板或可视化图表放入 [!UICONTROL Workspace] 后，左边栏会自动切换到组件，以实现更加无缝的工作流程。</li><li>现在可以对模板组件进行操作（例如，标记、标记为收藏、已批准）。</li><li>过滤的量度和区段列表提供了 `+` 按钮，可在找不到所需内容时添加新组件。</li></ul>
-* **Workspace 调试器**&#x200B;已添加到“帮助”菜单，可让您根据调试 Workspace 请求更加无缝地启用调试器。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md)
-* **基于 Chromium 的 Microsoft Edge 浏览器：**&#x200B;此版本进行了一些更改，以出于报告目的识别基于 Chromium 的 Microsoft Edge 浏览器（版本 79 及更高版本）。
+* **Analysis Workspace中的多个报表包**:您现在可以将多个报表包中的数据并入一个Analysis Workspace项目中，以并排查看。 从2020年3月12日开始，该功能将在几周内向所有客户推出。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **Experience Cloud受众优化**:利用此功能，您可以在8小时内（而不是之前的48小时处理时间）将区段发布到Experience Cloud。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 
 #### 修复
 
-* 修复了区段 UI 中显示[!UICONTROL 营销渠道]维度与[!UICONTROL 数据仓库]兼容的问题，实际上，这些维度并不兼容。将来，[!UICONTROL 区段生成器]不再将这些维度显示为与[!UICONTROL 数据仓库]兼容。(AN-202297)
-* 修复了在 Analytics 中更新的已发布区段名称在 24 小时内未在 Audience Manager 中更新的问题。(AN-199974)
+* 修复了Reports &amp; Analytics中阻止客户下载。xls报表的问题。（AN-206541、AN-204008）
+* 新Shell的推出修复了与切换Experience cloud组织相关的几个客户问题。（AN-200844、AN-186920）
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意：**&#x200B;这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 Safari 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上运行。您可以使用其他浏览器而不会出现任何问题，因为该更改仅影响 Safari 用户。</li><li>[在特定情况下](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
+| “转换级别”设置的EOL | 2020 年 3 月 3 日 | 2020年3月12 [日，将从UI中删除“管理工具](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) ”>“报表包”>“常规帐户设置”中的“无效转换级别”设置。 |
+| 仪表板存档的EOL | 2020 年 3 月 3 日 | 自2020年3月12日起，“报告与分析”中“管理仪表板”下的“查看存档”设置将不再可用。 |
+| 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意：**这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 Safari 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上运行。您可以使用其他浏览器而不会出现任何问题，因为该更改仅影响 Safari 用户。</li><li>[在特定情况下](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
 | 生命周期结束 - Analytics 旧版 API | 2020 年 1 月 9 日 | 2020 年 11 月，以下 Analytics 旧版 API 服务将停止使用并关闭。当前使用这些服务构建的集成将会停止工作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | **[!UICONTROL 查看存档]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用功能板管理器（**[!UICONTROL 组件 > 功能板]**）中的&#x200B;**[!UICONTROL 查看存档]**&#x200B;选项。 |
 | **[!UICONTROL 强制 IP 登录限制]**&#x200B;选项生命周期终止 | 2019 年 10 月 30 日 | 2020 年 1 月，将终止使用&#x200B;**[!UICONTROL 管理 > 公司设置 > 安全]**&#x200B;菜单下的 IP 登录白名单（**[!UICONTROL 强制 IP 登录限制]**）功能。 |
@@ -148,7 +133,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ### [!DNL AppMeasurement] {#appm}
 
-请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。版本 2.19.0 于 2020 年 2 月 21 日发布。
+请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。版本 2.19.0 于 2020 年 2 月 21 日发布。
 
 ## Audience Manager {#aam}
 
@@ -158,84 +143,43 @@ Adobe Analytics 中的新增功能和修复：
 
 | 功能 | 描述 |
 |----|----|
-| [活动使用情况报表](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/administration/activity-usage-reporting.html) | [!UICONTROL 活动使用情况报表]可帮助您查看和跟踪 Audience Manager 实例的活动使用情况，让您清楚地了解活动使用情况与合同约定的对比情况。 |
-| [DIL 9.4](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/dil-api/dil-release-notes.html) | 我们已将 [!DNL Data Integration Library] ([!DNL DIL]) 更新到版本 9.4。此更新改进了与 [!DNL Google Chrome] [!DNL SameSite] Cookie 的兼容性。 |
+|  |  |
+|  |  |
 
 ### 修复和改进 {#aam-fixes-and-improvements}
 
-* 修复了导致目标创建流程中断用于“集成帐户”选择的 UI 的错误 (AAM-52414)。
-* 修复了导航“算法模型”创建流程时导致 UI 中断的错误 (AAM-37942)。
-* 修复了使用 Adobe Experience Platform 集成的客户在保存新目标或现有目标的数据导出控件时，导致“数据导出”选择无法保存的错误 (AAM-52814)。
-* 修复了导致第三方特征建议无法正确处理名称中包含管道字符 (`|`) 的特征的错误 (AAM-51635)。
-* 改进了整个 UI 中的多个辅助功能。
+针对AAM的修复。
 
 ## Experience Manager {#aem}
 
 Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
 
-### 产品版本
-
-* **Cloud Manager 2020.2.0**
-
-   Cloud Manager 2020.2.0 针对 Adobe Experience Manager 云服务简化了沙盒的自助管理。
-
-   请参阅[发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)。
-
-### 自助服务
-
-* **AEM 云服务教程**
-
-   通过 [AEM 云服务的教程](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html)快速入门。
-
-* **AEM Forms 交互式通信批处理 API**
-
-   AEM Forms 交互式通信的批处理 API 使客户能够自动或按需生成多个交互式通信。客户可以同时生成打印和 Web 输出。
-请参阅[使用批处理 API 生成多个交互式通信](https://docs.adobe.com/content/help/en/experience-manager-65/forms/interactive-communications/generate-multiple-interactive-communication-using-batch-api.html)。
-
-* **AEM Forms on JEE 的支持平台**
-
-   为 AEM Forms on JEE 客户添加了对 Oracle 19c 的支持。请参阅 [AEM Forms on JEE 的支持平台](https://docs.adobe.com/content/help/en/experience-manager-65/forms/install-aem-forms/jee-installation/aem-forms-jee-supported-platforms.html)。
-
 ### 其他资源
 
 * [AEM 作为云服务](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)
-* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-5.html)
-* [AEM 6.4 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
-* [AEM 6.3 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
-* [AEM 6.2 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
-* [更早版本的 AEM 文档](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
-* [Dynamic Media Classic 帮助主页](https://docs.adobe.com/content/help/zh-Hans/dynamic-media-classic/using/home.html)
-* [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/zh_CN/s7/release_notes/index.html)
+* [AEM 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [AEM 6.4 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [AEM 6.3 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [AEM 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [更早版本的 AEM 文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
+* [Dynamic Media Classic 帮助主页](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html)
+* [Dynamic Media 发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ## [!DNL Campaign] {#ac}
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
-### Campaign Classic 19.2.3
-
-有关修复和改进，请参阅 [Adobe Campaign Classic 发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html)。
-
-### Campaign Standard 20.1
-
-有关修复和改进，请参阅 [Adobe Campaign Standard 发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html)。
-
 ### 其他资源
 
-* Adobe Campaign Standard：[文档](https://helpx.adobe.com/cn/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)
+* Adobe Campaign Standard：[文档](https://helpx.adobe.com/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic：[文档](https://helpx.adobe.com/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
 更新日期：2020 年 2 月 10 日（适用于 2 月 8 日版）
-
-| 视图 | 功能 |
-|------|---------|
-| 项目组合 | 如今，您可以在项目组合中添加 Yahoo! Japan Display Network (YDN) 促销活动，以优化促销活动预算和广告组级别的竞价。相同的竞价适用于广告组中的所有广告。YDN 促销活动的数据包含在项目组合的各个模拟中。 |
-| 搜索 > 批量工作表 | 现在，您可以通过批量工作表来创建、编辑和删除 Google 响应式搜索广告 (RSA)。以前，只能通过&#x200B;**[!UICONTROL 搜索]** > **[!UICONTROL 促销活动]**&#x200B;中的标准促销活动管理界面来提供支持 |
-| 搜索 > 促销活动、报表 | Google Ad 的突出量度 `Impr. (Abs. Top) %` 和 `Impr. (Top) %` 目前可以应用在所有的基本报表和实体级别的促销活动管理视图（但是，对于那些选购性产品组除外）、[!UICONTROL 促销活动日市场份额]和[!UICONTROL 关键字级别的日市场份额]报表，以及标签和限制性视图中。 |
 
 ## [!DNL Magento] {#magento}
 
