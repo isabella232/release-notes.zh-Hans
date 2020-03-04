@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2019
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 562b27b201dd095236fdb8a6a10f8db798b615e1
+source-git-commit: 2363a9f58f658e49054e3ac7a63083925a381eec
 
 ---
 
@@ -33,8 +33,6 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html)（链接到解决方案帮助）
 * [!DNL Primetime](https://helpx.adobe.com/primetime/user-guide.html)（链接到解决方案帮助）
-* [!DNL Magento](#magento)
-* [!DNL Marketo](#marketo)
 
 在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
 
@@ -282,16 +280,3 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * 修复
 * 修复
 * 修复
-
-## [!DNL Magento] {#magento}
-
-有关 Magento 的发行说明，请参阅：
-
-* [Magento Commerce 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html)
-* [Magento Open Source 2.3.4](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-open-source.html)
-
-## [!DNL Marketo] {#marketo}
-
-[!DNL Marketo Engage] 是一个完整的解决方案，面向希望通过参与复杂购买历程的每个阶段来转变客户体验的潜在客户管理人员和 B2B 营销人员。
-
-有关累积和历史发行说明，请参阅 [Marketo 发行说明](https://docs.marketo.com/x/CgA6Ag)。
