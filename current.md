@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e9fdb1166b47f17256afeaa7bced60f884de8d16
+source-git-commit: 101b94ed00ae148e946f17c134037ae880badc5d
 
 ---
 
@@ -133,7 +133,6 @@ Adobe Analytics 中的新增功能和修复：
 * 修复了归因IQ中的首次接触和最后接触模型无法正确计算某些开箱即用尺寸中某些行项目的信用的问题。
 * 修复了按另一个日期维划分一个日期维将返回错误结果的问题。
 * 修复了在分类的维度报表中，有时进入或退出量度在应用到“未指定”时会被错误计数的问题。
-
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
