@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 897f8d8138403d42ee0387d3582464b41fd1a54c
+source-git-commit: 8cfd93b9e4e5800eb9222a78571ec89e546e6a6f
 
 ---
 
@@ -137,7 +137,7 @@ Adobe Analytics 中的新增功能和修复：
 
 #### 修复
 
-* 修复了报告与分 [!UICONTROL 析中阻止下载报告] 的问题 `.xls` 。（AN-206541、AN-204008）
+* 修复了报告与分 [!UICONTROL 析中阻止下载报告] 的问题 `.xls` 。 此问题影响使用美元和欧元以外货币的客户。 （AN-206541、AN-204008）
 * 新Shell的推出修复了与切换Experience Cloud组织相关的几个客户问题。（AN-200844、AN-186920）
 * 修复了在细分的搜索筛选器中不包括“未指定”（无） ____ ，而对“未指定”行项目（或某些其他报告行项目）执行细分时，不会在细分中返回任何结果的问题。
 * 修复了在使用分类维度时，进入或退出量度总数与细分时的行项目总数不匹配的问题。
