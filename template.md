@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8486e0014a6ea57fca43ce2e95e0ac9762c170f7
+source-git-commit: 2fca65aeb62ff60e4776492857af064ec3ef707f
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 和 Experience Platform](#platform)
+* [旅程安排](#journey)
 * [!DNL Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
@@ -103,6 +104,14 @@ Experience Platform、Experience Platform Launch、Identity Service 和安全公
 ### Experience Platform Launch {#launch}
 
 有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
+
+## 旅程安排 {#journey}
+
+使用Adobe Experience Platform，通过智能实时预测每位客户的需求（无论其旅程到达何处），跨体验渠道大规模地编排每位客户旅程。
+
+### 其他资源
+
+[文档](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) -操 [作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## [!DNL Analytics] {#analytics}
 
@@ -248,27 +257,15 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 * 修复
 * 修复
 
-## [!DNL Campaign {#ac}
+## [!DNL Campaign] {#ac}
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
-| 功能 | 描述 |
-| -----------| ---------- |  
-| 功能 A | 文本 |
-| 功能 B | 文本 |
-| 功能 C | 文本 |
-
-**修复**
-
-* 修复
-* 修复
-* 修复
-* 修复
-
-**其他资源**
+### 其他资源
 
 * Adobe Campaign Standard：[文档](https://helpx.adobe.com/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * Adobe Campaign Classic：[文档](https://helpx.adobe.com/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
