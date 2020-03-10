@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b58151e366ba9aef341a8bd6742d6275d5cd8b30
+source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
 
 ---
 
@@ -131,7 +131,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ### Adobe Analytics 中的新增功能、增强功能和修复 {#aa-features}
 
-* **[!UICONTROL Analysis Workspace中的多个报表包&#x200B;]**:您现在可以将多个报表包中的数据并入一个[!UICONTROL Analysis Workspace项目]，以便并排查看。 此功能将在几周内向所有客户推出。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
+* **[!UICONTROL Analysis Workspace中的多个报表包&#x200B;]**:您现在可以将多个报表包中的数据导入单个[!UICONTROL Analysis Workspace项目中]，以并排在面板中查看。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
 * **Experience Cloud受众优化**:利用此功能，您可以在8小时内（而不是之前的48小时处理时间）将区段发布到Experience Cloud。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
 * **Analysis Workspace —— 培训教程模板**:这个新的标准模板将指导您逐步了解在Workspace中构建第一个分析的常用术语和步骤。 它可用作“新建项目”模式中的标准模板  ，并替换当前存在的示例项目，以供列表中没有其他项目的新用户使用。
 
