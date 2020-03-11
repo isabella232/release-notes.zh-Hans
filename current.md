@@ -5,14 +5,14 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2282dd7a9b0575021f2262e43f644af4b1dc3f0b
+source-git-commit: e2cb2ca3bd773fb8d8de24142c876e5ed1f32e97
 
 ---
 
 
 # 早期访问- Adobe Experience Cloud发行说明- 2020年3月
 
-Adobe Experience Cloud 的新增功能和修复。
+[!DNL Adobe Experience Cloud] 的新增功能和修复。
 
 >[!IMPORTANT]
 >此页面包含预发行内容，在发行版之前可能会发生更改。
