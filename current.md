@@ -5,12 +5,12 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
+source-git-commit: 01f2d4ae03be92da8d5d6feb1900cd4901a1b142
 
 ---
 
 
-# 早期访问- Adobe Experience Cloud发行说明- 2020年3月
+# Adobe Experience Cloud发行说明- 2020年3月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -29,7 +29,7 @@ source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面和核心服务](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)
+* [!DNL Analytics](#analytics) - 发行日期：**2020 年 3 月 12 日**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -50,23 +50,23 @@ source-git-commit: 6fa8ddb48734849f15490dce814b1fd8763051d3
 
 **新增功能**
 
-* 使用Adobe ID，您可以订阅粒度更细的活动通知，具体到产品产品和附加级别。 在Experience Cloud产品中查找此新功能，在该功能中，自助订阅流程显示您要订阅的产品和服务的子产品和服务。 此增强功能应会显着减少您收到的通知的数量，并使通知与您使用的产品和功能更相关。  要开始使用，请访问 [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit)。
+* 凭借您的 Adobe ID，您可以订阅粒度更细的事件通知，具体可达到产品和加载项级别。在 Experience Cloud 产品中查找这项新增功能，其中的自订阅流程可显示您要订阅的产品和服务的子产品/服务。这种增强功能会显著减少您收到的通知数量，并且这些通知与您使用的产品及功能更具相关性。要开始使用，请访问 [status.adobe.com/subscriptions](https://status.adobe.com/proactive-notifications/subscriptions/edit)。
 
 **当前可用的新增功能和增强功能**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 按产品分项提供的个性化自订 | <ul><li>通过产品或Experience Cloud产品附加组件进行自订。</li><li>收到的活动通知与您的产品和产品提供首选项相关。</li></ul> |
-| 基于用户偏好的个性化体验 | <ul><li>电子邮件通知中使用基于浏览器设置的时区首选项。</li><li>在订阅／取消订阅时，使用所有选定的首选项发送电子邮件确认。</li></ul> |
-| 更好地交付活动消息 | <ul><li>根据时间顺序的事件更新对事件历史记录进行排序。</li><li>已向“主要／次要”已关闭问题添加的事件解决时间戳。</li></ul> |
+| 按子产品/服务分类的个性化自订阅 | <ul><li>适用于 Experience Cloud 产品且按具体产品或加载项分类的自订阅。</li><li>收到的事件通知与您的产品及产品首选项相关。</li></ul> |
+| 基于用户首选项的个性化体验 | <ul><li>电子邮件通知中使用基于浏览器设置的时区首选项。</li><li>发送关于订阅/取消订阅的电子邮件确认函时，与所有选定的首选项相关。</li></ul> |
+| 更好地交付事件消息 | <ul><li>按照事件更新的时间顺序，排序事件历史记录。</li><li>在“主要”/“次要”的已关闭问题中，添加了有关提供事件解决方案的时间戳。</li></ul> |
 
 ## ![图标](/assets/experience-cloud.png) Experience Cloud界面和核心服务 {#ecloud}
 
 Experience Cloud 界面中的新增功能和修复，包括管理和核心服务（客户属性、受众、触发器、Cookie 等）。
 
-| 功能 | 发布日期 | 描述 |
+| 功能 | 发行日期 | 描述 |
 | ----|----|---- |
-| 管理工具 - 查看用户详细信息 | 2020 年 2 月 26 日 | 管理员可以在新的“管理工具”中查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。See [Experience Cloud Admin Tool](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) help for details. |
+| 管理工具 - 查看用户详细信息 | 2020 年 2 月 26 日 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
 
 ### 统一的产品域
 
@@ -80,19 +80,19 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
    * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
 * 更轻松地在组织之间切换，或切换到其他应用程序。
 * 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]** > **[!UICONTROL 反馈]**，可报告问题或与 Adobe 分享您的想法。
-* 改进了通知：现在，[!UICONTROL 通知]下拉菜单有两个选项卡，一个用于您自己的产品通知，一个用于全球产品通知。
+* 改进了通知：现在，[!UICONTROL 通知]下拉菜单有两个选项卡，一个用于您自己的产品通知，另一个用于全球产品公告。
 
-**注意：** Feed [!UICONTROL 页] 2020年1月已弃用。 请查看产品内的弃用通知。
+**注意：**[!UICONTROL 信息源]页面已于 2020 年 1 月被弃用。请查看产品内的弃用通知。
 
-For product documentation, see [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html) help.
+有关产品文档，请参阅 [Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html) 帮助。
 
 ## ![Icon](/assets/platform.png) Experience Platform {#platform}
 
-Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience Platform Launch,] [!UICONTROL Identity Service,] and security bulletins.
+[!UICONTROL Experience Platform]、[!UICONTROL Experience Platform Launch]、[!UICONTROL Identity Service] 的发行说明及安全公告。
 
 * [Experience Platform 发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
-* [旅程安排](#journey)
+* [旅程编排](#journey)
 * [Mobile Services 和 Mobile SDK](#mobile)
 * [安全公告与建议](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
 
@@ -100,26 +100,26 @@ Release notes for the [!UICONTROL Experience Platform,] [!UICONTROL Experience P
 
 有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
 
-### 旅程安排 {#journey}
+### 旅程编排 {#journey}
 
-使用Adobe Experience Platform，通过智能实时预测每位客户的需求（无论其旅程到达何处），跨体验渠道大规模地编排每位客户旅程。
+凭借 Adobe Experience Platform，可以实时智能化预测每位客户的需求（无论其旅程通达何处），从而实现跨体验渠道大规模编排客户旅程。
 
-第1季度版本已发布。 [阅读更多](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
+第 1 季度版本已发布。[了解更多信息](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html#q1-release---march-2020)
 
 **其他资源**
 
-[文档](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) -操 [作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文档](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services 和 Mobile SDK {#mobile}
 
 **iOS v4.19.1**
 
-* 常规——解决了在跟踪调用的上下文 [!UICONTROL 数据中包含] Swiftenum时的潜在崩溃问题。
-* [!DNL Target] - [!DNL Target] Session ID现在将作为上下文数据参数添加到发送 `a.target.sessionId` 到Adobe Analytics的 [!UICONTROL Analytics-for-Target] 内部点击中。
+* 常规 - 解决了在跟踪调用的上下文数据中包含 ]Swift[!UICONTROL  enum 时的潜在崩溃问题。
+* [!DNL Target] - [!DNL Target]会话 ID 现在将作为上下文数据参数 `a.target.sessionId` 添加到发往 Adobe Analytics 的 [!UICONTROL Analytics-for-Target] 内部点击中。
 
 **Android v4.18.1**
 
-* [!DNL Target] - [!DNL Target] Session ID现在将作为上下文数据参数“a.target.sessionId”添加到发送到Adobe Analytics的内部 [!UICONTROL Analytics-for-Target] hit中。
+* [!DNL Target] - [!DNL Target]会话 ID 现在将作为上下文数据参数“a.target.sessionId”添加到发往 Adobe Analytics 的 [!UICONTROL Analytics-for-Target] 内部点击中。
 
 ## ![图标](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
@@ -136,45 +136,45 @@ Adobe Analytics 中的新增功能和修复：
 ### Adobe Analytics 中的新增功能、增强功能和修复 {#aa-features}
 
 * **[!UICONTROL Analysis Workspace中的多个报表包&#x200B;]**:您现在可以将多个报表包中的数据导入单个[!UICONTROL Analysis Workspace项目中]，以并排在面板中查看。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)
-* **Experience Cloud受众优化**:利用此功能，您可以在8小时内（而不是之前的48小时处理时间）将区段发布到Experience Cloud。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
-* **Analysis Workspace —— 培训教程模板**:这个新的标准模板将指导您逐步了解在Workspace中构建第一个分析的常用术语和步骤。 它可用作“新建项目”模式中的标准模板  ，并替换当前存在的示例项目，以供列表中没有其他项目的新用户使用。
+* **Experience Cloud Audience Optimization**：利用此功能，您可以在 8 小时内（而不是之前的 48 小时处理时间）将区段发布到 Experience Cloud。[了解更多...](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)
+* **Analysis Workspace - 培训教程模板**：这个新的标准模板可指导您逐步了解在 Workspace 中构建首个分析的常用术语和步骤。该模板可用作[!UICONTROL 新建项目]模式中的标准模板，并替换当前存在的示例项目，供列表中没有其他项目的新用户使用。
 
 #### 修复
 
-* 修复了报告与分 [!UICONTROL 析中阻止下载报告] 的问题 `.xls` 。 此问题影响使用美元和欧元以外货币的客户。 （AN-206541、AN-204008）
-* 新Shell的推出修复了与切换Experience Cloud组织相关的几个客户问题。（AN-200844、AN-186920）
-* 修复了在细分的搜索筛选器中不包括“未指定”（无） ____ ，而对“未指定”行项目（或某些其他报告行项目）执行细分时，不会在细分中返回任何结果的问题。
-* 修复了在使用分类维度时，进入或退出量度总数与细分时的行项目总数不匹配的问题。
-* 修复了归因IQ中的首次接触和最后接触模型无法正确计算某些开箱即用尺寸中某些行项目的信用的问题。
-* 修复了按另一个日期维划分一个日期维将返回错误结果的问题。
-* 修复了在分类的维度报表中，有时进入或退出量度在应用到“未指定”时会被错误计数的问题。
+* 修复了 [!UICONTROL Reports &amp; Analytics] 中阻止下载 `.xls` 报表的问题。此问题会影响使用美元和欧元以外货币的客户。（AN-206541、AN-204008）
+* 新 Shell 的推出修复了与切换 Experience Cloud 组织相关的若干客户问题。（AN-200844、AN-186920）
+* 修复了在&#x200B;_未指定_&#x200B;行项目（或其他报表行项目）上执行细分时，如果细分的搜索过滤器中不包含&#x200B;_未指定（无）_，细分中将不会返回任何结果的问题。
+* 修复了在使用分类维度时，进入或退出量度总数与细分上的行项目总数不匹配的问题。
+* 修复了归因 IQ 中的首次接触和最后接触模型无法正确计算某些立即可用的维度中一些行项目的点数的问题。
+* 修复了按其他日期维度划分一个日期维度将返回错误结果的问题。
+* 修复了在分类维度报表中将“进入”或“退出”量度应用于“未指定”时，有时会造成计数错误的问题。
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| “转化 **[!UICONTROL 级别设置]** ” | 2020 年 3 月 3 日 | 将于2020年3月12 [日从UI中删除](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html) “管理工具 **[!UICONTROL ”]>“报表包”[!UICONTROL >“]** 常规帐户设置”中的“无法正常使用的转换级别”设置。 |
-| 仪表板存档 **[!UICONTROL 的EOL]** | 2020 年 3 月 3 日 | 自2020 **[!UICONTROL 年3月]****** 12日起，“报告与分析”中“管理仪表板”下的“查看存档”设置将不再可用。 |
+| **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]>[!UICONTROL 报表包]>[!UICONTROL 常规帐户设置]**&#x200B;中的无法正常运行的[转化级别](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从 UI 中删除。 |
+| **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 3 日 | 自 2020 年 3 月 12 日起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
 | 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 我们一直不懈努力，致力于维持最高安全标准并提升客户数据安全。为此，Adobe Analytics 对 TLS 1.1 的支持将持续到 2020 年 3 月 31 日，在这之后将不再支持 TLS 1.1。 |
-| 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意：**这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上运行。[!DNL Safari]You can use other browsers without issue because this affects only [!DNL Safari] users.</li><li>[在特定情况下](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
+| 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意：**这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上运行。您可以使用其他浏览器而不会出现任何问题，因为这项更改仅影响 [!DNL Safari] 用户。</li><li>[在特定情况下](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
 | 生命周期结束 - Analytics 旧版 API | 2020 年 1 月 9 日 | 2020 年 11 月，以下 Analytics 旧版 API 服务将停止使用并关闭。当前使用这些服务构建的集成将会停止工作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
-| 圣何塞 FTP 中转站停止为伦敦和新加坡提供支持 | 2020 年 7 月 | For customers in London and Singapore, we will no longer support brokering of data between London or Singapore and the San Jose data center [ftp.omniture.com](ftp://ftp.omniture.com/).<br/><ul><li>For London, use [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>For Singapore, use [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
+| 圣何塞 FTP 中转站停止为伦敦和新加坡提供支持 | 2020 年 7 月 | 对于位于伦敦和新加坡的客户，我们将不再提供伦敦或新加坡与圣何塞数据中心 [ftp.omniture.com](ftp://ftp.omniture.com/) 之间的数据中转支持。<br/><ul><li>伦敦客户，请使用 [ftp3.omniture.com](ftp://ftp3.omniture.com/)</li><li>新加坡客户，请使用 [ftp4.omniture.com](ftp://ftp4.omniture.com/)</li></ul> |
 
 ### [!DNL AppMeasurement] {#appm}
 
-请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。版本2.20.0已于2020年3月5日发布。
+请参阅 [AppMeasurement for Javascript 发行说明](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html)。版本 2.20.0 于 2020 年 3 月 5 日发布。
 
 ## ![图标](/assets/audience-manager.png) Audience Manager {#aam}
 
-Audience Manager的新增功能和更新：
+Audience Manager 的新增功能和更新：
 
-### Fixes and improvements {#aam-fixes-and-improvements}
+### 修复和改进功能 {#aam-fixes-and-improvements}
 
-* 修复了由于缺少RBAC权限 [!UICONTROL VIEW_ALL_DESTINATIONS，客户无法更新区段名称的错误]。 更 [!UICONTROL 新区段时不需要VIEW_ALL_DESTINATIONS] 权限。 有关RBAC权限的更多信息，请参 [阅管理（RBAC控制）](https://docs.adobe.com/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)。 (AAM-52760)
-* 修复了 [Data Explorer](https://docs.adobe.com/help/en/audience-manager/user-guide/features/data-explorer/data-explorer-overview.html) （数据浏览器）中的一个错误，该错误导致某些客户在基于Data Explorer信号创建特征时无法看到基本信息部分的内容以及表达式构建器中的运算符  。 (AAM-53130)
-* 修复了某些客户无法加载 [!UICONTROL Audience Marketplace界面的错误] 。 (AAM-52070)
-* 修复了区段API中的一个错误  ，该错误导致由于某些区段没有说明，当用户尝试访问这些区段并且用户必须从该页面导航离开时，界面将冻结。 (AAM-53071)
-* 整个界面中的多种辅助功能改进。 (AAM-48952、AAM-48969、AAM-48979、AAM-48993、AAM-49048、AAM-49057、AAM-49058、AAM-49058aam-49392)
+* 修复了由于缺少 RBAC 权限 [!UICONTROL VIEW_ALL_DESTINATIONS]，客户无法更新区段名称的错误。更新区段时，不应当要求 [!UICONTROL VIEW_ALL_DESTINATIONS] 权限。有关 RBAC 权限的更多信息，请参阅[管理（RBAC 控制）](https://docs.adobe.com/help/en/audience-manager/user-guide/features/administration/administration-overview.html#wild-card-permissions)。(AAM-52760)
+* 修复了 [Data Explorer](https://docs.adobe.com/help/en/audience-manager/user-guide/features/data-explorer/data-explorer-overview.html) 中的一个错误，该错误导致某些客户在没有基于 [!UICONTROL Data Explorer] 信号创建特征时，无法看到基本信息部分的内容以及表达式构建器中的运算符。(AAM-53130)
+* 修复了某些客户无法加载 [!UICONTROL Audience Marketplace] 界面的错误。(AAM-52070)
+* 修复了[!UICONTROL 区段 API] 中的一个错误，由于某些区段没有说明，当用户尝试访问这些区段时以及从该页面导航离开时，该错误将导致界面冻结。(AAM-53071)
+* 改进了整个界面的多项辅助功能（AAM-48952、AAM-48969、AAM-48979、AAM-48993、AAM-49048、AAM-49057、AAM-49058、AAM-49392）
 
 ## ![Icon](/assets/aem.png) Experience Manager {#aem}
 
@@ -182,56 +182,56 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 ### 产品更新
 
-* **AEM 6.5.4.0** AEM 6.5,Service Pack 4.0（2020年3月5日发布）是一项重要更新，其中包括自2019年4月AEM 6.5通用版本发布以来发布的新功能、关键客户增强功能、改进的性能、稳定性和安全性。
-   * [Adobe Experience Manager 6.5 Service Pack 4的新增功能](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html)
+* **AEM 6.5.4.0** AEM 6.5 Service Pack 4.0（6.5.4.0，2020 年 3 月 5 日发布）是一项重要更新，其中包括自 2019 年 4 月 推出 AEM 6.5 通用版本以来发布的新功能、关键客户增强功能、改进的性能、稳定性和安全性。
+   * [Adobe Experience Manager 6.5 Service Pack 4 的新增功能](https://docs.adobe.com/content/help/en/experience-manager-65/release-notes/service-pack/new-features-latest-service-pack.html)
    * [发行说明](https://helpx.adobe.com/experience-manager/6-5/release-notes/sp-release-notes.html)
-   * [AEM Forms发布的交付内容](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
+   * [AEM Forms 发布的交付内容](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.4.8.0**
 
-   AEM 6.4,Service Pack 8.0（2020年3月5日发布的6.4.8.0）是一项重要更新，其中包括自2018年4月AEM 6.4正式发布以来发布的关键客户修复。
+   AEM 6.4 Service Pack 8.0（6.4.8.0，2020 年 3 月 5 日发布）是一项重要更新，其中包括自 2018 年 4 月推出 AEM 6.4 通用版本以来发布的多项关键客户修复。
    * [发行说明](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
    * [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM 6.3.3.8**
 
-   AEM 6.3, Service Pack 3, Cumulative Fix Pack 8（2019年3月5日发布的6.3.3.8）是一项重要更新，其中包括自2017年4月AEM 6.3通用版本发布以来发布的关键客户修复。
+   AEM 6.3 Service Pack 3 Cumulative Fix Pack 8（6.3.3.8，2019 年 3 月 5 日发布）是一次重要更新，其中包括自 2017 年 4 月推出 AEM 6.3 通用版本以来发布的多项关键客户修复。
    * [发行说明](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html)
    * [AEM 表单 CFP 版本](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html)
 
 * **AEM Assets Brand Portal**
 
-   AEM Assets Brand Portal 6.4,Service Pack 6（2020年3月5日发布的6.4.6）更改了AEM Assets配置 [!UICONTROL Brand Portal的方式。] 此外，该版本还包含其他增强和错误修复。
+   AEM Assets Brand Portal 6.4 Service Pack 6（6.4.6，2020 年 3 月 5 日发布）使用 [!UICONTROL Brand Portal] 更改了配置 AEM Assets 的方式。此外，该版本还包含其他增强功能和错误修复。
    * [发行说明](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 
 ### 自助服务
 
-* **AEM作为云服务——基于角色的权限**
+* **AEM 作为云服务 - 基于角色授予权限**
 
-   Cloud Manager具有预配置的角色，并具有相应的权限。 每个角色都具有与每个角色关联的特定权限、预配置的任务或权限。 “基 [于角色的权限](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/role-based-permissions.html) ”帮助主题标识了可用的功能以及可以运行这些功能的角色。
+   Cloud Manager 已经预先为角色配置了相应的权限。每个角色都具有与之关联的特定权限、预配置的任务或权限。[基于角色授予权限](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/what-is-required/role-based-permissions.html)帮助主题标识了可用的功能以及可以运行这些功能的角色。
 
-* **AEM作为云服务——调度程序**
+* **AEM 作为云服务 - Dispatcher**
 
-   更新 [了Dispatcher和CDN](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#dispatcher-cdn) ，以及 [Explicit Dispatcher缓存失效部分](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#explicit-invalidation) ，以阐明可用的选项及其工作方式。
+   更新了 [Dispatcher 和 CDN](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#dispatcher-cdn)，以及[显式 Dispatcher 缓存失效](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/dispatcher/overview.html#explicit-invalidation)部分，以阐明可用的选项及其工作方式。
 
-* **使用Brand Portal配置AEM资产**
+* **使用 Brand Portal 配置 AEM Assets**
 
-   AEM资产现在通过Adobe I/O [!UICONTROL 配置了Brand Portal] ,Adobe I/O为Brand Portal租户购买IMS令牌以授权。 以前，它是通过旧版OAuth网关在经典界面 [!UICONTROL 中配置的。]
-请参 [阅配置AEM资产与Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/publish/configure-aem-assets-with-brand-portal.html)。
+   现在，可使用 [!UICONTROL Brand Portal] 通过 Adobe I/O 配置 AEM Assets，以获得授权 Brand Portal 租户的 IMS 令牌。以前，AEM Assets 是通过[!UICONTROL 旧版 OAuth 网关在经典界面中配置的。]
+请参阅[使用 Brand Portal 配置 AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/publish/configure-aem-assets-with-brand-portal.html)。
 
-* **AEM作为云服务- Dynamic Media中的智能裁剪**
+* **AEM 作为云服务 - Dynamic Media 中的智能裁剪**
 
-   当您在Dynamic Media组件中使用智能裁剪时，AEM中的新选项将作为云服务提供：
+   当您在 Dynamic Media 组件中使用智能裁剪时，AEM 新增了一项可作为云服务的选项：
 
-   **启用长宽比匹配** -选择此选项可让Dynamic Media选取最匹配原始图像长宽比的智能裁剪再现。
-请参 [阅使用智能裁剪时](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/adding-dynamic-media-assets-to-pages.html#when-working-with-smart-crop)。
+   **启用宽高比匹配** - 选择此选项可允许 Dynamic Media 选取最匹配原始图像宽高比的智能裁剪呈现。
+请参阅[使用智能裁剪时](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/dynamicmedia/adding-dynamic-media-assets-to-pages.html#when-working-with-smart-crop)。
 
 ### 社区
 
-* **AEM Skill Builder网络研讨会**
+* **AEM 技能培养网络研讨会**
 
-   * AEM Sites —— 从2020年3月17日开始，了解内容创作的构建基块以及AEM Sites的基本概念和操作。 [立即注册](https://aemskillbuilder-sites.experienceleague.adobeevents.com/register)。
-   * AEM Assets —— 从2020年3月19日开始，您可以提高数字资产管理专业知识，并了解品牌门户、 [!UICONTROL Dynamic Media、][!UICONTROL Asset Link] 等基础知识。 [立即注册](https://aemskillbuilder-assets.experienceleague.adobeevents.com/register)。
+   * AEM Sites - 从 2020 年 3 月 17 日开始，您可以了解内容创作的构建基块以及 AEM Sites 的基本概念和操作。[立即注册](https://aemskillbuilder-sites.experienceleague.adobeevents.com/register)。
+   * AEM Assets - 从 2020 年 3 月 19 日开始，您可以了解数字资产管理专业知识，并了解 Brand Portal、[!UICONTROL Dynamic Media]、[!UICONTROL Asset Link] 等基础知识。[立即注册](https://aemskillbuilder-assets.experienceleague.adobeevents.com/register)。
 
 ### 其他资源
 
@@ -252,7 +252,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Campaign Classic
 
-* [Campaign Classic 19.1.4更新](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
+* [Campaign Classic 19.1.4 更新](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
 ### 其他资源
 
@@ -266,9 +266,9 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 视图 | 功能 |
 |------|---------|
-| [!UICONTROL 项目组合] | You can now add [!DNL Yahoo!] Japan Display Network (YDN) campaigns to portfolios to optimize the campaign budgets and ad group-level bids. 相同的竞价适用于广告组中的所有广告。Japan Display Network营销活动的数据包含在该产品组合的模拟中。 |
-| [!UICONTROL “搜索] ”>“批 [!UICONTROL 单”] | 现在，您可以通过批量工作表来创建、编辑和删除 Google 响应式搜索广告 (RSA)。以前，只能通过&#x200B;**[!UICONTROL 搜索]** > **[!UICONTROL 促销活动]**&#x200B;中的标准促销活动管理界面来提供支持 |
-| [!UICONTROL “搜索] ”>“ [!UICONTROL 营销活动”、“报告”] | Google Ad 的突出量度 `Impr. (Abs. Top) %` 和 `Impr. (Top) %` 目前可以应用在所有的基本报表和实体级别的促销活动管理视图（但是，对于那些选购性产品组除外）、[!UICONTROL 促销活动日市场份额]和[!UICONTROL 关键字级别的日市场份额]报表，以及标签和限制性视图中。 |
+| [!UICONTROL 项目组合] | 如今，您可以在项目组合中添加 [!DNL Yahoo!] Japan Display Network (YDN) 促销活动，以优化促销活动预算和广告组级别的竞价。相同的竞价适用于广告组中的所有广告。Japan Display Network 促销活动的数据包含在项目组合的各个模拟中。 |
+| [!UICONTROL 搜索] > [!UICONTROL 批量工作表] | 现在，您可以通过批量工作表来创建、编辑和删除 Google 响应式搜索广告 (RSA)。以前，只能通过&#x200B;**[!UICONTROL 搜索]** > **[!UICONTROL 促销活动]**&#x200B;中的标准促销活动管理界面来提供支持 |
+| [!UICONTROL 搜索] > [!UICONTROL 促销活动、报表] | Google Ad 的突出量度 `Impr. (Abs. Top) %` 和 `Impr. (Top) %` 目前可以应用在所有的基本报表和实体级别的促销活动管理视图（但是，对于那些选购性产品组除外）、[!UICONTROL 促销活动日市场份额]和[!UICONTROL 关键字级别的日市场份额]报表，以及标签和限制性视图中。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -316,39 +316,39 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## ![图标](/assets/experience-cloud.png) “新建”文档和教程 {#selfhelp}
 
-最新和自助文章和视频。 <!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
+最新及近期的自助文章和视频。<!--`https://jira.corp.adobe.com/secure/Dashboard.jspa?selectPageId=60327`-->
 
 | 解决方案 | 内容 | 描述 |
 |----------| -----------| ---------- |  
-| [!UICONTROL AEM Commerce] | 视频——创 [建多个类别和产品页面](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | 了解如何使用CIF核心组件为客户项目创建最低限度的Adobe Experience Manager(AEM)CIF项目作为起点。 将主题和CSS样式应用于组件并检查由原型生成的新AEM CIF项目。 此外，了解CIF核心组件使用的CSS和JavaScript是如何组织的。 |
-| [!UICONTROL AEM 表单] | 文章——使 [用OKTA验证AEM作者身份](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | 了解如何在OKTA门户上配置应用程序以及注册新应用程序时通常使用的设置。 |
-| [!UICONTROL AEM Commerce] | 教程——自 [定义CIF核心组件](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 一般来说，请查看CIF核心组件和AEM提供的几个不同扩展点。 CIF核心组件提供了一套标准的商务组件，可用于加速集成Adobe Experience Manager(AEM)和Magento解决方案的项目。 |
-| [!DNL Adobe Campaign] -受众目标 | Video - [Create an audience...](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/creating-audiences-using-segment-builder.html) | 使用Adobe [!UICONTROL Experience Platform Segment Builder在Campaign Standard中创建受众]。 您可以通过“受众”模块直接在Adobe Campaign Standard中访问 [!UICONTROL 此功] 能。 |
-| [!DNL Adobe Campaign] -受众目标 | 视频——在 [营销工作流程中激活Adobe Experience Platform受众](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/activating-aep-audiences.html) | 了解如何使用“读 [!UICONTROL 取受众”活动在工作流中激活数据服] 务查询受众  。 |
-| [!DNL Adobe Campaign] | 教程- [Android推送通知](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/getting-started-push-notifications/getting-started-with-push-notifications-android.html) | 向iOS和Android移动设备发送个性化的分段推送通知。 本教程将指导您完成从Adobe Campaign发送推送通知和在Android应用程序中接收这些通知时涉及的步骤。 |
-| [!DNL Adobe Campaign] | 视频- [创建推送通知](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/creating-a-push-notification.html) | 在Adobe Campaign Standard中创建推送通知。 您可以向iOS和Android移动设备发送个性化的分段推送通知。 |
-| [!DNL Adobe Campaign] - AEP Data Connector | 视频- [检查数据获取作业的状态](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/checking-status-of-data-ingestion-jobs.html) | 了解如何检查数据摄取作业的状态以及数据是否已从Adobe Campaign Standard摄取到Adobe Experience Platform中。 |
-| [!DNL Adobe Campaign] - AEP Data Connector | 视频——修 [改数据映射](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | 了解如何检查状态和修改数据映射。 |
-| [!DNL Adobe Campaign] - AEP Data Connector | 视频——映 [射体验活动](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | 了解如何在Adobe Experience Platform中映射体验活动。 |
-| [!DNL Adobe Campaign] - AEP Data Connector | 视频——映射 [自定义资源](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | 了解如何在Adobe Campaign Standard和Adobe Experience Platform之间映射不同的数据类型。 |
-| [!DNL Adobe Campaign] - AEP Data Connector | 视频- [了解Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | 了解如何通过将XTK数据（在Campaign中摄取的数据）映射到Adobe Experience Platform上的Experience Data Model(XDM)数据，使您的数据在Adobe Experience Platform上可用。 |
-| [!DNL Adobe Campaign] - AEP Data Connector | 视频——映 [射种子表数据](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | 了解如何使用Adobe Experience Platform映射种子数据／测试配置文件。 |
-| [!DNL Adobe Campaign]-受众目标 | 视频- [更改平台受众分发的定位维度](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | 了解如何在Adobe Campaign Standard的主配置文件表之外更改平台受众分发的定位维度。 |
-| [!DNL Adobe Campaign] | 视频——雪 [花上的大数据管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 在Adobe Campaign Classic中利用雪花连接器。 |
-| [!DNL Adobe Campaign] -受众目标 | 文章- [受众目标（测试版）-概述](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | 了解如何将Adobe Experience Platform中的集中化和整合的档案数据用于Adobe Campaign Standard中的营销活动。 |
-| [!DNL Adobe Target] - Mobile SDK | 教程——使 [用Adobe Target个性化应用程序体验](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | 在您自己的Android应用程序中实施Adobe Target。 验证Mobile Services SDK的设置并实 [!DNL Target] 施预取内容、阻止请求等请求。 |
-| Adobe Analytics | 视频- [Adobe 2019年超级会议](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 观看2019年峰会上高科技“超级会议”的精选剪辑。 |
-| Adobe Analytics | 视频——客 [户旅程分析中的计算指标简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 浏览在客户旅程分析中创 [!UICONTROL 建计算][!UICONTROL 量度的基础知识]。 |
-| Adobe Analytics | 视频- [Adobe 2019年超级会议](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | 观看2019年峰会旅游和酒店业会议的精选剪辑。 |
-| Adobe Analytics | 视频- [Adobe 2019年超级会议](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | 查看2019年峰会上零售会议的精选剪辑。 |
-| Adobe Analytics | 视频——客 [户使用案例：Accent Group投资客户体验推动销售](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 观看Accent Group如何使用Adobe Experience Cloud创建无缝的数字体验。 |
-| Adobe Analytics | 视频——客 [户使用案例：ServiceNow获得与潜在客户建立联系的正确洞察](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | 了解如何通 [!DNL ServiceNow] 过Adobe Advertising Cloud和Adobe Analytics从其营销渠道中获得可操作的数据并提高付费搜索广告的ROI。 |
-| Adobe Analytics | 视频- [Adobe Analytics —— 它不仅仅是数据，还是客户智能](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | 了解数据驱动营销以及如何使您的分析成熟度从数据到洞察再到行动。 |
-| Adobe Analytics | 视频- [Adobe Sensei和Adobe Analytics —— 扩展版](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | 查看Adobe Analytics中以Adobe为后盾的 [!DNL Sensei,] 主要 [!UICONTROL 功能，包括异常检测] 、贡献分析、智能聚类、 [!UICONTROL 聚类、][!UICONTROL IQ细分、倾向建模等。] |
-| Adobe Analytics | 视频- Adobe [Analysis Workspace如何改变您的业务](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | 了解如何使用 [!UICONTROL Analysis Workspace执行临时分析、灵活分析、同期群分析和流失分析]。 您还可以与公司中的每个人共享分析工作环境，其拖放功能使每个人都能轻松分析数据并快速获得洞察。 |
-| Adobe Analytics | 视频——客 [户使用案例：Home Depot利用客户体验管理进行创新](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | 了解如 [!DNL Home Depot] 何使用Adobe解决方案通过个性化、自定义的购物体验创造品牌忠诚度和客户满意度。 |
-| Adobe Analytics | 演示——了 [解客户旅程分析](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | 了解Adobe的客户旅 [!UICONTROL 程分析]（一项基于Adobe的应用程序服务）如何将 [!DNL Adobe Experience Platform]Analysis Workspace  引入Experience Platform。 此功能支持对任何数据集进行多渠道 [!DNL Adobe Experience Platform] 分析。 |
-| Adobe Analytics | 视频- [CJA中的跨渠道归因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在客户旅程分析中使用可视化功能跨渠道显示归因( [!UICONTROL 给出评价)]。 |
-| Adobe Analytics | 文章- [继续Adobe Analytics学习旅程的客户提示](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | 会见三位Adobe客户，他们有关如何从Adobe Analytics中获得最大价值的提示和技巧。 |
-| Adobe Analytics | 视频- [在CJA中创建跨渠道可视化](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解客 [!UICONTROL 户旅程分析如何允许您创建可视化] ，这些可视化包括来自多个渠道的多个数据集的数据，包括合并每位访客的数据。 |
-| Adobe Analytics | 视频——将 [您的计算指标从Adobe Analytics移至客户旅程分析](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | 在客户旅程分析中查找有关重新创建 [!UICONTROLCAnalytics计算的] Metrics [!UICONTROL 的提示]。 |
+| [!UICONTROL AEM Commerce] | 视频 - [创建多个类别和产品页面](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/04-style-cif-component.md) | 了解如何使用 CIF 核心组件来创建最低限度的 Adobe Experience Manager (AEM) CIF 项目，以作为客户项目的起点。将主题和 CSS 样式应用于组件，并检查由原型生成的新 AEM CIF 项目。此外，了解如何组织 CIF 核心组件使用的 CSS 和 JavaScript。 |
+| [!UICONTROL AEM 表单] | 文章 - [使用 OKTA 验证 AEM 作者身份](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/single-sign-on-with-okta.html) | 了解如何在 OKTA 门户上配置应用程序，以及注册新应用程序时通常使用的设置。 |
+| [!UICONTROL AEM Commerce] | 教程 - [自定义 CIF 核心组件](https://www.adobe.io/apis/experiencecloud/commerce-integration-framework/tutorials.html#!AdobeDocs/commerce-cif-documentation/master/tutorials/05-customize-cif-components.md) | 通常来说，请查阅 CIF 核心组件和 AEM 提供的几个不同扩展点。CIF 核心组件提供了一套标准的商务组件，可用于加速集成 Adobe Experience Manager (AEM) 和 Magento 解决方案的项目。 |
+| [!DNL Adobe Campaign] - 受众目标 | 视频 - [创建受众...](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/creating-audiences-using-segment-builder.html) | 使用 Adobe [!UICONTROL Experience Platform Segment Builder]，在 Campaign Standard 中创建受众。您可以通过[!UICONTROL 受众]模块，直接在 Adobe Campaign Standard 中访问此项功能。 |
+| [!DNL Adobe Campaign] - 受众目标 | 视频 - [在营销工作流中激活 Adobe Experience Platform Audience](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/activating-aep-audiences.html) | 了解如何使用[!UICONTROL 读取受众]活动，在工作流中激活[!UICONTROL 数据服务查询受众]。 |
+| [!DNL Adobe Campaign] | 教程 - [向 Android 设备发送推送通知](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/getting-started-push-notifications/getting-started-with-push-notifications-android.html) | 向 iOS 和 Android 移动设备发送个性化的分段推送通知。本教程将指导您逐步完成：如何从 Adobe Campaign 发送推送通知，以及如何在 Android 应用程序中接收这些通知。 |
+| [!DNL Adobe Campaign] | 视频 - [创建推送通知](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/push/creating-a-push-notification.html) | 在 Adobe Campaign Standard 中创建推送通知。您可以向 iOS 和 Android 移动设备发送个性化的分段推送通知。 |
+| [!DNL Adobe Campaign] - AEP Data Connector | 视频 - [检查数据引入作业的状态](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/checking-status-of-data-ingestion-jobs.html) | 了解如何检查数据引入作业的状态，以及了解数据是否已从 Adobe Campaign Standard 引入到 Adobe Experience Platform 中。 |
+| [!DNL Adobe Campaign] - AEP Data Connector | 视频 - [修改数据映射](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/modifying-data-mapping.html) | 了解如何检查状态和修改数据映射。 |
+| [!DNL Adobe Campaign] - AEP Data Connector | 视频 - [映射体验事件](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-experience-events.html) | 了解如何在 Adobe Experience Platform 中映射体验事件。 |
+| [!DNL Adobe Campaign] - AEP Data Connector | 视频 - [映射自定义资源](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-custom-resources.html) | 了解如何在 Adobe Campaign Standard 与 Adobe Experience Platform 之间映射不同的数据类型。 |
+| [!DNL Adobe Campaign] - AEP Data Connector | 视频 - [了解 Adobe Experience Platform Data Connector](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) | 了解如何通过将 XTK 数据（在 Campaign 中引入的数据）映射到 Adobe Experience Platform 上的 Experience Data Model (XDM) 数据中，以便让您的数据在 Adobe Experience Platform 上可用。 |
+| [!DNL Adobe Campaign] - AEP Data Connector | 视频 - [映射种子表数据](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/mapping-seed-table-data.html) | 了解如何使用 Adobe Experience Platform 映射种子数据/测试配置文件。 |
+| [!DNL Adobe Campaign]- 受众目标 | 视频 - [更改 Platform Audience 分发的定位维度](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/changing-targeting-dimension.html) | 了解如何在 Adobe Campaign Standard 的主要配置文件表之外，更改 Platform Audience 分发的定位维度。 |
+| [!DNL Adobe Campaign] | 视频 - [Snowflake 上的大数据管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 在 Adobe Campaign Classic 中利用 Snowflake 连接器。 |
+| [!DNL Adobe Campaign] - 受众目标 | 文章 - [受众目标（测试版）- 概述](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | 了解如何将 Adobe Experience Platform 中的集中化和整合的配置文件数据用于 Adobe Campaign Standard 中的营销活动。 |
+| [!DNL Adobe Target] - Mobile SDK | 教程 - [使用 Adobe Target 实现个性化的应用程序体验](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | 在您自己的 Android 应用程序中实施 Adobe Target。验证 Mobile Services SDK 的设置，并实施类似预提取内容、阻止请求等的 [!DNL Target] 请求。 |
+| Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 观看 2019 年峰会上高科技“超级论坛”的精选剪辑。 |
+| Adobe Analytics | 视频 - [客户旅程分析中的计算量度简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 逐步了解在[!UICONTROL 客户旅程分析]中创建[!UICONTROL 计算量度]的基础知识。 |
+| Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | 观看 2019 年峰会旅游及服务业会议的精选剪辑。 |
+| Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | 查看 2019 年峰会上零售会议的精选剪辑。 |
+| Adobe Analytics | 视频 - [客户使用案例：Accent Group 在客户体验上加大投资力度以促进销售](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 观看 Accent Group 如何使用 Adobe Experience Cloud 来创建无缝数字体验。 |
+| Adobe Analytics | 视频 - [客户使用案例：ServiceNow 获得与潜在客户建立联系的正确洞察](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/servicenow-gets-the-right-insights-to-connect-with-prospects.html) | 了解 [!DNL ServiceNow] 如何通过 Adobe Advertising Cloud 和 Adobe Analytics，从其营销渠道中获得切实可行的数据并提高付费搜索广告的 ROI。 |
+| Adobe Analytics | 视频 - [Adobe Analytics - 不仅是数据，更是客户情报](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-analytics-customer-intelligence.html) | 了解数据驱动营销，并了解如何让您的分析成熟度从获取数据提升到分析数据，再提升到采取举措。 |
+| Adobe Analytics | 视频 - [Adobe Sensei 和 Adobe Analytics - 扩展版本](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | 查看 Adobe Analytics 中以 Adobe [!DNL Sensei,] 作为后盾的主要功能，包括[!UICONTROL 异常检测]、[!UICONTROL 贡献分析]、[!UICONTROL 智能警报]、[!UICONTROL 群集]、[!UICONTROL 区段 IQ] 和[!UICONTROL 倾向建模]等。 |
+| Adobe Analytics | 视频 - [Adobe Analysis Workspace 怎样可以改变您的业务方式](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | 了解如何使用 [!UICONTROL Analysis Workspace] 来执行 Ad Hoc Analysis、灵活分析、队列分析和流失分析。您还可以与公司中的每位人员共享分析工作环境，其拖放功能使每个人都能轻松分析数据并快速获得洞察。 |
+| Adobe Analytics | 视频 - [客户使用案例：Home Depot 利用客户体验管理进行创新](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | 了解 [!DNL Home Depot] 如何使用 Adobe 解决方案，通过个性化、自定义的购物体验来创造品牌忠诚度和客户满意度。 |
+| Adobe Analytics | 演示 - [了解客户旅程分析](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | 了解 Adobe 的[!UICONTROL 客户旅程分析]（一项基于 [!DNL Adobe Experience Platform] 的应用程序服务）如何将 [!UICONTROL Analysis Workspace] 引入到 Experience Platform。此功能支持对任何 [!DNL Adobe Experience Platform] 数据集进行多渠道分析。 |
+| Adobe Analytics | 视频 - [CJA 中的跨渠道归因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在[!UICONTROL 客户旅程分析]中使用可视化图表来跨渠道显示归因（提供点数）。 |
+| Adobe Analytics | 文章 - [适用于继续 Adobe Analytics 学习之旅的客户提示](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | 结识三位 Adobe 客户，他们可向您提供有关如何从 Adobe Analytics 中获取最大价值的提示和技巧。 |
+| Adobe Analytics | 视频 - [在 CJA 中创建跨渠道可视化图表](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解[!UICONTROL 客户旅程分析]如何允许您创建可视化图表，这些可视化图表包括来自跨多个渠道的多个数据集中的数据，其中包含合并每位访客的数据。 |
+| Adobe Analytics | 视频 - [将您的计算量度从 Adobe Analytics 移至客户旅程分析](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | 在[!UICONTROL 客户旅程分析]中查找有关重新创建 Analytics [!UICONTROLC计算量度]的提示。 |
