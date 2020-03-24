@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 745a054c15f05d7957e8c98b8adfa41b665b6fa6
+source-git-commit: 11dd1c361df84ef52b54734e2cbd231fce0cfda3
 
 ---
 
@@ -151,7 +151,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
-| 注意 | 添加或更新日期 | 描述 |
+| 声明 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]>[!UICONTROL 报表包]>[!UICONTROL 常规帐户设置]**&#x200B;中的无法正常运行的[转化级别](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从 UI 中删除。 |
 | **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 3 日 | 自 2020 年 3 月 12 日起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
@@ -183,7 +183,7 @@ Audience Manager 的新增功能和更新：
 
 ## ![图标](/assets/aem.png) Experience Manager {#aem}
 
-Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
+Adobe Experience Manager(AEM)中的新增功能、修复和更新。 Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
 
 ### 产品更新
 
@@ -271,9 +271,11 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 视图 | 功能 |
 |------|---------|
-| [!UICONTROL 项目组合] | 如今，您可以在项目组合中添加 [!DNL Yahoo!] Japan Display Network (YDN) 促销活动，以优化促销活动预算和广告组级别的竞价。相同的竞价适用于广告组中的所有广告。Japan Display Network 促销活动的数据包含在项目组合的各个模拟中。 |
-| [!UICONTROL 搜索] > [!UICONTROL 批量工作表] | 现在，您可以通过批量工作表来创建、编辑和删除 Google 响应式搜索广告 (RSA)。以前，只能通过&#x200B;**[!UICONTROL 搜索]** > **[!UICONTROL 促销活动]**&#x200B;中的标准促销活动管理界面来提供支持 |
-| [!UICONTROL 搜索] > [!UICONTROL 促销活动、报表] | Google Ad 的突出量度 `Impr. (Abs. Top) %` 和 `Impr. (Top) %` 目前可以应用在所有的基本报表和实体级别的促销活动管理视图（但是，对于那些选购性产品组除外）、[!UICONTROL 促销活动日市场份额]和[!UICONTROL 关键字级别的日市场份额]报表，以及标签和限制性视图中。 |
+| [!UICONTROL 项目组合] | 有关如何管理您的包以考虑COVID-19导致的流量更改的准则，请与您的客户经理联系。 |
+|  | （Google Ads和Microsoft Ads营销活动）在具有“自动优化竞价调整值”选项的优化组合中，Advertising Cloud不再使用增强的每次点击成本(eCPC)竞价策略自动优化营销活动的竞价调整设置。 搜索引擎优化拍卖时的所有竞价调整。 Advertising Cloud仍可优化基本竞价，并且 启用“自动调整营销活动预算限制”选项时— 营销活动预算。 |
+| [!UICONTROL 警报测试版] | （测试版功能）您现在可以创建警报模板，以识别任何个人信息何时满足特定条件— 例如绩效指标— 然后生成警报。 您可以从“分析和报告”>“警报”( **[!UICONTROL 测试版)]** ，但不能从“优化” **[!UICONTROL >“包”中创建组合级]** 别 ********&#x200B;的警报。 **注意：** 从旧版“警报测试版”（已在1月份替换）创建的任何警报都不再可用。 |
+|  |
+| [!UICONTROL “管理员] ”>“事 [!UICONTROL 务处理属性”] | 新的“属性ID”列显示每个事务属性的唯一属性ID。 您可以搜索列值中包含的任何字符串。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
