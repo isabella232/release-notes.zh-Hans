@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 11dd1c361df84ef52b54734e2cbd231fce0cfda3
+source-git-commit: 84d38312b8486b99fe12ada6d358682e3ae43847
 
 ---
 
@@ -267,12 +267,12 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-2020年3月20日更新，3月21日版本：
+更新日期：2020 年 3 月 20 日，适用于 3 月 21 日版：
 
 | 视图 | 功能 |
 |------|---------|
 | [!UICONTROL 项目组合] | 有关如何管理您的包以考虑COVID-19导致的流量更改的准则，请与您的客户经理联系。 |
-|  | （Google Ads和Microsoft Ads营销活动）在具有“自动优化竞价调整值”选项的优化组合中，Advertising Cloud不再使用增强的每次点击成本(eCPC)竞价策略自动优化营销活动的竞价调整设置。 搜索引擎优化拍卖时的所有竞价调整。 Advertising Cloud仍可优化基本竞价，并且 启用“自动调整营销活动预算限制”选项时— 营销活动预算。 |
+| Google广告和Microsoft广告活动 | 在具有“自动优化竞价调整值”选项的优化组合中，Advertising Cloud不再使用增强的每次点击成本(eCPC)竞价策略自动优化活动的竞价调整设置。 搜索引擎优化拍卖时的所有竞价调整。 Advertising Cloud仍可优化基本竞价，并且 启用“自动调整活动预算限制”选项时— 活动预算。 |
 | [!UICONTROL 警报测试版] | （测试版功能）您现在可以创建警报模板，以识别任何个人信息何时满足特定条件— 例如绩效指标— 然后生成警报。 您可以从“分析和报告”>“警报”( **[!UICONTROL 测试版)]** ，但不能从“优化” **[!UICONTROL >“包”中创建组合级]** 别 ********&#x200B;的警报。 **注意：** 从旧版“警报测试版”（已在1月份替换）创建的任何警报都不再可用。 |
 |  |
 | [!UICONTROL “管理员] ”>“事 [!UICONTROL 务处理属性”] | 新的“属性ID”列显示每个事务属性的唯一属性ID。 您可以搜索列值中包含的任何字符串。 |
@@ -292,7 +292,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 发行日期：2020 年 2 月 21 日
 
-* **Microsoft Dynamics _在 Microsoft 中更改所有者_流程操作**：直接从 Marketo Engage 中更改潜在客户或联系所有者
+* **Microsoft Dynamics _在 Microsoft 中更改所有者_流程操作**：直接从 Marketo Engage 中更改潜在客户或联系所有者。
 * **对 API 调用的增强：**
    * 用户管理 API
    * 自定义对象架构 API
