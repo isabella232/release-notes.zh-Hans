@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
+source-git-commit: abf763ddf0ed4ae9d8df5b7dcef4e664db4cf682
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 01a3dab2c109edf6664ed79814022d61d2b82675
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面和核心服务](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 发行日期：**2020 年 3 月 12 日**
+* [!DNL Analytics](#analytics) - 发行日期：**2020 年 3 月 12 日** （更新日期：2020年3月27日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -128,7 +128,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 Adobe Analytics 中的新增功能和修复：
 
 * [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics 管理员的重要注意事项](#aa-notices) （更新日期：2020年3月27日）
 * [AppMeasurement](#appm)
 
 有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
@@ -151,10 +151,10 @@ Adobe Analytics 中的新增功能和修复：
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
-| 声明 | 添加或更新日期 | 描述 |
+| 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]>[!UICONTROL 报表包]>[!UICONTROL 常规帐户设置]**&#x200B;中的无法正常运行的[转化级别](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从 UI 中删除。 |
-| **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 3 日 | 自 2020 年 3 月 12 日起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
+| **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 27 日 | The **[!UICONTROL View Archive]** setting under **[!UICONTROL Manage Dashboards]** in [!UICONTROL Reports &amp; Analytics] will no longer be available as of October, 2020. |
 | 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 我们一直不懈努力，致力于维持最高安全标准并提升客户数据安全。为此，Adobe Analytics 对 TLS 1.1 的支持将持续到 2020 年 3 月 31 日，在这之后将不再支持 TLS 1.1。 |
 | 新的 Adobe Analytics 域 | 2019 年 12 月 18 日 | 自 2020 年 1 月 16 日起，Adobe Analytics 将开始转移到新域 - `https://experience.adobe.com/analytics.`<br>**注意：**这项更改适用于使用 Adobe ID 或 Enterprise ID 访问 Analytics 的所有用户。<ul><li>域更改可能会导致在 Safari 中加载 Analytics 时出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Analytics 在这个新的 Adobe Experience Cloud 域上运行。您可以使用其他浏览器而不会出现任何问题，因为这项更改仅影响 [!DNL Safari] 用户。</li><li>[在特定情况下](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/activity-map.html)，域更改可能会导致某些客户的 [!UICONTROL Activity Map] 停止工作。</li></ul> |
 | 生命周期结束 - Analytics 旧版 API | 2020 年 1 月 9 日 | 2020 年 11 月，以下 Analytics 旧版 API 服务将停止使用并关闭。当前使用这些服务构建的集成将会停止工作。 <ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
@@ -183,7 +183,7 @@ Audience Manager 的新增功能和更新：
 
 ## ![图标](/assets/aem.png) Experience Manager {#aem}
 
-Adobe Experience Manager(AEM)中的新增功能、修复和更新。 Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
+Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
 
 ### 产品更新
 
@@ -271,10 +271,10 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 视图 | 功能 |
 |------|---------|
-| [!UICONTROL 项目组合] | 有关如何管理您的包以考虑COVID-19导致的流量更改的准则，请与您的客户经理联系。 |
-| Google广告和Microsoft广告活动 | 在具有“自动优化竞价调整值”选项的优化组合中，Advertising Cloud不再使用增强的每次点击成本(eCPC)竞价策略自动优化活动的竞价调整设置。 搜索引擎优化拍卖时的所有竞价调整。 Advertising Cloud仍可优化基本竞价，并且 启用“自动调整活动预算限制”选项时— 活动预算。 |
-| [!UICONTROL 警报测试版] | （测试版功能）您现在可以创建警报模板，以识别任何个人信息何时满足特定条件— 例如绩效指标— 然后生成警报。 您可以从“分析和报告”>“警报”( **[!UICONTROL 测试版)]** ，但不能从“优化” **[!UICONTROL >“包”中创建组合级]** 别 ********&#x200B;的警报。 **注意：** 从旧版“警报测试版”（已在1月份替换）创建的任何警报都不再可用。 |
-| [!UICONTROL “管理员] ”>“事 [!UICONTROL 务处理属性”] | 新的“属性ID”列显示每个事务属性的唯一属性ID。 您可以搜索列值中包含的任何字符串。 |
+| [!UICONTROL 项目组合] | 有关如何管理您的项目组合以应对因新冠肺炎疫情导致的流量变化的准则，请与您的客户经理联系。 |
+| Google Ads 和 Microsoft Ads 促销活动 | 在具有“自动优化竞价调整值”选项的优化项目组合中，Advertising Cloud 不再使用增强的每次点击成本 (eCPC) 竞价策略来自动优化促销活动的竞价调整设置。搜索引擎会优化拍卖时的所有竞价调整。Advertising Cloud 仍会优化基本竞价和（启用“自动调整促销活动预算限制”选项时）促销活动预算。 |
+| [!UICONTROL 警报（测试版）] | （测试版功能）现在，您可以创建警报模板，以识别在指定时间段内，任何项目组合何时满足特定条件（例如绩效衡量指标），然后生成警报。您可以从&#x200B;**[!UICONTROL 分析和报告]** > **[!UICONTROL 警报（测试版）]**&#x200B;中创建项目组合级别的警报，但不能从&#x200B;**[!UICONTROL 优化]** > **[!UICONTROL 项目组合]**&#x200B;中创建。**注意：**&#x200B;从旧版警报（测试版）（已于 1 月份被取代）创建的任何警报都不再可用。 |
+| [!UICONTROL 管理员] > [!UICONTROL 交易属性] | 新的“属性 ID”列显示每个交易属性的唯一属性 ID。您可以搜索列值中包含的任何字符串。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
