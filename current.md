@@ -4,8 +4,8 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
+translation-type: tm+mt
+source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 870c6694107d7ca60a4b9c20031fb0e6c6d68645
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面和核心服务](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) - 发行日期：**2020 年 3 月 12 日**（更新日期：2020 年 3 月 27 日）
+* [!DNL Analytics](#analytics) - 发行日期：**2020 年 3 月 12 日** （更新日期：2020年4月7日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -128,7 +128,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 Adobe Analytics 中的新增功能和修复：
 
 * [Adobe Analytics 中的新增功能、增强功能和修复](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2020 年 3 月 27 日）
+* [Analytics 管理员的重要注意事项](#aa-notices) （更新日期：2020年4月7日）
 * [AppMeasurement](#appm)
 
 有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html)。
@@ -153,6 +153,7 @@ Adobe Analytics 中的新增功能和修复：
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
+| 在Workspace中更改如何计算条目／退出 | 2020年4月7日 | 在分析工作区中，自2020年3月起，我们更改了“无”值与“登入／退出”的交互方式。 由于您现在可以在分析工作区中打开和关闭“无”，因此我们会在进入或退出后应用“无”，而（对于eVar）以前应用它。 例如，假设访问的第一次点击对eVarx没有任何值，但第二次点击确实有。 在Reports &amp; Analytics中，它将对条目显示为“未指定”，但在分析工作区中，它将在第二次点击时显示为值。 |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]>[!UICONTROL 报表包]>[!UICONTROL 常规帐户设置]**&#x200B;中的无法正常运行的[转化级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从 UI 中删除。 |
 | **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
 | 停止支持 TLS 1.1 | 2019 年 10 月 3 日 | 我们一直不懈努力，致力于维持最高安全标准并提升客户数据安全。为此，Adobe Analytics 对 TLS 1.1 的支持将持续到 2020 年 3 月 31 日，在这之后将不再支持 TLS 1.1。 |
