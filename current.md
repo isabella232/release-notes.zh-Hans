@@ -63,7 +63,7 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 
 | 功能 | 发行日期 | 描述 |
 | ----|----|---- |
-| 管理工具 - 查看用户详细信息 | 2020 年 2 月 26 日 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
+| 管理工具 - 查看用户详细信息 | 2020 年 2 月 26 日 | 在新的“管理工具”中，管理员可以查看所有 Experience Cloud 用户的可排序、可过滤列表及其详细信息。用户详细信息包括用户的产品访问、角色和上次访问信息。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
 
 ### 统一的产品域
 
