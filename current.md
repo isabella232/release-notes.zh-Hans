@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5147d6252a3bf0bcf0426490c3d3bd96cb1739d5
+source-git-commit: 96d931c9b5001ddbaf9887b45a95adcc468a0376
 
 ---
 
@@ -272,10 +272,10 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 视图 | 功能 |
 |------|---------|
-| [!UICONTROL 项目组合] | 有关如何管理您的项目组合以应对因新冠肺炎疫情导致的流量变化的准则，请与您的客户经理联系。 |
-| Google Ads 和 Microsoft Ads 促销活动 | 在具有“自动优化竞价调整值”选项的优化项目组合中，Advertising Cloud 不再使用增强的每次点击成本 (eCPC) 竞价策略来自动优化促销活动的竞价调整设置。搜索引擎会优化拍卖时的所有竞价调整。Advertising Cloud 仍会优化基本竞价和（启用“自动调整促销活动预算限制”选项时）促销活动预算。 |
+| [!UICONTROL 项目组合] | For guidelines on how to manage your portfolios to account for traffic changes resulting from [!DNL COVID-19], contact your account manager. |
+| Google Ads 和 Microsoft Ads 促销活动 | In optimized portfolios with the [!UICONTROL Auto-optimize Bid Adjustment Values] option, Advertising Cloud no longer automatically optimizes the bid adjustment settings for campaigns using the enhanced cost per click (eCPC) bid strategy. 搜索引擎会优化拍卖时的所有竞价调整。Advertising Cloud still optimizes the base bids and — when the [!UICONTROL Auto adjust campaign budget limits] option is enabled — the campaign budget. |
 | [!UICONTROL 警报（测试版）] | （测试版功能）现在，您可以创建警报模板，以识别在指定时间段内，任何项目组合何时满足特定条件（例如绩效衡量指标），然后生成警报。您可以从&#x200B;**[!UICONTROL 分析和报告]** > **[!UICONTROL 警报（测试版）]**&#x200B;中创建项目组合级别的警报，但不能从&#x200B;**[!UICONTROL 优化]** > **[!UICONTROL 项目组合]**&#x200B;中创建。**注意：**&#x200B;从旧版警报（测试版）（已于 1 月份被取代）创建的任何警报都不再可用。 |
-| [!UICONTROL 管理员] > [!UICONTROL 交易属性] | 新的“属性 ID”列显示每个交易属性的唯一属性 ID。您可以搜索列值中包含的任何字符串。 |
+| [!UICONTROL 管理员] > [!UICONTROL 交易属性] | A new [!UICONTROL Property ID] column shows the unique property ID for each transaction property. 您可以搜索列值中包含的任何字符串。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
