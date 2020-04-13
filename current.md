@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 80852c2797ad1a26b6c4a806fa2cf3ef59f84707
+source-git-commit: 1cbba06183a2cd2897303e99dd7da89041a2d106
 
 ---
 
@@ -181,7 +181,7 @@ Adobe受众管理器的新增功能和修复：
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| [主要客户支持问题](../support-issues/support-issues-overview.md) | 我们在文档门户中添加了一个新部分，其中包括对客户支持团队收到的最常见问题的解答。 |
+| 主要客户支持问题 | 我们在文档门户中添加了一个新部分，其中包括对客户支持团队收到的最常见问题的解答。 |
 
 * 修复了导致重复实验 [!UICONTROL 室中的受众测试][!UICONTROL 和重复分配模板] 按钮不工作的问题  。 (AAM-53388)
 * 修复了在将目标配 [!UICONTROL 置为导出UUID时] ，匹配率  和段可寻址受众显示为0的问题。 “匹 [!UICONTROL 配率] ”和“ [!UICONTROL 区段可寻址受众] ”现在显示为100%。 (AAM-51615)
