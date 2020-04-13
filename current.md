@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 87f42aedd2b8c987b092c614468d536fa48ae724
+source-git-commit: 80852c2797ad1a26b6c4a806fa2cf3ef59f84707
 
 ---
 
@@ -65,6 +65,19 @@ Experience Cloud界面中的新增功能和修复，包括管理和核心服务(
 * Experience Cloud登录页面已更新以反映新的品牌元素。 (EXC-10747)
 
 有关产品文档，请参阅 [Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html) 帮助。
+
+### 统一的产品域
+
+Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cloud 应用程序中的体验。这些增强功能旨在以细微而重要的方式简化您的体验。这些增强不会更改您当前的工作流程。
+
+更新包括：
+
+* 新解决方案 URL：`experience.adobe.com/<application name>`：
+   * 所有产品最终都将采用此 URL 模式。寻找即将在本月内生效的新 URL。
+   * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个解决方案可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
+   * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
+* 更轻松地在组织之间切换，或切换到其他应用程序。
+* 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]** > **[!UICONTROL 反馈]**，可报告问题或与 Adobe 分享您的想法。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
