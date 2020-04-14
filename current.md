@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1cbba06183a2cd2897303e99dd7da89041a2d106
+source-git-commit: 26ff9349ed0c5dc19167e4d21c03f5261f802e73
 
 ---
 
@@ -181,8 +181,9 @@ Adobe受众管理器的新增功能和修复：
 
 | 功能 | 描述 |
 | -----------| ---------- |  
-| 主要客户支持问题 | 我们在文档门户中添加了一个新部分，其中包括对客户支持团队收到的最常见问题的解答。 |
+| [主要客户支持问题](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我们在文档门户中添加了一个新部分，其中包括对客户支持团队收到的最常见问题的解答。 |
 
+* 修复了导致包含移动设备ID的区段 [的可寻址报告受众](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) 不准确的问题。 在此更新之后，您可能会看到可寻址受众的 [增加](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html)。
 * 修复了导致重复实验 [!UICONTROL 室中的受众测试][!UICONTROL 和重复分配模板] 按钮不工作的问题  。 (AAM-53388)
 * 修复了在将目标配 [!UICONTROL 置为导出UUID时] ，匹配率  和段可寻址受众显示为0的问题。 “匹 [!UICONTROL 配率] ”和“ [!UICONTROL 区段可寻址受众] ”现在显示为100%。 (AAM-51615)
 * 修复了包含特殊字符的特征名称被HTML编码两次的问题。 (AAM-54001)
