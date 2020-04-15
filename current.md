@@ -116,7 +116,7 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4月维护版本已移至2020年5月21日。 有关最新的Analytics版本信息，请参阅3 [月版本说明](c-legacy-releases\2020\03122020.md)
+>Adobe Analytics 4月维护版本已移至2020年5月21日。 有关最新的Analytics版本信息，请参阅3 [月版本说明](c-legacy-releases/2020/03122020.md)
 
 <!-- * [New features, enhancements, and fixes in Adobe Analytics](#aa-features)
 * [Important notices for Analytics administrators](#aa-notices) (Updated April 7, 2020)
