@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: be1e03f7420ea4a1bd9c2797a087cbb42246049c
+source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 
 ---
 
@@ -116,7 +116,7 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 
 >[!IMPORTANT]
 >
->大多数Adobe Analytics四月维护版本已移至2020年5月21日。 有关最新的Analytics版本信息，请参阅3 [月版本说明](c-legacy-releases/2020/03122020.md)
+>Adobe Analytics 4月维护版本已移至2020年5月21日。 有关最新的Analytics版本信息，请参阅3 [月版本说明](c-legacy-releases/2020/03122020.md)
 
 * [客户历程分析](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
@@ -191,7 +191,7 @@ Adobe Audience Manager 的新增功能和修复。
 | -----------| ---------- |  
 | [主要客户支持问题](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我们在文档门户中添加了一个新部分，其中包括对客户支持团队收到的最常见问题的解答。 |
 
-* 修复了导致包含移动设备ID的区段 [的可寻址报告受众](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html) 不准确的问题。 在此更新之后，您可能会看到可寻址受众的 [增加](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/addressable-audiences.html)。
+* 修复了导致为包含移动设备 ID 的区段报告的[可寻址受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/addressable-audiences.html)不准确的问题。在此更新之后，您可能会看到[可寻址受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/addressable-audiences.html)有所增加。
 * 修复了导致 [!UICONTROL Audience Lab] 中的[!UICONTROL 重复测试]和[!UICONTROL 重复分配模板]按钮不工作的问题。(AAM-53388)
 * 修复了在将目标配置为导出 UUID 时，[!UICONTROL 匹配率]和[!UICONTROL 区段可寻址受众]显示为 0 的问题。[!UICONTROL 匹配率]和[!UICONTROL 区段可寻址受众]现在显示为 100%。(AAM-51615)
 * 修复了包含特殊字符的特征名称被 HTML 编码两次的问题。(AAM-54001)
