@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5f42fc9ac718298602c7c02897b38a5e6009b893
+source-git-commit: 41c551a6c2e3e8b621abacb5afe2240c30b851da
 
 ---
 
@@ -119,9 +119,9 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 >大多数Adobe Analytics四月维护版本已移至2020年5月21日。 有关最新的Analytics版本信息，请参阅3 [月版本说明](c-legacy-releases/2020/03122020.md)
 
 * [客户历程分析](#cust-journey)
-* [Adobe Analytics 中的新增功能](#aa-features)
+<!--* [New features in Adobe Analytics](#aa-features)-->
 * [Analytics管理员的重要注意事项](#aa-notices) （2020年4月7日更新）
-* [AppMeasurement](#appm) -->
+* [AppMeasurement](#appm)
 * [新的 Analytics 教程](#tutorials-analytics)
 
 ### 客户历程分析 {#cust-journey}
@@ -130,12 +130,12 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 | -----------| ---------- |
 | [!UICONTROL Customer Journey Analytics]：自动数据集回填 | 这个新的选项允许您在 [!UICONTROL Customer Journey Analytics] 中，导入某个连接的所有历史数据。[了解更多](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html) |
 
-### Adobe Analytics 中的新增功能 {#aa-features}
+<!--### New features in Adobe Analytics {#aa-features}
 
-| 功能 | 描述 |
+| Feature    | Description  |
 | -----------| ---------- |
-| Analytics 支持 [!UICONTROL Experience Edge] | 现在，您可以将发送到 [!UICONTROL Experience Edge] 的数据转发到 Analytics。 |
-<!-- |[!UICONTROL Workspace]: Automatically build Freeform Tables from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a freeform table first. You can now drop components directly into a blank project or panel, and a freeform table will automatically be built for you in a recommended format. Additionally, improvements were made to how mixed component types (e.g. dimensions & metrics) are handled when dropped into a blank freeform table together.|
+|Analytics support for [!UICONTROL Experience Edge] |You can now forward data that was sent to [!UICONTROL Experience Edge] to Analytics.|
+ |[!UICONTROL Workspace]: Automatically build Freeform Tables from a blank state|Previously, you could not drop components directly into a blank project or blank panel; you had to add a freeform table first. You can now drop components directly into a blank project or panel, and a freeform table will automatically be built for you in a recommended format. Additionally, improvements were made to how mixed component types (e.g. dimensions & metrics) are handled when dropped into a blank freeform table together.|
 
 #### Analytics fixes
 
