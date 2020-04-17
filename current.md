@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
+source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 （具体解决方案的发布日期可能有所不同。）
 
 * [Adobe 系统状态](#status)
-* [Experience Cloud 界面和核心服务](#ecloud)
+* [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (发 **布日期更改——请参阅4月15日的更新)**
+* [!DNL Analytics](#analytics)**（发行日期更改 - 请参阅 4 月 15 日的更新）**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -57,9 +57,9 @@ source-git-commit: 6bd8e1af2afa691e6796769ad1f8cb5f29433d8e
 | 基于授权的个性化订阅 | <ul><li>根据用户的 DX 授权，预先选择的推荐订阅产品。</li><li>推荐的订阅在产品列表顶部突出显示，以便快速查看。</li><li>收到的电子邮件通知与用户的产品授权相关。</li></ul> |
 | 更轻松地管理订阅 | <ul><li>**[!UICONTROL 管理订阅]**&#x200B;在管理产品和事件订阅方面，提供了全新的用户体验。</li><li>新增了一个选项，可分别查看和编辑产品订阅和事件订阅。</li><li>**[!UICONTROL 删除]**&#x200B;选项使您可以取消产品订阅或事件订阅。</li><li>一键单击&#x200B;**[!UICONTROL 取消所有订阅]**&#x200B;选项适用于产品订阅。</li><li>UX 支持适用于 Web/移动设备/平板电脑界面，并针对 19 种语言进行了本地化。</li></ul> |
 
-## ![图标](/assets/ec_appicon_24.png) Experience Cloud 界面和核心服务 {#ecloud}
+## ![图标](/assets/ec_appicon_24.png) Experience Cloud界面 {#ecloud}
 
-Experience Cloud 界面中的新增功能和修复，包括管理和核心服务（客户属性、受众、触发器、Cookie 等）：
+Experience Cloud界面中的新增功能和修复，包括管理和服务(如客户属性、受众、触发器等):
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
 * Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
@@ -116,19 +116,19 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4月维护版本已移至2020年5月21日。 有关最新的Analytics版本信息，请参阅3 [月版本说明](c-legacy-releases/2020/03122020.md)
+>Adobe Analytics 4月维护版本已移至2020年5月21日。 有关最新的 Analytics 版本信息，请参阅 [3 月发行说明](c-legacy-releases/2020/03122020.md)
 
-* [客户历程分析](#cust-journey)
+* [Customer Journey Analytics](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
-* [Analytics管理员的重要注意事项](#aa-notices) （2020年4月7日更新）
+* [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2020 年 4 月 7 日）
 * [AppMeasurement](#appm)
 * [新的 Analytics 教程](#tutorials-analytics)
 
-### 客户历程分析 {#cust-journey}
+### Customer Journey Analytics {#cust-journey}
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| [!UICONTROL Customer Journey Analytics]：自动数据集回填 | 这个新的选项允许您在 [!UICONTROL Customer Journey Analytics] 中，导入某个连接的所有历史数据。[了解更多](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html) |
+| [!UICONTROL Customer Journey Analytics]：自动数据集回填 | 这个新的选项允许您在 [!UICONTROL Customer Journey Analytics] 中，导入某个连接的所有历史数据。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
 
