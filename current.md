@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
+source-git-commit: f2687895a6795bb636ddb5c10f60fe9d6231e8c5
 
 ---
 
@@ -29,7 +29,6 @@ source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 （具体解决方案的发布日期可能有所不同。）
 
 * [Adobe 系统状态](#status)
-* [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics)**（发行日期更改 - 请参阅 4 月 15 日的更新）**
 * [Audience Manager](#aam)
@@ -59,7 +58,7 @@ source-git-commit: 8b516bbbc35cd7cbf450ac423b05ea69ded4b091
 
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud界面 {#ecloud}
 
-Experience Cloud界面中的新增功能和修复，包括管理和服务(如客户属性、受众、触发器等):
+Experience Cloud界面的新增功能和修复：
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
 * Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
@@ -81,7 +80,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-[!UICONTROL Experience Platform]、[!UICONTROL Experience Platform Launch]、[!UICONTROL Identity Service]、Journey Orchestration、Mobile Services 的发行说明及安全公告。
+发行说明，内容包括旅程编排、 [!DNL Experience Platform,] 旅程编排、 [!DNL Experience Platform Launch,] 优惠、 [!UICONTROL 、场所、移]动服务、安全公告等，以及旅程安排、、的发行说明。
 
 ### Journey Orchestration {#journey}
 
