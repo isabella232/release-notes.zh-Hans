@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 78a2b7841c4b404cc96b912cef2a3702c7e29ec8
+source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
 
 ---
 
@@ -27,20 +27,20 @@ Adobe Experience Cloud 的新增功能和修复。
 **发行日期：2020 年**
 
 * [Adobe 系统状态](#status)
-* [[!UICONTROL Experience Cloud 和核心服务]](#ecloud)
+* [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [Analytics](#analytics)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Target](https://docs.adobe.com/content/help/en/target/using/release-notes/target-release-notes.html) （解决方案帮助链接）
+* [目标](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
-* [Primetime](https://helpx.adobe.com/primetime/user-guide.html)（链接到解决方案帮助）
+* [Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html)（链接到解决方案帮助）
 * [新文档和教程](#selfhelp)
 
-在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)。
+在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html)。
 
 ## Adobe 系统状态 {#status}
 
@@ -48,7 +48,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 请参阅 [Adobe 系统状态](https://status.adobe.com/)。
 
-## Experience Cloud and [!UICONTROL core services]{#ecloud}
+## Experience Cloud 界面{#ecloud}
 
 Experience Cloud 界面中的新增功能和修复，包括管理和核心服务（客户属性、受众、触发器、Cookie 等）。
 
@@ -59,34 +59,36 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 
 功能和修复。
 
-有关产品文档，请参阅 [Experience Cloud 和核心服务](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
+For product documentation, see [Experience Cloud interface](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)
 
 ### 管理和开发人员 {#admin}
 
 功能和修复。
 
-有关产品文档，请参阅[管理用户和产品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+有关产品文档，请参阅[管理用户和产品](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 ## [!UICONTROL Experience Platform] {#platform}
 
-[!UICONTROL Experience Platform]、[!UICONTROL Experience Platform Launch]、[!UICONTROL Identity Service]、[!UICONTROL Journey Orchestration]、[!UICONTROL Mobile Services] 的发行说明及安全公告。
+## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
+
+发行说明，内容包括旅程编排、 [!DNL Experience Platform,] 旅程编排、 [!DNL Experience Platform Launch,] 优惠、 [!UICONTROL 、场所、移]动服务、安全公告等，以及旅程安排、、的发行说明。
 
 * [Experience Cloud ID 服务](#ecid)
 * [Experience Platform 发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
 * [Experience Platform Launch](#launch)
 * [Journey Orchestration](#journey)
 * [Mobile Services 和 Mobile SDK](#mobile)
-* [安全公告与建议](https://helpx.adobe.com/security.html)（所有 Adobe 产品）
+* [安全公告与建议](https://helpx.adobe.com/cn/security.html)（所有 Adobe 产品）
 
 ### [!UICONTROL Experience Cloud ID 服务] {#ecid}
 
 功能和修复。
 
-有关产品文档，请参阅 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+有关产品文档，请参阅 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
-有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/release-notes/current.html)。
+有关发行说明和产品文档，请参阅 [Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/release-notes/current.html)。
 
 ### [!UICONTROL Journey Orchestration] {#journey}
 
@@ -94,7 +96,7 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 
 #### [!UICONTROL Journey Orchestration] 的其他资源
 
-[文档](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services] 和 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -109,9 +111,9 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 * 修复
 * 修复了“未定义”错误地
 
-有关产品文档，请参阅 [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)。
+有关产品文档，请参阅 [Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)。
 
-有关 Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://marketing.adobe.com/resources/help/en_US/mobile/android/)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)。
+有关 Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://marketing.adobe.com/resources/help/zh_CN/mobile/android/)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html)。
 
 ## Analytics {#analytics}
 
@@ -121,7 +123,7 @@ Adobe Analytics 中的新增功能和修复：
 * [适用于 iOS 和 Android 的 Media Analytics SDK （以前称为 VHL SDK）](#aa-va)
 * [Analytics 管理员的重要注意事项](analytics-important-notices.md)
 
-有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/en/analytics/landing/home.html)。
+有关产品文档，请参阅 [Adobe Analytics 帮助主页](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/home.html)。
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
@@ -141,7 +143,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ### Data Workbench {#aa-dwb}
 
-请参阅 [Data Workbench 发行说明](https://marketing.adobe.com/resources/help/en_US/insight/whatsnew/)，以了解最新信息。
+请参阅 [Data Workbench 发行说明](https://marketing.adobe.com/resources/help/zh_CN/insight/whatsnew/)，以了解最新信息。
 
 ### AppMeasurement {#appm}
 
@@ -158,7 +160,7 @@ Adobe Analytics 中的新增功能和修复：
 * 修复
 * 修复了“未定义”错误地
 
-请参阅 [AppMeasurement 版本历史](https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，了解下列平台上 AppMeasurement 的版本更新历史：
+请参阅 [AppMeasurement 版本历史](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，了解下列平台上 AppMeasurement 的版本更新历史：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -219,12 +221,12 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 ### 其他资源
 
-* [AEM 6.4 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
-* [AEM 6.3 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
-* [AEM 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
-* [更早版本的 AEM 文档](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
-* [Scene7 发布系统发行说明](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
+* [AEM 6.4 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
+* [AEM 6.3 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
+* [AEM 6.2 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
+* [更早版本的 AEM 文档](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
+* [Scene7 Publishing System发行说明](https://marketing.adobe.com/resources/help/zh_CN/s7/release_notes/index.html)
 * [Livefyre 发行说明](https://marketing.adobe.com/resources/help/en_US/livefyre/c_rn.html)
 
 ### [!DNL Livefyre] {#livefyre}
@@ -263,9 +265,9 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### 其他资源
 
-* Adobe Campaign Standard：[文档](https://helpx.adobe.com/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文档](https://helpx.adobe.com/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
+* Adobe Campaign Standard：[文档](https://helpx.adobe.com/cn/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html)
+* Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)
 
 ## Advertising Cloud {#adcloud}
 
@@ -297,7 +299,7 @@ Marketo Engage是销售线索管理和B2B营销人员的一个完整解决方案
 
 发行日期：2020 年 2 月 21 日
 
-* **Microsoft Dynamics _在 Microsoft 中更改所有者_流程操作**：直接从 Marketo Engage 中更改潜在客户或联系所有者
+* **Microsoft Dynamics _在 Microsoft 中更改所有者_流程操作**：直接从 Marketo Engage 中更改潜在客户或联系所有者。
 * **对 API 调用的增强：**
    * 用户管理 API
    * 自定义对象架构 API
@@ -349,8 +351,8 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 | [!DNL Adobe Campaign] | 视频 - [Snowflake 上的大数据管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 在 Adobe Campaign Classic 中利用 Snowflake 连接器。 |
 | [!DNL Adobe Campaign] - 受众目标 | 文章 - [受众目标（测试版）- 概述](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html) | 了解如何将 Adobe Experience Platform 中的集中化和整合的配置文件数据用于 Adobe Campaign Standard 中的营销活动。 |
 | [!DNL Adobe Target] - Mobile SDK | 教程 - [使用 Adobe Target 实现个性化的应用程序体验](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html) | 在您自己的 Android 应用程序中实施 Adobe Target。验证 Mobile Services SDK 的设置，并实施类似预提取内容、阻止请求等的 [!DNL Target] 请求。 |
-| Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 观看 2019 年峰会上高科技“超级论坛”的精选剪辑。 |
-| Adobe Analytics | 视频 - [客户旅程分析中的计算量度简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 逐步了解在[!UICONTROL 客户旅程分析]中创建[!UICONTROL 计算量度]的基础知识。 |
+| Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/zh-Hans/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-high-tech.html) | 观看 2019 年峰会上高科技“超级论坛”的精选剪辑。 |
+| Adobe Analytics | 视频 - [Customer Journey Analytics 中的计算量度简介](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/introduction-to-calculated-metrics-in-customer-journey-analytics.html) | 逐步了解在 [!UICONTROL Customer Journey Analytics] 中创建[!UICONTROL 计算量度]的基础知识。 |
 | Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-travel.html) | 观看 2019 年峰会旅游及服务业会议的精选剪辑。 |
 | Adobe Analytics | 视频 - [Adobe 峰会 2019 年超级论坛](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-summit-2019-super-session-retail.html) | 查看 2019 年峰会上零售会议的精选剪辑。 |
 | Adobe Analytics | 视频 - [客户使用案例：Accent Group 在客户体验上加大投资力度以促进销售](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/accent-group-invests-in-customer-experience-to-drive-sales.html) | 观看 Accent Group 如何使用 Adobe Experience Cloud 来创建无缝数字体验。 |
@@ -359,8 +361,8 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 | Adobe Analytics | 视频 - [Adobe Sensei 和 Adobe Analytics - 扩展版本](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/adobe-sensei-and-adobe-analytics.html) | 查看 Adobe Analytics 中以 Adobe [!DNL Sensei,] 作为后盾的主要功能，包括[!UICONTROL 异常检测]、[!UICONTROL 贡献分析]、[!UICONTROL 智能警报]、[!UICONTROL 群集]、[!UICONTROL 区段 IQ] 和[!UICONTROL 倾向建模]等。 |
 | Adobe Analytics | 视频 - [Adobe Analysis Workspace 怎样可以改变您的业务方式](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business.html) | 了解如何使用 [!UICONTROL Analysis Workspace] 来执行 Ad Hoc Analysis、灵活分析、队列分析和流失分析。您还可以与公司中的每位人员共享分析工作环境，其拖放功能使每个人都能轻松分析数据并快速获得洞察。 |
 | Adobe Analytics | 视频 - [客户使用案例：Home Depot 利用客户体验管理进行创新](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/the-home-depot-innovates-with-customer-experience-management.html) | 了解 [!DNL Home Depot] 如何使用 Adobe 解决方案，通过个性化、自定义的购物体验来创造品牌忠诚度和客户满意度。 |
-| Adobe Analytics | 演示 - [了解客户旅程分析](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | 了解 Adobe 的[!UICONTROL 客户旅程分析]（一项基于 [!DNL Adobe Experience Platform] 的应用程序服务）如何将 [!UICONTROL Analysis Workspace] 引入到 Experience Platform。此功能支持对任何 [!DNL Adobe Experience Platform] 数据集进行多渠道分析。 |
-| Adobe Analytics | 视频 - [CJA 中的跨渠道归因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在[!UICONTROL 客户旅程分析]中使用可视化图表来跨渠道显示归因（提供点数）。 |
+| Adobe Analytics | 演示 - [了解 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/understanding-customer-journey-analytics.html) | 了解 Adobe 的 [!UICONTROL Customer Journey Analytics] （一项基于 [!DNL Adobe Experience Platform] 的应用程序服务）如何将 [!UICONTROL Analysis Workspace] 引入到 Experience Platform。此功能支持对任何 [!DNL Adobe Experience Platform] 数据集进行多渠道分析。 |
+| Adobe Analytics | 视频 - [CJA 中的跨渠道归因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在 [!UICONTROL Customer Journey Analytics] 中使用可视化图表来跨渠道显示归因（提供点数）。 |
 | Adobe Analytics | 文章 - [适用于继续 Adobe Analytics 学习之旅的客户提示](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | 结识三位 Adobe 客户，他们可向您提供有关如何从 Adobe Analytics 中获取最大价值的提示和技巧。 |
-| Adobe Analytics | 视频 - [在 CJA 中创建跨渠道可视化图表](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解[!UICONTROL 客户旅程分析]如何允许您创建可视化图表，这些可视化图表包括来自跨多个渠道的多个数据集中的数据，其中包含合并每位访客的数据。 |
-| Adobe Analytics | 视频 - [将您的计算量度从 Adobe Analytics 移至客户旅程分析](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | 在[!UICONTROL 客户旅程分析]中查找有关重新创建 Analytics [!UICONTROLC计算量度]的提示。 |
+| Adobe Analytics | 视频 - [在 CJA 中创建跨渠道可视化图表](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解 [!UICONTROL Customer Journey Analytics] 如何允许您创建可视化图表，这些可视化图表包括来自跨多个渠道的多个数据集中的数据，其中包含合并每位访客的数据。 |
+| Adobe Analytics | 视频 - [将您的计算量度从 Adobe Analytics 移至 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | 在 [!UICONTROL Customer Journey Analytics] 中查找有关重新创建 Analytics [!UICONTROLC计算量度]的提示。 |
