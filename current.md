@@ -4,13 +4,13 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
 
 ---
 
 
-# Adobe Experience Cloud发行说明- 2020年4月
+# Adobe Experience Cloud 发行说明 - 2020 年 4 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -30,10 +30,10 @@ source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) (指向目标帮助页面的链接)
+* [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)（链接到 Target 帮助页面）
 * [!DNL Magento](#magento)
 * [!DNL Marketo](#marketo)
-* [!DNL Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html) （Primetime帮助页面的链接）
+* [!DNL Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html)（链接到 Primetime 帮助页面）
 
 在找帮助主页吗？请参阅 [Adobe Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html)。
 
@@ -52,14 +52,14 @@ source-git-commit: 2d9a0e6ae9e796bdb09ce7d27e4e4a765462283a
 | 基于授权的个性化订阅 | <ul><li>根据用户的 DX 授权，预先选择的推荐订阅产品。</li><li>推荐的订阅在产品列表顶部突出显示，以便快速查看。</li><li>收到的电子邮件通知与用户的产品授权相关。</li></ul> |
 | 更轻松地管理订阅 | <ul><li>**[!UICONTROL 管理订阅]**&#x200B;在管理产品和事件订阅方面，提供了全新的用户体验。</li><li>新增了一个选项，可分别查看和编辑产品订阅和事件订阅。</li><li>**[!UICONTROL 删除]**&#x200B;选项使您可以取消产品订阅或事件订阅。</li><li>一键单击&#x200B;**[!UICONTROL 取消所有订阅]**&#x200B;选项适用于产品订阅。</li><li>UX 支持适用于 Web/移动设备/平板电脑界面，并针对 19 种语言进行了本地化。</li></ul> |
 
-## ![图标](/assets/ec_appicon_24.png) Experience Cloud界面 {#ecloud}
+## ![图标](/assets/ec_appicon_24.png) Experience Cloud 界面 {#ecloud}
 
-Experience Cloud界面的新增功能和修复：
+Experience Cloud 界面的新增功能和修复：
 
 * 已弃用 Experience Cloud 的[!UICONTROL 馈送]页面。(EXC-8505)
 * Experience Cloud 登录页面已更新，可反映新的品牌元素。(EXC-10747)
 
-For product documentation, see [Experience Cloud interface help](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html).
+有关产品文档，请参阅 [Experience Cloud 界面帮助](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)。
 
 ### 统一的产品域
 
@@ -67,16 +67,16 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 
 更新包括：
 
-* 新应用程序URL: `experience.adobe.com/<application name>`:
+* 新应用程序URL：`experience.adobe.com/<application name>`：
    * 所有产品最终都将采用此 URL 模式。寻找即将在本月内生效的新 URL。
-   * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：** 尽管Experience Cloud界面支持这些浏览器，但单个应用程序可能不支持每个浏览器。 （例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
+   * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：**&#x200B;尽管 Experience Cloud 界面支持这些浏览器，但单个应用程序可能不会支持每个浏览器。（例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
    * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
 * 更轻松地在组织之间切换，或切换到其他应用程序。
 * 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]** > **[!UICONTROL 反馈]**，可报告问题或与 Adobe 分享您的想法。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-发行说明，内容包括旅程编排、 [!DNL Experience Platform,] 旅程编排、 [!DNL Experience Platform Launch,] 优惠、 [!UICONTROL 、场所、移]动服务、安全公告等，以及旅程安排、、的发行说明。
+[!DNL Experience Platform,] 的发行说明，包括 [!DNL Experience Platform Launch,] [!UICONTROL Journey Orchestration]、[!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services] 和安全公告。
 
 ### Journey Orchestration {#journey}
 
@@ -111,7 +111,7 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 
 >[!IMPORTANT]
 >
->Adobe Analytics 4月维护版本已移至2020年5月21日。 有关最新的 Analytics 版本信息，请参阅 [3 月发行说明](c-legacy-releases/2020/03122020.md)
+>Adobe Analytics 4 月维护版本已移至 2020 年 5 月 21 日版中。有关最新的 Analytics 版本信息，请参阅 [3 月发行说明](c-legacy-releases/2020/03122020.md)
 
 * [Customer Journey Analytics](#cust-journey)
 <!--* [New features in Adobe Analytics](#aa-features)-->
@@ -190,7 +190,7 @@ Adobe Audience Manager 的新增功能和修复。
 * 修复了导致 [!UICONTROL Audience Lab] 中的[!UICONTROL 重复测试]和[!UICONTROL 重复分配模板]按钮不工作的问题。(AAM-53388)
 * 修复了在将目标配置为导出 UUID 时，[!UICONTROL 匹配率]和[!UICONTROL 区段可寻址受众]显示为 0 的问题。[!UICONTROL 匹配率]和[!UICONTROL 区段可寻址受众]现在显示为 100%。(AAM-51615)
 * 修复了包含特殊字符的特征名称被 HTML 编码两次的问题。(AAM-54001)
-* Fixed an issue blocking some users from switching to other Adobe Experience Cloud applications from the [!DNL Audience Manager] user interface. (AAM-52917)
+* 修复了致使某些用户无法从 [!DNL Audience Manager] 用户界面切换到其他 Adobe Experience Cloud 应用程序的问题。(AAM-52917)
 * 修复了致使某些用户无法为基于人员的目标创建 SHA256 数据源的问题。(AAM-53525)
 * 改进了整个界面的多项辅助功能。（AAM-48986、AAM-49009、AAM-48984、AAM-48939、AAM-48940、AAM-48964、AAM-49032、AAM-49360）
 
@@ -303,7 +303,7 @@ Advertising Cloud release notes. -->
 
 ## ![图标](/assets/marketo.png) [!DNL Marketo] {#marketo}
 
-[!DNL Marketo Engage] 是销售线索管理和B2B营销人员的一个完整应用程序，希望通过参与复杂购买旅程的每个阶段来改变客户体验。
+[!DNL Marketo Engage] 是一个完整的应用程序，面向希望通过参与复杂购买历程的每个阶段来转变客户体验的潜在客户管理人员和 B2B 营销人员。
 
 ### 核心 Marketo Engage 更新
 
