@@ -4,7 +4,7 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 * [Adobe 系统状态](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) ( **更新日期：4月16日)**
+* [!DNL Analytics](#analytics) **（更新日期：4 月 16 日）**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -155,7 +155,7 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 删除了“在数据仓库中应用的区段”检查 | 2020 年 4 月 16 日 | 自2020年4月16日起，我们不再检查是否在“区段生成器”中的“数据仓库”请求中应用了区段。 以前，此检查会查找在数据仓库请求中应用的单个区段（它排除了应用的多个区段），并在True时返回警告通知。 此更改不会影响区段的数据仓库产品兼容性检查。 |
+| 删除了“在 Data Warehouse 中应用的区段”检查 | 2020 年 4 月 16 日 | 自 2020 年 4 月 16 日起，我们不再从区段生成器中检查是否在 Data Warehouse 请求中应用了区段。以前，此检查会查找在 Data Warehouse 请求中应用的单个区段（排除应用的多个区段），并在为 True 时返回警告通知。此更改不会影响区段的 Data Warehouse 产品兼容性检查。 |
 | 在[!UICONTROL 工作区]中更改[!UICONTROL 登入/退出]的计算方式 | 2020 年 4 月 7 日 | 在 [!UICONTROL Analysis Workspace] 中，从 2020 年 3 月起，我们更改了&#x200B;_无_&#x200B;值与[!UICONTROL 登入/退出]的交互方式。由于您现在可以在 [!UICONTROL Analysis Workspace] 中打开和关闭&#x200B;_无_，因此我们会在登入或退出后应用&#x200B;_无_&#x200B;值，而（对于 eVar）过去是在登入或退出前应用。例如，假定访问的第一次点击没有 eVar 值，但第二次点击有。在 [!UICONTROL Reports &amp; Analytics] 中，针对“登入”将显示为&#x200B;_未指定_，但在 [!UICONTROL Analysis Workspace] 中，将显示第二次点击时的值。 |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]** > **[!UICONTROL 常规帐户设置]**&#x200B;中无法正常运行的[转化级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从该界面中删除。 |
 | **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
