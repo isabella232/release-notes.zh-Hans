@@ -4,8 +4,8 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
+translation-type: tm+mt
+source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 ---
 
@@ -22,11 +22,13 @@ source-git-commit: 3a66c0ee04a336a702ea9ff502a0f2ce6c5b2109
 
 **发行日期：2020 年 4 月**
 
+最新更新：2020 **年4月29日**
+
 （具体发布日期可能有所不同。）
 
 * [Adobe 系统状态](#status)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) **（更新日期：4 月 16 日）**
+* [!DNL Analytics](#analytics) **（更新日期：4 月 29 日）**
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -123,6 +125,7 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 
 | 功能 | 描述 |
 | -----------| ---------- |
+| Data Workbench 6.74 (**Update 4/29/2020**) | 在服务器实现中更新标识管理服务(IMS)TLS证书解析。 此更新将解析从字符串匹配扩展到常规表达式，包括处理主题替代名称(SAN)证书的功能。 See [Data Workbench release notes](https://docs.adobe.com/content/help/en/data-workbench/using/release-notes/release-notes.html) for more information. |
 | [!UICONTROL Customer Journey Analytics]：自动数据集回填 | 这个新的选项允许您在 [!UICONTROL Customer Journey Analytics] 中，导入某个连接的所有历史数据。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
