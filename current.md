@@ -4,8 +4,8 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
+translation-type: tm+mt
+source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
 
 ---
 
@@ -188,6 +188,8 @@ Adobe Audience Manager 的新增功能和修复。
 
 | 功能 | 描述 |
 | -----------| ---------- |  
+| [预测受众](../features/algorithmic-models/predictive-audiences.md) | [!UICONTROL 预测受众] 可以帮助您使用高级数据科学技术将未知受众实时分类为不同角色。 <br><br> 在营销环境中，人物是由访客、用户或潜在购买者定义的受众细分，他们具有一组特定特征，如人口统计、浏览习惯、购物历史记录等。<br><br>[!UICONTROL 预测受众] 模型使这一概念更进一步，它使您能够使用受众管理器的机器学习功能将未知的受众分类为不同的角色。 <br><br>受众管理器通过计算一组已知第一方受众的未知第一方受众的倾向来帮助您实现这一点。 |
+| Additional [!UICONTROL Profile Merge Rules] Enhancements | [!UICONTROL 用户档案合并规则] ，使受众管理者能够根据身份而不是设备定义、管理和激活受众细分。 <br><br> 从4月29日起，受众管理器客户将能够在受众管理器UI中更好地了解特征和区段的设备和跨设备ID群体的细分情况。 <br><br> 这将允许更好地洞察受众经理内部的身份，从而为客户提供按设备、人员和家庭划分的整体细分人口视图。 还将更新跨设备ID和设备ID的批量特征导出以反映这些增强功能。<br><br>  特定更新包括： <ul><li>在“一般 [”和“趋势”报表中](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/ids-in-aam.html) ，根据 [跨设备](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/general-reports.html) ID进 [行报告](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/trend-reports.html) ;</li><li>增强 [!UICONTROL Segment Builder中的特征选择器] ，以包含键入的 [CRM ID的特征群体](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/segments/segment-builder.html)[](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>创建精确的跨设备ID [特征导出](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/ids-in-aam.html);</li><li>创建键入的设备ID的准确 [特征导出](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/ids-in-aam.html) （应排除已验证的特征）;</li><li>使用BAAAM工具请求时，返回与 [CRM ID关联的](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/reference/ids-in-aam.html) traits的正 [确计数](https://docs.adobe.com/help/zh-Hans/audience-manager/user-guide/reference/bulk-management-tools/bulk-management-intro.html) 。</li></ul> |
 | [主要客户支持问题](https://docs.adobe.com/content/help/en/audience-manager/user-guide/top-support-issues/support-issues-overview.html) | 我们在文档门户中添加了一个新部分，其中包括对客户支持团队收到的最常见问题的解答。 |
 
 * 修复了导致为包含移动设备 ID 的区段报告的[可寻址受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/addressable-audiences.html)不准确的问题。在此更新之后，您可能会看到[可寻址受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/addressable-audiences.html)有所增加。
