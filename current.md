@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
+source-git-commit: d3802d290f1d5192e5bc31f4003ee12fd0ad1ff4
 
 ---
 
@@ -22,14 +22,14 @@ source-git-commit: a9f229b5766e90c4fef37d5c35f055856aa42f5a
 
 **发行日期：2020 年 4 月**
 
-最新更新：**2020 年 4 月 29 日**
+最新更新：**2020 年 4 月 30 日**
 
 （具体发布日期可能有所不同。）
 
 * [Adobe 系统状态](#status)
 * [Experience Platform](#platform)
 * [!DNL Analytics](#analytics) **（更新日期：4 月 29 日）**
-* [Audience Manager](#aam)
+* [受众经](#aam) 理 **（4月30日更新）**
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
 * [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)（链接到 Target 帮助页面）
@@ -185,6 +185,8 @@ AN-212151; AN-214343; AN-215017; AN-115525; AN-123869; AN-101871; AN-152580; AN-
 ## ![图标](/assets/audience-manager.png) Audience Manager {#aam}
 
 Adobe Audience Manager 的新增功能和修复。
+
+**（更新日期：4 月 30 日）**
 
 | 功能 | 描述 |
 | -----------| ---------- |  
