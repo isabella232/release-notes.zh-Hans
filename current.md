@@ -4,7 +4,7 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: bdd987971b9bb9afbc97847642c5d797f122e67d
 
 **发行日期：2020 年 4 月**
 
-最新更新：2020 **年4月29日**
+最新更新：**2020 年 4 月 29 日**
 
 （具体发布日期可能有所不同。）
 
@@ -125,7 +125,7 @@ Unity 4.19.0（2020 年 3 月 10 日）：
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| Data Workbench 6.74 (**Update 4/29/2020**) | 在服务器实现中更新标识管理服务(IMS)TLS证书解析。 此更新将解析从字符串匹配扩展到常规表达式，包括处理主题替代名称(SAN)证书的功能。 See [Data Workbench release notes](https://docs.adobe.com/content/help/en/data-workbench/using/release-notes/release-notes.html) for more information. |
+| Data Workbench 6.74（**更新日期：2020/4/29**） | 更新了服务器实施中标识管理服务 (IMS) 的 TLS 证书解析。此更新将解析从字符串匹配扩展到正则表达式，包括处理主题替代名称 (SAN) 证书的功能。请参阅 [Data Workbench 发行说明](https://docs.adobe.com/content/help/zh-Hans/data-workbench/using/release-notes/release-notes.html)，以了解更多信息。 |
 | [!UICONTROL Customer Journey Analytics]：自动数据集回填 | 这个新的选项允许您在 [!UICONTROL Customer Journey Analytics] 中，导入某个连接的所有历史数据。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html) |
 
 <!--### New features in Adobe Analytics {#aa-features}
