@@ -4,11 +4,11 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: ht
-source-git-commit: bf3e1b2ed24c2f106ee3e6bfcc888ffa7eda7ba0
-workflow-type: ht
-source-wordcount: '3637'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 77e4ac05707d9aa42ddf2e7fb93027b3226058e9
+workflow-type: tm+mt
+source-wordcount: '3632'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe 将更新域和界面标题，以统一并改进您在所有 Experience Cl
 凭借 Adobe Experience Platform，可以实时智能化预测每位客户的需求（无论其旅程通达何处），从而实现跨体验渠道大规模编排客户历程。
 
 * [文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html)
-* [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html)
+* [发行说明](http://www.adobe.com/go/platform-release-notes-en)
 * [操作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### Mobile Services 和 Mobile SDK {#mobile}
