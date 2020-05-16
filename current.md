@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ea42901b975981a10d42b9681d494604c385018c
+source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
 workflow-type: tm+mt
 source-wordcount: '4766'
 ht-degree: 38%
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 **发行日期：2020 年 5 月**
 
-最新更新： **2020年5月15日**
+最新更新： **2020年5月16日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
@@ -194,7 +194,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修复了阻止“工作 [!UICONTROL 区] ”“ [!UICONTROL 已查看] 的项目”事件显示在日志中的问题。 (AN-214134)
 * 修复了在Workspace中更改日期范围并选择“应 [!UICONTROL 用至] 所 **[!UICONTROL 有面板”时发生的问题]**。 某些面板中的日期没有更改。 (AN-214944)
 * 修复了无法创建或编辑警报的问题。 (AN-215920)
-* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示不正确日期的问题] ，该问题是由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
+* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示] 错误日期的问题，该日期范围由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
 
 #### 其他Adobe Analytics修复
 
@@ -221,7 +221,7 @@ AN-101871、AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN
 
 | 内容 | 描述 |
 | -----------| ---------- |
-| [分析工作区中的培训教程模板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/training-tutorial-template-in-analysis-workspace.html) | 分析 [!UICONTROL 工作区培训教程] ，将指导您逐步了解在Workspace中构建您的第一个项目的常用术语和 [!UICONTROL 步骤]。 |
+| [分析工作区中的培训教程模板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/training-tutorial-template-in-analysis-workspace.html) | 分析 [!UICONTROL 工作区培训教程] ，将指导您逐步了解在Workspace中构建第一个项目的常用术语和 [!UICONTROL 步骤]。 |
 | [将上个月和年度比较添加到趋势中](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/adding-prior-month-and-year-comparisons-to-trends.html) | 了解如何应用自定义日期范围，以在分析工作区中为任何指标创建月度和年度趋 [!UICONTROL 势比较]。 |
 | [针对分析工作区的暗模式扩展](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/dark-mode-extension-for-analysis-workspace.html) | 启用Dark Reader Chrome扩展，将分析工作区变暗。 |
 | [用于定义自定义调色板的色滴管扩展](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/color-eyedropper-extension-for-defining-custom-palettes.html) | 了解如何使用ColorPick EyeDropper Chrome扩展轻松找到您在Workspace项目中自定义调色板所需的十六进制 [!UICONTROL 值] 。 |
