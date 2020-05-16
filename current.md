@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b41cdd18c7e3251218bf41aee62979e5f79a4c2a
+source-git-commit: de8c5772f391dffac4458a736f0e0ea38c53c701
 workflow-type: tm+mt
-source-wordcount: '4722'
-ht-degree: 39%
+source-wordcount: '4764'
+ht-degree: 38%
 
 ---
 
@@ -192,7 +192,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修复了阻止“工作 [!UICONTROL 区] ”“ [!UICONTROL 已查看] 的项目”事件显示在日志中的问题。 (AN-214134)
 * 修复了在Workspace中更改日期范围并选择“应 [!UICONTROL 用至] 所 **[!UICONTROL 有面板”时发生的问题]**。 某些面板中的日期没有更改。 (AN-214944)
 * 修复了无法创建或编辑警报的问题。 (AN-215920)
-* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示] 错误日期的问题，该日期范围由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
+* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示不正确日期的问题] ，该问题是由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
 
 #### 其他Adobe Analytics修复
 
@@ -345,39 +345,41 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Campaign Standard
 
-控制面板版本：
-
-| 功能 | 描述 |
-| -----------| ---------- |  
-| GPG密钥管理 | 在营销实例上安装和／或生成GPG密钥，以加密从活动发送的数据并解密传入数据。 |
-| CNAME子域的证书管理 | 控制面板现在允许您续订已使用CNAME方法委派的子域的SSL证书。 |
-
-* [Adobe Campaign Standard 20.3](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html)
+* [Adobe Campaign标准版20.3](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html)
 
 ### Campaign Classic
 
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### 新的 Campaign Standard 教程 {#tutorials-acs}
+### 活动控制面板
+
+| 功能 | 描述 |
+| -----------| ---------- |  
+| GPG密钥管理 | 在营销实例上安装和／或生成GPG密钥，以加密从活动发送的数据并解密传入数据。 |
+| CNAME子域的证书管理 | 控制面板现在允许您续订已使用CNAME方法委派的子域的SSL证书。 |
+
+### 新的Campaign教程
+
+* 新的 Campaign Standard 教程
 
 | 内容 | 描述 |
 | -----------| ---------- |  
 | [控制面板- Google TXT记录管理](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 了解如何通过活动控制面板将Google TXT站点验证记录添加到用于向GMAIL地址发送电子邮件的所有子域。 |
 | [使用外部API活动配置和运行工作流](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 了解如何使用外部API活动调用外部REST API端点。 |
-| (ACS) [Android推送通知入门——教程](https://jira.corp.adobe.com/browse/KT-3846) | 本教程介绍使用ACS和Android应用程序设置推送通知所需的步骤。 |
+| (ACS) [Android推送通知入门——教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教程介绍使用Campaign Standard和Android应用程序设置推送通知所需的步骤。 |
 
-### New Campaign Classic tutorials {#tutorials-acc}
+* 新的Campaign Classic教程
 
 | 内容 | 描述 |
 | -----------| ---------- |  
 | [雪花大数据管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 了解如何在Adobe Campaign经典中利用雪花连接器。 |
 | [控制面板- Google TXT记录管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html) | 了解如何通过活动控制面板将Google TXT站点验证记录添加到用于向GMAIL地址发送电子邮件的所有子域。 |
 
-### 其他 Campaign 帮助资源
+### 活动帮助资源
 
-* Adobe Campaign Standard：[文档](https://helpx.adobe.com/cn/support/campaign/standard.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://helpx.adobe.com/cn/campaign/kb/acs-release-planning.html)
-* Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Adobe Campaign标准： [帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) -操作 [方法视频——计划发布](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发布最新文档更新](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll)[] (https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign经典： [帮助中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) -操 [作方法视频——最新文](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)档 [更新] (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
