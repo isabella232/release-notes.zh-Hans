@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ed0b98440cd68357d792abaec2a99dccbfa47dc
+source-git-commit: 2cd60d72cfd5fa7d7ab0a17ba230162601f69b13
 workflow-type: tm+mt
-source-wordcount: '4766'
+source-wordcount: '4768'
 ht-degree: 38%
 
 ---
@@ -194,7 +194,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修复了阻止“工作 [!UICONTROL 区] ”“ [!UICONTROL 已查看] 的项目”事件显示在日志中的问题。 (AN-214134)
 * 修复了在Workspace中更改日期范围并选择“应 [!UICONTROL 用至] 所 **[!UICONTROL 有面板”时发生的问题]**。 某些面板中的日期没有更改。 (AN-214944)
 * 修复了无法创建或编辑警报的问题。 (AN-215920)
-* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示] 错误日期的问题，该日期范围由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
+* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示不正确日期的问题] ，该问题是由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
 
 #### 其他Adobe Analytics修复
 
@@ -369,7 +369,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | -----------| ---------- |  
 | [控制面板- Google TXT记录管理](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 了解如何通过活动控制面板将Google TXT站点验证记录添加到用于向GMAIL地址发送电子邮件的所有子域。 |
 | [使用外部API活动配置和运行工作流](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 了解如何使用外部API活动调用外部REST API端点。 |
-| (ACS) [Android推送通知入门——教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教程介绍使用Campaign Standard和Android应用程序设置推送通知所需的步骤。 |
+| [Android推送通知入门——教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教程介绍使用Campaign Standard和Android应用程序设置推送通知所需的步骤。 |
 
 * 新的Campaign Classic教程
 
@@ -380,8 +380,8 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### 活动帮助资源
 
-* Adobe Campaign标准： [帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) -操作 [方法视频——计划发布](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发布最新文档更新](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.htmll)[] (https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign经典： [帮助中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) -操 [作方法视频——最新文](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)档 [更新] (https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign标准： [帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) -操 [作方法视频——发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) -发 [行计划](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.html)[-最新文档更新](https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign经典： [帮助中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html) -操 [作方法视频——最新文](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)档 [更新](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
