@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e10656f2a2d2180295c61b7aad9e75391e23ccbd
+source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
 workflow-type: tm+mt
-source-wordcount: '4800'
+source-wordcount: '4798'
 ht-degree: 38%
 
 ---
@@ -160,7 +160,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | 对Adobe Experience Platform Edge [!UICONTROL Network的分析支持] | 允许您使用单个标签将数据发送到多个Adobe解决方案，如Adobe Analytics、Adobe目标、Adobe受众管理器、Adobe Experience Platform Data Lake、统一用户档案和Experience Cloud ID服务。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/home.html) |
 | [!UICONTROL Adobe Analytics仪表板] | [!UICONTROL Adobe Analytics仪表板] 是一款移动应用程序，用户可随时随地访问Adobe Analytics的洞察。 此应用程序面向寻求随时访问关键指标的管理人员。 它允许访问精选的交互式记分卡，并且将可用于iOS和Android操作系统。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 工作区][!UICONTROL ：从空白状态自动构建“自由格式表”] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. 此外，还改进了混合组件类型（如维度和度量）在一起放入空白的自由形式表时的处理方式。 |
-| [!UICONTROL 添加到“功能] ”访问级 [!UICONTROL 别”页的Adobe Analytics] 包 | 您现在可以在“管理 [!UICONTROL 员] ”>“视图设置”>“功能访 [!UICONTROL 问级别”页面上] ,公司您的公司有权访 [!UICONTROL 问哪] 个Adobe Analytics包(SKU)。 |
+| [!UICONTROL 添加到“功能] ”访问级 [!UICONTROL 别”页的Adobe Analytics] 包 | 您现在可以通过“管 [!UICONTROL 理员] ”>“视图设置”>“公司 **[!UICONTROL 功能访问级别]**********”来您的公司有权访问的Adobe Analytics包(SKU)。 |
 
 #### Adobe Analytics修复
 
@@ -195,7 +195,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 修复了阻止“工作 [!UICONTROL 区] ”“ [!UICONTROL 已查看] 的项目”事件显示在日志中的问题。 (AN-214134)
 * 修复了在Workspace中更改日期范围并选择“应 [!UICONTROL 用至] 所 **[!UICONTROL 有面板”时发生的问题]**。 某些面板中的日期没有更改。 (AN-214944)
 * 修复了无法创建或编辑警报的问题。 (AN-215920)
-* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示不正确日期的问题] ，该问题是由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
+* 修复了Workspace中所有动态日期范围 [!UICONTROL 显示] 错误日期的问题，该日期范围由于一周的第一天偶尔从星期一切换到星期日。 (AN-218835)
 
 #### 其他Adobe Analytics修复
 
@@ -222,7 +222,7 @@ AN-101871、AN-115525; AN-123869; AN-152580; AN-160480; AN-178128; AN-186907; AN
 
 | 内容 | 描述 |
 | -----------| ---------- |
-| [分析工作区中的培训教程模板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/training-tutorial-template-in-analysis-workspace.html) | 分析 [!UICONTROL 工作区培训教程] ，将指导您逐步了解在Workspace中构建第一个项目的常用术语和 [!UICONTROL 步骤]。 |
+| [分析工作区中的培训教程模板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/training-tutorial-template-in-analysis-workspace.html) | 分析 [!UICONTROL 工作区培训教程] ，将指导您逐步了解在Workspace中构建您的第一个项目的常用术语和 [!UICONTROL 步骤]。 |
 | [将上个月和年度比较添加到趋势中](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/adding-prior-month-and-year-comparisons-to-trends.html) | 了解如何应用自定义日期范围，以在分析工作区中为任何指标创建月度和年度趋 [!UICONTROL 势比较]。 |
 | [针对分析工作区的暗模式扩展](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/dark-mode-extension-for-analysis-workspace.html) | 启用Dark Reader Chrome扩展，将分析工作区变暗。 |
 | [用于定义自定义调色板的色滴管扩展](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/color-eyedropper-extension-for-defining-custom-palettes.html) | 了解如何使用ColorPick EyeDropper Chrome扩展轻松找到您在Workspace项目中自定义调色板所需的十六进制 [!UICONTROL 值] 。 |
