@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
+source-git-commit: 4ad9ee85f4eba950bf6cc1a6a18ece9d3eb5e61a
 workflow-type: tm+mt
-source-wordcount: '4811'
-ht-degree: 38%
+source-wordcount: '4835'
+ht-degree: 37%
 
 ---
 
@@ -165,6 +165,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL Adobe Analytics仪表板] | [!UICONTROL Adobe Analytics仪表板] 是一款移动应用程序，用户可随时随地访问Adobe Analytics的洞察。 此应用程序面向寻求随时访问关键指标的管理人员。 它允许访问精选的交互式记分卡，并且将可用于iOS和Android操作系统。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 工作区][!UICONTROL ：从空白状态自动构建“自由格式表”] | Previously, you could not drop components directly into a blank project or blank panel; you had to add a [!UICONTROL Freeform Table] first. You can now drop components directly into a blank project or panel, and a [!UICONTROL Freeform Table] is automatically built for you in a recommended format. 此外，还改进了混合组件类型（如维度和度量）在一起放入空白的自由形式表时的处理方式。 |
 | [!UICONTROL 添加到“功能] ”访问级 [!UICONTROL 别”页的Adobe Analytics] 包 | 您现在可以通过“管 [!UICONTROL 理员] ”>“视图设置”>“公司 **[!UICONTROL 功能访问级别]**********”来您的公司有权访问的Adobe Analytics包(SKU)。 |
+| 辅助功能改进 | Adobe Analytics团队对分析Workspace的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
 
 #### Adobe Analytics修复
 
