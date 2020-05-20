@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99e67d659f3da76d0613629dfc7e7d853a9e1349
+source-git-commit: 16d1b900c55d8e9674275c4113298a109de09df6
 workflow-type: tm+mt
-source-wordcount: '4798'
+source-wordcount: '4811'
 ht-degree: 38%
 
 ---
@@ -97,6 +97,10 @@ Adobe一直在更新域和界面头，以统一和改进您在所有Experience C
 | Places Service | `experience.adobe.com/places` |
 | Software Distribution | `experience.adobe.com/downloads` |
 | Admin Tool（测试版） | `experience.adobe.com/admin` |
+
+>[!NOTE]
+>
+>**[!UICONTROL Marketing Cloud Assets]**&#x200B;选择器中的旧 [!UICONTROL 版筛选器] “展示板和集合”正在停用。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
