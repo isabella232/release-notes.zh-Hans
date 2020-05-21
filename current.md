@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c0a5d3cca0320f8459aeb4ee34bfd655d032c23c
+source-git-commit: 2a41fbc7e69c9c2a262c71e20808e6b672037c6a
 workflow-type: tm+mt
-source-wordcount: '4895'
-ht-degree: 95%
+source-wordcount: '5024'
+ht-degree: 92%
 
 ---
 
@@ -144,6 +144,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Analytics管理员的重要声明](#aa-notices) (**2020年5月21日更新**)
+* [Adobe Analytics修复](#aa-fixes) (**更新于2020年5月21日**)
 * [AppMeasurement](#appm)
 * [新的 Analytics 教程](#tutorials-analytics)
 
@@ -167,8 +168,10 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 添加到“功能] ”访问级 [!UICONTROL 别”页的Adobe Analytics] 包 | 您现在可以通过“管 [!UICONTROL 理员] ”>“视图设置”>“公司 **[!UICONTROL 功能访问级别]**********”来您的公司有权访问的Adobe Analytics包(SKU)。 |
 | 辅助功能改进 | Adobe Analytics团队对分析Workspace的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
 
-#### Adobe Analytics 修复
+#### Adobe Analytics修复(#aa-fixes)
 
+* Adobe将“停留 [!UICONTROL 时间] ”量度更改为从不包含“无”。 这意味着，无论UI是否表示不包含任何内容，我们都会做出一个特殊例外，以始终在“花费时间”计算中排 [!UICONTROL 除“无] ”。 因此，即使您将包含“停留时间  ”量度的报表配置为“无”，它也始终会返回“无”行项目所花费的0时间。 请注意，这可能会更改Reports &amp; Analytics以及报告API v1.4中的历史报告。 (AN-197958)
+* 修复了实例／访问/访客未计入“停留时间”量度的分 [!UICONTROL 母的问] 题。  当维度（如Pagename）没有值的点击在同一秒后 [!UICONTROL 跟]，会发生这种情况。 (AN-211074)
 * 修复了导致 Audience Manager 中缺少 [!DNL Analytics] 区段数据的问题。(AN-206221)
 * 修复了[!UICONTROL 数据源]处理显示错误日期的问题。(AN-213604)
 * 修复了分类文件无法正确上传到 FTP 的问题。(AN-214102)
