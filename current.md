@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 36c098558e178fdaea0bab49528e54a93980ac0b
+source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
 workflow-type: tm+mt
 source-wordcount: '4998'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 >[!NOTE]
 >
->**[!UICONTROL Marketing Cloud Assets]**&#x200B;选择器中的旧 [!UICONTROL 版筛选器] “展示板和集合”正在停用。
+>[!UICONTROL Marketing Cloud Assets] 选择器中的旧版筛选器&#x200B;**[!UICONTROL 留言板和收藏集]**&#x200B;即将停用。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
@@ -161,13 +161,13 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | Analytics 对 [!UICONTROL Adobe Experience Platform Edge Network] 的支持 | 允许您使用单个标记将数据发送到多个 Adobe 解决方案，如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服务。[了解更多...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 功能板] | [!UICONTROL Adobe Analytics 功能板]是一个移动设备应用程序，允许用户随时随地访问 Adobe Analytics 的分析信息。此应用程序面向希望能够随时访问关键量度的管理人员。它允许访问策划的交互式评分卡，并且将适用于 iOS 和 Android 操作系统。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 工作区][!UICONTROL ：从空白状态自动构建“自由格式表”] | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个[!UICONTROL 自由格式表]。现在，您可以将组件直接拖放到空白项目或空白面板中，并且系统将以推荐的格式自动为您构建[!UICONTROL 自由格式表]。此外，将混合组件类型（如维度与量度）一起拖放到空白自由格式表中时，对这些组件的处理方式也得到了改进。 |
-| [!UICONTROL 添加到“功能] ”访问级 [!UICONTROL 别”页的Adobe Analytics] 包 | 您现在可以通过“管 [!UICONTROL 理员] ”>“视图设置”>“公司 **[!UICONTROL 功能访问级别]**********”来您的公司有权访问的Adobe Analytics包(SKU)。 |
-| 辅助功能改进 | Adobe Analytics团队对分析Workspace的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
+| 向[!UICONTROL 功能访问级别]页面中添加了 [!UICONTROL Adobe Analytics 包] | 现在，您可以在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 功能访问级别]**&#x200B;中查看公司有权访问的 [!UICONTROL Adobe Analytics 包] (SKU)。 |
+| 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
 
 #### Adobe Analytics修复(#aa-fixes)
 
-* Adobe将“停留 [!UICONTROL 时间] ”量度更改为从不包含“无”。 这意味着，无论UI是否表示不包含任何内容，我们都会做出一个特殊例外，以始终在“花费时间”计算中排 [!UICONTROL 除“无] ”。 因此，即使您将包含“停留时间  ”量度的报表配置为“无”，它也始终会返回“无”行项目所花费的0时间。 请注意，这可能会更改Reports &amp; Analytics以及报告API v1.4中的历史报告。 (AN-197958)
-* 修复了实例／访问/访客未计入“停留时间”量度的分 [!UICONTROL 母的问] 题。  当维度（如Pagename）没有值的点击在同一秒后 [!UICONTROL 跟]，会发生这种情况。 (AN-211074)
+* Adobe将“停留 [!UICONTROL 时间] ”量度更改为从不在计算中包含“未指定”。 这意味着，无论UI是否说要包含“未指定”，我们都会做一个特殊例外，以始终在“停留时间”计算中排 [!UICONTROL 除“未指] 定”。 因此，即使您将包含“停留时 [!UICONTROL 间] ”量度的报表配置为包含“未指定”，它也始终会返回“未指定”行项目所花费的0时间。 请注意，这可能会更改Reports &amp; Analytics以及报告API v1.4中的历史报告。 (AN-197958)
+* 修复了实例／访问/访客未计入“停留时间”量度的分 [!UICONTROL 母的问] 题。  当同一秒内未对维度(如Pagename )进行任何值的点击时，会发生这种情况。 (AN-211074)
 * 修复了导致 Audience Manager 中缺少 [!DNL Analytics] 区段数据的问题。(AN-206221)
 * 修复了[!UICONTROL 数据源]处理显示错误日期的问题。(AN-213604)
 * 修复了分类文件无法正确上传到 FTP 的问题。(AN-214102)
@@ -353,21 +353,21 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Campaign Standard
 
-* [Adobe Campaign标准版20.3](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html)
+* [Adobe Campaign Standard 20.3 版本](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html)
 
 ### Campaign Classic
 
 * [Adobe Campaign Classic 20.1.3](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html#release-20-1-3-build-9124)
 * [Adobe Campaign Classic 19.1.4](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/previous-releases/release--19-1.html#release-19-1-4-build-9032)
 
-### 活动控制面板
+### Campaign 控制面板
 
 | 功能 | 描述 |
 | -----------| ---------- |  
 | GPG 密钥管理 | 可在营销实例上安装和/或生成 GPG 密钥，以便加密从 Campaign 发送的数据并解密传入的数据。 |
 | CNAME 子域的证书管理 | 控制面板现在允许您续订已使用 CNAME 方法委派的子域的 SSL 证书。 |
 
-### 新的Campaign教程
+### 新的 Campaign 教程
 
 * 新的 Campaign Standard 教程
 
@@ -375,7 +375,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | -----------| ---------- |  
 | [控制面板 - Google TXT 记录管理](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html) | 了解如何通过 Campaign 控制面板将 Google TXT 网站验证记录添加到用于向 GMAIL 地址发送电子邮件的所有子域。 |
 | [使用外部 API 活动配置和运行工作流](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html) | 了解如何使用外部 API 活动来调用外部 REST API 端点。 |
-| [Android 推送通知入门 - 教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教程介绍使用Campaign Standard和Android应用程序设置推送通知所需的步骤。 |
+| [Android 推送通知入门 - 教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/getting-started-with-push-notifications-android/introduction.html) | 本教程说明了使用 Campaign Standard 和 Android 应用程序设置推送通知所需的步骤。 |
 
 * 新的 Campaign Classic 教程
 
@@ -384,10 +384,10 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | [Snowflake 上的大数据管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/fda/big-data-segmentation-on-snowflake.html) | 了解如何在 Adobe Campaign Classic 中利用 Snowflake 连接器。 |
 | [控制面板 - Google TXT 记录管理](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html) | 了解如何通过 Campaign 控制面板将 Google TXT 网站验证记录添加到用于向 GMAIL 地址发送电子邮件的所有子域。 |
 
-### 活动帮助资源
+### Campaign 帮助资源
 
-* Adobe Campaign标准： [帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) -操 [作方法视频——发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) -发 [行计划](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-planning.html)[-最新文档更新](https://docs.adobe.com/content/help/en/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign经典： [帮助中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html) -操 [作方法视频——最新文](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)档 [更新](https://docs.adobe.com/content/help/en/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-planning.html) - [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic：[帮助中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
