@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4bdb8dde04f55703e52aca1295aad03374f3eb25
+source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
 workflow-type: tm+mt
-source-wordcount: '4998'
+source-wordcount: '4997'
 ht-degree: 95%
 
 ---
@@ -164,7 +164,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | 向[!UICONTROL 功能访问级别]页面中添加了 [!UICONTROL Adobe Analytics 包] | 现在，您可以在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 功能访问级别]**&#x200B;中查看公司有权访问的 [!UICONTROL Adobe Analytics 包] (SKU)。 |
 | 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
 
-#### Adobe Analytics修复(#aa-fixes)
+#### Adobe Analytics 修复 {#aa-fixes}
 
 * Adobe将“停留 [!UICONTROL 时间] ”量度更改为从不在计算中包含“未指定”。 这意味着，无论UI是否说要包含“未指定”，我们都会做一个特殊例外，以始终在“停留时间”计算中排 [!UICONTROL 除“未指] 定”。 因此，即使您将包含“停留时 [!UICONTROL 间] ”量度的报表配置为包含“未指定”，它也始终会返回“未指定”行项目所花费的0时间。 请注意，这可能会更改Reports &amp; Analytics以及报告API v1.4中的历史报告。 (AN-197958)
 * 修复了实例／访问/访客未计入“停留时间”量度的分 [!UICONTROL 母的问] 题。  当同一秒内未对维度(如Pagename )进行任何值的点击时，会发生这种情况。 (AN-211074)
