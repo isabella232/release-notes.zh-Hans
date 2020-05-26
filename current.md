@@ -4,16 +4,16 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4997'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud发行说明- 2020年5月
+# Adobe Experience Cloud 发行说明 - 2020 年 5 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**更新日期：2020年5月21日**)
+* [!DNL Analytics](#analytics)（**更新日期：2020 年 5 月 21 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -139,8 +139,8 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Analytics管理员的重要声明](#aa-notices) (**2020年5月21日更新**)
-* [Adobe Analytics修复](#aa-fixes) (**更新于2020年5月21日**)
+* [Analytics 管理员的重要注意事项](#aa-notices)（**更新日期：2020 年 5 月 21 日**）
+* [Adobe Analytics 修复](#aa-fixes)（**更新日期：2020 年 5 月 21 日**）
 * [AppMeasurement](#appm)
 * [新的 Analytics 教程](#tutorials-analytics)
 
@@ -158,7 +158,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| Analytics 对 [!UICONTROL Adobe Experience Platform Edge Network] 的支持 | 允许您使用单个标记将数据发送到多个 Adobe 解决方案，如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服务。[了解更多...](https://docs.adobe.com/content/help/en/experience-platform/edge/solutions/analytics/analytics-overview.html) |
+| Analytics 对 [!UICONTROL Adobe Experience Platform Edge Network] 的支持 | 允许您使用单个标记将数据发送到多个 Adobe 解决方案，如 Adobe Analytics、Adobe Target、Adobe Audience Manager、Adobe Experience Platform Data Lake、Unified Profile 和 Experience Cloud ID 服务。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/solutions/analytics/analytics-overview.html) |
 | [!UICONTROL Adobe Analytics 功能板] | [!UICONTROL Adobe Analytics 功能板]是一个移动设备应用程序，允许用户随时随地访问 Adobe Analytics 的分析信息。此应用程序面向希望能够随时访问关键量度的管理人员。它允许访问策划的交互式评分卡，并且将适用于 iOS 和 Android 操作系统。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/mobapp/home.html) |
 | [!UICONTROL 工作区][!UICONTROL ：从空白状态自动构建“自由格式表”] | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个[!UICONTROL 自由格式表]。现在，您可以将组件直接拖放到空白项目或空白面板中，并且系统将以推荐的格式自动为您构建[!UICONTROL 自由格式表]。此外，将混合组件类型（如维度与量度）一起拖放到空白自由格式表中时，对这些组件的处理方式也得到了改进。 |
 | 向[!UICONTROL 功能访问级别]页面中添加了 [!UICONTROL Adobe Analytics 包] | 现在，您可以在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 功能访问级别]**&#x200B;中查看公司有权访问的 [!UICONTROL Adobe Analytics 包] (SKU)。 |
@@ -166,8 +166,8 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### Adobe Analytics 修复 {#aa-fixes}
 
-* Adobe将“停留 [!UICONTROL 时间] ”量度更改为从不在计算中包含“未指定”。 这意味着，无论UI是否说要包含“未指定”，我们都会做一个特殊例外，以始终在“停留时间”计算中排 [!UICONTROL 除“未指] 定”。 因此，即使您将包含“停留时 [!UICONTROL 间] ”量度的报表配置为包含“未指定”，它也始终会返回“未指定”行项目所花费的0时间。 请注意，这可能会更改Reports &amp; Analytics以及报告API v1.4中的历史报告。 (AN-197958)
-* 修复了实例／访问/访客未计入“停留时间”量度的分 [!UICONTROL 母的问] 题。  当同一秒内未对维度(如Pagename )进行任何值的点击时，会发生这种情况。 (AN-211074)
+* Adobe 更改了[!UICONTROL 逗留时间]量度，使该量度的计算不再包含“未指定项”。这意味着，无论 UI 是否表明要包含“未指定项”，我们都会创建一个特殊例外，始终在[!UICONTROL 逗留时间]计算中排除“未指定项”。因此，即便您将包含[!UICONTROL 逗留时间]量度的报表配置为包含“未指定项”，该报表始终都会将“未指定项”行项目的逗留时间返回为 0。请注意，这可能会更改 Reports &amp; Analytics 以及 Reporting API v1.4 中的历史报告。(AN-197958)
+* 修复了实例/访问/访客未计入[!UICONTROL 逗留时间]量度的分母中的问题。如果在同一秒内紧接着发生没有值的维度（例如 [!UICONTROL Pagename]）的命中时，就会发生这种情况。(AN-211074)
 * 修复了导致 Audience Manager 中缺少 [!DNL Analytics] 区段数据的问题。(AN-206221)
 * 修复了[!UICONTROL 数据源]处理显示错误日期的问题。(AN-213604)
 * 修复了分类文件无法正确上传到 FTP 的问题。(AN-214102)
@@ -209,7 +209,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 改进了分析工作区可用性的冗余 | 2020年5月21日 | 为确保分析工作区的可用性，我们添加了辅助CDN(内容投放网络)，以改进冗余。 应将以下URL添加到任何必要的网络防火墙白名单中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
+| 改善了 Analysis Workspace 可用性的冗余 | 2020 年 5 月 21 日 | 为确保 Analysis Workspace 的可用性，我们添加了辅助 CDN（内容投放网络），以改善冗余。应将以下 URL 添加到任何必要的网络防火墙白名单中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 在[!UICONTROL 工作区]中更改[!UICONTROL 登入/退出]的计算方式 | 2020 年 4 月 7 日 | 在 [!UICONTROL Analysis Workspace] 中，从 2020 年 3 月起，我们更改了&#x200B;_无_&#x200B;值与[!UICONTROL 登入/退出]的交互方式。由于您现在可以在 _Analysis Workspace_ 中打开和关闭[!UICONTROL 无]，因此我们会在登入或退出后应用&#x200B;_无_&#x200B;值，而（对于 eVar）过去是在登入或退出前应用。例如，假定访问的第一次点击没有 eVar 值，但第二次点击有。在 [!UICONTROL Reports &amp; Analytics] 中，第一次点击将针对“登入”显示为&#x200B;_未指定_，但在 [!UICONTROL Analysis Workspace] 中，将显示第二次点击时的值。 |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]** > **[!UICONTROL 常规帐户设置]**&#x200B;中无法正常运行的[转化级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从该界面中删除。 |
 | **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
