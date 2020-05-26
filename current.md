@@ -4,11 +4,11 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 1784b66efbcd85c25145fbf5b84f95c0285412ab
-workflow-type: ht
-source-wordcount: '4997'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
+workflow-type: tm+mt
+source-wordcount: '5040'
+ht-degree: 99%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 **发行日期：2020 年 5 月**
 
-最新更新：**2020 年 5 月 21 日**
+最新更新：**2020 年 5 月 26 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)（**更新日期：2020 年 5 月 21 日**）
+* [!DNL Analytics](#analytics)（**更新日期：2020 年 5 月 26 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -139,7 +139,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Analytics 管理员的重要注意事项](#aa-notices)（**更新日期：2020 年 5 月 21 日**）
+* [Analytics 管理员的重要注意事项](#aa-notices)（**更新日期：2020 年 5 月 26 日**）
 * [Adobe Analytics 修复](#aa-fixes)（**更新日期：2020 年 5 月 21 日**）
 * [AppMeasurement](#appm)
 * [新的 Analytics 教程](#tutorials-analytics)
@@ -209,6 +209,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
+| 第三方技术白名单 | 2020年3月12日（生效日期） | Adobe Analytics已开始利用第三方技术进行功能推出管理和产品内支持。 应将以下URL添加到任何必要的网络防火墙白名单，以确保完全访问功能：<ul><li>Gainsight: https://esp.aptrinsic.com</li><li>启动黑暗： https://app.launchdarkly.com</li></ul> |
 | 改善了 Analysis Workspace 可用性的冗余 | 2020 年 5 月 21 日 | 为确保 Analysis Workspace 的可用性，我们添加了辅助 CDN（内容投放网络），以改善冗余。应将以下 URL 添加到任何必要的网络防火墙白名单中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 在[!UICONTROL 工作区]中更改[!UICONTROL 登入/退出]的计算方式 | 2020 年 4 月 7 日 | 在 [!UICONTROL Analysis Workspace] 中，从 2020 年 3 月起，我们更改了&#x200B;_无_&#x200B;值与[!UICONTROL 登入/退出]的交互方式。由于您现在可以在 _Analysis Workspace_ 中打开和关闭[!UICONTROL 无]，因此我们会在登入或退出后应用&#x200B;_无_&#x200B;值，而（对于 eVar）过去是在登入或退出前应用。例如，假定访问的第一次点击没有 eVar 值，但第二次点击有。在 [!UICONTROL Reports &amp; Analytics] 中，第一次点击将针对“登入”显示为&#x200B;_未指定_，但在 [!UICONTROL Analysis Workspace] 中，将显示第二次点击时的值。 |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]** > **[!UICONTROL 常规帐户设置]**&#x200B;中无法正常运行的[转化级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从该界面中删除。 |
