@@ -4,11 +4,11 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: ht
-source-git-commit: be366e4ce14fe1f095ba60b85cc9adcd633cb3eb
-workflow-type: ht
-source-wordcount: '5040'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fd2f8976431bd49e32939414b71f08edbe9e245e
+workflow-type: tm+mt
+source-wordcount: '5159'
+ht-degree: 97%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 100%
 
 **发行日期：2020 年 5 月**
 
-最新更新：**2020 年 5 月 26 日**
+最新更新：**2020 年 5 月 27 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics)（**更新日期：2020 年 5 月 26 日**）
+* [!DNL Analytics](#analytics)（**更新日期：2020 年 5 月 27 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -137,8 +137,11 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 ## ![图标](/assets/analytics.png) [!DNL Analytics] {#analytics}
 
+Updated **May 27, 2020**
+
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的新增功能](#aa-features)
+* [Media Analytics的新增功能](#media-aa) (**2020年5月27日更新**)
 * [Analytics 管理员的重要注意事项](#aa-notices)（**更新日期：2020 年 5 月 26 日**）
 * [Adobe Analytics 修复](#aa-fixes)（**更新日期：2020 年 5 月 21 日**）
 * [AppMeasurement](#appm)
@@ -163,6 +166,18 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | [!UICONTROL 工作区][!UICONTROL ：从空白状态自动构建“自由格式表”] | 以前，不能将组件直接拖放到空白项目或空白面板，而是必须先添加一个[!UICONTROL 自由格式表]。现在，您可以将组件直接拖放到空白项目或空白面板中，并且系统将以推荐的格式自动为您构建[!UICONTROL 自由格式表]。此外，将混合组件类型（如维度与量度）一起拖放到空白自由格式表中时，对这些组件的处理方式也得到了改进。 |
 | 向[!UICONTROL 功能访问级别]页面中添加了 [!UICONTROL Adobe Analytics 包] | 现在，您可以在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 功能访问级别]**&#x200B;中查看公司有权访问的 [!UICONTROL Adobe Analytics 包] (SKU)。 |
 | 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
+
+#### New features in [!UICONTROL Media Analytics] {#media-aa}
+
+Date added: **May 27, 2020**
+
+**播放器状态跟踪：** [!UICONTROL Media Analytics客户] 可以在播放过程中使用一套适用于全屏、隐藏式字幕、静音、画中画和焦点的标准解决方案变量来捕获观众交互。 您还可以灵活地创建自定义播放器状态。 播放器状态跟踪变量现在可用于报告在 [!UICONTROL 分析工作区]。 此功能需要以下某项：
+
+* Media [!DNL JavaScript] SDK 3.0或更高版本
+* 与(AEP) [!DNL Adobe Experience Platform] SDK一起使用：
+   * [!UICONTROL 媒体分析扩展] （适用于Web）: [!UICONTROL 适用于音频] 和视频v1.0或更高版本的Adobe Media Analytics(3.x SDK)
+   * [!UICONTROL 媒体分析扩展] （适用于移动设备）: [!UICONTROL 适用于音频和视频] 2.0版或更高版本的Adobe Media Analytics
+* [!UICONTROL 媒体收集 API]
 
 #### Adobe Analytics 修复 {#aa-fixes}
 
