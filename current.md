@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: May 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fd2f8976431bd49e32939414b71f08edbe9e245e
+source-git-commit: 0256f7a16a4a3b0909d83256d82e5f44cafa43da
 workflow-type: tm+mt
-source-wordcount: '5159'
-ht-degree: 97%
+source-wordcount: '5042'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Updated **May 27, 2020**
 
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Media Analytics的新增功能](#media-aa) (**2020年5月27日更新**)
+<!-- * [New features in Media Analytics](#media-aa) (**Updated May 27, 2020**) -->
 * [Analytics 管理员的重要注意事项](#aa-notices)（**更新日期：2020 年 5 月 26 日**）
 * [Adobe Analytics 修复](#aa-fixes)（**更新日期：2020 年 5 月 21 日**）
 * [AppMeasurement](#appm)
@@ -167,17 +167,17 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 | 向[!UICONTROL 功能访问级别]页面中添加了 [!UICONTROL Adobe Analytics 包] | 现在，您可以在&#x200B;**[!UICONTROL 管理员]** > **[!UICONTROL 公司设置]** > **[!UICONTROL 功能访问级别]**&#x200B;中查看公司有权访问的 [!UICONTROL Adobe Analytics 包] (SKU)。 |
 | 辅助功能改进 | Adobe Analytics 团队对 Analysis Workspace 的辅助功能进行了多项改进，包括改进的键盘导航、颜色对比度和屏幕阅读器支持。 |
 
-#### New features in [!UICONTROL Media Analytics] {#media-aa}
+<!-- #### New features in [!UICONTROL Media Analytics] {#media-aa}
 
 Date added: **May 27, 2020**
 
-**播放器状态跟踪：** [!UICONTROL Media Analytics客户] 可以在播放过程中使用一套适用于全屏、隐藏式字幕、静音、画中画和焦点的标准解决方案变量来捕获观众交互。 您还可以灵活地创建自定义播放器状态。 播放器状态跟踪变量现在可用于报告在 [!UICONTROL 分析工作区]。 此功能需要以下某项：
+**Player State Tracking:** [!UICONTROL Media Analytics] customers can capture viewer interaction during playback using a standard set of solution variables for full screen, closed captioning, mute, picture-in-picture, and in-focus. You also have the flexibility to create custom player states. Player State Tracking variables are now available for reporting in [!UICONTROL Analysis Workspace]. This feature requires one of the following:
 
-* Media [!DNL JavaScript] SDK 3.0或更高版本
-* 与(AEP) [!DNL Adobe Experience Platform] SDK一起使用：
-   * [!UICONTROL 媒体分析扩展] （适用于Web）: [!UICONTROL 适用于音频] 和视频v1.0或更高版本的Adobe Media Analytics(3.x SDK)
-   * [!UICONTROL 媒体分析扩展] （适用于移动设备）: [!UICONTROL 适用于音频和视频] 2.0版或更高版本的Adobe Media Analytics
-* [!UICONTROL 媒体收集 API]
+* Media [!DNL JavaScript] SDK 3.0 or higher
+* For use with the [!DNL Adobe Experience Platform] (AEP) SDK:
+  * [!UICONTROL Media Analytics Extension] (for web): [!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 or higher
+  * [!UICONTROL Media Analytics Extension] (for mobile): [!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 or higher
+* [!UICONTROL Media Collection] API -->
 
 #### Adobe Analytics 修复 {#aa-fixes}
 
