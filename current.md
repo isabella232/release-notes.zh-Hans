@@ -4,11 +4,11 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5283f48c529ee5d1eca229bbd0164bb9e8864aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -177,9 +177,9 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 * 与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：
    * [!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本
    * [!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本
-* [!UICONTROL Media Collection]
+* [!UICONTROL 媒体收集]
 
-即将发布内容链接。
+即将提供内容链接。
 
 #### Adobe Analytics 修复 {#aa-fixes}
 
@@ -226,8 +226,8 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 新的Adobe Analytics默认登陆页 | 生效日期： 2020年6月18日 | 2020年6月18日，Adobe Analytics的默认登陆页将从“报告”更 [!UICONTROL 改为] “工 [!UICONTROL 作区]”。 此更改将针对之前未设置自定义登陆页的任何用户。 |
-| 第三方技术白名单 | (生效日期： 2020年3月12日 | Adobe Analytics 已开始利用第三方技术进行功能推出管理和提供产品内支持。应将以下 URL 添加到任何必要的网络防火墙白名单中，以确保完全访问功能：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
+| 新的 Adobe Analytics 默认登陆页面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日，Adobe Analytics 的默认登陆页面将从[!UICONTROL 报表]更改为[!UICONTROL 工作区]。之前未设置自定义登陆页面的任何用户都将发生此更改。 |
+| 第三方技术白名单 | 生效日期：2020 年 3 月 12 日 | Adobe Analytics 已开始利用第三方技术进行功能推出管理和提供产品内支持。应将以下 URL 添加到任何必要的网络防火墙白名单中，以确保完全访问功能：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | 改善了 Analysis Workspace 可用性的冗余 | 2020 年 5 月 21 日 | 为确保 Analysis Workspace 的可用性，我们添加了辅助 CDN（内容投放网络），以改善冗余。应将以下 URL 添加到任何必要的网络防火墙白名单中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 在[!UICONTROL 工作区]中更改[!UICONTROL 登入/退出]的计算方式 | 2020 年 4 月 7 日 | 在 [!UICONTROL Analysis Workspace] 中，从 2020 年 3 月起，我们更改了&#x200B;_无_&#x200B;值与[!UICONTROL 登入/退出]的交互方式。由于您现在可以在 _Analysis Workspace_ 中打开和关闭[!UICONTROL 无]，因此我们会在登入或退出后应用&#x200B;_无_&#x200B;值，而（对于 eVar）过去是在登入或退出前应用。例如，假定访问的第一次点击没有 eVar 值，但第二次点击有。在 [!UICONTROL Reports &amp; Analytics] 中，第一次点击将针对“登入”显示为&#x200B;_未指定_，但在 [!UICONTROL Analysis Workspace] 中，将显示第二次点击时的值。 |
 | **[!UICONTROL 转化级别]**&#x200B;设置生命周期终止 | 2020 年 3 月 3 日 | **[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]** > **[!UICONTROL 常规帐户设置]**&#x200B;中无法正常运行的[转化级别](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/general-acct-settings-admin.html)，将于 2020 年 3 月 12 日从该界面中删除。 |
