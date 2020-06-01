@@ -4,11 +4,11 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e6be9e0d672aceac0cb99ec0973de6122e3ad51
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5212'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -169,7 +169,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
 
 #### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
 
-更新日期： **2020年5月29日**
+更新日期：**2020 年 5 月 29 日**
 
 **播放器状态跟踪：**[!UICONTROL Media Analytics] 客户可以使用一组用于全屏、隐藏式字幕、静音、画中画和聚焦的标准解决方案变量在播放过程中捕获观看者交互。您还可以灵活地创建自定义播放器状态。播放器状态跟踪变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项：
 
@@ -179,7 +179,7 @@ First-Party Domains Available in China RDC: Enables customers with a cn domain t
    * [!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本
 * [!UICONTROL 媒体收集]
 
-请参 [阅关于播放器状态跟踪](https://docs.adobe.com/content/help/en/media-analytics/using/player-state-tracking/player-state-overview.html)。
+请参阅[关于播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html)。
 
 #### Adobe Analytics 修复 {#aa-fixes}
 
