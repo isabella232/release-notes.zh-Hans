@@ -4,11 +4,11 @@ description: Experience Cloud 发行说明模板
 doc-type: release notes
 last-update: May 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c9c4b782fdf3dc9283d98d78d459bd38fef648d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5322'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 97%
 
 **发行日期：2020 年 5 月**
 
-最新更新： **2020年6月1日**
+最新更新日期：**2020 年 6 月 1 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
-* [!DNL Analytics](#analytics) (**更新日期：2020年6月1日**)
+* [!DNL Analytics](#analytics)（**更新日期：2020 年 6 月 1 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [!DNL Campaign](#ac)
@@ -142,7 +142,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Media Analytics 的新增功能](#media-aa)（**更新日期：2020 年 5 月 29 日**）
-* [Analytics管理员的重要声明](#aa-notices) (**更新于2020年6月1日**)
+* [Analytics 管理员的重要注意事项](#aa-notices)（**更新日期：2020 年 6 月 1 日**）
 * [Adobe Analytics 修复](#aa-fixes)（**更新日期：2020 年 5 月 21 日**）
 * [AppMeasurement](#appm)
 * [新的 Analytics 教程](#tutorials-analytics)
@@ -226,7 +226,7 @@ AN-101871、AN-115525、AN-123869、AN-152580、AN-160480、AN-178128、AN-18690
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 迁移到统一的产品域 | 生效日期： 2020年5月28日 | 向Adobe Analytics统一产品域的迁移从2020年1月开始，于2020年5月28日完成。 虽然Adobe Analytics可以从其架构中删 `omniture.com` 除所有域引用，但白名单作为第 `omniture.com` 三方Cookie很重要。 完成完整架构迁移后，我们将通过发行说明通知您，此白名单步骤将不再需要。 [此处](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html) 是建议的IP地址和域的完整列表，您应将其列入白名单。<br>如果您的组织阻止第三方Cookie，请联系客户关怀以重新获得对Adobe Analytics的访问权。 |
+| 迁移到统一的产品域 | 生效日期：2020 年 5 月 28 日 | 向 Adobe Analytics 统一产品域的迁移从 2020 年 1 月开始，于 2020 年 5 月 28 日完成。虽然 Adobe Analytics 会从其架构中删除所有 `omniture.com` 域引用，但务必要将 `omniture.com` 作为第三方 Cookie 添加到白名单中。（不久）完成整个架构迁移后，我们将通过发行说明通知您，此白名单步骤将不再需要执行。[此处](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html)提供了应添加到白名单中的建议 IP 地址和域的完整列表。<br>如果贵组织阻止第三方 Cookie，请联系客户关怀团队以重新获得 Adobe Analytics 访问权限。 |
 | 新的 Adobe Analytics 默认登陆页面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日，Adobe Analytics 的默认登陆页面将从[!UICONTROL 报表]更改为[!UICONTROL 工作区]。之前未设置自定义登陆页面的任何用户都将发生此更改。 |
 | 第三方技术白名单 | 生效日期：2020 年 3 月 12 日 | Adobe Analytics 已开始利用第三方技术进行功能推出管理和提供产品内支持。应将以下 URL 添加到任何必要的网络防火墙白名单中，以确保完全访问功能：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | 改善了 Analysis Workspace 可用性的冗余 | 2020 年 5 月 21 日 | 为确保 Analysis Workspace 的可用性，我们添加了辅助 CDN（内容投放网络），以改善冗余。应将以下 URL 添加到任何必要的网络防火墙白名单中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
