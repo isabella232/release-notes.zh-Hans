@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e239cc0afb9ebde272f37fa0181b1454412ac2ae
+source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
-source-wordcount: '6520'
+source-wordcount: '6522'
 ht-degree: 37%
 
 ---
@@ -406,7 +406,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 | [AEM Web Console组件](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/osgi-web-consoles.html#components) | 视频教程 | 了解如何使用组件Web控制台将AEM作为Cloud Service SDK的本地快速启动进行调试。 |
 | [使用日志调试AEM SDK的本地快速启动](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 视频教程 | 了解如何使用Bundles Web控制台将AEM作为Cloud Service SDK的本地快速启动进行调试。 |
 | [远程调试AEM作为Cloud Service SDK的本地快速启动](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/remote-debugging.html) | 视频教程 | 了解从IDE进行的远程Java调试，它允许您在AEM中逐步执行实时代码，以了解确切的执行流程。 |
-| [智能标记设置](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | 使用Adobe I/O将Adobe Experience Manager(AEM)与智能内容服务集成的分步说明。 |
+| [智能标记设置](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html) | 视频教程 | 使用Adobe I/O将Adobe Experience Manager(AEM)与智能内容服务集成的分步说明。 |
 | [批量生成文档](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/interactive-communications/batch-generation-interactive-communications.html) | 文章 | 了解如何使用Batch API从模板生成多个交互式通信。 |
 | [在AEM Forms中创建打印渠道文档](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/ic-print-channel-tutorial/introduction.html) | 文章 | 了解为印刷渠道创建交互式通信所需的步骤。 |
 | [访问Adobe Asset Link](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/adobe-asset-link/launch-adobe-asset-link.html) | 视频教程 | 了解如何访问存储在Adobe Experience Manager Assets(AEM Assets)中的内容，而不离开您最熟悉的Creative Cloud桌面应用程序。 |
