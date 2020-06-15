@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
+source-git-commit: 7f127b38a8c27f5e7a439d7130dd2577d987bf0d
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6484'
 ht-degree: 45%
 
 ---
@@ -296,7 +296,7 @@ Audience Manager 将发布对域和标题栏的更新，以改进您的体验并
 * 长特征表达式现在跨多行换行。 (AAM-54972)
 * 修复了具有只读权限的用户在算法模型页 [!UICONTROL 面中可以看] 到“创建新”按钮的问题。 (AAM-54889)
 * 修复了在CSV下载 [!UICONTROL 完成后] ,“常 [!UICONTROL 规”和“趋势] ”报表加载指示器继续旋转的问题。 (AAM-54571)
-* 修复了用户无法在区段生成器中向区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
+* 修复了用户无法向区段生成器中的区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
 * 改进了整个界面的多项辅助功能。(AAM-47269、AAM-48966、AAM-48976、AAM-49369、AAM-49023、AAM-49042)。
 
 ### 新的Audience Manager课程和教程 {#tutorials-aam}
@@ -346,10 +346,12 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 云管理器中增强的自助沙箱支持允许授权用户删除沙箱内的所有环境并接收积分。
       * 自动休眠沙箱环境在一段时间不活动后自动“休眠”沙箱。 客户可以主动触发“去休眠”。
    * 支持云加速的过渡工具
+
    为了减少过渡从事先到Cloud Service的时间和成本，本月推出了两款过渡工具。 这些工具设计为在过渡过程中自动执行一些关键任务，从而减少总体工作量。 .
 
    1. [使用内容传输工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD上提供）简化内容传输活动并使其可伸缩。 借助用户友好的UI，该工具可为正在以Cloud Service身份过渡到AEM的现有客户和合作伙伴（在预先/AMS）提供自助服务。
    1. [AMSDispatcher转换器](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （开放源代码）工具可自动将AMSDispatcher配置转换为Cloud ServiceDispatcher配置。
+
    [AEM作为Cloud Service2020.6.0的发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    过渡工具：
@@ -435,33 +437,21 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
-### Campaign Standard
+### 新产品版本
 
-#### 新的Campaign Standard课程和教程
+[Adobe Campaign经典20.2版本](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html) 包括：
+
+* _支持表情图标_ - _Azure突触联合数据访问连接器_ -新 _的隐私法规_
+* 活动控制面板： [主动用户档案监视](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+
+### 新的Campaign课程和教程
 
 | 内容 | 内容类型 | 描述 |
 | -----------| ---------- | ---------- |  
 | [面向商业用户的Adobe Campaign Standard入门](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 课程 | 了解如何导航界面、处理投放以及创建和管理收件人数据。 |
+| [安装和设置Adobe Campaign客户端](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 视频 | 了解如何下载和安装Adobe Campaign客户端控制台，创建和管理与多个环境的连接，以及验证对Adobe Campaign客户端控制台的访问权限 |
 
-### Campaign Classic
-
-#### 最新版本
-
-[Adobe Campaign经典20.2版](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html)
-
-#### Campaign Classic教程
-
-| 内容 | 内容类型 | 描述 |
-| -----------| ---------- | ---------- |  
-| [安装和设置Adobe Campaign客户端](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/getting-started/install-and-setup-the-adobe-campaign-client.html) | 视频教程 | 了解如何下载和安装Adobe Campaign客户端控制台，创建和管理与多个环境的连接，以及验证对Adobe Campaign客户端控制台的访问权限。 |
-
-### Campaign 控制面板
-
-| 功能 | 描述 |
-| -----------| ---------- |  
-| 活动用户档案监视 | 控制面板允许您监视每个用户档案实例的活动活动使用情况。 此功能为测试版，适用于在AWS上托管的从Campaign Standard10368构建和Campaign Classic8931构建的客户。 [了解更多](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) |
-
-### Campaign 帮助资源
+### 帮助资源
 
 * Adobe Campaign Standard：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-planning.html) - [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/documentation-updates.html)
 * Adobe Campaign Classic：[帮助中心](https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/documentation-updates.html)
