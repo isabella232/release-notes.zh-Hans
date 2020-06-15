@@ -4,17 +4,17 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 发行说明
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: 3dd0f7e9f8712786acc31a01dc0fdece9f4004b9
+source-git-commit: 515812727fbc95bb787ec092eed719ad2b2d9171
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 92%
+source-wordcount: '92'
+ht-degree: 95%
 
 ---
 
 
 # Experience Cloud 发行说明 {#experience-cloud}
 
-+ Adobe Experience Cloud 发行说明{#exl-rns}
++ Adobe Experience Cloud 发行说明 {#exl-rns}
    + [最新发行说明](current.md)
 + 以前的发行说明 {#previous}
    + 2020 年{#2020}
@@ -35,7 +35,7 @@ ht-degree: 92%
       + [2019 年 3 月](c-legacy-releases/2019/03072019.md)
       + [2019 年 2 月](c-legacy-releases/2019/02072019.md)
       + [2019 年 1 月](c-legacy-releases/2019/01172019.md)
-   + [2018年及更早]{#legacy-rns)
+   + 2018 年及更早版本 {#legacy-rns}
       + 2018 年 {#2018}
          + [2018 年 11 月](c-legacy-releases/2018/11012018.md)
          + [2018 年 10 月](c-legacy-releases/2018/10112018.md)
@@ -84,4 +84,5 @@ ht-degree: 92%
          + [2015 年 3 月](c-legacy-releases/2015/03192015.md)
          + [2015 年 2 月](c-legacy-releases/2015/02192015.md)
          + [2015 年 1 月](c-legacy-releases/2015/01152015.md)
-      + [2014 年及更早版本](c-legacy-releases/2014-earlier.md)
+      + 2014 年及更早版本 {#2014-earlier}
+         + [2014 年及更早版本](c-legacy-releases/2014-earlier.md)
