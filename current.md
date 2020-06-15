@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: dd357da4e362c01ab350891b1082020c90eb77fe
 workflow-type: tm+mt
 source-wordcount: '6522'
-ht-degree: 37%
+ht-degree: 43%
 
 ---
 
@@ -169,13 +169,13 @@ Updated **June 10, 2020**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
-| 归因IQ: [!UICONTROL 算法归因] | 2020 年 6 月 18 日 | Analysis Workspace [!UICONTROL 中的] Algorithmic Attribution  模型使用统计技术动态地确定所选指标的信用的最佳分配。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 归因IQ: 自定义回顾窗口 | 2020 年 6 月 18 日 | 您现在可以在归因IQ中配 [!UICONTROL 置任何归因模型] ，以在报告时间段前90天内包含接触点。 通常，这会通过计入上个月发生的交互，提高在报告期初发生的事件的归因准确性。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 共享Workspace项目的 [!UICONTROL 项目角] 色 | 2020 年 6 月 18 日 | 在共享Workspace [!UICONTROL 项目] 时，您现在可以将收件人置于三个项目角色之一，具体取决于您希望他们具有的项目体验： 编辑、重复和视图。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 仅视图的 [!UICONTROL Workspace项目] | 2020 年 6 月 18 日 | [!UICONTROL 工作区] 项目可共享给用户， _[!UICONTROL 仅可视图]_。 当视图收件人打开共享项目时，他们将获得限制性更强的项目体验，无左边栏且交互有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同编辑Workspace项 [!UICONTROL 目] | 2020 年 6 月 18 日 | 添加到“可 _[!UICONTROL 以编辑]_”角色的收件人可以保存已共享给他们的项目。 这同时适用于管理员和非管理员。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 更新了Workspace中的“空白” [!UICONTROL 面板] | 2020 年 6 月 18 日 | Workspace中的“空白 [!UICONTROL ”面板] 现在包括面板和可视化，为您提供了一种更无缝的方式来挑选最适合您的分析工作流。 |
-| China RDC中提供的第一方域 | 2020 年 6 月 18 日 | 允许具有域 `.cn` 的客户请求第一方域以在中国大陆境内使用。 （购买中国性能优化SKU时提供的文档。） |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作区] 项目可共享给用户， _[!UICONTROL 仅可视图]_。 当视图收件人打开共享项目时，他们将获得限制性更强的项目体验，无左边栏且交互有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them. 这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Updated Blank panel in [!UICONTROL Workspace] | 2020 年 6 月 18 日 | The Blank panel in [!UICONTROL Workspace] now includes panels and visualizations, giving you a more seamless way to pick the analysis workflow that works best for you. |
+| 可在 China RDC 中使用的第一方域 | 2020 年 6 月 18 日 | 允许具有 `.cn` 域的客户请求要在中国大陆境内使用的第一方域。（购买中国性能优化SKU时提供的文档。） |
 | [!UICONTROL Workspace] 中的 Quick Insights 面板 | 2020 年 6 月 25 日 | Quick Insights 可为 [!UICONTROL Analysis Workspace] 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 | [!UICONTROL Workspace] 中的 [!UICONTROL Analytics for Target] 面板 | 2020 年 6 月 25 日 | The [!UICONTROL Analytics for Target] (A4T) panel lets you analyze your Adobe Target activities and experiences in [!UICONTROL Analysis Workspace]. [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
 
@@ -183,12 +183,12 @@ Updated **June 10, 2020**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-----|
-| 归因IQ: [!UICONTROL 算法归因] | 2020 年 6 月 18 日 | Analysis Workspace [!UICONTROL 中的] Algorithmic Attribution  模型使用统计技术动态地确定所选指标的信用的最佳分配。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 归因IQ: 自定义回顾窗口 | 2020 年 6 月 18 日 | 您现在可以在归因IQ中配 [!UICONTROL 置任何归因模型] ，以在报告时间段前90天内包含接触点。 通常，这会通过计入上个月发生的交互，提高在报告期初发生的事件的归因准确性。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
-| 异常检 [!UICONTROL 测支持] | 2020 年 6 月 18 日 | [!UICONTROL 异常检测] 提供了一种统计方法，用于确定给定度量相对于先前数据的变化情况。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 共享Workspace项目的 [!UICONTROL 项目角] 色 | 2020 年 6 月 18 日 | 在共享Workspace [!UICONTROL 项目] 时，您现在可以将收件人置于三个项目角色之一，具体取决于您希望他们具有的项目体验： 编辑、重复和视图。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 仅视图的 [!UICONTROL Workspace项目] | 2020 年 6 月 18 日 | [!UICONTROL 工作区] 项目可共享给用户， _[!UICONTROL 仅可视图]_。 当视图收件人打开共享项目时，他们将获得限制性更强的项目体验，无左边栏且交互有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同编辑Workspace项 [!UICONTROL 目] | 2020 年 6 月 18 日 | 添加到“可 _[!UICONTROL 以编辑]_”角色的收件人可以保存已共享给他们的项目。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。][了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作区] 项目可共享给用户， _[!UICONTROL 仅可视图]_。 当视图收件人打开共享项目时，他们将获得限制性更强的项目体验，无左边栏且交互有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | [!UICONTROL Workspace] 中的 Quick Insights 面板 | 2020 年 6 月 25 日 | Quick Insights 可为 [!UICONTROL Analysis Workspace] 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
 
 ### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
@@ -207,32 +207,32 @@ Updated **June 10, 2020**
 
 ### Adobe Analytics中的修复 {#aa-fixes}
 
-* 修复了导致对某些报表包进行多字节搜索的区段不匹配的问题。 他们现在将匹配正确的字符串。 (AN-220043)
-* 修复了报告和分析 [!UICONTROL 中的项目] 筛 [!UICONTROL 选器无效] 的问题。 (AN-206132)
-* 修复了“计划项目”界 [!UICONTROL 面中的慢] 响应时间。 (AN-214837)
-* 修复了Analytics报告API 2.0引发日期范围错误的问题。 (AN-215087)
-* Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. 当维度（如Pagename）没有值的点击在同一秒后跟时，会发生这种情况。 (AN-211074)
-* 修复了用户无法访问与他们共享 [!UICONTROL 的Workspace] 项目的问题。 (AN-217561)
-* 修复了密钥未被分类规则 [!UICONTROL 生成器分类的问题]。 (AN-221538)
-* 修复了服务器调用 [!UICONTROL 使用情况不报告任] 何使用数据的问题。 (AN-210452)
-* 修复了已发布的Adobe Analytics细分在Audience Manager中缺少数据的问题。 （AN-220208、AN-220659）
-* 修复了显示数据但数据源日 [!UICONTROL 志显示] “无数据仓库数据”的报告问题。 （AN-220784、AN-220858）
-* 修复了阻止从域启 [!UICONTROL 动临时分析] 的 `experiencecloud.com` 问题。 （AN-219680、AN-221629）
-* 修复了使用“Ctrl（或命令）+ C”热键的问题。 （AN-221101、AN-221537）
-* 修复了“活动映射” [!UICONTROL 启用页面] 的问题。 （AN-222029、AN-221242）
-* 修复了在流失可视化中无法添加接触点的 [!UICONTROL 问题] 。 (AN-221648)
+* 修复了导致对某些报表包进行多字节搜索的区段与任何字符串均不匹配的问题。这些区段现在可匹配到正确的字符串。(AN-220043)
+* Fixed an issue with the [!UICONTROL Item Filter] in [!UICONTROL Reports &amp; Analytics] not working. (AN-206132)
+* Fixed slow response time in [!UICONTROL Scheduled Projects] interface. (AN-214837)
+* 修复了 Analytics 报表 API 2.0 抛出日期范围错误的问题。(AN-215087)
+* Fixed a case in which the instance/visit/visitor wasn&#39;t being counted in the denominator for the [!UICONTROL Time Spent] metrics. 如果在同一秒内紧接着发生没有值的维度（例如 Pagename）的命中时，就会发生这种情况。(AN-211074)
+* Fixed an issue with users unable to access [!UICONTROL Workspace] projects shared with them. (AN-217561)
+* Fixed issue with keys not being classified by [!UICONTROL Classification Rule Builder]. (AN-221538)
+* Fixed an issue with the [!UICONTROL Server Call Usage] not reporting any usage data. (AN-210452)
+* 修复了已发布的Adobe Analytics细分在Audience Manager中缺少数据的问题。 (AN-220208 和 AN-220659)
+* Fixed an issue with reports showing data but [!UICONTROL Data Feeds] logs saying &quot;No Data Warehouse data&quot;. (AN-220784 和 AN-220858)
+* Fixed issues that prevented the launch of [!UICONTROL Ad Hoc Analysis] from the `experiencecloud.com` domain. (AN-219680 和 AN-221629)
+* 修复了与“Ctrl（或 Command）+ C”热键使用相关的问题。(AN-221101 和 AN-221537)
+* Fixed an issue with the [!UICONTROL Activity Map] enablement page. (AN-222029 和 AN-221242)
+* Fixed an issue with not being able to add a touch-point in the middle of a [!UICONTROL Fallout] visualization. (AN-221648)
 
 #### 其他 Adobe Analytics 修复
 
-AN-218269; AN-218455; AN-218492; AN-219888; AN-220447; AN-220546; AN-220788; AN-220866; AN-221165; AN-221545; AN-221712; AN-221832; AN-221853; AN-222000; AN-222505; AN-222559
+AN-218269、AN-218455、AN-218492、AN-219888、AN-220447、AN-220546、AN-220788、AN-220866、AN-221165、AN-221545、AN-221712、AN-221832、AN-221853、AN-222000、AN-222505、AN-222559
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
-| 迁移到统一的产品域 | 生效日期：2020 年 5 月 28 日 | 向 Adobe Analytics 统一产品域的迁移从 2020 年 1 月开始，于 2020 年 5 月 28 日完成。While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 当完全架构迁移（即将完成）时，我们将通过发行说明通知您，并且不再需要此allowlist步骤。 [此处](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html) 是建议的IP地址和域的完整列表，您应允许列出这些地址和域。<br>如果贵组织阻止第三方 Cookie，请联系客户关怀团队以重新获得 Adobe Analytics 访问权限。 |
+| 迁移到统一的产品域 | 生效日期：2020 年 5 月 28 日 | 向 Adobe Analytics 统一产品域的迁移从 2020 年 1 月开始，于 2020 年 5 月 28 日完成。While Adobe Analytics works to remove all `omniture.com` domain references from its architecture, it is important to allowlist (formerly, allowlist) `omniture.com` as a third-party cookie. 当完全架构迁移（即将完成）时，我们将通过发行说明通知您，并且不再需要此allowlist步骤。 [此处](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html)提供了建议应添加到白名单中的 IP 地址和域的完整列表。<br>如果贵组织阻止第三方 Cookie，请联系客户关怀团队以重新获得 Adobe Analytics 访问权限。 |
 | 新的 Adobe Analytics 默认登陆页面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日，Adobe Analytics 的默认登陆页面将从[!UICONTROL 报表]更改为[!UICONTROL 工作区]。之前未设置自定义登陆页面的任何用户都将发生此更改。 |
-| 第三方技术允许列表 | 2020 年 3 月 12 日（生效日期） | Adobe Analytics 已开始利用第三方技术进行功能推出管理和提供产品内支持。应将以下URL添加到任何必要的网络防火墙允许列表，以确保完全功能访问：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
+| 第三方技术允许列表 | 2020 年 3 月 12 日（生效日期） | Adobe Analytics 已开始利用第三方技术进行功能推出管理和提供产品内支持。应将以下 URL 添加到所有必要的网络防火墙允许列表中，以确保能够完全访问功能：<ul><li>Gainsight：https://esp.aptrinsic.com</li><li>LaunchDarkly：https://app.launchdarkly.com</li></ul> |
 | Improved redundancy for [!UICONTROL Analysis Workspace] availability | 2020 年 5 月 21 日 | In order to ensure availability of [!UICONTROL Analysis Workspace], we are adding a secondary CDN (Content Delivery Network) for improved redundancy. 应将以下URL添加到任何必要的网络防火墙允许列表中：<ul><li>https://aaui-879784980514.s3.us-east-2.amazonaws</li><li>https://d30ln29764hddd.cloudfront.net</li><li>https://awaascicdprodva7.blob.core.windows.net</li><li>https://aauicdnva7.azureedge.net</li></ul> |
 | 在[!UICONTROL 工作区]中更改[!UICONTROL 登入/退出]的计算方式 | 2020 年 4 月 7 日 | 在 [!UICONTROL Analysis Workspace] 中，从 2020 年 3 月起，我们更改了&#x200B;_无_&#x200B;值与[!UICONTROL 登入/退出]的交互方式。由于您现在可以在 _Analysis Workspace_ 中打开和关闭[!UICONTROL 无]，因此我们会在登入或退出后应用&#x200B;_无_&#x200B;值，而（对于 eVar）过去是在登入或退出前应用。例如，假定访问的第一次点击没有 eVar 值，但第二次点击有。在 [!UICONTROL Reports &amp; Analytics] 中，第一次点击将针对“登入”显示为&#x200B;_未指定_，但在 [!UICONTROL Analysis Workspace] 中，将显示第二次点击时的值。 |
 | **[!UICONTROL 功能板存档]**&#x200B;生命周期终止 | 2020 年 3 月 27 日 | 自 2020 年 10 月起，在 [!UICONTROL Reports &amp; Analytics] 中，位于&#x200B;**[!UICONTROL 管理功能板]**&#x200B;下方的&#x200B;**[!UICONTROL 查看存档]**&#x200B;将不再可用。 |
@@ -296,7 +296,7 @@ Audience Manager 将发布对域和标题栏的更新，以改进您的体验并
 * 长特征表达式现在跨多行换行。 (AAM-54972)
 * 修复了具有只读权限的用户在算法模型页 [!UICONTROL 面中可以看] 到“创建新”按钮的问题。 (AAM-54889)
 * 修复了在CSV下载 [!UICONTROL 完成后] ,“常 [!UICONTROL 规”和“趋势] ”报表加载指示器继续旋转的问题。 (AAM-54571)
-* 修复了用户无法在区段生成器中向区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
+* 修复了用户无法向区段生成器中的区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
 * 改进了整个界面的多项辅助功能。(AAM-47269、AAM-48966、AAM-48976、AAM-49369、AAM-49023、AAM-49042)。
 
 ### 新的Audience Manager课程和教程 {#tutorials-aam}
