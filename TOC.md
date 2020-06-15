@@ -4,17 +4,18 @@ product: Experience Cloud
 user-guide-title: Adobe Experience Cloud 发行说明
 user-guide-url: https://www.adobe.com
 translation-type: tm+mt
-source-git-commit: e239cc0afb9ebde272f37fa0181b1454412ac2ae
+source-git-commit: c794742334033a11c712fd6cabfcc1b382fbefce
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 98%
+source-wordcount: '88'
+ht-degree: 95%
 
 ---
 
 
 # Experience Cloud 发行说明 {#experience-cloud}
 
-+ [发行说明](current.md)
++ Adobe Experience Cloud 发行说明
+   + [最新发行说明](current.md)
 + 以前的发行说明 {#previous}
    + 2020 年{#2020}
       + [2020年5月](c-legacy-releases/2020/05212020.md)
