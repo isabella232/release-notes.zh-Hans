@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 233093d41875b9fba88afefa0ecbfc9ace21a900
+source-git-commit: acbbe734e4d1e6881b32a6ef33439eeac6e92715
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6531'
 ht-degree: 45%
 
 ---
@@ -67,7 +67,7 @@ This page describes new features, fixes, and important notices in [!DNL Adobe Ex
 | 事件订阅确认 | <ul><li>现在，在订阅正在进行的单个事件更新时，您会收到电子邮件确认。</li></ul> |
 | 全局导航可用性增强功能 | <ul><li>顶级导航菜单的用户体验与 `Adobe.com` 一致。</li></ul> |
 
-## ![图标](/assets/ec_appicon_24.png) Experience Cloud 界面 {#ecloud}
+## ![图标](/assets/ec_appicon_24.png) Adobe Experience Cloud界面 {#ecloud}
 
 Experience Cloud界面的常规更新。
 
@@ -253,7 +253,7 @@ Analytics和Customer Journey Analytics中的新课程、教程视频和文章。
 | [指导Analytics实施](https://experienceleague.adobe.com/?recommended=Analytics-D-1-2019.1) | 课程 | 在本课程中，您将学习如何开始实施AdobeAnalytics、了解Analytics概念、制定计划以及使用Experience Platform Launch实施AdobeAnalytics。 |
 | [AdobeAnalytics面向领导者的基础知识](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | 课程 | 在本课程中，了解Analytics的基本面，以及Analysis Workspace如何改变您的业务。 了解如何通过Adobe Sensei发掘洞察、听取客户评价并观看2019年峰会行业专家的亮点。 |
 | [Analysis Workspace入门](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | 课程 | 了解如何开始使用Analysis Workspace。 构建您的第一个项目，了解如何定义日期范围、应用细分以及共享和协作项目。 |
-| [AdobeAnalytics仪表板记分卡构建器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 视频教程 | 在此视频中，了解如何在Analysis Workspace中创建 [!UICONTROL 和共享] Scordan [!UICONTROL 卡] ，以便在AdobeAnalytics仪表板（移动应用程序）上查看。 |
+| [AdobeAnalytics仪表板记分卡构建器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 视频教程 | 在此视频中，了解如何在Analysis Workspace中创建 [!UICONTROL 和共享][!UICONTROL 记分卡] ，以便在AdobeAnalytics仪表板（移动应用程序）上查看。 |
 | [AdobeAnalytics仪表板应用程序内体验](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 视频教程 | 在此视频中，了解如何使用AdobeAnalytics仪表板（移动应用程序）访问和视图由您创建 [!UICONTROL 或与您] 共享的记分卡。 |
 
 #### Analytics 帮助资源
