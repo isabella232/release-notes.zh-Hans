@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5f592e1e804a94619ccf3ce34a4a310867f9f70
+source-git-commit: 2a69ecde6ebbe9ffbb67d6a82daf7d026e28ed19
 workflow-type: tm+mt
 source-wordcount: '6487'
 ht-degree: 45%
@@ -296,7 +296,7 @@ Audience Manager 将发布对域和标题栏的更新，以改进您的体验并
 * 长特征表达式现在跨多行换行。 (AAM-54972)
 * 修复了具有只读权限的用户在算法模型页 [!UICONTROL 面中可以看] 到“创建新”按钮的问题。 (AAM-54889)
 * 修复了在CSV下载 [!UICONTROL 完成后] ,“常 [!UICONTROL 规”和“趋势] ”报表加载指示器继续旋转的问题。 (AAM-54571)
-* 修复了用户无法在区段生成器中向区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
+* 修复了用户无法向区段生成器中的区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
 * 改进了整个界面的多项辅助功能。(AAM-47269、AAM-48966、AAM-48976、AAM-49369、AAM-49023、AAM-49042)。
 
 ### 新的Audience Manager课程和教程 {#tutorials-aam}
