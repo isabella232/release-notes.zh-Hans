@@ -253,7 +253,7 @@ Analytics和Customer Journey Analytics中的新课程、教程视频和文章。
 | [指导Analytics实施](https://experienceleague.adobe.com/?recommended=Analytics-D-1-2019.1) | 课程 | 在本课程中，您将学习如何开始实施AdobeAnalytics、了解Analytics概念、制定计划以及使用Experience Platform Launch实施AdobeAnalytics。 |
 | [AdobeAnalytics面向领导者的基础知识](https://experienceleague.adobe.com/?recommended=Analytics-L-1-2020.1) | 课程 | 在本课程中，了解Analytics的基本面，以及Analysis Workspace如何改变您的业务。 了解如何通过Adobe Sensei发掘洞察、听取客户评价并观看2019年峰会行业专家的亮点。 |
 | [Analysis Workspace入门](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | 课程 | 了解如何开始使用Analysis Workspace。 构建您的第一个项目，了解如何定义日期范围、应用细分以及共享和协作项目。 |
-| [AdobeAnalytics仪表板记分卡构建器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 视频教程 | 在此视频中，了解如何在Analysis Workspace中创建 [!UICONTROL 和共享][!UICONTROL 记分卡] ，以便在AdobeAnalytics仪表板（移动应用程序）上查看。 |
+| [AdobeAnalytics仪表板记分卡构建器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 视频教程 | 在此视频中，了解如何在Analysis Workspace中创建 [!UICONTROL 和共享] Scordan [!UICONTROL 卡] ，以便在AdobeAnalytics仪表板（移动应用程序）上查看。 |
 | [AdobeAnalytics仪表板应用程序内体验](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 视频教程 | 在此视频中，了解如何使用AdobeAnalytics仪表板（移动应用程序）访问和视图由您创建 [!UICONTROL 或与您] 共享的记分卡。 |
 
 #### Analytics 帮助资源
@@ -296,7 +296,7 @@ Audience Manager 将发布对域和标题栏的更新，以改进您的体验并
 * 长特征表达式现在跨多行换行。 (AAM-54972)
 * 修复了具有只读权限的用户在算法模型页 [!UICONTROL 面中可以看] 到“创建新”按钮的问题。 (AAM-54889)
 * 修复了在CSV下载 [!UICONTROL 完成后] ,“常 [!UICONTROL 规”和“趋势] ”报表加载指示器继续旋转的问题。 (AAM-54571)
-* 修复了用户无法向区段生成器中的区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
+* 修复了用户无法在区段生成器中向区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
 * 改进了整个界面的多项辅助功能。(AAM-47269、AAM-48966、AAM-48976、AAM-49369、AAM-49023、AAM-49042)。
 
 ### 新的Audience Manager课程和教程 {#tutorials-aam}
