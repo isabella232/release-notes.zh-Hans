@@ -1,11 +1,14 @@
 ---
 title: Adobe Experience Cloud 发行说明
-description: Experience Cloud 发行说明模板
+description: Experience Cloud 发行说明
 doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8ae9a44aa90a578b681ec1449d65781d3e3b7b65
+source-git-commit: b99aa5d06316964f374b99547215643ad8208bbf
+workflow-type: tm+mt
+source-wordcount: '2537'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +36,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [目标](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
+* [Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
@@ -71,7 +74,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-发行说明，内容包括旅程编排、 [!DNL Experience Platform,] 旅程编排、 [!DNL Experience Platform Launch,] 优惠、 [!UICONTROL 、场所、移]动服务、安全公告等，以及旅程安排、、的发行说明。
+[!DNL Experience Platform,] 的发行说明，包括 [!DNL Experience Platform Launch,] [!UICONTROL Journey Orchestration]、[!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services] 和安全公告。
 
 * [Experience Cloud ID 服务](#ecid)
 * [Experience Platform 发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)
@@ -293,7 +296,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## Marketo {#marketo}
 
-Marketo Engage是销售线索管理和B2B营销人员的一个完整解决方案，旨在通过参与复杂购买过程的每个阶段来转变客户体验。
+Marketo Engage是销售线索管理和B2B营销人员的完整解决方案，希望通过在复杂购买旅程的每个阶段进行互动来转变客户体验。
 
 ### 核心 Marketo Engage 更新
 
