@@ -1,13 +1,13 @@
 ---
 title: Adobe Experience Cloud 发行说明
-description: Experience Cloud 发行说明模板
+description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: fc51a317cdceb0cdf2ebf685c0a4480995dd4ef9
+source-git-commit: 05310c3c03c09918aee45015bd6c9bc341dce724
 workflow-type: tm+mt
-source-wordcount: '6510'
+source-wordcount: '6509'
 ht-degree: 45%
 
 ---
@@ -347,12 +347,10 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 云管理器中增强的自助沙箱支持允许授权用户删除沙箱内的所有环境并接收积分。
       * 自动休眠沙箱环境在一段时间不活动后自动“休眠”沙箱。 客户可以主动触发“去休眠”。
    * 支持云加速的过渡工具
-
    为了减少过渡从事先到Cloud Service的时间和成本，本月推出了两款过渡工具。 这些工具设计为在过渡过程中自动执行一些关键任务，从而减少总体工作量。 .
 
    1. [使用内容传输工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD上提供）简化内容传输活动并使其可伸缩。 借助用户友好的UI，该工具可为正在以Cloud Service身份过渡到AEM的现有客户和合作伙伴（在预先/AMS）提供自助服务。
    1. [AMSDispatcher转换器](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （开放源代码）工具可自动将AMSDispatcher配置转换为Cloud ServiceDispatcher配置。
-
    [AEM作为Cloud Service2020.6.0的发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    过渡工具：
