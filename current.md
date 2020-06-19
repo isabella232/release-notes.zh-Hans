@@ -74,9 +74,9 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 更新包括：
 
 * 新应用程序URL：`experience.adobe.com/<application name>`：
-   * 所有产品最终都将采用此 URL 模式。寻找即将在本月内生效的新 URL。
-   * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：** 虽然Experience Cloud界面支持这些浏览器，但单个应用程序可能不支持每个浏览器。 （例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
-   * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
+  * 所有产品最终都将采用此 URL 模式。寻找即将在本月内生效的新 URL。
+  * 浏览器支持：支持的浏览器包括 [!DNL Microsoft Edge]、[!DNL Google Chrome]、[!DNL Firefox]、[!DNL Safari] 和 [!DNL Opera]（最新版本）。**注意：** 虽然Experience Cloud界面支持这些浏览器，但单个应用程序可能不支持每个浏览器。 （例如，[Analytics](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/sys-reqs.html) 不支持 [!DNL Opera]，[Target](https://docs.adobe.com/help/zh-Hans/target/using/implement-target/before-implement/supported-browsers.html) 不支持 [!DNL Safari]。）
+  * （仅限 [!DNL Safari]）域更改可能导致 [!DNL Safari] 中出现 Cookie 问题。取消选中 [!DNL Safari] 隐私首选项中的&#x200B;_阻止跨站跟踪_，将支持跨域的 Cookie（以及所有跨站点体验），并允许 Experience Cloud 在这个新的域上正常运行。
 * 更轻松地在组织之间切换，或切换到其他应用程序。
 * 改进了产品帮助：[!UICONTROL Experience League] 已集成到产品中，以便帮助搜索还包括来自社区论坛及视频内容的答案。此更改会简化对更多内容的访问，并有助于您充分利用 Experience Cloud。此外，单击&#x200B;**[!UICONTROL 帮助]** > **[!UICONTROL 反馈]**，可报告问题或与 Adobe 分享您的想法。
 
@@ -155,10 +155,10 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey)
-* [Media Analytics](#media-aa) 的新增功能
-* [AdobeAnalytics的修复](#aa-fixes)
+* [Media Analytics 的新增功能](#media-aa)
+* [Adobe Analytics 的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
-* [新的AdobeAnalytics课程和教程](#tutorials-analytics)
+* [新的 Adobe Analytics 课程和教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
@@ -183,7 +183,7 @@ Release notes for the [!DNL Experience Platform] and application services, inclu
 | 支持对象数组 | 2020 年 6 月 18 日 | CJA客户现在可以报告其Adobe Experience Platform数据集模式中对象数组中显示的维度和度量。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
 | Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。面向AdobeAnalytics旗舰店客户。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
-| Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。][了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 对[!UICONTROL异常检测]的支持 | 2020 年 6 月 18 日 | [!UICONTROL “异常检测”]提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | View-only [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | [!UICONTROL 工作区] 项目可共享给用户， _[!UICONTROL 仅可视图]_。 当视图收件人打开共享项目时，他们将获得限制性更强的项目体验，无左边栏且交互有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
 | Ability to co-edit [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | Recipients added to the _[!UICONTROL Can Edit]_role can save over a project that has been shared to them.[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
