@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7901dd8a4f8a701dca516e90b72ec9e4ae0f6ded
+source-git-commit: a9dfcbc1fdd459212ffb898e2a1c508d9aaf84f7
 workflow-type: tm+mt
-source-wordcount: '6660'
+source-wordcount: '6687'
 ht-degree: 43%
 
 ---
@@ -165,8 +165,8 @@ Updated **June 10, 2020**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
-| 归因 IQ：算法归因 | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 归因 IQ：算法归因 | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。面向AdobeAnalytics旗舰店客户。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于AdobeAnalytics基金会、Select、Prime、Premium、Premium Attribution、Premium Complete和Ultimate客户。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 2020 年 6 月 18 日 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 仅查看工作区项目 | 2020 年 6 月 18 日 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 能够共同编辑工作区项目 | 2020 年 6 月 18 日 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
@@ -181,7 +181,7 @@ Updated **June 10, 2020**
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-----|
 | 支持对象数组 | 2020 年 6 月 18 日 | CJA客户现在可以报告其Adobe Experience Platform数据集模式中对象数组中显示的维度和度量。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
-| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| Attribution IQ: [!UICONTROL Algorithmic Attribution] | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。面向AdobeAnalytics旗舰店客户。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | You can now configure any attribution model in [!UICONTROL Attribution IQ] to include touch-points from up to 90 days before the reporting time period. 通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
 | Support for [!UICONTROL Anomaly Detection] | 2020 年 6 月 18 日 | [!UICONTROL “异常检测”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。][了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | Project roles for shared [!UICONTROL Workspace] projects | 2020 年 6 月 18 日 | When sharing a [!UICONTROL Workspace] project, you can now place recipients in one of three project roles, depending on the project experience you want them to have: Edit, Duplicate and View. [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
@@ -340,10 +340,12 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 云管理器中增强的自助沙箱支持允许授权用户删除沙箱内的所有环境并接收积分。
       * 自动休眠沙箱环境在一段时间不活动后自动“休眠”沙箱。 客户可以主动触发“去休眠”。
    * 支持云加速的过渡工具
+
    为了减少过渡从事先到Cloud Service的时间和成本，本月推出了两款过渡工具。 这些工具设计为在过渡过程中自动执行一些关键任务，从而减少总体工作量。 .
 
    1. [使用内容传输工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD上提供）简化内容传输活动并使其可伸缩。 借助用户友好的UI，该工具可为正在以Cloud Service身份过渡到AEM的现有客户和合作伙伴（在预先/AMS）提供自助服务。
    1. [AMSDispatcher转换器](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （开放源代码）工具可自动将AMSDispatcher配置转换为Cloud ServiceDispatcher配置。
+
    [AEM作为Cloud Service2020.6.0的发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    过渡工具：
