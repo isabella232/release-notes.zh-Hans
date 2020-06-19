@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 07935d47bd84291ede7cfd2dcfab422a95b7cf71
+source-git-commit: 7901dd8a4f8a701dca516e90b72ec9e4ae0f6ded
 workflow-type: tm+mt
-source-wordcount: '6580'
+source-wordcount: '6660'
 ht-degree: 43%
 
 ---
@@ -192,17 +192,12 @@ Updated **June 10, 2020**
 
 ### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
 
-更新日期：**2020 年 5 月 29 日**
+更新日期： **2020年6月18日**
 
-**播放器状态跟踪：**[!UICONTROL Media Analytics] 客户可以使用一组用于全屏、隐藏式字幕、静音、画中画和聚焦的标准解决方案变量在播放过程中捕获观看者交互。您还可以灵活地创建自定义播放器状态。播放器状态跟踪变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项：
-
-* Media [!DNL JavaScript] SDK 3.0 或更高版本
-* 与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：
-   * [!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本
-   * [!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本
-* [!UICONTROL 媒体收集]
-
-请参阅[关于播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html)。
+| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| -----------| ---------- | ---------- |
+| [支持的设备和平台](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 带有AEP SDK的Media Launch Extension现在支持以下OTT设备：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |  | [支持的设备和平台](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 带有AEP SDK的Media Launch Extension现在支持以下OTT设备：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
+| [播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] （媒体）客户可以在回放过程中使用一套标准的解决方案变量捕获观众交互，这些变量适用于全屏、关闭的字幕、静音、画中画和聚焦。 您还可以灵活地创建自定义播放器状态。播放器状态跟踪变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更高版本</li><li>与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：</li><li>[!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本</li><li>[!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本</li><li>[!UICONTROL 媒体收集]</li></ul> |
 
 ### AdobeAnalytics的修复 {#aa-fixes}
 
@@ -244,7 +239,7 @@ AN-218269、AN-218455、AN-218492、AN-219888、AN-220447、AN-220546、AN-22078
 Analytics和Customer Journey Analytics中的新课程、教程视频和文章。
 
 | 内容 | 内容类型 | 描述 |
-| -----------| ---------- | ---------- | 
+| -----------| ---------- | ---------- |
 | [用户Customer Journey Analytics入门](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-U-1-2020.1) | 课程 | 在本课程中，您将学习如何使用Customer Journey Analytics(CJA)分析来自许多不同数据源的数据。 您将了解AdobeAnalytics与Customer Journey Analytics之间的差异，以及CJA中如何处理数据。 参加本课程后，您应能够创建和自定义交叉渠道可视化，以加深对客户的了解。 |
 | [管理员Customer Journey Analytics入门](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-A-1-2020.1) | 课程 | 了解如何配置和使用 [!UICONTROL Journey Orchestration]。 本课程涵盖实现旅程编排所需的主要概念和配置步骤。 您将学习如何创建、发布以及如何报告和分析精心编排的旅程。 |
 | [Customer Journey Analytics工程师入门](https://experienceleague.adobe.com/?recommended=CustomerJourneyAnalytics-D-1-2020.1) | 课程 | 在本课程中，您将了解Customer Journey Analytics中的数据以及数据对分析师报告的影响。 本课程以您对Adobe Experience Platform的一般知识为基础。 |
@@ -295,7 +290,7 @@ Audience Manager 将发布对域和标题栏的更新，以改进您的体验并
 * 长特征表达式现在跨多行换行。 (AAM-54972)
 * 修复了具有只读权限的用户在算法模型页 [!UICONTROL 面中可以看] 到“创建新”按钮的问题。 (AAM-54889)
 * 修复了在CSV下载 [!UICONTROL 完成后] ,“常 [!UICONTROL 规”和“趋势] ”报表加载指示器继续旋转的问题。 (AAM-54571)
-* 修复了用户无法在区段生成器中向区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
+* 修复了用户无法向区段生成器中的区段添加批量特 [!UICONTROL 征的问题]。 (AAM-55033)
 * 改进了整个界面的多项辅助功能。(AAM-47269、AAM-48966、AAM-48976、AAM-49369、AAM-49023、AAM-49042)。
 
 ### 新的Audience Manager课程和教程 {#tutorials-aam}
@@ -345,12 +340,10 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 云管理器中增强的自助沙箱支持允许授权用户删除沙箱内的所有环境并接收积分。
       * 自动休眠沙箱环境在一段时间不活动后自动“休眠”沙箱。 客户可以主动触发“去休眠”。
    * 支持云加速的过渡工具
-
    为了减少过渡从事先到Cloud Service的时间和成本，本月推出了两款过渡工具。 这些工具设计为在过渡过程中自动执行一些关键任务，从而减少总体工作量。 .
 
    1. [使用内容传输工具](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html) （SD上提供）简化内容传输活动并使其可伸缩。 借助用户友好的UI，该工具可为正在以Cloud Service身份过渡到AEM的现有客户和合作伙伴（在预先/AMS）提供自助服务。
    1. [AMSDispatcher转换器](https://github.com/adobe/aem-cloud-service-dispatcher-converter) （开放源代码）工具可自动将AMSDispatcher配置转换为Cloud ServiceDispatcher配置。
-
    [AEM作为Cloud Service2020.6.0的发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    过渡工具：
