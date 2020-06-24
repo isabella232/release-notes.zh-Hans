@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a88748f592df569028641cd53d563e3b6c1d1201
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6688'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud发行说明- 2020年6月
+# Adobe Experience Cloud 发行说明 - 2020 年 6 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
-* [Analytics](#analytics) (和 [Customer Journey Analytics](#cust-journey))
+* [Analytics](#analytics)（和 [Customer Journey Analytics](#cust-journey)）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -136,7 +136,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 ### 最新版本
 
-有关最新版本更新，请参阅 [Journey Orchestration发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html)
+有关最新版本更新，请参阅 [Journey Orchestration 发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html)
 
 ### Journey Orchestration 的新课程和教程 {#jo-tutorials}
 
@@ -165,39 +165,39 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
-| 归因 IQ：算法归因 | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。面向AdobeAnalytics旗舰店客户。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
-| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于AdobeAnalytics基金会、Select、Prime、Premium、Premium Attribution、Premium Complete和Ultimate客户。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
+| 归因 IQ：算法归因 | 2020 年 6 月 18 日 | Analysis Workspace 中的“[!UICONTROL 算法归因]”模型可使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/algorithmic.html) |
+| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。适用于 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html#lookback-windows) |
 | 共享工作区项目中的项目角色 | 2020 年 6 月 18 日 | 现在，在共享工作区项目时，您可以根据希望收件人获得的项目体验为收件人分配以下三个项目角色中的一个角色：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 仅查看工作区项目 | 2020 年 6 月 18 日 | 可以将工作区项目仅以“可以查看”的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
 | 能够共同编辑工作区项目 | 2020 年 6 月 18 日 | 添加到“可以编辑”角色的收件人可以保存已共享给他们的项目。这同时适用于管理员和非管理员用户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 工作区中已更新的“空白”面板 | 2020 年 6 月 18 日 | 现在，工作区中的“空白”面板包含多个面板和可视化功能，使您能够更加顺畅地选择最适合自己的分析工作流程。 |
 | 可在 China RDC 中使用的第一方域 | 2020 年 6 月 18 日 | 允许具有 `.cn` 域的客户请求要在中国大陆境内使用的第一方域。（购买“China 性能优化”SKU 时提供的文档。） |
 | 工作区中的 Quick Insights 面板 | 2020 年 6 月 25 日 | Quick Insights 可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/quickinsight.html) |
-| 工作区中的 Analytics for Target 面板 | 2020 年 6 月 25 日 | AnalyticsTarget(A4T)面板可让您分析Analysis Workspace中的Adobe Target活动和体验，并保持信心。 [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
-| [!UICONTROL 关于工作区] 页 | 18,2020 年 6 月 | “关 [!UICONTROL 于工作区] ”页提供有关您的Analysis Workspace环境、AdobeAnalytics管理员（如果您需要支持）的信息，以及提供产品内反馈的方法。 它位于“工作区” **[!UICONTROL >]** “帮 **[!UICONTROL 助”]** > “关 **[!UICONTROL 于工作区”下]**。 |
+| 工作区中的 Analytics for Target 面板 | 2020 年 6 月 25 日 | 借助“Analytics for Target”(A4T) 面板，您可以满怀信心地在 Analysis Workspace 中分析 Adobe Target 活动和体验。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/panels/a4t-panel.html) |
+| [!UICONTROL 关于 Workspace] 页面 | 2020 年 6 月 18 日 | [!UICONTROL 关于 Workspace] 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：**[!UICONTROL Workspace]** > **[!UICONTROL 帮助]** > **[!UICONTROL 关于 Workspace]**。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-----|
-| 支持对象数组 | 2020 年 6 月 18 日 | CJA客户现在可以报告其Adobe Experience Platform数据集模式中对象数组中显示的维度和度量。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-usecases/object-arrays.html) |
-| 归因 IQ：[!UICONTROL 算法归因] | 2020 年 6 月 18 日 | [!UICONTROL Analysis Workspace] 中的“[!UICONTROL 算法归因]”模型使用统计技术动态确定所选量度的最佳点数分配方式。面向AdobeAnalytics旗舰店客户。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
-| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/attribution/models.html) |
-| 对[!UICONTROL 异常检测]的支持 | 2020 年 6 月 18 日 | “[!UICONTROL 异常检测]”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
-| 共享[!UICONTROL 工作区]项目中的项目角色 | 2020 年 6 月 18 日 | 现在，在共享[!UICONTROL 工作区]项目时，您可以根据希望收件人获得的项目体验，为收件人分配以下三个项目角色之一：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
-| 仅查看[!UICONTROL 工作区]项目 | 2020 年 6 月 18 日 | 可以将[!UICONTROL 工作区]项目仅以“可以查看”__的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
-| 能够共同编辑[!UICONTROL 工作区]项目 | 2020 年 6 月 18 日 | 添加到“可以编辑”__角色的收件人可以保存已共享给他们的项目。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
-| [!UICONTROL 工作区]中的“快速分析”面板 | 2020 年 6 月 25 日 | “快速分析”可为 [!UICONTROL Analysis Workspace] 的非分析师用户和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
-| [!UICONTROL 关于工作区] 页 | 18,2020 年 6 月 | “关 [!UICONTROL 于工作区] ”页提供有关您的Analysis Workspace环境、AdobeAnalytics管理员（如果您需要支持）的信息，以及提供产品内反馈的方法。 它位于“工作区” **[!UICONTROL >]** “帮 **[!UICONTROL 助”]** > “关 **[!UICONTROL 于工作区”下]**。 |
+| 支持对象数组 | 2020 年 6 月 18 日 | CJA 客户现在可以报告其 Adobe Experience Platform 数据集架构内对象数组中显示的维度和量度。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-usecases/object-arrays.html) |
+| 归因 IQ：[!UICONTROL 算法归因] | 2020 年 6 月 18 日 | [!UICONTROL Analysis Workspace] 中的“[!UICONTROL 算法归因]”模型使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
+| 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/attribution/models.html) |
+| 对[!UICONTROL 异常检测]的支持 | 2020 年 6 月 18 日 | “[!UICONTROL 异常检测]”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
+| 共享[!UICONTROL 工作区]项目中的项目角色 | 2020 年 6 月 18 日 | 现在，在共享[!UICONTROL 工作区]项目时，您可以根据希望收件人获得的项目体验，为收件人分配以下三个项目角色之一：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| 仅查看[!UICONTROL 工作区]项目 | 2020 年 6 月 18 日 | 可以将[!UICONTROL 工作区]项目仅以“可以查看”__的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
+| 能够共同编辑[!UICONTROL 工作区]项目 | 2020 年 6 月 18 日 | 添加到“可以编辑”__角色的收件人可以保存已共享给他们的项目。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
+| [!UICONTROL 工作区]中的“快速分析”面板 | 2020 年 6 月 25 日 | “快速分析”可为 [!UICONTROL Analysis Workspace] 的非分析师用户和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
+| [!UICONTROL 关于 Workspace] 页面 | 2020 年 6 月 18 日 | [!UICONTROL 关于 Workspace] 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：**[!UICONTROL Workspace]** > **[!UICONTROL 帮助]** > **[!UICONTROL 关于 Workspace]**。 |
 
-### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
+### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
-更新日期： **2020年6月18日**
+更新日期：**2020 年 6 月 18 日**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- | ---------- |
-| [支持的设备和平台](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 带有AEP SDK的Media Launch Extension现在支持以下OTT设备：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |  | [支持的设备和平台](https://docs.adobe.com/content/help/en/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 带有AEP SDK的Media Launch Extension现在支持以下OTT设备：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] （媒体）客户可以在回放过程中使用一套标准的解决方案变量捕获观众交互，这些变量适用于全屏、关闭的字幕、静音、画中画和聚焦。 您还可以灵活地创建自定义播放器状态。播放器状态跟踪变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更高版本</li><li>与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：</li><li>[!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本</li><li>[!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本</li><li>[!UICONTROL 媒体收集]</li></ul> |
+| [支持的设备和平台](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | Media Launch Extension w/ AEP SDK 现在支持以下 OTT 设备：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |  | [支持的设备和平台](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | Media Launch Extension w/ AEP SDK 现在支持以下 OTT 设备：<ul><li>Apple TV  (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
+| [播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客户可以运用一组适用于全屏、隐藏式字幕、静音、画中画和聚焦的标准解决方案变量，捕获视频播放期间观看者的交互信息。您还可以灵活地创建自定义播放器状态。播放器状态跟踪变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更高版本</li><li>与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：</li><li>[!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本</li><li>[!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本</li><li>[!UICONTROL 媒体收集]</li></ul> |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
 
@@ -356,7 +356,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * **核心组件**
 
-   Core Components 2.9.0 introduces integration with the [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) and a new Progress Bar Component and is now available along with [authoring documentation](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html) and [developer details and project download available on GitHub](https://github.com/adobe/aem-core-wcm-components).
+   核心组件 2.9.0 引入了与 [Adobe Client Data Layer](https://github.com/adobe/adobe-client-data-layer) 的集成以及新的进度条组件，现在，可以与[创作文档](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html)、[开发人员详细信息以及 GitHub 上的项目下载功能](https://github.com/adobe/aem-core-wcm-components)一起使用。
 
 * **迁移到 AEM 云服务**
 
@@ -431,19 +431,19 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离线营销渠道来交付一对一的消息。您现在可以利用根据客户习惯和喜好所决定的体验，来预测客户的需求。
 
-### 新产品版本
+### 新的产品版本
 
-[Adobe Campaign经典20.2版本](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html) 包括：
+[Adobe Campaign Classic 20.2 版本](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html)的功能包括：
 
-* _支持表情图标_ - _Azure突触联合数据访问连接器_ -新 _的隐私法规_
-* 活动控制面板： [主动用户档案监视](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
+* _支持表情符号_ – _Azure Synapse FDA 连接器_ – _新的隐私法规_
+* Campaign 控制面板：[活动配置文件监控](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/performance-monitoring/active-profiles-monitoring.html)
 
 ### Campaign 的新课程和教程
 
 | 内容 | 内容类型 | 描述 |
 | -----------| ---------- | ---------- |  
 | [Adobe Campaign Standard 企业用户入门](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 课程 | 了解如何导航界面、处理交付内容以及创建和管理收件人数据。 |
-| [安装和设置 Adobe Campaign 客户端](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 视频 | 了解如何下载和安装Adobe Campaign客户端控制台，创建和管理与多个环境的连接，以及验证对Adobe Campaign客户端控制台的访问权限 |
+| [安装和设置 Adobe Campaign 客户端](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.standard) | 视频 | 了解如何下载和安装 Adobe Campaign 客户端控制台、创建和管理与多个环境的连接，以及验证对 Adobe Campaign 客户端控制台的访问权限。 |
 
 ### 帮助资源
 
