@@ -340,10 +340,12 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * Cloud Manager 中增强的自助服务沙盒支持允许授权用户删除沙盒内的所有环境并接收点数。
       * 自动休眠沙盒环境在一段时间不活动后将自动“休眠”沙盒。客户可以主动触发“取消休眠”。
    * 支持云加速的过渡工具
+
    为了减少从内部部署过渡到云服务的时间和成本，本月推出了两款过渡工具。这些工具可在过渡过程中自动执行一些关键任务，从而减少总体工作量。
 
    1. [使用内容传输工具](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html)（在 SD 上提供）可简化内容传输活动并使其可缩放。借助用户友好 UI，该工具可为正过渡到 AEM 云服务的现有客户和合作伙伴（内部部署/AMS）提供自助服务。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter)（开放源代码）工具可自动将 AMS Dispatcher 配置转换为 Cloud Service Dispatcher 配置。
+
    [AEM 云服务 2020.6.0 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    过渡工具：
