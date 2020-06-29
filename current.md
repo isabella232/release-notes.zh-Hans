@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
 workflow-type: tm+mt
 source-wordcount: '7035'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -462,18 +462,18 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 域迁移 | （6月22日发行版）Advertising CloudDSP已从https://www.tubemogul.com迁移到 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
-| Adobe Analytics 集成 | （6月18日发行版）DSP现在可以选择从发送给Analytics的数据中禁止AMO成本度量。 要取消此指标，请与您的Adobe客户经理联系。 |
-| 基于人的设备图 | （6月22日发行版）自助式DSP客户现在可以利用设备图（Adobe Experience Cloud Device Co-op或LiveRamp）在任何新活动进行基于人的定位和频率管理。 这将确保您跨受众自有设备触及客户，并限制其广告曝光。 |
-| CCPA选择退出销售 | （6月22日发行版）现在，您可以使用新的CCPA选择退出销售区段向Advertising Cloud传达CCPA选择退出销售请求，您可以从受众>区段创 [!UICONTROL 建该区段]。 您还可以使用受众>区段或b)使用Advertising Cloud贩运API检索客户已提交的ID的月度报告，以请求 [!UICONTROL 退出帐户a)] 。 有关详细信息，请参阅https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html。 |
-| DoubleVerify正版品牌安全 | （6月22日发布）广告商现在可以目标单个DoubleVerify细分ID投标前，具有全面的品牌安全过滤器，用DoubleVerify模仿其投标后阻止规则。 您现在可以在广告商设置的“媒体质量定位”部分，通过“设置”>“广 [!UICONTROL 告商”进行定位]。 要了解有关该服务的更多信息，请与programmaticsales@doubleverify.com联系。 此功能需要额外付费。 |
-| CPA/ROAS 优化 | （5 月 20 日发布）促销活动经理不再需要将新置入内容限制在包中以防止预算过度分配。现在，定位将根据其CPM或CPA/ROAS绩效获得动态预算分配。 |
+| 域迁移 | （6 月 22 日发布）Advertising Cloud DSP 已从 https://www.tubemogul.com 迁移到 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
+| Adobe Analytics 集成 | （6 月 18 日发布）DSP 现在可以选择从发送给 Analytics 的数据中禁用 AMO 成本量度。要禁用此量度，请与您的 Adobe 客户经理联系。 |
+| 基于人的设备图 | （6 月 22 日发布）自助式 DSP 客户现在可以利用设备图（Adobe Experience Cloud 设备协作或 LiveRamp）在任何新活动中进行基于人员的定位和频率管理。这将确保您可以跨受众自有设备访问客户，并限制其广告曝光。 |
+| CCPA 选择退出销售 | （6 月 22 日发布）现在，您可以使用新的 CCPA 选择退出销售区段向 Advertising Cloud 传达 CCPA 选择退出销售请求，您可以从[!UICONTROL 受众 > 区段]创建该区段。您还可以从 a) [!UICONTROL 受众 > 区段]或 b) 使用 Advertising Cloud 跟踪 API，来检索客户为帐户的选择退出销售请求提交的 ID 的月度报表。有关更多信息，请参阅 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html。 |
+| DoubleVerify 正版品牌安全性 | （6 月 22 日发布）现在，广告商可以确定单个 DoubleVerify 区段 ID 预先出价，并使用全面的品牌安全过滤器来模拟 DoubleVerify 的出价后屏蔽规则。现在，您可以在位于[!UICONTROL 设置 > 广告商]的广告商设置的“媒体质量定位”部分，进行该操作。要了解有关该服务的更多信息，请联系 programmaticsales@doubleverify.com。此功能需要额外付费。 |
+| CPA/ROAS 优化 | （5 月 20 日发布）促销活动经理不再需要将新置入内容限制在包中以防止预算过度分配。现在，置入内容将根据其 CPM 或 CPA/ROAS 绩效获得动态预算分配。 |
 | [!UICONTROL Campaign] 主页 | （6 月 3 日发布）基于提供的促销活动预算和已用时间的新促销活动级步测量度现已可用。 |
-| [!UICONTROL 版面] | （6月22日发布）为简化放置设置，删除了站点多样性和播放器大小过滤器。 |
+| [!UICONTROL 版面] | （6 月 22 日发布）为简化置入设置，删除了站点多样性和播放器大小过滤器。 |
 | 置入预测 | （6 月 3 日发布）对于具有置入级别优化的 CTV 和视频置入，置入设置现在包括对多个广告时长（15 秒和 30 秒）的预测。此外，还包括对 VAST 和 VPAID 目录的预测。 |
-| [!UICONTROL 库存] | （6月22日测试版）新的交易ID表允许您快速建立已谈判的私人交易。 |
-|  | （6月22日测试版）现在可用于VAST库存的交互式预卷。 您可以设置单个互动式前放广告和投放，从而减少广告和投放数量。 |
-| ACTV受众镜头 | （6月18日发布）受众镜头允许用户创建辅助受众读取并将其应用于他们的规划、订购和报告工作流。 这使他们(1)能够快速了解次受众,(2)能够灵活处理首选受众，并(3)通过多个受众的“视角”衡量活动的执行。 |
+| [!UICONTROL 内容库] | （6 月 22 日测试版发布）新的交易 ID 表允许您快速设置已协商的私人交易。 |
+|  | （6 月 22 日测试版发布）现在交互式前置广告可用于 VAST 内容库。您可以设置单个交互式前置广告和投放，从而减少广告和置入。 |
+| ACTV 受众镜头 | （6 月 18 日版发布）受众镜头允许用户创建次要受众读取并将其应用于他们的规划、订单和报表工作流。这使得用户可以 (1) 快速了解次要受众，(2) 灵活处理首选受众，以及 (3) 通过多个受众的“镜头”衡量活动的执行情况。 |
 
 ### [!UICONTROL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
