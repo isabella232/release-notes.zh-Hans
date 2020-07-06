@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bcf089494e56dd5ece46bd7575bf661e352dc9f0
+source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
 workflow-type: tm+mt
-source-wordcount: '7035'
+source-wordcount: '6998'
 ht-degree: 100%
 
 ---
@@ -183,12 +183,13 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 | 支持对象数组 | 2020 年 6 月 18 日 | CJA 客户现在可以报告其 Adobe Experience Platform 数据集架构内对象数组中显示的维度和量度。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-usecases/object-arrays.html) |
 | 归因 IQ：[!UICONTROL 算法归因] | 2020 年 6 月 18 日 | [!UICONTROL Analysis Workspace] 中的“[!UICONTROL 算法归因]”模型使用统计技术动态确定所选量度的最佳点数分配方式。适用于 Adobe Analytics Ultimate 客户。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/attribution/algorithmic.html) |
 | 归因 IQ：自定义回顾时间范围 | 2020 年 6 月 18 日 | 现在，您可以将“[!UICONTROL 归因 IQ]”中的任意归因模型配置为最多包含在报告期开始前的 90 天内的接触点。通过计算在之前月份发生的交互，通常可以提高在报告期初期所发生事件的归因准确性。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/attribution/models.html) |
-| 对[!UICONTROL 异常检测]的支持 | 2020 年 6 月 18 日 | “[!UICONTROL 异常检测]”提供了一种统计方法来确定给定的量度相对于以前的数据发生了什么变化。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) |
 | 共享[!UICONTROL 工作区]项目中的项目角色 | 2020 年 6 月 18 日 | 现在，在共享[!UICONTROL 工作区]项目时，您可以根据希望收件人获得的项目体验，为收件人分配以下三个项目角色之一：“编辑”、“复制”和“查看”。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | 仅查看[!UICONTROL 工作区]项目 | 2020 年 6 月 18 日 | 可以将[!UICONTROL 工作区]项目仅以“可以查看”__的形式共享给用户。当具有“查看”角色的收件人打开共享项目时，他们将获得比较受限的项目体验，因为项目无左边栏而且可进行的交互也有限。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/view-only-projects.html) |
 | 能够共同编辑[!UICONTROL 工作区]项目 | 2020 年 6 月 18 日 | 添加到“可以编辑”__角色的收件人可以保存已共享给他们的项目。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/share-projects.html) |
 | [!UICONTROL 工作区]中的“快速分析”面板 | 2020 年 6 月 25 日 | “快速分析”可为 [!UICONTROL Analysis Workspace] 的非分析师用户和新用户了解如何快速轻松地回答业务问题提供指导。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/panels/quickinsight.html) |
 | [!UICONTROL 关于 Workspace] 页面 | 2020 年 6 月 18 日 | [!UICONTROL 关于 Workspace] 页面提供了有关您的 Analysis Workspace 环境、Adobe Analytics 管理员（如果您需要支持）的信息，以及提交产品反馈的方法。可按照以下路径找到该页面：**[!UICONTROL Workspace]** > **[!UICONTROL 帮助]** > **[!UICONTROL 关于 Workspace]**。 |
+
+<!-->Support for [!UICONTROL Anomaly Detection] - July ??, 2020 - [!UICONTROL Anomaly Detection] provides a statistical method to determine how a given metric has changed in relation to previous data. [Learn more...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)<-->
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
@@ -465,7 +466,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | 域迁移 | （6 月 22 日发布）Advertising Cloud DSP 已从 https://www.tubemogul.com 迁移到 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
 | Adobe Analytics 集成 | （6 月 18 日发布）DSP 现在可以选择从发送给 Analytics 的数据中禁用 AMO 成本量度。要禁用此量度，请与您的 Adobe 客户经理联系。 |
 | 基于人的设备图 | （6 月 22 日发布）自助式 DSP 客户现在可以利用设备图（Adobe Experience Cloud 设备协作或 LiveRamp）在任何新活动中进行基于人员的定位和频率管理。这将确保您可以跨受众自有设备访问客户，并限制其广告曝光。 |
-| CCPA 选择退出销售 | （6 月 22 日发布）现在，您可以使用新的 CCPA 选择退出销售区段向 Advertising Cloud 传达 CCPA 选择退出销售请求，您可以从[!UICONTROL 受众 > 区段]创建该区段。您还可以从 a) [!UICONTROL 受众 > 区段]或 b) 使用 Advertising Cloud 跟踪 API，来检索客户为帐户的选择退出销售请求提交的 ID 的月度报表。有关更多信息，请参阅 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html。 |
+| CCPA 选择退出销售 | （6 月 22 日发布）现在，您可以使用新的 CCPA 选择退出销售区段向 Advertising Cloud 传达 CCPA 选择退出销售请求，您可以从[!UICONTROL 受众 > 区段]创建该区段。您还可以从 a) [!UICONTROL 受众 > 区段]或 b) 使用 Advertising Cloud 跟踪 API，来检索客户为帐户的选择退出销售请求提交的 ID 的月度报表。有关更多信息，请参阅 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html |
 | DoubleVerify 正版品牌安全性 | （6 月 22 日发布）现在，广告商可以确定单个 DoubleVerify 区段 ID 预先出价，并使用全面的品牌安全过滤器来模拟 DoubleVerify 的出价后屏蔽规则。现在，您可以在位于[!UICONTROL 设置 > 广告商]的广告商设置的“媒体质量定位”部分，进行该操作。要了解有关该服务的更多信息，请联系 programmaticsales@doubleverify.com。此功能需要额外付费。 |
 | CPA/ROAS 优化 | （5 月 20 日发布）促销活动经理不再需要将新置入内容限制在包中以防止预算过度分配。现在，置入内容将根据其 CPM 或 CPA/ROAS 绩效获得动态预算分配。 |
 | [!UICONTROL Campaign] 主页 | （6 月 3 日发布）基于提供的促销活动预算和已用时间的新促销活动级步测量度现已可用。 |
