@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: ht
-source-git-commit: d081c9c185e4709eb758c1562466af2f92af593e
-workflow-type: ht
-source-wordcount: '6998'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
+workflow-type: tm+mt
+source-wordcount: '7021'
+ht-degree: 99%
 
 ---
 
@@ -250,6 +250,10 @@ Analytics 和 Customer Journey Analytics 中的新课程、教程视频和文章
 | [Analysis Workspace 入门](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.1.workspace) | 课程 | 了解如何开始使用 Analysis Workspace。构建您的第一个项目，了解如何定义日期范围、应用区段以及共享和协作项目。 |
 | [Adobe Analytics 功能板记分卡生成器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html) | 视频教程 | 在此视频中，了解如何在 [!UICONTROL Analysis Workspace] 中创建和共享[!UICONTROL 记分卡]，以便在 Adobe Analytics 功能板（移动设备应用程序）上查看。 |
 | [Adobe Analytics 功能板应用程序内体验](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html) | 视频教程 | 在此视频中，了解如何使用 Adobe Analytics 功能板（移动设备应用程序）访问和查看由您创建或与您共享的[!UICONTROL 记分卡]。 |
+
+#### AppMeasurement {#appm}
+
+有关AppMeasurement版本的最新更新，请参阅AppMeasurement [for JavaScript发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。
 
 #### Analytics 帮助资源
 
