@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: June 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: efd848cda1046613c889825fff57b868b67e1c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7021'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -253,7 +253,7 @@ Analytics 和 Customer Journey Analytics 中的新课程、教程视频和文章
 
 #### AppMeasurement {#appm}
 
-有关AppMeasurement版本的最新更新，请参阅AppMeasurement [for JavaScript发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。
+有关 AppMeasurement 版本的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。
 
 #### Analytics 帮助资源
 
@@ -345,12 +345,10 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * Cloud Manager 中增强的自助服务沙盒支持允许授权用户删除沙盒内的所有环境并接收点数。
       * 自动休眠沙盒环境在一段时间不活动后将自动“休眠”沙盒。客户可以主动触发“取消休眠”。
    * 支持云加速的过渡工具
-
    为了减少从内部部署过渡到云服务的时间和成本，本月推出了两款过渡工具。这些工具可在过渡过程中自动执行一些关键任务，从而减少总体工作量。
 
    1. [使用内容传输工具](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-content-transfer-tool.html)（在 SD 上提供）可简化内容传输活动并使其可缩放。借助用户友好 UI，该工具可为正过渡到 AEM 云服务的现有客户和合作伙伴（内部部署/AMS）提供自助服务。
    1. [AMS Dispatcher Converter](https://github.com/adobe/aem-cloud-service-dispatcher-converter)（开放源代码）工具可自动将 AMS Dispatcher 配置转换为 Cloud Service Dispatcher 配置。
-
    [AEM 云服务 2020.6.0 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html)
 
    过渡工具：
@@ -469,7 +467,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | -----------| ---------- |
 | 域迁移 | （6 月 22 日发布）Advertising Cloud DSP 已从 https://www.tubemogul.com 迁移到 [https://advertising.adobe.com](https://advertising.adobe.com)。 |
 | Adobe Analytics 集成 | （6 月 18 日发布）DSP 现在可以选择从发送给 Analytics 的数据中禁用 AMO 成本量度。要禁用此量度，请与您的 Adobe 客户经理联系。 |
-| 基于人的设备图 | （6 月 22 日发布）自助式 DSP 客户现在可以利用设备图（Adobe Experience Cloud 设备协作或 LiveRamp）在任何新活动中进行基于人员的定位和频率管理。这将确保您可以跨受众自有设备访问客户，并限制其广告曝光。 |
+| 基于人员的设备图 | （6 月 22 日发布）自助式 DSP 客户现在可以利用设备图（Adobe Experience Cloud 设备协作或 LiveRamp）在任何新活动中进行基于人员的定位和频率管理。这将确保您可以跨受众自有设备访问客户，并限制其广告曝光。 |
 | CCPA 选择退出销售 | （6 月 22 日发布）现在，您可以使用新的 CCPA 选择退出销售区段向 Advertising Cloud 传达 CCPA 选择退出销售请求，您可以从[!UICONTROL 受众 > 区段]创建该区段。您还可以从 a) [!UICONTROL 受众 > 区段]或 b) 使用 Advertising Cloud 跟踪 API，来检索客户为帐户的选择退出销售请求提交的 ID 的月度报表。有关更多信息，请参阅 https://docs.adobe.com/content/help/en/advertising-cloud/all/privacy/ad-cloud-ccpa-opt-out-of-sale.html |
 | DoubleVerify 正版品牌安全性 | （6 月 22 日发布）现在，广告商可以确定单个 DoubleVerify 区段 ID 预先出价，并使用全面的品牌安全过滤器来模拟 DoubleVerify 的出价后屏蔽规则。现在，您可以在位于[!UICONTROL 设置 > 广告商]的广告商设置的“媒体质量定位”部分，进行该操作。要了解有关该服务的更多信息，请联系 programmaticsales@doubleverify.com。此功能需要额外付费。 |
 | CPA/ROAS 优化 | （5 月 20 日发布）促销活动经理不再需要将新置入内容限制在包中以防止预算过度分配。现在，置入内容将根据其 CPM 或 CPA/ROAS 绩效获得动态预算分配。 |
