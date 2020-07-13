@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 65fea3351137d311bbda846058bea34284b0054e
+source-git-commit: 19591a3d807cd772df0eb20e457d94cc9f7d5cfb
 workflow-type: tm+mt
-source-wordcount: '4205'
+source-wordcount: '4203'
 ht-degree: 59%
 
 ---
@@ -116,7 +116,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 [!DNL Experience Platform] 和应用程序服务的发行说明，包括 [!DNL Experience Platform Launch,]、[!UICONTROL Offers]、[!UICONTROL People]、[!UICONTROL Places]、[!UICONTROL Mobile Services] 和安全公告。
 
-未更新最新发布日期： **2020年6月10日**
+Latest release date: **June 10, 2020**
 
 有关 [Experience Platform的最](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) 新信息，请参阅Experience Platform发行说明。
 
