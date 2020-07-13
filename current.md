@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 19591a3d807cd772df0eb20e457d94cc9f7d5cfb
+source-git-commit: 5022132f52411a07b6e91a8bc0d8da400464c143
 workflow-type: tm+mt
-source-wordcount: '4203'
-ht-degree: 59%
+source-wordcount: '4281'
+ht-degree: 58%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 59%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最新更新： **2020年7月10日**
+最新更新： **2020年7月13日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
-* [Analytics](#analytics) 与 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （2020年7月13日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -136,7 +136,7 @@ Latest release date: **June 10, 2020**
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics 管理员的重要注意事项](#aa-notices) (更新日期：2020 年 7 月 13 日)
 * [Adobe Analytics 的新课程和教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -184,6 +184,7 @@ AN-222672、AN-222813; AN-222892; AN-223272、AN-223432; AN-224062; AN-224108; A
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | -----------| ---------- | ---------- |
+| 寿命终止： Adobe Data Connectors | 2020年7月13日 | Adobe Data Connectors采用传统技术，不再可行或受支持。 我们在Adobe Exchange合作伙伴项目 [中有一个新标准](https://partners.adobe.com/exchangeprogram/experiencecloud) ，对于希望继续提供和支持的任何集成应采用该标准。 正式的终了日期仍有待确定，但我们预计，未来12-18个月（2021年中至2021年底）将会确定。 |
 | 报表包映射到IMS组织 | 2020 年 7 月 | 报表包映射工具将于2020年11月停止。 此功能支持集成，如Advertising Booke和Adobe Biolde中的Experience Cloud细分发布。 必须将报表包映射到IMS组织，才能启用这些服务和其他服务。 创建时会自动映射较新的报表包。 但是，必须手动将旧报表包映射到IMS组织。 请参 [阅核心服务用户指南](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html) ，将报表包映射到组织，以确保所有报表包都属于IMS组织。 |
 | 迁移到统一的产品域 | 生效日期：2020 年 5 月 28 日 | 向 Adobe Analytics 统一产品域的迁移从 2020 年 1 月开始，于 2020 年 5 月 28 日完成。虽然 Adobe Analytics 会从其架构中删除所有 `omniture.com` 域引用，但务必要将 `omniture.com` 作为第三方 Cookie 添加到白名单中。（不久）完成整个架构迁移后，我们将通过发行说明通知您，此允许列表步骤将不再需要执行。[此处](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html)提供了建议应添加到白名单中的 IP 地址和域的完整列表。<br>如果贵组织阻止第三方 Cookie，请联系客户关怀团队以重新获得 Adobe Analytics 访问权限。 |
 | 新的 Adobe Analytics 默认登陆页面 | 生效日期：2020 年 6 月 18 日 | 2020 年 6 月 18 日，Adobe Analytics 的默认登陆页面将从[!UICONTROL 报表]更改为[!UICONTROL 工作区]。之前未设置自定义登陆页面的任何用户都将发生此更改。 |
