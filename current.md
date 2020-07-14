@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 079138eeaeb4a61ab892abaff66b15d51b751bf4
+source-git-commit: 985ec5f911f0cfa433e12abb5e55724dbecadb2e
 workflow-type: tm+mt
-source-wordcount: '4321'
-ht-degree: 58%
+source-wordcount: '4373'
+ht-degree: 57%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 58%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最新更新： **2020年7月13日**
+最新更新： **2020年7月14日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （2020年7月13日更新）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （2020年7月14日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -145,7 +145,7 @@ Latest release date: **June 10, 2020**
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
 | 工作区： 新日期范围预设 | 添加了4个新的日期范&#x200B;_围(本周／月/季度／年_ （不包括今天）)，以便用户可以从不包含今天部分日期数据的日期范围中进行选择。 |
-| 数据修复API —— 公共测试版 | 数据修复API为客户提供了一个自助选项，用于删除AdobeAnalytics数据的列。 发布公共测试版后，API将支持删除Activity Map数据。 以后将推出其他功能。 要访问此API，请联系客户关怀。 |
+| 数据修复API —— 公共测试版(2020年7 **月14日更新**) | 数据修复API为您提供了一种机制，用于删除或编辑某些现有AdobeAnalytics数据。 通过向数据修复API提交作业定义来发出数据修复请求，该API包括要应用于数据的报表包、日期范围、变量和操作。 启动公共测试版后，数据修复API将支持删除Activity Map数据。 以后将推出其他功能。 联系客户关怀以加入Data Repair API公共测试版。 [了解更多...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
