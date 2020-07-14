@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 985ec5f911f0cfa433e12abb5e55724dbecadb2e
+source-git-commit: 64307f885074b216956a8711384b60a4806a13a3
 workflow-type: tm+mt
 source-wordcount: '4373'
 ht-degree: 57%
@@ -144,8 +144,8 @@ Latest release date: **June 10, 2020**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
-| 工作区： 新日期范围预设 | 添加了4个新的日期范&#x200B;_围(本周／月/季度／年_ （不包括今天）)，以便用户可以从不包含今天部分日期数据的日期范围中进行选择。 |
-| 数据修复API —— 公共测试版(2020年7 **月14日更新**) | 数据修复API为您提供了一种机制，用于删除或编辑某些现有AdobeAnalytics数据。 通过向数据修复API提交作业定义来发出数据修复请求，该API包括要应用于数据的报表包、日期范围、变量和操作。 启动公共测试版后，数据修复API将支持删除Activity Map数据。 以后将推出其他功能。 联系客户关怀以加入Data Repair API公共测试版。 [了解更多...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
+| 工作区： 新日期范围预设 | 2020 年 7 月 16 日 | 添加了4个新的日期范&#x200B;_围(本周／月/季度／年_ （不包括今天）)，以便用户可以从不包含今天部分日期数据的日期范围中进行选择。 |
+| 数据修复API公共测试版 | 2020年7月14日 | 数 [!UICONTROL 据修复API] 为您提供了一种机制，用于删除或编辑某些现有AdobeAnalytics数据。 [!UICONTROL Data Repair] requests是通过向Data Repair API [!UICONTROL 提交作业定义来发出的],Data Repair API包括要应用于数据的报表包、日期范围、变量和操作。 启动公共测试版后，数 [!UICONTROL 据修复API] 将支持删除 [!UICONTROL Activity Map] 。 以后将推出其他功能。 联系客户关怀以加入Data Repair API公共测试版。 [了解更多...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -155,7 +155,7 @@ Latest release date: **June 10, 2020**
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
-更新日期： **2020年7月16日**
+发行日期：**2020 年 7 月 16 日**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- | ---------- |
