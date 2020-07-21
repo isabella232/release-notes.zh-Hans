@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 156d25a099ea7bf1a0f8b7fff148dbfdd615f69e
+source-git-commit: 3947290a3d13ab4cef1d6d9ec639fa70a250c36a
 workflow-type: tm+mt
-source-wordcount: '4356'
-ht-degree: 100%
+source-wordcount: '4377'
+ht-degree: 99%
 
 ---
 
@@ -140,6 +140,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
+| CDA: 基于场的拼接 | 2020 年 7 月 27 日 | 跨设备Analytics的新方法，允许您使用自定义变量帮助识别访客。 |
 | 工作区：新增日期范围预设 | 2020 年 7 月 16 日 | 添加了 4 个新的日期范围&#x200B;_（本周/月/季度/年_）（不含今天），以便用户可以在选择日期范围时，将数据不全的当天排除在外。 |
 | Data Repair API 公共测试版 | 2020 年 7 月 14 日 | [!UICONTROL Data Repair API] 提供了一种删除或编辑现有特定 Adobe Analytics 数据的机制。通过向 [!UICONTROL Data Repair API] 提交作业定义，可发出[!UICONTROL 数据修复]请求，包括要应用于数据的报表包、日期范围、变量和操作。公共测试版开始后，[!UICONTROL Data Repair API] 将支持删除 [!UICONTROL Activity Map] 数据。以后还会推出其他功能。若要参加 Data Repair API 公共测试，请联系客户关怀团队。[了解更多...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
