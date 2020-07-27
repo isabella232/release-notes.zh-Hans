@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f46f208d31ffea1d637bcffb02d869eb0f29974
+source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
 workflow-type: tm+mt
-source-wordcount: '4563'
+source-wordcount: '4561'
 ht-degree: 97%
 
 ---
@@ -73,7 +73,7 @@ Experience Cloud 界面的常规更新。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 7 月 27 日 | [借助Adobe文档云释放数字体验](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | 文章 | 在本实验中，通过学习如何实现数字化并使用PDF完成更多工作，以及转变客户和员工体验，将您的工作效率和创意提升到更高水平。 |
+| 2020 年 7 月 27 日 | [借助Adobe Document Cloud释放数字体验](https://docs.adobe.com/content/help/en/document-cloud-learn/lab719/overview.html) | 文章 | 在本实验中，通过学习如何实现数字化并使用PDF完成更多工作，以及转变客户和员工体验，将您的工作效率和创意提升到更高水平。 |
 
 **更新了界面菜单**
 
@@ -380,8 +380,6 @@ Adobe Advertising Cloud 的发行说明。
 
 ### 核心 Marketo Engage 更新
 
-Marketo Sky的 [!UICONTROL 文档现已] 在此处发 [布](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
-
 请参阅 [!DNL Marketo] [发行说明](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)了解最新发行信息。
 
 ### 即将推出的功能
@@ -401,5 +399,9 @@ Marketo Sky的 [!UICONTROL 文档现已] 在此处发 [布](https://docs.adobe.c
 
 * **Asset API“_method”参数：** 2020 年 9 月之后，Asset API 端点将不再接受 `_method` 在 POST 正文中传递查询参数以绕过 URI 长度限制。
 * **弃用 Internet Explorer 支持：**&#x200B;从 2020 年 7 月 31 日发行的 7 月版本开始，Internet Explorer 将不再支持 Marketo Engage 用户界面。
+
+>[!NOTE]
+>
+>Marketo Sky界 [!UICONTROL 面的文档] ，可从此 [处获取](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
 
 有关累积和历史发行说明，请参阅 [Marketo 发行说明](https://docs.marketo.com/x/CgA6Ag)。
