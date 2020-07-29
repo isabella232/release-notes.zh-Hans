@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6f1be637b529833baf987c4727ec2d7e4980b779
+source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 99%
+source-wordcount: '4618'
+ht-degree: 98%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 99%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最新更新日期：**2020 年 7 月 21 日**
+最新更新日期：**2020 年 7 月 29 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)（更新日期：2020 年 7 月 27 日）
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：2020 年 7 月 21 日）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：2020 年 7 月 29 日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) （2020年7月27日更新）
 * [Campaign](#ac)
@@ -137,7 +137,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 发行日期：**2020 年 7 月 16 日**
 
 * [Adobe Analytics 的新增功能](#aa-features)（更新日期：2020 年 7 月 21 日）
-* [Customer Journey Analytics 的新增功能](#cust-journey)
+* [Customer Journey Analytics的新增功能](#cust-journey) （2020年7月29日更新）
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
@@ -148,7 +148,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
-| CDA：基于场的拼接 | 2020 年 7 月 27 日 | 跨设备 Analytics 的新方法，允许您使用自定义变量帮助识别访客。&lt;!-->[了解更多...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html)&lt;--> |
+| CDA：基于场的拼接 | 2020 年 7 月 27 日 | 跨设备 Analytics 的新方法，允许您使用自定义变量帮助识别访客。[了解更多...](https://docs.adobe.com/content/help/en/analytics/components/cda/field-based-stitching.html) |
 | 工作区：新增日期范围预设 | 2020 年 7 月 16 日 | 添加了 4 个新的日期范围&#x200B;_（本周/月/季度/年_）（不含今天），以便用户可以在选择日期范围时，将数据不全的当天排除在外。 |
 | Data Repair API 公共测试版 | 2020 年 7 月 14 日 | [!UICONTROL Data Repair API] 提供了一种删除或编辑现有特定 Adobe Analytics 数据的机制。通过向 [!UICONTROL Data Repair API] 提交作业定义，可发出[!UICONTROL 数据修复]请求，包括要应用于数据的报表包、日期范围、变量和操作。公共测试版开始后，[!UICONTROL Data Repair API] 将支持删除 [!UICONTROL Activity Map] 数据。以后还会推出其他功能。若要参加 Data Repair API 公共测试，请联系客户关怀团队。[了解更多...](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) |
 
@@ -156,9 +156,9 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-----|
-| 本月未推出任何新增功能 |  |  |
+| 人物ID的“身份映射”选项 | 2020 年 6 月 26 日 | 标识映射是一种映射数据结构，允许您在Customer Journey Analytics中创建连接时上传密钥->值对。 键是标识命名空间，值是包含标识值的结构。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
-### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
+### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
 
 发行日期：**2020 年 7 月 16 日**
 
