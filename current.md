@@ -35,7 +35,7 @@ ht-degree: 98%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：2020 年 7 月 29 日）
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) （2020年7月27日更新）
+* [Experience Manager](#aem)（更新日期：2020 年 7 月 27 日）
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
@@ -401,6 +401,6 @@ Adobe Advertising Cloud 的发行说明。
 
 >[!NOTE]
 >
->此处提供 [!UICONTROL Marketo Sky] 界面的 [文档](https://docs.adobe.com/content/help/en/marketo/sky/home.html)。
+>[!UICONTROL Marketo Sky] 界面的相关文档可在[此处](https://docs.adobe.com/content/help/en/marketo/sky/home.html)获取。
 
 有关累积和历史发行说明，请参阅 [Marketo 发行说明](https://docs.marketo.com/x/CgA6Ag)。
