@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: July 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b5109b2b7d98da696cbd397ab9358daf843c8e4b
+source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
-source-wordcount: '4618'
+source-wordcount: '4597'
 ht-degree: 98%
 
 ---
@@ -275,7 +275,6 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 7 月 27 日 | [模式检测](https://docs.adobe.com/content/help/en/experience-manager-pattern-detection/table-of-contents/aso.html) | 参考 | 只能在 Experience Manager 升级期间从 `upgrade.log` 中获取。 |
 | 2020 年 7 月 27 日 | [Software Distribution](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/software-distribution/home.html) | 文章 | 自 2020 年 6 月起，Experience Cloud 解决方案 Software Distribution 将取代 [!UICONTROL PackageShare] for AEM 和 [!DNL Neolane] for [!DNL Campaign] 下载平台，并提供更高效的软件查找和下载体验。直观的用户界面、简化的搜索和大幅提升的下载速度都极大地提升了下载 Experience Cloud 产品软件包的用户体验。 |
 | 2020 年 6 月 25 日 | [自适应表单入门](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 这些教程介绍了创建多选项卡式自适应表单所涉及的操作步骤。了解如何使用表、折叠布局和规则编辑器来创作业务规则。 |
 | 2020 年 6 月 25 日 | [在 AEM Forms 中创建审阅工作流程](https://video.tv.adobe.com/v/35821/quality=9?captions=chi_hans) | 视频 | 了解如何创建一个工作流程，用于对处于活动状态的表单提交，审核其中提交的数据。 |
