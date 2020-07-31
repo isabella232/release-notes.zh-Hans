@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 5bbdf099a039991d51b2f0735a3766d2f7525f3d
 workflow-type: tm+mt
 source-wordcount: '4597'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 发行日期：**2020 年 7 月 16 日**
 
 * [Adobe Analytics 的新增功能](#aa-features)（更新日期：2020 年 7 月 21 日）
-* [Customer Journey Analytics的新增功能](#cust-journey) （2020年7月29日更新）
+* [Customer Journey Analytics 的新增功能](#cust-journey)（更新日期：2020 年 7 月 29 日）
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
@@ -156,7 +156,7 @@ Adobe 一直在更新域和界面标题，以统一并改进您在所有 Experie
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-----|
-| 人物ID的“身份映射”选项 | 2020 年 6 月 26 日 | 标识映射是一种映射数据结构，允许您在Customer Journey Analytics中创建连接时上传密钥->值对。 键是标识命名空间，值是包含标识值的结构。 [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| 人员 ID 的“身份映射”选项 | 2020 年 6 月 26 日 | “身份映射”是一种映射数据结构，允许您在 Customer Journey Analytics 中创建连接时上传键值对。键是身份命名空间，值是包含身份值的结构。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
 
