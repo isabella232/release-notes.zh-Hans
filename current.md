@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4692634440160952dc46ee85c9dbdb77b9778fbf
+source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
 workflow-type: tm+mt
-source-wordcount: '6174'
+source-wordcount: '6287'
 ht-degree: 42%
 
 ---
@@ -228,6 +228,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
    * AEM Commerce现在在Cloud Service上可用。 请参 [阅AEM Commerce as aCloud Service入门。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
    * Adobe Target和Adobe Analytics增强的连接器包括用户界面改进、经典UI替换和Adobe启动集成。 请参 [阅整合Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 和 [整合Adobe Target。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
    * 资产计算服务是一种可扩展的可扩展服务，用于处理资产。 管理员可以配置Experience Manager以调用使用资产计算服务创建的自定义工作器。 开发人员可以使用该服务来创建专门的自定义工作器，它们适合复杂的用例。 此Web服务可以为不同文件类型生成缩略图，从Adobe文件格式生成高质量图像渲染，对视频（将来）进行编码，提取元数据，提取全文作为索引的前奏，并通过所有可用的Sensei服务运行资产。 请参 [阅使用资产微型服务和处理用户档案。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * [资产计算服务](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) (Asset Compute Service)可用于扩展以创建自定义应用程序。 它是处理数字资产的可扩展 [!DNL Adobe Experience Cloud] 和可扩展服务。 它可以将图像、视频、文档和其他文件格式转换为不同的再现，包括缩略图、提取的文本和元数据、存档等。 开发人员可以创建自定义应用程序（也称为自定义工作器）来解决自定义用例。 它使用Project Firefly [构建](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) ，在无服务器的 [Adobe I/O Runtime工作](https://www.adobe.io/apis/experienceplatform/runtime.html)。
    * 作为Cloud Service,AEM中对工作流模型和Dynamic Media进行了多项改进。
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
       * 新PDF查看器 [组件简介。](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
@@ -242,6 +243,10 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
    * 请参阅AEM [作为Cloud Service的完整发行说明。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
 ### 自助服务
+
+* **AEM Assets**
+
+   * 添加了更多 [Experience Manager桌面](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 应用程序疑难解答提示。
 
 * **AEM 表单**
 
