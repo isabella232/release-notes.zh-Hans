@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c3d6d35f2a56d003514549150db7b060440389f9
+source-git-commit: 1a9860da58454f3e23650b8cf98e20f2819ac3be
 workflow-type: tm+mt
-source-wordcount: '6287'
-ht-degree: 42%
+source-wordcount: '6333'
+ht-degree: 43%
 
 ---
 
@@ -99,6 +99,7 @@ Latest release date: **July 15, 2020**
 | 中国数据收集的增强功能 | 2020年8月13日 | 增强功能包括：支持Experience CloudID服务；支持第一方SSL;支持服务器端转发。 有关文档，请与Adobe销售代表联系。 |
 | [!UICONTROL 跨设备分析]:在EMEA和APAC的上市 | 2020年8月31日 | [跨设备分析](https://docs.adobe.com/content/help/en/analytics/components/cda/overview.html) 和专用图表将面向欧洲、中东和非洲地区和亚太地区的客户。 |
 | 跨设备分析(在美洲和 [!UICONTROL EMEA提供] )中增强基于现场的拼接 | 2020年8月17日 | 这为新的跨设 [!UICONTROL 备分析客户简化了实施] ，您可以根据存储在Analytics字段(prop或eVar)中的用户ID进行拼接，而不是使用设备图（合作或专用）。 该增强功能消除了实施ECID的要求，并消除了为CDA目的实施ID同步的要求。 （某些其他功能仍需要ECID和ID同步。） |
+| 工作区：下载单维50K项目 | 2020年9月17日 | [提前发布] ，您将能够在自由形式表中下载单个维度的50,000个项目，并应用细分和过滤器。 这允许您访问Analysis Workspace以外的400多行数据。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -226,19 +227,20 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
    AEM作为Cloud Service有何新特点？ 主要亮点包括：
 
    * AEM Commerce现在在Cloud Service上可用。 请参 [阅AEM Commerce as aCloud Service入门。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/commerce/getting-started.html)
-   * Adobe Target和Adobe Analytics增强的连接器包括用户界面改进、经典UI替换和Adobe启动集成。 请参 [阅整合Adobe Analytics](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 和 [整合Adobe Target。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
-   * 资产计算服务是一种可扩展的可扩展服务，用于处理资产。 管理员可以配置Experience Manager以调用使用资产计算服务创建的自定义工作器。 开发人员可以使用该服务来创建专门的自定义工作器，它们适合复杂的用例。 此Web服务可以为不同文件类型生成缩略图，从Adobe文件格式生成高质量图像渲染，对视频（将来）进行编码，提取元数据，提取全文作为索引的前奏，并通过所有可用的Sensei服务运行资产。 请参 [阅使用资产微型服务和处理用户档案。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
+   * Adobe Target和Adobe Analytics增强的连接器包括用户界面改进、经典UI替换和Adobe启动集成。 See [Integrating Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) and [Integrating Adobe Target.](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)
+   * 资产计算服务是一种可扩展的可扩展服务，用于处理资产。 管理员可以配置Experience Manager以调用使用资产计算服务创建的自定义工作器。 开发人员可利用该服务来创建专门的自定义工作程序，以满足复杂用例的需求。这项 Web 服务可以为不同文件类型生成缩略图、高质量渲染 Adobe 文件格式的图像、对视频进行编码（会在未来推出）、提取元数据、提取作为索引先导的全文，以及通过所有可用的 Sensei 服务来运行资产。See [Use asset microservices and processing profiles.](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)
    * [资产计算服务](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) (Asset Compute Service)可用于扩展以创建自定义应用程序。 它是处理数字资产的可扩展 [!DNL Adobe Experience Cloud] 和可扩展服务。 它可以将图像、视频、文档和其他文件格式转换为不同的再现，包括缩略图、提取的文本和元数据、存档等。 开发人员可以创建自定义应用程序（也称为自定义工作器）来解决自定义用例。 它使用Project Firefly [构建](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) ，在无服务器的 [Adobe I/O Runtime工作](https://www.adobe.io/apis/experienceplatform/runtime.html)。
    * 作为Cloud Service,AEM中对工作流模型和Dynamic Media进行了多项改进。
    * Release 2.11.0 of the [AEM Core Components](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html) is now available as part of AEM Sites including the following:
-      * 新PDF查看器 [组件简介。](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
-      * 核心组件的加速移动页面(AMP)支持。 通过在从Google移动搜索结果进入网站时即时创建页面过渡，有助于提高用户参与度和SEO，从而提高客户体验。 请参 [阅核心组件的AMP支持。](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html)
-      * 与Adobe客户端数据层1.0.2 [版的兼容性](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/data-layer/overview.html)。
+      * Introduction of a new [PDF Viewer Component.](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)
+      * 核心组件的加速移动页面(AMP)支持。 通过输入来自 Google 移动设备搜索结果的站点，可实现页面即时转换，这有助于提高用户参与度和 SEO，从而实现更快速的客户体验。
+请参 [阅核心组件的AMP支持。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/developing/data-layer/overview.html)
+      * 与 [Adobe 客户端数据层](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/developing/data-layer/overview.html)版本 1.0.2 的兼容性。
    * Cloud Manager中的多种UI改进。
    * Cloud Manager 管道现在支持由客户设置的变量和密钥。
 请参 [阅管道变量。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)
    * [日志可以转发给Splunk帐户](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，让组织利用其 [!DNL Splunk] 投资。
-   * 您可以为 [使用Java代码编程的出站流量分配静态](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address) 、专用的出站IP地址，这对于某些集成可能很有用。
+   * You can assign [a static, dedicated egress IP address](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address) for outbound traffic programmed in Java code, which may be useful for some integrations.
    * Cloud Readiness Analyzer v1.0.2已发布。 请参 [阅在AEM 6.1上安装CRA。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)
    * 请参阅AEM [作为Cloud Service的完整发行说明。](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)
 
