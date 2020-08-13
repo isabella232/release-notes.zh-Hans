@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bc30808217e8734e639246602be45efd02d2dc60
+source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
 workflow-type: tm+mt
-source-wordcount: '6402'
+source-wordcount: '6371'
 ht-degree: 96%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 96%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最新更新日期：**2020 年 8 月 11 日**
+最新更新日期：**2020 年 8 月 13 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
-* [分析](#analytics) （2020年8月11日更新）和 [Customer Journey Analytics](#cust-journey)
+* [分析](#analytics) （2020年8月13日更新）和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -94,13 +94,12 @@ ht-degree: 96%
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-（更新日期：2020年8月11日）
+（更新日期：2020年8月13日）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | -----------| ---------- |-------|
-| “中国数据收集”的增强功能 | 2020 年 8 月 13 日 | 增强功能包括：支持 Experience Cloud ID 服务；支持第一方 SSL；支持服务器端转发。相关文档，请与 Adobe 销售代表联系。 |
 | [!UICONTROL 跨设备分析]：在 EMEA 和 APAC 提供 | 2020 年 8 月 31 日 | [跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/overview.html)和专用图将面向 EMEA 和 APAC 的客户提供。 |
-| [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 17 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
+| [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
 | （提前发布）工作区：下载单维50K项目 | 2020年9月17日 | 您将能够在自由形式表中下载单个维度的50,000个项目，并应用区段和过滤器。 这允许您访问Analysis Workspace以外的400多行数据。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
