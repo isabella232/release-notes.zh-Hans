@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8eec282ba5b97526aecf904b58819b446be35db0
+source-git-commit: 287bdc8c8460e9700474bb0bf1e79631182945bb
 workflow-type: tm+mt
-source-wordcount: '6337'
-ht-degree: 97%
+source-wordcount: '6402'
+ht-degree: 96%
 
 ---
 
@@ -190,6 +190,7 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 ### Adobe Audience Manager 中的新增功能和修复
 
+* 您现在可以通 [过以人为本的目](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 标来目标用户 [!DNL Google Customer Match]。 在使用“基 [!UICONTROL 于人员的目标] ”将第一方受众段发送到目标之前，必 [!DNL Google Customer Match] 须先将您添加到 [!DNL Google] 其允许列表中。 有关详细 [信息，请查看基于人](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 员的目标文档。 (PLAT-53962)
 * [预测受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)现在支持在模型创建过程中为每个模型选择[!UICONTROL 用户档案合并规则]。(AAM-55178)
 * 现在，目标映射开始和结束日期会显示在每个区段的页面中。(AAM-40056)
 * 修复了在创建新特征时，特征的[!UICONTROL 设备类型]自动设置为[!UICONTROL 跨设备]的问题。(AAM-55368)
