@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dc785dde4088570baa004f5296d134d16a503562
+source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
 workflow-type: tm+mt
 source-wordcount: '6378'
 ht-degree: 95%
@@ -93,7 +93,7 @@ ht-degree: 95%
 （更新日期：2020年8月13日）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
-| -----------| ---------- |-------|
+| ----------- | ---------- | ------- |
 | [!UICONTROL 跨设备分析]：在 EMEA 和 APAC 提供 | 2020 年 8 月 31 日 | [跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/overview.html)和专用图将面向 EMEA 和 APAC 的客户提供。 |
 | [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
 | （提前发布）工作区：下载单维50K项目 | 2020年9月17日 | 您将能够在自由形式表中下载单个维度的50,000个项目，并应用区段和过滤器。 这允许您访问Analysis Workspace以外的400多行数据。 |
@@ -101,7 +101,7 @@ ht-degree: 95%
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
-| -----------| ---------- |-----|
+| ----------- | ---------- | ----- |
 | [!UICONTROL 人员 ID 的“身份映射”选项] | 2020 年 6 月 26 日 | [!UICONTROL 身份映射]是一种映射数据结构，允许您在 [!UICONTROL Customer Journey Analytics] 中创建连接时上传键值对。键是身份命名空间，值是包含身份值的结构。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
 
 ### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
@@ -109,7 +109,7 @@ ht-degree: 95%
 发行日期：**2020 年 7 月 16 日**
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
-| -----------| ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | [支持的设备和平台](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 具有 AEP SDK 的 [!UICONTROL Media Launch Extension] 现在支持以下 OTT 设备：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
 | [播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客户可以运用一组适用于全屏、隐藏式字幕、静音、画中画和聚焦的标准解决方案变量，捕获视频播放期间观看者的交互信息。您还可以灵活地创建自定义播放器状态。[!UICONTROL 播放器状态跟踪]变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更高版本</li><li>与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：</li><li>[!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本</li><li>[!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本</li><li>[!UICONTROL 媒体收集]</li></ul> |
 
@@ -135,7 +135,7 @@ AN-219351、AN-220960、AN-223788、AN-224630、AN-224948、AN-225618、AN-22626
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意事项 | 添加或更新日期 | 描述 |
-| -----------| ---------- | ---------- |
+| ----------- | ---------- | ---------- |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。我们在 [Adobe Exchange 合作伙伴项目](https://partners.adobe.com/exchangeprogram/experiencecloud)中采用了一个新标准，任何希望继续提供和支持的集成应采用此标准。正式的生命周期终止日期仍有待确定，但我们预计将会在未来 12-18 个月（2021 年中至 2021 年底）后终止。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/data-connectors-eol.html) |
 | 将报表包映射到 IMS 组织 | 2020 年 7 月 | 报表包映射工具将于 2020 年 11 月停止使用。此功能支持集成，例如 Adobe Analytics 中的 Advertising Analytics 和 Experience Cloud 区段发布。必须将报表包映射到 IMS 组织，才能启用这些服务和其他服务。之后创建新的报表包时会自动映射。但是，之前的旧报表包必须手动映射到 IMS 组织。请参阅 Experience Cloud 界面（核心服务）用户指南中的[将报表包映射到组织](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/about-core-services/report-suite-mapping.html)，以确保所有报表包都属于 IMS 组织。 |
 | 迁移到统一的产品域 | 生效日期：2020 年 5 月 28 日 | 向 Adobe Analytics 统一产品域的迁移从 2020 年 1 月开始，于 2020 年 5 月 28 日完成。虽然 Adobe Analytics 会从其架构中删除所有 `omniture.com` 域引用，但务必要将 `omniture.com` 作为第三方 Cookie 添加到白名单中。（不久）完成整个架构迁移后，我们将通过发行说明通知您，此允许列表步骤将不再需要执行。[此处](https://helpx.adobe.com/cn/analytics/kb/adobe-ip-addresses.html)提供了建议应添加到白名单中的 IP 地址和域的完整列表。<br>如果贵组织阻止第三方 Cookie，请联系客户关怀团队以重新获得 Adobe Analytics 访问权限。 |
@@ -157,7 +157,7 @@ AN-219351、AN-220960、AN-223788、AN-224630、AN-224948、AN-225618、AN-22626
 Analytics 和 Customer Journey Analytics 中的新课程、教程视频和文章。
 
 | 发布日期 | 名称 | 类型 | 描述 |
-| ----------- | ----------- | ---------- | ---------- |  
+| ----------- | ----------- | ---------- | ---------- |
 | 2020 年 7 月 30 日 | [在 Admin Console 中限制报表包访问](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/limit-report-suite-access-in-the-admin-console.html) | 教程 | 了解如何使用 [!UICONTROL Admin Console]，以确保用户只能访问其角色所必需的报表包。 |
 | 2020 年 7 月 24 日 | [向 Adobe Analytics 添加管理员](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics.html) | 教程 | 了解如何在 Adobe [!UICONTROL Admin Console] 中将用户添加为管理员。 |
 | 2020 年 7 月 17 日 | [Analysis Workspace 中的快速分析面板](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace.html) | 教程 | Quick Insights 可为 Analysis Workspace 的非分析师和新用户了解如何快速轻松地回答业务问题提供指导。 |
@@ -270,7 +270,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 过去一个月发布的新视频、教程或课程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
+| ----------- | ---------- | ---------- | ---------- |
 | 2020 年 8 月 7 日 | [企业用户多站点管理快速入门](https://experienceleague.adobe.com/?recommended=ExperienceManager-U-1-2020.1.sites.msm) | 课程 | 了解如何通过配置核心问题（从设置基线内容架构和分类到自定义元数据和资产处理），为您的 AEM Assets 实施奠定坚实的基础。 |
 | 2020 年 8 月 7 日 | [为管理员配置 AEM Assets](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.assets) | 教程 | 描述 |
 | 2020 年 7 月 19 日 | [使用内容传输工具](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/migration/content-transfer-tool.html) | 教程 | [!UICONTROL 内容传输]工具是将内容从 Experience Manager 的内部部署或 AMS 托管版本迁移到 [!UICONTROL AEM 云服务]环境的推荐方法。 |
@@ -294,7 +294,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 | 2020 年 7 月 21 日 | [AEM 收件箱](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/inbox-customization/introduction.html) | 教程 | [!UICONTROL AEM 收件箱]可整合来自各种 AEM 组件（包括 Forms 工作流程）的通知和任务。 |
 | 2020 年 7 月 21 日 | [使用日志调试 AEM SDK 的本地快速启动](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教程 | 日志是调试 AEM 应用程序的首选工具，但是应当取决于已部署的 AEM 应用程序中是否有足够的日志记录。 |
 | 2020 年 7 月 21 日 | [SPA 编辑器简介](https://video.tv.adobe.com/v/37705?quality=12&learn=on&captions=chi_hans) | 教程 | 面向开发人员的 AEM SPA 编辑器快速入门课程简介。 |
-| 2020 | [基线权限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教程 | 管理对基线资产文件夹的用户访问权限是治理中的一个关键环节，可以确保能够正确支持这些流程。 |
+| 2020 年 7 月 21 日 | [基线权限](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/baseline-permissions.html) | 教程 | 管理对基线资产文件夹的用户访问权限是治理中的一个关键环节，可以确保能够正确支持这些流程。 |
 | 2020 年 7 月 21 日 | [自动启动工作流程](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/configuring/auto-start-workflows.html) | 教程 | 自动启动工作流程通过在上传或重新处理时自动调用自定义工作流程，来扩展 AEM 云服务中的资产处理。 |
 | 2020 年 7 月 21 日 | [使用日志调试 AEM SDK 的本地快速启动](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/debugging/debugging-aem-sdk-local-quickstart/logs.html) | 教程 | 日志是调试 AEM 应用程序的首选工具，但是应当取决于已部署的 AEM 应用程序中是否有足够的日志记录。 |
 | 2020 年 7 月 21 日 | [创建自适应表单模板](https://video.tv.adobe.com/v/37324?captions=chi_hans) | 教程 | 当作者使用模板创建自适应表单时，新表单会继承您在模板中指定的结构和组件。 |
@@ -346,7 +346,7 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 过去一个月发布的新视频、教程或课程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
-| ----------- | ----------- | ---------- | ---------- |  
+| ----------- | ----------- | ---------- | ---------- |
 | 2020 年 7 月 10 日 | [控制面板 - GPG 密钥管理 - 解密数据](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/decrypting-data.html) | Campaign Classic | 了解如何创建公钥并将其导入和安装在 Campaign 实例上以进行入站数据解密。 |
 | 2020 年 7 月 10 日 | [控制面板 - GPG 密钥管理 - 使用 GPG 密钥加密数据](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/using-a-gpg-key-to-encrypt-data.html) | Campaign Classic | 了解如何使用安装在控制面板上的 GPG 密钥导出数据。 |
 | 2020 年 7 月 10 日 | [控制面板 - 生成和安装用于数据加密的 GPG 密钥](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/generating-and-installing-gpg-keys-for-data-encryption.html) | Campaign Classic | 了解如何生成公共/私人 GPG 密钥对，并将公共密钥安装到控制面板中，以便能够在从实例发送数据之前对其进行加密。 |
@@ -376,9 +376,9 @@ Adobe Advertising Cloud 的发行说明。
 **8 月 8 日**&#x200B;发布
 
 | 功能 | 描述 |
-| -----------| ---------- |
+| ----------- | ---------- |
 | [!UICONTROL 组合] | 组合级别位置限制在组合设置中不再可用。已删除之前创建的任何位置限制。 |
-| [!UICONTROL 约束] | 不再支持基于位置的约束和约束条件：<br/><ul><li>不再提供最小位置和最大位置约束，并且已从之前创建的所有竞价和位置约束以及印象共享约束中删除。</li><li>包含位置约束但未暂停任何竞价约束的现有竞价和位置约束，仍可在 UI 和报表中使用。</li><li>竞价和位置约束已重命名为竞价约束。</li><li>已删除任何类型约束中所有基于位置的条件（使用“平均位置”、“加权平均位置”或“最后已知位置”量度）。</li></ul><br/>**注意：**&#x200B;只要可以从搜索引擎获得位置数据，就能继续填充位置数据。Microsoft Ads 将于 2020 年 9 月停用。 |  |
+| [!UICONTROL 约束] | 不再支持基于位置的约束和约束条件：<br/> <ul><li>不再提供最小位置和最大位置约束，并且已从之前创建的所有竞价和位置约束以及印象共享约束中删除。</li><li>包含位置约束但未暂停任何竞价约束的现有竞价和位置约束，仍可在 UI 和报表中使用。</li><li>竞价和位置约束已重命名为竞价约束。</li><li>已删除任何类型约束中所有基于位置的条件（使用“平均位置”、“加权平均位置”或“最后已知位置”量度）。</li></ul> <br/> **注意：**&#x200B;只要可以从搜索引擎获得位置数据，就能继续填充位置数据。Microsoft Ads 将于 2020 年 9 月停用。 |
 | [!UICONTROL 促销活动] | （Google Ads 促销活动）Advertising Coud Search 当前在响应式搜索广告 (RSA) 中支持广告定制器。以前，除 RSA 之外，所有广告类型都支持广告定制器。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
@@ -401,7 +401,7 @@ Adobe Advertising Cloud 的发行说明。
 本季度将发布以下功能：
 
 | 功能 | 描述 |
-|------|---------|
+| ------ | --------- |
 | [!DNL Bizible] | <ul><li>新的基于帐户的分段</li><li>保存特定于功能板的过滤器</li><li>将 Bizible 功能板导出为 PDF</li></ul> |
 | Sales Connect | 撰写窗口和命令中心更新/增强功能 |
 
