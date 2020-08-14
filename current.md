@@ -5,23 +5,19 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5fa62cfefa6118c72d3c997c198f9f5ad7123b6d
+source-git-commit: dc785dde4088570baa004f5296d134d16a503562
 workflow-type: tm+mt
-source-wordcount: '6371'
-ht-degree: 96%
+source-wordcount: '6378'
+ht-degree: 95%
 
 ---
 
 
-# 抢先体验 - Adobe Experience Cloud 发行说明 - 2020 年 8 月
+# Adobe Experience Cloud发行说明- 2020年8月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
 此页面介绍了 [!DNL Adobe Experience Cloud] 中的新增功能、修复和重要声明。此外，还重点提供了可帮助您充分利用 Experience Cloud 的新文档、培训课程和视频教程。
-
->[!IMPORTANT]
->
->此页面包含预发行内容，在发行版之前可能会发生更改。
 
 >[!NOTE]
 >
@@ -242,7 +238,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 请参阅[管道变量](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)。
    * [可以将日志转发给 Splunk 帐户](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，从而让组织能够利用其 [!DNL Splunk] 投资。
    * 您可以为使用 Java 代码编程的出站流量分配[一个静态的专用出口 IP 地址](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)，这对于某些集成可能很有用。
-   * Cloud Readiness Analyzer 版本 1.0.2 已发布。请参阅[在 AEM 6.1 上安装 CRA](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html#installing-on-aem61)。
+   * [!UICONTROL 已发布Cloud] Readiness Analyzer 1.0.2版。 See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. 要开始使用云准 [!UICONTROL 备性分析器]，请参 [阅使用云准备性分析器](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)。
    * 请参阅 [AEM 云服务的完整发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)。
 
 ### 自助服务
