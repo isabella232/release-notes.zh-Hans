@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b570d8c8abaaea1d18fb4d09486adef522486572
+source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
-source-wordcount: '6378'
+source-wordcount: '6445'
 ht-degree: 95%
 
 ---
@@ -370,6 +370,15 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
 Adobe Advertising Cloud 的发行说明。
+
+* [Advertising Cloud DSP 中的新增功能](#adcloud-dsp)
+* [Advertising Cloud Search 中的新增功能](#adcloud-search)
+
+### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+
+| 功能 | 描述 |
+| -----------| ---------- |
+| 扩展了交互式预卷以包括VAST库存 | 现在，每个交互式预放和广告都可支持VPAID和VAST库存。 **注意：** 如果您的主要KPI是可查看性，则继续创建单独的VAD和VAST投放和广告，因为可见印象不适用于VAST广告。 |
 
 ### [!UICONTROL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
