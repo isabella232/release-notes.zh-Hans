@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
 workflow-type: tm+mt
 source-wordcount: '6445'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
-* [分析](#analytics) （2020年8月13日更新）和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics)（2020 年 8 月 13 日更新）和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -90,13 +90,13 @@ ht-degree: 95%
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-（更新日期：2020年8月13日）
+（更新日期：2020 年 8 月 13 日）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨设备分析]：在 EMEA 和 APAC 提供 | 2020 年 8 月 31 日 | [跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/overview.html)和专用图将面向 EMEA 和 APAC 的客户提供。 |
 | [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
-| （提前发布）工作区：下载单维50K项目 | 2020年9月17日 | 您将能够在自由形式表中下载单个维度的50,000个项目，并应用区段和过滤器。 这允许您访问Analysis Workspace以外的400多行数据。 |
+| （提前发布）工作区：下载单维50K项目 | 2020 年 9 月 17 日 | 您将能够在自由形式表中下载单个维度的50,000个项目，并应用区段和过滤器。 这允许您访问 Analysis Workspace 以外 400 多行数据。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -227,7 +227,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
    * AEM Commerce 如今可在云服务上使用。请参阅 [AEM Commerce 云服务快速入门](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/commerce/getting-started.html)。
    * Adobe Target 和 Adobe Analytics 连接器增强功能包括用户界面改进、经典 UI 替换和 Adobe Launch 集成。请参阅[集成 Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 和[集成 Adobe Target](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)。
    * 资产计算服务是一种用于处理资产的可扩展服务。管理员可以配置 Experience Manager 以调用使用资产计算服务创建的自定义工作器。开发人员可以使用此服务来创建专门的自定义工作器，以满足复杂用例的需求。这项 Web 服务可以为不同文件类型生成缩略图、从 Adobe 文件格式生成高质量图像渲染、对视频进行编码（未来推出）、提取元数据、提取全文作为索引的前导，并通过所有可用的 Sensei 服务运行资产。请参阅[使用资产微服务和处理用户档案](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)。
-   * [资产计算服务](https://docs.adobe.com/content/help/en/asset-compute/using/home.html) (Asset Compute Service)可用于扩展以创建自定义应用程序。 它是处理数字资产的可扩展 [!DNL Adobe Experience Cloud] 和可扩展服务。 它可以将图像、视频、文档和其他文件格式转换为不同的再现，包括缩略图、提取的文本和元数据、存档等。 开发人员可以创建自定义应用程序（也称为自定义工作器）来解决自定义用例。 它使用Project Firefly [构建](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) ，在无服务器的 [Adobe I/O Runtime工作](https://www.adobe.io/apis/experienceplatform/runtime.html)。
+   * 可以扩展[资产计算服务](https://docs.adobe.com/content/help/en/asset-compute/using/home.html)来创建自定义应用程序。它是一项处理数字资产的 [!DNL Adobe Experience Cloud] 的可扩展服务。它可以将图像、视频、文档和其他文件格式转换为不同的呈现形式，包括缩略图、提取的文本和元数据、存档等。开发人员可以使用此服务来创建自定义应用程序（也称为“自定义工作器”），以满足自定义用例的需求。它通过 [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html)来构建，可以在没有服务器的 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 环境中运行。
    * AEM 云服务中对工作流程模型和动态媒体进行了多项改进。
    * [AEM 核心组件](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html)版本 2.11.0 现已作为 AEM Sites 的一部分提供，其中包括：
       * 引入新的 [PDF 查看器组件](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)。
@@ -245,7 +245,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * **AEM Assets**
 
-   * 添加了更多 [Experience Manager桌面](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/troubleshoot.html) 应用程序疑难解答提示。
+   * 增加了更多适用于 Experience Manager 桌面应用程序的[疑难解答提示](https://docs.adobe.com/content/help/zh-Hans/experience-manager-desktop-app/using/troubleshoot.html)。
 
 * **AEM 表单**
 
