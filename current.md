@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6445'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud发行说明- 2020年8月
+# Adobe Experience Cloud 发行说明 - 2020 年 8 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -96,7 +96,7 @@ ht-degree: 97%
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨设备分析]：在 EMEA 和 APAC 提供 | 2020 年 8 月 31 日 | [跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/overview.html)和专用图将面向 EMEA 和 APAC 的客户提供。 |
 | [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
-| （提前发布）工作区：下载单维50K项目 | 2020 年 9 月 17 日 | 您将能够在自由形式表中下载单个维度的50,000个项目，并应用区段和过滤器。 这允许您访问 Analysis Workspace 以外 400 多行数据。 |
+| （提前发布）工作区：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -185,7 +185,7 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 ### Adobe Audience Manager 中的新增功能和修复
 
-* 您现在可以通 [过以人为本的目](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 标来目标用户 [!DNL Google Customer Match]。 在使用“基 [!UICONTROL 于人员的目标] ”将第一方受众段发送到目标之前，必 [!DNL Google Customer Match] 须先将您添加到 [!DNL Google] 其允许列表中。 有关详细 [信息，请查看基于人](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html) 员的目标文档。 (PLAT-53962)
+* 您现在可以使用[基于人员的目标](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html)来通过 [!DNL Google Customer Match] 定位用户。要使用[!UICONTROL 基于人员的目标]将第一方受众区段发送到 [!DNL Google Customer Match] 目标，[!DNL Google] 必须先将您添加到其允许列表中。有关详细信息，请查看[基于人员的目标](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/destinations/people-based/people-based-destinations-prerequisites.html)文档。(PLAT-53962)
 * [预测受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html)现在支持在模型创建过程中为每个模型选择[!UICONTROL 用户档案合并规则]。(AAM-55178)
 * 现在，目标映射开始和结束日期会显示在每个区段的页面中。(AAM-40056)
 * 修复了在创建新特征时，特征的[!UICONTROL 设备类型]自动设置为[!UICONTROL 跨设备]的问题。(AAM-55368)
@@ -238,7 +238,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 请参阅[管道变量](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/onboarding/getting-access/creating-aem-application-project.html#pipeline-variables)。
    * [可以将日志转发给 Splunk 帐户](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/developing/logging.html#splunk-logs)，从而让组织能够利用其 [!DNL Splunk] 投资。
    * 您可以为使用 Java 代码编程的出站流量分配[一个静态的专用出口 IP 地址](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/developing/development-guidelines.html#dedicated-egress-ip-address)，这对于某些集成可能很有用。
-   * [!UICONTROL 已发布Cloud] Readiness Analyzer 1.0.2版。 See detailed [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer) for more information. 要开始使用云准 [!UICONTROL 备性分析器]，请参 [阅使用云准备性分析器](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)。
+   * [!UICONTROL Cloud Readiness Analyzer] 版本 1.0.2 已发布。有关更多信息，请参阅详细的[发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-2020-7-0.html#cloud-readiness-analyzer)。要开始使用 [!UICONTROL Cloud Readiness Analyzer]，请参阅[使用 Cloud Readiness Analyzer](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/moving/cloud-migration/cloud-readiness-analyzer/using-cloud-readiness-analyzer.html)。
    * 请参阅 [AEM 云服务的完整发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?mkt_tok=eyJpIjoiWm1SallqTmtOekF6WldZMCIsInQiOiJoTTZ3Qm9LNVRXc1lsbjExdlpNMGdQNFE2UGM5ejZob1EwZXlPZHp2MEZJa1BPTHhybHBYcUxFWTgwVjNFajlzYU1Fb1NoVXRwMTc3U2IrbHZKeTVSOG02MUErbWpIb1pjNU8zYkdTbW5MZHVIRUUyNk9vUU9SckdOeUJmbXlObSJ9)。
 
 ### 自助服务
@@ -374,11 +374,11 @@ Adobe Advertising Cloud 的发行说明。
 * [Advertising Cloud DSP 中的新增功能](#adcloud-dsp)
 * [Advertising Cloud Search 中的新增功能](#adcloud-search)
 
-### New features in [!UICONTROL Advertising Cloud DSP] {#adcloud-dsp}
+### [!UICONTROL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp}
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 扩展了交互式预卷以包括VAST库存 | 现在，每个交互式预放和广告都可支持VPAID和VAST库存。 **注意：** 如果您的主要KPI是可查看性，则继续创建单独的VAD和VAST投放和广告，因为可见印象不适用于VAST广告。 |
+| 扩展了交互式前置式广告以包含 VAST 库存 | 现在，每个交互式前置式投放和广告都可同时支持 VPAID 和 VAST 库存。**注意：**&#x200B;如果您的主 KPI 是广告可见度，则请继续创建单独的 VAD 和 VAST 投放和广告，因为可见展示次数不适用于 VAST 广告。 |
 
 ### [!UICONTROL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
