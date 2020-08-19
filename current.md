@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d88e6054e3a1c93d7c867dd1ee6de0c67bc2eaf5
+source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
 workflow-type: tm+mt
-source-wordcount: '6454'
+source-wordcount: '6522'
 ht-degree: 99%
 
 ---
@@ -27,10 +27,10 @@ ht-degree: 99%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最新更新日期：**2020 年 8 月 13 日**
+最新更新日期：**2020 年 8 月 19 日**
 
 * [Adobe 系统状态](#status)
-* [Experience Cloud 界面](#ecloud)
+* [Experience Cloud 界面](#ecloud) (updated **August 19, 2020**)
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
 * [Analytics](#analytics)（2020 年 8 月 13 日更新）和 [Customer Journey Analytics](#cust-journey)
@@ -52,6 +52,12 @@ ht-degree: 99%
 请参阅 [2020 年 5 月 21 日](c-legacy-releases/2020/05212020.md#status)版发行说明，以了解最新版本信息。
 
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud 界面 {#ecloud}
+
+更新日期：**2020 年 8 月 19 日**
+
+| 功能 | 描述 |
+| -----------| ---------- |
+| 管理工具——功能和性能改进 | 2020年8月版 [!UICONTROL Admin Tool] （管理工具）允许系统管理员视图产品用户档案列表，并查看或导出每个产品用户档案的详细视图。 增加了加载上次登录数据的性能增强，修复了超时问题。 有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
 
 请参阅 7 月份的[之前的发行说明](c-legacy-releases/2020/07162020.md#ecloud)，以了解有关更新的界面和统一的产品领域的最新发行信息。
 
