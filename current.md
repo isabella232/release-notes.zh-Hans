@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 1fc011a1dbdc71052547679e69ac4f853f7fa4c2
-workflow-type: ht
-source-wordcount: '6445'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d88e6054e3a1c93d7c867dd1ee6de0c67bc2eaf5
+workflow-type: tm+mt
+source-wordcount: '6454'
+ht-degree: 99%
 
 ---
 
@@ -38,10 +38,10 @@ ht-degree: 100%
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
-* [!DNL Magento](#magento)
-* [!DNL Marketo Engage](#marketo)
-* [!DNL Primetime](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
+* [[!DNL目标]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
+* [[!DNLMagento]](#magento)
+* [[!DNLMarketo Engage]](#marketo)
+* [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
