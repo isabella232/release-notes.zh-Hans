@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f62e9f844bf396cda7fc711808a0f532de75a52d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6522'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
 最新更新日期：**2020 年 8 月 19 日**
 
 * [Adobe 系统状态](#status)
-* [Experience Cloud 界面](#ecloud) (updated **August 19, 2020**)
+* [Experience Cloud 界面](#ecloud)（更新日期：**2020 年 8 月 19 日**）
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
 * [Analytics](#analytics)（2020 年 8 月 13 日更新）和 [Customer Journey Analytics](#cust-journey)
@@ -38,9 +38,9 @@ ht-degree: 99%
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [[!DNL目标]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
-* [[!DNLMagento]](#magento)
-* [[!DNLMarketo Engage]](#marketo)
+* [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
+* [[!DNL Magento]](#magento)
+* [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 管理工具——功能和性能改进 | 2020年8月版 [!UICONTROL Admin Tool] （管理工具）允许系统管理员视图产品用户档案列表，并查看或导出每个产品用户档案的详细视图。 增加了加载上次登录数据的性能增强，修复了超时问题。 有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
+| 管理工具 - 功能和性能改进 | 2020 年 8 月版的[!UICONTROL 管理工具]允许系统管理员查看产品配置文件列表，以及查看或导出每个产品配置文件的详细视图。增强了加载上次登录数据的性能，修复了超时问题。有关详细信息，请参阅 [Experience Cloud 管理工具](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html)。 |
 
 请参阅 7 月份的[之前的发行说明](c-legacy-releases/2020/07162020.md#ecloud)，以了解有关更新的界面和统一的产品领域的最新发行信息。
 
