@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 949872e465b54e68051c62f61530591117f54a6a
+source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 97%
@@ -36,7 +36,7 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) (links to solution help)
+* [目标](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
 * [Advertising Cloud](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
