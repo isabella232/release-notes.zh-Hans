@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d714bd852687c7121f44bc31e35fe1ccc0eef43a
+source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
 workflow-type: tm+mt
 source-wordcount: '2526'
 ht-degree: 97%
@@ -369,4 +369,4 @@ See Marketo release notes for [February 2020](https://docs.marketo.com/display/p
 | Adobe Analytics | 视频 - [CJA 中的跨渠道归因](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/cross-channel-attribution-in-customer-journey-analytics.html) | 了解如何在 [!UICONTROL Customer Journey Analytics] 中使用可视化图表来跨渠道显示归因（提供点数）。 |
 | Adobe Analytics | 文章 - [适用于继续 Adobe Analytics 学习之旅的客户提示](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/customer-tips-for-continuing-your-adobe-analytics-learning-journey.html) | 结识三位 Adobe 客户，他们可向您提供有关如何从 Adobe Analytics 中获取最大价值的提示和技巧。 |
 | Adobe Analytics | 视频 - [在 CJA 中创建跨渠道可视化图表](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/creating-cross-channel-visualizations-in-customer-journey-analytics.html) | 了解 [!UICONTROL Customer Journey Analytics] 如何允许您创建可视化图表，这些可视化图表包括来自跨多个渠道的多个数据集中的数据，其中包含合并每位访客的数据。 |
-| Adobe Analytics | 视频 - [将您的计算量度从 Adobe Analytics 移至 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | 在 [!UICONTROL Customer Journey Analytics] 中查找有关重新创建 Analytics [!UICONTROLC计算量度]的提示。 |
+| Adobe Analytics | 视频 - [将您的计算量度从 Adobe Analytics 移至 Customer Journey Analytics](https://docs.adobe.com/content/help/en/platform-learn/tutorials/cja/moving-your-calculated-metrics-from-adobe-analytics-to-customer-journey-analytics.html) | Find tips for re-creating your Analytics [!UICONTROL Calculated Metrics] in [!UICONTROL Customer Journey Analytics]. |
