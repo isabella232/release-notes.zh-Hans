@@ -384,11 +384,11 @@ Adobe Advertising Cloud 的发行说明。
 
 ### [!UICONTROL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp}
 
-**更新日期：8月20日**
+**更新日期：8 月 20 日**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| Roku预测 | 现在，预测功能适用于Roku位置。 |
+| Roku 的预测功能 | 预测功能现在可用于 Roku 投放。 |
 | 扩展了交互式前置式广告以包含 VAST 库存 | 现在，每个交互式前置式投放和广告都可同时支持 VPAID 和 VAST 库存。**注意：**&#x200B;如果您的主 KPI 是广告可见度，则请继续创建单独的 VAD 和 VAST 投放和广告，因为可见展示次数不适用于 VAST 广告。 |
 
 ### [!UICONTROL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
