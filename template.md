@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2a73b43fedf1c745f89640a11b7aa64244a78bc4
+source-git-commit: 1ec71f66a34b17fb62831973cd46426ecc9f0d10
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2527'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 功能和修复。
 
-有关产品文档，请参阅 [Experience Cloud ID 服务](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
+有关产品文档，请参阅 [Experience Cloud ID 服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ### [!UICONTROL Experience Platform Launch] {#launch}
 
@@ -116,7 +116,7 @@ For product documentation, see [Experience Cloud interface](https://docs.adobe.c
 
 有关产品文档，请参阅 [Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)。
 
-有关 Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://marketing.adobe.com/resources/help/zh_CN/mobile/android/)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html)。
+有关 Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/overview.html)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html)。
 
 ## Analytics {#analytics}
 
