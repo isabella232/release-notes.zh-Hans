@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7349731bb72163473efc26069df9f1d77f0f7c23
+source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
 workflow-type: tm+mt
-source-wordcount: '6651'
-ht-degree: 100%
+source-wordcount: '6673'
+ht-degree: 96%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最新更新日期：**2020 年 8 月 21 日**
+最新更新日期：**2020 年 8 月 31 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)（更新日期：**2020 年 8 月 19 日**）
 * [Experience Platform](#platform)
 * [旅程编排](#journey-orch)
-* [Analytics](#analytics)（2020 年 8 月 21 日更新）和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics)（2020 年 8 月 31 日更新）和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -96,28 +96,29 @@ ht-degree: 100%
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-（更新日期：2020 年 8 月 13 日）
+（2020 年 8 月 31 日更新）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨设备分析]：在 EMEA 和 APAC 提供 | 2020 年 8 月 31 日 | [跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/overview.html)和专用图将面向 EMEA 和 APAC 的客户提供。 |
 | [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
-| （提前发布）工作区：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| 工作区：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
+| 工作区：线条可视化增强功能 | 2020年9月17日 | <ul><li>可显示或隐藏任何线可视化的x轴和y轴。 当您的线条可视化更紧凑时，此功能会特别有用。</li><li>您可以在任何线可视化上叠加最小值和最大值标签，以快速突出显示度量中的峰值和谷值。</li><li>您可以在任何线可视化上叠加不同的回归趋势线，更轻松地查看数据的趋势。 选项包括线性、对数、指数、幂和二次。</li></ul> [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| [!UICONTROL 人员 ID 的“身份映射”选项] | 2020 年 6 月 26 日 | [!UICONTROL 身份映射]是一种映射数据结构，允许您在 [!UICONTROL Customer Journey Analytics] 中创建连接时上传键值对。键是身份命名空间，值是包含身份值的结构。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html#use-identity-map-as-a-person-id) |
+| 工作区：线条可视化增强功能 | 2020年9月17日 | <ul><li>可显示或隐藏任何线可视化的x轴和y轴。 当您的线条可视化更紧凑时，此功能会特别有用。</li><li>您可以在任何线可视化上叠加最小值和最大值标签，以快速突出显示度量中的峰值和谷值。</li><li>您可以在任何线可视化上叠加不同的回归趋势线，更轻松地查看数据的趋势。 选项包括线性、对数、指数、幂和二次。</li></ul> |
 
-### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
+### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
-发行日期：**2020 年 7 月 16 日**
+（2020 年 8 月 31 日更新）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| [支持的设备和平台](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/supported-devices.html) | 2020 年 6 月 18 日 | 具有 AEP SDK 的 [!UICONTROL Media Launch Extension] 现在支持以下 OTT 设备：<ul><li>Apple TV (tvOS)</li><li>Fire TV (Fire OS)</li><li>Android TV</li></ul> |
-| [播放器状态跟踪](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/player-state-tracking/player-state-overview.html) | 2020 年 5 月 29 日 | [!UICONTROL Media Analytics] 客户可以运用一组适用于全屏、隐藏式字幕、静音、画中画和聚焦的标准解决方案变量，捕获视频播放期间观看者的交互信息。您还可以灵活地创建自定义播放器状态。[!UICONTROL 播放器状态跟踪]变量现在可以在 [!UICONTROL Analysis Workspace] 中进行报告。此功能需要以下任一项： <ul><li>Media [!DNL JavaScript] SDK 3.0 或更高版本</li><li>与 [!DNL Adobe Experience Platform] (AEP) SDK 一起使用时：</li><li>[!UICONTROL Media Analytics 扩展]（用于 Web）：[!UICONTROL Adobe Media Analytics] (3.x SDK) for Audio and Video v1.0 或更高版本</li><li>[!UICONTROL Media Analytics 扩展]（用于移动设备）：[!UICONTROL Adobe Media Analytics for Audio] and Video v2.0 或更高版本</li><li>[!UICONTROL 媒体收集]</li></ul> |
+| 工作区中的“媒体并发查看器”面板 | 2020 年 9 月 17 日 | 通过“媒体并发查看器”面板，您可以了解高峰期并发或中断发生的位置。  它提供对内容质量和观众参与度的宝贵见解，并有助于进行批量／规模故障排除或规划。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
 
