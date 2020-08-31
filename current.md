@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: August 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b91db168aeb1b9f653061f0cd6e19ec8d36a8155
+source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
-source-wordcount: '6673'
+source-wordcount: '6685'
 ht-degree: 96%
 
 ---
@@ -110,9 +110,9 @@ ht-degree: 96%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 工作区：线条可视化增强功能 | 2020年9月17日 | <ul><li>可显示或隐藏任何线可视化的x轴和y轴。 当您的线条可视化更紧凑时，此功能会特别有用。</li><li>您可以在任何线可视化上叠加最小值和最大值标签，以快速突出显示度量中的峰值和谷值。</li><li>您可以在任何线可视化上叠加不同的回归趋势线，更轻松地查看数据的趋势。 选项包括线性、对数、指数、幂和二次。</li></ul> |
+| 工作区：线条可视化增强功能 | 2020年9月17日 | <ul><li>可显示或隐藏任何线可视化的x轴和y轴。 当您的线条可视化更紧凑时，此功能会特别有用。</li><li>您可以在任何线可视化上叠加最小值和最大值标签，以快速突出显示度量中的峰值和谷值。</li><li>您可以在任何线可视化上叠加不同的回归趋势线，更轻松地查看数据的趋势。 选项包括线性、对数、指数、幂和二次。</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
-### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
+### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
 
 （2020 年 8 月 31 日更新）
 
