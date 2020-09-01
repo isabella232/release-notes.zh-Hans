@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
 workflow-type: tm+mt
 source-wordcount: '6685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 96%
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)（更新日期：**2020 年 8 月 19 日**）
 * [Experience Platform](#platform)
-* [旅程编排](#journey-orch)
-* [Analytics](#analytics)（2020 年 8 月 31 日更新）和 [Customer Journey Analytics](#cust-journey)
+* [Journey Orchestration](#journey-orch)
+* [Analytics](#analytics)（更新日期：2020 年 8 月 31 日）和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -91,34 +91,34 @@ ht-degree: 96%
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics 管理员的重要注意事项](#aa-notices)（2020 年 8 月 21 日更新）
+* [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2020 年 8 月 21 日）
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-（2020 年 8 月 31 日更新）
+（更新日期：2020 年 8 月 31 日）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
 | [!UICONTROL 跨设备分析]：在 EMEA 和 APAC 提供 | 2020 年 8 月 31 日 | [跨设备分析](https://docs.adobe.com/content/help/zh-Hans/analytics/components/cda/overview.html)和专用图将面向 EMEA 和 APAC 的客户提供。 |
 | [!UICONTROL 跨设备分析]中基于字段的拼合的增强功能（在美洲和 EMEA 提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
 | 工作区：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
-| 工作区：线条可视化增强功能 | 2020年9月17日 | <ul><li>可显示或隐藏任何线可视化的x轴和y轴。 当您的线条可视化更紧凑时，此功能会特别有用。</li><li>您可以在任何线可视化上叠加最小值和最大值标签，以快速突出显示度量中的峰值和谷值。</li><li>您可以在任何线可视化上叠加不同的回归趋势线，更轻松地查看数据的趋势。 选项包括线性、对数、指数、幂和二次。</li></ul> [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| 工作区：折线图可视化图表增强功能 | 2020 年 9 月 17 日 | <ul><li>可显示或隐藏任何折线图可视化图表的 x 轴和 y 轴。如果想让您的折线图可视化图表更加紧凑，此功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示度量中的峰值和谷值。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据的趋势。相关选项包括线性、对数、指数、幂和二次方程式。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 工作区：线条可视化增强功能 | 2020年9月17日 | <ul><li>可显示或隐藏任何线可视化的x轴和y轴。 当您的线条可视化更紧凑时，此功能会特别有用。</li><li>您可以在任何线可视化上叠加最小值和最大值标签，以快速突出显示度量中的峰值和谷值。</li><li>您可以在任何线可视化上叠加不同的回归趋势线，更轻松地查看数据的趋势。 选项包括线性、对数、指数、幂和二次。</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| 工作区：折线图可视化图表增强功能 | 2020 年 9 月 17 日 | <ul><li>可显示或隐藏任何折线图可视化图表的 x 轴和 y 轴。如果想让您的折线图可视化图表更加紧凑，此功能会特别有用。</li><li>您可以在任何折线图可视化图表上叠加最小值和最大值标签，以便快速突出显示度量中的峰值和谷值。</li><li>您可以在任何折线图可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据的趋势。相关选项包括线性、对数、指数、幂和二次方程式。</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
-### [!UICONTROL Media Analytics] 的新增功能 {#media-aa}
+### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
-（2020 年 8 月 31 日更新）
+（更新日期：2020 年 8 月 31 日）
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 工作区中的“媒体并发查看器”面板 | 2020 年 9 月 17 日 | 通过“媒体并发查看器”面板，您可以了解高峰期并发或中断发生的位置。  它提供对内容质量和观众参与度的宝贵见解，并有助于进行批量／规模故障排除或规划。 [了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
+| 工作区中的“媒体并行查看者”面板 | 2020 年 9 月 17 日 | 通过“媒体并行查看者”面板，您可以了解出现并发峰值或发生锐减的位置。它为内容质量和查看者参与度提供了有价值的分析，同时有助于对批量/规模进行疑难问题解答或规划。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
 
@@ -236,7 +236,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
    * AEM Commerce 如今可在云服务上使用。请参阅 [AEM Commerce 云服务快速入门](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/commerce/getting-started.html)。
    * Adobe Target 和 Adobe Analytics 连接器增强功能包括用户界面改进、经典 UI 替换和 Adobe Launch 集成。请参阅[集成 Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/integrations/integrating-adobe-analytics.html) 和[集成 Adobe Target](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/integrations/integrating-adobe-target.html)。
    * 资产计算服务是一种用于处理资产的可扩展服务。管理员可以配置 Experience Manager 以调用使用资产计算服务创建的自定义工作器。开发人员可以使用此服务来创建专门的自定义工作器，以满足复杂用例的需求。这项 Web 服务可以为不同文件类型生成缩略图、从 Adobe 文件格式生成高质量图像渲染、对视频进行编码（未来推出）、提取元数据、提取全文作为索引的前导，并通过所有可用的 Sensei 服务运行资产。请参阅[使用资产微服务和处理用户档案](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/asset-microservices-configure-and-use.html)。
-   * 可以扩展[资产计算服务](https://docs.adobe.com/content/help/en/asset-compute/using/home.html)来创建自定义应用程序。它是一项处理数字资产的 [!DNL Adobe Experience Cloud] 的可扩展服务。它可以将图像、视频、文档和其他文件格式转换为不同的呈现形式，包括缩略图、提取的文本和元数据、存档等。开发人员可以使用此服务来创建自定义应用程序（也称为“自定义工作器”），以满足自定义用例的需求。它通过 [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html)来构建，可以在没有服务器的 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 环境中运行。
+   * 可以扩展[资产计算服务](https://docs.adobe.com/content/help/en/asset-compute/using/home.html)来创建自定义应用程序。它是一项处理数字资产的 [!DNL Adobe Experience Cloud] 的可扩展服务。它可以将图像、视频、文档和其他文件格式转换为不同的呈现形式，包括缩略图、提取的文本和元数据、存档等。开发人员可以使用此服务来创建自定义应用程序（也称为“自定义工作器”），以满足自定义用例的需求。它通过 [Project Firefly](https://www.adobe.io/apis/experienceplatform/project-firefly/docs.html) 来构建，可以在没有服务器的 [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) 环境中运行。
    * AEM 云服务中对工作流程模型和动态媒体进行了多项改进。
    * [AEM 核心组件](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html)版本 2.11.0 现已作为 AEM Sites 的一部分提供，其中包括：
       * 引入新的 [PDF 查看器组件](https://aemcomponents.dev/content/core-components-examples/library/page-authoring/pdf-viewer.html)。
