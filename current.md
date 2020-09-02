@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: August 2020
 author: mfrei
-translation-type: ht
-source-git-commit: c6a071b2e8946d2b7fcfe20f835354ca6d552575
-workflow-type: ht
-source-wordcount: '6685'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: bae18faf738a3750ceb63a3048750e77c1ebfa5c
+workflow-type: tm+mt
+source-wordcount: '6687'
+ht-degree: 99%
 
 ---
 
@@ -350,7 +350,7 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 
 * 20.2.1 版本 - [了解更多](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html#release-20-2-2-build-9180)
 
-### Campaign 的新课程和教程
+### 新的和更新的活动课程和教程
 
 过去一个月发布的新视频、教程或课程。
 
