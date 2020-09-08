@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2670c9b311ff63f308ca380657be1bb399dcf2e6
+source-git-commit: 113528f8e43d06e75d9fbb9db8bc229056e6f0f2
 workflow-type: tm+mt
-source-wordcount: '6737'
+source-wordcount: '6762'
 ht-degree: 39%
 
 ---
@@ -127,14 +127,14 @@ Adobe Experience Platform现有功能更新：
 | 跨设备分析中基于现 [!UICONTROL 场的拼接增强] （全球提供） | 2020 年 8 月 31 日 | 这为新的[!UICONTROL 跨设备分析]客户简化了实施过程，让您可以选择根据存储在 Analytics 字段（prop 或 eVar）中的用户 ID 进行拼合，而不使用设备图（协作图或专用图）。这项增强功能减免了实施 ECID 的需求，同时还消除了为 CDA 实施 ID 同步的需求。（有些其他功能仍要求实施 ECID 和 ID 同步。） |
 | 中国数据收集，第2阶段 | 2020 年 9 月 1 日 | 扩展了对第一方SSL的支持。 |
 | Workspace中的新日期范围 | 2020 年 9 月 10 日 | 我们将添加5个新的日期范围，这样您就可以从不包含今天部分日期数据的日期范围中进行选择：最近7整天，最近14整天，最近30整天，最近60整天，最近90整天 |
-| 工作区：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。 |
+| 工作区：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | 工作区：对Line可视化 [!UICONTROL 的增强] | 2020 年 9 月 17 日 | <ul><li>You can show or hide the x-axis and y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any [!UICONTROL Line] visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any [!UICONTROL Line] visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 对Customer Journey Analytics权限的更改 | 2020 年 9 月 9 日 | CJA不再将所有用户视为管理员。 只有在Adobe Admin Console被指定为产品管理员的 [用户](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html) ，才能执行以下操作：<ul><li>创建／更新／删除 [!UICONTROL 连接] 或数 [!UICONTROL 据视图]</li><li>更新／删除其他用户创建的项目、过滤器或计算量度</li><li>将Workspace项目共享给所有用户</li></ul> |
+| 对Customer Journey Analytics权限的更改 | 2020 年 9 月 9 日 | CJA不再将所有用户视为管理员。 只有在Adobe Admin Console被指定为产品管理员的 [用户](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html) ，才能执行以下操作：<ul><li>创建／更新／删除 [!UICONTROL 连接] 或数 [!UICONTROL 据视图]</li><li>更新／删除其他用户创建的项目、过滤器或计算量度</li><li>将Workspace项目共享给所有用户</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | 对[!UICONTROL 异常检测]的支持 | 2020 年 9 月 10 日 | [!UICONTROL 异常检测] 允许您确定哪些统计波动很重要，哪些不重要。此功能现在在Customer Journey Analytics中 [!UICONTROL 受支持]。 |
 | Workspace中的新日期范围 | 2020 年 9 月 10 日 | 我们将添加5个新的日期范围，这样您就可以从不包含今天部分日期数据的日期范围中进行选择： [!UICONTROL 最近7天], [!UICONTROL 最近14天]，最 [!UICONTROL 近30天全天]，最 [!UICONTROL 近60天全天][!UICONTROL ，最近90天全天] |
 | 工作区：对Line可视化 [!UICONTROL 的增强] | 2020 年 9 月 17 日 | <ul><li>You can show or hide the x-axis and y-axis of any [!UICONTROL Line] visualization. This can be especially helpful when your [!UICONTROL Line] visualizations are more compact.</li><li>You can overlay a minimum and maximum value label on any [!UICONTROL Line] visualization to quickly highlight the peaks and valleys in a metric.</li><li>You can overlay different regression trend lines on any [!UICONTROL Line] visualization to more easily see the trend in the data. Options include [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] and [!UICONTROL Quadratic].</li></ul> [了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/visualizations/line.html) |
