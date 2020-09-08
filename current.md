@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: September 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2bda04891fdfe3a57208f4f6accf7ac0d5c49432
+source-git-commit: 2670c9b311ff63f308ca380657be1bb399dcf2e6
 workflow-type: tm+mt
-source-wordcount: '6728'
+source-wordcount: '6737'
 ht-degree: 39%
 
 ---
@@ -42,10 +42,10 @@ ht-degree: 39%
 * [Experience Manager](#aem)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
-* [!DNL Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
-* [!DNL Magento](#magento)
-* [!DNL Marketo Engage](#marketo)
-* [!DNL Primetime](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
+* [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
+* [[!DNL Magento]](#magento)
+* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
@@ -194,7 +194,7 @@ New courses, tutorials, and articles in [!DNL Analytics] and [!UICONTROL Custome
 | -----------| ---------- | ---------- | ---------- |
 | 2020 年 8 月 30 日 | [Analysis Workspace项目的保存、共享和协作](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace.html) | 视频 | 在 [!UICONTROL Analysis Workspace]，了解如何向表格添加文本说明、为项目创建直接链接并共享它。 |
 | 2020 年 8 月 28 日 | [课程简介——将价值归因于客户旅程中的数字接触点](https://video.tv.adobe.com/v/39380?captions=chi_hans) | 视频 | 在此介绍性视频中，学习在客户旅程课程中将价 [值归因于数字接触点的先决条件和课程内容](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.2) 。 |
-| 2020 年 8 月 28 日 | [将价值归因于客户旅程中的数字接触点](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.2) | 课程 | 了解网站访客的来源，如何为网站上的渠道分配转化信用，甚至了解网站上的其他项目如何促进转化，从而了解网站的客户。 本课程教您显示此分析的主要可视化信息，以及如何使用 [!UICONTROL Attribution IQ] 在分析中分配归因模型。 |
+| 2020 年 8 月 28 日 | [将价值归因于客户旅程中的数字接触点](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2020.2) | 课程 | 了解网站访客的来源，如何为网站上的渠道分配转化信用，甚至了解网站上的其他项目如何促进转化，从而了解网站。 本课程教您显示此分析的主要可视化信息，以及如何使用 [!UICONTROL Attribution IQ] 在分析中分配归因模型。 |
 | 2020 年 8 月 21 日 | [使用跨标签分析探索Analysis Workspace的基本营销归因](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html) | 视频 | 您可以通过多种方式将归因方法与Adobe Analytics一起提升到新的高度。 在此视频中，我们重点介绍如何使用Workspace中的跨选项卡 [!UICONTROL 渠道] ，从营销分析报表获得更深入 [!UICONTROL 的洞察]。 |
 | 2020 年 8 月 21 日 | [右键单击可提高工作区效率](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/right-click-for-workspace-efficiency.html) | 视频 | 了解我们最喜爱的Analysis Workspace右键点击以及如何使用它们。 从自由格式表到流失可视化，右键单击可让您更高效、更精通工作区。 |
 
