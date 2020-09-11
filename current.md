@@ -4,9 +4,9 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '6745'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Adobe Experience Platform 现有功能的更新包括：
 
 ### Journey Orchestration 的其他资源
 
-[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![图标](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -139,7 +139,7 @@ Adobe Experience Platform 现有功能的更新包括：
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL 工作区]中的“媒体并行查看者”面板 | 2020 年 9 月 17 日 | 通过[!UICONTROL 媒体并行查看者]面板，您可以了解出现并发峰值或发生锐减的位置。它为内容质量和查看者参与度提供了有价值的分析，同时有助于对批量/规模进行疑难问题解答或规划。[了解更多...](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
+| [!UICONTROL 工作区]中的“媒体并行查看者”面板 | 2020 年 9 月 17 日 | 通过[!UICONTROL 媒体并行查看者]面板，您可以了解出现并发峰值或发生锐减的位置。它为内容质量和查看者参与度提供了有价值的分析，同时有助于对批量/规模进行疑难问题解答或规划。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
 
