@@ -4,16 +4,16 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3de788a32337c5917e54eb6c23234c20c2910d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6745'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Cloud发行说明- 2020年9月
+# Adobe Experience Cloud 发行说明 - 2020 年 9 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -130,7 +130,7 @@ Adobe Experience Platform 现有功能的更新包括：
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 更改 Customer Journey Analytics 的权限 | 2020 年 9 月 9 日 | CJA 将不再视所有用户为管理员。只有在 [Adobe Admin Console](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html) 中被指派为产品管理员的用户，才能执行以下操作：<ul><li>创建/更新/删除[!UICONTROL 连接]或[!UICONTROL 数据视图]</li><li>更新/删除其他用户创建的项目、过滤器或计算量度</li><li>在所有用户中共享工作区项目</li></ul>[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
+| 更改 Customer Journey Analytics 的权限 | 2020 年 9 月 9 日 | CJA 将不再视所有用户为管理员。只有在 [Adobe Admin Console](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html) 中被指派为产品管理员的用户，才能执行以下操作：<ul><li>创建/更新/删除[!UICONTROL 连接]或[!UICONTROL 数据视图]</li><li>更新/删除其他用户创建的项目、过滤器或计算量度</li><li>在所有用户中共享工作区项目</li></ul>[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-overview/cja-overview.html#admin-access-permissions) |
 | 对[!UICONTROL 异常检测]的支持 | 2020 年 9 月 10 日 | 通过[!UICONTROL 异常检测]功能，您可以识别哪些统计波动重要，哪些不重要。目前，[!UICONTROL Customer Journey Analytics] 支持这项功能。 |
 | 工作区增设新的日期范围 | 2020 年 9 月 10 日 | 我们将新增 5 个日期范围（[!UICONTROL 最近 7 天整]、[!UICONTROL 最近 14 天整]、[!UICONTROL 最近 30 天整]、[!UICONTROL 最近 60 天整]、[!UICONTROL 最近 90 天整]），这样从现在开始，您就可以选择不包含部分日期数据的日期范围 |
 | 工作区：增强[!UICONTROL 折线图]可视化图表 | 2020 年 9 月 17 日 | <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 x 轴和 y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/visualizations/line.html) |
