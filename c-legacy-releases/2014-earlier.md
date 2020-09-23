@@ -2,12 +2,15 @@
 description: Adobe Experience Cloud - 2014 及更早版本中的新增功能和修复。
 seo-description: Adobe Experience Cloud - 2014 及更早版本中的新增功能和修复。
 title: 2014 及更早版本的发行说明
-solution: 发行说明,Marketing Cloud,Analytics,Social,Target,Advertising Cloud
+solution: Experience Cloud,Analytics,Target,Advertising Cloud
 seo-title: Adobe Experience Cloud 2014 及更早版本的发行说明
-topic: 发行说明
+topic: Release notes
 uuid: c56a1064-0f2c-4241-93c6-ca4b1f267763
 translation-type: tm+mt
-source-git-commit: 9dcd8e8ea0e020c56906e5e4635d68eeceb070a0
+source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 100%
 
 ---
 
