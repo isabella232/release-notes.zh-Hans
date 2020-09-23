@@ -1,15 +1,18 @@
 ---
 description: 以下信息可帮助您联系 Adobe，以了解与使用本产品和文档有关的法律问题。
-keywords: 动态标签管理;发行说明
+keywords: dynamic tag management;release notes
 seo-description: 以下信息可帮助您联系 Adobe，以了解与使用本产品和文档有关的法律问题。
 seo-title: 联系方式和法律信息
-solution: Experience Cloud,发行说明
+solution: Experience Cloud
 title: 联系方式和法律信息
 uuid: be6810fd-8a50-4e88-af09-ab00187e4082
 internal: n
 translate: y
-translation-type: ht
-source-git-commit: 147b01562e6c8d579a2bec0e4fa2841d1791a671
+translation-type: tm+mt
+source-git-commit: 00226294d475d0c8f323692272bedf0d2705fd20
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 95%
 
 ---
 
@@ -37,12 +40,12 @@ Adobe Systems welcome any suggestions or feedback regarding this solution. You c
 
 
 <ul class="simplelist"> 
- <li> © 2016 Adobe Systems Incorporated. All Rights Reserved. </li> 
- <li> Published by Adobe Systems Incorporated. </li> 
+ <li> © 2016 Adobe Systems Incorporated. 保留所有权利。 </li> 
+ <li> 由 Adobe Systems Incorporated 发布。 </li> 
 </ul>
 
-[使用条款](https://www.adobe.com/go/marketingcloud_terms_of_use_cn) | [隐私中心](https://www.adobe.com/cn/privacy/policy.html)
+[使用条款](https://www.adobe.com/go/marketingcloud_terms_of_use) | [隐私中心](https://www.adobe.com/privacy/policy.html)
 
-Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. 商标符号（®、™ 等）表示 Adobe 商标。
+Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-所有第三方商标都是其各自拥有者的资产。更新信息/其他第三方代码信息位于：[https://www.adobe.com/go/thirdparty_cn](https://www.adobe.com/cn/products/eula/third_party/)。
+All third-party trademarks are the property of their respective owners. 更新信息/其他第三方编码信息可在 [https://www.adobe.com/go/thirdparty_cn](https://www.adobe.com/cn/products/eula/third_party/) 上找到。
