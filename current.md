@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d2be5336caa039c540df6076bef876dc1384cab2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6913'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 * [Experience Cloud 界面](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [分析](#analytics) （2020年9月23日更新）和 [Customer Journey Analytics](#cust-journey)
+* [Analytics](#analytics)（2020 年 9 月 23 日更新）和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -111,7 +111,7 @@ Adobe Experience Platform 现有功能的更新包括：
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics 管理员的重要注意事项](#aa-notices) （2020年9月23日更新）
+* [Analytics 管理员的重要注意事项](#aa-notices)（2020 年 9 月 23 日更新）
 * [Analytics 课程及教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -164,7 +164,7 @@ AN-215683、AN-216894、AN-226370、AN-227138、AN-227154、AN-227328、AN-22748
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 更改为ECID cookie设置 | 2020 年 9 月 22 日 | 对Chrome版本80隐私设置的更新影响了Adobe Analytics跟踪查看Google AMP页面的部分用户的能力。 特别是，它可以阻止跨域跟踪查看Google托管的AMP页面的用户。 这可能导致独特访客数量膨胀。 此修复允许用户通过更改其ECID cookie的设置来解决此问题。 目前，Analytics使用在Chrome版本80之 `SameSite = Lax` 前允许跨域跟踪的设置设置来设置ECID cookie。 现在情况已经不同了。 此更改允许用户将ECID cookies的SameSite设置更新为 `None`。 请注意，这确实允许在更多情况下共享Analytics cookie，但Analytics cookie不包含任何敏感信息。 此外，在选择此设置时，必须将cookies设 `Secure` 置为，以便只能通过HTTPS连接传递数据。 如果您要进行此更改，请让受支持用户在客户关怀中打开票证。 |
+| 更改 ECID Cookie 设置 | 2020 年 9 月 22 日 | Chrome 版本 80 隐私设置的更新，影响了 Adobe Analytics 跟踪某些查看 Google AMP 页面的用户的能力。具体而言，这项更新阻止跨域跟踪那些查看 Google 托管的 AMP 页面的用户。结果可能会导致独特访客数量激增。修复方法：用户可通过更改其 ECID Cookie 的设置来解决此问题。目前，Analytics 在设置 ECID Cookie 时，使用的是 Chrome 版本 80 之前允许跨域跟踪的设置 `SameSite = Lax`。现在情况已发生了变化。此项更改允许用户将 ECID Cookie 的 SameSite 设置更新为 `None`。请注意，它确实允许在更多的情况下共享 Analytics Cookie，但 Analytics Cookie 不包含任何敏感信息。此外，在选择这项设置时，必须将 Cookie 设置为 `Secure`，以便数据只能通过 HTTPS 连接进行传递。如果您要进行这项更改，请让受支持的用户通过客户关怀部门开具相关票证。 |
 | 从 `omniture.com` 域迁移至 `adobe.com` 域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 将其前端架构从 `omniture.com|http://omniture.com/` 域迁移至 `adobe.com|http://adobe.com/` 域。这项变更可以缓解自 2020 年 5 月 28 日首次统一产品域更改以来引发的第三方 Cookie 问题。作为本次更新的结果，浏览器可能会提示用户信任这个新的 `.adobe.com|http://an.adobe.com/` 域或 `experience.adobe.com|http://experience.adobe.com/` 域。 |
 | 关于 Ad Hoc Analysis 与 Java 8 兼容性的最新信息 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前与 Java 8 版本 1.8.0_261+ 不兼容。为了确保能够在这个工具[生命周期终止日期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)之前持续访问该工具，我们建议您安装版本低于 1.8.0_261 的 Java 8。 |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。我们在 [Adobe Exchange 合作伙伴项目](https://partners.adobe.com/exchangeprogram/experiencecloud)中采用了一个新标准，任何希望继续提供和支持的集成应采用此标准。正式的生命周期终止日期仍有待确定，但我们预计将会在未来 12-18 个月（2021 年中至 2021 年底）后终止。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/data-connectors-eol.html) |
@@ -254,7 +254,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
    [!UICONTROL AEM 云服务有哪些新增功能？]主要亮点包括：
 
    * 可以在 [!UICONTROL AEM 云服务]中[将页面和子页面（页面树）恢复到较早版本](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/sites/authoring/features/page-versions.html#reinstating-versions)。
-   * 现在，资产微服务可支持视频转码，而且[!UICONTROL 处理用户档案]屏幕中新增的[!UICONTROL 视频]部分可支持配置视频比特率和维度（视频输出格式为带有 H.264 编解码器的 MP4 文件）。详细信息，请参阅[管理视频资产。](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/manage-video-assets.html#transcode-video)要获得更多转码选项和视频分发选项，可使用 [!UICONTROL Dynamic Media] 加载项。
+   * 现在，资产微服务可支持视频转码，而且[!UICONTROL 处理用户档案]屏幕中新增的[!UICONTROL 视频]部分可支持配置视频比特率和维度（视频输出格式为带有 H.264 编解码器的 MP4 文件）。详细信息，请参阅[管理视频资产](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/manage/manage-video-assets.html#transcode-video)。要获得更多转码选项和视频分发选项，可使用 [!UICONTROL Dynamic Media] 加载项。
    * 新的资产下载体验支持：
       * 适用于大型文件的异步下载，因此用户无需等待。
       * 用于开发人员扩展性工具的全新模块式 API。
@@ -305,7 +305,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * **[!UICONTROL 核心组件]**
 
-   [!UICONTROL 核心组件] 2.11.0 版引入了对 AMP 的支持，如今，该版本可以与[创作文档](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html)功能配合使用，并且[在 GitHub 上提供了开发人员详细信息和项目下载功能。](https://github.com/adobe/aem-core-wcm-components)
+   [!UICONTROL 核心组件] 2.11.0 版引入了对 AMP 的支持，如今，该版本可以与[创作文档](https://docs.adobe.com/content/help/zh-Hans/experience-manager-core-components/using/introduction.html)功能配合使用，并且[在 GitHub 上提供了开发人员详细信息和项目下载功能](https://github.com/adobe/aem-core-wcm-components)。
 
 * **[!UICONTROL 表单]**
 
