@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: September 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8077089a219abecb0c3522ae0768f25b9f249715
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6970'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ AN-215683、AN-216894、AN-226370、AN-227138、AN-227154、AN-227328、AN-22748
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 将HSTS头添加到所有传入的HTTPS请求 | 2020 年 9 月 29 日 | 2020年9月29日，我们开始向所有使用HTTPS的传入请求添加HSTS头。 这会指示浏览器／客户端在HTTPS中发出所有未来请求，这被认为是安全最佳实践。 此时，我们不会对使用HTTP的传入请求强制执行此操作。 |
+| 将 HSTS 头添加到所有传入的 HTTPS 请求 | 2020 年 9 月 29 日 | 2020 年 9 月 29 日，我们开始向所有使用 HTTPS 的传入请求添加 HSTS 头。这会指示浏览器/客户端在以后使用 HTTPS 发出所有请求，这被视为最佳安全实践。目前，我们不会对使用 HTTP 的传入请求强制执行此操作。 |
 | 更改 ECID Cookie 设置 | 2020 年 9 月 22 日 | Chrome 版本 80 隐私设置的更新，影响了 Adobe Analytics 跟踪某些查看 Google AMP 页面的用户的能力。具体而言，这项更新阻止跨域跟踪那些查看 Google 托管的 AMP 页面的用户。结果可能会导致独特访客数量激增。修复方法：用户可通过更改其 ECID Cookie 的设置来解决此问题。目前，Analytics 在设置 ECID Cookie 时，使用的是 Chrome 版本 80 之前允许跨域跟踪的设置 `SameSite = Lax`。现在情况已发生了变化。此项更改允许用户将 ECID Cookie 的 SameSite 设置更新为 `None`。请注意，它确实允许在更多的情况下共享 Analytics Cookie，但 Analytics Cookie 不包含任何敏感信息。此外，在选择这项设置时，必须将 Cookie 设置为 `Secure`，以便数据只能通过 HTTPS 连接进行传递。如果您要进行这项更改，请让受支持的用户通过客户关怀部门开具相关票证。 |
 | 从 `omniture.com` 域迁移至 `adobe.com` 域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 将其前端架构从 `omniture.com|http://omniture.com/` 域迁移至 `adobe.com|http://adobe.com/` 域。这项变更可以缓解自 2020 年 5 月 28 日首次统一产品域更改以来引发的第三方 Cookie 问题。作为本次更新的结果，浏览器可能会提示用户信任这个新的 `.adobe.com|http://an.adobe.com/` 域或 `experience.adobe.com|http://experience.adobe.com/` 域。 |
 | 关于 Ad Hoc Analysis 与 Java 8 兼容性的最新信息 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前与 Java 8 版本 1.8.0_261+ 不兼容。为了确保能够在这个工具[生命周期终止日期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)之前持续访问该工具，我们建议您安装版本低于 1.8.0_261 的 Java 8。 |
