@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
+source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
 workflow-type: tm+mt
-source-wordcount: '6533'
+source-wordcount: '6530'
 ht-degree: 44%
 
 ---
@@ -304,7 +304,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 **[!DNL Adobe Experience Manager]桌面应用程序**
 
-* 首次注销或登录后登录到桌面应用程序的用户应以https:// [!DNL Experience Manager] aem-server-url[:]port[/格式提供其服务器URL，然后选择]Connect  选项，以避免出现错误“应用程序遇到未知错误”。 有关详细信息，请参阅使 [用Adobe Experience Manager桌面应用程序](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)。
+* 首次注销或登录后登录到桌面应用程序的用户应以格式提供 [!DNL Experience Manager] 其服务器URL，然 `https://[aem-server-url]:[port]/` 后选择 [!UICONTROL Connect] 选项，以避免出现错误“应用程序遇到未知错误”。 有关详细信息，请参阅使 [用Adobe Experience Manager桌面应用程序](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html)。
 
 ### 社区
 
