@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e6add243b6c74b59f138543c460d55817bddf761
+source-git-commit: 5790dfcacc451a044bc7d2f8431d759598643a9f
 workflow-type: tm+mt
-source-wordcount: '6448'
+source-wordcount: '6533'
 ht-degree: 44%
 
 ---
@@ -269,7 +269,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 为URL和迁移集名称 *添加**了描述性验证消息*。
    * **代码重构工具**
 
-      * AIO-CLI插件支持Repository Modernizer并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
+      * AIO-CLI插件支持Repository Modernizer，并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
       * 存储库Modernizer实用程序可用于将现有项目包重构为与为AEM定义为Cloud Service的项目结构兼容的包。 请参阅 [Git资源：Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer) （存储库现代化器）。
 
 
@@ -282,7 +282,13 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 ### 自助服务
 
+**[!DNL Experience Manager]站点**
+
+富文本编辑器文档将更新为列表 [RTE中链接的所有受支持协议](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles)。
+
 **[!DNL Experience Manager]资产**
+
+* 有关AEM Assets如何供所 [有用户访问](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ，将提供新的帮助内容。
 
 * **[视图模式参数](https://docs.adobe.com/content/help/en/experience-manager-65/assets/using/search-assets.html#assetpicker)** 会添加到资产选择器（资产选取器），以在搜索模式下打开资产选择器。 要在搜索模式下打开资产选择器并 `assettype` 与和 `mimetype`一起使用，用户需要在url `viewmode=search` 中后缀该参数 `https://[aem-server]:[port]/aem/assetpicker.html`。 例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
 
@@ -293,6 +299,8 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 * 如果用户已 [修改Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html) ，将超时配置设置为小于上传资产所花费的时间，则用户可能会遇到会话超时情况。因此，用户需要更改 `chunkUploadMinFileSize``chunksize`和，以便每个区块请求刷新会话。 有关详细信息，请参 [阅上传资产](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets)。
 
 * 除了打开移 [动资产向导的移动(m)操作](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets) ，还可以使 [!UICONTROL 用拖动操作将资产移入同级] 文件夹中  。
+
+* 对于资产分析，请使用 [Adobe启动](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。 [DTM集成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) 在文档中作为已弃用的方法调用。
 
 **[!DNL Adobe Experience Manager]桌面应用程序**
 
