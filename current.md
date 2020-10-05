@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 2ed7bd9c020cac5cf282aafd0c3146b8e0661dce
+source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
 workflow-type: tm+mt
-source-wordcount: '6530'
+source-wordcount: '6537'
 ht-degree: 44%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 44%
 
 未在9月更新。
 
-See [Cumulative release notes](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html) for the latest release information.
+有关 [最新版本信息，请参阅Experience Cloud服](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html) 务的累积发行说明。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -105,6 +105,8 @@ See [Cumulative release notes](https://docs.adobe.com/content/help/zh-Hans/core-
 [文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![图标](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
+
+发行日期：**2020 年 10 月 8 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey)
@@ -399,7 +401,7 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 | ----------- | ----------- | ---------- | ---------- |
 | 2020 年 22 月 9 日 | [旅程AI —— 预测发送时间优化——视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | 了解哪些工作流需要在 Adobe Campaign 和 Journey AI 模型之间同步数据。了解如何在个人用户档案级别查看发送时间得分以及如何使用发送时间公式执行电子邮件传递。 |
 | 2020 年 22 月 9 日 | [旅程AI —— 预测性参与评分——视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 了解如何在个人用户档案级别查看参与度得分，使用得分确定目标参与用户并禁止疲劳用户，以及如何创建类型学规则来管理客户疲劳。 |
-| 2020 年 22 月 9 日 | [将控制组添加到投放-视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 了解如何为您的传递定义控制组，以及如何在发送传递后提取分配给控制组的用户档案。 |
+| 2020 年 22 月 9 日 | [向对照组添加投放-视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 了解如何为您的传递定义控制组，以及如何在发送传递后提取分配给控制组的用户档案。 |
 | 2020年9月11日 | [委派子域](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 控制面板允许您将子域完全委派给 Adobe Campaign。 |
 | 2020年9月3日 | [向允许列表添加IP地址](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。默认情况下，无法从各种 IP 地址访问 Adobe Campaign Classic 实例。 |
 | 2020年9月3日 | [控制面板-添加URL权限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。默认情况下，无法从各种 IP 地址访问 Adobe Campaign Classic 实例。 |
