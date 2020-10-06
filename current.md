@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b3ba9bfac88074b9dd5838acd086bade5a43b734
+source-git-commit: 4f7fd84dcf6c1edcee352fd1c7592d1a0f36ed36
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6619'
 ht-degree: 44%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->文档正在移至Experience League。 在10月份，所有发行说明、文章、视频和教程都将从其当前位置移 `docs.adobe.com` 出，并作为Experience League的一部分提供。 此移动可确保从一个位置提供所有学习、自助、支持和社区内容：Experience League。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到新位置。 我们将在切换开始时更新发行说明。
+>Experience Cloud文档正在移至Experience League。 在10月份，所有发行说明、文章、视频和教程都将从其当前位置移 `docs.adobe.com` 出，并作为Experience League的一部分提供。 此移动可确保从一个位置提供所有学习、自助、支持和社区内容：Experience League。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到新位置。 我们将在切换开始时更新发行说明。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
@@ -275,7 +275,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 为URL和迁移集名称 *添加**了描述性验证消息*。
    * **代码重构工具**
 
-      * AIO-CLI插件支持Repository Modernizer并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
+      * AIO-CLI插件支持Repository Modernizer，并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
       * 存储库Modernizer实用程序可用于将现有项目包重构为与为AEM定义为Cloud Service的项目结构兼容的包。 请参阅 [Git资源：Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer) （存储库现代化器）。
 
 
