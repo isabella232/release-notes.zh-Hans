@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8d32193d5e42d33f9ca087154da628fa83f607b4
+source-git-commit: 70f1d8589fe94f37a3f9edc375f9efbf2b6d1c26
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 44%
+source-wordcount: '6765'
+ht-degree: 43%
 
 ---
 
@@ -124,6 +124,7 @@ ht-degree: 44%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
+| Adobe Analytics文档 | 2020 年 10 月 | Adobe Analytics文件正在移至Experience League。 在10月份，所有文章、视频、发行说明和教程都将从当前位置移 `docs.adobe.com` 至 `experienceleague.adobe.com`。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。 |
 | [!UICONTROL 工作区]:下载单维50K项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | 工作区：增强[!UICONTROL 折线图]可视化图表 | 2020 年 9 月 17 日 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. 如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 工作区]:性能帮助页面 | 2020年10月22日 | Analysis Workspace绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。 [了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -135,6 +136,7 @@ ht-degree: 44%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
+| 客户历程分析 文档 | 2020 年 10 月 | Customer Journey Analytics文档正在移至Experience League。 在10月份，所有文章、视频、发行说明和教程都将从当前位置移 `docs.adobe.com` 至 `experienceleague.adobe.com`。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。 |
 | [!UICONTROL 工作区]:下载单维50K项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...] |
 | 工作区：增强[!UICONTROL 折线图]可视化图表 | 2020 年 9 月 17 日 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. 如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Analysis Workspace性能帮助页面 | 2020年10月22日 | Analysis Workspace绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。 [了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
