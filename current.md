@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 70f1d8589fe94f37a3f9edc375f9efbf2b6d1c26
+source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
 workflow-type: tm+mt
-source-wordcount: '6765'
+source-wordcount: '6775'
 ht-degree: 43%
 
 ---
@@ -137,7 +137,7 @@ ht-degree: 43%
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | 客户历程分析 文档 | 2020 年 10 月 | Customer Journey Analytics文档正在移至Experience League。 在10月份，所有文章、视频、发行说明和教程都将从当前位置移 `docs.adobe.com` 至 `experienceleague.adobe.com`。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。 |
-| [!UICONTROL 工作区]:下载单维50K项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...] |
+| [!UICONTROL 工作区]:下载单维50K项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | 工作区：增强[!UICONTROL 折线图]可视化图表 | 2020 年 9 月 17 日 | <ul><li>You can show or hide the X-axis and Y-axis of any [!UICONTROL Line] visualization. 如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Analysis Workspace性能帮助页面 | 2020年10月22日 | Analysis Workspace绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。 [了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 线型可视化] :移动平均趋势线选项 | 2020年10月8日 | 移动平均值已添加到线可视化趋势线设置。 移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
@@ -277,7 +277,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 为URL和迁移集名称 *添加**了描述性验证消息*。
    * **代码重构工具**
 
-      * AIO-CLI插件支持Repository Modernizer，并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
+      * AIO-CLI插件支持Repository Modernizer并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
       * 存储库Modernizer实用程序可用于将现有项目包重构为与为AEM定义为Cloud Service的项目结构兼容的包。 请参阅 [Git资源：Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer) （存储库现代化器）。
 
 
