@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4f7fd84dcf6c1edcee352fd1c7592d1a0f36ed36
+source-git-commit: 8d32193d5e42d33f9ca087154da628fa83f607b4
 workflow-type: tm+mt
-source-wordcount: '6619'
+source-wordcount: '6611'
 ht-degree: 44%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 44%
 
 >[!NOTE]
 >
->Experience Cloud文档正在移至Experience League。 在10月份，所有发行说明、文章、视频和教程都将从其当前位置移 `docs.adobe.com` 出，并作为Experience League的一部分提供。 此移动可确保从一个位置提供所有学习、自助、支持和社区内容：Experience League。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到新位置。 我们将在切换开始时更新发行说明。
+>Experience Cloud文档正在移至Experience League。 在10月份，所有发行说明、文章、视频和教程都将从其当前位置移至 `docs.adobe.com` Experience League。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
