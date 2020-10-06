@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 554b01dd2fd709420cb046e37cc45f2f1331eb54
+source-git-commit: 51da999834b44cdbd2a5ecc7c26da652327dd3cc
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6618'
 ht-degree: 44%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 44%
 * [Document Cloud](#doc-cloud)
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
+
+>[!NOTE]
+>
+>文档正在移至Experience League。 在10月份，所有发行说明、文章、视频和教程都将从其当前位置移 `docs.adobe.com` 出，并作为Experience League的一部分提供。 此移动可确保从一个位置提供所有学习、自助、支持和社区内容：Experience League。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到新位置。 我们将在切换开始时更新发行说明。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
@@ -312,7 +316,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * **宣布提交Experience Manager功能请求的新流程**
 
-   您是否希望看到Experience Manager路线图中新增的功能？ Adobe很兴奋地宣 *布FeatureBit* —这是一个改善客户和合作伙伴向Experience Manager产品团队请求功能增强（称为RFE）的项目。 通过Experience League AEM社区 [了解更多信息。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+   您是否希望看到Experience Manager路线图中新增的功能？ Adobe很兴奋地宣 *布FeatureBit* —这是一个改善客户和合作伙伴向Experience Manager产品团队请求功能增强（称为RFE）的项目。 在Experience LeagueAEM社区 [了解更多。](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
 
 * **Experience League 上的最新 AEM 内容**
 
@@ -399,9 +403,9 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020 年 22 月 9 日 | [旅程AI —— 预测发送时间优化——视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | 了解哪些工作流需要在 Adobe Campaign 和 Journey AI 模型之间同步数据。了解如何在个人用户档案级别查看发送时间得分以及如何使用发送时间公式执行电子邮件传递。 |
-| 2020 年 22 月 9 日 | [旅程AI —— 预测性参与评分——视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 了解如何在个人用户档案级别查看参与度得分，使用得分确定目标参与用户并禁止疲劳用户，以及如何创建类型学规则来管理客户疲劳。 |
-| 2020 年 22 月 9 日 | [向对照组添加投放-视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 了解如何为您的传递定义控制组，以及如何在发送传递后提取分配给控制组的用户档案。 |
+| 2020 年 22 月 9 日 | [旅程AI —— 预测发送时间优化——视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | 了解哪些工作流需要在 Adobe Campaign 和 Journey AI 模型之间同步数据。了解如何在个人用户档案级别查看发送时间得分以及如何使用发送时间公式执行电子邮件传递。 |
+| 2020 年 22 月 9 日 | [旅程AI —— 预测性参与评分——视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 了解如何在个人用户档案级别查看参与度得分，使用得分确定目标参与用户并禁止疲劳用户，以及如何创建类型学规则来管理客户疲劳。 |
+| 2020 年 22 月 9 日 | [向对照组添加投放-视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 了解如何为您的传递定义控制组，以及如何在发送传递后提取分配给控制组的用户档案。 |
 | 2020年9月11日 | [委派子域](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 控制面板允许您将子域完全委派给 Adobe Campaign。 |
 | 2020年9月3日 | [向允许列表添加IP地址](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。默认情况下，无法从各种 IP 地址访问 Adobe Campaign Classic 实例。 |
 | 2020年9月3日 | [控制面板-添加URL权限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。默认情况下，无法从各种 IP 地址访问 Adobe Campaign Classic 实例。 |
