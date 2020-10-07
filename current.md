@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1e425034bd7ac32833d74b826562f9761b2c05d5
+source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
 workflow-type: tm+mt
-source-wordcount: '6775'
-ht-degree: 43%
+source-wordcount: '6846'
+ht-degree: 42%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 43%
 
 产品发行日期可能有所不同。请定期查看以获取最新信息。
 
-最近更新：**2020 年 10 月 2 日**
+最近更新：**2020 年 10 月 7 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （更新日期：2020年10月2日）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （更新日期：2020年10月7日）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -113,7 +113,7 @@ ht-degree: 43%
 发行日期：**2020 年 10 月 8 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 的新增功能](#cust-journey)
+* [Customer Journey Analytics 的新增功能](#cust-journey) （更新日期：2020年10月7日）
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
@@ -142,6 +142,7 @@ ht-degree: 43%
 | Analysis Workspace性能帮助页面 | 2020年10月22日 | Analysis Workspace绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。 [了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 线型可视化] :移动平均趋势线选项 | 2020年10月8日 | 移动平均值已添加到线可视化趋势线设置。 移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。 [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 删除回填限制 | 2020年10月19日 | 以前，在创建连接时最多可回填25亿行。 我们将取消回填限制，允许您回填最多13个月的数据，而不管数据大小。 |
+| 基于CJA域的拼接 | 2020 年 10 月 30 日 | 基于CJA字段的拼接使客户能够将Adobe Experience Platform数据湖中的Adobe Analytics（或其他）事件数据集从一个ID命名空间重新键入到另一个ID。 通常，这意味着将事件数据集从基于cookie的ID重新键入到基于人的ID。 这样，重新键入的数据集可以与CJA连接中的其他基于人的数据相结合，从而在Analysis Workspace实现跨设备／跨渠道分析。 |
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
