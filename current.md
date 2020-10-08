@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 40d088f169d1b0849a65ccfb42f3af8749005684
+source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
 workflow-type: tm+mt
 source-wordcount: '6879'
 ht-degree: 42%
@@ -278,7 +278,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 为URL和迁移集名称 *添加**了描述性验证消息*。
    * **代码重构工具**
 
-      * AIO-CLI插件支持Repository Modernizer，并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
+      * AIO-CLI插件支持Repository Modernizer并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
       * 存储库Modernizer实用程序可用于将现有项目包重构为与为AEM定义为Cloud Service的项目结构兼容的包。 请参阅 [Git资源：Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer) （存储库现代化器）。
 
 
