@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0eba5dbf803e9eefd45065b942fe49258c4c1d32
+source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
 workflow-type: tm+mt
-source-wordcount: '6846'
+source-wordcount: '6860'
 ht-degree: 42%
 
 ---
@@ -278,7 +278,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
       * 为URL和迁移集名称 *添加**了描述性验证消息*。
    * **代码重构工具**
 
-      * AIO-CLI插件支持Repository Modernizer并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
+      * AIO-CLI插件支持Repository Modernizer，并允许用户使用插件执行该工具。 See the [Git Resource: aio-cli-plugin-aem-cloud-service-migration](https://github.com/adobe/aio-cli-plugin-aem-cloud-service-migration) for more details.
       * 存储库Modernizer实用程序可用于将现有项目包重构为与为AEM定义为Cloud Service的项目结构兼容的包。 请参阅 [Git资源：Repository Modernizer](https://github.com/adobe/aem-cloud-service-source-migration/tree/master/packages/repository-modernizer) （存储库现代化器）。
 
 
@@ -360,6 +360,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 所有的 Experience Manager 发行说明均保留在以下页面：
 
+* [Experience Manager发布更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [AEM 云服务发行信息](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [自动化表单转换服务发行说明](https://docs.adobe.com/content/help/zh-Hans/aem-forms-automated-conversion-service/using/release-notes.html)
