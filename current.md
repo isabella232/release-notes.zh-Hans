@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 390f9884c84130f67cb494b6e30b473e122840d9
+source-git-commit: 40d088f169d1b0849a65ccfb42f3af8749005684
 workflow-type: tm+mt
-source-wordcount: '6860'
+source-wordcount: '6879'
 ht-degree: 42%
 
 ---
 
 
-# 早期访问-Adobe Experience Cloud发行说明- 2020年10月
+# Adobe Experience Cloud 发行说明 - 2020 年 10 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -21,23 +21,19 @@ ht-degree: 42%
 
 >[!IMPORTANT]
 >
->此页面包含预发行内容，在发行版之前可能会发生更改。
+>本页可能包含某些产品的预发行内容，并且在发行日期之前可能会有所更改。 请定期查看以获取最新信息。
 
 >[!NOTE]
 >
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)。
 
-**发行日期：2020 年 10 月 8 日**
-
-产品发行日期可能有所不同。请定期查看以获取最新信息。
-
-最近更新：**2020 年 10 月 7 日**
+最近更新：**2020 年 10 月 8 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) （更新日期：2020年10月7日）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -74,7 +70,7 @@ ht-degree: 42%
 
 的发行说明 [!DNL Experience Platform]。
 
-发行日期：**2020 年 9 月 9 日**
+已发布： **2020年9月9日**
 
 有关 [以下项的更新](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md) ，请参阅Experience Platform发行说明：
 
@@ -110,7 +106,7 @@ ht-degree: 42%
 
 ## ![图标](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-发行日期：**2020 年 10 月 8 日**
+发布日期：2020年10 **月8日底**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey) （更新日期：2020年10月7日）
@@ -208,7 +204,7 @@ ht-degree: 42%
 
 Audience Manager 中的新增功能、修复、文档和教程。
 
-发行日期：**2020 年 10 月 8 日**
+发布日期：2020年10 **月8日底**
 
 ### Adobe Audience Manager 中的新增功能和修复
 
@@ -234,6 +230,10 @@ Audience Manager 中的新增功能、修复、文档和教程。
 ## ![图标](/assets/aem.png) Adobe Experience Manager {#aem}
 
 Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
+
+>[!NOTE]
+>
+>Adobe建议经常 [访问Experience Manager的发布更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) ，以保持最新的发布信息。
 
 ### 产品版本
 
@@ -360,7 +360,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 所有的 Experience Manager 发行说明均保留在以下页面：
 
-* [Experience Manager发布更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
+* [Experience Manager 版本更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [AEM 云服务发行信息](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
 * [自动化表单转换服务发行说明](https://docs.adobe.com/content/help/zh-Hans/aem-forms-automated-conversion-service/using/release-notes.html)
@@ -435,7 +435,7 @@ Adobe Advertising Cloud 的发行说明。
 
 ### [!UICONTROL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-**8 月 8 日**&#x200B;发布
+发行日期：**2020 年 8 月 8 日**
 
 | 功能 | 描述 |
 | ----------- | ---------- |
