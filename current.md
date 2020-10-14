@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: October 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6870'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->本页可能包含某些产品的预发行内容，并且在发行日期之前可能会有所更改。 请定期查看以获取最新信息。
+>此页面可能包含某些产品的预发行内容，这些内容或许会在发行日期之前有所变更。请定期查看以获取最新信息。
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->Experience Cloud文档正在移至Experience League。 在10月份，所有发行说明、文章、视频和教程都将从其当前位置移至 `docs.adobe.com` Experience League。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。
+>Experience Cloud 文档正在迁移至 Experience League。在 10 月份，所有的发行说明、文章、视频和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 Experience League。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
@@ -64,13 +64,13 @@ ht-degree: 92%
 
 9 月未更新。
 
-有关 [最新版本信息，请参阅Experience Cloud服](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html) 务的累积发行说明。
+请参阅 [Experience Cloud 服务的发行说明汇总](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html)，以了解最新发行信息。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 [!DNL Experience Platform] 的发行说明。
 
-已发布： **2020年9月9日**
+发行日期：**2020 年 9 月 9 日**
 
 有关以下项的更新，请参阅 [Experience Platform 发行说明](https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html#!end-user/markdown/release-notes/release-notes.md)：
 
@@ -106,7 +106,7 @@ ht-degree: 92%
 
 ## ![图标](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-发布日期：2020年10 **月8日底**
+发行日期：截至 **2020 年 10 月 8 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey)（更新日期：2020 年 10 月 7 日）
@@ -120,7 +120,7 @@ ht-degree: 92%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
-| Adobe Analytics文档 | 2020 年 10 月 | Adobe Analytics文件正在移至Experience League。 在10月份，所有文章、视频、发行说明和教程都将从当前位置移 `docs.adobe.com` 至 `experienceleague.adobe.com`。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。 |
+| Adobe Analytics 文档 | 2020 年 10 月 | Adobe Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
 | [!UICONTROL 工作区]：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) |
 | [!UICONTROL 工作区]：增强[!UICONTROL 折线图]可视化图表 | 2020 年 9 月 17 日 | <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 工作区]：性能帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -132,13 +132,13 @@ ht-degree: 92%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 客户历程分析 文档 | 2020 年 10 月 | Customer Journey Analytics文档正在移至Experience League。 在10月份，所有文章、视频、发行说明和教程都将从当前位置移 `docs.adobe.com` 至 `experienceleague.adobe.com`。 此移动可确保从单一位置提供所有学习、自助、支持和社区内容。 发生此更改时，您无需执行任何操作，因为所有链接都将重定向到Experience League。 我们将在切换开始时更新发行说明。 |
-| [!UICONTROL 工作区]：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
+| Customer Journey Analytics 文档 | 2020 年 10 月 | Customer Journey Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
+| [!UICONTROL 工作区]：下载适合单个维度的 50,000 个项目 | 2020 年 9 月 17 日 | 您将能够在自由格式表中下载适合单个维度的 50,000 个项目，并应用区段和过滤器。这允许您访问 Analysis Workspace 以外 400 多行数据。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/curate-share/download-send.html) |
 | [!UICONTROL 工作区]：增强[!UICONTROL 折线图]可视化图表 | 2020 年 9 月 17 日 | <ul><li>可显示或隐藏任何[!UICONTROL 折线图]可视化图表的 X 轴和 Y 轴。如果想让[!UICONTROL 折线图]可视化图表显得更加紧凑，这项功能会特别有用。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加最小值和最大值标签，以便快速突出显示量度中的高峰和低谷。</li><li>您可以在任何[!UICONTROL 折线图]可视化图表上叠加不同的回归趋势线，以便更轻松地查看数据趋势。相关选项包括[!UICONTROL 线性]、[!UICONTROL 对数]、[!UICONTROL 指数]、[!UICONTROL 幂]和[!UICONTROL 二次方程式]。</li></ul> [了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-workspace/visualizations/line.html) |
 | Analysis Workspace 绩效帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | 移动平均值已添加到折线图可视化图表趋势线设置。移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 删除回填限制 | 2020 年 10 月 19 日 | 以前，在创建连接时最多可回填 25 亿行。我们将取消回填限制，允许您回填最多 13 个月的数据，而不管数据大小。 |
-| 基于CJA域的拼接 | 2020 年 10 月 30 日 | 基于CJA字段的拼接使客户能够将Adobe Experience Platform数据湖中的Adobe Analytics（或其他）事件数据集从一个ID命名空间重新键入到另一个ID。 通常，这意味着将事件数据集从基于cookie的ID重新键入到基于人的ID。 这样，重新键入的数据集可以与CJA连接中的其他基于人的数据相结合，从而在Analysis Workspace实现跨设备／跨渠道分析。 |
+| 基于 CJA 字段的拼合功能 | 2020 年 10 月 30 日 | 基于 CJA 字段的拼合功能允许客户为 Adobe Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集由面向一个 ID 命名空间的密钥重新生成面向另一个 ID 命名空间的密钥。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。 |
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
@@ -204,7 +204,7 @@ AN-205046、AN-206847、AN-209003、AN-211746、 AN-214104、AN-215367、AN-2154
 
 Audience Manager 中的新增功能、修复、文档和教程。
 
-发布日期：2020年10 **月8日底**
+发行日期：截至 **2020 年 10 月 8 日**
 
 ### Adobe Audience Manager 中的新增功能和修复
 
@@ -233,7 +233,7 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 >[!NOTE]
 >
->Adobe建议经常 [访问Experience Manager的发布更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html) ，以保持最新的发布信息。
+>Adobe 建议您经常访问 [Experience Manager 版本更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)，以保证及时了解最新发行信息。
 
 ### 产品版本
 
@@ -291,13 +291,13 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 ### 自助服务
 
-**[!DNL Experience Manager]站点**
+**[!DNL Experience Manager]Sites**
 
-富文本编辑器文档将更新为列表 [RTE中链接的所有受支持协议](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles)。
+已更新富文本编辑器文档，列出了 [RTE 中支持的所有链接协议](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html#linkstyles)。
 
-**[!DNL Experience Manager]资产**
+**[!DNL Experience Manager]Assets**
 
-* 有关AEM Assets如何供所 [有用户访问](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/accessibility.html) ，将提供新的帮助内容。
+* 提供了适用于所有用户的[如何访问 AEM Assets](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/assets/accessibility.html) 的最新帮助内容。
 
 * **[视图模式参数](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/using/search-assets.html#assetpicker)**&#x200B;会添加到资产选择器（资产选取器），以在搜索模式下打开资产选择器。要在搜索模式下打开资产选择器并与 `assettype` 和 `mimetype` 一起使用，用户需要为 `viewmode=search` 参数（在 url `https://[aem-server]:[port]/aem/assetpicker.html` 中）添加后缀。例如：`https://[aem-server]:[port]/aem/assetpicker.html?viewmode=search&assettype=images`。
 
@@ -307,13 +307,13 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * 如果用户已修改 [Apache Jackrabbit Oak TokenConfiguration](https://helpx.adobe.com/experience-manager/kb/How-to-set-token-session-expiration-AEM.html)，将超时配置设置为小于上传资产所花费的时间，则用户可能会遇到会话超时情况。因此，用户需要更改 `chunkUploadMinFileSize` 和 `chunksize`，以便每个区块请求都会刷新会话。有关更多信息，请参阅[上传资产](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/managing/managing-assets-touch-ui.html#uploading-assets)。
 
-* 资产可以[使用拖动操作移入同级文件夹中](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets)，以及使用[!UICONTROL 移动 (m)] 操作来移动，该操作会打开[!UICONTROL 移动资产]向导。
+* 除了使用[!UICONTROL 移动]操作来打开[!UICONTROL 移动资产]向导之外，还可以[使用拖动操作将资产移入同级文件夹](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets)。
 
-* 对于资产分析，请使用 [Adobe启动](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。 [DTM集成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html) 在文档中作为已弃用的方法调用。
+* 对于 Assets Insights，请使用 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。[DTM 集成](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)是作为文档中一个弃用的方法而存在。
 
 **[!DNL Adobe Experience Manager]桌面应用程序**
 
-* Users logging in to desktop app after logging out or logging in for the first time should provide their [!DNL Experience Manager] server URL in the format `https://[aem-server-url]:[port]/` and then select [!UICONTROL Connect] option, to avoid the error &quot;The application encountered an unknown error&quot;. 有关更多信息，请参阅[使用 Adobe Experience Manager 桌面应用程序](https://docs.adobe.com/content/help/zh-Hans/experience-manager-desktop-app/using/using.html)。
+* 如果用户在注销后又登录桌面应用程序，或者首次登录桌面应用程序，则应当提供其 [!DNL Experience Manager] 服务器 URL 并且该 URL 应采用 `https://[aem-server-url]:[port]/` 格式，然后选择[!UICONTROL 连接]选项，以此来避免出现错误“应用程序遇到未知错误”。有关更多信息，请参阅[使用 Adobe Experience Manager 桌面应用程序](https://docs.adobe.com/content/help/zh-Hans/experience-manager-desktop-app/using/using.html)。
 
 ### 社区
 
@@ -409,7 +409,7 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 | ----------- | ----------- | ---------- | ---------- |
 | 2020 年 9 月 22 日 | [Journey AI - 预测性发送时间优化 - 视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html) | Campaign Standard | 了解哪些工作流需要在 Adobe Campaign 和 Journey AI 模型之间同步数据。了解如何在个人用户档案级别查看发送时间得分以及如何使用发送时间公式执行电子邮件传递。 |
 | 2020 年 9 月 22 日 | [Journey AI - 预测性参与度评分 - 视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html) | Campaign Standard | 了解如何在个人用户档案级别查看参与度得分，使用得分确定目标参与用户并禁止疲劳用户，以及如何创建类型学规则来管理客户疲劳。 |
-| 2020 年 9 月 22 日 | [向对照组添加投放-视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 了解如何为您的传递定义控制组，以及如何在发送传递后提取分配给控制组的用户档案。 |
+| 2020 年 9 月 22 日 | [向 delivery 添加 control group - 视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html) | Campaign Standard | 了解如何为您的 delivery 定义 control group，以及如何在发送 delivery 后提取分配给 control group 的用户档案。 |
 | 2020 年 9 月 11 日 | [委派子域](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/tutorials/administrating/control-panel-acc/subdomain-delegation.html) | Campaign Classic | Adobe Campaign 控制面板允许您将子域完全委派给 Adobe Campaign。 |
 | 2020 年 9 月 3 日 | [向允许列表添加 IP 地址](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/tutorials/administrating/control-panel-acc/ip-allow-listing.html) | Campaign Classic | 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。默认情况下，无法从各种 IP 地址访问 Adobe Campaign Classic 实例。 |
 | 2020 年 9 月 3 日 | [控制面板 - 添加 URL 权限](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/adding-url-permissions.html) | Campaign Classic | 控制面板允许您通过将 IP 地址范围添加到允许列表来设置与实例的新连接。默认情况下，无法从各种 IP 地址访问 Adobe Campaign Classic 实例。 |
