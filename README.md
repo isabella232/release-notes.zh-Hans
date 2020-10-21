@@ -1,9 +1,16 @@
 ---
-source-git-commit: d97a18edd04952f15a93be3197cf707c3de729d0
+source-git-commit: f15603c29aa5f6df6eb7dc630ca72cc4e8292caa
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '529'
+ht-degree: 80%
 
 ---
 # 贡献文章
+
+| EXL-PR | EXL | 预览 | 激活 | 发布日期 | 帮助 |
+|--- |--- |--- |--- |--- |--- |
+| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_exl/lastBuild/lastBuild) | [预览URL](https://experienceleague.corp.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时URL](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 我们欢迎社区成员以及文档团队以外的 Adobe 员工积极贡献文章。
 
@@ -20,7 +27,7 @@ translation-type: tm+mt
 
 ### 次要更改
 
-如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的 **编辑** 链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
+如果您出于善意而想要对文章进行次要更新，请访问文章，并单击文章中的&#x200B;**编辑**&#x200B;链接以转到文章所对应的 GitHub 源。然后，只需使用 GitHub UI 即可进行更新。有关更多信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)。
 
 您对本存储库中文档和代码示例提交的细微更正或说明均受 Adobe 使用条款的约束。
 
@@ -47,7 +54,7 @@ If you submit a pull request with significant changes to documentation and code 
 此存储库中的所有文章都使用 GitHub Flavored Markdown。如果您不熟悉 Markdown，请参阅：
 
 * [Markdown 基础知识](https://help.github.com/articles/markdown-basics/)
-* [可打印 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [可打印的 Markdown 速查表](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 标签
 
