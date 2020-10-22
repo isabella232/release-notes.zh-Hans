@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: a2db056a8aebdd0db0a9526b667c29b52a806b41
+source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
 workflow-type: tm+mt
-source-wordcount: '6870'
-ht-degree: 100%
+source-wordcount: '6828'
+ht-degree: 97%
 
 ---
 
@@ -427,21 +427,24 @@ Adobe Advertising Cloud 的发行说明。
 * [Advertising Cloud DSP 中的新增功能](#adcloud-dsp)
 * [Advertising Cloud Search 中的新增功能](#adcloud-search)
 
-### [!UICONTROL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp}
+### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 中的新功能
+
+发行日期：2020 年 10 月 15 日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 扩展了交互式前置式广告以包含 VAST 库存 | 现在，每个交互式前置式投放和广告都可同时支持 VPAID 和 VAST 库存。**注意：**&#x200B;如果您的主 KPI 是广告可见度，请继续创建单独的 VPAID 和 VAST 投放和广告，因为可见展示次数不适用于 VAST 广告。 |
+| 私有库存 | 所有用户现在都可以使用新的交易ID表单设置和编辑交易ID详细信息，该表单是旧版智能广告服务表单的 [!UICONTROL 简化版本] 。 要设置新的交易ID详细信息，请转至“ **[!UICONTROL 库存”>“交易]**”，单 **[!UICONTROL 击创建]**，然后单击“交 **[!UICONTROL 易ID测试版]**”。 |
+| 置入预测 | 对于具有位置级调节的位置，位 [!UICONTROL 置设置的] “预测”部分包括新的“ [!UICONTROL 估计最大值] ”部分，该部分指示当前定位配置中可用的容量。 |
 
-### [!UICONTROL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
+### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新功能
 
-发行日期：**2020 年 8 月 8 日**
+发行日期：2020 年 10 月 17 日
 
 | 功能 | 描述 |
-| ----------- | ---------- |
-| [!UICONTROL 组合] | 组合级别位置限制在组合设置中不再可用。已删除之前创建的任何位置限制。 |
-| [!UICONTROL 约束] | 不再支持基于位置的约束和约束条件：<br/> <ul><li>不再提供[!UICONTROL 最小位置]和[!UICONTROL 最大位置]约束，并且这些约束已经从之前创建的所有[!UICONTROL 竞价和位置]约束以及 [!UICONTROL 印象共享]约束中删除。</li><li>包含[!UICONTROL 位置约束]但未暂停任何竞价约束的现有竞价和位置约束，仍可在 UI 和报表中使用。</li><li>[!UICONTROL 竞价和位置]约束已重命名为[!UICONTROL 竞价]约束。</li><li>已删除任何类型约束中所有基于位置的条件（使用[!UICONTROL 平均位置]、[!UICONTROL 加权平均位置]或[!UICONTROL 最后已知位置]量度）。</li></ul> <br/> **注意：**&#x200B;只要可以从搜索引擎获得位置数据，就能继续填充位置数据。Microsoft Ads 将于 2020 年 9 月停用。 |
-| [!UICONTROL 促销活动] | （Google Ads 促销活动）Advertising Coud Search 当前在响应式搜索广告 (RSA) 中支持广告定制器。以前，除 RSA 之外，所有广告类型都支持广告定制器。 |
+| -----------| ---------- |
+| 搜索促销活动 | 在“帐 [!UICONTROL 户] ”视图中，“ [!UICONTROL 访问] ”列现在指 [!DNL Advertising Cloud Search] 示何时无法登录已启用的搜索引擎帐户。 要查看错误的原因，请将光标悬停在警告图标上。 |
+| [!UICONTROL 自定义警报] | 以前的警 [!UICONTROL 报测试版] ，现在称为自 [!UICONTROL 定义警报]。 |
+|  | 在自定义警报中，用于识别指定日期范围的度量何时从上一个期间的度量增加或减少的工作流被简化并移至 [!UICONTROL 过滤器] 选项卡。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
