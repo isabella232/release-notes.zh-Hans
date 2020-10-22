@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e3cd66e2ec665be1583b0a3ee3aaba05462c8407
+source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
 workflow-type: tm+mt
-source-wordcount: '6828'
-ht-degree: 97%
+source-wordcount: '6918'
+ht-degree: 96%
 
 ---
 
@@ -204,9 +204,15 @@ AN-205046、AN-206847、AN-209003、AN-211746、 AN-214104、AN-215367、AN-2154
 
 Audience Manager 中的新增功能、修复、文档和教程。
 
-发行日期：截至 **2020 年 10 月 8 日**
+更新日期：**2020 年 10 月 22 日**
 
-### Adobe Audience Manager 中的新增功能和修复
+### Audience Manager 中的新增功能、增强功能和修复 {#aam-features}
+
+| 功能 | 添加或更新日期 | 描述 |
+|----|----|----|
+| [预测受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020 年 10 月 21 日 | <ul><li>**预测受众模型克隆**:您现在可以克隆现有模型并根据需要更改其配置。 阅读 [仿制和编辑预测受众模型](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) ，了解更多信息。</li><li>**预测受众批分类**:除了实时将不同角色的访客分类外，Predictive受众现在还支持批量分类，帮助您对已载入的用户进行分类并激活到批量目标。</li></ul> |
+
+### 修复和改进 {#aam-fixes-and-improvements}
 
 * 修复了 Audience Manager REST API 的一个问题，该问题导致在请求中筛选特征时，特征端点不返回跨设备量度。(AAM-55878)
 * 修复了基于人员的目标中的问题，该问题导致 Facebook 集成访问令牌到期提醒电子邮件未发送给正确收件人。(AAM-56215)
