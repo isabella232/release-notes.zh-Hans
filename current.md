@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: October 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: e2e01fa323e54614f8b5719252e672183dbb006d
+source-git-commit: c1750aa7321e0eb6b929119f5c22101772af5a68
 workflow-type: tm+mt
-source-wordcount: '6918'
-ht-degree: 96%
+source-wordcount: '7000'
+ht-degree: 97%
 
 ---
 
@@ -204,13 +204,14 @@ AN-205046、AN-206847、AN-209003、AN-211746、 AN-214104、AN-215367、AN-2154
 
 Audience Manager 中的新增功能、修复、文档和教程。
 
-更新日期：**2020 年 10 月 22 日**
+更新日期：**2020 年 10 月 23 日**
 
 ### Audience Manager 中的新增功能、增强功能和修复 {#aam-features}
 
 | 功能 | 添加或更新日期 | 描述 |
 |----|----|----|
 | [预测受众](https://docs.adobe.com/content/help/zh-Hans/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences.html) | 2020 年 10 月 21 日 | <ul><li>**预测受众模型克隆**:您现在可以克隆现有模型并根据需要更改其配置。 阅读 [仿制和编辑预测受众模型](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/algorithmic-models/predictive-audiences/predictive-audiences-start.html#clone-predictive-audiences) ，了解更多信息。</li><li>**预测受众批分类**:除了实时将不同角色的访客分类外，Predictive受众现在还支持批量分类，帮助您对已载入的用户进行分类并激活到批量目标。</li></ul> |
+| [重叠报告](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/dynamic-reports.html) | 2020 年 10 月 23 日 | 我们更新了用于计算重叠报表([特征到特征](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/trait-trait-overlap-report.html)[、区段到特征、](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-trait-overlap-report.html)区段到区段)的方法 [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/interactive-and-overlap-reports/segment-segment-overlap-report.html)。 重叠报表计算现在基于报告唯一值和MinHash签名(而 [不是1/54数据采样](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reporting/report-sampling.html#data-sampling-ratio))。 |
 
 ### 修复和改进 {#aam-fixes-and-improvements}
 
@@ -433,24 +434,24 @@ Adobe Advertising Cloud 的发行说明。
 * [Advertising Cloud DSP 中的新增功能](#adcloud-dsp)
 * [Advertising Cloud Search 中的新增功能](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 中的新功能
+### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 中的新增功能
 
 发行日期：2020 年 10 月 15 日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 私有库存 | 所有用户现在都可以使用新的交易ID表单设置和编辑交易ID详细信息，该表单是旧版智能广告服务表单的 [!UICONTROL 简化版本] 。 要设置新的交易ID详细信息，请转至“ **[!UICONTROL 库存”>“交易]**”，单 **[!UICONTROL 击创建]**，然后单击“交 **[!UICONTROL 易ID测试版]**”。 |
-| 置入预测 | 对于具有位置级调节的位置，位 [!UICONTROL 置设置的] “预测”部分包括新的“ [!UICONTROL 估计最大值] ”部分，该部分指示当前定位配置中可用的容量。 |
+| 专用内容库 | 如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版[!UICONTROL 智能广告投放]表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
+| 投放预测 | 在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
 
-### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新功能
+### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新增功能
 
 发行日期：2020 年 10 月 17 日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 搜索促销活动 | 在“帐 [!UICONTROL 户] ”视图中，“ [!UICONTROL 访问] ”列现在指 [!DNL Advertising Cloud Search] 示何时无法登录已启用的搜索引擎帐户。 要查看错误的原因，请将光标悬停在警告图标上。 |
-| [!UICONTROL 自定义警报] | 以前的警 [!UICONTROL 报测试版] ，现在称为自 [!UICONTROL 定义警报]。 |
-|  | 在自定义警报中，用于识别指定日期范围的度量何时从上一个期间的度量增加或减少的工作流被简化并移至 [!UICONTROL 过滤器] 选项卡。 |
+| 搜索促销活动 | 如今，[!UICONTROL 帐户]视图的[!UICONTROL 访问]列可指明 [!DNL Advertising Cloud Search] 何时无法登录到已启用搜索引擎的帐户。要了解错误原因，请将光标悬停在警告图标上。 |
+| [!UICONTROL 自定义警报] | 此前的[!UICONTROL 测试版警报]现已更名为[!UICONTROL 自定义警报]。 |
+|  | 在自定义警报中，我们简化了下面的工作流程并将其移至[!UICONTROL 过滤器]选项卡：用来确定与上一期间的量度相比，指定日期范围的量度何时发生增减。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
