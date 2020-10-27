@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: dba5bf9afced03536adb857f879bd1df349ebbbc
+source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
 workflow-type: tm+mt
-source-wordcount: '6960'
-ht-degree: 70%
+source-wordcount: '7024'
+ht-degree: 69%
 
 ---
 
@@ -338,6 +338,7 @@ Updated: **October 21, 2020**
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 27 日 | [AEM文档 Security Extension for Microsoft Office简介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager文档Security Extension for Microsoft Office确保只有经您授权的人员才能使用包含您的知识产权的Word、Excel和PowerPoint文件。 通过使用Microsoft Office的文档安全扩展，可以对文件应用预定义的机密性设置。 |
 | 2020 年 10 月 7 日 | [视图页面指标(Adobe Analytics)](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 文章 | 了解如何将从Adobe Experience Manager站点捕获的数据映射到Adobe Analytics报告套件中的指标和维度。 |
 | 2020 年 10 月 8 日 | [全网页体验的个性化](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 视频 | 了解如何创建活动，使用Adobe Target将托管在AEM上的站点页面重定向到新页面。 |
 | 2020 年 10 月 8 日 | [使用视觉体验书写器实现个性化](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-using-vec.html) | 视频 | 了解如何使用Visual Experience Composer(VEC)创建A/B测试目标活动。 |
