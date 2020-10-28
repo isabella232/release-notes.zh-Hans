@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
+source-git-commit: f16817c423635f6996dd729fe9e07e7d7e63fd06
 workflow-type: tm+mt
-source-wordcount: '7148'
-ht-degree: 68%
+source-wordcount: '7324'
+ht-degree: 67%
 
 ---
 
@@ -203,6 +203,10 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 28 日 | [了解特征图中的数字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 视频 | 获取有关在特征信息屏幕中了解所报告的特征数的提示。 |
+| 2020 年 10 月 23 日 | [从分析数据创建规划特征](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 视频 | 学习一些技巧和窍门，帮助您在计划将Adobe Analytics数据用于Audience Manager的特征时。 |
+| 2020 年 10 月 23 日 | [创建特征时选择数据源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 视频 | 创建特征时要填写的重要字段之一是“数据源”字段。 获取有关为基于规则和载入的特征选择正确数据源的提示。 |
+| 2020 年 9 月 14 日 | [使用代码视图创建和编辑特征](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | 视频 | 了解如何在创建新特征或编辑现有特征时使用代码视图。 设置特征视图时，代码表达式是表达式生成器的替代方法。 |
 | 2020 年 10 月 10 日 | [了解预测受众](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | 视频 | 在此视频中，我们将讨论什么是Audience Manager预测受众，展示其工作方式的详细信息并指出使用案例。 |
 
 ## ![图标](/assets/aem.png) Adobe Experience Manager {#aem}
