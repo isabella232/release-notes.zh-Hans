@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 57c246240dfafcb30b791a4bbc0ba3b05774dd0c
+source-git-commit: 244301cf84111e61d3566fff5e515ee0960904c0
 workflow-type: tm+mt
-source-wordcount: '7479'
-ht-degree: 65%
+source-wordcount: '7549'
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 65%
 * [Audience Manager](#aam)
 * [Experience Manager](#aem) (Updated: **10/28/2020**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud)
+* [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
 * [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -458,16 +458,18 @@ Adobe Advertising Cloud 的发行说明。
 
 ### [!DNL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp} 
 
-发行日期：2020 年 10 月 15 日
+更新：2020年10月28日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 专用内容库 | 如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版[!UICONTROL 智能广告投放]表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
-| 投放预测 | 在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
+| 新建 帮助 | （10月28日版）旧版帮助已替换为更新的页面，这些页面可从DSP主菜单的“帮助”链接获取，也可随时从https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html获 [取](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) |
+| 促销活动 | （10月28日版）以前的活动测试版视图现在是默认活动视图，用于更快地进行分析、简化工作流和自定义视图。 |
+| 专用内容库 | (October 15 release) All users can now set up and edit deal ID details using a new deal ID form, which is a simplified version of the legacy [!UICONTROL Smart Ad Serving] form. 要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
+| 投放预测 | (October 15 release) For placements with placement-level pacing, the [!UICONTROL Forecast] section of the placement settings includes a new [!UICONTROL Estimated Maximums] section, which indicates how much more capacity is available with the current targeting configuration. |
 
-### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
+### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search} 
 
-发行日期：2020 年 10 月 17 日
+发行日期：**2020 年 10 月 17 日**
 
 | 功能 | 描述 |
 | -----------| ---------- |
