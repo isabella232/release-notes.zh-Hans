@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 114222b4df9fd72691065a9a1cdf7bc1e7f95a5d
+source-git-commit: 57c246240dfafcb30b791a4bbc0ba3b05774dd0c
 workflow-type: tm+mt
-source-wordcount: '7353'
-ht-degree: 66%
+source-wordcount: '7479'
+ht-degree: 65%
 
 ---
 
@@ -83,6 +83,7 @@ ht-degree: 66%
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 26 日 | [Offer Decisioning 简介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 视频 | 此视频概述了 Offer Decisioning，它是一项基于 Adobe Experience Platform 构建的应用程序服务。该视频涵盖Offer Decisioning解决的业务挑战、其关键功能、基本架构以及主要使用案例。 |
 | 2020 年 9 月 14 日 | [Attribution AI 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 视频 | [!UICONTROL Attribution AI] 作为 [!UICONTROL Intelligent Services] 的一部分，是一种多渠道的算法归因服务，它计算客户交互对特定结果的影响和增量影响。利用 [!UICONTROL Attribution AI]，营销人员可以通过了解客户旅程各个阶段每个客户互动的影响来衡量和优化营销和广告支出。 |
 | 2020 年 9 月 14 日 | [客户人工智能的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 视频 | 此视频展示了[!UICONTROL 客户人工智能]如何通过基于人工智能的倾向性来丰富客户档案，并支持客户细分和定位工作。 |
 | 2020 年 9 月 14 日 | [Platform 和 Magento 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 视频 | 此视频显示 Adobe Experience Platform可与 [!DNL Magento] Commerce 一起使用来创建客户的单一视图，并在数字店面和各个渠道上智能地个性化体验。 |
@@ -437,6 +438,8 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | ----------- | ----------- | ---------- | ---------- |
+| 2020 年 10 月 19 日 | [控制面板-向允许列表添加IP范围](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中向允许列表添加IP地址范围。 |
+| 2020 年 10 月 19 日 | [控制面板-向允许列表添加IP范围](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加IP地址范围。 |
 | 2020 年 10 月 16 日 | [控制面板-使用CNAME委派子域（测试版）-功能视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 了解如何使用控制面板中的CNAME设置和提交子域。 |
 | 2020 年 10 月 16 日 | [控制面板-使用CNAME委派子域（测试版）-功能视频](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 了解如何使用控制面板中的CNAME设置和提交子域。 |
 
