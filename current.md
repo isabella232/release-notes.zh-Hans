@@ -440,7 +440,7 @@ Adobe Advertising Cloud 的发行说明。
 * [Advertising Cloud DSP 中的新增功能](#adcloud-dsp)
 * [Advertising Cloud Search 中的新增功能](#adcloud-search)
 
-### [!DNL Advertising Cloud DSP] {#adcloud-dsp} 中的新增功能
+### [!DNL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp} 
 
 发行日期：2020 年 10 月 15 日
 
@@ -449,7 +449,7 @@ Adobe Advertising Cloud 的发行说明。
 | 专用内容库 | 如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版[!UICONTROL 智能广告投放]表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
 | 投放预测 | 在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
 
-### [!DNL Advertising Cloud Search] {#adcloud-search} 中的新增功能
+### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
 发行日期：2020 年 10 月 17 日
 
