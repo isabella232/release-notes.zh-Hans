@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3b533d52ae98c930c3e9af7470825d659ec9b0fe
+source-git-commit: 08f91c514f5ab3cef7b7a1b862260090892e8144
 workflow-type: tm+mt
-source-wordcount: '7024'
-ht-degree: 69%
+source-wordcount: '7148'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 69%
 >
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)。
 
-最近更新：**2020 年 10 月 23 日**
+最近更新：**2020 年 10 月 28 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 服务和管理](#ecloud)
@@ -35,7 +35,7 @@ ht-degree: 69%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：2020 年 10 月 22 日）
 * [Audience Manager](#aam)
-* [Experience Manager](#aem)
+* [Experience Manager](#aem) (Updated: **10/28/2020**)
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
@@ -290,6 +290,15 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 * 除了使用[!UICONTROL 移动]操作来打开[!UICONTROL 移动资产]向导之外，还可以[使用拖动操作将资产移入同级文件夹](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/managing/managing-assets-touch-ui.html#moving-or-renaming-assets)。
 
 * 对于 Assets Insights，请使用 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。[DTM 集成](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)是作为文档中一个弃用的方法而存在。
+
+Updated: **10/28/2020**
+
+* **Brand Portal增强功能**:以下新增功能及更多功能可在以下网页中找到 [!DNL Brand Portal]:
+
+   * [增强的下载体验](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) ，简化、快速下载。 管理员可以配置其他下载配置，以优惠适合用户和企业需求的体验。
+   * 现在，可以从任何页 [!UICONTROL 面一键][导航到](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)“文件”、 [!UICONTROL “集合] ”和“共享链接”。
+   * 用户现 [在可以选择和下载特定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) 再现。 新的演绎版下载选项位于资产详细 [!UICONTROL 信息] 页面的演绎版面板中。
+   * 来宾用户会话超时15分钟可确保为所有并发用户提供更好的体验。
 
 ### [!DNL Experience Manager] 表单
 
