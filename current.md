@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
+source-git-commit: 48d79544adc9225c086b7574d522622df084623b
 workflow-type: tm+mt
-source-wordcount: '7670'
+source-wordcount: '7634'
 ht-degree: 63%
 
 ---
@@ -127,7 +127,6 @@ ht-degree: 63%
 | [!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | 移动平均值已添加到折线图可视化图表趋势线设置。移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 删除回填限制 | 2020 年 10 月 19 日 | 为了提供改进的CJA体验，我们删除了回填（历史数据导入）限制。 以前，您最多可以自行回填25亿行，否则需要工程参与。 现在，您可以自行回填数据，但不受任何限制。 [了解更多](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 绩效帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| “组件”>“添加到CJA工作区的用户首选项” | 2020 年 10 月 29 日 | 通过“组件”>“用户首选项”页面，您可以管理用户的Analysis Workspace设置（及其相关组件）。 目前，这包括千位分隔符和CSV分隔符。 |
 | 旅程IQ:跨渠道分析 | 2020 年 10 月 30 日 | 旅程IQ:跨渠道分析使客户能够将Adobe Experience Platform数据湖中的Adobe Analytics（或其他）事件数据集从一个ID命名空间重新键入到另一个ID。 通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。 |
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
