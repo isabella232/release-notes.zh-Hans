@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 244301cf84111e61d3566fff5e515ee0960904c0
+source-git-commit: b21c2213d13cf58dded026bce77abd58ee038f1f
 workflow-type: tm+mt
-source-wordcount: '7549'
-ht-degree: 64%
+source-wordcount: '7670'
+ht-degree: 63%
 
 ---
 
@@ -83,7 +83,8 @@ ht-degree: 64%
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 10 月 26 日 | [Offer Decisioning 简介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 视频 | 此视频概述了 Offer Decisioning，它是一项基于 Adobe Experience Platform 构建的应用程序服务。该视频涵盖Offer Decisioning解决的业务挑战、其关键功能、基本架构以及主要使用案例。 |
+| 2020 年 10 月 26 日 | [Offer Decisioning 简介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 视频 | This video gives an overview of [!UICONTROL Offer Decisioning], an application service built on top of Adobe Experience Platform. 该视频涵盖了Offer Decisioning解 [!UICONTROL 决的业] 务挑战、其关键功能、基本架构和主要使用案例。 |
+| 2020 年 10 月 29 日 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | 视频 | Learn how brands can use Adobe’s new [!UICONTROL Offer Decisioning] service to define and manage their offers,leverage real-time customer data, and deliver the right experiences their customers expect. |
 | 2020 年 9 月 14 日 | [Attribution AI 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 视频 | [!UICONTROL Attribution AI] 作为 [!UICONTROL Intelligent Services] 的一部分，是一种多渠道的算法归因服务，它计算客户交互对特定结果的影响和增量影响。利用 [!UICONTROL Attribution AI]，营销人员可以通过了解客户旅程各个阶段每个客户互动的影响来衡量和优化营销和广告支出。 |
 | 2020 年 9 月 14 日 | [客户人工智能的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 视频 | 此视频展示了[!UICONTROL 客户人工智能]如何通过基于人工智能的倾向性来丰富客户档案，并支持客户细分和定位工作。 |
 | 2020 年 9 月 14 日 | [Platform 和 Magento 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 视频 | 此视频显示 Adobe Experience Platform可与 [!DNL Magento] Commerce 一起使用来创建客户的单一视图，并在数字店面和各个渠道上智能地个性化体验。 |
@@ -112,7 +113,7 @@ ht-degree: 64%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
-| Adobe Analytics 文档 | 2020年10月/11月 | Adobe Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
+| Adobe Analytics 文档 | 10月/11月 2020 | Adobe Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
 | [!UICONTROL 工作区][!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | Moving average has been added to [!UICONTROL Line] visualization trendline settings. 移动平均值也称为滚动平均值，它使用特定数量的数据点（由[!UICONTROL 周期]选择确定)，对其求平均值，并将平均值用作折线中的点。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | [!UICONTROL 数据修复] API | 2020 年 10 月 8 日 | [!UICONTROL 数据修复] API是一种从 Analytics 报表包中删除数据的工具。The October release includes the ability to delete specified eVars, props, and [!UICONTROL Activity Map] variables for a specified date range. 将来将发布其他功能。Use of the [!UICONTROL Data Repair] API permanently deletes existing Adobe Analytics data. 我们建议采取谨慎的方法执行修复，以最大限度地减少意外删除。Access to the [!UICONTROL Data Repair] API requires a contract - reach out to your account team for more details. [了解更多](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) |
 | [!UICONTROL 工作区]：性能帮助页面 | 2020 年 10 月 22 日 | The [!UICONTROL Analysis Workspace] performance help page shows the different factors that impact project performance and links to tips for optimization. [了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
@@ -122,11 +123,11 @@ ht-degree: 64%
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| Customer Journey Analytics 文档 | 2020年10月/11月 | Customer Journey Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
+| Customer Journey Analytics 文档 | 10月/11月 2020 | Customer Journey Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
 | [!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | 移动平均值已添加到折线图可视化图表趋势线设置。移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 删除回填限制 | 2020 年 10 月 19 日 | 为了提供改进的CJA体验，我们删除了回填（历史数据导入）限制。 以前，您最多可以自行回填25亿行，否则需要工程参与。 现在，您可以自行回填数据，但不受任何限制。 [了解更多](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 绩效帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 绩效帮助页面显示影响项目绩效的不同因素以及优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
-| “组件”>“添加到CJA工作区的用户首选项” | 10月29日。 2020 | 通过“组件”>“用户首选项”页面，您可以管理用户的Analysis Workspace设置（及其相关组件）。 目前，这包括千位分隔符和CSV分隔符。 |
+| “组件”>“添加到CJA工作区的用户首选项” | 2020 年 10 月 29 日 | 通过“组件”>“用户首选项”页面，您可以管理用户的Analysis Workspace设置（及其相关组件）。 目前，这包括千位分隔符和CSV分隔符。 |
 | 旅程IQ:跨渠道分析 | 2020 年 10 月 30 日 | 旅程IQ:跨渠道分析使客户能够将Adobe Experience Platform数据湖中的Adobe Analytics（或其他）事件数据集从一个ID命名空间重新键入到另一个ID。 通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。 |
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
@@ -153,10 +154,10 @@ AN-224702;AN-232791;AN-233982;AN-234384;AN-235608;AN-236538;AN-236598;AN-236738;
 | ----------- | ---------- | ---------- |
 | 将 HSTS 头添加到所有传入的 HTTPS 请求 | 2020 年 9 月 29 日 | 2020 年 9 月 29 日，我们开始向所有使用 HTTPS 的传入请求添加 HSTS 头。这会指示浏览器/客户端在以后使用 HTTPS 发出所有请求，这被视为最佳安全实践。目前，我们不会对使用 HTTP 的传入请求强制执行此操作。 |
 | 更改为 Experience Cloud ID 服务 Cookie 设置 | 2020 年 9 月 22 日 | Chrome 版本 80 隐私设置的更新，影响了 Adobe Analytics 跟踪某些查看 Google AMP 页面的用户的能力。具体而言，这项更新阻止跨域跟踪那些查看 Google 托管的 AMP 页面的用户。结果可能会导致独特访客数量激增。修复方法：用户可通过更改其 ECID Cookie 的设置来解决此问题。<br>目前，Analytics 在设置 Experience Cloud ID 服务 (ECID) Cookie 时，使用的是 Chrome 版本 80 之前允许跨域跟踪的设置`SameSite = Lax`。现在情况已发生了变化。此项更改允许用户将 ECID Cookie 的 SameSite 设置更新为 `None`。<br>请注意，它允许在更多的情况下共享 Analytics Cookie，但 Analytics Cookie 不包含敏感信息。此外，在选择这项设置时，必须将 Cookie 设置为 `Secure`，以便数据只能通过 HTTPS 连接进行传递。如果您要进行这项更改，请让受支持的用户通过客户关怀部门开具相关票证。 |
-| 从 `omniture.com` 域迁移至 `adobe.com` 域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 将其前端架构从 `omniture.com|http://omniture.com/` 域迁移至 `adobe.com|http://adobe.com/` 域。这项变更可以缓解自 2020 年 5 月 28 日首次统一产品域更改以来引发的第三方 Cookie 问题。作为本次更新的结果，浏览器可能会提示用户信任这个新的 `.adobe.com|http://an.adobe.com/` 域或 `experience.adobe.com|http://experience.adobe.com/` 域。 |
-| 关于 Ad Hoc Analysis 与 Java 8 兼容性的最新信息 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前与 Java 8 版本 1.8.0_261+ 不兼容。为了确保能够在这个工具[生命周期终止日期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)之前持续访问该工具，我们建议您安装版本低于 1.8.0_261 的 Java 8。 |
+| 从 `omniture.com` 域迁移至 `adobe.com` 域 | 2020年8月21日 | 2020 年 8 月 13 日，Adobe Analytics 将其前端架构从 `omniture.com|http://omniture.com/` 域迁移至 `adobe.com|http://adobe.com/` 域。这项变更可以缓解自 2020 年 5 月 28 日首次统一产品域更改以来引发的第三方 Cookie 问题。作为本次更新的结果，浏览器可能会提示用户信任这个新的 `.adobe.com|http://an.adobe.com/` 域或 `experience.adobe.com|http://experience.adobe.com/` 域。 |
+| 关于 Ad Hoc Analysis 与 Java 8 兼容性的最新信息 | 2020年8月21日 | Ad Hoc Analysis 目前与 Java 8 版本 1.8.0_261+ 不兼容。为了确保能够在这个工具[生命周期终止日期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)之前持续访问该工具，我们建议您安装版本低于 1.8.0_261 的 Java 8。 |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。我们在 [Adobe Exchange 合作伙伴项目](https://partners.adobe.com/exchangeprogram/experiencecloud)中采用了一个新标准，任何希望继续提供和支持的集成应采用此标准。正式的生命周期终止日期仍有待确定，但我们预计将会在未来 12-18 个月（2021 年中至 2021 年底）后终止。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/data-connectors-eol.html) |
-| Ad Hoc Analysis 生命周期终止 | 2018 年 8 月 6 日 | Adobe于2021年3月1日宣布打算终止Ad Hoc Analysis。 有关更多信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| Ad Hoc Analysis 生命周期终止 | 2018年8月6日 | Adobe于2021年3月1日宣布打算终止Ad Hoc Analysis。 有关更多信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 
 ### AppMeasurement {#appm}
 
@@ -204,6 +205,7 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 29 日 | [了解特征图中的数字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 视频 | 获取有关在特征信息屏幕中了解所报告的特征数的提示。 |
 | 2020 年 10 月 28 日 | [了解特征图中的数字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 视频 | 获取有关在特征信息屏幕中了解所报告的特征数的提示。 |
 | 2020 年 10 月 23 日 | [从分析数据创建规划特征](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 视频 | 学习一些技巧和窍门，帮助您在计划将Adobe Analytics数据用于Audience Manager的特征时。 |
 | 2020 年 10 月 23 日 | [创建特征时选择数据源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 视频 | 创建特征时要填写的重要字段之一是“数据源”字段。 获取有关为基于规则和载入的特征选择正确数据源的提示。 |
@@ -352,6 +354,7 @@ Updated: **October 21, 2020**
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 28 日 | [视频智能标记](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 视频 | Experience Manager资产利用Adobe Sensei智能地使用描述视频关键元素的关键字标记视频资产，从而允许AEM用户使用关键字搜索轻松发现这些元素。 |
 | 2020 年 10 月 27 日 | [AEM文档 Security Extension for Microsoft Office简介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager文档Security Extension for Microsoft Office确保只有经您授权的人员才能使用包含您的知识产权的Word、Excel和PowerPoint文件。 通过使用Microsoft Office的文档安全扩展，可以对文件应用预定义的机密性设置。 |
 | 2020 年 10 月 7 日 | [视图页面指标(Adobe Analytics)](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 文章 | 了解如何将从Adobe Experience Manager站点捕获的数据映射到Adobe Analytics报告套件中的指标和维度。 |
 | 2020 年 10 月 8 日 | [全网页体验的个性化](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 视频 | 了解如何创建活动，使用Adobe Target将托管在AEM上的站点页面重定向到新页面。 |
