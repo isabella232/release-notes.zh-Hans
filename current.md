@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1dec5a72cc3a6c3592544ab198516f6253f5c50a
+source-git-commit: 5050a05473619e75107b0874d592322ee5a70d44
 workflow-type: tm+mt
-source-wordcount: '7635'
-ht-degree: 90%
+source-wordcount: '7947'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 90%
 >
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)。
 
-最近更新：**2020 年 10 月 28 日**
+最新更新： **2020年11月2日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 服务和管理](#ecloud)
@@ -35,10 +35,10 @@ ht-degree: 90%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：2020 年 10 月 28 日）
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) (Updated: **10/28/2020**)
+* [Experience Manager](#aem) (更新日期：**2020 年 10 月 28 日**)
 * [Campaign](#ac)
-* [Advertising Cloud](#adcloud) (Updated: **10/28/2020**)
-* [[!DNL Target]](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)
+* [Advertising Cloud](#adcloud) (更新日期：**2020 年 10 月 28 日**)
+* [[!DNL Target]](#target) (更新日期：**2020 年 11 月 2 日**)
 * [[!DNL Magento]](#magento)
 * [[!DNL Marketo Engage]](#marketo)
 * [[!DNL Primetime]](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
@@ -358,6 +358,7 @@ Updated: **10/28/2020**
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020年11月2日 | [加载并触发目标呼叫](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 视频 | 了解如何加载参数并将参数传递到页面请求，以及如何使用 Launch 规则从网页上触发 Target 调用。使用 Adobe 客户端数据层不仅能够检索页面信息并将其作为参数进行传递，还能让您收集和存储有关访客在网页上的体验数据，并轻松访问这些数据。 |
 | 2020 年 10 月 28 日 | [视频智能标记](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 视频 | Experience Manager资产利用Adobe Sensei智能地使用描述视频关键元素的关键字标记视频资产，从而允许AEM用户使用关键字搜索轻松发现这些元素。 |
 | 2020 年 10 月 27 日 | [AEM Document Security Extension for Microsoft Office 简介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager Document Security Extension for Microsoft Office 可确保只有经您授权的人员才能使用包含您的知识产权的 Word、Excel 和 PowerPoint 文件。通过使用 Document Security Extension for Microsoft Office，您可以为文件应用预定义保密设置。 |
 | 2020 年 10 月 7 日 | [Adobe Analytics 中的“查看页面”量度](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 文章 | 了解如何将 Adobe Experience Manager 网站中捕获的数据映射到 Adobe Analytics 报表包中的量度和维度。 |
@@ -385,7 +386,6 @@ Updated: **10/28/2020**
 | 2020 年 9 月 30 日 | [探索 Adobe 客户端数据层](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 文章 | 探索事件驱动的 Adobe 客户端数据层的特性和功能，以及它与 AEM Sites 核心组件的集成。了解如何侦听事件、获取当前状态和修改数据层。 |
 | 2020 年 9 月 30 日 | [Adobe 客户端数据层简介](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) | 视频 | 了解事件驱动的 Adobe 客户端数据层如何公开来自 AEM Sites 核心组件的数据。使用 Adobe 客户端数据层，Experience Platform Launch 等标签管理解决方案可以将网站数据传输到 Analytics 和 Target 等应用程序。 |
 | 2020 年 10 月 8 日 | [将 Target 扩展添加到 Launch 属性](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 视频 | 了解如何加载参数并将参数传递到页面请求，以及如何使用 Launch 规则从网页上触发 Target 调用。使用 Adobe 客户端数据层不仅能够检索页面信息并将其作为参数进行传递，还能让您收集和存储有关访客在网页上的体验数据，并轻松访问这些数据。 |
-| 2020 年 10 月 8 日 | [将 Target 扩展添加到 Launch 属性](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/add-target-launch-extension.html) | 视频 | 了解如何将 Adobe Target 扩展添加到 Launch 属性 |
 | 2020 年 10 月 7 日 | [创建 Adobe Target 云服务帐户](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/setup-aem-target-cloud-service.html) | 视频 | 了解如何使用云服务和 Adobe IMS 身份验证，将 Adobe Experience Manager 云服务与 Adobe Target 集成。 |
 | 2020 年 10 月 2 日 | [AEM 和 Adobe Target 概述](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/overview.html) | 视频 | AEM 和 Target 都是功能强大的解决方案，但看上去似乎有一些功能重叠。客户有时难以理解如何以及何时结合使用这两个产品来交付个性化体验。为了给每一位最终用户交付最佳体验，贵组织内的不同团队应密切合作且明确分工。 |
 | 2020 年 10 月 2 日 | [AEM Forms 与 Adobe Sign 集成](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.forms) | 课程 | 通过将 Adobe Sign 和 AEM Forms 结合使用，您可以自动执行复杂的事务，还可以使用安全合法的电子签名作为无缝数字体验的一部分。 |
@@ -445,6 +445,10 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | ----------- | ----------- | ---------- | ---------- |
+| 2020年11月2日 | [控制面板-生成SSH密钥——功能视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何使用终端生成SSH密钥，以及如何在控制面板中存储该密钥的公共版本。 |
+| 2020年11月2日 | [控制面板-连接到SFTP服务器——功能视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用您存储在控制面板中的密钥，通过客户端 SFTP 应用程序连接到 SFTP 服务器。 |
+| 2020 年 10 月 20 日 | [控制面板-控制面板入门——文章](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文介绍如何访问控制面板以及使用控制面板的先决条件。 |
+| 2020 年 10 月 20 日 | [控制面板-控制面板入门——文章](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板以及使用控制面板的先决条件。 |
 | 2020 年 10 月 19 日 | [控制面板-向允许列表添加IP范围](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中向允许列表添加IP地址范围。 |
 | 2020 年 10 月 19 日 | [控制面板-向允许列表添加IP范围](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加IP地址范围。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME（测试版）委派子域 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 了解如何在控制面板中使用 CNAME 来设置和提交子域。 |
@@ -490,6 +494,18 @@ Adobe Advertising Cloud 的发行说明。
 
 * [Magento Commerce 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
 * [Magento Open Source 2.3.5](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-open-source.html)
+
+## ![图标](/assets/target.png)[!DNL Target] {#target}
+
+请参阅 [[!DNL Target]  发行说明](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)了解最新发行信息。
+
+### Adobe Target新课程和教程
+
+更新日期：**2020 年 11 月 2 日**
+
+| 发布日期 | 名称 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020 年 10 月 11 日 | [混合个性化部署模型](https://docs.adobe.com/content/help/en/target-learn/tutorials/implementation/hybrid-deployment.html) | 视频 | Adobe Target优惠了用于个性化的独特混合部署模型——将客户端和服务器端实施混合在一起。 该混合模型允许非技术用户使用WYSIWYG Visual Experience Composer创作实验或个性化活动，并让服务器端执行、交付和渲染体验，从而实现高性能投放。 |
 
 ## ![图标](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
