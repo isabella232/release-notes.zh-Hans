@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 27e6ef1fb123fd8a5d136f86c5df492ea6e79733
 workflow-type: tm+mt
 source-wordcount: '8040'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 87%
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
-包括Experience Platform和Experience Platform Launch的发布更新信息，
+包括 Experience Platform 和 Experience Platform Launch 的发行更新信息。
 
 发行日期：**2020 年 10 月 14 日**
 
@@ -81,7 +81,7 @@ ht-degree: 87%
 
 ### Experience Platform Launch
 
-有关 [Platform Launch的信息](https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/release-notes/current.html) ，请参阅Experience Platform Launch发行说明。
+有关 Platform Launch 的更多信息，请参阅 [Experience Platform Launch 发行说明](https://docs.adobe.com/content/help/zh-Hans/launch/using/intro/release-notes/current.html)。
 
 ### Experience Platform 和服务教程及课程
 
@@ -89,11 +89,11 @@ ht-degree: 87%
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 10 月 26 日 | [Offer Decisioning 简介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 视频 | This video gives an overview of [!UICONTROL Offer Decisioning], an application service built on top of Adobe Experience Platform. 该视频涵盖了Offer Decisioning解 [!UICONTROL 决的业] 务挑战、其关键功能、基本架构和主要使用案例。 |
-| 2020 年 10 月 29 日 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=en) | 视频 | Learn how brands can use Adobe’s new [!UICONTROL Offer Decisioning] service to define and manage their offers,leverage real-time customer data, and deliver the right experiences their customers expect. |
+| 2020 年 10 月 26 日 | [Offer Decisioning 简介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 视频 | 此视频概述了 [!UICONTROL Offer Decisioning]，它是一项基于 Adobe Experience Platform 构建的应用程序服务。此视频涵盖 [!UICONTROL Offer Decisioning] 解决的业务挑战，以及它的主要功能、基本架构和主要用例。 |
+| 2020 年 10 月 29 日 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=zh-Hans) | 视频 | 此视频介绍各大品牌如何使用 Adobe 新的 [!UICONTROL Offer Decisioning] 服务来定义和管理优惠、利用实时客户数据，以及提供与客户预期相符的体验。 |
 | 2020 年 9 月 14 日 | [Attribution AI 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 视频 | [!UICONTROL Attribution AI] 作为 [!UICONTROL Intelligent Services] 的一部分，是一种多渠道的算法归因服务，它计算客户交互对特定结果的影响和增量影响。利用 [!UICONTROL Attribution AI]，营销人员可以通过了解客户旅程各个阶段每个客户互动的影响来衡量和优化营销和广告支出。 |
 | 2020 年 9 月 14 日 | [客户人工智能的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-customer-ai.html) | 视频 | 此视频展示了[!UICONTROL 客户人工智能]如何通过基于人工智能的倾向性来丰富客户档案，并支持客户细分和定位工作。 |
-| 2020 年 9 月 14 日 | [Platform 和 Magento 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 视频 | 此视频显示 Adobe Experience Platform可与 [!DNL Magento] Commerce 一起使用来创建客户的单一视图，并在数字店面和各个渠道上智能地个性化体验。 |
+| 2020 年 9 月 14 日 | [Platform 和 Magento 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/experience-cloud/business-value-of-platform-and-magento.html) | 视频 | 此视频显示 Adobe Experience Platform 可与 [!DNL Magento] Commerce 一起使用来创建客户的单一视图，并在数字店面和各个渠道上智能地个性化体验。 |
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -131,7 +131,7 @@ ht-degree: 87%
 | ----------- | ---------- | ----- |
 | Customer Journey Analytics 文档 | 2020 年 11 月 | Customer Journey Analytics 文档正在迁移至 Experience League。在 10 月份，所有的文章、视频、发行说明和教程都将从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。关于发生的这项变更，您无需执行任何操作，因为所有的链接都将重定向到 Experience League。我们会在实施转换时更新发行说明。 |
 | [!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | 移动平均值已添加到折线图可视化图表趋势线设置。移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
-| 删除回填限制 | 2020 年 10 月 19 日 | 为了提供改进的CJA体验，我们删除了回填（历史数据导入）限制。 以前，您最多可以自行回填25亿行，否则需要工程参与。 现在，您可以自行回填数据，但不受任何限制。 [了解更多](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
+| 删除回填限制 | 2020 年 10 月 19 日 | 为了提供更好的 CJA 体验，我们删除了回填（历史数据导入）限制。以前，您自己最多可以回填 25 亿行，超出这个限制则需工程团队介入。现在，您自己即可不受任何限制地回填数据。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
 | Analysis Workspace 性能帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | 历程 IQ：跨渠道分析 | 2020 年 10 月 30 日 | 历程 IQ：跨渠道分析功能允许客户为 Adobe Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。 |
 | [!UICONTROL 花费时间] 指标和维度 | 2020 年 10 月 30 日 | [!UICONTROL 使用时间] 指标和维度，您可以了解消费者在客户旅程各个方面所花费的时间，从而更全面地视图渠道的参与和瓶颈。 |
@@ -161,10 +161,10 @@ AN-224702、AN-232791、AN-233982、AN-234384、AN-235608、AN-236538、AN-23659
 | ----------- | ---------- | ---------- |
 | 将 HSTS 头添加到所有传入的 HTTPS 请求 | 2020 年 9 月 29 日 | 2020 年 9 月 29 日，我们开始向所有使用 HTTPS 的传入请求添加 HSTS 头。这会指示浏览器/客户端在以后使用 HTTPS 发出所有请求，这被视为最佳安全实践。目前，我们不会对使用 HTTP 的传入请求强制执行此操作。 |
 | 更改为 Experience Cloud ID 服务 Cookie 设置 | 2020 年 9 月 22 日 | Chrome 版本 80 隐私设置的更新，影响了 Adobe Analytics 跟踪某些查看 Google AMP 页面的用户的能力。具体而言，这项更新阻止跨域跟踪那些查看 Google 托管的 AMP 页面的用户。结果可能会导致独特访客数量激增。修复方法：用户可通过更改其 ECID Cookie 的设置来解决此问题。<br>目前，Analytics 在设置 Experience Cloud ID 服务 (ECID) Cookie 时，使用的是 Chrome 版本 80 之前允许跨域跟踪的设置`SameSite = Lax`。现在情况已发生了变化。此项更改允许用户将 ECID Cookie 的 SameSite 设置更新为 `None`。<br>请注意，它允许在更多的情况下共享 Analytics Cookie，但 Analytics Cookie 不包含敏感信息。此外，在选择这项设置时，必须将 Cookie 设置为 `Secure`，以便数据只能通过 HTTPS 连接进行传递。如果您要进行这项更改，请让受支持的用户通过客户关怀部门开具相关票证。 |
-| 从 `omniture.com` 域迁移至 `adobe.com` 域 | 2020年8月21日 | 2020 年 8 月 13 日，Adobe Analytics 将其前端架构从 `omniture.com|http://omniture.com/` 域迁移至 `adobe.com|http://adobe.com/` 域。这项变更可以缓解自 2020 年 5 月 28 日首次统一产品域更改以来引发的第三方 Cookie 问题。作为本次更新的结果，浏览器可能会提示用户信任这个新的 `.adobe.com|http://an.adobe.com/` 域或 `experience.adobe.com|http://experience.adobe.com/` 域。 |
-| 关于 Ad Hoc Analysis 与 Java 8 兼容性的最新信息 | 2020年8月21日 | Ad Hoc Analysis 目前与 Java 8 版本 1.8.0_261+ 不兼容。为了确保能够在这个工具[生命周期终止日期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)之前持续访问该工具，我们建议您安装版本低于 1.8.0_261 的 Java 8。 |
+| 从 `omniture.com` 域迁移至 `adobe.com` 域 | 2020 年 8 月 21 日 | 2020 年 8 月 13 日，Adobe Analytics 将其前端架构从 `omniture.com|http://omniture.com/` 域迁移至 `adobe.com|http://adobe.com/` 域。这项变更可以缓解自 2020 年 5 月 28 日首次统一产品域更改以来引发的第三方 Cookie 问题。作为本次更新的结果，浏览器可能会提示用户信任这个新的 `.adobe.com|http://an.adobe.com/` 域或 `experience.adobe.com|http://experience.adobe.com/` 域。 |
+| 关于 Ad Hoc Analysis 与 Java 8 兼容性的最新信息 | 2020 年 8 月 21 日 | Ad Hoc Analysis 目前与 Java 8 版本 1.8.0_261+ 不兼容。为了确保能够在这个工具[生命周期终止日期](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)之前持续访问该工具，我们建议您安装版本低于 1.8.0_261 的 Java 8。 |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。我们在 [Adobe Exchange 合作伙伴项目](https://partners.adobe.com/exchangeprogram/experiencecloud)中采用了一个新标准，任何希望继续提供和支持的集成应采用此标准。正式的生命周期终止日期仍有待确定，但我们预计将会在未来 12-18 个月（2021 年中至 2021 年底）后终止。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/data-connectors-eol.html) |
-| Ad Hoc Analysis 生命周期终止 | 2018年8月6日 | Adobe 宣布计划于 2021 年 3 月 1 日终止 Ad Hoc Analysis 生命周期。有关更多信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| Ad Hoc Analysis 生命周期终止 | 2018 年 8 月 6 日 | Adobe 宣布计划于 2021 年 3 月 1 日终止 Ad Hoc Analysis 生命周期。有关更多信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 
 ### AppMeasurement {#appm}
 
@@ -212,10 +212,10 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 10 月 28 日 | [了解特征图中的数字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=en#build-and-manage-audiences) | 视频 | 获取有关在特征信息屏幕中了解所报告的特征数的提示。 |
-| 2020 年 10 月 23 日 | [从分析数据创建规划特征](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=en#build-and-manage-audiences) | 视频 | 学习一些技巧和窍门，帮助您在计划将Adobe Analytics数据用于Audience Manager的特征时。 |
-| 2020 年 10 月 23 日 | [创建特征时选择数据源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=en#build-and-manage-audiences) | 视频 | 创建特征时要填写的重要字段之一是“数据源”字段。 获取有关为基于规则和载入的特征选择正确数据源的提示。 |
-| 2020 年 9 月 14 日 | [使用代码视图创建和编辑特征](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=en#build-and-manage-audiences) | 视频 | 了解如何在创建新特征或编辑现有特征时使用代码视图。 设置特征视图时，代码表达式是表达式生成器的替代方法。 |
+| 2020 年 10 月 28 日 | [理解特征图中的数字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=zh-Hans#build-and-manage-audi) | 视频 | 获取相关提示，了解如何理解特征信息屏幕中报告的特征数字。 |
+| 2020 年 10 月 23 日 | [规划 Analytics 数据的特征创建](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=zh-Hans#build-and-manage-audi) | 视频 | 了解一些提示和技巧，有助于您规划如何将 Adobe Analytics 数据用于 Audience Manager 中的特征。 |
+| 2020 年 10 月 23 日 | [创建特征时选择数据源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=zh-Hans#build-and-manage-audi) | 视频 | 创建特征时需要填写的重要字段之一就是“数据源”字段。获得相关提示，了解如何为基于规则的特征和载入的特征选择正确的数据源。 |
+| 2020 年 9 月 14 日 | [使用代码视图创建和编辑特征](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/using-code-view-to-create-and-edit-traits.html?lang=zh-Hans#build-and-manage-audien) | 视频 | 了解如何在创建新特征或编辑现有特征时使用代码视图。设置特征表达式时，代码视图是表达式生成器的一种替代方法。 |
 | 2020 年 10 月 10 日 | [了解预测受众](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html) | 视频 | 在此视频中，我们将讨论 Audience Manager 的预测受众，介绍其工作方式的详细信息以及相关用例。 |
 
 ## ![图标](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -304,14 +304,14 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 * 对于 Assets Insights，请使用 [Adobe Launch](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html)。[DTM 集成](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/touch-ui-using-dtm-for-asset-insights.html)是作为文档中一个弃用的方法而存在。
 
-Updated: **10/28/2020**
+更新日期：**2020 年 10 月 28 日**
 
-* **Brand Portal增强功能**:以下新增功能及更多功能可在以下网页中找到 [!DNL Brand Portal]:
+* **Brand Portal 增强功能**：[!DNL Brand Portal] 提供了以下新增功能及更多功能：
 
-   * [增强的下载体验](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html) ，简化、快速下载。 管理员可以配置其他下载配置，以优惠适合用户和企业需求的体验。
-   * 现在，可以从任何页 [!UICONTROL 面一键][导航到](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)“文件”、 [!UICONTROL “集合] ”和“共享链接”。
-   * 用户现 [在可以选择和下载特定](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page) 再现。 新的演绎版下载选项位于资产详细 [!UICONTROL 信息] 页面的演绎版面板中。
-   * 来宾用户会话超时15分钟可确保为所有并发用户提供更好的体验。
+   * [更好的下载体验](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/download/brand-portal-download-assets.html)，使下载更简单、更快。管理员还可配置其他下载配置，以提供贴合用户和企业需求的体验。
+   * 现在，从任何页面都可一键导航到[!UICONTROL 文件]、[收藏集](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/share/brand-portal-share-collection.html)和[!UICONTROL 共享链接]。
+   * 用户现在可以[选择和下载特定演绎版](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)。新的演绎版下载选项位于“资产”详情页面的[!UICONTROL 演绎版]面板中。
+   * 来宾用户会话超时时间为 15 分钟，这可确保所有并行用户获得更好的体验。
 
 ### [!DNL Experience Manager] 表单
 
@@ -361,7 +361,7 @@ Updated: **10/28/2020**
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2020年11月2日 | [加载并触发目标呼叫](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 视频 | 了解如何加载参数并将参数传递到页面请求，以及如何使用 Launch 规则从网页上触发 Target 调用。使用 Adobe 客户端数据层不仅能够检索页面信息并将其作为参数进行传递，还能让您收集和存储有关访客在网页上的体验数据，并轻松访问这些数据。 |
-| 2020 年 10 月 28 日 | [视频智能标记](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 视频 | Experience Manager资产利用Adobe Sensei智能地使用描述视频关键元素的关键字标记视频资产，从而允许AEM用户使用关键字搜索轻松发现这些元素。 |
+| 2020 年 10 月 28 日 | [视频智能标签](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 视频 | Experience Manager Assets 利用 Adobe Sensei，通过描述视频关键元素的关键字对视频资产进行智能标记，从而使 AEM 用户能够通过搜索关键字，轻松找到这些视频。 |
 | 2020 年 10 月 27 日 | [AEM Document Security Extension for Microsoft Office 简介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager Document Security Extension for Microsoft Office 可确保只有经您授权的人员才能使用包含您的知识产权的 Word、Excel 和 PowerPoint 文件。通过使用 Document Security Extension for Microsoft Office，您可以为文件应用预定义保密设置。 |
 | 2020 年 10 月 7 日 | [Adobe Analytics 中的“查看页面”量度](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/create-analytics-workspace.html) | 文章 | 了解如何将 Adobe Experience Manager 网站中捕获的数据映射到 Adobe Analytics 报表包中的量度和维度。 |
 | 2020 年 10 月 8 日 | [完整网页体验的个性化](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/personalization-web-page.html) | 视频 | 了解如何使用 Adobe Target 创建活动，将 AEM 托管的网页重定向到新的页面。 |
@@ -451,8 +451,8 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 | 2020年11月2日 | [控制面板-连接到SFTP服务器——功能视频](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用您存储在控制面板中的密钥，通过客户端 SFTP 应用程序连接到 SFTP 服务器。 |
 | 2020 年 10 月 20 日 | [控制面板-控制面板入门——文章](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文介绍如何访问控制面板以及使用控制面板的先决条件。 |
 | 2020 年 10 月 20 日 | [控制面板-控制面板入门——文章](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板以及使用控制面板的先决条件。 |
-| 2020 年 10 月 19 日 | [控制面板-向允许列表添加IP范围](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中向允许列表添加IP地址范围。 |
-| 2020 年 10 月 19 日 | [控制面板-向允许列表添加IP范围](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加IP地址范围。 |
+| 2020 年 10 月 19 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
+| 2020 年 10 月 19 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME（测试版）委派子域 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 了解如何在控制面板中使用 CNAME 来设置和提交子域。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME（测试版）委派子域 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 了解如何在控制面板中使用 CNAME 来设置和提交子域。 |
 
@@ -471,14 +471,14 @@ Adobe Advertising Cloud 的发行说明。
 
 ### [!DNL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp} 
 
-更新：2020年10月28日
+更新日期：2020 年 10 月 28 日
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 新建 帮助 | （10月28日版）旧版帮助已替换为更新的页面，这些页面可从DSP主菜单的“帮助”链接获取，也可随时从https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html获 [取](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) |
-| 促销活动 | （10月28日版）以前的活动测试版视图现在是默认活动视图，用于更快地进行分析、简化工作流和自定义视图。 |
-| 专用内容库 | (October 15 release) All users can now set up and edit deal ID details using a new deal ID form, which is a simplified version of the legacy [!UICONTROL Smart Ad Serving] form. 要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
-| 投放预测 | (October 15 release) For placements with placement-level pacing, the [!UICONTROL Forecast] section of the placement settings includes a new [!UICONTROL Estimated Maximums] section, which indicates how much more capacity is available with the current targeting configuration. |
+| 新建帮助 | （10 月 28 日版）旧版帮助页面已替换为更新页面，这些更新页面可从 DSP 主菜单的“帮助”链接获取，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) 获取。 |
+| 促销活动 | （10 月 28 日版）以前的 Campaigns 测试版视图现在成为默认的 Campaigns 视图，可以实现更快的分析、简化的工作流和自定义视图。 |
+| 专用内容库 | （10 月 15 日版）如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版[!UICONTROL 智能广告投放]表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
+| 投放预测 | （10 月 15 日版）在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search} 
 
