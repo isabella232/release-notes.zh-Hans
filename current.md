@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46d20e153aaa57df2387c2d084b6c20b914bc8e1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8040'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 99%
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：**2020 年 11 月 10 日**）
 * [Audience Manager](#aam)
-* [Experience Manager](#aem) (已更新： **2020年10月28日**)
+* [Experience Manager](#aem)（更新日期：**2020 年 10 月 28 日**）
 * [Campaign](#ac)
 * [Advertising Cloud](#adcloud)（更新日期：**2020 年 10 月 28 日**）
 * [[!DNL Target]](#target)（更新日期：**2020 年 11 月 2 日**）
