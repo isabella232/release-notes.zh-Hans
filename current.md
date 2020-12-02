@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: cc49396194cb768b6d4d3fc7f3967afb65636188
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
+workflow-type: tm+mt
 source-wordcount: '8005'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 100%
 >
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)。
 
-最新更新：**2020 年 11 月 10 日**
+最近更新日期：**2020 年 12 月 2 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：**2020 年 11 月 10 日**）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新 **日期：2020年12月2日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)（更新日期：**2020 年 10 月 28 日**）
 * [Campaign](#ac)
@@ -108,7 +108,7 @@ ht-degree: 100%
 发行日期：**2020 年 10 月 29 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 的新增功能](#cust-journey)（更新日期：2020 年 11 月 10 日）
+* [Customer Journey Analytics 的新增功能](#cust-journey) （更新日期：2020年12月2日）
 * [Media Analytics 的新增功能](#media-aa)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
@@ -135,7 +135,7 @@ ht-degree: 100%
 | Analysis Workspace 性能帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 逗留时间]量度和维度 | 2020 年 10 月 30 日 | [!UICONTROL 逗留时间]量度和维度可以让您从客户历程的各个方面，查看客户逗留的时间长短，从而更全面地了解各个渠道的参与情况和瓶颈。 |
 | [!UICONTROL 设备]和[!UICONTROL 地理]维度 | 2020 年 10 月 30 日 | [!UICONTROL 设备]和[!UICONTROL 地理]维度现在默认情况下作为 [Adobe Analytics 源连接器](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)中“全局查找支持”项目的一部分提供。在用户强烈要求下添加的这些维度增加了 [Adobe Analytics 与 CJA 之间的对等性](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-overview/cja-aa.html)。 |
-| 历程 IQ：跨渠道分析 | 2020 年 11 月 22 日 | 历程 IQ：跨渠道分析功能允许客户为 Adobe Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
+| 历程 IQ：跨渠道分析 | 2020 年 12 月 11 日 | 历程 IQ：跨渠道分析功能允许客户为 Adobe Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=en#cja-connections) |
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
