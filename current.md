@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: November 2020
 author: mfrei
-translation-type: ht
-source-git-commit: 73caf10aa872e7b98875bdd0b8050cc301e3d500
-workflow-type: ht
-source-wordcount: '8005'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d52b26253abaf781eade05e8925943c6b605ae60
+workflow-type: tm+mt
+source-wordcount: '9838'
+ht-degree: 85%
 
 ---
 
@@ -66,6 +66,17 @@ ht-degree: 100%
 
 请参阅 [Experience Cloud 服务的发行说明汇总](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html)，以了解最新发行信息。
 
+### Experience Cloud教程
+
+Updated: **December 2, 2020**
+
+| 发布日期 | 名称 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 4 日 | [DDOM揭示的洞察](https://experienceleague.adobe.com/docs/csuite/using/ddom-insights.html) | 视频 | 了解DDOM帮助Adobe发现的一些洞察，并进一步了解在设置您自己的DDOM版本时需要考虑的一些事项。 |
+| 2020 年 11 月 4 日 | [DDOM的三大支柱](https://experienceleague.adobe.com/docs/csuite/using/ddom-components.html) | 视频 | 了解Adobe如何利用数据、KPI以及流程和组织，围绕客户旅程实现一致。 |
+| 2020 年 11 月 4 日 | [Adobe数字转型故事 ](https://experienceleague.adobe.com/docs/csuite/using/transformation-story.html) | 视频 | 进一步了解DDOM在Adobe数字转型中所起的作用，以推动以客户为中心的全渠道体验。 |
+| 2020 年 11 月 4 日 | [数据驱动操作模型简介](https://experienceleague.adobe.com/docs/csuite/using/ddom-introduction.html) | 视频 | 概述Adobe的数据驱动型操作模型，以加深对客户旅程的理解。 |
+
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 包括 Experience Platform 和 Experience Platform Launch 的发行更新信息。
@@ -87,8 +98,11 @@ ht-degree: 100%
 
 发布的关于 Experience Platform 和服务的新视频、教程或课程。
 
+Updated: **December 2, 2020**
+
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 23 日 | [配置基于文件的云存储或电子邮件营销目标](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configuring-file-based-cloud-storage-or-email-marketing-destinations.html?lang=en#destinations) | 视频 | 在Adobe实时CDP中基于文件的目标配置的演练中获取提示。 这适用于云存储目标（如S3或SFTP）以及电子邮件营销目标。 |
 | 2020 年 10 月 26 日 | [Offer Decisioning 简介](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/introduction-to-offer-decisioning.html) | 视频 | 此视频概述了 [!UICONTROL Offer Decisioning]，它是一项基于 Adobe Experience Platform 构建的应用程序服务。此视频涵盖 [!UICONTROL Offer Decisioning] 解决的业务挑战，以及它的主要功能、基本架构和主要用例。 |
 | 2020 年 10 月 29 日 | [Offer Decisioning](https://experienceleague.adobe.com/docs/offer-decisioning-learn/tutorials/demo-of-offer-decisioning.html?lang=zh-Hans) | 视频 | 此视频介绍各大品牌如何使用 Adobe 新的 [!UICONTROL Offer Decisioning] 服务来定义和管理优惠、利用实时客户数据，以及提供与客户预期相符的体验。 |
 | 2020 年 9 月 14 日 | [Attribution AI 的商业价值](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intelligent-services/business-value-of-attribution-ai.html) | 视频 | [!UICONTROL Attribution AI] 作为 [!UICONTROL Intelligent Services] 的一部分，是一种多渠道的算法归因服务，它计算客户交互对特定结果的影响和增量影响。利用 [!UICONTROL Attribution AI]，营销人员可以通过了解客户旅程各个阶段每个客户互动的影响来衡量和优化营销和广告支出。 |
@@ -176,6 +190,7 @@ AN-224702、AN-232791、AN-233982、AN-234384、AN-235608、AN-236538、AN-23659
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 10 日 | [批量管理(BAAAM)简介](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/introduction-to-bulk-management-baaam.html?lang=en#build-and-manage-audiences) | 视频 | 了解“BAAAM”(Audience Manager中特征和区段的批量管理工具)，包括如何设置它以便随时使用。 |
 | 2020 年 10 月 8 日 | [自由格式表 - 进行分析的基础](https://video.tv.adobe.com/v/41766?captions=chi_hans) | 视频 | 了解您应该掌握的知识，以及在本课程中将会学到的知识。 |
 | 2020 年 10 月 5 日 | [在 Analysis Workspace 中使用参与量度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-participation-metrics-in-analysis-workspace.html) | 视频 | 使用这一简单技巧，随时获取 [!UICONTROL Analysis Workspace] 中的任意参与量度。 |
 | 2020 年 10 月 5 日 | [在 Analysis Workspace 中自动构建自由格式表](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/auto-build-freeform-tables-in-analysis-workspace.html) | 视频 | 将组件直接放入空白项目、面板或自由格式表中，系统会按照建议的格式自动为您构建一个表。 |
@@ -210,8 +225,13 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 发布的关于 Audience Manager 的新视频、教程或课程。
 
+Updated **December 2, 2020**
+
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 25 日 | [将趋势报表与特征和区段结合使用](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-trended-reports-with-traits-and-segments.html?lang=en#reports) | 视频 | 了解如何在Audience Manager中使用趋势报表来查看特征和区段在一段时间内的表现。 |
+| 2020 年 11 月 25 日 | [将常规报表与特征和区段结合使用](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/reports/using-general-reports-with-traits-and-segments.html?lang=en#reports) | 视频 | 在此视频中，了解如何使用Audience Manager中的常规报表获取特征和区段的编号。 |
+| 2020 年 11 月 2 日 | [配置和报告预测受众](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/configure-and-report-on-predictive-audiences.html?lang=en#build-and-manage-audiences) | 视频 | 在此视频中，我们将演练Audience Manager界面中的预测受众配置。 我们还将看到显示模型结果的报告。 |
 | 2020 年 10 月 28 日 | [理解特征图中的数字](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/understanding-numbers-in-the-trait-graph.html?lang=zh-Hans#build-and-manage-audi) | 视频 | 获取相关提示，了解如何理解特征信息屏幕中报告的特征数字。 |
 | 2020 年 10 月 23 日 | [规划 Analytics 数据的特征创建](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/planning-trait-creation-from-analytics-data.html?lang=zh-Hans#build-and-manage-audi) | 视频 | 了解一些提示和技巧，有助于您规划如何将 Adobe Analytics 数据用于 Audience Manager 中的特征。 |
 | 2020 年 10 月 23 日 | [创建特征时选择数据源](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/traits-and-segments/choosing-a-data-source-when-creating-traits.html?lang=zh-Hans#build-and-manage-audi) | 视频 | 创建特征时需要填写的重要字段之一就是“数据源”字段。获得相关提示，了解如何为基于规则的特征和载入的特征选择正确的数据源。 |
@@ -354,12 +374,32 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 
 ### Experience Manager 的新课程和教程
 
-更新日期：**2020 年 10 月 21 日**
+Updated: **December 2, 2020**
 
 过去一个月发布的新视频、教程及课程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 12 月 2 日 | [下载内容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 视频 | 内容片段下载功能的视频概述。 |
+| 2020 年 12 月 2 日 | [内容片段编辑功能](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 视频 | 内容片段编辑器高级功能的视频概述。 了解如何使用批注和内容片段版本比较。 |
+| 2020 年 11 月 9 日 | [在本地AEM服务器上部署资产](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/deploy-this-sample.html?lang=en#store-and-retrieve-af-with-2fa) | 视频 | 创建数据库、部署自定义OSGi捆绑包并导入各种客户端对象，以使用在本地AEM实例上运行的用例。 |
+| 2020 年 11 月 2 日 | [创建MyApplication表单](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-myaccount-form.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 创建MyApplication表单。 此表单用于确认尝试检索部分完成的自适应表单的人员的唯一应用程序ID和电话号码。 |
+| 2020 年 11 月 10 日 | [为管理员配置对AEM的访问权限](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2020.1.aem) | 课程 | 了解用户如何使用 Adobe IMS 对 AEM as a Cloud Service 进行身份验证，以及如何使用 Adobe IMS 用户、用户组和产品配置文件来控制对 AEM 及其特性和功能的访问权限。 |
+| 2020 年 11 月 11 日 | [创建要与表单关联的客户端库](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-client-lib.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 了解如何创建两个库：一个用于包含 `bootbox.js` 显示对话框的对话框。 还有一个客户端库，用于处理“保存并退出” [!UICONTROL 按钮上的单击事件]。 |
+| 2020 年 11 月 11 日 | [使用数据模型集成创建与通信服务提供商的集成](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/verify-users-with-otp.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 通过定义描述REST API的Swagger文件、创建数据源和表单数据模型，将AEM Forms与Nexmo REST API集成。 |
+| 2020 年 11 月 11 日 | [创建Servlet以呈现保存的数据的表单](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/retrieve-saved-form.html?lang=en#store-and-retrieve-af-with-2fa) | 视频 | 成功验证电话号码时将调用此servlet。 |
+| 2020 年 11 月 2 日 | [创建StoreAFWithAttachments表单](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-the-main-adaptive-form.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 创建StoreAFWithAttachments表单。 这是用于捕获用户信息（包括具有添加附件功能的电话号码）的主要应用程序表单。 |
+| 2020 年 11 月 2 日 | [整合Adobe Experience Manager和Adobe Analytics以收集页面数据](https://video.tv.adobe.com/v/327293?captions=chi_hans) | 视频 | 本课程逐步指导您如何将Adobe Analytics与Adobe Experience Manager Sites集成，以通过使用客户端数据层收集页面数据，然后在Adobe Analytics内创建Analysis Workspace项目来了解用户在页面上的行为。 |
+| 2020 年 11 月 11 日 | [创建MySQL数据库表和AEM数据源](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/configure-data-source.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 创建包含相应列的MySQL数据库表以及指向此数据库的Apache Sling Connection池数据源。 |
+| 2020 年 11 月 11 日 | [创建Servlet以处理POST调用](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/create-servlet.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 在AEM中通过扩展和公开REST端 `SlingAllMethodsServlet` 点以接受POST请求来创建servlet。 |
+| 2020 年 11 月 11 日 | [使用新附件文件映射存储表单数据](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/store-form-data.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 在由唯一GUID标识的数据库中插入新行。 |
+| 2020 年 11 月 11 日 | [在CRX中的新位置存储表单附件](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/store-and-retrieve-af-with-2fa/store-form-attachments.html?lang=en#store-and-retrieve-af-with-2fa) | 文章 | 表单附件的默认位置位于临时文件夹中，该文件夹在一段时间后被删除。 |
+| 2020 年 11 月 4 日 | [Asset compute元数据演绎版](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/asset-compute/advanced/metadata.html) | 教程 | 在Asset compute教程中添加一个高级章节，其中涵盖生成元数据演绎版。 |
+| 2020 年 10 月 21 日 | [组合表单附件](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/document-services/assemble-form-attachments.html) | 视频 | 按特定顺序将表单附件组合为一个PDF。 |
+| 2020 年 11 月 9 日 | [将WKND Assets演示添加到Demo Utils](http://bit.ly/demoAEM) | 演示 | 将WKND资产演示添加为卡，添加到Demo Utils，以提升其存在／可用性／安装说明。 |
+| 2020 年 11 月 2 日 | [创建内容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-feature-video-use.html) | 视频 | 有关在Adobe Experience Manager(AEM)资产中创建内容片段的视频概述。 |
+| 2020 年 11 月 2 日 | [在网站页面上使用内容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-delivery-feature-video-use.html) | 视频 | 了解如何在AEM Sites页面上使用内容片段。 内容片段组件可以使用AEM样式系统设置样式以根据需要显示内容。 |
+| 2020 年 11 月 2 日 | [样式系统](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/style-system-feature-video-use.html) | 视频 | 使用We.Retail列表组件为AEM 6.4创建一个Style System视频。 |
 | 2020 年 11 月 2 日 | [加载和触发 Target 调用](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/target/load-and-fire-target.html) | 视频 | 了解如何加载参数并将参数传递到页面请求，以及如何使用 Launch 规则从网页上触发 Target 调用。使用 Adobe 客户端数据层不仅能够检索页面信息并将其作为参数进行传递，还能让您收集和存储有关访客在网页上的体验数据，并轻松访问这些数据。 |
 | 2020 年 10 月 28 日 | [视频智能标签](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/video-smart-tags.html) | 视频 | Experience Manager Assets 利用 Adobe Sensei，通过描述视频关键元素的关键字对视频资产进行智能标记，从而使 AEM 用户能够通过搜索关键字，轻松找到这些视频。 |
 | 2020 年 10 月 27 日 | [AEM Document Security Extension for Microsoft Office 简介](https://docs.adobe.com/content/help/en/experience-manager-document-security/using/document-security-extension-microsoft-office.html) | 文章 | Adobe Experience Manager Document Security Extension for Microsoft Office 可确保只有经您授权的人员才能使用包含您的知识产权的 Word、Excel 和 PowerPoint 文件。通过使用 Document Security Extension for Microsoft Office，您可以为文件应用预定义保密设置。 |
@@ -397,7 +437,6 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 | 2020 年 10 月 6 日 | [创建您的第一个自适应表单](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.4.forms) | 课程 | 通过 AEM Forms，您可以创建有吸引力的响应式、动态化自适应表单。本课程从创建自定义的自适应表单模板开始，逐步引导您通过使用各种表单组件来创建自适应表单。 |
 | 2020 年 10 月 21 日 | [本地 Dispatcher 工具](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/dispatcher-tools.html) | 文章 | AEM 的 Dispatcher 是一个 Apache HTTP Web 服务器模块，在 CDN 和 AEM 发布层之间提供一个安全和性能层。了解如何将 Dispatcher 设置为本地开发环境的一部分。 |
 | 2020 年 10 月 14 日 | [适用于开发人员的 AEM Sites 快速入门](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.2.guided) | 课程 | 本课程是对 Experience League 一个[现有课程](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2019.2.guided)的更新。 |
-| 2020 年 10 月 7 日 | [AEM 项目结构](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) | 视频 | 本文概述了 Adobe Experience Manager Maven 项目要兼容 AEM as a Cloud Service 所需的更改，需要确保这些项目能够支持对可变和不可变内容的拆分，建立依赖关系以创建无冲突的确定性部署，并将它们打包为可部署的结构。 |
 
 ### Experience Manager 发行信息
 
@@ -445,10 +484,23 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 
 过去一个月发布的新视频、教程或课程。
 
+Updated **December 2, 2020**
+
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | ----------- | ----------- | ---------- | ---------- |
-| 2020 年 11 月 2 日 | [控制面板 - 生成 SSH 密钥 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何使用终端生成 SSH 密钥，以及如何在控制面板中存储该密钥的公共版本。 |
-| 2020 年 11 月 2 日 | [控制面板 - 连接到 SFTP 服务器 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用您存储在控制面板中的密钥，通过客户端 SFTP 应用程序连接到 SFTP 服务器。 |
+| 2020 年 11 月 23 日 | [配置和发送推送通知](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-and-sending-push-notifications.html) | Campaign Classic | 了解如何配置推送通知并将其发送给android应用程序用户。 |
+| 2020 年 11 月 19 日 | [在活动中配置Android服务和创建Android移动应用程序](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html) | Campaign Classic | 了解如何配置Android服务以及在活动中创建Android移动应用程序。 |
+| 2020 年 11 月 2 日 | [控制面板-生成SSH密钥](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何使用终端生成 SSH 密钥，以及如何在控制面板中存储该密钥的公共版本。 |
+| 2020 年 10 月 28 日 | [控制面板-监视数据库使用情况](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Classic | 了解如何使用控制面板监视实例的数据库使用情况。 |
+| 2020 年 10 月 28 日 | [控制面板-监视数据库](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html) | Campaign Standard | 了解如何使用控制面板监视实例的数据库使用情况。 |
+| 2020 年 10 月 12 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
+| 2020 年 10 月 7 日 | [控制面板-生成SSH密钥](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Classic | 了解如何使用终端生成 SSH 密钥，以及如何在控制面板中存储该密钥的公共版本。 |
+| 2020 年 10 月 2 日 | [控制面板-连接到SFTP服务器](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用您存储在控制面板中的密钥，通过客户端 SFTP 应用程序连接到 SFTP 服务器。 |
+| 2020 年 10 月 2 日 | [控制面板-连接到SFTP服务器](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Standard | 了解如何使用您存储在控制面板中的密钥，通过客户端 SFTP 应用程序连接到 SFTP 服务器。 |
+| 2020 年 10 月 2 日 | [控制面板-生成SSH密钥](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html) | Campaign Standard | 了解如何使用终端生成 SSH 密钥，以及如何在控制面板中存储该密钥的公共版本。 |
+| 2020 年 11 月 2 日 | [控制面板-连接到SFTP服务器](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html) | Campaign Classic | 了解如何使用您存储在控制面板中的密钥，通过客户端 SFTP 应用程序连接到 SFTP 服务器。 |
+| 2020 年 10 月 6 日 | [控制面板-控制面板入门](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
+| 2020 年 10 月 6 日 | [控制面板-控制面板入门](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
 | 2020 年 10 月 20 日 | [控制面板 - 控制面板入门 - 文章](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
 | 2020 年 10 月 20 日 | [控制面板 - 控制面板入门 - 文章](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
 | 2020 年 10 月 19 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
@@ -489,6 +541,21 @@ Adobe Advertising Cloud 的发行说明。
 | 搜索促销活动 | 如今，[!UICONTROL 帐户]视图的[!UICONTROL 访问]列可指明 [!DNL Advertising Cloud Search] 何时无法登录到已启用搜索引擎的帐户。要了解错误原因，请将光标悬停在警告图标上。 |
 | [!UICONTROL 自定义警报] | 此前的[!UICONTROL 测试版警报]现已更名为[!UICONTROL 自定义警报]。 |
 |  | 在自定义警报中，我们简化了下面的工作流程并将其移至[!UICONTROL 过滤器]选项卡：用来确定与上一期间的量度相比，指定日期范围的量度何时发生增减。 |
+
+### Ad Cloud教程和课程
+
+Updated: **December 2, 2020**
+
+| 发布日期 | 名称 | 解决方案 | 描述 |
+| ----------- | ----------- | ---------- | ---------- |
+| 2020 年 11 月 14 日 | [使用 Adobe Analytics 创建 Advertising Cloud 功能板](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-dashboards-a4adc.html?lang=en) | 视频 | 用于创建适合实时监控促销活动的 Advertising Cloud 功能板的技术。 |
+| 2020 年 11 月 14 日 | [创建Advertising Cloud站点条目报告](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-site-entry-a4adc.html?lang=en#analytics) | 视频 | 创建Advertising Cloud站点条目报告，以监视每周的某天、某天的时间、浏览器和地理影响。 |
+| 2020 年 11 月 14 日 | [利用 Advertising Cloud 数据创建分析自定义量度](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-custom-metrics-a4adc.html?lang=en#analytics) | 视频 | 在 Adobe Analytics 中使用 Advertising Cloud 数据时创建的有用自定义量度。 |
+| 2020 年 11 月 14 日 | [为激活和报表创建分析区段](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-segments-a4adc.html?lang=en#analytics) | 视频 | 使用 Advertising Cloud 维度创建区段，以实现更简洁的报表和分析。 |
+| 2020 年 11 月 14 日 | [了解预测受众](https://experienceleague.corp.adobe.com/docs/audience-manager-learn/tutorials/build-and-manage-audiences/algorithmic-models/understanding-predictive-audiences.html?lang=en#build-and-manage-audiences) | 视频 | 在此视频中，我们将讨论 Audience Manager 的预测受众，介绍其工作方式的详细信息以及相关用例。 |
+| 2020 年 11 月 14 日 | [为Advertising Cloud激活和报告创建分析用户档案](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-profiles-a4adc.html?lang=en#analytics) | 视频 | 如何使用 Adobe Analytics 为 Advertising Cloud 再营销创建稳固的站点重定向池。 |
+| 2020 年 11 月 14 日 | [报告与Advertising Cloud营销渠道](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-reporting-a4adc.html?lang=en#analytics) | 视频 | Advertising Cloud视图和点进入数据如何与Adobe Analytics营销渠道协同工作。 |
+| 2020 年 11 月 14 日 | [与Adobe Analytics建立启动前活动分析](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-pre-launch-a4adc.html?lang=en) | 视频 | 如何使用 Adobe Analytics 为启动 Advertising Cloud 付费媒体促销活动奠定基础。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -543,6 +610,7 @@ Adobe Document Cloud 的发行信息和帮助资源。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2020 年 11 月 2 日 | [使用GigaSign收集大容量文档](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/gigasign.html?lang=en#gather-high-volume-documents-using-gigasign) | 视频 | Gigasign允许您同时向数千人发送、收集和跟踪文档以供签名。 专为与员工和客户进行大批量通信而设计。 GigaSign利用Adobe SignAPI提供与MegaSign相同的功能，但包括对多个签署方、收件人组、收件人角色、协议名称、碳复制等的额外支持。 |
 | 2020 年 9 月 29 日 | [快速浏览 Adobe Sign](https://docs.adobe.com/content/help/en/document-cloud-learn/sign-learning-hub/getting-started/getting-started-sending/quick-tour.html) | 视频 | 在本视频中，我们将从主屏幕开始快速浏览一下 Adobe Sign。 |
 
 有关 Document Cloud 的帮助，请参阅：
