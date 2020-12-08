@@ -1,16 +1,12 @@
 ---
-source-git-commit: f15603c29aa5f6df6eb7dc630ca72cc4e8292caa
+source-git-commit: 13ad94d323a3ac655b93f10b11c5245fe00ee379
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '529'
-ht-degree: 80%
+source-wordcount: '447'
+ht-degree: 94%
 
 ---
 # 贡献文章
-
-| EXL-PR | EXL | 预览 | 激活 | 发布日期 | 帮助 |
-|--- |--- |--- |--- |--- |--- |
-| [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_pr-exl/lastBuild/) | [![生成状态](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/release-notes.en_exl/lastBuild/lastBuild) | [预览URL](https://experienceleague.corp.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [实时URL](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 我们欢迎社区成员以及文档团队以外的 Adobe 员工积极贡献文章。
 
