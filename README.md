@@ -1,9 +1,9 @@
 ---
 source-git-commit: 13ad94d323a3ac655b93f10b11c5245fe00ee379
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '447'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 # 贡献文章
@@ -13,7 +13,7 @@ ht-degree: 94%
 ## Adobe Open Source 行为准则
 
 
-该项目采用了 [Adobe Open Source 行为准则](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/code-of-conduct.html)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[参与](https://docs.adobe.com/content/help/en/contributor/contributor-guide/conduct-contributions/contributing.html)文章。
+该项目采用了 [Adobe Open Source 行为准则](https://docs.adobe.com/content/help/zh-Hans/contributor/contributor-guide/conduct-contributions/code-of-conduct.html)或 [.NET Foundation 行为准则](https://dotnetfoundation.org/code-of-conduct)。有关更多信息，请参阅[参与](https://docs.adobe.com/content/help/zh-Hans/contributor/contributor-guide/conduct-contributions/contributing.html)文章。
 
 ## 关于您对 Adobe 内容的贡献
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社区参与者可以使用 GitHub UI 进行基本编辑或创建存储库分支，以做出主要更改。
 
-有关详细信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/en/contributor/contributor-guide-for-adobe-documentation/introduction.html)。
+有关详细信息，请参阅 [Adobe Docs 参与者指南](https://docs.adobe.com/content/help/zh-Hans/contributor/contributor-guide-for-adobe-documentation/introduction.html)。
 
 ## 如何使用 Markdown 格式化您的主题
 
