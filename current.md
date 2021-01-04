@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: November 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3f1afc6a9c158b461be3ded3bac935bcfac11066
+source-git-commit: 2f04d1dd4487a4e169360c0b23cdbef257121794
 workflow-type: tm+mt
-source-wordcount: '9838'
+source-wordcount: '9815'
 ht-degree: 100%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 100%
 ![横幅](/assets/experience-cloud-banner-3.png)
 
 此页面介绍了 [!DNL Adobe Experience Cloud] 中的新增功能、修复和重要声明。此外，还重点提供了可帮助您充分利用 Experience Cloud 的新文档、培训课程和视频教程。
-
->[!IMPORTANT]
->
->此页面可能包含某些产品的预发行内容，这些内容或许会在发行日期之前有所变更。请定期查看以获取最新信息。
 
 >[!NOTE]
 >
@@ -141,19 +137,19 @@ ht-degree: 100%
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | Customer Journey Analytics 文档 | 2020 年 11 月 11 日 | Customer Journey Analytics 文档已迁移至 Experience League。在 11 月份，所有的文章、视频、发行说明和教程都已从其当前位置 (`docs.adobe.com`) 迁移至 `experienceleague.adobe.com`。此次迁移可确保从一个位置提供所有的学习、自助、支持和社区内容。所有链接都已重定向到 Experience League。 |
-| [!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | 移动平均值已添加到折线图可视化图表趋势线设置。移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/visualizations/line.html) |
+| [!UICONTROL 折线图]可视化图表：移动平均趋势线选项 | 2020 年 10 月 8 日 | 移动平均值已添加到折线图可视化图表趋势线设置。移动平均值计算指定前期的平均值并将其用作趋势线数据点，然后移动到下一个期间。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) |
 | 删除回填限制 | 2020 年 10 月 19 日 | 为了提供更好的 CJA 体验，我们删除了回填（历史数据导入）限制。以前，您自己最多可以回填 25 亿行，超出这个限制则需工程团队介入。现在，您自己即可不受任何限制地回填数据。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-connections/create-connection.html#enable-connection) |
-| Analysis Workspace 性能帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。[了解更多](https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
+| Analysis Workspace 性能帮助页面 | 2020 年 10 月 22 日 | Analysis Workspace 性能帮助页面显示影响项目性能的不同因素，并提供有关性能优化提示的链接。[了解更多](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) |
 | [!UICONTROL 逗留时间]量度和维度 | 2020 年 10 月 30 日 | [!UICONTROL 逗留时间]量度和维度可以让您从客户历程的各个方面，查看客户逗留的时间长短，从而更全面地了解各个渠道的参与情况和瓶颈。 |
 | [!UICONTROL 设备]和[!UICONTROL 地理]维度 | 2020 年 10 月 30 日 | [!UICONTROL 设备]和[!UICONTROL 地理]维度现在默认情况下作为 [Adobe Analytics 源连接器](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html)中“全局查找支持”项目的一部分提供。在用户强烈要求下添加的这些维度增加了 [Adobe Analytics 与 CJA 之间的对等性](https://docs.adobe.com/content/help/zh-Hans/analytics-platform/using/cja-overview/cja-aa.html)。 |
 | 历程 IQ：跨渠道分析 | 2021 年 1 月 11 日 | 历程 IQ：跨渠道分析功能允许客户为 Adobe Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成密钥的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备/跨渠道分析。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans#cja-connections) |
 
 ### [!UICONTROL Media Analytics] 的新增功能{#media-aa}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | [!UICONTROL 工作区]中的“媒体并行查看者”面板 | 2020 年 9 月 17 日 | 通过[!UICONTROL 媒体并行查看者]面板，您可以了解出现并发峰值或发生锐减的位置。它为内容质量和查看者参与度提供了有价值的分析，同时有助于对批量/规模进行疑难问题解答或规划。[了解更多...](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-reports/media-workspace-panels/media-concurrent-viewers.html) |
 
@@ -445,14 +441,14 @@ Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建�
 * [Experience Manager 版本更新和路线图](https://docs.adobe.com/content/help/en/experience-manager-release-information/aem-release-updates/home.html)
 * [AEM as a Cloud Service 发行信息](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/release-notes/home.html)
 * [AEM Cloud Manager 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-manager/using/release-notes/release-notes-current.html)
-* [自动化表单转换服务发行说明](https://docs.adobe.com/content/help/zh-Hans/aem-forms-automated-conversion-service/using/release-notes.html)
+* [自动化表单转换服务发行说明](https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/using/release-notes.html)
 * [AEM 6.5 Service Pack 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-65/release-notes/service-pack/sp-release-notes.html)
 * [AEM 6.4 累积修复程序包发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-64/release-notes/cfp-release-notes.html)
 * [AEM Assets Dynamic Media 发行说明](https://docs.adobe.com/content/help/zh-Hans/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [AEM Brand Portal 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html)
 * [AEM 桌面应用程序发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-desktop-app/using/release-notes.html)
 * [AEM Dispatcher 发行说明](https://docs.adobe.com/content/help/zh-Hans/experience-manager-dispatcher/using/getting-started/release-notes.html)
-* [Adobe Primetime 发行说明](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
+* [Adobe Primetime 发行说明](https://docs.adobe.com/content/help/en/primetime/release-notes/home.html)
 * [Livefyre 发行说明](https://docs.adobe.com/content/help/zh-Hans/livefyre/using/release-notes/c-rn.html)
 
 ### AEM 的其他帮助资源
@@ -502,9 +498,9 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 | 2020 年 10 月 6 日 | [控制面板 - 控制面板入门](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
 | 2020 年 10 月 6 日 | [控制面板 - 控制面板入门](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
 | 2020 年 10 月 20 日 | [控制面板 - 控制面板入门 - 文章](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Classic | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
-| 2020 年 10 月 20 日 | [控制面板 - 控制面板入门 - 文章](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
+| 2020 年 10 月 20 日 | [控制面板 - 控制面板入门 - 文章](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html) | Campaign Standard | 本文介绍如何访问控制面板，以及使用控制面板的先决条件。 |
 | 2020 年 10 月 19 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Classic | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
-| 2020 年 10 月 19 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
+| 2020 年 10 月 19 日 | [控制面板 - 向允许列表添加 IP 范围](https://docs.adobe.com/content/help/en/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html) | Campaign Standard | 了解如何在控制面板中向允许列表添加 IP 地址范围。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME（测试版）委派子域 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Classic | 了解如何在控制面板中使用 CNAME 来设置和提交子域。 |
 | 2020 年 10 月 16 日 | [控制面板 - 使用 CNAME（测试版）委派子域 - 功能视频](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html) | Campaign Standard | 了解如何在控制面板中使用 CNAME 来设置和提交子域。 |
 
