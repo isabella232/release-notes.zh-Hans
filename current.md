@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 1beba26ad3096758512a7efbf5454012b686f007
+source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
 workflow-type: tm+mt
 source-wordcount: '6184'
 ht-degree: 44%
@@ -132,10 +132,8 @@ iOS版本4.21.0
 
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey)
-<!-- * [New features in Media Analytics](#media-aa) -->
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
-<!-- * [Analytics courses and tutorials](#tutorials-analytics) -->
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
@@ -312,7 +310,7 @@ AEM 6.4,Service Pack 8,Cumulative Fix Pack 3（2020年11月26日发布的6.4.8.3
 
 ### Experience Manager 的新课程和教程
 
-更新日期：**2020 年 12 月 2 日**
+更新：**2021年1月10日**
 
 过去一个月发布的新视频、教程及课程。
 
