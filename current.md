@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 4f4eac5843bd39369950c543749455580b1cb964
+source-git-commit: 23d521bb24f13ed6ad843b605f72f362262790c2
 workflow-type: tm+mt
-source-wordcount: '6184'
+source-wordcount: '6183'
 ht-degree: 44%
 
 ---
@@ -453,7 +453,7 @@ Adobe Advertising Cloud 的发行说明。
 
 ### 核心 Marketo Engage 更新
 
-请参阅 [!DNL Marketo] [发行说明](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+July+%2720)了解最新发行信息。
+请参阅 [!DNL Marketo] [发行说明](https://docs.marketo.com/display/public/DOCS/Jan+%2721)了解最新发行信息。
 
 ### 即将推出的功能
 
@@ -469,7 +469,7 @@ Adobe Advertising Cloud 的发行说明。
 * **Asset API“_method”参数：** 2020 年 9 月之后，Asset API 端点将不再接受 `_method` 在 POST 正文中传递查询参数以绕过 URI 长度限制。
 * **弃用 Internet Explorer 支持：**&#x200B;从 2020 年 7 月 31 日发行的 7 月版本开始，Internet Explorer 将不再支持 Marketo Engage 用户界面。
 
-有关累积和历史发行说明，请参阅 [Marketo 发行说明](https://docs.marketo.com/x/CgA6Ag)。
+有关累积和历史发行说明，请参阅 [Marketo 发行说明](https://docs.marketo.com/display/public/DOCS/Release+Notes)。
 
 ## ![图标](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
