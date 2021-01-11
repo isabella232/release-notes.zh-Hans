@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 23d521bb24f13ed6ad843b605f72f362262790c2
+source-git-commit: 3d0946fe6fc0bf74ec45a19931c106afb8a8208d
 workflow-type: tm+mt
-source-wordcount: '6183'
-ht-degree: 44%
+source-wordcount: '6185'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 44%
 >
 >订阅每月[Adobe优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收有关此页面更新的电子邮件通知。 本页面在当月内进行维护，因此请定期回访，了解Adobe企业产品和Experience League文档更新。
 
-最新更新：**2020年1月10日**
+最新更新：**2020年1月11日**
 
 * [Adobe系统状态](#status) （未更新）
 * [Experience Cloud 服务和管理](#ecloud)
@@ -36,7 +36,7 @@ ht-degree: 44%
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
-* [[!DNL Marketo Engage]](#marketo)
+* [[!DNL Marketo Engage]](#marketo) (已更新： **2021年1月11日**)
 * [Document Cloud](#doc-cloud)
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。内容已从`docs.adobe.com`移到此位置。 请相应地更新书签。
