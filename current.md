@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d5d885d83774f8160e77ec34ddc4cfa92b7f10f4
+source-git-commit: 783d8abc85c468f18d599d5ff5782dd01cb07e78
 workflow-type: tm+mt
-source-wordcount: '6414'
+source-wordcount: '6428'
 ht-degree: 42%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 42%
 >
 >订阅每月[Adobe优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收有关此页面更新的电子邮件通知。 本页面在当月内进行维护，因此请定期回访，了解Adobe企业产品和Experience League文档更新。
 
-最新更新：**2020年1月11日**
+最新更新：**2021年1月12日**
 
 * [Adobe系统状态](#status) （未更新）
 * [Experience Cloud 服务和管理](#ecloud)
@@ -32,7 +32,7 @@ ht-degree: 42%
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (发行日期：**2021 年 1 月 14 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac)
+* [Campaign](#ac) （更新日期&#x200B;**2021年1月12日**）
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -149,7 +149,7 @@ iOS版本4.21.0
 | 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | [!UICONTROL 设备]和[!UICONTROL 地理]维度 | 2020 年 10 月 30 日 | 现在，这些维在Adobe Analytics[!UICONTROL 源连接器]中作为[全局查找](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=en#use-global-lookups-with-adobe-data-connector-datasets)支持项目的一部分默认可用。 在用户强烈要求下添加的这些维度增加了 [Adobe Analytics 与 CJA 之间的对等性](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=en#cja-overview)。 |
-| 旅程IQ:[!UICONTROL 跨渠道分析] | 2021 年 1 月 11 日 | 旅程IQ:[!UICONTROL 跨渠道分析]使您能够将Experience Platform数据湖中的Adobe Analytics（或其他）事件数据集从一个ID命名空间重新键入到另一个ID。 通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。这样，重新键入的数据集可以与CJA连接中的其他基于人的数据相结合，从而在Analysis Workspace实现跨设备和跨渠道分析。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans#cja-connections) |
+| 历程IQ:[!UICONTROL 跨渠道分析] | 2021 年 1 月 11 日 | 历程IQ:[!UICONTROL 跨渠道分析]使您能够将Experience Platform数据湖中的Adobe Analytics（或其他）事件数据集从一个ID命名空间重新键入到另一个ID。 通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。这样，重新键入的数据集可以与CJA连接中的其他基于人的数据相结合，从而在Analysis Workspace实现跨设备和跨渠道分析。 [了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans#cja-connections) |
 | Analysis Workspace-组件选择 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉区域组件已添加到[!UICONTROL Workspace]中的所有下拉区域。 此增强功能允许您从兼容组件的下拉列表中进行选择，或继续将空间用作拖放区域。 |
 | Analysis Workspace-图像URL | 2021 年 1 月 14 日 | 您可以通过引用公共图像URL将图像添加到Workspace项目。 |
 
@@ -373,7 +373,7 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 
 #### Campaign Classic
 
-<!-- [Incident Response Bulletin](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (January 12) -->
+[事件响应公告](https://helpx.adobe.com/security/products/campaign/apsb21-04.html) (已更新： **2021年1月12日**)
 
 * 20.3.3 版本 - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
 * 20.3.1 版本 - [了解更多](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes)
