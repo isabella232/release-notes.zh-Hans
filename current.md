@@ -23,7 +23,7 @@ ht-degree: 41%
 >
 >订阅每月[Adobe优先级产品更新](https://www.adobe.com/subscription/priority-product-update.html)，以接收有关此页面更新的电子邮件通知。 本页面在当月内进行维护，因此请定期回访，了解Adobe企业产品和Experience League文档更新。
 
-最新更新：**2021年1月12日**
+最新更新：**2021年1月13日**
 
 * [Adobe系统状态](#status) （未更新）
 * [Experience Cloud 服务和管理](#ecloud)
@@ -521,7 +521,7 @@ Adobe Document Cloud 的发行信息和帮助资源。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 12 月 22 日 | [薪水保护](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/expand/recipes/gov/usecasegovpaycheck.html) | 演示 | 了解如何使用Adobe Sign将支付保护计划表单转换为在线交互式表单。 |
+| 2020 年 12 月 22 日 | [工资保障](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/expand/recipes/gov/usecasegovpaycheck.html) | 演示 | 了解如何使用Adobe Sign将支付保护项目表单转换为在线交互式表单。 |
 
 有关 Document Cloud 的帮助，请参阅：
 
