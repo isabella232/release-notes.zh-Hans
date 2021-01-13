@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 40f7861366595738d6ba7b7ebcbbba514b2c98c7
+source-git-commit: 173c6f89606fb3a5fde4db91f66900476293f6b5
 workflow-type: tm+mt
-source-wordcount: '6518'
+source-wordcount: '6601'
 ht-degree: 41%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 41%
 
 * [Adobe系统状态](#status) （未更新）
 * [Experience Cloud 服务和管理](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) （更新日期&#x200B;**2021年1月13日**）
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (已更新：**2021年1月12日**)
 * [Audience Manager](#aam)
@@ -55,7 +55,10 @@ ht-degree: 41%
 
 本月未进行更新。
 
-请参阅 [Experience Cloud 服务的发行说明汇总](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html)，以了解最新发行信息。
+**另请参阅**
+
+* [Experience Cloud服务的累积发](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html) 行说明，了解最新的发行信息。
+* [Experience CloudID服](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 务发行说明
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
@@ -75,7 +78,14 @@ ht-degree: 41%
 
 ### Experience Platform Launch
 
-有关 Platform Launch 的更多信息，请参阅 [Experience Platform Launch 发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)。
+发行日期：**2021 年 1 月 13 日**
+
+**[!UICONTROL 启动服务器端]:** 将事件级数据发送到AEP Edge Network，然后使用启动服务器端使用Adobe服务器（而非客户端）以低延迟转换、丰富数据并将其发送到非Adobe端点。[更多...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=en#server-side-info)
+
+**另请参阅**
+
+* [Experience Platform Launch发](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) 行说明，了解有关Experience Platform Launch的信息。
+* [Experience CloudID服务扩](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html) 展发行说明
 
 ### Adobe Mobile
 
@@ -174,7 +184,7 @@ AN-240295)
 * 修复了文件未从分类FTP中拾取的问题。 (AN-242490)
 * 修复了Workspace中的UI渲染错误。 (AN-243123)
 * 修复了无法从SFTP服务器接收文件的Data warehouse问题。 (AN-244679)
-* 修复了在]Admin[!UICONTROL  > ]Logs[!UICONTROL  > ]使用和访问日志[!UICONTROL 下发现的阻止下载报告[!UICONTROL 链接工作的问题。 ](AN-238058)
+* 修复了在[!UICONTROL Admin] > [!UICONTROL Logs] > [!UICONTROL 使用和访问日志]下发现的阻止下载报告]链接工作的问题。 [!UICONTROL (AN-238058)
 
 #### 其他 Adobe Analytics 修复
 
@@ -511,7 +521,7 @@ Adobe Document Cloud 的发行信息和帮助资源。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2020 年 12 月 22 日 | [工资保障](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/expand/recipes/gov/usecasegovpaycheck.html) | 演示 | 了解如何使用Adobe Sign将支付保护项目表单转换为在线交互式表单。 |
+| 2020 年 12 月 22 日 | [薪水保护](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/expand/recipes/gov/usecasegovpaycheck.html) | 演示 | 了解如何使用Adobe Sign将支付保护计划表单转换为在线交互式表单。 |
 
 有关 Document Cloud 的帮助，请参阅：
 
