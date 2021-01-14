@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d6693c587c6622105b13410dad58ad28232388cc
+source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
 workflow-type: tm+mt
 source-wordcount: '6618'
 ht-degree: 92%
@@ -93,7 +93,7 @@ ht-degree: 92%
 
 iOS 版本 4.21.1
 
-* 常规——修复了在应用程序关闭期间可能导致sqlite异常的问题。
+* 常规——修复了在应用程序关闭期间可能导致SQLite异常的问题。
 
 iOS 版本 4.21.0
 
