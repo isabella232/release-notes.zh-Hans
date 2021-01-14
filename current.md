@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 026ae3842b9683ac8c55658964969d5deca75340
+source-git-commit: 579b634c53f1a04a5c75f66e31de0dde5e5d1352
 workflow-type: tm+mt
-source-wordcount: '6618'
-ht-degree: 92%
+source-wordcount: '6788'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 92%
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 12 日**)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
-* [Campaign](#ac) （更新日期&#x200B;**2021年1月12日**）
+* [Campaign](#ac) （更新日期&#x200B;**2021年1月14日**）
 * [Advertising Cloud](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Magento]](#magento)
@@ -414,7 +414,13 @@ Campaign Classic、Campaign Standard 和控制面板的发行信息。
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2020 年 12 月 23 日 | [配置动态内容](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/configuring-dynamic-content.html#sending-messages) | Campaign Classic | （视频）理解不同类型的动态内容，并了解如何创建个性化模块和条件语句并将其应用到交付。 |
-| 2020 年 12 月 9 日 | [控制面板 - Google TXT 记录管理](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) | Campaign Standard | （视频）了解如何将 Google TXT 网站验证记录添加到所有子域，这些子域用于通过 [!UICONTROL Campaign 控制面板]向 Gmail 地址发送电子邮件。 |
+| 2020 年 12 月 23 日 | [配置和管理订阅服务](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/configuring-and-managing-subscription-services.html) | Campaign Classic | （视频）了解如何设置和管理订阅和目标订阅者。 |
+| 2020 年 12 月 22 日 | [访问内置报告](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/reporting/accessing-built-in-reports.html) | Campaign Classic | （视频）  了解  campaign classic中内置的报告和分析，学习如何生成投放报告。 |
+| 2020 年 12 月 22 日 | [电子邮件投放问题疑难解答](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/troubleshooting-email-delivery-issues.html) | Campaign Classic | （视频）了解如何解决投放问题。 |
+| 2020 年 12 月 18 日 | [创建直邮投放](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/sending-messages/direct-mail/creating-direct-mail-deliveries.html) | Campaign Classic | （视频）了解如何创建直邮投放并在活动中使用种子地址。 |
+| 2020 年 12 月 18 日 | [在活动中管理批准  ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/managing-approvals.html) | Campaign Classic | （视频）了解如何设置批准和活动，以及如何区分投放和工作流批准。 |
+| 2020 年 12 月 18 日 | [执行活动](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/executing-a-campaign.html) | Campaign Classic | （视频）了解如何执行活动、查看电子邮件投放和投放属性。 |
+| 2020 年 12 月 15 日 | [扩展应用程序订阅模式以个性化推送通知](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/extending-the-app-subscription-schema.html) | Campaign Classic | （视频）了解如何扩展应用程序订阅模式，以便能够存储活动从移动应用程序收到的个性化值。 |
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
