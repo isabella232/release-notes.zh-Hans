@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: January 2021
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6796'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 * [Experience Cloud 服务和管理](#ecloud)
 * [Experience Platform](#platform)（更新日期：**2021 年 1 月 14 日**）
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey) (更新日期：**2021 年 1 月 20 日**)
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：**2021 年 1 月 20 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)（更新日期：**2021 年 1 月 14 日**）
@@ -149,7 +149,7 @@ iOS 版本 4.21.0
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2021年1月20日）
+* [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2021 年 1 月 20 日）
 * [AppMeasurement](#appm)
 * [Report Builder](#arb)
 
@@ -163,7 +163,7 @@ iOS 版本 4.21.0
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | [!UICONTROL 设备]和[!UICONTROL 地理]维度 | 2020 年 10 月 30 日 | 现在，这些维度默认情况下可作为 Adobe Analytics [!UICONTROL 源连接器]中[全局查找支持](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=zh-Hans#use-global-lookups-with-adobe-data-connector-datasets)项目的一部分。在用户强烈要求下添加的这些维度增加了 [Adobe Analytics 与 CJA 之间的对等性](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=zh-Hans#cja-overview)。 |
 | 历程 IQ：[!UICONTROL 跨渠道分析] | 2021 年 1 月 11 日 | 历程 IQ：[!UICONTROL 跨渠道分析]功能允许您为 Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成键值的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备以及跨渠道分析。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans#cja-connections) |
@@ -199,7 +199,7 @@ AN-204659、AN-221726、AN-230949、AN-231984、AN-232835、AN-233989、AN-23559
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| Ad Hoc Analysis 生命周期终止 | 2021年1月21日 | 2021年3月1日，Ad Hoc Analysis将终止生命。 此时，利用此产品的所有项目和计划将停止工作。 有关更多信息，请参阅[探索工作区](https://adobe.ly/discoverworkspace)。 |
+| Ad Hoc Analysis 生命周期终止 | 2021 年 1 月 21 日 | 2021 年 3 月 1 日，Ad Hoc Analysis 的生命周期将终止。届时，利用此产品的所有项目和计划将停止工作。有关更多信息，请参阅[探索工作区](https://adobe.ly/discoverworkspace)。 |
 | 必须更新 [!UICONTROL Report Builder] | 2021 年 1 月 8 日 | 截至 2021 年 4 月 30 日，所有 [!UICONTROL Report Builder] 用户都必须将 [!UICONTROL Report Builder] 插件更新到版本 5.6.47 或更高版本。此版本包含登录流程的关键更新。未更新至版本 5.6.47 或更高版本的用户，将无法在 2021 年 4 月 30 日之后登录。[!UICONTROL Report Builder] 版本 5.6.47 及更高版本仅支持 Experience Cloud 登录，不支持旧版登录（如 SiteCatalyst 单点登录或标准登录）。有关更多信息，请参阅 [Report Builder 登录](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=zh-Hans#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | 将 HSTS 头添加到所有传入的 HTTPS 请求 | 2020 年 9 月 29 日 | 2020 年 9 月 29 日，我们开始向所有使用 HTTPS 的传入请求添加 HSTS 头。这会指示浏览器/客户端在以后使用 HTTPS 发出所有请求，这被视为最佳安全实践。目前，我们不会对使用 HTTP 的传入请求强制执行此操作。 |
@@ -214,9 +214,9 @@ AN-204659、AN-221726、AN-230949、AN-231984、AN-232835、AN-233989、AN-23559
 
 ### Report Builder {#arb}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 更新 Analytics [!UICONTROL Report Builder] 的登录流程 | 2021 年 1 月 14 日 | 改进了 [!UICONTROL Report Builder] 登录流程，消除了对传统技术的依赖，并与 Adobe Experience Cloud 的登录流程保持一致。Experience Cloud 登录流程允许您使用 Adobe ID 或 Enterprise ID（单点登录）登录到 Adobe Experience Cloud。截至 2021 年 4 月 30 日，所有 [!UICONTROL Report Builder] 用户都必须将 [!UICONTROL Report Builder] 插件更新到版本 5.6.47 或更高版本。[!UICONTROL Report Builder] 版本 5.6.47 及更高版本仅支持 Experience Cloud 登录，不支持旧版登录（如 SiteCatalyst 单点登录或标准登录）。有关更多信息，请参阅 [Report Builder 登录](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
+| 更新 Analytics [!UICONTROL Report Builder] 的登录流程 | 2021 年 1 月 14 日 | 改进了 [!UICONTROL Report Builder] 登录流程，消除了对传统技术的依赖，并与 Adobe Experience Cloud 的登录流程保持一致。Experience Cloud 登录流程允许您使用 Adobe ID 或 Enterprise ID（单点登录）登录到 Adobe Experience Cloud。截至 2021 年 4 月 30 日，所有 [!UICONTROL Report Builder] 用户都必须将 [!UICONTROL Report Builder] 插件更新到版本 5.6.47 或更高版本。[!UICONTROL Report Builder] 版本 5.6.47 及更高版本仅支持 Experience Cloud 登录，不支持旧版登录（如 SiteCatalyst 单点登录或标准登录）。有关更多信息，请参阅 [Report Builder 登录](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=zh-Hans#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 
 ### Analytics 帮助资源
 
