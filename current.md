@@ -4,11 +4,11 @@ description: Adobe Experience Cloud 发行说明
 doc-type: release notes
 last-update: January 2021
 author: mfrei
-translation-type: ht
-source-git-commit: 6d3d54f4926936ced5c9025e563cdfeec59f4a1f
-workflow-type: ht
-source-wordcount: '6796'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 05cf9f34a835a5d51013789909508c353827315e
+workflow-type: tm+mt
+source-wordcount: '6770'
+ht-degree: 98%
 
 ---
 
@@ -163,7 +163,7 @@ iOS 版本 4.21.0
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | [!UICONTROL 设备]和[!UICONTROL 地理]维度 | 2020 年 10 月 30 日 | 现在，这些维度默认情况下可作为 Adobe Analytics [!UICONTROL 源连接器]中[全局查找支持](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/global-lookups.html?lang=zh-Hans#use-global-lookups-with-adobe-data-connector-datasets)项目的一部分。在用户强烈要求下添加的这些维度增加了 [Adobe Analytics 与 CJA 之间的对等性](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-aa.html?lang=zh-Hans#cja-overview)。 |
 | 历程 IQ：[!UICONTROL 跨渠道分析] | 2021 年 1 月 11 日 | 历程 IQ：[!UICONTROL 跨渠道分析]功能允许您为 Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成键值的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备以及跨渠道分析。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans#cja-connections) |
@@ -214,9 +214,9 @@ AN-204659、AN-221726、AN-230949、AN-231984、AN-232835、AN-233989、AN-23559
 
 ### Report Builder {#arb}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 更新 Analytics [!UICONTROL Report Builder] 的登录流程 | 2021 年 1 月 14 日 | 改进了 [!UICONTROL Report Builder] 登录流程，消除了对传统技术的依赖，并与 Adobe Experience Cloud 的登录流程保持一致。Experience Cloud 登录流程允许您使用 Adobe ID 或 Enterprise ID（单点登录）登录到 Adobe Experience Cloud。截至 2021 年 4 月 30 日，所有 [!UICONTROL Report Builder] 用户都必须将 [!UICONTROL Report Builder] 插件更新到版本 5.6.47 或更高版本。[!UICONTROL Report Builder] 版本 5.6.47 及更高版本仅支持 Experience Cloud 登录，不支持旧版登录（如 SiteCatalyst 单点登录或标准登录）。有关更多信息，请参阅 [Report Builder 登录](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=zh-Hans#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
+| 更新 Analytics [!UICONTROL Report Builder] 的登录流程 | 2021 年 1 月 14 日 | 改进了 [!UICONTROL Report Builder] 登录流程，消除了对传统技术的依赖，并与 Adobe Experience Cloud 的登录流程保持一致。Experience Cloud 登录流程允许您使用 Adobe ID 或 Enterprise ID（单点登录）登录到 Adobe Experience Cloud。截至 2021 年 4 月 30 日，所有 [!UICONTROL Report Builder] 用户都必须将 [!UICONTROL Report Builder] 插件更新到版本 5.6.47 或更高版本。[!UICONTROL Report Builder] 版本 5.6.47 及更高版本仅支持 Experience Cloud 登录，不支持旧版登录（如 SiteCatalyst 单点登录或标准登录）。有关更多信息，请参阅 [Report Builder 登录](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/login.html?lang=en#section_6D54B8ADAE7F416BB83F5082B3771CFA)。 |
 
 ### Analytics 帮助资源
 
@@ -435,22 +435,20 @@ Adobe Advertising Cloud 的发行说明。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 新建帮助 | （10 月 28 日版）旧版帮助页面已替换为更新页面，这些更新页面可从 DSP 主菜单的“帮助”链接获取，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) 获取。 |
-| 促销活动 | （10 月 28 日版）以前的 Campaigns 测试版视图现在成为默认的 Campaigns 视图，可以实现更快的分析、简化的工作流和自定义视图。 |
+| 新建帮助 | （10月28日发行版）旧版帮助已替换为更新的页面，这些页面可从DSP主菜单的“帮助”链接访问，并且随时也可从[https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html)访问 |
+| 促销活动 | （10月28日发布）以前的活动测试版视图现在是默认活动视图，用于更快地进行分析、简化工作流和自定义视图。 |
 | 专用内容库 | （10 月 15 日版）如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版[!UICONTROL 智能广告投放]表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
 | 投放预测 | （10 月 15 日版）在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search} 
 
-上次更新日期：**2020 年 10 月 17 日**
+上次更新：**2021年1月22日，1月23日版本**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| [!UICONTROL 搜索促销活动] | 如今，[!UICONTROL 帐户]视图的[!UICONTROL 访问]列可指明 [!DNL Advertising Cloud Search] 何时无法登录到已启用搜索引擎的帐户。要了解错误原因，请将光标悬停在警告图标上。 |
-| [!UICONTROL 自定义警报] | 此前的[!UICONTROL 测试版警报]现已更名为[!UICONTROL 自定义警报]。 |
-| [!UICONTROL 自定义警报] | 在自定义警报中，我们简化了下面的工作流程并将其移至[!UICONTROL 过滤器]选项卡：用来确定与上一期间的量度相比，指定日期范围的量度何时发生增减。 |
+| [!UICONTROL 搜索促销活动]<br> 报表 | Advertising Cloud Search不再报告微软广告活动的新平均职位数据。 “平均位置”列显示从1月23日开始的日期的值为零(0)。 这是为微软在2021年1月弃用平均职位数据做准备。<br>截至1月22日收集的平均职位数据仍可在报告中查阅。 |
 
-### Ad Cloud 教程和课程
+### Advertising Cloud教程和课程
 
 更新日期：**2020 年 12 月 2 日**
 
