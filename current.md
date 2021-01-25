@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b974424e1aa557063f54a12aed537a62c283779b
+source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
 workflow-type: tm+mt
 source-wordcount: '6772'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 * [Experience Cloud 服务和管理](#ecloud)
 * [Experience Platform](#platform)（更新日期：2021 年 1 月 14 日）
 * [Journey Orchestration](#journey-orch)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：**2021 年 1 月 20 日**）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：**2021 年 1 月 25 日**）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)（更新日期：2021 年 1 月 14 日）
@@ -159,7 +159,7 @@ iOS 版本 4.21.0
 | ----------- | ---------- | ------- |
 | Analysis Workspace - 图像 URL | 2021 年 1 月 14 日 | 您可以通过引用公共的图像 URL，向 [!UICONTROL Workspace] 项目添加图像。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/text.html?lang=zh-Hans#analysis-workspace) |
 | Analysis Workspace - 组合式源和设置管理器 | 2021 年 1 月 14 日 | 用于可视化的数据源管理器（点）和设置管理器（齿轮）已合并到一个对话框中，因此您可以轻松地从同一位置管理源和设置。 |
-| Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
+| Analysis Workspace - 组件选择 | 2021 年 2 月 16 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -169,7 +169,7 @@ iOS 版本 4.21.0
 | 历程 IQ：[!UICONTROL 跨渠道分析] | 2021 年 1 月 11 日 | 历程 IQ：[!UICONTROL 跨渠道分析]功能允许您为 Experience Platform 数据湖中的 Adobe Analytics（或其他）事件数据集重新生成键值，即，从一个 ID 命名空间的键值重新生成另一个 ID 命名空间的键值。通常，这意味着为事件数据集从基于 Cookie 的 ID 重新生成一个基于人员的 ID。按照这种方式，重新生成键值的数据集可以同 CJA 连接中其他基于人员的数据相结合，从而在 Analysis Workspace 中实现跨设备以及跨渠道分析。[了解更多](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/cca/overview.html?lang=zh-Hans#cja-connections) |
 | Analysis Workspace - 图像 URL | 2021 年 1 月 14 日 | 您可以通过引用公共的图像 URL，将图像添加到 Workspace 项目中。 |
 | Analysis Workspace - 组合式源和设置管理器 | 2021 年 1 月 14 日 | 用于可视化的数据源管理器（点）和设置管理器（齿轮）已合并到一个对话框中，因此您可以轻松地从同一位置管理源和设置。 |
-| Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
+| Analysis Workspace - 组件选择 | 2021 年 2 月 16 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
 
