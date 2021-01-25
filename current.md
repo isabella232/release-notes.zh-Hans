@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9f09b05b1764f65ec18f108b1e45942e58ce89fb
+source-git-commit: 0c154b63cee0bd27b900101f535fc0224b82438c
 workflow-type: tm+mt
-source-wordcount: '6772'
-ht-degree: 100%
+source-wordcount: '6776'
+ht-degree: 99%
 
 ---
 
@@ -146,8 +146,8 @@ iOS 版本 4.21.0
 
 发行日期：**2021 年 1 月 14 日**
 
-* [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 的新增功能](#cust-journey)
+* [Adobe Analytics的新增功](#aa-features) 能（2021年1月25日更新）
+* [Customer Journey Analytics的新增功能](#cust-journey) （2021年1月25日更新）
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2021 年 1 月 20 日）
 * [AppMeasurement](#appm)
