@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
 workflow-type: tm+mt
 source-wordcount: '6802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -80,9 +80,9 @@ ht-degree: 99%
 
 **[!UICONTROL Launch Server Side]：**&#x200B;将事件级数据发送到 AEP Edge Network，并使用 Launch Server Side 将这些数据进行转换和丰富，然后通过 Adobe 的服务器（而非客户端），以较短的延迟时间将其发送到非 Adobe 端点。[更多...](https://experienceleague.adobe.com/docs/launch/using/server-side-info/server-side-overview.html?lang=zh-Hans#server-side-info)
 
-更新日期：**2021 年 1 月 25 日**:
+更新日期：**2021 年 1 月 25 日**：
 
-Experience CloudID服务扩展&#x200B;**5.1.1**&#x200B;已发布。 有关详细信息，请参阅[Experience CloudID服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)发行说明。
+Experience Cloud ID 服务扩展 **5.1.1** 现已发布。有关详细信息，请参阅 [Experience Cloud ID 服务扩展](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/experience-cloud-id-release-notes.html)发行说明。
 
 **另请参阅**
 
@@ -148,8 +148,8 @@ iOS 版本 4.21.0
 
 发行日期：**2021 年 1 月 14 日**
 
-* [Adobe Analytics的新增功](#aa-features) 能（2021年1月25日更新）
-* [Customer Journey Analytics的新增功能](#cust-journey) （2021年1月25日更新）
+* [Adobe Analytics 的新增功能](#aa-features)（更新日期：2021 年 1 月 25 日）
+* [Customer Journey Analytics 的新增功能](#cust-journey)（更新日期：2021 年 1 月 25 日）
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)（更新日期：2021 年 1 月 20 日）
 * [AppMeasurement](#appm)
