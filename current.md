@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: January 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 7f58dcf4014b96f0aa651b16b90427a2a81ba374
+source-git-commit: e396ac53948a2ea163b09f0545de994c0d7ef001
 workflow-type: tm+mt
-source-wordcount: '6802'
-ht-degree: 100%
+source-wordcount: '6831'
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 最近更新日期：**2021 年 1 月 25 日**
 
 * [Adobe 系统状态](#status)（未更新）
-* [Experience Cloud 服务和管理](#ecloud)
-* [Experience Platform](#platform) (更新日期：**2021 年 1 月 25 日**)
+* [Experience Cloud服务和](#ecloud) 行政( **更新于2021年2月10日**)
+* [Experience Platform](#platform) (2021 **年1月25日更新**)
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：**2021 年 1 月 25 日**）
 * [Audience Manager](#aam)
@@ -53,7 +53,11 @@ ht-degree: 100%
 
 [Experience Cloud 服务和管理](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)文档包括客户属性、受众库（[!UICONTROL 人员]服务）、激活、用户和产品管理，以及 Experience Cloud Cookie。
 
-**另请参阅**
+**2021 年 2 月 4 日**
+
+* Experience Cloud更新将删除初始Experience Cloud登录介绍屏幕。 从2月4日开始，您将直接从`https://experience.adobe.com/login`发送到Adobe登录屏幕。
+
+**其他资源**
 
 * 要了解最新发行信息，请参阅 [Experience Cloud 服务的发行说明汇总](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/release-notes/release-notes.html)。
 * [Experience Cloud ID 服务](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)发行说明
