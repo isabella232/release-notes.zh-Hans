@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ef6eb673a8a62d657b56ef09e694202874742459
+source-git-commit: 10f5e323e30ed0c4c8b3b5b2e2236674b2ab6c69
 workflow-type: tm+mt
-source-wordcount: '6357'
+source-wordcount: '6355'
 ht-degree: 32%
 
 ---
@@ -29,7 +29,7 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 
 最新更新：**2021年2月12日**
 
-* [Adobe 系统状态](#status)（未更新）
+* [Adobe 系统状态](#status)
 * [Experience Cloud 服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
