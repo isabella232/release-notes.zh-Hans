@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 0eb54f4401d6aad7194527c39cd6c387eade22a1
+source-git-commit: ef6eb673a8a62d657b56ef09e694202874742459
 workflow-type: tm+mt
 source-wordcount: '6357'
 ht-degree: 32%
@@ -27,7 +27,7 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 >
 >若要接收有关此页面更新的电子邮件通知，请订阅每月的 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)。本页在当月内进行维护，因此请定期查阅以获取Adobe企业产品和Experience League文档的更新。
 
-最新更新：**2021年2月11日**
+最新更新：**2021年2月12日**
 
 * [Adobe 系统状态](#status)（未更新）
 * [Experience Cloud 服务和管理](#ecloud)
