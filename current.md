@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 150911084be7da0d1f3c887d76a7b897ac94a173
+source-git-commit: d24a0044604b068dd1a8b4a19084d982ed9f22ac
 workflow-type: tm+mt
-source-wordcount: '6355'
-ht-degree: 32%
+source-wordcount: '6309'
+ht-degree: 33%
 
 ---
 
@@ -120,14 +120,14 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
-| Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。有关视频教程，请参阅Analysis Workspace中的[“媒体并发查看器面板”。](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) |
+| Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
 | 分析仪表板语言选择 | 2021 年 1 月 14 日 | 您现在可以在“分析”仪表板中选择一种语言。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。有关视频教程，请参阅Analysis Workspace中的[“媒体并发查看器面板”。](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) |
+| Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
 | CJA API | 2021 年 2 月 18 日 | CJA API现已可用。 这些API允许您以编程方式编辑组件和检索报表。 有关详细信息，请参阅CJA API文档（链接如下）。 |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
