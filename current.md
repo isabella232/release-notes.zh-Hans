@@ -60,7 +60,7 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 
 **2021 年 2 月 4 日**
 
-* **登录更新：对Experience Cloud** 的更新将删除初始Experience Cloud登录介绍屏幕。从2月4日开始，您将直接从`https://experience.adobe.com/login`发送到Adobe登录屏幕。
+* **登录更新：对Experience Cloud** 的更新将删除初始Experience Cloud登录介绍屏幕。从 2 月 4 日开始，您将直接从 `https://experience.adobe.com/login` 转到 Adobe 登录屏幕。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
