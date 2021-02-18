@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 6c462c5b447ac45ff9507a6242fec2aef478344a
+source-git-commit: 1ed740f01fa639793c4694d206c07728f523a4a5
 workflow-type: tm+mt
-source-wordcount: '6309'
+source-wordcount: '6310'
 ht-degree: 33%
 
 ---
@@ -128,7 +128,7 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 | 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
-| CJA API | 2021 年 2 月 18 日 | CJA API现已可用。 这些API允许您以编程方式编辑组件和检索报表。 有关详细信息，请参阅CJA API文档（链接如下）。 |
+| CJA API | 2021 年 2 月 18 日 | CJA API现已可用。 这些API允许您以编程方式编辑组件和检索报表。 有关详细信息，请参阅[CJA API文档](https://adobe.io/cja-apis/docs)。 |
 
 ### Adobe Analytics 中的修复 {#aa-fixes}
 
