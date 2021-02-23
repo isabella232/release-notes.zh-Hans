@@ -1,14 +1,14 @@
 ---
 title: Experience Cloud和Experience Platform发行说明
-description: 了解有关Experience Cloud和Experience Platform的最新发行说明、新增功能和新文档。 查找有关企业版和Creative Cloud的新帮助和教程。
+description: 了解 Experience Cloud 和 Experience Platform 的最新发行说明、新增功能和最新文档。查找 Creative Cloud 企业版和 Document Cloud 的最新帮助和教程。
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b785653a7f35f188c17f2ed05ec7a8b143c192b4
+source-git-commit: 803595c63ab6db90fb17c9998c623c03e834aaa0
 workflow-type: tm+mt
-source-wordcount: '6381'
-ht-degree: 32%
+source-wordcount: '6384'
+ht-degree: 33%
 
 ---
 
@@ -81,7 +81,7 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 | 2021 年 2 月 3 日 | [批量数据获取概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 视频 | Adobe Experience Platform中的批量数据获取概述。 了解如何使用API收录批数据。 |
 | 2021 年 2 月 3 日 | [将数据激活到非Adobe应用程序](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | 视频 | 了解Adobe的实时CDP如何帮助您通过受众创建真正的个性化战略。 此外，了解它如何融入Microsoft、Google和Facebook现有的生态系统和非Adobe应用程序。 |
 | 2021 年 1 月 21 日 | [面向营销人员的智能服务入门课程介绍](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | 视频 | 营销人员智能服务入门课程的简介。 |
-| 2021 年 1 月 13 日 | [营销人员Offer Decisioning入门简介](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | 视频 | 以及面向营销人员的Offer Decisioning入门课程的介绍。 |
+| 2021 年 1 月 13 日 | [营销人员Offer Decisioning入门简介](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | 视频 | 以及营销人员Offer Decisioning入门课程的介绍。 |
 | 2021 年 1 月 31 日 | [使用菜谱构建器模板培训、评分和提高模型效率](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | 视频 | 了解如何使用更新的菜谱构建器模板来使用零售销售模式和数据集构建菜谱。 |
 | 2021 年 1 月 31 日 | [在JupyterLab笔记本中加载数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | 视频 | 了解Data Science Workspace中的JupyterLab。 |
 | 2021 年 1 月 12 日 | [创建合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | 视频 | 了解如何在Adobe Experience Platform中创建合并策略。 |
@@ -122,7 +122,7 @@ Experience Cloud解决方案和服务每月更新。 本页是您查找[!DNL Exp
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
-| 分析仪表板语言选择 | 2021 年 1 月 14 日 | 您现在可以在“分析”仪表板中选择一种语言。 |
+| 分析仪表板语言选择 | 2021 年 1 月 14 日 | 导航到&#x200B;**[!UICONTROL 设置]** > **[!UICONTROL 首选项]** > **[!UICONTROL 语言]**&#x200B;以在“分析”仪表板中选择语言。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -171,7 +171,7 @@ AN-224987;AN-229009;AN-239750;AN-239765;AN-241620;AN-242996;AN-243577;AN-243774;
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 2 月 8 日 | [将趋势线添加到行可视化](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/adding-trendlines-to-line-visualizations.html?lang=en) | 视频 | 在“可视化设置”中，您可以选择向行序列添加回归或移动平均趋势线。 此功能有助于在数据中描绘更清晰的图案。 |
-| 2021 年 2 月 8 日 | [在Platform Launch中添加实施插件](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | 视频 | 实施插件是JavaScript代码片段，您可以将这些代码添加到Analytics实施中以跟踪其他自定义数据。 在此视频中，了解如何在Platform Launch中添加代码以及在何处添加代码。 |
+| 2021 年 2 月 8 日 | [在Platform Launch中添加实施插件](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/via-adobe-launch/adding-implementation-plug-ins-in-launch.html?lang=en#implementation) | 视频 | 实施插件是JavaScript代码片段，您可以将这些代码添加到Analytics实施中以跟踪其他自定义数据。 在此视频中，了解如何在和位置添加Platform Launch中的代码。 |
 | 2021 年 1 月 6 日 | [Analysis Workspace 中的“媒体并行查看者”面板](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace.html?lang=en#analysis-workspace) | 视频 | 了解高峰期并发或中断发生的地方。 获得有关内容质量和查看者参与度的宝贵洞察，并帮助进行批量和规模故障排除或规划。 |
 
 ### Analytics 帮助资源
