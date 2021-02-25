@@ -3,22 +3,22 @@ cloud: experience-cloud
 product: Experience Cloud
 user-guide-title: Experience Cloud 发行说明
 breadcrumb-title: 发行说明
-user-guide-description: 了解Adobe Experience Cloud和Experience Platform中的新增功能、修复和重要注意事项。
+user-guide-description: 了解 Adobe Experience Cloud 和 Experience Platform 中的新增功能、修复和重要注意事项。
 user-guide-url: https://www.adobe.com
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a501b2f3cba2797c8ad4e8be8e862bef62075b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '64'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Experience Cloud 发行说明 {#experience-cloud}
 
-+ [最新发行说明](current.md)
++ [当前的发行说明](current.md)
 + 以前的发行说明 {#previous}
-   + 2021年{#2021}
+   + 2021 {#2021}
       + [2021 月 1 日](c-legacy-releases/2021/01142021.md)
    + 2020 年 {#2020}
       + [2020 年 11 月](c-legacy-releases/2020/10292020.md)
@@ -44,6 +44,6 @@ ht-degree: 70%
       + [2019 年 3 月](c-legacy-releases/2019/03072019.md)
       + [2019 年 2 月](c-legacy-releases/2019/02072019.md)
       + [2019 年 1 月](c-legacy-releases/2019/01172019.md)
-   + 2018年及更早版本{#legacy-rns}
-      + 2018年及更早版本{#2018-earlier}
-         + [2014 年及更早版本](c-legacy-releases/2018-earlier.md)
+   + 2018 年和更早{#legacy-rns}
+      + 2018 年和更早{#2018-earlier}
+         + [2014 年和更早](c-legacy-releases/2018-earlier.md)
