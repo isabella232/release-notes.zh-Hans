@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d22f8bc718976f3aad6673473c4df66246f58022
+source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
 workflow-type: tm+mt
-source-wordcount: '6403'
-ht-degree: 97%
+source-wordcount: '6428'
+ht-degree: 96%
 
 ---
 
@@ -19,19 +19,15 @@ ht-degree: 97%
 
 Experience Cloud 解决方案和服务每月更新一次。在此页面上可集中查找 [!DNL Experience Cloud] 和 Experience Platform 的最新版本更新、文档和教程。还可查找 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文档。
 
->[!IMPORTANT]
->
->此页面包含预发布内容，在发布日期之前可能会发生变化。
-
 >[!NOTE]
 >
 >若要接收有关此页面更新的电子邮件通知，请订阅每月的 [Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-上次更新时间：**2021 年 2 月 12 日**
+上次更新时间：**2021 年 2 月 21 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 服务和管理](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) **2021 年 2 月 21 日更新**
 * [Journey Orchestration](#journey-orch)
 * [Analytics](#analytics) **更新于2021年2月19日**
 * [Customer Journey Analytics](#cust-journey)`
@@ -76,6 +72,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 26 月 2 日 | [监控Adobe Experience Platform中的数据流](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=en#data-ingestion) | 了解如何使用平台的UI和API监视和跟踪引入Adobe Experience Platform的数据。 |
 | 2021 年 2 月 10 日 | [配置 Azure Blob 目标](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=en#destinations) | 视频 | 了解如何在实时客户数据平台（实时 CDP）中完成设置和配置 Azure Blob 存储目标所需的各个步骤。 |
 | 2021 年 2 月 4 日 | [查看身份图](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html) | 视频 | 如何使用身份图查看器功能搜索、浏览和筛选身份图以供验证和调试。 |
 | 2021 年 2 月 3 日 | [批量数据引入概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 视频 | 在 Adobe Experience Platform 进行批量数据引入的概述。了解如何使用 API 引入批量数据。 |
