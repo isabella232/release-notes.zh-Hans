@@ -1,16 +1,15 @@
 ---
-description: Adobe Experience Cloud - 2018 及更早版本中的新增功能和修复。
+description: Experience Cloud产品和服务的先前发行说明。 查找有关企业版和Document Cloud版Creative Cloud的新帮助和教程。
 seo-description: Adobe Experience Cloud - 2018 及更早版本中的新增功能和修复。
 title: 2018 及更早版本的发行说明
 solution: Experience Cloud,Analytics,Target,Advertising Cloud
 seo-title: Adobe Experience Cloud 2018 及更早版本的发行说明
-topic: Release notes
 uuid: c56a1064-0f2c-4241-93c6-ca4b1f267763
 translation-type: tm+mt
-source-git-commit: b8a7c0da3f98d1f7d37713c85ba31dade69c08b7
+source-git-commit: 97674547368321244be16e95f20f195c545d945a
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 100%
+source-wordcount: '73'
+ht-degree: 69%
 
 ---
 
