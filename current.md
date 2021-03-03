@@ -1,13 +1,13 @@
 ---
-title: Experience Cloud 和 Experience Platform 的发行说明
-description: 了解 Experience Cloud 和 Experience Platform 的最新发行说明、新增功能和新文档。查找关于 Creative Cloud 企业版和 Document Cloud 的新帮助和教程。
+title: 最新发行说明
+description: “了解有关Experience Cloud产品和服务的最新发行说明、新增功能和新文档。 查找有关Experience Cloud、企业Creative Cloud和Document Cloud的新帮助和教程。”
 doc-type: release notes
 last-update: February 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c665df945df9f183549c7ca3e3a2e3bf0b04a3af
+source-git-commit: 2f83677d5507bd917603ec8cfcbd08559a510a0f
 workflow-type: tm+mt
-source-wordcount: '6428'
+source-wordcount: '6425'
 ht-degree: 96%
 
 ---
