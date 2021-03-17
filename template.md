@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 336fa0b2b5b27060bcdb6590ba8e5795c2dbbf8f
+source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 93%
+source-wordcount: '1346'
+ht-degree: 92%
 
 ---
 
@@ -97,7 +97,7 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 
 #### [!UICONTROL Journey Orchestration] 的其他资源
 
-[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ### [!UICONTROL Mobile Services] 和 [!UICONTROL Mobile SDK] {#mobile}
 
@@ -161,7 +161,7 @@ Adobe Analytics 中的新增功能和修复：
 * 修复
 * 修复了“未定义”错误地
 
-请参阅 [AppMeasurement 版本历史](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-release-notes/c-release-notes-mjs.html)，了解下列平台上 AppMeasurement 的版本更新历史：
+请参阅 [AppMeasurement 版本历史](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)，了解下列平台上 AppMeasurement 的版本更新历史：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
@@ -191,7 +191,7 @@ Adobe Analytics 中的新增功能和修复：
 
 ## Experience Manager {#aem}
 
-Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议那些采用内部部署的客户部署最新的修补程序，以便确保获得更高的稳定性、安全性和性能。
+Adobe Experience Manager (AEM) 中的新增功能、修复和更新。Adobe 建议采用内部部署的客户部署最新的修补程序以确保稳定性、安全性和性能得到提高。
 
 ### 产品版本
 
