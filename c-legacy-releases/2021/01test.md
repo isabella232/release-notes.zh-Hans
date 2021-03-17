@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 785b2f2fb6219a086d2f84a3b0c5904ce0ce407b
+source-git-commit: 0dcbb4a31dcabad38854c06519c208996a77470f
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3654'
 ht-degree: 78%
 
 ---
@@ -154,16 +154,13 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 AAM新增功能。
 
-### 修复和改进{#aam-fixes-and-improvements}
-
-* 修复了[登记状态报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html)。在此问题中，报告中的记录与登记合作伙伴上传的文件中的记录之间存在差异。(AAM-57415)
-
 ### Audience Manager 的课程及教程{#tutorials-aam}
 
 发布的关于 Audience Manager 的新视频、教程或课程。
 
 ### 修复和改进{#aam-fixes-and-improvements}
 
+* 修复了[登记状态报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html)。在此问题中，报告中的记录与登记合作伙伴上传的文件中的记录之间存在差异。(AAM-57415)
 * 修复了导致&#x200B;**[!UICONTROL 基于人员的目标]**&#x200B;的重复段映射验证不正确的问题。 (AAM-56631)
 * 修复了阻止某些用户访问&#x200B;**[!UICONTROL 受众报告]**&#x200B;的问题。 (AAM-57412)
 * 已修补[!DNL Remote Code Execution]漏洞，攻击者可能使用该漏洞访问敏感数据。 (AAM-57495)
