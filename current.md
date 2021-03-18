@@ -4,9 +4,9 @@ description: “了解 Experience Cloud 产品和服务的最新发行说明、�
 doc-type: release notes
 last-update: February 2021
 author: mfrei
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 768fd5ede81679b7a084911f58ab9814b202fcd3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6479'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 包括 Experience Platform 和 Experience Platform Launch 的发行更新信息。
 
 * [Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)。（2021 年 1 月 27 日）
-* [Experience Platform Launch 发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)。（2021 年 1 月 13 日）
+* [Experience Platform Launch 发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hans)。（2021 年 1 月 13 日）
 
 ### Experience Platform 教程和课程
 
@@ -74,14 +74,14 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 2 月 26 日 | [监控 Adobe Experience Platform 中的数据流](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=zh-Hans#data-ingestion) | 了解如何使用 Platform 的 UI 和 API 监控和跟踪 Adobe Experience Platform 中收录的数据。 |
 | 2021 年 2 月 10 日 | [配置 Azure Blob 目标](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=zh-Hans#destinations) | 视频 | 了解如何在实时客户数据平台（实时 CDP）中完成设置和配置 Azure Blob 存储目标所需的各个步骤。 |
-| 2021 年 2 月 4 日 | [查看身份图](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html) | 视频 | 如何使用身份图查看器功能搜索、浏览和筛选身份图以供验证和调试。 |
-| 2021 年 2 月 3 日 | [批量数据引入概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html) | 视频 | 在 Adobe Experience Platform 进行批量数据引入的概述。了解如何使用 API 引入批量数据。 |
-| 2021 年 2 月 3 日 | [对非 Adobe 应用程序激活数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html) | 视频 | 了解 Adobe 的实时 CDP 如何帮助您创建真正为受众创建真正的个性化策略。此外，还可了解它如何融入您现有的生态系统以及 Microsoft、Google 和 Facebook 提供的非 Adobe 应用程序。 |
+| 2021 年 2 月 4 日 | [查看身份图](https://experienceleague.adobe.com/docs/platform-learn/tutorials/identities/view-identity-graphs.html?lang=zh-Hans) | 视频 | 如何使用身份图查看器功能搜索、浏览和筛选身份图以供验证和调试。 |
+| 2021 年 2 月 3 日 | [批量数据引入概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/batch-ingestion-overview.html?lang=zh-Hans) | 视频 | 在 Adobe Experience Platform 进行批量数据引入的概述。了解如何使用 API 引入批量数据。 |
+| 2021 年 2 月 3 日 | [对非 Adobe 应用程序激活数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/activate-data-to-non-adobe-applications.html?lang=zh-Hans) | 视频 | 了解 Adobe 的实时 CDP 如何帮助您创建真正为受众创建真正的个性化策略。此外，还可了解它如何融入您现有的生态系统以及 Microsoft、Google 和 Facebook 提供的非 Adobe 应用程序。 |
 | 2021 年 1 月 21 日 | [《面向营销人员的 Intelligent Services 快速入门》的课程简介](https://video.tv.adobe.com/v/330805?quality=12&learn=on) | 视频 | 《面向营销人员的 Intelligent Services 快速入门》课程的简介。 |
 | 2021 年 1 月 13 日 | [《面向营销人员的 Offer Decisioning 快速入门》的简介](https://video.tv.adobe.com/v/330520?quality=12&learn=on) | 视频 | 《面向营销人员的 Offer Decisioning 快速入门》课程的简介。 |
-| 2021 年 1 月 31 日 | [用方法生成器模板训练模型、为其评分和将其产品化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html) | 视频 | 了解如何使用更新后的方法生成器模板配合零售架构和数据集生成一个方法。 |
-| 2021 年 1 月 31 日 | [在 JupyterLab 笔记本中加载数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html) | 视频 | 了解 JupyterLab 在数据科学工作区中的应用 |
-| 2021 年 1 月 12 日 | [创建合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html) | 视频 | 了解如何在 Adobe Experience Platform 中创建合并策略。 |
+| 2021 年 1 月 31 日 | [用方法生成器模板训练模型、为其评分和将其产品化](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/train-score-and-productize-models.html?lang=zh-Hans) | 视频 | 了解如何使用更新后的方法生成器模板配合零售架构和数据集生成一个方法。 |
+| 2021 年 1 月 31 日 | [在 JupyterLab 笔记本中加载数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-science-workspace/load-data-in-jupyterlab-notebooks.html?lang=zh-Hans) | 视频 | 了解 JupyterLab 在数据科学工作区中的应用 |
+| 2021 年 1 月 12 日 | [创建合并策略](https://experienceleague.adobe.com/docs/platform-learn/tutorials/profiles/create-merge-policies.html?lang=zh-Hans) | 视频 | 了解如何在 Adobe Experience Platform 中创建合并策略。 |
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -97,11 +97,11 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 1 月 22 日 | [跳转到另一历程](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html) | 视频 | 了解如何将个人从一个历程推送到另一个。 |
+| 2021 年 1 月 22 日 | [跳转到另一历程](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/jumping-to-another-journey.html?lang=zh-Hans) | 视频 | 了解如何将个人从一个历程推送到另一个。 |
 
 ### Journey Orchestration 的更多资源
 
-[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html)
 
 ## ![图标](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
@@ -123,7 +123,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace - 组件选择 | 2021 年 2 月 4 日 | 在 [!UICONTROL Quick Insights] 中找到的下拉组件/拖放区域组件，已添加到 [!UICONTROL Workspace] 中的所有拖放区域。通过这项增强功能，您可以从兼容组件的下拉列表中进行选择，也可以继续将空间用作拖放区域。 |
 | CJA API | 2021 年 2 月 18 日 | CJA API 现已推出。通过这些 API，可按编程方式编辑组件和检索报告。有关详细信息，请参阅 [CJA API 文档](https://adobe.io/cja-apis/docs)。 |
@@ -174,7 +174,7 @@ AN-224987、AN-229009、AN-239750、AN-239765、AN-241620、AN-242996、AN-24357
 
 ### Analytics 帮助资源
 
-* [Adobe Analytics 产品文档及教程](https://experienceleague.corp.adobe.com/docs/analytics.html)
+* [Adobe Analytics 产品文档及教程](https://experienceleague.corp.adobe.com/docs/analytics.html?lang=zh-Hans)
 
 ## ![图标](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
@@ -182,11 +182,11 @@ Audience Manager 中的新增功能、修复、文档和教程。
 
 | 功能 | 添加或更新日期 | 描述 |
 |----|----|----|
-| [Audience Manager 用户迁移到 Admin Console](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html) | 2021 年 2 月 1 日 | Audience Manager 用户帐户管理将转移到 Adobe Admin Console，以使 Adobe 解决方案间的体验效率更高。<br>遵循本文中所述的步骤以方便用户迁移。所有 Audience Manager 管理员都应尽快开始将其用户帐户迁移到 Adobe Admin Console。 |
+| [Audience Manager 用户迁移到 Admin Console](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/admin-console-migration.html?lang=zh-Hans) | 2021 年 2 月 1 日 | Audience Manager 用户帐户管理将转移到 Adobe Admin Console，以使 Adobe 解决方案间的体验效率更高。<br>遵循本文中所述的步骤以方便用户迁移。所有 Audience Manager 管理员都应尽快开始将其用户帐户迁移到 Adobe Admin Console。 |
 
 ### 修复和改进{#aam-fixes-and-improvements}
 
-* 修复了[登记状态报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html)。在此问题中，报告中的记录与登记合作伙伴上传的文件中的记录之间存在差异。(AAM-57415)
+* 修复了[登记状态报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html?lang=zh-Hans)。在此问题中，报告中的记录与登记合作伙伴上传的文件中的记录之间存在差异。(AAM-57415)
 * 修复了 **[!UICONTROL Predictive Audiences]** 功能中&#x200B;**[!UICONTROL 模型]**&#x200B;克隆的问题。(AAM-56775)
 * 修复了在复制特征和区段时所复制的特征或区段有误的问题。(AAM-57351)
 * 修复了用户无法单击&#x200B;**[!UICONTROL “模型”>“排除特征”]**&#x200B;中的&#x200B;**[!UICONTROL “全选”]**&#x200B;复选框的问题。(AAM-57366)
@@ -214,7 +214,7 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 
 >[!NOTE]
 >
->Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html)页面以及时了解版本信息。
+>Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)页面以及时了解版本信息。
 
 ### 产品版本
 
@@ -226,10 +226,10 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 
       * **无头内容管理服务**
 
-         * [GraphQL API 用于传送内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html)：可使用 GraphQL 语法和基于内容片段模型的架构查询内容片段以供按 JSON 格式输出。
-         * [GraphQL API 请求支持身份验证](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-authentication-content-fragments.html)：可通过服务器端 API 的访问令牌验证 GraphQL API 请求的身份。
-         * [RemotePage 组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/remote-page.html)：添加了对于在 AEM 中查看和编辑外部 SPA 的支持。
-         * [在 AEM 中编辑外部 SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html)：添加了将独立单页应用程序上传到 AEM 实例、添加可编辑的内容部分和启用创作的功能。
+         * [GraphQL API 用于传送内容片段](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-api-content-fragments.html?lang=zh-Hans)：可使用 GraphQL 语法和基于内容片段模型的架构查询内容片段以供按 JSON 格式输出。
+         * [GraphQL API 请求支持身份验证](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/graphql-authentication-content-fragments.html?lang=zh-Hans)：可通过服务器端 API 的访问令牌验证 GraphQL API 请求的身份。
+         * [RemotePage 组件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/remote-page.html?lang=zh-Hans)：添加了对于在 AEM 中查看和编辑外部 SPA 的支持。
+         * [在 AEM 中编辑外部 SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=zh-Hans)：添加了将独立单页应用程序上传到 AEM 实例、添加可编辑的内容部分和启用创作的功能。
          * 增强了从 GraphQL API 输出 JSON 的功能，包括按 JSON 格式和区域设置输出富文本的功能。
          * 支持嵌套内容片段模型，以允许通过多行文本字段中内嵌的专用内容片段引用数据类型或内容片段引用创建嵌套的内容片段结构。
          * 内容片段模型数据类型中有更多验证规则可用，包括“唯一”、“必需”和“可翻译”。
@@ -241,8 +241,8 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
          * 现在只需进行简单的配置，即可在项目级别启用[网站的渐进式 Web 应用程序 (PWA) 版本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hans)。
    * **Experience Manager Assets 即云服务**
 
-      * Experience Manager 即云服务扩展了智能标签的功能以支持在基于文本的资源中识别关键字和实体。无需任何配置，即可识别文本、编制其索引并使其成为元数据以改善搜索体验。请参阅[智能标签](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html)。
-      * 现在支持 MXF 文件格式。请参阅[支持的文件格式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html#video-formats)。
+      * Experience Manager 即云服务扩展了智能标签的功能以支持在基于文本的资源中识别关键字和实体。无需任何配置，即可识别文本、编制其索引并使其成为元数据以改善搜索体验。请参阅[智能标签](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/smart-tags.html?lang=zh-Hans)。
+      * 现在支持 MXF 文件格式。请参阅[支持的文件格式](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/file-format-support.html?lang=zh-Hans#video-formats)。
    * **Experience Manager Commerce 即云服务**
 
       * **新增功能**
@@ -259,12 +259,12 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
          * repoinit 分析器
          * bundle-nativecode
 
-         有关详细信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html#developing)的文档。
+         有关详细信息，请参阅[此处](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=zh-Hans#developing)的文档。
    * **云过渡工具**
 
       * **内容传输工具的新增功能**
 
-         * 为内容传输工具添加了新功能和 UI - 用户映射工具。此功能在内容迁移活动过程中自动将现有的用户和组映射到其 Adobe Identity Management 系统 ID。请参阅[使用用户映射工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html)。
+         * 为内容传输工具添加了新功能和 UI - 用户映射工具。此功能在内容迁移活动过程中自动将现有的用户和组映射到其 Adobe Identity Management 系统 ID。请参阅[使用用户映射工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/moving/cloud-migration/content-transfer-tool/using-user-mapping-tool.html?lang=zh-Hans)。
          * 内容传输工具现在迁移在迁移集中引用的所有组和用户，包括儿童。
          * 在创建迁移集时，允许用户选择 `/etc` 下的某些路径。
 
@@ -307,50 +307,50 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 2 月 11 日 | [从外部应用程序向 AEM 即云服务进行身份验证](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 课程 | 了解外部应用程序可怎样使用[!UICONTROL 本地开发访问令牌]和[!UICONTROL 服务凭据]以编程方式通过 HTTP 向 Experience Manager 即云服务进行身份验证。 |
-| 2021 年 2 月 11 日 | [关联和取消关联资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html) | 视频 | 了解如何在 Experience Manager 中建立和管理资源之间的关系。 |
+| 2021 年 2 月 11 日 | [关联和取消关联资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=zh-Hans) | 视频 | 了解如何在 Experience Manager 中建立和管理资源之间的关系。 |
 | 2021 年 2 月 8 日 | [AEM 网站 - WKND 教程](https://docs.adobe.com/content/help/zh-Hans/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) | 教程 | 欢迎参加专为不熟悉 Experience Manager 的开发人员设计的多段式教程。此教程带您完成为一个虚构的生活方式品牌 WKND 实施 Experience Manager 网站的全过程。 |
 | 2021 年 2 月 1 日 | [创建您的第一个 OSGi 捆绑包](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/create-your-first-osgi-bundle.html?lang=zh-Hans) | 文章 | 了解如何使用 maven 和 eclipse 创建您的第一个 OSGi 捆绑包。 |
-| 2021 年 2 月 1 日 | [发布资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/publish.html) | 视频 | 了解如何将资源及其演绎版从 Experience Manager Author 发布到 AEM Publish。 |
-| 2021 年 2 月 4 日 | [本地开发](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/local-development-environment.html) | 视频 | 了解如何使用 Experience Manager 即云服务 SDK 下载并设置本地开发环境。 |
-| 2021 年 2 月 4 日 | [构造项目](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html) | 视频 | 探索为 AEM 即云服务构造 Experience Manager Maven 项目的最佳实践。 |
-| 2021 年 2 月 4 日 | [迁移 Dispatcher 配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html) | 视频 | 概述不同 Dispatcher 配置中的区别，并给出将 Dispatcher 从 Adobe Managed Services (AMS) 迁移到 Experience Manager 即云服务的提示和技巧。 |
-| 2021 年 2 月 2 日 | [AEM SDK 简介](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html) | 视频 | 使用和配置 Experience Manager 即云服务的 SDK。 |
-| 2021 年 2 月 2 日 | [AEM 云服务是什么](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html) | 视频 | 探索 Experience Manager 即云服务及其与其他 Adobe Experience Manager 版本有何不同。 |
-| 2021 年 2 月 2 日 | [Cloud Manager 的作用](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html) | 视频 | 探索 [!UICONTROL Cloud Manager] 的用途及其如何与 Experience Manager 即云服务配合工作。 |
-| 2021 年 2 月 2 日 | [AEM 即云服务的演化](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html) | 视频 | 探索 Experience Manager 的历史以及本地 Experience Manager、Adobe Managed Services AEM 与 Experience Manager 即云服务之间的区别。 |
-| 2021 年 2 月 2 日 | [AEM 即云服务的架构](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html) | 视频 | 探索 Experience Manager 即云服务的底层架构和重要部分。深入了解 Cloud Manager 和 API。 |
-| 2021 年 2 月 2 日 | [使用 Cloud Manager API](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/cloud-manager-apis.html) | 视频 | 探索可怎样使用 Cloud Manager API 进行扩展和与其他系统集成。 |
-| 2021 年 2 月 2 日 | [分析测试结果](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/analyze-test-results.html) | 视频 | 探索代码中的任何编译错误以及这段代码是否遵循 Experience Manager 即云服务的最佳实践。 |
-| 2021 年 2 月 2 日 | [配置管道](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/configure-pipelines.html) | 视频 | 探索 Cloud Manager 中不同类型的管道以及如何配置它们以使项目取得成功。 |
-| 2021 年 2 月 2 日 | [管理 Dispatcher 配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/dispatcher-configurations.html) | 视频 | 使用最佳实践和示例探索 Dispatcher 如何与 Experience Manager 即云服务和 Cloud Manager 配合工作。 |
-| 2021 年 2 月 2 日 | [持续集成与 Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/continuous-integration.html) | 视频 | 了解最佳实践以及使用 Adobe Cloud Manager 进行持续集成。 |
-| 2021 年 2 月 2 日 | [合并 AEM 项目以供使用 Cloud Manager 进行部署](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/merge-projects.html) | 视频 | 探索可怎样将多个项目合并为单个项目以供使用 Cloud Manager 部署到 Experience Manager 即云服务。 |
-| 2021 年 2 月 2 日 | [部署 Cloud Manager 项目](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/deploy-code.html) | 视频 | 将 Cloud Manager git 存储库与外部 git 存储库集成并将项目部署到 Experience Manager 即云服务。 |
-| 2021 年 2 月 2 日 | [内容发布](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/content-publishing.html) | 视频 | 探索 Experience Manager 即云服务中的内容发布的工作方式，包括内容分发和 Adobe 管道的概念。 |
+| 2021 年 2 月 1 日 | [发布资源](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/sharing/publish.html?lang=zh-Hans) | 视频 | 了解如何将资源及其演绎版从 Experience Manager Author 发布到 AEM Publish。 |
+| 2021 年 2 月 4 日 | [本地开发](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/local-development-environment.html?lang=zh-Hans) | 视频 | 了解如何使用 Experience Manager 即云服务 SDK 下载并设置本地开发环境。 |
+| 2021 年 2 月 4 日 | [构造项目](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/project-structure.html?lang=zh-Hans) | 视频 | 探索为 AEM 即云服务构造 Experience Manager Maven 项目的最佳实践。 |
+| 2021 年 2 月 4 日 | [迁移 Dispatcher 配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/dispatcher-configuration.html?lang=zh-Hans) | 视频 | 概述不同 Dispatcher 配置中的区别，并给出将 Dispatcher 从 Adobe Managed Services (AMS) 迁移到 Experience Manager 即云服务的提示和技巧。 |
+| 2021 年 2 月 2 日 | [AEM SDK 简介](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/aem-sdk.html?lang=zh-Hans) | 视频 | 使用和配置 Experience Manager 即云服务的 SDK。 |
+| 2021 年 2 月 2 日 | [AEM 云服务是什么](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/what-is-aem-as-a-cloud-service.html?lang=zh-Hans) | 视频 | 探索 Experience Manager 即云服务及其与其他 Adobe Experience Manager 版本有何不同。 |
+| 2021 年 2 月 2 日 | [Cloud Manager 的作用](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/cloud-manager.html?lang=zh-Hans) | 视频 | 探索 [!UICONTROL Cloud Manager] 的用途及其如何与 Experience Manager 即云服务配合工作。 |
+| 2021 年 2 月 2 日 | [AEM 即云服务的演化](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/evolution.html?lang=zh-Hans) | 视频 | 探索 Experience Manager 的历史以及本地 Experience Manager、Adobe Managed Services AEM 与 Experience Manager 即云服务之间的区别。 |
+| 2021 年 2 月 2 日 | [AEM 即云服务的架构](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/introduction/architecture.html?lang=zh-Hans) | 视频 | 探索 Experience Manager 即云服务的底层架构和重要部分。深入了解 Cloud Manager 和 API。 |
+| 2021 年 2 月 2 日 | [使用 Cloud Manager API](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/cloud-manager-apis.html?lang=zh-Hans) | 视频 | 探索可怎样使用 Cloud Manager API 进行扩展和与其他系统集成。 |
+| 2021 年 2 月 2 日 | [分析测试结果](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/analyze-test-results.html?lang=zh-Hans) | 视频 | 探索代码中的任何编译错误以及这段代码是否遵循 Experience Manager 即云服务的最佳实践。 |
+| 2021 年 2 月 2 日 | [配置管道](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/configure-pipelines.html?lang=zh-Hans) | 视频 | 探索 Cloud Manager 中不同类型的管道以及如何配置它们以使项目取得成功。 |
+| 2021 年 2 月 2 日 | [管理 Dispatcher 配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/dispatcher-configurations.html?lang=zh-Hans) | 视频 | 使用最佳实践和示例探索 Dispatcher 如何与 Experience Manager 即云服务和 Cloud Manager 配合工作。 |
+| 2021 年 2 月 2 日 | [持续集成与 Cloud Manager](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/continuous-integration.html?lang=zh-Hans) | 视频 | 了解最佳实践以及使用 Adobe Cloud Manager 进行持续集成。 |
+| 2021 年 2 月 2 日 | [合并 AEM 项目以供使用 Cloud Manager 进行部署](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/merge-projects.html?lang=zh-Hans) | 视频 | 探索可怎样将多个项目合并为单个项目以供使用 Cloud Manager 部署到 Experience Manager 即云服务。 |
+| 2021 年 2 月 2 日 | [部署 Cloud Manager 项目](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/devops/deploy-code.html?lang=zh-Hans) | 视频 | 将 Cloud Manager git 存储库与外部 git 存储库集成并将项目部署到 Experience Manager 即云服务。 |
+| 2021 年 2 月 2 日 | [内容发布](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/basics/content-publishing.html?lang=zh-Hans) | 视频 | 探索 Experience Manager 即云服务中的内容发布的工作方式，包括内容分发和 Adobe 管道的概念。 |
 | 2021 年 2 月 2 日 | [基于令牌的身份验证 - 服务凭据](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials.html?lang=zh-Hans#authentication) | 视频 | 了解基于令牌的身份验证与 Experience Manager 即云服务的集成。 |
 | 2021 年 2 月 2 日 | [签署多个表单](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/sign-multiple-documents/introduction.html?lang=zh-Hans#sign-multiple-documents) | 教程 | 无论是申请抵押贷款还是开立新的银行账户，都需要填写并签署多个表单。Experience Manager Forms 与 Adobe Sign 的集成使填写和签署多个表单变得轻而易举。 |
 | 2021 年 1 月 28 日 | [基于令牌的身份验证 - 本地开发访问令牌](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/local-development-access-token.html?lang=zh-Hans#authentication) | 视频 | 了解 Experience Manager 的 Developer Console 如何使开发人员可自行生成可用于以编程方式访问 Experience Manager 的临时访问令牌。 |
 | 2021 年 1 月 28 日 | [向 AEM 即云服务进行基于令牌的身份验证](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=zh-Hans#authentication) | 视频 | 了解外部应用程序可怎样使用访问令牌以编程方式通过 HTTP 向 Experience Manager 即云服务进行身份验证和与之交互。 |
-| 2021 年 1 月 24 日 | [创建主表单以触发流程](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/sign-multiple-documents/create-initial-form.html) | 文章 | 初始表单（再融资表单）用于通过触发[!UICONTROL 签署多个表单 AEM] 工作流而签署多个表单。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 生产管道执行](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html) | 视频 | CI/CD 生产管道配置定义启动管道的触发器、控制产品部署的参数以及性能测试参数。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager 活动](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/activity.html) | 视频 | 通过 Cloud Manager 可合并查看某个项目的活动，其中列出所有生产和非生产 CI/CD 管道执行。通过此功能，用户可查看任何当前正在进行的管道以及审查以前的部署。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 非生产管道](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-non-production-pipeline.html) | 视频 | CI/CD 非生产管道分为两个类别：代码质量管道和部署管道。代码质量管道从 Git 分支获取所有代码以生成并对照 Cloud Manager 的代码质量扫描接受评估。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 生产管道配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html) | 视频 | CI/CD 生产管道配置定义启动管道的触发器、控制产品部署的参数以及性能测试参数。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager 环境](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/environments.html) | 视频 | Cloud Manager 环境由 Experience Manager Author、Experience Manager Publish 和 Dispatcher 服务组成。不同的环境支持各种角色，并可使用不同的 CI/CD 管道参与环境。Cloud Manager 环境一般有一个生产环境、一个暂存环境和一个开发环境。 |
+| 2021 年 1 月 24 日 | [创建主表单以触发流程](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/sign-multiple-documents/create-initial-form.html?lang=zh-Hans) | 文章 | 初始表单（再融资表单）用于通过触发[!UICONTROL 签署多个表单 AEM] 工作流而签署多个表单。 |
+| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 生产管道执行](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html?lang=zh-Hans) | 视频 | CI/CD 生产管道配置定义启动管道的触发器、控制产品部署的参数以及性能测试参数。 |
+| 2021 年 1 月 8 日 | [Adobe Cloud Manager 活动](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/activity.html?lang=zh-Hans) | 视频 | 通过 Cloud Manager 可合并查看某个项目的活动，其中列出所有生产和非生产 CI/CD 管道执行。通过此功能，用户可查看任何当前正在进行的管道以及审查以前的部署。 |
+| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 非生产管道](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-non-production-pipeline.html?lang=zh-Hans) | 视频 | CI/CD 非生产管道分为两个类别：代码质量管道和部署管道。代码质量管道从 Git 分支获取所有代码以生成并对照 Cloud Manager 的代码质量扫描接受评估。 |
+| 2021 年 1 月 8 日 | [Adobe Cloud Manager CI/CD 生产管道配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/cicd-production-pipeline.html?lang=zh-Hans) | 视频 | CI/CD 生产管道配置定义启动管道的触发器、控制产品部署的参数以及性能测试参数。 |
+| 2021 年 1 月 8 日 | [Adobe Cloud Manager 环境](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/environments.html?lang=zh-Hans) | 视频 | Cloud Manager 环境由 Experience Manager Author、Experience Manager Publish 和 Dispatcher 服务组成。不同的环境支持各种角色，并可使用不同的 CI/CD 管道参与环境。Cloud Manager 环境一般有一个生产环境、一个暂存环境和一个开发环境。 |
 | 2021 年 1 月 8 日 | [无头 GraphQL 概述](https://internal.adobedemo.com/content/demo-hub/zh-Hans/demos/internal/aem-headless-graphql.html) | 演示 | Experience Manager 的 GraphQL API 向下游应用程序公开来自 Experience Manager 内容片段的内容。在无头和混合用例中均可使用 GraphQL API。 |
-| 2021 年 1 月 8 日 | [Adobe Cloud Manager 项目](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/programs.html) | 视频 | Cloud Manager 项目代表支持业务举措逻辑集合的 Experience Manager 环境集合，一般与已购买的 (SLA) 对应。 |
-| 2021 年 1 月 8 日 | [基于令牌的身份验证](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=en#authentication) | 视频 | Cloud Manager 项目代表支持业务举措逻辑集合的 Experience Manager 环境集合，一般与已购买的 (SLA) 对应。 |
-| 2021 年 1 月 8 日 | [批量导入](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html) | 视频 | 通过 Experience Manager 即云服务中的批量导入工具，管理员可安全而高效地从云存储（Azure Blob 存储或 Amazon S3）批量导入资源。 |
+| 2021 年 1 月 8 日 | [Adobe Cloud Manager 项目](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/cloud-manager/programs.html?lang=zh-Hans) | 视频 | Cloud Manager 项目代表支持业务举措逻辑集合的 Experience Manager 环境集合，一般与已购买的 (SLA) 对应。 |
+| 2021 年 1 月 8 日 | [基于令牌的身份验证](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/overview.html?lang=zh-Hans#authentication) | 视频 | Cloud Manager 项目代表支持业务举措逻辑集合的 Experience Manager 环境集合，一般与已购买的 (SLA) 对应。 |
+| 2021 年 1 月 8 日 | [批量导入](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/migration/bulk-import.html?lang=zh-Hans) | 视频 | 通过 Experience Manager 即云服务中的批量导入工具，管理员可安全而高效地从云存储（Azure Blob 存储或 Amazon S3）批量导入资源。 |
 
 ### Experience Manager 的其他帮助资源
 
 * [Experience Manager 即云服务指南](https://docs.adobe.com/content/help/zh-Hans/experience-manager-cloud-service/landing/home.html)
-* [Experience Manager 6.5 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-5.html)
-* [Experience Manager 6.4 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-4.html)
-* [Experience Manager 6.3 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
-* [Experience Manager 6.2 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-2.html)
-* [Cloud Manager 用户指南](https://helpx.adobe.com/cn/experience-manager/cloud-manager/user-guide.html)
-* [Experience Manager 文档的旧版本](https://helpx.adobe.com/cn/experience-manager/aem-previous-versions.html)
+* [Experience Manager 6.5 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-5.html)
+* [Experience Manager 6.4 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-4.html)
+* [Experience Manager 6.3 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-3.html)
+* [Experience Manager 6.2 学习和支持主页](https://helpx.adobe.com/support/experience-manager/6-2.html)
+* [Cloud Manager 用户指南](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html)
+* [Experience Manager 文档的旧版本](https://helpx.adobe.com/experience-manager/aem-previous-versions.html)
 * [Dynamic Media Classic 帮助主页](https://docs.adobe.com/content/help/zh-Hans/dynamic-media-classic/using/home.html)
 
 ## ![图标](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
@@ -371,19 +371,21 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 2 月 5 日 | [商业用户版 Adobe Campaign Classic 快速入门](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2020.1.classic) | Campaign Classic | 学完本课程之后，您将了解 Adobe Campaign Classic 的各种概念，并知道如何创建您的第一个营销活动。 |
-| 2021 年 2 月 1 日 | [多渠道和跨渠道简介](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/introduction-to-cross-and-multi-channel-campaigns.html) | Campaign Classic | 了解多渠道与跨渠道营销活动之间的区别以及多渠道和跨渠道营销活动的用例是什么。 |
-| 2021 年 2 月 1 日 | [创建短信发送](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/sms-channel/create-a-sms-delivery.html) | Campaign Classic | 了解如何创建短信发送。 |
-| 2021 年 2 月 1 日 | [创建跨渠道营销活动](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/cross-channel-campaigns.html) | Campaign Classic | 了解如何创建和执行跨渠道营销活动。 |
-| 2021 年 1 月 29 日 | [用户对照组](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/use-control-groups.html) | Campaign Classic | 了解对照组的概念，并了解如何将对照组用于交付。 |
-| 2021 年 1 月 28 日 | [发送和验证证明](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/send-and-validate-proofs.html) | Campaign Classic | 了解如何发送和验证证明。 |
-| 2021 年 1 月 28 日 | [针对可达性设计电子邮件](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/design-emails-for-deliverability.html) | Campaign Classic | 了解如何应用可达性最佳实践。 |
-| 2021 年 1 月 28 日 | [创建和设计电子邮件发送](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/create-and-design-email-deliveries.html) | Campaign Classic | 了解创建电子邮件发送的过程，并了解如何设计和个性化电子邮件内容。 |
-| 2021 年 1 月 27 日 | [创建事件触发的营销活动](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/create-event-triggered-campaigns.html) | Campaign Classic | 了解如何创建事件触发的营销活动，并了解其用法。 |
+| 2021 年 2 月 1 日 | [多渠道和跨渠道简介](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/introduction-to-cross-and-multi-channel-campaigns.html?lang=zh-Hans) | Campaign Classic | 了解多渠道与跨渠道营销活动之间的区别以及多渠道和跨渠道营销活动的用例是什么。 |
+| 2021 年 2 月 1 日 | [创建短信发送](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/sms-channel/create-a-sms-delivery.html?lang=zh-Hans) | Campaign Classic | 了解如何创建短信发送。 |
+| 2021 年 2 月 1 日 | [创建跨渠道营销活动](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/orchestration/cross-channel-campaigns.html?lang=zh-Hans) | Campaign Classic | 了解如何创建和执行跨渠道营销活动。 |
+| 2021 年 1 月 29 日 | [用户对照组](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/use-control-groups.html?lang=zh-Hans) | Campaign Classic | 了解对照组的概念，并了解如何将对照组用于交付。 |
+| 2021 年 1 月 28 日 | [发送和验证证明](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/send-and-validate-proofs.html?lang=zh-Hans) | Campaign Classic | 了解如何发送和验证证明。 |
+| 2021 年 1 月 28 日 | [针对可达性设计电子邮件](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/design-emails-for-deliverability.html?lang=zh-Hans) | Campaign Classic | 了解如何应用可达性最佳实践。 |
+| 2021 年 1 月 28 日 | [创建和设计电子邮件发送](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/email-channel/create-and-design-email-deliveries.html?lang=zh-Hans) | Campaign Classic | 了解创建电子邮件发送的过程，并了解如何设计和个性化电子邮件内容。 |
+| 2021 年 1 月 27 日 | [创建事件触发的营销活动](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/getting-started/create-event-triggered-campaigns.html?lang=zh-Hans) | Campaign Classic | 了解如何创建事件触发的营销活动，并了解其用法。 |
 
 ### 帮助资源
 
-* Adobe Campaign Standard：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-planning.html) - [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/documentation-updates.html)
+* Adobe Campaign Standard：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html
+) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-planning.html) - [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/documentation-updates.html)
+* Adobe Campaign Classic：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html
+) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/documentation-updates.html)
 * Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) - 有关 [Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 的操作方法视频
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
@@ -399,7 +401,7 @@ Adobe Advertising Cloud 的发行说明。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 新建帮助 | （10 月 28 日版）旧版帮助页面已替换为更新页面，这些更新页面可从 DSP 主菜单的“帮助”链接获取，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html) 获取。 |
+| 新建帮助 | （10 月 28 日版）旧版帮助页面已替换为更新页面，这些更新页面可从 DSP 主菜单的“帮助”链接获取，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans) 获取。 |
 | Campaigns | （10 月 28 日版）以前的 Campaigns 测试版视图现在成为默认的 Campaigns 视图，可以实现更快的分析、简化的工作流和自定义视图。 |
 | 专用内容库 | （10 月 15 日版）如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版[!UICONTROL 智能广告投放]表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库 > 交易]**，单击&#x200B;**[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
 | 投放预测 | （10 月 15 日版）在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
@@ -419,7 +421,7 @@ Adobe Advertising Cloud 的发行说明。
 
 | 教程 | 描述 |
 | -----------| ---------- |
-| [工作区和报表简介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html) | 了解如何在 Adobe Analytics Analysis Workspace 中使用 Advertising Cloud 数据创建可视报告。 |
+| [工作区和报表简介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hans) | 了解如何在 Adobe Analytics Analysis Workspace 中使用 Advertising Cloud 数据创建可视报告。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -459,19 +461,19 @@ Adobe Advertising Cloud 的发行说明。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 8 日 | [Acrobat 概述登陆页面](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html) | 学习中心 | 欢迎来到 Adobe Acrobat 学习中心。您将找到大量主要涉及 Adobe Acrobat 的学习经验。我们的教程、网络研讨会和用例旨在让初学者和资深用户都能快速掌握 Adobe Acrobat。 |
+| 2021 年 2 月 8 日 | [Acrobat 概述登陆页面](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hans) | 学习中心 | 欢迎来到 Adobe Acrobat 学习中心。您将找到大量主要涉及 Adobe Acrobat 的学习经验。我们的教程、网络研讨会和用例旨在让初学者和资深用户都能快速掌握 Adobe Acrobat。 |
 
 ### Adobe Sign 教程
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 8 日 | [概述登陆页面 - 支持资源](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html) | 学习中心 | 欢迎来到 Adobe Sign 学习中心。您将找到大量主要涉及 Adobe Sign 的学习经验。我们的教程、网络研讨会和用例旨在让初学者和管理员都能快速掌握 Adobe Sign。 |
+| 2021 年 2 月 8 日 | [概述登陆页面 - 支持资源](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hans) | 学习中心 | 欢迎来到 Adobe Sign 学习中心。您将找到大量主要涉及 Adobe Sign 的学习经验。我们的教程、网络研讨会和用例旨在让初学者和管理员都能快速掌握 Adobe Sign。 |
 
 有关 Document Cloud 的帮助，请参阅：
 
 * [Adobe Acrobat 学习中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hans)
-* [Adobe Sign 学习中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html?lang=zh-Hans)
-* [Document Cloud 学习与支持](https://helpx.adobe.com/cn/support/document-cloud.html)
+* [Adobe Sign 学习中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hans)
+* [Document Cloud 学习与支持](https://helpx.adobe.com/support/document-cloud.html)
 
 ## ![图标](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
@@ -482,7 +484,7 @@ Creative Cloud Enterprise 的新教程。
 | 2021 年 2 月 3 日 | [用 Photoshop 创作动态静图](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/cinemagraphps.html?lang=zh-Hans#cceoverview) | 视频 | 学习如何将 Adobe Stock 制作的视频与 Photoshop 中巧妙的蒙版技术相结合，创作活灵活现的照片。 |
 | 2021 年 2 月 3 日 | [用 iPad 版 Adobe Stock 和 Photoshop 创作独特的合成作品](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/compositepsipad.html?lang=zh-Hans) | 视频 | 学习用经过重新设计的触摸式界面，以全新的方式使用您最喜爱的 Creative Cloud 应用程序之一。 |
 | 2021 年 2 月 3 日 | [用 Dimension 和 Adobe Stock 自定义 3D 模型和打上品牌印记](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/3doverview/3dtutorials/3ddimensionstock.html?lang=zh-Hans) | 视频 | 使用材料、环境属性、光照和摄影在 Dimension 中自定义 3D 模型并打上品牌印记，从而为任何设计项目创作如同照片一样真实的图像。 |
-| 2021 年 2 月 2 日 | [熟悉 Adobe XD 中的组件](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/xdoverview/components.html) | 视频 | 了解如何使用组件获得前所未有的灵活性，让设计工作流变得既快速又一致。 |
+| 2021 年 2 月 2 日 | [熟悉 Adobe XD 中的组件](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/xdoverview/components.html?lang=zh-Hans) | 视频 | 了解如何使用组件获得前所未有的灵活性，让设计工作流变得既快速又一致。 |
 | 2021 年 2 月 2 日 | [在 CGI 中掌握 3D 光照的提示和技术](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/3doverview/3dtutorials/mastering3dlighting.html?lang=zh-Hans) | 文章 | 了解 3D 光照以及如何创造各种可完全改变计算机生成的场景及其中物体外观的光照条件。 |
 | 2021 年 2 月 2 日 | [通过 3D 渲染和合成创作如同照片一样真实的虚拟摄影作品](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/3doverview/3dtutorials/photorealistic.html?lang=zh-Hans#3doverview) | 文章 | 了解如何通过 3D 渲染和合成创作如同照片一样真实的虚拟摄影作品。 |
-| 2021 年 1 月 29 日 | [CCE 快速参考指南](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/overview-ref.html) | 快速参考指南 | 获取帮助您了解 Creative Cloud 中新增功能的快速参考指南。 |
+| 2021 年 1 月 29 日 | [CCE 快速参考指南](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/overview-ref.html?lang=zh-Hans) | 快速参考指南 | 获取帮助您了解 Creative Cloud 中新增功能的快速参考指南。 |
