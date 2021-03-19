@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 9bf1dccf7e049c290e762410eb56a3f2c040c036
+source-git-commit: bce06efc7248df1f1929838681e3fcf5adb8ebbd
 workflow-type: tm+mt
-source-wordcount: '5917'
-ht-degree: 37%
+source-wordcount: '6109'
+ht-degree: 36%
 
 ---
 
@@ -228,6 +228,14 @@ AEM 6.4、Service Pack 8、Cumulative Fix Pack 4（2021年2月25日发布的6.4.
       * 企业现在可以使用Brand Portal来源资产。 资产来源收集功能使用Brand Portal帮助客户与代理用户互动，为新的营销活动、照片和项目收集资产。 请参阅Brand Portal Guide中的[资产来源补充概述](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)。
       * 现在，品牌门户使用情况报告仅显示活动用户。 不活动的用户现在不显示。 活动用户是指将其帐户分配给Admin Console中的产品用户档案的用户。 请参阅Brand Portal指南中的[使用报表](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en)。
       * 在Brand Portal中，引入了新的下载设置，允许您在下载文件夹、收藏集等时为每个资产创建单独的文件夹。 请参阅Brand Portal指南中的&#x200B;**从Brand Portal**&#x200B;下载资产中的[资产下载](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)。
+   * **Experience Manager Forms作为Cloud Service**
+
+      AEM Forms多年来帮助多家组织提供出色的入职和注册体验。 这些体验帮助组织将销售线索转化为实际销售，处理捕获的客户数据，根据受众用户档案提供响应式体验等。 现在，AEM Forms可作为云服务提供。
+
+      您可以使用AEM Forms作为创建数字表单的Cloud Service，将表单连接到现有数据源，将表单与Adobe Sign集成以向表单添加电子签名，以及生成记录文档(DoR)以将填写的表单存档为PDF文件。 您还可以使用该服务将现有PDF forms转换为数字表单。 除标准AEM Forms功能外，该服务还优惠了几个云本机功能，如基于负载的自动扩展、零升级停机和云本机开发环境。 您可以阅读[此博客文章](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)以了解有关服务的更多功能和功能。
+
+      AEM Forms作为Cloud Service的一般上市(GA)日期为3月25日。 您可以联系Adobe代表进行演示或注册服务。
+
    * **Experience Manager Commerce 即云服务**
 
       * 产品体验管理：使用Experience Fragments单独丰富产品目录页面。
