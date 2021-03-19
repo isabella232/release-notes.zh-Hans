@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 35b3735f74ec51bcdb850bbb5b03df823c9e0f38
+source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
 workflow-type: tm+mt
-source-wordcount: '5843'
+source-wordcount: '5857'
 ht-degree: 38%
 
 ---
@@ -223,7 +223,7 @@ AEM 6.4、Service Pack 8、Cumulative Fix Pack 4（2021年2月25日发布的6.4.
       * [在Experience Manager中编辑外部SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/hybrid/editing-external-spa.html?lang=en):添加了将独立的单页应用程序上传到Experience Manager实例、添加内容的可编辑部分以及启用创作的功能。
    * **Experience Manager Assets 即云服务**
 
-      * Experience Manager资产作为Cloud Service，有权使用预配置的Brand Portal实例。 Cloud Manager用户可以将Experience Manager资产上的Brand Portal激活为Cloud Service。
+      * Experience Manager资产作为Cloud Service，有权使用预配置的Brand Portal实例。 Cloud Manager用户可以将Experience Manager资产上的Brand Portal激活为Cloud Service。 请参阅[使用Brand Portal](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html)激活Brand Portal。
       * 企业现在可以使用Brand Portal来源资产。 资产来源收集功能使用Brand Portal帮助客户与代理用户互动，为新的营销活动、照片和项目收集资产。 请参阅Brand Portal Guide中的[资产来源补充概述](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing.html?lang=en)。
       * 现在，品牌门户使用情况报告仅显示活动用户。 不活动的用户现在不显示。 活动用户是指将其帐户分配给Admin Console中的产品用户档案的用户。 请参阅Brand Portal指南中的[使用报表](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/admin-tools/brand-portal-reports.html?lang=en)。
       * 在Brand Portal中，引入了新的下载设置，允许您在下载文件夹、收藏集等时为每个资产创建单独的文件夹。 请参阅Brand Portal指南中的&#x200B;**从Brand Portal**&#x200B;下载资产中的[资产下载](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets.html?lang=en)。
