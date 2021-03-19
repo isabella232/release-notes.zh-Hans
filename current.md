@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: da0cc40fb828e5f64d832c2e4e5dba931d2f2e99
+source-git-commit: 1cde3fd4f91f53c6f2281b95397257bbcf1f5672
 workflow-type: tm+mt
-source-wordcount: '6120'
+source-wordcount: '6130'
 ht-degree: 36%
 
 ---
@@ -148,7 +148,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | [!UICONTROL 与SiteCatalyst相同的VISTA处理] =开启 | 2021 年 3 月 17 日 | 2021年6月17日，所有报表包都将更新为[!UICONTROL 与SiteCatalyst VISTA处理]设置为ON。  此更改将通过处理数据以匹配处理规则，影响[!UICONTROL Data warehouse]报告。  如有疑问或需要说明，请联系Adobe客户关怀团队。 |
-| [!UICONTROL 完全处理] [!UICONTROL 数据源]的EOL | 2021 年 3 月 10 日 | Adobe计划将来停用[!UICONTROL 完全处理] [!UICONTROL 数据源]。 从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
+| [!UICONTROL 完全处理] [!UICONTROL 数据源]的EOL | 2021 年 3 月 10 日 | Adobe计划将来停用[!UICONTROL 完全处理] [!UICONTROL 数据源]。 从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，将新的 Reports &amp; Analytics 功能板或其他内容设置为 Adobe Analytics 登陆页面的选项将被移除。如果您之前将 Reports &amp; Analytics 页面设置为自定义登陆页面，则您在[!UICONTROL 用户首选项]中修改登陆页面之前可以继续使用此登陆页面。 |
 | Ad Hoc Analysis 生命周期终止 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 于 2021 年 3 月 1 日到达其生命周期终止日期。有关详细信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
