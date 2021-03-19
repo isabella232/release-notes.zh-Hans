@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: cbad4628dc16c773db0d9985b9ab5b5ac2cdd360
+source-git-commit: 9bf1dccf7e049c290e762410eb56a3f2c040c036
 workflow-type: tm+mt
-source-wordcount: '5857'
-ht-degree: 38%
+source-wordcount: '5917'
+ht-degree: 37%
 
 ---
 
@@ -117,26 +117,27 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 | ----------- | ---------- | ------- |
 | 数据修复API更新 | 2021 年 3 月 25 日 | 数据修复API现在支持标准变量，包括[!UICONTROL Page]和[!UICONTROL  IP地址]、移动和视频变量，以及自定义prop和eVar。  可以删除变量中的值或设置新值。 API现在还对URL、查询字符串、符号等进行优惠过滤。 |
 | Analysis Workspace:[!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>报表设置：千位分隔符（现在称为“数字格式”）</li><li>报表设置：CSV分隔符</li><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板“使用此面板开始新项目”选项</li></ul> |
-| Analysis Workspace:直方图智能桶预测 | 2021 年 3 月 25 日 | 直方图智能桶预测通过自动识别数据跨页的正确桶宽和数目，帮助处理高基数量度直方图。 对于低基数量度，可视化的行为与之前相同。 |
+| Analysis Workspace:[!UICONTROL 直方图]智能桶预测 | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数目，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
+| [!UICONTROL 使用] LogAPI | 2021 年 3 月 25 日 | 这是一个新的v2.0 Analytics API，它允许以编程方式访问[!UICONTROL Admin] > [!UICONTROL Log] > [!UICONTROL 使用和访问日志]下提供的相同使用日志数据。 有关身份验证、模式和示例响应的其他详细信息，请[此处](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)提供。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 支持Analytics仪表板 | 2021 年 3 月 25 日 | CJA现在支持Mobile Scorecard Builder和移动应用程序。 这使管理层和业务用户能够使用他们可能已经用于Adobe Analytics的同一应用程序，从CJA数据中查看他们的跨渠道KPI。 |
+| 支持[!UICONTROL Adobe Analytics仪表板] | 2021 年 3 月 25 日 | [!UICONTROL Customer Journey Analytics] (CJA)现在支持Adobe Analytics  [!UICONTROL 仪表板 Scorecard ] Builder和移动应用程序。这使管理层和业务用户能够使用他们可能已经用于Adobe Analytics的同一应用程序，根据CJA数据查看其跨渠道KPI。 |
 | Analysis Workspace:[!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板“使用此面板开始新项目”选项</li></ul> |
-| Analysis Workspace:直方图智能桶预测 | 2021 年 3 月 25 日 | 直方图智能桶预测通过自动识别数据跨页的正确桶宽和数目，帮助处理高基数量度直方图。 对于低基数量度，可视化的行为与之前相同。 |
+| Analysis Workspace:[!UICONTROL 直方图]智能桶预测 | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数目，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
 
 ### Adobe Analytics 中的修复{#aa-fixes}
 
 * 修复了在编辑和保存区段的新所有者后，此新所有者未反映在区段UI中的问题。 (AN-234502;AN-250970;AN-250286)
 * 修复了导致应用程序报表包使用主服务器调用和移动主服务器调用的问题。 (AN-244029)
-* 修复了打开Workspace项目时UI响应时间较慢的问题。 (AN-242553)
-* 修复了升级到最新版本后无法登录到Report Builder的问题。 (AN-248825)
-* 修复了非管理员用户的用户权限问题：用户应具有权限，只要已将其添加到其至少一个Admin Console中。 将用户添加到用户档案应仅添加到他们拥有的权限，而不应通过其他产品用户档案删除他们已有权访问的任何内容。 (AN-242723)
-* 修复了数据馈送的语言编码问题。 (AN-249862)
-* 修复了用户无法访问共享工作区项目的问题。 (AN-247814)
-* 修复了警报预览与触发警报数不匹配的问题。 (AN-249392;AN-250804)
+* 修复了打开[!UICONTROL Workspace]项目时UI响应时间较慢的问题。 (AN-242553)
+* 修复了升级到最新版本后无法登录[!UICONTROL Report Builder]的问题。 (AN-248825)
+* 修复了非管理员用户的用户权限问题：只要用户已添加到[!UICONTROL Admin Console]中的至少一个用户档案，用户就应具有权限。 将用户添加到用户档案应仅添加到他们拥有的权限，而不应通过其他产品用户档案删除他们已有权访问的任何内容。 (AN-242723)
+* 修复了[!UICONTROL 数据馈送]的语言编码问题。 (AN-249862)
+* 修复了用户无法访问共享[!UICONTROL Workspace]项目的问题。 (AN-247814)
+* 修复了[!UICONTROL 警报预览]与触发的[!UICONTROL 警报]数量不匹配的问题。 (AN-249392;AN-250804)
 
 #### 其他 Adobe Analytics 修复
 
@@ -146,8 +147,8 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 打开与SiteCatalyst相同的VISTA处理 | 2021 年 3 月 17 日 | 2021年6月17日，所有报表包都将更新为[!UICONTROL 与SiteCatalyst VISTA处理]设置为ON。  此更改将处理与处理规则匹配的Data warehouse，从而影响报告。  如有疑问或需要说明，请联系客户关怀。 |
-| 完全处理数据源生命周期终止 | 2021 年 3 月 10 日 | Adobe 计划将将来弃用完全处理数据源。从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
+| [!UICONTROL 与SiteCatalyst相同的VISTA处理] =开启 | 2021 年 3 月 17 日 | 2021年6月17日，所有报表包都将更新为[!UICONTROL 与SiteCatalyst VISTA处理]设置为ON。  此更改将通过处理数据以匹配处理规则，影响[!UICONTROL Data warehouse]报告。  如有疑问或需要说明，请联系Adobe客户关怀团队。 |
+| [!UICONTROL 完全处理] [!UICONTROL 数据源]的EOL | 2021 年 3 月 10 日 | Adobe计划将来停用[!UICONTROL 完全处理] [!UICONTROL 数据源]。 从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，将新的 Reports &amp; Analytics 功能板或其他内容设置为 Adobe Analytics 登陆页面的选项将被移除。如果您之前将 Reports &amp; Analytics 页面设置为自定义登陆页面，则您在[!UICONTROL 用户首选项]中修改登陆页面之前可以继续使用此登陆页面。 |
 | Ad Hoc Analysis 生命周期终止 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 于 2021 年 3 月 1 日到达其生命周期终止日期。有关详细信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
