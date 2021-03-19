@@ -5,15 +5,15 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: d0896f5a62cb6491ca26fb52b68d93014cab5e22
+source-git-commit: 35b3735f74ec51bcdb850bbb5b03df823c9e0f38
 workflow-type: tm+mt
-source-wordcount: '5845'
+source-wordcount: '5843'
 ht-degree: 38%
 
 ---
 
 
-# 内部审阅 — Adobe Experience Cloud发行说明 — 2021年3月
+# Adobe Experience Cloud 发行说明 - 2021 年 3 月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -27,7 +27,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 >
 >若要接收有关此页面更新的电子邮件通知，请订阅每月的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html)整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 3 月 18 日**
+最新更新日期：**2021 年 3 月 19 日**
 
 * [Adobe 系统状态](#status)（未更新）
 * [Experience CloudUI组件、服务和管理](#ecloud)
