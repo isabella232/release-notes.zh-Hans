@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: c26e0c1775dfdeb00ca99ff2492f58519f55fc43
+source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
 workflow-type: tm+mt
-source-wordcount: '7052'
-ht-degree: 32%
+source-wordcount: '7120'
+ht-degree: 31%
 
 ---
 
@@ -165,7 +165,7 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 | [!UICONTROL 与SiteCatalyst相同的VISTA处理] =开启 | 2021 年 3 月 17 日 | 2021年6月17日，所有报表包都将更新为[!UICONTROL 与SiteCatalyst VISTA处理]设置为ON。 此更改通过处理数据以匹配处理规则，影响[!UICONTROL Data warehouse]报告。 如有疑问或需要说明，请联系Adobe客户关怀团队。 |
 | [!UICONTROL 完全处理] [!UICONTROL 数据源]的EOL | 2021 年 3 月 10 日 | Adobe计划将来停用[!UICONTROL 完全处理] [!UICONTROL 数据源]。 从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。使用[批量数据插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)导入此类型的数据。 [了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，将新的 Reports &amp; Analytics 功能板或其他内容设置为 Adobe Analytics 登陆页面的选项将被移除。如果您之前将 Reports &amp; Analytics 页面设置为自定义登陆页面，则您在[!UICONTROL 用户首选项]中修改登陆页面之前可以继续使用此登陆页面。 |
-| Ad Hoc Analysis 生命周期终止 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 于 2021 年 3 月 1 日到达其生命周期终止日期。有关详细信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
+| Ad Hoc Analysis 生命周期终止 | 2021 月 1 日 | [!UICONTROL Ad Hoc Analysis] 于 2021 年 3 月 1 日到达其生命周期终止日期。有关详细信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 2021 年 8 月 1 日。[了解详情...](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/data-connectors-eol.html) |
 
@@ -173,17 +173,13 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 有关 AppMeasurement 版本的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。
 
-<!-- ### Analytics courses and tutorials {#tutorials-analytics}
-
-New courses, tutorials, and articles in [!DNL Analytics] and [!UICONTROL Customer Journey Analytics]. -->
-
 ### Analytics 帮助资源
 
 * [Adobe Analytics 产品文档及教程](https://experienceleague.corp.adobe.com/docs/analytics.html)
 
 ## ![图标](/assets/audience-manager.png) Adobe Audience Manager {#aam}
 
-AAM新增功能。
+修复和改进Audience Manager。
 
 ### 修复和改进{#aam-fixes-and-improvements}
 
@@ -456,6 +452,11 @@ Adobe Advertising Cloud 的发行说明。
 ## ![图标](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
 为 Adobe Document Cloud 发布的新视频、教程或课程。
+
+| 发布日期 | 名称 | 解决方案 | 描述 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 2 月 25 日 | [第一印象 — 欢迎电子邮件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | 视频 | 了解您的欢迎战略的关键要素。 |
+| 2021 年 2 月 25 日 | [第一印象 — 解决收集和列表增长问题](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | 视频 | 了解新电子邮件地址的最佳来源、如何确保高数据质量并符合法律准则。 |
 
 有关 Document Cloud 的帮助，请参阅：
 
