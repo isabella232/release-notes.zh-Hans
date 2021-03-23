@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: ffd0377c6309d206bbb98ddc9c7e74f938ad4081
+source-git-commit: c26e0c1775dfdeb00ca99ff2492f58519f55fc43
 workflow-type: tm+mt
-source-wordcount: '6263'
-ht-degree: 34%
+source-wordcount: '7052'
+ht-degree: 32%
 
 ---
 
@@ -64,6 +64,24 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 
 发布的关于 Experience Platform 和服务的新视频、教程或课程。
 
+| 发布日期 | 名称 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 3 月 | [监控仪表板](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/monitoring-dashboard.html) | 视频 | 了解如何使用“监视”仪表板监视和跟踪被摄入Adobe Experience Platform的数据。 此监视仪表板通过数据湖为源、数据流和数据流运行级别上的用户档案和Identity Services提供源数据处理的自上而下视图，并及时提供可操作的建议。 |
+| 2021 年 3 月 | [使用服务器服务器流连接器收录数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 视频 | 此视频演示如何将数据从云存储源实时流化到平台，并实时使用数据进行客户参与。 |
+| 2021 年 3 月 | [数据工程师的数据获取](https://video.tv.adobe.com/v/331971?quality=12&learn=on) | 视频 | 数据摄取课程概述。 |
+| 2021 年 3 月 5 日 | [数据工程师的数据获取](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) | 课程 | 如何将来自多个源的数据引入Adobe Experience Platform等。 |
+| 2021 年 3 月 | [配置 Azure Blob 目标](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=zh-Hans#destinations) | 视频 | 了解如何演练在[!UICONTROL 实时客户存储平台]（实时CDP）中设置和配置和Azure Blob目标所需的步骤。 |
+| 2021 年 3 月 5 日 | [营销人员Offer decisioning入门](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 课程 | 了解构建在Adobe Experience Platform顶部的[!UICONTROL Offer Decisioning]应用程序服务。 此课程面向希望通过向客户提供最佳优惠来提高收入、客户体验和忠诚度的营销人员。 |
+| 2021 年 3 月 5 日 | [通过API流化数据获取](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-http-api.html) | 视频 | 此视频演示如何使用HTTP API端点将数据实时流化到Adobe Experience Platform。 |
+| 2021 年 3 月 5 日 | [使用API监控数据摄取](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/data-monitoring.html?lang=zh-Hans#data-ingestion) | 视频 | 了解如何使用 Platform 的 UI 和 API 监控和跟踪 Adobe Experience Platform 中收录的数据。 |
+| 2021 年 3 月 5 日 | [从数据库中摄取数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/ingest-data-from-databases.html?lang=en#sources) | 视频 | 此视频以无缝、可伸缩的方式向Adobe Experience Platform的实时客户用户档案和体验数据湖中逐步介绍如何将数据从数据库源中批量摄取。 |
+| 2021 年 3 月 5 日 | [从Amazon S3摄取数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-amazon-s3.html) | 视频 | 此视频展示了如何以无缝、可扩展的方式轻松地将云存储服务中的数据批量引入Adobe Experience Platform的实时客户用户档案和数据湖中。 |
+| 2021 年 3 月 5 日 | [从Salesforce CRM中摄取数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-salesforce-crm.html) | 视频 | 此视频展示了如何以无缝、可扩展的方式将CRM源中的数据轻松批量引入Adobe Experience Platform的实时客户用户档案和数据湖中。 |
+| 2021 年 3 月 5 日 | [从Adobe Analytics摄取数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/ingest-data-from-adobe-analytics.html) | 视频 | Adobe Analytics Source连接器使您能以无缝、可伸缩的方式轻松地将数据从Adobe Analytics流入Adobe Experience Platform的实时客户用户档案和体验数据湖。 |
+| 2021 年 3 月 5 日 | [了解源连接器](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/overview.html?lang=en#sources) | 视频 | 此视频概述了源连接器或源连接器的Experience Platform。 |
+| 2021 年 3 月 5 日 | [Adobe IO控制台导出邮递员详细信息](https://experienceleague.adobe.com/docs/platform-learn/tutorials/apis/postman.html) | 视频 | 了解如何验证和访问Experience Platform API。 |
+| 2021 年 3 月 5 日 | [了解数据摄取](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/understanding-data-ingestion.html#data-ingestion) | 视频 | 了解Experience Platform的数据摄取功能，这些功能可让您将数据整合到一个开放、可扩展的平台中，以管理实时客户用户档案。 |
+
 ## ![图标](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
 凭借 Adobe Experience Platform，可以实时智能化预测每位客户的需求，从而实现跨体验渠道大规模编排客户历程。
@@ -78,7 +96,7 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 3 月 16 日 | [更新用户档案操作](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/update-profile-action.html?lang=en#building-a-journey) | 视频 | 了解如何使用来自事件、数据源或使用特定值的信息更新现有Adobe Experience Platform用户档案。 |
+| 2021 年 3 月 16 日 | [更新用户档案操作](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/building-a-journey/update-profile-action.html?lang=en#building-a-journey) | 视频 | 了解如何使用来自事件、数据源或使用特定值的信息更新现有Experience Platform用户档案。 |
 
 ### Journey Orchestration 的更多资源
 
@@ -104,7 +122,6 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
-* [Analytics 课程及教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
@@ -112,18 +129,18 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 | 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
 | 数据修复API更新 | 2021 年 3 月 25 日 | 数据修复API现在支持标准变量，包括[!UICONTROL Page]和[!UICONTROL  IP地址]、移动和视频变量，以及自定义prop和eVar。  可以删除变量中的值或设置新值。 API现在还对URL、查询字符串、符号等进行优惠过滤。 |
-| Analysis Workspace:[!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>报表设置：千位分隔符（现在称为“数字格式”）</li><li>报表设置：CSV分隔符</li><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板“使用此面板开始新项目”选项</li></ul> |
-| Analysis Workspace:[!UICONTROL 直方图]智能桶预测 | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数目，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
-| [!UICONTROL 使用] LogAPI | 2021 年 3 月 25 日 | 这是一个新的v2.0 Analytics API，它允许以编程方式访问[!UICONTROL Admin] > [!UICONTROL Log] > [!UICONTROL 使用和访问日志]下提供的相同使用日志数据。 有关身份验证、模式和示例响应的其他详细信息，请[此处](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)提供。 |
-| 分析仪表板支持自定义日期范围 | 2021 年 3 月 25 日 | 记分卡创建者可以创建自定义日期范围并将其应用到移动记分卡项目。 创建者可以从熟悉的工作区和移动日期范围预设中进行选择，或创建自定义日期范围。 此功能将于3月25日开始推出。 |
+| Analysis Workspace:[!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。<br>**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_Number格式_）</li><li>报表设置：CSV分隔符</li><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板&#x200B;_使用此面板_&#x200B;选项开始新项目</li></ul> |
+| Analysis Workspace:[!UICONTROL 直方图智能桶预测] | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数量，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
+| [!UICONTROL 使用] LogAPI | 2021 年 3 月 25 日 | 这是一个新的v2.0 Analytics API，它允许以编程方式访问&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Log]** > **[!UICONTROL 使用和访问日志]**&#x200B;下提供的相同使用日志数据。 有关身份验证、模式和示例响应的其他详细信息，请[此处](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)提供。 |
+| 分析仪表板支持自定义日期范围 | 2021 年 3 月 25 日 | 记分卡创建者可以创建自定义日期范围并将其应用到移动记分卡项目。 创建者可以从熟悉的工作区和移动日期范围预设中进行选择，或创建自定义日期范围。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | 支持[!UICONTROL Adobe Analytics仪表板] | 2021 年 3 月 25 日 | [!UICONTROL Customer Journey Analytics] (CJA)现在支持Adobe Analytics  [!UICONTROL 仪表板 Scorecard ] Builder和移动应用程序。这使管理层和业务用户能够使用他们可能已经用于Adobe Analytics的同一应用程序，根据CJA数据查看其跨渠道KPI。 |
-| Analysis Workspace:[!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板“使用此面板开始新项目”选项</li></ul> |
-| Analysis Workspace:[!UICONTROL 直方图]智能桶预测 | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数目，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
+| Analysis Workspace:**[!UICONTROL 组件]** > **[!UICONTROL 用户首选项]** | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。<br>**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板&#x200B;_使用此面板_&#x200B;选项开始新项目</li></ul> |
+| Analysis Workspace:[!UICONTROL 直方图智能桶预测] | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数量，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
 | 分析仪表板支持Customer Journey Analytics | 2021 年 3 月 25 日 | Analytics仪表板应用程序现在支持Customer Journey Analytics。 具有Customer Journey Analytics的用户可以在Analytics仪表板应用程序中从任何引入到Adobe Experience Platform的数据中显示KPI。 Customer Journey Analytics允许您组合多个数据源，以真正、多渠道视图客户体验。 现在，借助Analytics仪表板应用程序，您可以随时随地获得最新、全面的业务视图。 |
 
 ### Adobe Analytics 中的修复{#aa-fixes}
@@ -145,8 +162,8 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| [!UICONTROL 与SiteCatalyst相同的VISTA处理] =开启 | 2021 年 3 月 17 日 | 2021年6月17日，所有报表包都将更新为[!UICONTROL 与SiteCatalyst VISTA处理]设置为ON。  此更改将通过处理数据以匹配处理规则，影响[!UICONTROL Data warehouse]报告。  如有疑问或需要说明，请联系Adobe客户关怀团队。 |
-| [!UICONTROL 完全处理] [!UICONTROL 数据源]的EOL | 2021 年 3 月 10 日 | Adobe计划将来停用[!UICONTROL 完全处理] [!UICONTROL 数据源]。 从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
+| [!UICONTROL 与SiteCatalyst相同的VISTA处理] =开启 | 2021 年 3 月 17 日 | 2021年6月17日，所有报表包都将更新为[!UICONTROL 与SiteCatalyst VISTA处理]设置为ON。 此更改通过处理数据以匹配处理规则，影响[!UICONTROL Data warehouse]报告。 如有疑问或需要说明，请联系Adobe客户关怀团队。 |
+| [!UICONTROL 完全处理] [!UICONTROL 数据源]的EOL | 2021 年 3 月 10 日 | Adobe计划将来停用[!UICONTROL 完全处理] [!UICONTROL 数据源]。 从 2021 年 3 月 25 日起，将不再创建新的此类型的导入。使用[批量数据插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)导入此类型的数据。 [了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，将新的 Reports &amp; Analytics 功能板或其他内容设置为 Adobe Analytics 登陆页面的选项将被移除。如果您之前将 Reports &amp; Analytics 页面设置为自定义登陆页面，则您在[!UICONTROL 用户首选项]中修改登陆页面之前可以继续使用此登陆页面。 |
 | Ad Hoc Analysis 生命周期终止 | 2021 年 1 月 | [!UICONTROL Ad Hoc Analysis] 于 2021 年 3 月 1 日到达其生命周期终止日期。有关详细信息，请参阅[探索工作区](https://spark.adobe.com/page/S9Bhp66VJ2fEn/)。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe IO](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
@@ -156,9 +173,9 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 
 有关 AppMeasurement 版本的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。
 
-### Analytics 的课程及教程 {#tutorials-analytics}
+<!-- ### Analytics courses and tutorials {#tutorials-analytics}
 
-[!DNL Analytics] 和 [!UICONTROL Customer Journey Analytics] 中的新课程、教程和文章。
+New courses, tutorials, and articles in [!DNL Analytics] and [!UICONTROL Customer Journey Analytics]. -->
 
 ### Analytics 帮助资源
 
@@ -173,7 +190,7 @@ AAM新增功能。
 * 修复了[登记状态报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/onboarding-status-report.html?lang=zh-Hans)。在此问题中，报告中的记录与登记合作伙伴上传的文件中的记录之间存在差异。(AAM-57415)
 * 修复了导致&#x200B;**[!UICONTROL 基于人员的目标]**&#x200B;的重复段映射验证不正确的问题。 (AAM-56631)
 * 修复了阻止某些用户访问&#x200B;**[!UICONTROL 受众报告]**&#x200B;的问题。 (AAM-57412)
-* 已修补[!DNL Remote Code Execution]漏洞，攻击者可能使用该漏洞访问敏感数据。 (AAM-57495)
+* 已修补[!UICONTROL 远程代码执行]漏洞，攻击者可能使用该漏洞访问敏感数据。 (AAM-57495)
 
 ### Audience Manager 的课程及教程{#tutorials-aam}
 
@@ -181,16 +198,20 @@ AAM新增功能。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 3 月 19 日 | [了解针对Audience Manager用户的实时CDP中的数据治理](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html) | 视频 | 了解[!UICONTROL 实时客户数据平台]中的数据管理功能。 |
+| 2021 年 3 月 19 日 | [品牌与消费者](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html) | 视频 | 在此网络研讨会中，Adobe将阐述广告商和出版商对于无Cookie未来的理解和准备程度、对其使用案例的影响以及他们对更广泛生态系统的感知。 |
+| 2021 年 3 月 5 日 | [负责任客户数据管理的10个考虑事项](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html) | 事件 | 听取Adobe和Scotiabank Digital有关负责任数据管理的主要考虑事项。 |
+| 2021 年 3 月 19 日 | [数据管理的未来与不断变化的环境](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html) | 事件 | 在此网络研讨会中，了解Adobe和451 Research如何思考未来的技术和数据，以解决新的营销环境，并开始为未来的数据管理做准备。 |
 | 2021 年 3 月 21 日 | [了解模式和XDM(针对Audience Manager用户的实时CDP)](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 视频 | 当您从Audience Manager转向实时客户数据平台（实时CDP）时，您将会遇到一些新概念和做法。 模式和XDM属于这一类别。 此视频介绍了这些概念。 |
 | 2021 年 3 月 17 日 | [了解Audience Manager用户实时CDP中的信号](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-signals-for-aam-users.html) | 视频 | 此视频适用于迁移到实时Audience Manager平台（实时CDP）的Audience Manager用户，并讨论您在中用于构建特征的信号（键值对）在平台中的使用方式。 |
-| 2021 年 3 月 12 日 | [了解模式和XDM(针对Audience Manager用户的实时CDP)](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html?lang=en#other-integrations) | 视频 | 当您从Audience Manager转向实时客户数据平台（实时CDP）时，您将会遇到一些新概念和做法。 模式和XDM属于这一类别。 此视频介绍了这些概念。 |
-| 2021 年 3 月 12 日 | [内容投放Experience Manager Cloud Service](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/content/feb2021/content-delivery.html#content) | 事件 | Adobe Experience Manager作为Cloud Service，具有强大的预配置内容投放体系结构。 演示如何充分利用优化的内容投放配置 |
-| 2021 年 3 月 3 日 | [了解针对Audience Manager用户的实时CDP中的细分](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 视频 | 当您从Audience Manager转向实时客户数据平台时，了解概念的差异会很有帮助。 此视频查看了Audience Manager和实时CDP之间在细分和细分创建方面的差异。 |
-| 2021 年 3 月 3 日 | [了解Audience Manager用户实时CDP中的特点](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 视频 | 当您从Audience Manager转向实时客户数据平台时，了解概念的差异会很有帮助。 此视频解决了Audience Manager中的特征和实时CDP中的等效内容。 |
-| 2021 年 3 月 3 日 | [课程简介 — Audience Manager高级技能](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 视频 | 视图此视频，了解Audience Manager Advanced Skills课程中的后续内容。 |
-| 2021 年 3 月 3 日 | [了解面向Audience Manager用户的实时CDP中的第一方数据摄取](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 视频 | 此视频讨论了使用Adobe Audience Manager的用户在实时客户数据平台(Real-time CDP)中的第一方离线数据摄取。 我们查看了两个产品之间在数据摄取方面的一些主要差异，并说明了在将进程移动到实时CDP之前，Audience Manager Data Connector如何用作停止间隙。 |
-| 2021 年 3 月 1 日 | [通过提供Audience Marketplace，使您拥有的受众商业化](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 视频 | 在此Audience Marketplace中，您将学习如何将数据设置为该视频上的私有或公共数据馈送，从而使您成为第2方或第3方数据的数据提供商。 |
-| 2021 年 3 月 | [在Audience Manager中创建和管理激活](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 课程 | 在本课程中，请了解有关“激活”受众的所有信息，即向目标合作伙伴发送受众数据，以便为最终用户定制体验。 您将学习目标的基础知识、如何根据您的需求选择正确的目标，以及如何基于人而非cookies准备受众数据并将其发送到社交网络目标。 |
+| 2021 年 3 月 12 日 | [了解模式和XDM(针对Audience Manager用户的实时CDP)](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-schemas-xdm-for-aam-users.html) | 视频 | 当您从Audience Manager转向实时客户数据平台（实时CDP）时，您将会遇到一些新概念和做法。 模式和XDM属于这一类别。 此视频介绍了这些概念。 |
+| 2021 年 3 月 12 日 | [了解针对Audience Manager用户的实时CDP中的Web数据摄取](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-web-ingestion-for-aam-users.html) | 视频 | 了解将网站数据引入实时客户数据平台（实时CDP）的概念，包括Audience Manager Data Connector适合的位置以及数据如何直接从网站通过Web SDK移动到实时CDP。 |
+| 2021 年 3 月 3 日 | [了解针对Audience Manager用户的实时CDP中的细分](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 视频 | 了解Audience Manager和实时CDP在细分和细分创建方面的差异。 |
+| 2021 年 3 月 3 日 | [了解Audience Manager用户实时CDP中的特点](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 视频 | 了解Audience Manager的特点以及实时CDP中的等效功能。 |
+| 2021 年 3 月 3 日 | [课程简介 — Audience Manager高级技能](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 视频 | 了解Audience Manager高级技能课程的后续内容。 |
+| 2021 年 3 月 3 日 | [了解面向Audience Manager用户的实时CDP中的第一方数据摄取](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 视频 | 了解第一方离线数据引入实时客户数据平台（实时CDP）。 了解两个产品之间在数据摄取方面的一些主要差异，并说明在将进程移到实时CDP之前，Audience Manager Data Connector如何用作停止间隙。 |
+| 2021 年 3 月 1 日 | [通过提供Audience Marketplace，使您拥有的受众商业化](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 视频 | 了解如何将您的数据设置为Audience Marketplace上的私有或公共数据馈送，使您成为第2方或第3方数据的数据提供商。 |
+| 2021 年 3 月 | [在Audience Manager中创建和管理激活](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 课程 | 在本课程中，请了解有关激活受众的所有信息，例如，向目标合作伙伴发送受众数据，以便为最终用户自定义体验。 了解目标的基础知识、如何选择正确的目标，以及如何基于人而非cookie准备受众数据并将其发送到社交网络目标。 |
 | 2021 年 3 月 | [Audience Manager高级技能](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.5) | 课程 | 掌握Audience Manager基础知识后，请通过本课程学习如何将受众管理提升到更高层次。 了解如何将AI与算法模型结合使用，如何使用用户档案合并规则将客户理解为人而不是设备，以及扩展DMP使用的其他重要主题。 |
 
 ## ![图标](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -292,25 +313,27 @@ AEM 6.4、Service Pack 8、Cumulative Fix Pack 4（2021年2月25日发布的6.4.
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021年2月 | [使用AEM发布环境进行生产部署](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/production-deployment.html#graphql) | 教程 | 在本教程中，您将设置一个本地环境，以模拟从Author实例分发到Publish实例的内容。 您还将生成React App的生产构建，该应用程序配置为使用GraphQL API从AEM发布环境中使用内容。 在此过程中，您将学习如何有效使用环境变量以及如何更新AEM CORS配置。 |
-| 2021年2月 | [无外设内容管理（使用GraphQL API）](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.headless) | 课程 | 在本课程中，您将了解如何使用AEM GraphQL API和无外设功能来推动外部应用程序中呈现的体验。 |
-| 2021年2月 | [启动项 — 功能视频](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/launches.html) | 视频 | AEM Sites中的启动项提供了一种创建、创作和审阅网站内容的方式，以供将来发布。 在创建发布期间，生产网站可以继续发展并像平常一样不断变化。 |
-| 2021年2月 | [链接相关和不相关资产 — 功能视频文本](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=zh-Hans) | 视频 | 了解如何在AEM中建立和管理资产之间的关系。 |
-| 2021年2月 | [从外部应用程序向 AEM 即云服务进行身份验证](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 课程 | 在本课程中，您将学习外部应用程序如何使用本地开发访问令牌和服务凭据以编程方式通过HTTP验证到AEM作为Cloud Service。 |
-| 2021年2月 | [在抵押贷款应用程序中填写和签署多个表单](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.7.forms) | 课程 | 使用AEM Forms和Sign集成无缝地对文档包进行签名。 在表单中输入的数据可用于在包中预填充后续表单。 |
-| 2021年2月 | [版本/AEM中的时间扭曲](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/timewarp-feature-video-use.html) | 视频 | 时间扭曲是Adobe Experience Manager Sites的一项功能，它为作者提供了快速方法来审阅页面在过去特定时间的状态。 |
-| 2021年2月 | [基础 — 工作流管理](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-workflow-management.html?lang=en#workflow) | 视频 | 此视频使用工作流模型来演示这组功能，但它们也适用于AEM Launcher。 |
-| 2021年2月 | [体验片段块](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/building-blocks.html) | 视频 | 构建块是体验片段的子功能。 构建基块使内容作者能够跨不同版本的Experience Fragments重复使用组件。 |
-| 2021年2月 | [工作流编辑器](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-the-workflow-editor.html?lang=en#workflow) | 视频 | 工作流支持Experience Manager中的业务流程管理，用于自动处理内容并促进需要人力决策的治理和流程。 |
-| 2021年2月 | [AEM Assets中已关闭的用户组](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/closed-user-groups.html) | 视频 | “已关闭的用户组”(CUG)是一项功能，用于限制对已发布站点上的选定用户组的内容访问权限。 此视频显示了如何将已关闭的用户组与Adobe Experience Manager资产一起使用，以限制对特定资产文件夹的访问权限。 |
-| 2021年2月 | [报表](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-reports.html) | 视频 | AEM Assets提供企业级报告框架，可通过直观的用户体验扩展到大型存储库。 |
-| 2021年2月 | [使用AEM Assets为图像添加智能标签](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/image-smart-tags.html) | 视频 | 图像的智能标记可根据图像内容自动、智能地向图像资产中添加元数据标记，从而增强AEM搜索功能。 |
-| 2021 年 2 月 24 日 | [元数据层叠，可见性](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/cascade-metadata-feature-video-use.html) | 视频 | 高级元数据管理允许用户创建级联字段规则，以在AEM Assets中的元数据之间形成上下文关系。 以下视频演示了有关字段要求、可见性和上下文选择的新动态规则。 该视频还详细介绍了管理员将这些规则应用到自定义元数据模式所需的步骤。 |
-| 2021 年 2 月 24 日 | [项目主页](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/projects/use-project-masters.html?lang=en#delete-project-masters) | 视频 | 删除主控项目会导致派生项目不可用。 |
-| 2021 年 2 月 24 日 | [自定义页面属性](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/page-properties-technical-video-develop.html) | 视频 | 创建有关如何最佳扩展和自定义页面属性的技术视频。 |
-| 2021 年 2 月 24 日 | [翻译内容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-translation-feature-video-use.html) | 视频 | 了解如何使用Adobe Experience Manager本地化和翻译内容片段。 与内容片段关联的混合媒体资产也有资格进行提取和翻译。 |
-| 2021 年 2 月 24 日 | [体验片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html) | 视频 | 体验片段使内容作者能够在包括站点页面和第三方系统在内的渠道中重复使用内容。 |
-| 2021 年 2 月 24 日 | [增强的搜索提升](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search-boost.html) | 视频 | 了解搜索提升。 |
+| 2021 年 3 月 | [内容投放Experience Manager Cloud Service](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/content/feb2021/content-delivery.html#content) | 事件 | Adobe Experience Manager作为Cloud Service，具有强大的预配置内容投放架构。 演示如何充分利用优化的内容投放配置 |
+| 2021 年 3 月 | [将有关Forms和文档类型的帮助文章迁移到ExL](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/pdf-forms-and-documents.html?lang=en#document-services) | 文章 | 介绍不同类型的PDF forms和文档的文章。 |
+| 2021 年 3 月 | [使用AEM发布环境进行生产部署](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/production-deployment.html#graphql) | 教程 | 设置本地环境以模拟正在从作者实例分发到发布实例的内容。 生成React App的生产构建，该应用程序配置为使用GraphQL API从AEM发布环境使用内容。 在此过程中，您将学习如何有效使用环境变量以及如何更新AEM CORS配置。 |
+| 2021 年 3 月 | [无外设内容管理（使用GraphQL API）](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.headless) | 课程 | 了解如何使用AEM GraphQL API和无外设功能来提升外部应用程序中呈现的体验。 |
+| 2021 年 3 月 | [启动项 — 功能视频](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/launches.html) | 视频 | AEM Sites中的启动项提供了一种创建、创作和审阅网站内容的方式，以供将来发布。 在创建发布期间，生产网站可以继续发展并像平常一样不断变化。 |
+| 2021 年 3 月 | [链接相关和不相关资产 — 功能视频文本](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/authoring/relate-unrelate.html?lang=zh-Hans) | 视频 | 了解如何在AEM中建立和管理资产之间的关系。 |
+| 2021 年 3 月 | [从外部应用程序向 AEM 即云服务进行身份验证](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.1.aemcs) | 课程 | 了解外部应用程序如何使用本地开发访问令牌和服务凭据以编程方式通过HTTP验证到AEM作为Cloud Service。 |
+| 2021 年 3 月 | [在抵押贷款应用程序中填写和签署多个表单](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2020.7.forms) | 课程 | 使用AEM Forms和Sign集成无缝地对文档包进行签名。 在表单中输入的数据可用于在包中预填充后续表单。 |
+| 2021 年 3 月 | [版本/AEM中的时间扭曲](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/timewarp-feature-video-use.html) | 视频 | 时间扭曲是Adobe Experience Manager Sites的一项功能，它为作者提供了快速方法来审阅页面在过去特定时间的状态。 |
+| 2021 年 3 月 | [基础 — 工作流管理](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-workflow-management.html?lang=en#workflow) | 视频 | 此视频使用工作流模型来演示这组功能，但它们也适用于AEM Launcher。 |
+| 2021 年 3 月 | [体验片段块](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/building-blocks.html) | 视频 | 构建块是体验片段的子功能。 构建基块使内容作者能够跨不同版本的Experience Fragments重复使用组件。 |
+| 2021 年 3 月 | [工作流编辑器](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/workflow/use-the-workflow-editor.html?lang=en#workflow) | 视频 | 工作流支持Experience Manager中的业务流程管理，用于自动处理内容并促进需要人力决策的治理和流程。 |
+| 2021 年 3 月 | [AEM Assets中已关闭的用户组](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/closed-user-groups.html) | 视频 | “已关闭的用户组”(CUG)是一项功能，用于限制对已发布站点上的选定用户组的内容访问权限。 此视频显示了如何将已关闭的用户组与Adobe Experience Manager资产一起使用，以限制对特定资产文件夹的访问权限。 |
+| 2021 年 3 月 | [报表](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-reports.html) | 视频 | 了解AEM Assets如何提供企业级报告框架，通过直观的用户体验扩展到大型存储库。 |
+| 2021 年 3 月 | [使用AEM Assets为图像添加智能标签](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/image-smart-tags.html) | 视频 | 图像的智能标记可根据图像内容自动、智能地向图像资产中添加元数据标记，从而增强AEM搜索功能。 |
+| 2021 年 3 月 | [元数据层叠，可见性](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/metadata/cascade-metadata-feature-video-use.html) | 视频 | 了解有关字段要求、可见性和上下文选择的新动态规则。 该视频还详细介绍了管理员将这些规则应用到自定义元数据模式所需的步骤。 |
+| 2021 年 3 月 | [项目主页](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/projects/use-project-masters.html?lang=en#delete-project-masters) | 视频 | 删除主控项目会导致派生项目不可用。 |
+| 2021 年 3 月 | [自定义页面属性](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/developing/page-properties-technical-video-develop.html) | 视频 | 创建有关如何最佳扩展和自定义页面属性的技术视频。 |
+| 2021 年 3 月 | [翻译内容片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/content-fragments-translation-feature-video-use.html) | 视频 | 了解如何使用Adobe Experience Manager本地化和翻译内容片段。 与内容片段关联的混合媒体资产也有资格进行提取和翻译。 |
+| 2021 年 3 月 | [体验片段](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/experience-fragments/experience-fragments-feature-video-use.html) | 视频 | 了解Experience Fragments如何使内容作者能够跨渠道（包括站点页面和第三方系统）重复使用内容。 |
+| 2021 年 3 月 | [增强的搜索提升](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/search-and-discovery/search-boost.html) | 视频 | 了解搜索提升。 |
 
 ### Experience Manager 的其他帮助资源
 
@@ -446,6 +469,9 @@ Creative Cloud Enterprise 的新教程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 3 月 | [了解指定用户许可](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/deploy/nameduserlicensing.html) | 文章 | 了解指定用户授权许可的重要性。 |
+| 2021 年 3 月 5 日 | [序列号过期](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/deploy/cceserial.html) | 视频 | 了解确保最终用户能够继续访问其Adobe应用程序和服务所需的步骤。 |
+| 2021 年 3 月 | [部署和管理登录 — 支持资产](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/deploy/overview-deploy.html) | 视频 | 了解Creative Cloud企业版如何支持自定义部署和灵活的许可证调整，以及如何与其他Adobe企业产品配合使用。 |
 | 2021 年 3 月 5 日 | [自定义Adobe Stock矢量插图中的颜色](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/customizecolors.html) | 视频 | 以精美的插图润饰任何项目。 在Adobe Stock中查找完美的矢量，然后使用Adobe Illustrator将颜色与项目调色板匹配。 |
 | 2021 年 3 月 5 日 | [自定义Adobe Stock演示文稿模板，使其看上去专业而引人注目](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/presentationtemplate.html) | 视频 | 使用Adobe Stock中的图像和模板以及一些简单易用的特殊效果，在几分钟内创建出精美的风格化演示文稿。 |
 | 2021 年 3 月 5 日 | [使用Adobe Stock和XD自定义载入的屏幕动画](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/stockoverview/stocktutorials/loadingscreen.html) | 视频 | 从Adobe Stock自定义矢量图稿，为移动应用程序创建令人心寒的载入屏幕动画。 |
