@@ -224,7 +224,7 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
    * [发行说明](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hans#service-pack)
    * [AEM Forms 发布的交付内容](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
 
-   * **AEM 6.4.8.4**
+* **AEM 6.4.8.4**
 AEM 6.4、Service Pack 8、Cumulative Fix Pack 4（2021年2月25日发布的6.4.8.4）是一个重要更新，包含自AEM 6.4、Service Pack 8(6.4.8.0)于2020年3月正式发布以来的几个内部和客户修复。
    * [发行说明](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hans)
    * [AEM Forms 发布的交付内容](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates)
