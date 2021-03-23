@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: bb6a42b34458a8f1959d4206f546992f4c8e5747
+source-git-commit: b563bfd3582fbbf197dbe3b6590b1f681b7e38cc
 workflow-type: tm+mt
-source-wordcount: '7120'
-ht-degree: 31%
+source-wordcount: '7045'
+ht-degree: 32%
 
 ---
 
@@ -450,13 +450,6 @@ Adobe Advertising Cloud 的发行说明。
 * **弃用 Internet Explorer 支持：**&#x200B;从 2020 年 7 月 31 日发行的 7 月版本开始，Internet Explorer 将不再支持 Marketo Engage 用户界面。
 
 ## ![图标](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
-
-为 Adobe Document Cloud 发布的新视频、教程或课程。
-
-| 发布日期 | 名称 | 解决方案 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 2 月 25 日 | [第一印象 — 欢迎电子邮件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/welcome-emails.html) | 视频 | 了解您的欢迎战略的关键要素。 |
-| 2021 年 2 月 25 日 | [第一印象 — 解决收集和列表增长问题](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html) | 视频 | 了解新电子邮件地址的最佳来源、如何确保高数据质量并符合法律准则。 |
 
 有关 Document Cloud 的帮助，请参阅：
 
