@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: b563bfd3582fbbf197dbe3b6590b1f681b7e38cc
+source-git-commit: d7c6508201971164b63a0d0d9490f66a2a87adf6
 workflow-type: tm+mt
-source-wordcount: '7045'
+source-wordcount: '7026'
 ht-degree: 32%
 
 ---
@@ -204,7 +204,6 @@ AN-206099;AN-237460;AN-241803;AN-243735;AN-244081;AN-244615;AN-244687;AN-246832;
 | 2021 年 3 月 12 日 | [了解针对Audience Manager用户的实时CDP中的Web数据摄取](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-web-ingestion-for-aam-users.html) | 视频 | 了解将网站数据引入实时客户数据平台（实时CDP）的概念，包括Audience Manager Data Connector适合的位置以及数据如何直接从网站通过Web SDK移动到实时CDP。 |
 | 2021 年 3 月 3 日 | [了解针对Audience Manager用户的实时CDP中的细分](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-segments-for-aam-users.html?lang=en#other-integrations) | 视频 | 了解Audience Manager和实时CDP在细分和细分创建方面的差异。 |
 | 2021 年 3 月 3 日 | [了解Audience Manager用户实时CDP中的特点](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-traits-for-aam-users.html?lang=en#other-integrations) | 视频 | 了解Audience Manager的特点以及实时CDP中的等效功能。 |
-| 2021 年 3 月 3 日 | [课程简介 — Audience Manager高级技能](https://video.tv.adobe.com/v/331788/?quality=12&learn=on) | 视频 | 了解Audience Manager高级技能课程的后续内容。 |
 | 2021 年 3 月 3 日 | [了解面向Audience Manager用户的实时CDP中的第一方数据摄取](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-1pd-ingestion-for-aam-users.html?lang=en#other-integrations) | 视频 | 了解第一方离线数据引入实时客户数据平台（实时CDP）。 了解两个产品之间在数据摄取方面的一些主要差异，并说明在将进程移到实时CDP之前，Audience Manager Data Connector如何用作停止间隙。 |
 | 2021 年 3 月 1 日 | [通过提供Audience Marketplace，使您拥有的受众商业化](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/audience-marketplace/selling-data/commercialize-owned-audiences-on-marketplace.html?lang=en#audience-marketplace) | 视频 | 了解如何将您的数据设置为Audience Marketplace上的私有或公共数据馈送，使您成为第2方或第3方数据的数据提供商。 |
 | 2021 年 3 月 | [在Audience Manager中创建和管理激活](https://experienceleague.adobe.com/?recommended=AudienceManager-U-1-2020.4) | 课程 | 在本课程中，请了解有关激活受众的所有信息，例如，向目标合作伙伴发送受众数据，以便为最终用户自定义体验。 了解目标的基础知识、如何选择正确的目标，以及如何基于人而非cookie准备受众数据并将其发送到社交网络目标。 |
@@ -364,10 +363,10 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 2 月 23 日 | [可交付性 — 可交付性指标](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/metrics-overview.html) | Campaign Classic/Standard | 了解要监控的关键可交付性指标以及如何使用它们识别信誉问题。 |
-| 2021 年 2 月 23 日 | [可交付性 — 弹回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/Standard | 了解不同类型的弹回。 |
-| 2021 年 2 月 23 日 | [可交付性 — 投诉](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/Standard | 了解当用户指示电子邮件不需要或意外时会注册的投诉。 |
-| 2021 年 2 月 23 日 | [可交付性 — 垃圾邮件陷阱](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/Standard | 了解不同类型的弹回。 |
-| 2021 年 2 月 23 日 | [可交付性 — 膨胀和阻塞](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/Standard | 了解ISP为何将电子邮件放入批量文件夹或阻止它们。 |
+| 2021 年 2 月 23 日 | [可交付性 — 弹回次数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html) | Campaign Classic/Standard | 了解不同类型的退回. |
+| 2021 年 2 月 23 日 | [可交付性 — 投诉](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) | Campaign Classic/Standard | 了解当用户指示电子邮件为不需要或意外时登记的投诉。 |
+| 2021 年 2 月 23 日 | [可交付性 — 垃圾邮件陷阱](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/spam-traps.html) | Campaign Classic/Standard | 了解不同类型的退回. |
+| 2021 年 2 月 23 日 | [可交付性 — 膨胀和阻塞](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bulking-and-blocking.html) | Campaign Classic/Standard | 了解 ISP 将电子邮件消息放入批量文件夹或阻止它们的原因。 |
 | 2021 年 2 月 23 日 | [可交付性 — 过渡流程 — 基础架构](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html) | Campaign Classic/Standard | 了解正确构建电子邮件基础架构所需的内容。 |
 | 2021 年 2 月 23 日 | [可交付性 — 参与](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/engagement.html) | Campaign Classic/Standard | 了解不同类型的参与以及参与为何对交付能力至关重要。 |
 | 2021 年 2 月 23 日 | [可交付性 — 过渡流程：定位条件](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/targeting-criteria.html) | Campaign Classic/Standard | 了解如何在着手建立良好声誉，在与参与度较低的受众接触之前有效建立信任。 |
