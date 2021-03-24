@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
+source-git-commit: 17179b1ec08435b065a940850b52bb36183276f7
 workflow-type: tm+mt
-source-wordcount: '7549'
+source-wordcount: '7534'
 ht-degree: 30%
 
 ---
@@ -87,8 +87,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 3 月 | [监控仪表板](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/monitoring-dashboard.html) | 视频 | 了解如何使用“监视”仪表板监视和跟踪被摄入Adobe Experience Platform的数据。 此监视仪表板通过数据湖为源、数据流和数据流运行级别上的用户档案和Identity Services提供源数据处理的自上而下视图，并及时提供可操作的建议。 |
-| 2021 年 3 月 | [使用服务器服务器流连接器收录数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 视频 | 此视频演示如何将数据从云存储源实时流化到平台，并实时使用数据进行客户参与。 |
-| 2021 年 3 月 | [数据工程师的数据获取](https://video.tv.adobe.com/v/331971?quality=12&learn=on) | 视频 | 数据摄取课程概述。 |
+| 2021 年 3 月 | [使用源连接器流数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/sources/streaming-ingestion-source-connector.html) | 视频 | 此视频演示如何将数据从云存储源实时流化到平台，并实时使用数据进行客户参与。 |
 | 2021 年 3 月 5 日 | [数据工程师的数据获取](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-D-1-2020.1.dataingestion) | 课程 | 如何将来自多个源的数据引入Adobe Experience Platform等。 |
 | 2021 年 3 月 | [配置 Azure Blob 目标](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-the-azure-blob-destination.html?lang=zh-Hans#destinations) | 视频 | 了解如何演练在[!UICONTROL 实时客户存储平台]（实时CDP）中设置和配置和Azure Blob目标所需的步骤。 |
 | 2021 年 3 月 5 日 | [营销人员Offer decisioning入门](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-U-1-2020.1.offerdecisioning) | 课程 | 了解构建在Adobe Experience Platform顶部的[!UICONTROL Offer Decisioning]应用程序服务。 此课程面向希望通过向客户提供最佳优惠来提高收入、客户体验和忠诚度的营销人员。 |
