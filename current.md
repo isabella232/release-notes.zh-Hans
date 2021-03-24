@@ -5,10 +5,10 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 3763705cd932a91c26d5c0e6166758241969126d
+source-git-commit: 8c48b768b004298dd4b80da04db7c6b5e536a0e0
 workflow-type: tm+mt
-source-wordcount: '7139'
-ht-degree: 32%
+source-wordcount: '7549'
+ht-degree: 30%
 
 ---
 
@@ -23,9 +23,10 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 >
 >若要接收有关此页面更新的电子邮件通知，请订阅每月的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html)本页面将在当月内进行维护，其中可能包含在发布日期之前可能发生更改的内容。 请定期回访，了解Adobe企业产品和Experience League文档的更新。
 
-最新更新日期：**2021 年 3 月 22 日**
+最新更新日期：**2021 年 3 月 24 日**
 
-* [Adobe 系统状态](#status)（未更新）
+* [Digital Experience Blueprints](#blueprints) （新实施文档）
+* [Adobe 系统状态](#status)
 * [Experience CloudUI组件、服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
@@ -43,6 +44,23 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
+## ![图](/assets/adobe.png) 标Digital Experience Blueprint  {#blueprints}
+
+Digital Experience Blueprint是可重复实施的产品，用于解决战略和解决已建立的业务问题。 Blueprint可加快实现价值的速度，并提供快速的成功之路。
+
+| 发布日期 | 描述 |
+| -----------| ---------- |
+| [数字体验蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL Digital Blueprints]概述。 每个Blueprint都会优惠一系列伪像，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。 |
+| [Audience Activation Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | 这一受众优先激活使品牌能够连接多个渠道的客户互动，以提供可激活给所有渠道的集中受众。 |
+| [客户活动中心蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | 了解外部应用程序如何访问Adobe Experience Platform的[!UICONTROL 实时客户用户档案]。 |
+| [Customer Journey Analytics Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | 了解品牌如何统一来自各种交互渠道和来源的客户数据和行为，以创建所有客户交互的基于旅程的视图。 |
+| [用户档案扩充蓝图的自定义数据科学](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-science/overview.html) | 了解[!UICONTROL 数据科学工作区]如何使用Adobe Experience Platform中的数据来培训、部署和评分模型以提供机器学习洞察。 |
+| [数据准备和摄取蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-ingestion/overview.html) | 了解如何将源数据映射到[!UICONTROL 体验数据模型](XDM)模式。 此蓝图还包括对数据执行转换，包括日期格式、字段拆分、连接和转换，以及加入、合并和重新键入记录。 |
+| [企业数据探索与报告蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/data-exploration/overview.html) | Experience Platform的[!UICONTROL 查询服务]允许对数据执行SQL查询。 了解[!UICONTROL 数据科学工作区]如何实现对数据执行数据探索、数据科学和机器学习工作负载。 |
+| [多渠道消息编排蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/multi-channel-message-orchestration/overview.html) | 了解品牌如何通过电子邮件、短信和移动提醒等渠道主动与客户互动并与其通信。 |
+| [服务器端企业数据收集蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/server-side-enterprise-data-collection/overview.html) | 了解如何将通过Adobe Experience Platform Web和移动SDK收集的数据从Experience Platform [!UICONTROL Edge Network]转发到所需目标。 |
+| [Web和移动个性化蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/web-personalization/overview.html) | 了解如何在多个应用程序中使用受众细分来个性化和优化客户体验。 您可以使用客户行为、人口统计、忠诚度级别和先前交易个性化布局、行动号召和内容。 |
+
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
 [!UICONTROL Adobe 系统状态]提供关于 Adobe 云产品与服务中断和维护事件的详细信息、状态更新以及电子邮件通知。请访问 [status.adobe.com](https://status.adobe.com/) 查看。
@@ -51,7 +69,9 @@ Experience Cloud 解决方案和服务每月更新一次。本页是您查找[!D
 
 ## ![图](/assets/ec_appicon_24.png) 标Experience Cloud UI组件、服务和管理  {#ecloud}
 
-**统一搜索：** 统一搜索(目前可用于Experience Platform)现在支持针对Experience Platform用户的源和目标搜索。此功能允许您搜索区段、数据集、模式、源和目标。
+| 功能 | 描述 |
+| -----------| ---------- |
+| 统一搜索 | “统一搜索”(目前可用于Experience Platform)现在支持对Experience Platform用户的源和目标进行搜索。 此功能允许您搜索区段、数据集、模式、源和目标。 |
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
