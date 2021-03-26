@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 17179b1ec08435b065a940850b52bb36183276f7
+source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7556'
 ht-degree: 30%
 
 ---
@@ -151,7 +151,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 | Analysis Workspace:[!UICONTROL 组件] > [!UICONTROL 用户首选项] | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。<br>**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>报表设置：千位分隔符（现在称为&#x200B;_Number格式_）</li><li>报表设置：CSV分隔符</li><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板&#x200B;_使用此面板_&#x200B;选项开始新项目</li></ul> |
 | Analysis Workspace:[!UICONTROL 直方图智能桶预测] | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数量，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
 | [!UICONTROL 使用] LogAPI | 2021 年 3 月 25 日 | 这是一个新的v2.0 Analytics API，它允许以编程方式访问&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Log]** > **[!UICONTROL 使用和访问日志]**&#x200B;下提供的相同使用日志数据。 有关身份验证、模式和示例响应的其他详细信息，请[此处](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)提供。 |
-| 分析仪表板支持自定义日期范围 | 2021 年 3 月 25 日 | 记分卡创建者可以创建自定义日期范围并将其应用到移动记分卡项目。 创建者可以从熟悉的工作区和移动日期范围预设中进行选择，或创建自定义日期范围。 |
+| 分析仪表板支持自定义日期范围 | 2021 年 4 月 22 日 | 记分卡创建者可以创建自定义日期范围并将其应用到移动记分卡项目。 创建者可以从熟悉的工作区和移动日期范围预设中进行选择，或创建自定义日期范围。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html#mobapp). |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
@@ -160,7 +160,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 | 支持[!UICONTROL Adobe Analytics仪表板] | 2021 年 3 月 25 日 | [!UICONTROL Customer Journey Analytics] (CJA)现在支持Adobe Analytics  [!UICONTROL 仪表板 Scorecard ] Builder和移动应用程序。这使管理层和业务用户能够使用他们可能已经用于Adobe Analytics的同一应用程序，根据CJA数据查看其跨渠道KPI。 |
 | Analysis Workspace:**[!UICONTROL 组件]** > **[!UICONTROL 用户首选项]** | 2021 年 3 月 25 日 | 通过[!UICONTROL 组件] > [!UICONTROL 用户首选项]页面，您可以管理[!UICONTROL Analysis Workspace]设置及其相关的用户组件。 [!UICONTROL 用户] 首选项适用于所有新项目和面板。<br>**注意：** 以下设置已移至“用户首 [!UICONTROL 选] 项”页：<ul><li>工作区项目：帮助>启用提示</li><li>工作区项目：空白面板&#x200B;_使用此面板_&#x200B;选项开始新项目</li></ul> |
 | Analysis Workspace:[!UICONTROL 直方图智能桶预测] | 2021 年 3 月 25 日 | [!UICONTROL 直方图智] 能桶预测通过自动识别数据跨页的正确桶宽和数量，帮助处理高基数量度直方图。对于低基数量度，可视化的行为与之前相同。 |
-| 分析仪表板支持Customer Journey Analytics | 2021 年 3 月 25 日 | Analytics仪表板应用程序现在支持Customer Journey Analytics。 具有Customer Journey Analytics的用户可以在Analytics仪表板应用程序中从任何引入到Adobe Experience Platform的数据中显示KPI。 Customer Journey Analytics允许您组合多个数据源，以真正、多渠道视图客户体验。 现在，借助Analytics仪表板应用程序，您可以随时随地获得最新、全面的业务视图。 |
+| 分析仪表板支持Customer Journey Analytics | 2021 年 3 月 25 日 | Analytics仪表板应用程序现在支持Customer Journey Analytics。 具有Customer Journey Analytics的用户可以在Analytics仪表板应用程序中从任何引入到Adobe Experience Platform的数据中显示KPI。 Customer Journey Analytics允许您组合多个数据源，以真正、多渠道视图客户体验。 现在，借助Analytics仪表板应用程序，您可以随时随地获得最新、全面的业务视图。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/curator.html?lang=en#cja-dashboards). |
 
 ### Adobe Analytics 中的修复{#aa-fixes}
 
