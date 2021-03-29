@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: March 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 99f32ddc69aa869be32186b9b0746aae27a79113
+source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7773'
 ht-degree: 30%
 
 ---
@@ -428,15 +428,21 @@ Adobe Advertising Cloud 的发行说明。
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search} 
 
-上次更新日期：**2021 年 1 月 22 日，适用于 1 月 23 日版**
+上次更新时间：**2022年3月29日，3月27日版本**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| [!UICONTROL 搜索促销活动]<br>报表 | Advertising Cloud Search不再报告Microsoft® Advertising活动的新平均位置数据。 “平均排名”列从 1 月 23 日开始显示零 (0) 值。这是为 Microsoft 在 2021 年 1 月弃用平均排名数据做准备。<br>1 月 22 日前收集的平均排名数据仍可在报告中使用。 |
+| [!UICONTROL 搜索促销活动]<br>报表 | (Microsoft广告活动)现在，对Microsoft增强的按点击成本(eCPC)竞价策略提供竞价支持，该策略是Microsoft广告活动的默认竞价策略。 您现在可以为活动指定活动级别[!UICONTROL 竞价策略]。 选项包括[!UICONTROL 手动CPC]和[!UICONTROL 增强CPC]。 您可以将[!UICONTROL 增强的CPC]与搜索、现有动态搜索广告和购物活动一起使用。<br>将具有eCPC的活动添加到优化的Advertising Cloud产品组合时，Advertising Cloud将优化基本竞价，并在启用“自动调整活动预算限制”选项时优化活动预算。Microsoft应用所有竞价调整，并可能根据专有数据和洞察在用户查询时更改Advertising Cloud生成的竞价。<br>“竞 [!UICONTROL 价策] 略”自定义列可在Campaigns  视图和报表中找到。 |
+| [!UICONTROL 搜索促销活动]<br> [!UICONTROL 布尔克谢特] | (Microsoft广告活动)对于扩展的文本广告，现在支持可选的第三个标题（[!UICONTROL 广告标题3]）和可选的第二个说明（[!UICONTROL 说明2]）。 [!UICONTROL Ads]视图和[!UICONTROL Bulksheets]中提供支持。 |
+| [!UICONTROL 广告分析] | 提供两个新的[!UICONTROL 广告洞察]:<ul><li>[!UICONTROL 延迟的收入]:衡量组合的转化延迟（SEM点击和后续转化之间经过的时间），并显示因该滞后而在加权收入、ROI和模型准确性方面出现的任何差异。</li><li>[!UICONTROL 查询交叉匹配]:查找Google与多个关键字匹配的搜索查询实例，并提供指导流量的位置建议。</li></ul> |
 
-### Ad Cloud 教程和课程
+### Advertising Cloud 教程和课程
 
-更新日期：**2020 年 12 月 2 日**
+更新时间：**2021 年 2 月 23 日**
+
+| 教程 | 描述 |
+| -----------| ---------- |
+| [工作区和报表简介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hans) | 了解如何在 Adobe Analytics Analysis Workspace 中使用 Advertising Cloud 数据创建可视报告。 |
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
