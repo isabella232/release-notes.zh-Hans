@@ -4,14 +4,14 @@ description: 了解 Experience Cloud 产品和服务的最新发行说明、新�
 doc-type: release notes
 last-update: March 2021
 author: mfrei
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 153ab33f4f0e709d606efd5121b7e65bb1b9caf2
+source-git-commit: 6146981c558499f22dbdc56bc12e2ebce2d00439
 workflow-type: tm+mt
-source-wordcount: '7773'
-ht-degree: 89%
+source-wordcount: '7872'
+ht-degree: 88%
 
 ---
-
 
 # Adobe Experience Cloud 发行说明 - 2021 年 3 月
 
@@ -23,7 +23,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页，其中包含的内容在发布日期之前可能会变更。请定期回来查看 Adobe 企业版产品和 Experience League 文档是否有更新。
 
-最新更新日期：**2021 年 3 月 24 日**
+最新更新：**2021 年 4 月 6 日**
 
 * [Digital Experience Blueprints](#blueprints) （新实施文档）
 * [Adobe 系统状态](#status)
@@ -31,7 +31,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [分析](#analytics) **（2021年4月6日更新）** 和 [Customer Journey Analytics](#cust-journey)
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -50,7 +50,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 
 | 发布日期 | 描述 |
 | -----------| ---------- |
-| [数字体验 Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL Digital Blueprints]概述。 每个Blueprint都会优惠一系列伪像，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。 |
+| [数字体验蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/overview.html) | [!UICONTROL Digital Blueprints]概述。 每个Blueprint都会优惠一系列伪像，用于解释高价值业务问题、体系结构、实施步骤、技术考虑事项以及指向相关文档的链接。 |
 | [Audience Activation Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/audience-activation/overview.html) | 这一受众优先激活使品牌能够连接多个渠道的客户互动，以提供可激活给所有渠道的集中受众。 |
 | [客户活动中心蓝图](https://experienceleague.adobe.com/docs/blueprints-learn/architecture//customer-activity-hub/overview.html) | 了解外部应用程序如何访问Adobe Experience Platform的[!UICONTROL 实时客户用户档案]。 |
 | [Customer Journey Analytics Blueprint](https://experienceleague.adobe.com/docs/blueprints-learn/architecture/customer-journey-analytics/overview.html) | 了解品牌如何统一来自各种交互渠道和来源的客户数据和行为，以创建所有客户交互的基于旅程的视图。 |
@@ -140,7 +140,7 @@ Digital Experience Blueprint是可重复实施的产品，用于解决战略和�
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics 管理员的重要注意事项](#aa-notices)  **（2021年4月6日更新）**
 * [AppMeasurement](#appm)
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
@@ -181,6 +181,7 @@ AN-206099、AN-237460、AN-241803、AN-243735、AN-244081、AN-244615、AN-24468
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| 数据馈送和Data warehouseIP地址更改 | 2021年4月6日 | 从6月17日开始，数据馈送和Data warehouse投放系统将重新部署到我们的数据中心内，因此可能会导致对您可见的外部IP地址发生更改。  您应确认，您所控制的任何目标系统的任何防火墙中都包含来自报告和源的数据中心的所有IP CIDR块。 [以下是要放入防火墙允许列表的IP地址范围的完整列表](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
 | Analytics菜单即将更改的通知 | 2021 年 3 月 24 日 | 在2021年4月22日，我们将更新&#x200B;**[!UICONTROL Components]**、**[!UICONTROL Tools]**&#x200B;和&#x200B;**[!UICONTROL Admin]**&#x200B;下拉菜单，以获得一些性能提升。 所有这些页面仍将位于&#x200B;**[!UICONTROL 所有组件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理员]**&#x200B;链接下 — 它们将从下拉菜单中删除。 以下是将从下拉菜单中删除并放置在相应链接页面上的菜单项：<br><br> [!UICONTROL 组件]<ul><li>[!UICONTROL 书签]</li><li>[!UICONTROL 仪表板]</li><li>[!UICONTROL 目标]</li><li>[!UICONTROL 日历事件]</li><li>[!UICONTROL 计划报表]</li><li>[!UICONTROL 报表设置]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search&amp;Promote]</li></ul>[!UICONTROL 管理员]<ul><li>[!UICONTROL 用户管理]</li><li>[!UICONTROL 分类导入器]</li><li>[!UICONTROL 分类规则生成器]</li><li>[!UICONTROL 数据源]</li><li>[!UICONTROL Data Connectors]</li><li>[!UICONTROL 公司设置]</li><li>[!UICONTROL 日志]</li><li>[!UICONTROL Dynamic Tag Management]</li><li>[!UICONTROL 代码管理器]</li><li>[!UICONTROL 按IP排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | [!UICONTROL Same-as-SiteCatalyst VISTA Processing] = ON | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有报表包都将更新为将 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 设置为 ON。此更改影响 [!UICONTROL Data Warehouse] 报表，其中处理数据以匹配处理规则。如有疑问或需要说明，请联系 Adobe 客户关怀团队。 |
 | [!UICONTROL Full Processing] [!UICONTROL Data Sources] 生命周期结束 | 2021 年 3 月 10 日 | Adobe 未来打算弃用 [!UICONTROL Full Processing] [!UICONTROL Data Sources]。从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 导入此类型的数据。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html) |
