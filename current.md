@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: April 2021
 author: mfrei
 translation-type: tm+mt
-source-git-commit: 626651efb9a0ae76ac1b2681d178dcf6677e9d6b
+source-git-commit: a030b00ce834306ccf5da00e0c8757e3a2b4fa02
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5426'
 ht-degree: 43%
 
 ---
@@ -29,7 +29,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 最新更新：**2021 年 4 月 16 日**
 
-* [Adobe 系统状态](#status)（未更新）
+* [Adobe 系统状态](#status)
 * [Experience Cloud UI 组件、服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
