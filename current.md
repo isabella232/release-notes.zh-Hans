@@ -6,9 +6,9 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 75fc19a753d94ad35337ad43f98aaa0aff52bdc1
+source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
 workflow-type: tm+mt
-source-wordcount: '5384'
+source-wordcount: '5381'
 ht-degree: 43%
 
 ---
@@ -402,7 +402,7 @@ Adobe Advertising Cloud 的发行说明。
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign for Salesforce和Marketo发送提醒 — 功能视频](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 视频 | 在此视频教程中，您将学习如何在协议在一段时间后仍未签名时从Marketo发送电子邮件提醒。 此集成使用Adobe Sign for Salesforce、Marketo以及Marketo和Salesforce同步。 |
 
-### 新的Document Cloud课程和教程
+### Document Cloud教程
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
