@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: d5ac0d91d5d4aa4a7661c529b5a7d85e0cb65d14
+source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
 workflow-type: tm+mt
-source-wordcount: '5370'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 [!UICONTROL Adobe 系统状态]提供关于 Adobe 云产品与服务中断和维护事件的详细信息、状态更新以及电子邮件通知。请访问 [status.adobe.com](https://status.adobe.com/) 查看。
 
-有关最新版本信息，可在[Adobe系统状态 — 2020年5月21日](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/previous/2020/05212020.html#status)找到对Adobe系统状态的最新更新。
+有关最新版本信息，可在[Adobe系统状态 — 2020年5月21日](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=en)找到对Adobe系统状态的最新更新。
 
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud UI 组件、服务和管理{#ecloud}
 
@@ -59,8 +59,8 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 包括 Experience Platform 和 Experience Platform Launch 的发行更新信息。
 
-* [Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(已发布：**2021年4月21日**)
-* [Experience Platform Launch 发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)。(已发布：2021年2月18日)
+* [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html) (已发行： **2021年4月21日**)
+* [Experience Platform Launch发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html) (已发行：2021年2月18日)
 
 ### Experience Platform 教程和课程
 
@@ -77,11 +77,11 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 ### 最新产品版本
 
-在 [Journey Orchestration 发行说明](https://docs.adobe.com/content/help/zh-Hans/journeys/using/release-notes/release-notes.html)中详细了解最新的功能、改进和修复。
+在 [Journey Orchestration 发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en)中详细了解最新的功能、改进和修复。
 
 ### Journey Orchestration 的更多资源
 
-[文档](https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html) - [发行说明](https://docs.adobe.com/content/help/en/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html)
+[文档](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/platform-learn/tutorials/journey-orchestration/introduction.html?lang=en)
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -108,14 +108,14 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/zh-Hans/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
 | 分析仪表板:自定义日期范围 | 2021 年 4 月 22 日 | 允许Analytics移动应用程序的用户将自定义日期范围应用到其记分卡，以及当前可用的现成日期范围。 |
 | 工作区：以前的项目版本 | 2021年5月13日 | 允许您加载Workspace项目的先前版本，以撤消不需要的更改或只恢复到首选的先前版本。 |
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
-| 功能 | [正式发布](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html) - 目标日期 | 描述 |
+| 功能 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
 | 增强的CJA数据视图 | 2021 年 4 月 22 日 | 增强的视图极大地扩展了您从XDM模式字段创建指标和维度的灵活性。 您可以使用字符串字段作为量度。 您可以使用数字字段作为维度，使用不同的归因模型和回顾窗口从同一字段创建多个量度。 您还可以使量度和维度在数据视图之间兼容，从报告中隐藏组件并包含/排除值，使用分时段等。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html) |
 | 工作区：支持计划报表 | 2021 年 4 月 7 日 | CJA现在支持计划报告。 |
@@ -145,11 +145,11 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | 打开与SiteCatalyst相同的VISTA处理 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有报表包都将更新为将 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 设置为 ON。此更改影响 Data Warehouse 报表，其中处理数据以匹配处理规则。如有疑问或需要说明，请联系 客户关怀团队。 |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 在2021年3月25日，用于设置新的Reports &amp; Analytics仪表板或其他内容(作为您的Adobe Analytics登陆页)的选项被删除。 如果您之前将“报告与分析”页面设置为自定义登陆页，则该页面将一直运行，直到在[!UICONTROL 用户首选项]中修改登陆页。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。使用这些服务构建的任何当前集成功能当天即停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版OAuth帐户可迁移到[Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics集成帐户，该帐户可用于访问1.4 Analytics API和2.0 Analytics API。 |
-| Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 2021 年 8 月 1 日。[了解详情...](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/data-connectors-eol.html) |
+| Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 2021 年 8 月 1 日。[了解详情...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=en) |
 
 ### AppMeasurement {#appm}
 
-有关 AppMeasurement 版本的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/appmeasurement-updates.html)。
+有关 AppMeasurement 版本的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
 
 ### Analytics 的课程及教程 {#tutorials-analytics}
 
@@ -265,8 +265,8 @@ Experience Manager 的新增功能、修复和更新。Adobe建议具有内部�
 * [Experience Manager Brand Portal 发行说明](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hans)
 * [Experience Manager 桌面应用程序发行说明](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
 * [Experience Manager Dispatcher 发行说明](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=en)
-* [Adobe Primetime 发行说明](https://docs.adobe.com/content/help/zh-Hans/primetime/release-notes/home.html)
-* [Livefyre 发行说明](https://docs.adobe.com/content/help/zh-Hans/livefyre/using/release-notes/c-rn.html)
+* [Adobe Primetime 发行说明](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=en)
+* [Livefyre 发行说明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=en)
 
 ### Experience Manager 的新课程和教程
 
@@ -302,8 +302,8 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 详细了解最新发布的功能、改进和修复：
 
-* [Campaign Standard 发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-notes.html)
-* [Campaign Classic 发行说明](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Standard 发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
+* [Campaign Classic 发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en)
 
 ### Campaign 的新课程和教程
 
@@ -319,9 +319,9 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### 帮助资源
 
-* Adobe Campaign Standard：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/campaign-standard-home.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-standard-tutorials/overview.html) - [发行计划](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/release-notes/release-planning.html) - [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-standard/using/documentation-updates.html)
-* Adobe Campaign Classic：[帮助中心](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/campaign-classic-home.html) - [发行说明](https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html) - [操作方法视频](https://docs.adobe.com/content/help/zh-Hans/campaign-learn/campaign-classic-tutorials/overview.html)- [最新文档更新](https://docs.adobe.com/content/help/zh-Hans/campaign-classic/using/documentation-updates.html)
-* Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html) - 有关 [Campaign Standard](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html)/[Campaign Classic](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html) 的操作方法视频
+* Adobe Campaign Standard：[帮助中心](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=en) - [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=en) - [最新文档更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
+* Adobe Campaign Classic：[帮助中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-learn/campaign-classic-tutorials/overview.html?lang=en)- [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
+* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/control-panel/control-panel-overview.html?lang=en)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/administrating/control-panel-acc/control-panel-overview.html?lang=en) 的操作方法视频
 
 ## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
@@ -336,7 +336,7 @@ Adobe Advertising Cloud 的发行说明。
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 新建帮助 | （10 月 28 日版）旧版帮助页面已替换为更新页面，这些更新页面可从 DSP 主菜单的“帮助”链接获取，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans) 获取。 |
+| 新建帮助 | （10月28日版）旧版帮助已替换为更新的页面。 可从DSP主菜单的“帮助”链接获得帮助，并始终在[https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans)上获得帮助 |
 | Campaigns | （10 月 28 日版）以前的 Campaigns 测试版视图现在成为默认的 Campaigns 视图，可以实现更快的分析、简化的工作流和自定义视图。 |
 | 专用内容库 | （10 月 15 日版）如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版智能广告投放表单的简化版。要设置新的交易ID详细信息，请转至&#x200B;**[!UICONTROL Inventory]** > **[!UICONTROL Deals]** > **[!UICONTROL Create]**，然后单击&#x200B;**[!UICONTROL Deal ID Beta]**。 |
 | 投放预测 | （10 月 15 日版）在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
@@ -364,7 +364,7 @@ Adobe Advertising Cloud 的发行说明。
 
 ## ![图标](/assets/target.png)[!DNL Target] {#target}
 
-请参阅 [[!DNL Target]  发行说明](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html)了解最新发行信息。
+请参阅 [[!DNL Target]  发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)了解最新发行信息。
 
 ## ![图标](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -396,27 +396,27 @@ Adobe Advertising Cloud 的发行说明。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign for Salesforce和Marketo发送提醒 — 功能视频](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 视频 | 在此视频教程中，您将学习如何在一段时间后协议仍未签名时从Marketo发送电子邮件提醒。 此集成使用Adobe Sign for Salesforce、Marketo以及Marketo和Salesforce同步。 |
+| 2021 年 4 月 | [[Adobe Sign]使用Adobe Sign for Salesforce和Marketo发送提醒 — 功能视频](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html) | 视频 | 了解如何在协议在一段时间后仍未签名时从Marketo发送电子邮件提醒。 此集成使用Adobe Sign for Salesforce、Marketo以及Marketo和Salesforce同步。 |
 
 ### Document Cloud教程
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 4 月 | [控制PDF在线体验并收集分析](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html) | 文章 | 贵组织是否会在您的网站上发布PDF? 了解如何使用Adobe PDF Embed API控制外观、启用协作并收集有关用户与PDF交互情况的分析，包括在页面和搜索上花费的时间。 |
-| 2021 年 4 月 | [使用Java中的Adobe 文档 Services API管理金融工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 文章 | 了解如何使用Adobe 文档 Services API for Java Spring Boot应用程序并构建一个模型 — 视图 — 控制器(MVC)应用程序，该应用程序从PDF文档提取内容，将其转换为其他数据格式（如Excel），合并多个PDF，以及密码保护资源。 |
+| 2021 年 4 月 | [使用Java™中的Adobe 文档 Services API管理金融工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 文章 | 了解如何使用Adobe 文档 Services API进行Java™ Spring Boot应用程序。 构建一个模型 — 视图 — 控制器(MVC)应用程序，它从PDF文档提取内容，将其转换为其他数据格式（如Excel），组合多个PDF，并使用密码保护资源。 |
 | 2021 年 4 月 | [HR文档工作流，使用Java™中的Adobe 文档 Services API](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html) | 教程 | 许多企业需要有关新员工的文件，例如针对在家工作的员工的工作协议。 传统上，企业以难以管理和存储的形式管理这些文档。 切换到电子文档时，PDF文件是理想之选，因为它们比其它文件类型更安全、更不可修改。 此外，它们还支持数字签名。 |
 | 2021 年 4 月 | [协议工作流与Node.js中的Adobe文档服务API](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/AgreementWorkflowsNodejs.html) | 教程 | 许多业务应用程序和流程需要文档，如建议书和协议。 PDF文档可确保文件更安全，更不易修改。 他们还提供数字签名支持，使您的客户能够快速、轻松地完成文档。 Adobe 文档 Services API可轻松将PDF功能并入您的Web应用程序中。 |
-| 2021 年 4 月 | [设置条件内容](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | 视频 | 在此视频中，了解如何使用Adobe文档生成标签在Microsoft Word模板中轻松设置部分，以使用Adobe文档生成API根据数据动态包含或排除文档的部分。 |
-| 2021 年 4 月 | [[文档服务]设置数值计算标记 — 功能视频](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | 视频 | 在此视频中，您将学习如何使用Adobe文档生成标签在Microsoft Word模板中轻松设置数值计算标签，以便使用Adobe文档生成API计算数据值的聚合或算术。 |
-| 2021 年 4 月 | [添加表和列表标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | 视频 | 在此视频中，您将学习如何使用Adobe列表生成标签轻松地向Microsoft Word模板添加表和列表标签，以使用Adobe文档生成API根据数据动态添加表或文档行。 |
-| 2021 年 4 月 | [添加图像标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | 视频 | 在此视频中，您将学习如何使用Adobe文档生成标签将图像轻松添加到Microsoft Word模板中，以使用Adobe文档生成API将图像动态推送到文档中。 |
-| 2021 年 4 月 | [添加文本标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | 视频 | 在此视频中，您将学习如何使用Adobe文档生成标记轻松地向Microsoft Word模板添加标记，以与Adobe文档生成API一起使用。 |
-| 2021 年 4 月 | [Adobe文档生成Tagger概述](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | 视频 | 在此视频中，您将简要学习如何使用Adobe文档生成标记标记Word模板，以与Adobe文档生成API一起使用。 |
+| 2021 年 4 月 | [设置条件内容](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html) | 视频 | 在此视频中，了解如何使用Adobe文档生成标签在Microsoft® Word模板中轻松设置部分，以使用Adobe文档生成API根据数据动态包含或排除文档的部分。 |
+| 2021 年 4 月 | [[文档服务]设置数值计算标记 — 功能视频](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html) | 视频 | 了解如何使用Adobe文档生成标签在Microsoft® Word模板中轻松设置数值计算标签，以便使用Adobe文档生成API计算数据值的聚合或算术。 |
+| 2021 年 4 月 | [添加表和列表标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html) | 视频 | 了解如何使用Adobe文档生成标签将表和列表标签轻松添加到Microsoft® Word模板，以使用Adobe文档生成API根据数据动态添加表或列表行。 |
+| 2021 年 4 月 | [添加图像标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html) | 视频 | 了解如何使用Adobe文档生成标签将图像标签轻松添加到Microsoft® Word模板，以便使用Adobe文档生成API将图像动态推送到文档中。 |
+| 2021 年 4 月 | [添加文本标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html) | 视频 | 了解如何使用Adobe文档生成标记轻松地向Microsoft® Word模板添加标记，以便与Adobe文档生成API一起使用。 |
+| 2021 年 4 月 | [Adobe文档生成Tagger概述](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html) | 视频 | 了解如何使用Adobe文档生成标记标记[!DNL Word]模板，以便与Adobe文档生成API一起使用。 |
 
 有关 Document Cloud 的帮助，请参阅：
 
-* [Adobe Acrobat 学习中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html)
-* [Adobe Sign 学习中心](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html)
+* [Adobe Acrobat](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/acrobat-learning/overview.html)
+* [Adobe Sign](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html)
 * [Document Cloud 学习与支持](https://helpx.adobe.com/cn/support/document-cloud.html)
 
 <!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
