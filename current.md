@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 7b542cb233b84542e0058ac2f4c39b0349e3fb73
+source-git-commit: d5ac0d91d5d4aa4a7661c529b5a7d85e0cb65d14
 workflow-type: tm+mt
-source-wordcount: '5381'
-ht-degree: 43%
+source-wordcount: '5370'
+ht-degree: 42%
 
 ---
 
@@ -19,15 +19,11 @@ ht-degree: 43%
 
 Experience Cloud 解决方案和服务每月更新一次。在此页面上可集中查找 [!DNL Experience Cloud] 和 Experience Platform 的最新版本更新、文档和教程。还可查找 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文档。
 
->[!IMPORTANT]
->
->本页包含预发行内容，在发行日期之前可能会发生更改。
-
 >[!NOTE]
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新：**2021 年 4 月 16 日**
+最新更新：**2021 年 4 月 22 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud UI 组件、服务和管理](#ecloud)
@@ -63,7 +59,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 包括 Experience Platform 和 Experience Platform Launch 的发行更新信息。
 
-* [Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(已发布：（2021年3月31日）
+* [Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html)。(已发布：**2021年4月21日**)
 * [Experience Platform Launch 发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html)。(已发布：2021年2月18日)
 
 ### Experience Platform 教程和课程
@@ -143,9 +139,9 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | 完全处理数据源生命周期终止 | 2021 年 4 月 12 日 | Adobe计划于2021年7月31日弃用完全处理数据源。 从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
-| [!UICONTROL Report Builder] 的登录更新 | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登录更新删除了对传统技术的依赖性，并使登录过程与Experience Cloud保持一致。 Experience Cloud 使用 Enterprise ID（电子邮件和密码）。要确保对 [!UICONTROL Report Builder] 的访问不会出现中断，请在 2021 年 7 月 22 日之前将 [!UICONTROL Report Builder] 插件更新到 5.6.47 版本或更新的版本。Report Builder 5.6.47及更高版本仅支持Experience Cloud登录，不支持单点登录。 |
-| Data Feed and Data Warehouse IP 地址更改 | 2021 年 4 月 6 日 | 从 6 月 17 日开始，Data Feeds and Data Warehouse 传递系统将在我们的数据中心重新进行布置，因此可能会导致您看到的外部 IP 地址发生更改。您应确认，作为您的报告和馈送来源的数据中心的所有 IP CIDR 区块均在您控制的任何目标系统的任何防火墙内。[此处为要放入到您的防火墙允许列表中的 IP 地址范围的完全列表](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
-| 即将推出的 Analytics 菜单更改的通知 | 2021 年 3 月 24 日 | 在 2021 年 4 月 22 日，我们将更新&#x200B;**[!UICONTROL 组件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理员]**&#x200B;下拉菜单，以实现一定程度的性能提升。所有这些页面仍将位于&#x200B;**[!UICONTROL 所有组件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理员]**&#x200B;链接下 — 将从下拉菜单中删除。 以下是将从下拉菜单中删除并放在其相应链接页面上的菜单项：<br><br> [!UICONTROL 组件]<ul><li>[!UICONTROL 书签]</li><li>[!UICONTROL 仪表板]</li><li>[!UICONTROL 目标]</li><li>[!UICONTROL 日历活动]</li><li>[!UICONTROL 计划报告]</li><li>[!UICONTROL 报表设置]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理员]<ul><li>[!UICONTROL User Management]</li><li>[!UICONTROL 分类导入器]</li><li>[!UICONTROL 分类规则生成器]</li><li>[!UICONTROL 数据源]</li><li>[!UICONTROL 数据连接器]</li><li>[!UICONTROL 公司设置]</li><li>[!UICONTROL 日志]</li><li>[!UICONTROL 动态标记管理]</li><li>[!UICONTROL 代码管理器]</li><li>[!UICONTROL 通过 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
+| 登录到[!UICONTROL Report Builder]的更新 | 2021 年 4 月 9 日 | 2021年1月14日，[!UICONTROL Report Builder]登录更新删除了对传统技术的依赖性，并使登录过程与Experience Cloud保持一致。 Experience Cloud 使用 Enterprise ID（电子邮件和密码）。要确保对 [!UICONTROL Report Builder] 的访问不会出现中断，请在 2021 年 7 月 22 日之前将 [!UICONTROL Report Builder] 插件更新到 5.6.47 版本或更新的版本。Report Builder 5.6.47及更高版本仅支持Experience Cloud登录，不支持单点登录。 |
+| Data Feed and Data Warehouse IP 地址更改 | 2021 年 4 月 6 日 | 从6月17日开始，Adobe的数据馈送和Data warehouse投放系统将重新定位到的数据中心内，因此可能会导致外部IP地址发生更改。 Adobe建议您确认您所控制的目标系统的防火墙中存在来自报告和源的数据中心的所有IP CIDR块。 [此处为要放入到您的防火墙允许列表中的 IP 地址范围的完全列表](https://https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html#data-collection-and-ftp-ip-address-blocks)。 |
+| 即将推出的 Analytics 菜单更改的通知 | 2021 年 3 月 24 日 | 2021年4月22日，Adobe将更新&#x200B;**[!UICONTROL 组件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理员]**&#x200B;下拉菜单，以获得一些性能提升。 所有这些页面仍将位于&#x200B;**[!UICONTROL 所有组件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理员]**&#x200B;链接下 — 将从下拉菜单中删除。 以下是将从下拉菜单中删除并放在其相应链接页面上的菜单项：<br><br> [!UICONTROL 组件]<ul><li>[!UICONTROL 书签]</li><li>[!UICONTROL 仪表板]</li><li>[!UICONTROL 目标]</li><li>[!UICONTROL 日历活动]</li><li>[!UICONTROL 计划报告]</li><li>[!UICONTROL 报表设置]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理员]<ul><li>[!UICONTROL User Management]</li><li>[!UICONTROL 分类导入器]</li><li>[!UICONTROL 分类规则生成器]</li><li>[!UICONTROL 数据源]</li><li>[!UICONTROL 数据连接器]</li><li>[!UICONTROL 公司设置]</li><li>[!UICONTROL 日志]</li><li>[!UICONTROL 动态标记管理]</li><li>[!UICONTROL 代码管理器]</li><li>[!UICONTROL 通过 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | 打开与SiteCatalyst相同的VISTA处理 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有报表包都将更新为将 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 设置为 ON。此更改影响 Data Warehouse 报表，其中处理数据以匹配处理规则。如有疑问或需要说明，请联系 客户关怀团队。 |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 在2021年3月25日，用于设置新的Reports &amp; Analytics仪表板或其他内容(作为您的Adobe Analytics登陆页)的选项被删除。 如果您之前将“报告与分析”页面设置为自定义登陆页，则该页面将一直运行，直到在[!UICONTROL 用户首选项]中修改登陆页。 |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。使用这些服务构建的任何当前集成功能当天即停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版OAuth帐户可迁移到[Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics集成帐户，该帐户可用于访问1.4 Analytics API和2.0 Analytics API。 |
@@ -161,11 +157,11 @@ AN-248451;AN-250461;AN-251157; AN-251481;AN-251756;AN-252604;AN-252822;AN-252941
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [Adobe Analytics中的用户首选项](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html) | 视频 | 通过“组件 — 用户”首选项页面，您可以在用户级别管理Analysis Workspace及其相关组件的设置。 例如，您可以选择默认的报表包和调色板。 用户首选项适用于所有新项目和新面板。 |
-| 2021 年 4 月 | [使用Workspace中的组件下拉](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html) | 视频 | 组件下拉框允许您从一列表兼容组件中进行选择，以构建分析。 如果您找不到所需内容，还可以直接从下拉列表中创建新组件。 如果您有更高级的用例，这些空间也继续作为放置区域工作。 |
+| 2021 年 4 月 | [Adobe Analytics 中的用户首选项](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html) | 视频 | 通过“组件 — 用户”首选项页面，您可以在用户级别管理Analysis Workspace及其相关组件的设置。 例如，您可以选择默认的报表包和调色板。 用户首选项适用于所有新项目和新面板。 |
+| 2021 年 4 月 | [使用 Workspace 中的“组件”下拉菜单](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html) | 视频 | 组件下拉框允许您从一列表兼容组件中进行选择，以构建分析。 如果您找不到所需内容，还可以直接从下拉列表创建组件。 如果您有更高级的用例，这些空间也继续作为放置区域工作。 |
 | 2021 年 4 月 | [将数据纳入可视化](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/getting-data-into-visualizations.html?lang=en#analysis-workspace) | 视频 | 在Analysis Workspace中添加可视化时，根据可视化类型，有几种不同的方法可向它们添加数据。 此视频演示了这些方法。选项 |
-| 2021 年 4 月 | [将自定义日期范围应用于Mobile Scorecard项目](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/apply-custom-date-ranges-to-mobile-scorecard-projects.html) | 视频 | 此视频显示了在为移动设备设置分析项目时如何管理日期范围的不同选项，包括选择要显示的现成范围，以及创建您自己的自定义日期范围。选项 |
-| 2021 年 4 月 | [配置常规帐户设置](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings.html) | 视频 | 在设置Adobe Analytics时，配置这些设置会影响数据的收集和存储方式。 此视频超出了一些常规设置。 实施后，您还可以更改这些设置，因为使数据更正确永远不会太迟。 |
+| 2021 年 4 月 | [将自定义日期范围应用于Mobile Scorecard项目](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/apply-custom-date-ranges-to-mobile-scorecard-projects.html) | 视频 | 此视频显示了在为移动设备设置分析项目时如何管理日期范围的不同选项。 此设置包括选择要显示的现成范围，以及如何创建您自己的自定义日期范围。 |
+| 2021 年 4 月 | [配置常规帐户设置](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings.html) | 视频 | 在设置Adobe Analytics时，配置这些设置会影响数据的收集和存储方式。 此视频超出了一些常规设置。 您还可以在实施后更改这些设置，因为使数据更正从不为时过晚。 |
 
 ### Analytics 帮助资源
 
@@ -190,7 +186,7 @@ Audience Manager 中的修复和改进。
 | 2021 年 4 月 | [了解Audience Manager用户实时CDP中的目标](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=en) | 视频 | 当您从Audience Manager迁移到[!UICONTROL 实时客户数据平台]（实时CDP）时，必须了解目标，以便您知道如何将受众细分激活到目标合作伙伴。 此视频讨论了不同的目标类型以及它们是实时CDP的位置。 |
 | 2021 年 4 月 | [帮助 Audience Manager 用户了解 Real-time CDP 中的数据治理](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=en#other-integrations) | 视频 | 此视频将引导Audience Manager用户了解[!UICONTROL 实时客户数据平台]中的数据管理功能，并将它与Audience Manager中提供的功能进行比较。 它讨论[!UICONTROL 数据使用和标签强制](DULE)框架以及在平台中可以应用该框架的位置。 |
 | 2021 年 4 月 | [品牌与消费者 — 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=en#industry) | 文章 | 如今，营销人员沉浸在一堆与身份实践相关的信息中。 根据Adobe和Advanis最近的研究，只有37%的营销专业人士表示，他们为一个没有库克的未来做好了准备。 在这场网络研讨会中，Adobe 剖析广告商和发布者对于未来无 Cookie 场景的理解和准备程度、对其用例的影响以及他们对更广泛的生态系统有何看法。 |
-| 2021 年 4 月 | [负责任客户数据管理的10个考虑事项 — 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | 文章 | 多变的市场力量和完全不同的消费者隐私要求可能会为数字营销人员呈现令人望而生畏的情景。 为了让活动站在法规的正确一边，营销团队需要IT对手拥有一个简化的流程，以便将来能够抵御数据治理流程的冲击。 这包括最理想的情况，它使每个人都能够遵守并执行负责任地使用消费者数据的规则。 听取Adobe和[!DNL Scotiabank] [!DNL Digital]的意见，了解负责任数据管理的主要注意事项。 |
+| 2021 年 4 月 | [负责任客户数据管理的10个考虑事项 — 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=en#industry) | 文章 | 多变的市场力量和完全不同的消费者隐私要求可能会为数字营销人员呈现令人望而生畏的情景。 为了让活动站在法规的正确一边，营销团队需要IT对手拥有一个简化的流程，以便将来能够抵御数据治理流程的冲击。 此过程应使每个人都能够遵守并执行消费者数据负责任使用的规则。 听取Adobe和[!DNL Scotiabank] [!DNL Digital]的意见，了解负责任数据管理的主要注意事项。 |
 | 2021 年 4 月 | [数据管理的未来和不断变化的环境-事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html?lang=en#industry) | 文章 | 随着市场力量给我们的数字格局带来变化，企业需要适应有关数据治理、身份识别以及如何用有意义的内容吸引潜在客户和假名访客的新现实。 |
 
 ## ![图标](/assets/aem.png) Adobe Experience Manager {#aem}
@@ -281,10 +277,10 @@ Experience Manager 的新增功能、修复和更新。Adobe建议具有内部�
 | 2021 年 4 月 | [创建第一个 [!UICONTROL 自适应表单]](https://video.tv.adobe.com/v/332571) | 视频 | 了解如何创建第一个自适应表单。 |
 | 2021 年 4 月 | [在按钮的单击事件上测试在Salesforce中创建潜在客户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-click-event.html?lang=en#forms) | 视频 | 通过在按钮的单击POST上调用表单数据模型的事件操作，创建潜在客户对象。 |
 | 2021 年 4 月 | [将 [!UICONTROL AEM ] Forms与 [!DNL Salesforce]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/introduction.html?lang=en#forms) | 视频 | Forms + Salesforce集成课程的介绍视频。 |
-| 2021 年 4 月 | [已弃用的有序属性索引](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/dopi.html) | 文章 | 旧项目具有不支持的“有序属性”索引类型。 由于当前限制，建议仅对lucene类型的索引支持将[!UICONTROL AEM作为Cloud Service]进行索引管理。 |
+| 2021 年 4 月 | [已弃用的有序属性索引](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/dopi.html) | 文章 | 旧项目具有不支持的“有序属性”索引类型。 如当前限制所示，仅对&#x200B;_lucene_&#x200B;类型的索引支持将[!UICONTROL AEM作为Cloud Service]的索引管理。 |
 | 2021 年 4 月 | [测试创建潜在客户表 [!DNL Salesforce] 单提交](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-submitting-form.html?lang=en#forms) | 视频 | 根据表单数据模型创建自适应表单。 在提交表单时，验证是否在Salesforce数据库中创建了Lead对象。 |
 | 2021 年 4 月 | [INST:第三方安装的](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/inst.html) | 参考 | 传统项目依赖于第三方包或连接器，并将其作为项目的一部分或通过包管理器进行安装。 |
-| 2021 年 4 月 | [[!UICONTROL URC：运行模式]](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/urc.html) | 参考 | 展示示例，客户如何使[!UICONTROL runmodes]配置与AEM云服务兼容，因为现在只有作者和发布是[!UICONTROL runmodes]。 |
+| 2021 年 4 月 | [[!UICONTROL 不支持的运行模式配置]](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/urc.html) | 参考 | 如何使[!UICONTROL runmode]配置与作为Cloud Service的Experience Manager兼容，因为现在只有“作者”和“发布”是[!UICONTROL runmodes]。 |
 
 ### Experience Manager 的其他帮助资源
 
