@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 1f88b532306f86768a9981d6bba06a21050affe7
+source-git-commit: 070e4ff0a9c3ab6f1d16680edc6a2aa787be8f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5499'
+ht-degree: 36%
 
 ---
 
@@ -274,6 +274,10 @@ Experience Manager 的新增功能、修复和更新。Adobe建议具有内部�
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 4 月 | [SPA Editor和远程SPA — 概述 — 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html) | 教程 | 了解如何更新在AEM上下文外运行的远程SPA或SPA，以消费和交付在AEM中创作的内容。 本教程构建于WKND GraphQL应用程序(一个通过AEM GraphQL API消费AEM内容片段内容的React应用程序)上。 |
+| 2021 年 4 月 | [GraphQL建模基础](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html) | 视频 | 了解如何定义和使用Adobe Experience Manager(AEM)中的内容片段以与GraphQL一起使用。 |
+| 2021 年 4 月 | [GraphQL的高级建模](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/advanced-modeling.html) | 视频 | 了解如何在Adobe Experience Manager(AEM)中创建内容片段模型之间的关系，以及如何在GraphQL查询中利用这些关系。 |
+| 2021 年 4 月 | [创建GraphQL查询](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/creating-graphql-queries.html) | 视频 | 了解如何创建GraphQL查询以从Adobe Experience Manager(AEM)返回内容，以及如何使用GraphiQL工具快速测试、优化和调试查询。 |
 | 2021 年 4 月 | [创建第一个 [!UICONTROL 自适应表单]](https://video.tv.adobe.com/v/332571) | 视频 | 了解如何创建第一个自适应表单。 |
 | 2021 年 4 月 | [在按钮的单击事件上测试在Salesforce中创建潜在客户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-click-event.html?lang=en#forms) | 视频 | 通过在按钮的单击POST上调用表单数据模型的事件操作，创建潜在客户对象。 |
 | 2021 年 4 月 | [将 [!UICONTROL AEM ] Forms与 [!DNL Salesforce]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/introduction.html?lang=en#forms) | 视频 | Forms + Salesforce集成课程的介绍视频。 |
