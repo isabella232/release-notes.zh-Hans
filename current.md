@@ -6,10 +6,10 @@ last-update: April 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 translation-type: tm+mt
-source-git-commit: 0bea009a45c2c507b900bb8aea93a02d59c11c98
+source-git-commit: 88813a1c8a3510b84057dff39603fb30e252c64b
 workflow-type: tm+mt
-source-wordcount: '5498'
-ht-degree: 82%
+source-wordcount: '5690'
+ht-degree: 80%
 
 ---
 
@@ -157,6 +157,7 @@ AN-248451、AN-250461、AN-251157、 AN-251481、AN-251756、AN-252604、AN-2528
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 4 月 | [Customer Journey Analytics中数据视图的基本配置](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/basic-configuration-for-data-views.html) | 视频 | 在创建[!UICONTROL Connection]以Customer Journey AnalyticsAdobe Experience Platform中的数据集后，您需要为该[!UICONTROL Connection]创建[!UICONTROL 视图]，以便在平台上的Analysis Workspace中使用数据。 此视频将指导您完成[!UICONTROL 数据视图]的基本配置。 |
 | 2021 年 4 月 | [Adobe Analytics 中的用户首选项](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html) | 视频 | 通过“组件”-“用户首选项”页面，可在用户级别管理 Analysis Workspace 的设置及其相关的组件。例如，您可以选择默认的报告包和调色板。“用户首选项”适用于所有新项目和新面板。 |
 | 2021 年 4 月 | [使用 Workspace 中的“组件”下拉菜单](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html) | 视频 | “组件”下拉菜单允许您从兼容组件的列表中进行选择以构建分析。如果您找不到所需内容，还可以直接从下拉列表创建组件。 如果您有更高级的用例，这些空间也继续作为放置区域工作。 |
 | 2021 年 4 月 | [将数据纳入可视化](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/getting-data-into-visualizations.html?lang=zh-Hans#analysis-workspace) | 视频 | 在 Analysis Workspace 中添加可视化时，有几种不同的方法可以向其中添加数据，具体取决于可视化类型。该视频演示了这些方法。选项 |
@@ -274,6 +275,8 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 4 月 | [正在安装32个但用于AEM Forms Linux安装的库](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/installing-aem-form-on-linux.html) | 文章 | 了解如何为AEM Forms安装32位库以在Linux安装中工作。 |
+| 2021 年 4 月 | [创建Adobe SignCloud Services配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-adobe-sign-cloud-configuration.html) | 文章 | 创建Adobe Sign云服务配置，以使用Adobe Sign API应用程序与Adobe Sign集成。 |
 | 2021 年 4 月 | [SPA Editor和远程SPA — 概述 — 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html) | 教程 | 了解如何更新在AEM上下文外运行的远程SPA或SPA，以消费和交付在AEM中创作的内容。 本教程构建于WKND GraphQL应用程序(一个通过AEM GraphQL API消费AEM内容片段内容的React应用程序)上。 |
 | 2021 年 4 月 | [GraphQL建模基础](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html) | 视频 | 了解如何定义和使用Adobe Experience Manager(AEM)中的内容片段以与GraphQL一起使用。 |
 | 2021 年 4 月 | [GraphQL的高级建模](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/advanced-modeling.html) | 视频 | 了解如何在Adobe Experience Manager(AEM)中创建内容片段模型之间的关系，以及如何在GraphQL查询中利用这些关系。 |
@@ -406,6 +409,7 @@ Adobe Advertising Cloud 的发行说明。
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
+| 2021 年 4 月 | [在 Java 中使用 Adobe Document Services API 来管理财务文档工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 教程 | 了解如何使用[!DNL Java Spring Boot]应用程序的Adobe 文档 Services API并构建一个模型 — 视图 — 控制器(MVC)应用程序，该应用程序从PDF文档提取内容，将其转换为其他数据格式（如Excel），合并多个PDF，以及密码保护资源。 |
 | 2021 年 4 月 | [控制您的 PDF 在线体验并收集分析数据](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html) | 文章 | 您的组织是否在网站上发布了 PDF？了解如何使用 Adobe PDF Embed API 控制外观、启用协作以及收集有关用户如何与 PDF 进行交互的分析数据，包括花费在页面和搜索上的时间。 |
 | 2021 年 4 月 | [在 Java 中使用 Adobe Document Services API 来管理财务文档工作流™](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 文章 | 了解如何使用Adobe 文档 Services API进行Java™ Spring Boot应用程序。构建一个模型 — 视图 — 控制器(MVC)应用程序，它从PDF文档提取内容，将其转换为其他数据格式（如Excel），组合多个PDF，并使用密码保护资源。 |
 | 2021 年 4 月 | [在 Java™ 中使用 Adobe Document Services API 来管理人力资源文档工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html) | 教程 | 许多企业需要围绕新员工创建文档，例如针对在家工作的员工的工作场所协议。传统上，企业以实物的形式管理这些文档，存在管理和存储方面的困难。当切换到电子文档时，PDF 文件是一种理想的选择，因为与其他文件类型相比，它们更安全且不易修改。此外，它们还支持数字签名。 |
