@@ -5,7 +5,7 @@ doc-type: release notes
 last-update: March 2020
 author: mfrei
 translation-type: tm+mt
-source-git-commit: f981d08b9a7200776706028b0408bd94a1e5e246
+source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
 workflow-type: tm+mt
 source-wordcount: '1346'
 ht-degree: 92%
@@ -161,7 +161,7 @@ Adobe Analytics 中的新增功能和修复：
 * 修复
 * 修复了“未定义”错误地
 
-请参阅 [AppMeasurement 版本历史](https://experienceleague.corp.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)，了解下列平台上 AppMeasurement 的版本更新历史：
+请参阅 [AppMeasurement 版本历史](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)，了解下列平台上 AppMeasurement 的版本更新历史：
 
 * [!DNL JavaScript]
 * [!DNL iOS]
