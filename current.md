@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 008fc1b3d5d5b0558075bdb767f2c280c8e3ae79
+source-git-commit: b77d72d109886a82aaebfb5f8d4cf7d6c529ae5e
 workflow-type: tm+mt
-source-wordcount: '5388'
+source-wordcount: '5384'
 ht-degree: 44%
 
 ---
@@ -93,8 +93,8 @@ Experience Cloud应用程序和服务会按月更新。 本页是您查找[!DNL 
 
 发行日期：**2021 年 5 月 20 日**
 
-* [Adobe Analytics 的新增功能](#aa-features)（2021 年 5 月 11 日更新）
-* [Customer Journey Analytics 的新增功能](#cust-journey)（2021 年 5 月 11 日更新）
+* [Adobe Analytics 中的新增功能](#aa-features)
+* [Customer Journey Analytics 的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
 * [Analytics 的课程及教程](#tutorials-analytics)
@@ -131,7 +131,7 @@ AN-240821;AN-243625;AN-243958;AN-248728;AN-249877;AN-250151;AN-251273;AN-251334;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 浏览器用户代理反映Mac OS的操作系统版本不正确 | 2021 年 5 月 19 日 | 当前，所有主要浏览器都会将Mac OS X 11及更高版本的用户错误地报告为使用Mac OS 10，这是在浏览器的用户代理字符串中记录的。 这会影响Adobe Analytics报表，因为它使用用户代理来确定设备信息（如操作系统）。 这种不准确性显然是为了防止某些网站出现兼容性问题。 请参阅此[Bugzilla票证](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)以获取参考。 目前尚不清楚，这种情况何时或是否会得到纠正。<br>某些浏览器最初正确记录了Mac OS 11，因此可能会有一些与此值匹配的流量。但是，由于报告不准确，因此对操作系统Mac OS 11的筛选将不会有用。<br>这很重要，因为从Mac OS 11上的Safari开始，Apple更新了ITP Cookie到期限制以应用于CNAME实施(请参阅 [WebKit博客文章](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/))。<br>在此更新之前，这些限制仅适用于通过JavaScript设置的“客户端”Cookie。这种不准确性将使得很难评估使用OS 11的流量，并因此受ITP更改的影响。 您可以在此处](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies)了解有关Cookie和Adobe Analytics的更多信息。[ |
+| 浏览器用户代理反映Mac OS的操作系统版本不正确 | 2021 年 5 月 19 日 | 当前，所有主要浏览器都会将Mac OS X 11及更高版本的用户错误地报告为使用Mac OS 10，这是在浏览器的用户代理字符串中记录的。 这会影响Adobe Analytics报表，因为它使用用户代理来确定设备信息（如操作系统）。 这种不准确性显然是为了防止某些网站出现兼容性问题。 请参阅此[Bugzilla票证](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)以获取参考。 目前尚不清楚，这种情况何时或是否会得到纠正。<br>某些浏览器最初正确记录了Mac OS 11，因此可能存在一些与此值匹配的流量。但是，由于报告不准确，因此对操作系统Mac OS 11的筛选将不会有用。<br>这很重要，因为从Mac OS 11上的Safari开始，Apple更新了ITP Cookie到期限制以应用于CNAME实施(请参阅 [WebKit博客文章](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/))。<br>在此更新之前，这些限制仅适用于通过JavaScript设置的“客户端”Cookie。这种不准确性将使得很难评估使用OS 11的流量，并因此受ITP更改的影响。 您可以在此处](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies)了解有关Cookie和Adobe Analytics的更多信息。[ |
 | 三种 Analytics API 服务的生命周期终止 | 2021 年 5 月 19 日 | 2021年8月18日，以下Analytics旧版API服务到达其生命周期终止日期并关闭。 当前使用这些服务构建的任何集成在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | 2021 ISO地区更新 | 2021 年 5 月 13 日 | 我们将于2021年5月21日执行2021 ISO区域更新。 在此版本发布后，您应会看到一些小更新。 |
 | 完全处理数据源生命周期终止 | 2021 年 4 月 12 日 | Adobe 计划在 2021 年 7 月 31 日弃用完全处理数据源。从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
