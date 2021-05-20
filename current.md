@@ -2,34 +2,34 @@
 title: 最新发行说明
 description: 了解 Experience Cloud 产品和服务的最新发行说明、新增功能和新文档。查找关于 Experience Cloud、Creative Cloud 企业版和 Document Cloud 的新帮助和教程。
 doc-type: release notes
-last-update: April 2021
+last-update: May 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7ba8d1728f066499f8b0cdb8fb5fad1abe83ec53
+source-git-commit: 586e2bee4352de0e190712073a97da62bae67617
 workflow-type: tm+mt
-source-wordcount: '5695'
-ht-degree: 99%
+source-wordcount: '5388'
+ht-degree: 44%
 
 ---
 
-# Adobe Experience Cloud 发行说明 - 2021 年 4 月
+# Adobe Experience Cloud 发行说明 - 2021 年 5 月
 
 ![横幅](assets/experience-cloud-banner-3.png)
 
-Experience Cloud 解决方案和服务每月更新一次。在此页面上可集中查找 [!DNL Experience Cloud] 和 Experience Platform 的最新版本更新、文档和教程。还可查找 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文档。
+Experience Cloud应用程序和服务会按月更新。 本页是您查找[!DNL Experience Cloud]和[!DNL Experience Platform]最新版本更新、文档和教程的中心位置。 还可查找 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文档。
 
 >[!NOTE]
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新：**2021 年 5 月 11 日**
+最新更新：**2021 年 5 月 20 日**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud UI 组件、服务和管理](#ecloud)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [分](#analytics) 析和 [Customer Journey Analytics](#cust-journey) （2021年5月11日更新）
+* [Analytics](#analytics) 和 [Customer Journey Analytics](#cust-journey)（2021 年 5 月 11 日更新）
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
@@ -52,23 +52,18 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
-| Mobile SDK：iOS SDK 4.21.2 版本 | 2021 年 4 月 13 日 | Visitor ID 服务 - 修复了空白广告标识符同步到 Visitor ID 服务的问题。 |
+| Experience Cloud标题和导航 | 2021 年 5 月 20 日 | Adobe Experience Cloud更新包括对标题的浅色主题进行更改，以便能够轻松切换回深色主题并链接以控制Experience Cloud配置文件菜单中用户头像的其他首选项。 虽然Experience Cloud中的并非所有应用程序都支持主题，但此功能会解锁未来的主题支持。 |
+| Experience Cloud全局搜索 | 2021 年 5 月 20 日 | 在此版本中，Experience Cloud全局搜索允许您搜索任何[Experience League](https://experienceleague.adobe.com/#home)文档、课程和教程。 (目前，全局搜索仅适用于Experience Platform用户。 全局搜索[!UICONTROL Platform]允许您搜索Experience Cloud中的任何业务对象，如区段、数据集、架构等。) |
+| Experience Cloud语言首选项 | 2021 年 5 月 20 日 | 此更新包括在Experience Cloud[首选项](https://experience.adobe.com/preferences)中设置首选语言的功能。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Adobe Experience Platform {#platform}
 
 包括 Experience Platform 和 Experience Platform Launch 的发行更新信息。
 
-* [Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)（发行日期：**2021 年 4 月 21 日**）
-* [Experience Platform Launch 发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hans)（发行日期：2021 年 2 月 18 日）
-
-### Experience Platform 教程和课程
-
-发布的关于 Experience Platform 和服务的新视频、教程或课程。
-
-| 发布日期 | 名称 | 类型 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [将示例数据导入到 Adobe Experience Platform - 教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/import-sample-data.html?lang=zh-Hans#newman) | 文章 | 使用沙盒环境，因为它提供了一个独立的环境，您可以在其中试验功能而不会将资源和数据混入到生产环境中。 |
-| 2021 年 4 月 | [如何配置 Social 目标](https://experienceleague.adobe.com/docs/platform-learn/tutorials/destinations/configure-a-social-destination.html?lang=zh-Hans#destinations) | 视频 | 在此视频中，在 Platform 中演练 Social 目标的配置，包括身份验证、区段分配、ID 映射等。 |
+* [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)  — 更新日期 **:2021年4月21日**
+* [Experience Platform数据收集发行说明](https://experienceleague.adobe.com/docs/launch/using/release-notes/current.html?lang=zh-Hans) (以前称为Experience Platform Launch) — 更新日期：2021 **年4月22日**
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
@@ -88,7 +83,7 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 ### 最新产品版本
 
-2021 年 2 月版 - 在 [Offer Decisioning 发行说明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=zh-Hans#new)中详细了解最新的功能。
+2021年3月版 — 了解[Offer decisioning发行说明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=zh-Hans#new)中有关最新功能的更多信息。
 
 ### Offer Decisioning 的更多资源
 
@@ -96,10 +91,10 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 ## ![图标](/assets/analytics.png) [!DNL Adobe Analytics] {#analytics}
 
-发布日期：**2021 年 4 月 22 日**
+发行日期：**2021 年 5 月 20 日**
 
-* [Adobe Analytics的新增功能](#aa-features) （2021年5月11日更新）
-* [Customer Journey Analytics的新增功能](#cust-journey) （2021年5月11日更新）
+* [Adobe Analytics 的新增功能](#aa-features)（2021 年 5 月 11 日更新）
+* [Customer Journey Analytics 的新增功能](#cust-journey)（2021 年 5 月 11 日更新）
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
 * [Analytics 的课程及教程](#tutorials-analytics)
@@ -109,42 +104,45 @@ Experience Cloud 解决方案和服务每月更新一次。在此页面上可集
 
 | 功能 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=zh-Hans) - 目标日期 | 描述 |
 | ----------- | ---------- | ------- |
-| Analytics 功能板：自定义日期范围 | 2021 年 4 月 22 日 | 除了当前即时可用的日期范围之外，Analytics 移动应用程序的用户还可以将自定义日期范围应用于他们的记分卡。 |
-| Workspace：以前的项目版本 | 2021 年 5 月 20 日 | 让您可以加载 Workspace 项目的以前版本，以撤消不需要的更改或简单地还原到所需的先前版本。 |
+| Workspace：以前的项目版本 | 2021 年 5 月 20 日 | 让您可以加载 Workspace 项目的以前版本，以撤消不需要的更改或简单地还原到所需的先前版本。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/save-projects.html?lang=en#previous-version) |
+| data warehouseAPI请求现在支持“小时” | 2021 年 5 月 20 日 | data warehouseAPI请求在请求正文中提供参数`"fuzzyDates”:false`时，支持`Y-m-d h:m:s`格式的日期。 这允许您请求当天的Data warehouse数据，而以前，必须在一天内完成才能返回数据。 [了解更多](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Customer Journey Analytics 的新增功能 {#cust-journey}
 
 | 功能 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目标日期 | 描述 |
 | ----------- | ---------- | ----- |
-| 增强的 CJA 数据视图 | 2021 年 4 月 22 日 | 增强的数据视图极大地扩展了从 XDM 架构字段创建指标和维度时的灵活性。您可以将字符串字段用作指标。您可以将数值字段用作维度，根据同一字段创建多个指标，每个指标具有不同的归因模型和回溯窗口。而且，您可以使指标和维度在数据视图之间兼容，在报表中隐藏某个组件，包括/排除某些值以及使用分段等等。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/data-views.html?lang=zh-Hans) |
-| Workspace：支持计划报告 | 2021 年 4 月 7 日 | CJA 中现在支持计划报告。 |
-| Analytics 功能板：自定义日期范围 | 2021 年 4 月 22 日 | 除了当前即时可用的日期范围之外，Analytics 移动应用程序的用户还可以将自定义日期范围应用于他们的记分卡。 |
-| Workspace：以前的项目版本 | 2021 年 5 月 20 日 | 让您可以加载 Workspace 项目的以前版本，以撤消不需要的更改或简单地还原到所需的先前版本。 |
+| Workspace：以前的项目版本 | 2021 年 5 月 20 日 | 让您可以加载 Workspace 项目的以前版本，以撤消不需要的更改或简单地还原到所需的先前版本。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/build-workspace-project/save-projects.html) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Adobe Analytics 中的修复{#aa-fixes}
 
-* 修复了 Workspace 面板延迟和渲染的问题。（AN-254560、AN-251303）
-* 修复了 Activity Map 和 Report Builder 的登录问题 (AN-254189)
-* 修复了保存后 FTP 帐户中某些分类数据集变量发生更改的问题。(AN-254366)
-* 修复了 Workspace 组件搜索中的搜索结果不正确的问题。（AN-254306、AN-253937）
-* 修复了 Analytics 功能板应用程序中默认日期范围的问题。(AN-253955)
+* 修复了导致某些营销渠道实例报告为“无”的问题。 (AN-257850)
+* 修复了导致Windows和Chrome操作系统在“操作系统类型”维度的“其他”下分组的问题。 (AN-244234)
+* 修复了客户在Adobe Analytics中被注销的问题。 (AN-255864)
 
 #### 其他 Adobe Analytics 修复
 
-AN-248451、AN-250461、AN-251157、 AN-251481、AN-251756、AN-252604、AN-252822、AN-252941、AN-253005、AN-253008、AN-253246、AN-253366、AN-254089、AN-254375、AN-254485、AN-254503、AN-254724、AN-254545、AN-254611、AN-254754、AN-254757、AN-254785、AN-254870、AN-255066
+AN-240821;AN-243625;AN-243958;AN-248728;AN-249877;AN-250151;AN-251273;AN-251334;AN-251945;AN-252732;AN-252942;AN-253110;AN-253156;AN-253157;AN-254549;AN-254665;AN-255098;AN-255170;AN-255252;AN-255395;AN-255431;AN-255450(CJA);AN-255493;AN-255725;AN-256110;AN-256252;AN-256501;AN-256593;AN-256617;AN-256637;AN-256749;AN-256834;AN-256848;AN-256924;AN-256925;AN-256943;AN-257195;AN-257681;AN-258205
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| 浏览器用户代理反映Mac OS的操作系统版本不正确 | 2021 年 5 月 19 日 | 当前，所有主要浏览器都会将Mac OS X 11及更高版本的用户错误地报告为使用Mac OS 10，这是在浏览器的用户代理字符串中记录的。 这会影响Adobe Analytics报表，因为它使用用户代理来确定设备信息（如操作系统）。 这种不准确性显然是为了防止某些网站出现兼容性问题。 请参阅此[Bugzilla票证](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)以获取参考。 目前尚不清楚，这种情况何时或是否会得到纠正。<br>某些浏览器最初正确记录了Mac OS 11，因此可能会有一些与此值匹配的流量。但是，由于报告不准确，因此对操作系统Mac OS 11的筛选将不会有用。<br>这很重要，因为从Mac OS 11上的Safari开始，Apple更新了ITP Cookie到期限制以应用于CNAME实施(请参阅 [WebKit博客文章](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/))。<br>在此更新之前，这些限制仅适用于通过JavaScript设置的“客户端”Cookie。这种不准确性将使得很难评估使用OS 11的流量，并因此受ITP更改的影响。 您可以在此处](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies)了解有关Cookie和Adobe Analytics的更多信息。[ |
+| 三种 Analytics API 服务的生命周期终止 | 2021 年 5 月 19 日 | 2021年8月18日，以下Analytics旧版API服务到达其生命周期终止日期并关闭。 当前使用这些服务构建的任何集成在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
+| 2021 ISO地区更新 | 2021 年 5 月 13 日 | 我们将于2021年5月21日执行2021 ISO区域更新。 在此版本发布后，您应会看到一些小更新。 |
 | 完全处理数据源生命周期终止 | 2021 年 4 月 12 日 | Adobe 计划在 2021 年 7 月 31 日弃用完全处理数据源。从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
 | [!UICONTROL Report Builder] 的登录更新 | 2021 年 4 月 9 日 | 2021 年 1 月 14 日，[!UICONTROL Report Builder] 登录更新移除了对传统技术的依赖，与 Experience Cloud 的登录过程保持一致。Experience Cloud 使用 Enterprise ID（电子邮件和密码）。要确保对 [!UICONTROL Report Builder] 的访问不会出现中断，请在 2021 年 7 月 22 日之前将 [!UICONTROL Report Builder] 插件更新到 5.6.47 版本或更新的版本。Report Builder 的 5.6.47 版本及更新的版本仅支持 Experience Cloud 登录，不再支持单点登录。 |
 | Data Feed and Data Warehouse IP 地址更改 | 2021 年 4 月 6 日 | 从 6 月 17 日开始，Data Feeds and Data Warehouse 传递系统将在 Adobe 的数据中心重新进行布置，因此可能会导致您看到的外部 IP 地址发生更改。Adobe 建议您确认，作为您的报告和馈送来源的数据中心的所有 IP CIDR 区块均在您控制的目标系统的防火墙内。[此处为要放入到您的防火墙允许列表中的 IP 地址范围的完全列表](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans#data-collection-and-ftp-ip-address-blocks)。 |
 | 即将推出的 Analytics 菜单更改的通知 | 2021 年 3 月 24 日 | 在 2021 年 4 月 22 日，Adobe 更新了&#x200B;**[!UICONTROL 组件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理员]**&#x200B;下拉菜单，以实现一定程度的性能提升。所有这些页面仍将在&#x200B;**[!UICONTROL 所有组件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理员]**&#x200B;链接下可用 - 将从下拉菜单中删除它们。以下是将从下拉菜单中删除并放在其相应链接页面上的菜单项：<br><br> [!UICONTROL 组件]<ul><li>[!UICONTROL 书签]</li><li>[!UICONTROL 仪表板]</li><li>[!UICONTROL 目标]</li><li>[!UICONTROL 日历活动]</li><li>[!UICONTROL 计划报告]</li><li>[!UICONTROL 报表设置]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理员]<ul><li>[!UICONTROL User Management]</li><li>[!UICONTROL 分类导入器]</li><li>[!UICONTROL 分类规则生成器]</li><li>[!UICONTROL 数据源]</li><li>[!UICONTROL 数据连接器]</li><li>[!UICONTROL 公司设置]</li><li>[!UICONTROL 日志]</li><li>[!UICONTROL 动态标记管理]</li><li>[!UICONTROL 代码管理器]</li><li>[!UICONTROL 通过 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | Same-as-SiteCatalyst VISTA 处理开启 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有报表包都将更新为将 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 设置为 ON。此更改影响 Data Warehouse 报表，其中处理数据以匹配处理规则。如有疑问或需要说明，请联系客户关怀团队。 |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，将新的 Reports &amp; Analytics 功能板或其他内容设置为 Adobe Analytics 登陆页面的选项已被移除。如果以前曾将 Reports &amp; Analytics 页面设置为自定义登陆页面，它将保持原样，直到在[!UICONTROL “用户首选项”]中修改登陆页面。 |
-| 三种 Analytics API 服务的生命周期终止 | 2021 年 1 月 6 日 | 2021 年 4 月 30 日，以下旧版 Analytics API 服务将达到其生命周期终止日期，并将停止使用。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>我们提供了[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 2021 年 8 月 1 日。[了解详情...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=zh-Hans) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### AppMeasurement {#appm}
 
@@ -156,12 +154,19 @@ AN-248451、AN-250461、AN-251157、 AN-251481、AN-251756、AN-252604、AN-2528
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [Customer Journey Analytics 中的数据视图的基本配置](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/basic-configuration-for-data-views.html?lang=zh-Hans) | 视频 | 一旦您在 Customer Journey Analytics 中创建了一个与 Adobe Experience Platform 中的数据集的[!UICONTROL 连接]，便需要为该[!UICONTROL 连接]创建[!UICONTROL 数据视图]，以便您可以在 Platform 上的 Analysis Workspace 中使用该数据。该视频向您介绍[!UICONTROL 数据视图]的基本配置。 |
-| 2021 年 4 月 | [Adobe Analytics 中的用户首选项](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences.html?lang=zh-Hans) | 视频 | 通过“组件”-“用户首选项”页面，可在用户级别管理 Analysis Workspace 的设置及其相关的组件。例如，您可以选择默认的报告包和调色板。“用户首选项”适用于所有新项目和新面板。 |
-| 2021 年 4 月 | [使用 Workspace 中的“组件”下拉菜单](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-component-dropdowns-in-workspace.html?lang=zh-Hans) | 视频 | “组件”下拉菜单允许您从兼容组件的列表中进行选择以构建分析。如果找不到所需的组件，也可以直接从下拉列表中创建组件。如果您有更高级的用例，这些空间也将继续作为放置区域。 |
-| 2021 年 4 月 | [将数据纳入可视化](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/getting-data-into-visualizations.html?lang=zh-Hans#analysis-workspace) | 视频 | 在 Analysis Workspace 中添加可视化时，有几种不同的方法可以向其中添加数据，具体取决于可视化类型。该视频演示了这些方法。选项 |
-| 2021 年 4 月 | [对移动记分卡项目应用自定义日期范围](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/apply-custom-date-ranges-to-mobile-scorecard-projects.html?lang=zh-Hans) | 视频 | 该视频演示了在为移动设备设置分析项目时如何管理不同的日期范围选项。该设置包括选择要显示的即用型范围，以及创建自己的自定义日期范围。 |
-| 2021 年 4 月 | [配置“常规”帐户设置](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-general-account-settings.html?lang=zh-Hans) | 视频 | 设置 Adobe Analytics 时，配置设置可能会影响数据的收集和存储方式。该视频介绍了一些常规设置。您也可以在实施后更改这些设置，使您的数据更正确永远不会太晚。 |
+| 2021 年 5 月 | [设置内部 URL 过滤器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/set-internal-url-filters.html) | 视频 | 了解[!UICONTROL 反向链接] URL的设置，将它们设置为内部反向链接（为路径报表提供支持）或外部反向链接（为反向链接/反向链接域名报表提供支持）。 |
+| 2021 年 5 月 | [配置查找方法](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-finding-methods.html) | 视频 | 了解如何配置设置，以控制搜索引擎、搜索关键词和其他查找方法报表和组件处理转化事件归因的方式。 |
+| 2021 年 5 月 | [自定义 Reports &amp; Analytics 中的菜单](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/customize-menus.html) | 视频 | 了解如何使用Reports &amp; Analytics访问您的数据。 尽管建议使用Analysis Workspace进行分析，但使用Reports &amp; Analytics有助于自定义菜单，以便快速访问您所需的确切数据。 |
+| 2021 年 5 月 | [在Adobe Analytics中自定义日历设置](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/customize-calendar-settings.html?lang=en#administration) | 视频 | 了解一些提示和技巧，以及在Adobe Analytics中自定义日历的机制。 |
+| 2021 年 5 月 | [在数据视图中配置“无值”选项](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/configure-no-value-options-in-data-views.html) | 视频 | 在Customer Journey Analytics中配置[!UICONTROL 数据视图]期间，您可以选择是否在报表中显示&#x200B;_没有值_&#x200B;的结果，并更改显示值名称的方式。 |
+| 2021 年 5 月 | [在数据视图中包含或排除量度值](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/include-or-exclude-metric-values-in-data-views.html) | 视频 | 了解如何创建和配置新量度（这些量度是其他量度的子集），以及使其成为[!UICONTROL 数据视图]中功能强大的分析工具的用例。 |
+| 2021 年 5 月 | [在数据视图中包含或排除维度值](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/include-or-exclude-dimension-values-in-data-views.html?lang=en) | 视频 | 使用此[!UICONTROL 数据视图]配置功能，您可以在维度中过滤值，以便分析人员在Customer Journey Analytics中创建项目时更轻松地过上生活。 |
+| 2021 年 5 月 | [数据视图中的归因设置](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/attribution-settings-in-data-views.html) | 视频 | 了解有助于您确定哪个值获得转化点数的维度分配设置，以及到期设置（该值的持续时间）。 此视频将指导您完成这些非常重要的设置等。 |
+| 2021 年 5 月 | [在数据视图中创建值存储段以供分析](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/creating-value-buckets-in-data-views-for-analysis.html?lang=en) | 视频 | 在Customer Journey Analytics中配置[!UICONTROL 数据视图]时，可以设置要集中到定义存储段中的数字维度。 此设置允许您将表格可用的项目数量限制为数字范围。 |
+| 2021 年 5 月 | [在数据视图中配置组件设置](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/configuring-component-settings-in-data-views.html?lang=en) | 视频 | 了解在Customer Journey Analytics中设置[!UICONTROL 数据视图]时，您要为每个组件（量度和维度）配置的基本组件设置。 |
+| 2021 年 5 月 | [设置数据视图中量度的格式](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/formatting-metrics-in-data-views.html?lang=en) | 视频 | 了解[!UICONTROL 数据视图]配置的组件屏幕中用于设置量度格式的选项。 此视频还介绍了一些可帮助您充分利用组件的提示。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Analytics 帮助资源
 
@@ -173,21 +178,9 @@ Audience Manager 中的修复和改进。
 
 ### 修复和改进 {#aam-fixes-and-improvements}
 
-* 修复了[常规报告](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reporting/general-reports.html?lang=zh-Hans#reporting)中的问题：用户在&#x200B;**[!UICONTROL “日期截止”]**&#x200B;控件中选择一个日期，但报告数据会偏移一天。(AAM-57702)
-* 修复了[“管理”>“组”](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=zh-Hans#create-group)中的问题：用户在保存组权限时因超时而收到&#x200B;_“您的组已成功保存，但在保存组权限时出错”_&#x200B;错误。（AAM-57406、AAM-57411）
-
-### Audience Manager 的课程及教程{#tutorials-aam}
-
-发布的关于 Audience Manager 的新视频、教程或课程。
-
-| 发布日期 | 名称 | 类型 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [帮助 Audience Manager 用户了解 Real-time CDP](https://experienceleague.adobe.com/?lang=zh-Hans?recommended=AudienceManager-U-1-2020.1.rtcdp) | 课程 | Audience Manager 客户通过转移到 Adobe 的实时客户数据平台 (Real-time CDP) 来重塑内容管理。本课程采用逐个概念讲解的方法，帮助 Audience Manager 用户了解如何在 Real-time CDP 中处理这些概念。 |
-| 2021 年 4 月 | [帮助 Audience Manager 用户了解 Real-time CDP 中的目标](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-destinations-for-aam-users.html?lang=zh-Hans) | 视频 | 当您从 Audience Manager 转移到[!UICONTROL 实时客户数据平台] (Real-time CDP) 时，必须了解目标，以便您知道如何将受众区段激活到目标合作伙伴。该视频讨论了不同的目标类型以及它们在 Real-time CDP 中的位置。 |
-| 2021 年 4 月 | [帮助 Audience Manager 用户了解 Real-time CDP 中的数据治理](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/other-integrations/integrating-with-rtcdp/rtcdp-data-gov-for-aam-users.html?lang=zh-Hans#other-integrations) | 视频 | 该视频向 Audience Manager 用户介绍了[!UICONTROL 实时客户数据平台]中的数据治理功能，并将其与 Audience Manager 中提供的功能进行了比较。它讨论了[!UICONTROL 数据使用和标签实施] (DULE) 框架以及在平台中可以应用的地方。 |
-| 2021 年 4 月 | [一个故事，两种看法 - 品牌与消费者 - 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/brands-vs-consumers.html?lang=zh-Hans#industry) | 文章 | 如今，营销人员被淹没在专门用于身份识别的混乱信息中。根据 Adobe 和 Advanis 的最新研究，只有 37% 的营销专业人士表示，他们为无 Cookie 的未来做好了准备。在这场网络研讨会中，Adobe 剖析广告商和发布者对于未来无 Cookie 场景的理解和准备程度、对其用例的影响以及他们对更广泛的生态系统有何看法。 |
-| 2021 年 4 月 | [负责任的客户数据管理的 10 个注意事项 - 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/ten-considerations-for-responsible-customer-data-management.html?lang=zh-Hans#industry) | 文章 | 不稳定的市场力量和不同的消费者隐私要求可能会给数字营销人员带来令人生畏的情况。为了使营销活动符合法规要求，营销团队需要 IT 部门建立精简的流程，以适应未来的数据治理流程。该过程应使每个人都遵循并执行负责任地使用消费者数据的规则。听取 Adobe和 [!DNL Scotiabank] [!DNL Digital] 讲述关于负责任的数据管理的重要注意事项。 |
-| 2021 年 4 月 | [数据管理的未来和复杂多变的环境 - 事件](https://experienceleague.adobe.com/docs/audience-manager-learn/tutorials/industry/the-future-of-data-management-and-the-changing-environment.html?lang=zh-Hans#industry) | 文章 | 随着市场力量为我们的数字格局带来变化，企业需要适应有关数据治理、身份解析以及如何通过有意义的内容吸引潜在客户和匿名访问者的新现实。 |
+* 添加了[DCS系统错误代码10](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-error-codes.html?lang=en#system-error-codes)，以指示请求上的特征是经过部分评估还是根本未进行评估。
+* 修复了用户在使用集成平台目标时无法保存&#x200B;**[!UICONTROL Audience Lab]**&#x200B;测试组的问题。 (AAM-58137)
+* 现在，您可以生成&#x200B;**[!UICONTROL 活动使用情况报表]**，其回顾间隔超过一年。 (AAM-58268)
 
 ## ![图标](/assets/aem.png) Adobe Experience Manager {#aem}
 
@@ -195,7 +188,7 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 
 >[!NOTE]
 >
->Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)页面以及时了解版本信息。
+>Adobe建议访问[Experience Manager版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)页面以保持最新的发行信息。
 
 ### 产品版本
 
@@ -203,54 +196,93 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 
    Experience Manager 即云服务上有什么新功能？
 
+   * **Adobe Experience Manager as a Cloud Service 基础**
+
+      * [发布内容树工作流](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/operations/replication.html?lang=en#publish-content-tree-workflow)  — 发布内容的深层层次结构时，新的工作流模型和步骤可提高性能。
    * **Experience Manager Sites as a Cloud Service**
 
-      * 现在，可以通过简单的配置在项目级别启用[站点的渐进式 Web 应用程序 (PWA) 版本](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=zh-Hans)。
-      * 内容片段模型扩展 - 现在可以将多行文本数据类型定义为多字段列表。
-      * 内容片段编辑器 UX 增强功能 - 嵌套的子片段现在显示在痕迹导航中，并改进了有关发布、保存以及保存并退出操作的视图
+      * GraphQL端点 — 您现在可以为各个Experience Manager站点配置启用Adobe Experience Manager GraphQL API，并通过使用新的GraphQL控制台用户界面为这些配置创建自定义GraphQL端点。 用户界面还允许管理GraphQL端点。
+      * 内容模型，增强了&#x200B;**[!UICONTROL Date&amp;Time]**&#x200B;数据类型 — 您现在可以配置&#x200B;**[!UICONTROL Date&amp;Time]**&#x200B;日期类型，以仅允许创作日期、时间或日期和时间信息。
+      * 内容模型，增强了&#x200B;**[!UICONTROL 标记]**&#x200B;数据类型 — 您现在可以配置&#x200B;**[!UICONTROL 标记]**&#x200B;数据类型，以允许创作单个或多个标记。
+      * 内容模型、新的&#x200B;**[!UICONTROL 制表符占位符]**&#x200B;数据类型 — 新的&#x200B;**[!UICONTROL 制表符占位符]**&#x200B;数据类型允许您将数据类型分组到内容片段编辑器中选项卡下呈现的部分中。
    * **Experience Manager Assets as a Cloud Service**
 
-      * Experience Manager 扩展了 Connected Assets 功能，以支持在支持的核心组件中使用 Dynamic Media 映像。请参见[使用 Connected Assets 在 Experience Manager Sites 中共享 DAM 资源](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/admin/use-assets-across-connected-assets-instances.html?lang=zh-Hans)。
-      * Experience Manager 管理员可以安排在特定日期或时间进行批量资源引入。另外，管理员可以根据日期和时间安排重复引入。请参见[资源批量引入工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)视频。
+      * Experience Manager不会存档下载原始文件的单个资产下载。 此增强功能可加快下载速度。
+      * 当通过链接共享选项下载资产时，您现在可以选择下载或不下载演绎版。 以前，会下载所有资产演绎版。
+      * 管理员可以配置Experience Manager，以在批量摄取资产后删除资产源。 请参阅[批量资产摄取](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)。
+      * 现在，在执行运行状况检查以批量导入资产时，Experience Manager会提供失败的更多信息原因。 请参阅[批量资产摄取](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
+      * 现在，使用批量导入工具导入资产时，管理员可以选择在成功导入后删除源文件。 请参阅[批量资产摄取](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=en#asset-bulk-ingestor)。
+      * 在编辑元数据架构时，新的根路径选择器字段允许管理员快速轻松地进行选择，从而缩短配置时间。
+      * 许多资产的元数据可以使用CSV文件批量导入，并可以导出到CSV文件。 默认日期格式现在为`yyyy-MM-dd'T'HH:mm:ss.SSSXXX`。 用户可以通过更新列标题来应用其他格式。 例如，添加日期：`DateFormat: yyyy-MM-dd'T'HH:mm:ssXXX`作为CSV文件中的列标题，而不是单词“日期”。
+      * 在[!UICONTROL 列]视图中浏览资产时，可视指示器会显示每个资产的已批准或已拒绝状态。
+      * 在[!UICONTROL 列]视图中浏览资产时，会显示过期资产的可视指示器。
+      * 资产元数据编辑器中提供了文本区域数据类型。 您可以使用此选项让用户在自由格式文本字段中输入元数据。
    * **Experience Manager Forms as a Cloud Service**
 
-      多年以来，Experience Manager Forms 已帮助众多组织创造了优异的入职和登记体验。这些体验已帮助组织将潜在客户转化为销售、处理捕获的客户数据、根据受众个人资料提供响应式体验等等。现在 Experience Manager Forms 提供云服务版本。
+      您可以使用[Experience ManagerForms作为Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/home.html?lang=zh-Hans?lang=en)创建数字表单并将表单连接到现有数据源。 您还可以将表单与Adobe Sign集成，以向表单添加电子签名，生成记录文档(DoR)以将提交的表单存档为PDF文件。 该服务还可将您现有的 PDF 表单转换为数字表单。除了 AEM Forms 的标准功能之外，该服务还提供若干云原生的功能，如自动伸缩、升级不停机和云原生开发环境。要了解Experience ManagerForms作为Cloud Service的功能和特性，请阅读此博客页面[工作的未来：Experience ManagerForms作为Cloud Service](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)。
 
-      您可以使用 [Experience Manager Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/home.html?lang=zh-Hans) 创建数字表单，并将表单连接到现有数据源。您还可以将表单与 Adobe Sign 集成在一起来向表单添加电子签名，并生成记录文档 (DoR) 以将提交的表单存档为 PDF 文件。该服务可将您现有的 PDF 表单转换为数字表单。除了 AEM Forms 的标准功能之外，该服务还提供若干云原生的功能，如自动伸缩、升级不停机和云原生开发环境。要了解 Experience Manager Forms as a Cloud Service 的功能和特性，请[阅读博客帖子“Experience Manager Forms as a Cloud Service”](https://blog.adobe.com/en/publish/2021/03/11/experience-manager-forms-as-a-cloud-service.html)。
+      * **在启用了Adobe Sign的自适应Forms中使用政府ID身份验证方法**
 
-      联系 Adobe 代表以索取演示或注册该服务。
+         Adobe Sign的政府ID流程由先进的机器学习算法提供支持，使全球的公司能够确保对其收件人身份的高质量验证。 现在，您可以在启用了Adobe Sign的自适应Forms中使用政府ID身份验证方法。
 
+         政府身份验证是一种高级身份验证方法。 它指示收件人[上传政府颁发的身份证（驾照、国家身份证、护照）的图像](https://helpx.adobe.com/in/sign/using/adobesign-authentication-government-id.html)。 然后，它会评估该文档以确保其真实。
+
+      * **支持将表单内签名体验用于异步自适应表单提交**
+
+         现在，您可以将表单内签名体验用于异步自适应表单提交。 您还可以在Experience Manager站点页面中嵌入自适应表单，并使用表单内签名体验来提交自适应表单。
+
+      * **支持在为分配任务步骤预填充自适应表单时使用变量指定附件**
+
+         在为“分配任务”步骤预填充自适应表单时，您现在可以使用文档类型变量为自适应表单选择输入附件。
+
+      * **支持使用文字选项为JSON类型变量设置值**
+
+         您可以使用文字选项在Experience Manager工作流的设置变量步骤中为JSON类型变量设置值。 利用文本选项，可以指定字符串形式的JSON。
+
+      * **使用本地开发环境创建记录文档(DoR)**
+
+         您可以在Cloud Service实例中将XDP用作[!UICONTROL 记录文档]模板，将AEM Forms用作Cloud ServiceSDK（本地开发环境）。 以前，支持仅限于Cloud Service实例。
    * **Experience Manager Commerce as a Cloud Service**
 
-      * 支持 Magento 2.4.2。
-      * 现在可以在任何内容页面上使用和配置产品详细信息组件。
-      * 发布了 CIF Venia 参考网站 - 2021.03.25，其中包括最新的 CIF 核心组件 1.9.0 版。有关更多详细信息，请参阅 [CIF Venia 参考网站 - 2021.03.25](https://github.com/adobe/aem-cif-guides-venia/releases/tag/venia-2021.03.25)。
-      * 发布了 CIF 核心组件 1.9.0。有关更多详细信息，请参阅 [CIF 核心组件 1.9.0](https://github.com/adobe/aem-core-cif-components/releases/tag/core-cif-components-reactor-1.9.0)。
+      * 支持类别UID — 此功能可为对类别ID使用字符串的系统解锁第三方商务集成。
+      * Experience Manager的PWA Studio扩展包括示例集成。
+      * 新增了CIF导航核心组件，该组件扩展了WCM导航核心组件。
+      * Experience Manager存储区中暂存目录数据的可视指示器。
+      * 商务端点现在可通过Cloud Manager用户界面进行配置。
    * **Cloud Manager**
 
-      * “添加和编辑程序”工作流的用户界面进行了更新，变得更加直观。
-      * 具有必需权限的用户现在可以通过 UI 提交商务端点。
-      * 现在可以将环境变量的作用域限定为特定服务（创作或发布）。需要 Experience Manager `2021.03.5104.20210328T185548Z` 或更高版本。
-      * 即使未配置任何管道，“管道”卡上也会显示&#x200B;**[!UICONTROL “管理 Git”]**&#x200B;按钮。
-      * Cloud Manager 使用的 Experience Manager 项目原型的版本已更新到版本 27。
-      * Adobe I/O 开发人员控制台中由 Cloud Manager 创建的项目不会再被无意中编辑或删除。
-      * 当用户添加环境时，将会通知他们，环境在创建后无法移动到其他区域。
-      * 现在可以将环境变量的作用域限定为特定服务（创作或发布）。需要 Experience Manager `2021.03.5104.20210328T185548Z` 或更高版本。
-      * 澄清了删除环境后启动管道时的错误消息。
-      * Eclipse 项目提供的 OSGi 捆绑包现已从规则 `CQBP-84--dependencies` 中排除。
+      * PackageOverlaps质量规则现在会检测同一包被多次部署的情况；即，在多个嵌入位置中，在同一部署的包集中。
+      * 现在，公共API中的存储库端点包含Git URL。
+      * Cloud Manager用户下载的部署日志更有洞察力，现在包含有关失败和成功方案的详细信息。
+      * 现在，已解决将代码推送到AdobeGit时遇到的间歇性故障。
+      * 现在，可以在编辑项目工作流期间将商务加载项应用于沙盒项目。
+      * 编辑程序体验已刷新。
+      * “环境详细信息”页面中的“域名”表通过分页显示最多250个域名。
+      * 添加程序和编辑程序工作流中的解决方案选项卡会显示解决方案，即使该程序只有一个解决方案可用。
+      * 生成步骤日志中未生成任何已部署的内容包时的错误消息不明确。
+
+
 
 
 
 
 ### **社区**
 
-* **Adobe Developers Live 2021 | 完整的讲座列表**
+* **[Adobe2021年峰会与丹·利维私下会晤](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865)**
 
-   [此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-developers-live-2021-complete-session-list/m-p/394595#M27875)是在 **Adobe Developers Live** 上召开的所有 Experience Manager 讲座的汇总列表。
+   每年，每位Adobe员工（从工程师、数据科学家到UX设计师和产品经理）都有机会分享创新想法，以改进品牌与客户交互的方式。 与我们一起参加“Adobe斯尼克斯”，在这里分享前七个项目，每个项目都利用人工智能(Artifical Intelligence)和低代码应用等领域的最新技术。 请参见[此处的所有会话](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-complete-aem-session-list/td-p/398344)。
 
-* **Adobe Summit 2021 | Experience Manager 讲座的完整列表**
+* **[Experience League Communities启动游戏化](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-communities-launches-the-gamification/td-p/405366)**
 
-   [此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-complete-aem-session-list/td-p/398344)是在 **Adobe Summit 2021** 上召开的所有 Experience Manager 讲座的汇总列表。
+   Adobe是&#x200B;*兴奋的*&#x200B;在Experience League社区中开始&#x200B;[*全新的做事方式*](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-cloud-blogs/new-experience-league-community-game-features-and-faqs/ba-p/405291)! 请参阅[此处的完整详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-communities-launches-the-gamification/td-p/405366)。
+
+* **[Adobe Summit 2021 | Experience Manager 讲座的完整列表](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-complete-aem-session-list/td-p/398344)**
+
+   根据Adobe客户的热门请求，以下是在2021年Adobe峰会&#x200B;**上发生的所有Experience Manager会话的汇总列表。**
+
+* **[宣布提交Experience Manager功能请求的新流程](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)**
+
+   Adobe很兴奋地宣布FeatureBit。 它是一个项目，用于重新定义向产品团队发布Experience Manager功能请求的客户体验。 该计划还旨在为客户/合作伙伴实施全新的途径，以通过[Experience LeagueExperience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)提交功能增强(RFE)。
 
 ### Experience Manager 发行信息
 
@@ -265,7 +297,6 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 * [Experience Manager Brand Portal 发行说明](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hans)
 * [Experience Manager 桌面应用程序发行说明](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=zh-Hans)
 * [Experience Manager Dispatcher 发行说明](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=zh-Hans)
-* [Adobe Primetime 发行说明](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=zh-Hans)
 * [Livefyre 发行说明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html?lang=zh-Hans)
 
 ### Experience Manager 的新课程和教程
@@ -274,19 +305,13 @@ Experience Manager 的新增功能、修复和更新。Adobe 建议采用内部�
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [安装适用于 AEM Forms Linux 的 32 位库](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/adaptive-forms/installing-aem-form-on-linux.html?lang=zh-Hans) | 文章 | 了解如何安装适用于 AEM Forms 的 32 位库，以便在 Linux 上正常运行。 |
-| 2021 年 4 月 | [创建 Adobe Sign Cloud Services 配置](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-adobe-sign-cloud-configuration.html?lang=zh-Hans) | 文章 | 创建 Adobe Sign Cloud Services 配置，以便使用 Adobe Sign API 应用程序与 Adobe Sign 集成。 |
-| 2021 年 4 月 | [SPA 编辑器和远程 SPA - 概述 - 教程](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/overview.html?lang=zh-Hans) | 教程 | 了解如何更新远程 SPA 或在 AEM 上下文之外运行的 SPA，以便使用和交付在 AEM 中创作的内容。本教程以 WKND GraphQL 应用程序为基础，该应用程序是一个 React 应用程序，它通过 AEM 的 GraphQL API 使用 AEM 内容片段内容。 |
-| 2021 年 4 月 | [GraphQL 建模基础](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html?lang=zh-Hans) | 视频 | 了解如何在 Adobe Experience Manager (AEM) 中定义和使用内容片段，以便与 GraphQL 一起使用。 |
-| 2021 年 4 月 | [GraphQL 的高级建模](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/advanced-modeling.html?lang=zh-Hans) | 视频 | 了解如何在 Adobe Experience Manager (AEM) 中的内容片段模型之间创建关系以及如何在 GraphQL 查询中利用这些关系。 |
-| 2021 年 4 月 | [创建 GraphQL 查询](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/creating-graphql-queries.html?lang=zh-Hans) | 视频 | 了解如何创建 GraphQL 查询以从 Adobe Experience Manager (AEM) 返回内容，以及如何使用 GraphiQL 工具快速测试、优化和调试查询。 |
-| 2021 年 4 月 | [创建第一个[!UICONTROL 自适应表单]](https://video.tv.adobe.com/v/332571) | 视频 | 了解如何创建第一个自适应表单。 |
-| 2021 年 4 月 | [在 Salesforce 中针对按钮的单击事件测试销售线索的创建](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-click-event.html?lang=zh-Hans#forms) | 视频 | 通过调用表单数据模型的 POST 操作针对按钮的单击事件创建 Lead 对象。 |
-| 2021 年 4 月 | [集成 [!UICONTROL AEM Forms] 与 [!DNL Salesforce]](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/introduction.html?lang=zh-Hans#forms) | 视频 | Forms + Salesforce 集成课程的介绍视频 |
-| 2021 年 4 月 | [已弃用的 Ordered Property 索引](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/dopi.html?lang=zh-Hans) | 文章 | 旧版项目包含不支持的 Ordered Property 索引类型。由于当前的限制，[!UICONTROL AEM 即 Cloud Service]上的索引管理仅支持 _lucene_ 类型的索引。 |
-| 2021 年 4 月 | [在 [!DNL Salesforce] 中针对表单提交测试销售线索的创建](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/integrate-with-salesforce/create-lead-submitting-form.html?lang=zh-Hans#forms) | 视频 | 基于表单数据模型创建自适应表单。验证是否在 Salesforce 数据库中针对表单提交创建了 Lead 对象。 |
-| 2021 年 4 月 | [INST：第三方安装的工件](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/inst.html?lang=zh-Hans) | 参考 | 旧版项目依赖于第三方软件包或连接器，并将其作为项目的一部分或通过包管理器进行安装。 |
-| 2021 年 4 月 | [[!UICONTROL 不受支持的 Runmode 配置]](https://experienceleague.adobe.com/docs/experience-manager-pattern-detection/table-of-contents/urc.html?lang=zh-Hans) | 参考 | 您如何可以让 [!UICONTROL runmode] 配置与 Experience Manager 即 Cloud Service 兼容，因为现在只有 Author 和 Publish 是 [!UICONTROL runmode]。 |
+| 2021 年 5 月 | [网站模板](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/site-template/create-site.html) | 文章 | 了解如何使用站点创建向导生成新站点。 了解有关创建网站、创作和发布更新、页面模板，以及探索生成的AEM网站的信息。 **注意：** 此文档可供预览。快速网站创建功能将于2021年下半年发布。 |
+| 2021 年 5 月 | [快速设置SPA Editor和远程SPA](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/spa-editor/remote-spa/quick-setup.html) | 文章 | 快速设置是一个快速的演练步骤，用于说明如何安装和运行WKND应用程序并作为远程SPA，以及如何使用AEM SPA Editor创作它。 |
+| 2021 年 5 月 | [带有Adobe Sign的自适应表单](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-adaptive-form.html) | 视频 | 了解如何创建自适应表单以使用Adobe Sign云配置。 |
+| 2021 年 5 月 | [为填写和签名方案配置自适应表单](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/configure-form-fill-and-sign.html) | 视频 | 了解如何配置表单填充者和签名者是同一个人的表单。 |
+| 2021 年 5 月 | [创建Adobe Sign API应用程序](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/forms/forms-and-sign/create-sign-api-application.html#forms) | 视频 | 了解如何在Adobe Sign上创建API应用程序以与Adobe Sign平台集成。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Experience Manager 的其他帮助资源
 
@@ -315,13 +340,16 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 过去一个月发布的新视频、教程及课程。
 
-| 发布日期 | 名称 | 解决方案 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 12 日 | [在 Analytics 中跟踪您的交付结果的成功](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/track-the-success-of-your-deliveries-in-analytics.html?lang=zh-Hans#integrations) | Campaign Standard | 了解如何配置 Campaign Standard 和 Analytics 集成。了解如何使用从 Campaign Standard 接收的数据在 Analytics 中生成报告以及哪些 KPI 可用。 |
-| 2021 年 4 月 12 日 | [使用实时事件数据配置事务性消息](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/configure-transactional-messages-using-realtime-event-data.html?lang=zh-Hans) | Campaign Standard | 了解如何使用来自触发器的实时事件数据配置事务性消息。 |
-| 2021 年 4 月 12 日 | [在 Campaign Standard 中创建触发事件](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-event.html?lang=zh-Hans) | Campaign Standard | 了解如何在 Campaign Standard 中创建一个触发事件，并使该事件与现有的 Experience Cloud 触发事件关联。 |
-| 2021 年 4 月 12 日 | [在 Experience Cloud 创建触发器](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-in-experience-cloud.html?lang=zh-Hans) | Campaign Standard | 了解如何在 Experience Cloud 中配置触发器。 |
-| 2021 年 4 月 12 日 | [使用触发器处理事务性消息](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/using-triggers-for-transactional-messaging-overview.html?lang=zh-Hans#integrations) | Campaign Standard | 了解如何使用触发器处理事务性消息。 |
+| 发布日期 | 名称 | 解决方案 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 2021 年 4 月 27 日 | [将Campaign Standard与Analytics集成，以优化电子邮件营销](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2021.1.integration) | Campaign Standard, Analytics | 课程 | 了解如何将Campaign Standard与Adobe Analytics集成，以及如何使用实时数据优化电子邮件营销策略。 本课程将向您展示如何在Adobe Analytics中构建Campaign Standard报表。 然后，了解如何使用Experience Cloud[!UICONTROL Triggers]和[!UICONTROL Platform launch]根据客户活动配置营销和事务型消息。 |
+| 2021 年 4 月 12 日 | [在 Analytics 中跟踪您的交付结果的成功](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/track-the-success-of-your-deliveries-in-analytics.html?lang=zh-Hans#integrations) | Campaign Standard | 视频 | 了解如何配置 Campaign Standard 和 Analytics 集成。了解如何使用从 Campaign Standard 接收的数据在 Analytics 中生成报告以及哪些 KPI 可用。 |
+| 2021 年 4 月 12 日 | [使用实时事件数据配置事务性消息](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/configure-transactional-messages-using-realtime-event-data.html?lang=zh-Hans) | Campaign Standard | 视频 | 了解如何使用来自[!UICONTROL Triggers]的实时事件数据配置事务型消息。 |
+| 2021 年 4 月 12 日 | [在 Campaign Standard 中创建触发事件](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-event.html?lang=zh-Hans) | Campaign Standard | 视频 | 了解如何在Campaign Standard中创建触发器事件，该事件已链接到现有Experience Cloud[!UICONTROL Trigger]。 |
+| 2021 年 4 月 12 日 | [在 Experience Cloud 创建触发器](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/create-a-trigger-in-experience-cloud.html?lang=zh-Hans) | Campaign Standard | 视频 | 了解如何在Experience Cloud中配置[!UICONTROL Triggers]。 |
+| 2021 年 4 月 12 日 | [使用触发器处理事务性消息](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/integrations/triggers/using-triggers-for-transactional-messaging-overview.html?lang=zh-Hans#integrations) | Campaign Standard | 视频 | 了解如何对事务型消息使用[!UICONTROL Triggers]。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 帮助资源
 
@@ -338,31 +366,23 @@ Adobe Advertising Cloud 的发行说明。
 
 ### [!DNL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp} 
 
-上次更新日期：**2020 年 10 月 28 日**
+上次更新时间：**2021年5月19日适用于5月5日版**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 新建帮助 | （10 月 28 日版）旧版帮助页面已替换为更新页面。这些更新页面可从 DSP 主菜单的“帮助”链接获取，也可随时从 [https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans](https://experienceleague.adobe.com/docs/advertising-cloud/dsp/home.html?lang=zh-Hans) 获取 |
-| Campaigns | （10 月 28 日版）以前的 Campaigns 测试版视图现在成为默认的 Campaigns 视图，可以实现更快的分析、简化的工作流和自定义视图。 |
-| 专用内容库 | （10 月 15 日版）如今，所有用户都可以使用新的交易 ID 表单来设置和编辑交易 ID 详细信息，该表单是旧版智能广告投放表单的简化版。要设置新的交易 ID 详细信息，请转到&#x200B;**[!UICONTROL 内容库]** > **[!UICONTROL 交易]** > **[!UICONTROL 创建]**，然后单击&#x200B;**[!UICONTROL 交易 ID 测试版]**。 |
-| 投放预测 | （10 月 15 日版）在投放设置的[!UICONTROL 预测]部分，我们为具有投放级别步调的广告投放提供了一个新增的[!UICONTROL 估计的最大量]部分，它指明了当前目标配置中的可用容量。 |
+| 包设置 | 新增了[!UICONTROL 步调填充策略]选项“[!UICONTROL Slightly Aead]”，它是新包的默认选项。 此策略可加快投放速度，使其在飞行时长的一半完成55-65%。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search} 
 
-上次更新日期：**2021 年 4 月 14 日，针对 4 月 17 日发行版**
+上次更新时间：**2021年5月19日，适用于5月18日版的**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| [!UICONTROL 营销活动]<br>[!UICONTROL 作品集]<br>[!UICONTROL 报告] | [!DNL Advertising Cloud Search] 现在可将 [!DNL Google Ads] 搜索和购物网络上的营销活动的 [!DNL Google Ads] 跟踪会话数据自动同步到 [!DNL Advertising Cloud Search] 中，以便生成报告和进行优化。以前，您不得不选择启用此功能。 |
-| [!UICONTROL 广告见解] | 提供了三个新的[!UICONTROL 广告见解]：<br><ul><li>归因分析：指示不同的归因模型何时可以改善单个投资组合的收入模型和优化。</li><li>损失的展示份额：指示投资组合的预算何时限制了 [!DNL Google Ads] 营销活动的展示份额，并相应地建议更改预算和营销活动的多个设置。</li><li>时段分析：（仅适用于具有 [!DNL Google Ads] 搜索、展示或购物营销活动的投资组合）为单个投资组合在一天中的不同时间建议 Google Ads 广告出价系数。</li></ul> |
+| [!UICONTROL 通知中心测试版] | [!UICONTROL 通知中心测试版]可供所有用户使用。 使用它可订阅有关帐户身份验证错误、触发的自定义警报以及您生成的[!UICONTROL 广告分析]的完成情况的电子邮件和Web通知。<br>您可以通过以下任一方式查看通知：<ul><li>[!UICONTROL Notifications]面板，从任何页面右上角的Notifications链接中打开。</li><li>位于[!UICONTROL 分析和报告>通知中心测试版]的[!UICONTROL 通知中心]。</li></ul><br><b>注意：</b> 由于改进了通知的存储方式，所有现有通知都被清除。 |
 
-### Advertising Cloud 教程和课程
-
-更新时间：**2021 年 2 月 23 日**
-
-| 教程 | 描述 |
-| -----------| ---------- |
-| [工作区和报表简介](https://experienceleague.adobe.com/docs/advertising-cloud-learn/tutorials/analytics/analytics-analysis-workspace-a4adc.html?lang=zh-Hans) | 了解如何在 Adobe Analytics Analysis Workspace 中使用 Advertising Cloud 数据创建可视报告。 |
+{style=&quot;table-layout:auto&quot;}
 
 ## ![图标](/assets/magento.png) [!DNL Magento] {#magento}
 
@@ -370,7 +390,7 @@ Adobe Advertising Cloud 的发行说明。
 
 ## ![图标](/assets/target.png)[!DNL Target] {#target}
 
-请参阅 [[!DNL Target]  发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hans)了解最新发行信息。
+请参阅[[!DNL Target] 发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hans)了解最新发行信息。
 
 ## ![图标](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
@@ -378,21 +398,7 @@ Adobe Advertising Cloud 的发行说明。
 
 ### 核心 Marketo Engage 更新
 
-请参阅 [!DNL Marketo Engage] [发行说明](https://docs.marketo.com/display/public/DOCS/Release+Notes)了解最新发行信息。
-
-### 即将推出的功能
-
-本季度将发布以下功能：
-
-| 功能 | 描述 |
-| ------ | --------- |
-| [!DNL Bizible] | <ul><li>新的基于帐户的分段</li><li>保存特定于功能板的过滤器</li><li>将 Bizible 功能板导出为 PDF</li></ul> |
-| Sales Connect | 撰写窗口和命令中心更新/增强功能 |
-
-### 弃用
-
-* **Asset API“_method”参数：** 2020 年 9 月之后，Asset API 端点将不再接受 `_method` 在 POST 正文中传递查询参数以绕过 URI 长度限制。
-* **弃用 Internet Explorer 支持：**&#x200B;从 2020 年 7 月 31 日发行的 7 月版本开始，Internet Explorer 将不再支持 Marketo Engage 用户界面。
+请参阅[!DNL Marketo Engage] [发行说明](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en#release-notes) ，了解最新发行计划信息。
 
 ## ![图标](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
@@ -402,23 +408,18 @@ Adobe Advertising Cloud 的发行说明。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [[Adobe Sign] 使用 Adobe Sign 针对 Salesforce 和 Marketo 发送提醒 - 专题视频](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/marketo/marketo-salesforce-reminder-video.html?lang=zh-Hans) | 视频 | 了解如何在一段时间后未仍签署协议的情况下从 Marketo 发送电子邮件提醒。此集成将 Adobe Sign 用于 Salesforce、Marketo 以及 Marketo 和 Salesforce 同步。 |
+| 2021 年 5 月 | [创建嵌入式电子签名和文档体验](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/develop/custom/embeddedesignature.html#develop) | 文章 | 了解如何使用Adobe Sign API将电子签名和文档体验嵌入您的Web平台、内容和文档管理系统。 （四部分。） |
+| 2021 年 5 月 | [使用Adobe Sign for Microsoft Power Platform实现文档自动化](https://experienceleague.corp.adobe.com/docs/document-cloud-learn/sign-learning-hub/integrations/microsoft/documentautomation.html#integrations) | 文章 | 了解如何激活和使用适用于Microsoft Power Apps的Adobe Sign和Adobe PDF Tools连接器。 构建工作流，无需任何代码即可快速安全地实现业务批准和签名流程的自动化。 （四部分。） |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Document Cloud 教程
 
-| 发布日期 | 名称 | 解决方案 | 描述 |
+| 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 4 月 | [在 Java 中使用 Adobe Document Services API 来管理财务文档工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html?lang=zh-Hans) | 教程 | 了解如何使用适用于 [!DNL Java Spring Boot] 应用程序的 Adobe Document Services API 并构建一个模型-视图-控制器 (MVC) 应用程序。该应用程序从 PDF 文档中提取内容，将其转换为其他数据格式（例如 Excel），合并多个 PDF 并使用密码保护资源。 |
-| 2021 年 4 月 | [控制您的 PDF 在线体验并收集分析数据](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html?lang=zh-Hans) | 文章 | 您的组织是否在网站上发布了 PDF？了解如何使用 Adobe PDF Embed API 控制外观、启用协作以及收集有关用户如何与 PDF 进行交互的分析数据，包括花费在页面和搜索上的时间。 |
-| 2021 年 4 月 | [在 Java 中使用 Adobe Document Services API 来管理财务文档工作流™](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/FinanceWorkflowsJava.html) | 文章 | 了解如何使用适用于 Java™ Spring Boot 应用程序的 Adobe Document Services API。构建一个模型-视图-控制器 (MVC) 应用程序。该应用程序从 PDF 文档中提取内容，将其转换为其他数据格式（例如 Excel），合并多个 PDF 并使用密码保护资源。 |
-| 2021 年 4 月 | [在 Java™ 中使用 Adobe Document Services API 来管理人力资源文档工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/HRAgreementWorkflowsJava.html?lang=zh-Hans) | 教程 | 许多企业需要围绕新员工创建文档，例如针对在家工作的员工的工作场所协议。传统上，企业以实物的形式管理这些文档，存在管理和存储方面的困难。当切换到电子文档时，PDF 文件是一种理想的选择，因为与其他文件类型相比，它们更安全且不易修改。此外，它们还支持数字签名。 |
-| 2021 年 4 月 | [在 Node.js 中使用 Adobe Document Services API 来管理协议工作流](https://experienceleague.adobe.com/docs/document-services/tutorials/usecases/AgreementWorkflowsNodejs.html?lang=zh-Hans) | 教程 | 许多企业应用程序和流程都需要建议书和协议之类的文档。PDF 文档可确保文件更安全且不易修改。他们还提供数字签名支持，因此您的客户可以快速轻松地完成他们的文档。Adobe Document Services API 可以轻松地将 PDF 功能整合到您的 Web 应用程序中。 |
-| 2021 年 4 月 | [设置条件内容](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggerconditional.html?lang=zh-Hans) | 视频 | 在此视频中，了解如何使用 Adobe Document Generation Tagger 在 Microsoft® Word 模板中轻松设置章节，以使用 Adobe Document Generation API 基于数据动态地包含或排除文档的章节。 |
-| 2021 年 4 月 | [[文档服务] 设置数值计算标记 - 专题视频](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggercalculations.html?lang=zh-Hans) | 视频 | 了解如何使用 Adobe Document Generation Tagger 在 Microsoft® Word 模板中轻松设置数值计算标记，以使用 Adobe Document Generation API 计算数据值的聚合或算术。 |
-| 2021 年 4 月 | [添加表格和列表标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggertables.html?lang=zh-Hans) | 视频 | 了解如何使用 Adobe Document Generation Tagger 在 Microsoft® Word 模板中轻松添加表格和列表标记，以使用 Adobe Document Generation API 基于数据动态地添加表格或列表行。 |
-| 2021 年 4 月 | [添加图像标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddimagetags.html?lang=zh-Hans) | 视频 | 了解如何使用 Adobe Document Generation Tagger 在 Microsoft® Word 模板中轻松添加图像标记，以使用 Adobe Document Generation API 动态地将图像推送到文档中。 |
-| 2021 年 4 月 | [添加文本标记](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeraddtexttags.html?lang=zh-Hans) | 视频 | 了解如何使用 Adobe Document Generation Tagger 在 Microsoft® Word 模板中轻松添加标记以用于 Adobe Document Generation API。 |
-| 2021 年 4 月 | [Adobe Document Generation Tagger 概述](https://experienceleague.adobe.com/docs/document-services/tutorials/docgen/docgentemplates/taggeroverview.html?lang=zh-Hans) | 视频 | 了解如何使用 Adobe Document Generation Tagger 为 [!DNL Word] 添加标记以用于 Adobe Document Generation API。 |
+| 2021 年 5 月 | [控制您的 PDF 在线体验并收集分析数据](https://experienceleague.adobe.com/docs/document-services/tutorials/pdfembed/controlpdfexperience.html#part1) | 文章 | 了解如何使用 Adobe PDF Embed API 控制外观、启用协作以及收集有关用户如何与 PDF 进行交互的分析数据，包括花费在页面和搜索上的时间。（四部分。） |
+
+{style=&quot;table-layout:auto&quot;}
 
 有关 Document Cloud 的帮助，请参阅：
 
@@ -426,11 +427,6 @@ Adobe Advertising Cloud 的发行说明。
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hans)
 * [Document Cloud 学习与支持](https://helpx.adobe.com/cn/support/document-cloud.html)
 
-<!-- ## ![Icon](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
+## ![图标](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
 
-New tutorials for Creative Cloud Enterprise.
-
-Published|Name|Type|Description  |
-| -----------| ---------- | ---------- | ---------- |
-|March 2021|[linktext](link)|Video |Description |
- -->
+有关最新教程，请参阅[企业TutorialsCreative Cloud](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=en) 。
