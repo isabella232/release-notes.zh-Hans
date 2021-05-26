@@ -4,10 +4,9 @@ description: Experience Cloud 发行说明
 doc-type: release notes
 last-update: March 2020
 author: mfrei
-translation-type: tm+mt
-source-git-commit: 4cad20ae0aa6d4a6e9776aa7861e2ba3b39f9e6b
+source-git-commit: 48000898226fa1d926948dedc64610cee0bc7f65
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1344'
 ht-degree: 92%
 
 ---
@@ -21,7 +20,7 @@ Adobe Experience Cloud 的新增功能和修复。
 
 >[!IMPORTANT]
 >
->本页包含预发行内容，在发行日期之前可能会有所更改。
+>本页包含预发行内容，在发行日期之前可能会发生更改。
 
 >[!NOTE]
 >
@@ -36,8 +35,8 @@ Adobe Experience Cloud 的新增功能和修复。
 * [Audience Manager](#aam)
 * [Experience Manager](#aem)
 * [Campaign](#ac)
-* [目标](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) （解决方案帮助的链接）
-* [Advertising Cloud](#adcloud)
+* [Target](https://docs.adobe.com/content/help/zh-Hans/target/using/release-notes/target-release-notes.html) （链接到解决方案帮助）
+* [广告](#adcloud)
 * [Magento](#magento)
 * [Marketo](#marketo)
 * [Primetime](https://helpx.adobe.com/cn/primetime/user-guide.html)（链接到解决方案帮助）
@@ -62,7 +61,7 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 
 功能和修复。
 
-有关产品文档，请参阅[Experience Cloud接口](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)
+有关产品文档，请参阅[Experience Cloud界面](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)
 
 ### 管理和开发人员 {#admin}
 
@@ -270,7 +269,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * Adobe Campaign Classic：[文档](https://helpx.adobe.com/cn/support/campaign/classic.html) - [发行说明](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 * Adobe Campaign 控制面板：[文档](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/control-panel-home.html) - [发行说明](https://docs.adobe.com/content/help/zh-Hans/control-panel/using/release-notes.html)
 
-## Advertising Cloud {#adcloud}
+## 广告 {#adcloud}
 
 | 功能 | 描述 |
 | ------- | ------- |
@@ -294,7 +293,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## Marketo {#marketo}
 
-Marketo Engage是销售线索管理和B2B营销人员的完整解决方案，他们希望通过参与复杂购买旅程的每个阶段来转变客户体验。
+Marketo Engage是一个完整的解决方案，面向希望通过参与复杂购买历程的每个阶段来转变客户体验的潜在客户管理人员和B2B营销人员。
 
 ### 核心 Marketo Engage 更新
 
@@ -307,7 +306,7 @@ Marketo Engage是销售线索管理和B2B营销人员的完整解决方案，他
    * 登陆页面重定向规则 API
 * **表单描述符缓存：**&#x200B;对登陆页面和表单的改进。
 
-有关详细信息，请参阅[2020年2月](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)的Marketo发行说明。
+有关更多信息，请参阅Marketo 2020年2月](https://docs.marketo.com/display/public/DOCS/Release+Notes%3A+Feb+%2720)的发行说明。[
 
 ### 即将推出的功能
 
@@ -330,19 +329,19 @@ Marketo Engage是销售线索管理和B2B营销人员的完整解决方案，他
 
 有关累积和历史发行说明，请参阅 [Marketo 发行说明](https://docs.marketo.com/x/CgA6Ag)。
 
-### 新解决方案名称课程和教程
+### 新的解决方案名称课程和教程
 
 过去一个月发布的新视频、教程或课程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
-| 日期，2020年 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
+| 2020年日期 | [链接文本](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/creating-your-first-adaptive-form/adaptive-forms-getting-started-tutorial-use.html) | 视频 | 描述。 |
