@@ -2,17 +2,17 @@
 title: Adobe Experience Cloud 发行说明
 description: Experience Cloud 发行说明
 doc-type: release notes
-last-update: March 2020
+last-update: June 2021
 author: mfrei
-source-git-commit: e01e0ceec2a3aec43f7a64b7c2f3fb9e24b76cc9
+source-git-commit: 918c6cb27c16972d16d4da7f283fa790d14ac51d
 workflow-type: tm+mt
 source-wordcount: '1344'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
 
-# 模板 - Adobe Experience Cloud 发行说明 - 2020 年  月
+# 模板 - Adobe Experience Cloud 发行说明 - 2021 年  月
 
 ![横幅](/assets/experience-cloud-banner-3.png)
 
@@ -26,7 +26,7 @@ Adobe Experience Cloud 的新增功能和修复。
 >
 >若要通过电子邮件接收有关即将发行的版本的通知，请订阅 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html)。对于在版本发行之后发布的新信息，将使用发布日期进行标记。
 
-**发行日期：2020 年**
+**发行日期：2021 年**
 
 * [Adobe 系统状态](#status)
 * [Experience Cloud 界面](#ecloud)
@@ -111,7 +111,7 @@ Experience Cloud 界面中的新增功能和修复，包括管理和核心服务
 * 修复
 * 修复了“未定义”错误地
 
-有关产品文档，请参阅 [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)。
+有关产品文档，请参阅 [Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hans)。
 
 有关Mobile SDK的更多信息，请参阅：[适用于Experience解决方案的Android™ SDK 4.x](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en)和[适用于Experience Cloud解决方案的iOS SDK 4.x](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en)。
 
@@ -267,7 +267,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 * Adobe Campaign Standard：[文档](https://experienceleague.adobe.com/docs/campaign-standard.html) - [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hans)
 * Adobe Campaign Classic：[文档](https://experienceleague.adobe.com/docs/campaign-classic.html) - [发行说明](https://final-docs.campaign.adobe.com/doc/AC/en/RN.html) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)
-* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)
+* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en)
 
 ## 广告 {#adcloud}
 
