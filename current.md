@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 26fb9b46a6cf48db7cd98a75439f35a98e342898
+source-git-commit: 42bcb928d8eb34cc13017dab09f8490a673368a5
 workflow-type: tm+mt
-source-wordcount: '5042'
+source-wordcount: '4910'
 ht-degree: 40%
 
 ---
@@ -235,15 +235,9 @@ Audience Manager 中的修复和改进。
       * [Experience Manager作为Cloud ServiceSDK Build Analyzer Maven插件](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/build-analyzer-maven-plugin.html?lang=en):将您的Maven项目更新到最新版本，该版本包括已弃用的Java™ API检查和其他改进。
    * **Experience Manager Sites as a Cloud Service**
 
-      * **GraphQL端点：** 现在可以为各个Experience Manager站点配置启用Experience ManagerGraphQL API，并通过新的GraphQL控制台UI为这些配置创建自定义GraphQL端点。用户界面还允许管理GraphQL端点。
-      * **内容模型、增强的日期和时间数据类型：** 现在可以配置日期和时间日期类型，以仅允许创作日期、时间或日期和时间信息。
-      * **内容模型、增强的“标记”数据类型：** 现在可以配置“标记”数据类型，以允许创作单个或多个标记。
-      * **内容模型、新的制表符占位符数据类型：** 新的制表符占位符数据类型允许您将数据类型分组到内容片段编辑器中选项卡下呈现的部分中。
+      现在，您可以在新的[预览层](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)上验证内容，以模拟最终体验外观，就像在发布层一样。 此新功能由Experience Manager站点管理的发布向导启用，通过该向导，您可以在[!UICONTROL 发布]或[!UICONTROL 预览]之间选择发布目标。 然后，可以通过专用URL访问[!UICONTROL 预览]上的体验。 在[!UICONTROL Preview]上进行验证后，您可以照常将内容从[!UICONTROL Author]发布]发布到[!UICONTROL 。 在Experience Manager环境中启用[!UICONTROL 预览]服务，这项服务将在接下来的几周逐步推出。
+
    * **Experience Manager Assets as a Cloud Service**
-
-      现在，您可以在新的[预览层](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/previewing-content.html?lang=en)上验证内容，以模拟最终体验外观，就像在发布层一样。 此新功能由Experience Manager站点管理的发布向导启用，该向导允许您在[!UICONTROL 发布]或[!UICONTROL 预览]之间选择发布目标。 随后可以通过专用URL访问[!UICONTROL 预览]上的体验。 在[!UICONTROL Preview]上进行验证后，可以照常从[!UICONTROL Author]发布]内容。 [!UICONTROL 在Experience Manager环境中启用[!UICONTROL 预览]服务，这项服务将在接下来的几周逐步推出。
-
-   * **Experience Manager资产作为Cloud Service**
 
       预发行渠道的新增功能：
 
@@ -254,7 +248,6 @@ Audience Manager 中的修复和改进。
       [!UICONTROL Dynamic Media]的新增功能：
 
       * 智能成像设备像素比(DPR)和网络带宽优化让您能够在具有高分辨率显示器和有限网络带宽的设备上高效交付最佳质量的图像。 请参阅[智能成像常见问题解答](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/imaging-faq.html?lang=en)。
-
 
 
 
