@@ -5,9 +5,9 @@ doc-type: release notes
 last-update: June 2021
 author: mfrei
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8adc3fe8f3f4b174d1c41cc7c3162d38a984d661
+source-git-commit: d45e7c6a5329d4e6a211edaeb607547bfb297e4e
 workflow-type: tm+mt
-source-wordcount: '5062'
+source-wordcount: '5042'
 ht-degree: 40%
 
 ---
@@ -58,8 +58,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 * [中央接口组件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-cn)和用户管理的管理帮助
 * [Places - Location Service](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的帮助和发行说明
-* [人员 — 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)帮助
-有关这些功能的产品文档，请参阅[Experience Cloud中心界面组件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)。
+* 有关[人员 — 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)的帮助。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
