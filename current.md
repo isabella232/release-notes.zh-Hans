@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 823476f3b4553a0bd9aae8670652bec1259cd84f
+source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
 workflow-type: tm+mt
-source-wordcount: '4914'
-ht-degree: 40%
+source-wordcount: '4913'
+ht-degree: 41%
 
 ---
 
@@ -23,7 +23,7 @@ Experience Cloud应用程序和服务会按月更新。 本页是您查找[!DNL 
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 6 月 11 日**
+最新更新日期：**2021 年 6 月 14 日**
 
 * [Experience Cloud中心界面组件](#ecloud)
 * [Adobe 系统状态](#status)
@@ -311,11 +311,11 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 详细了解最新发布的功能、改进和修复：
 
-* **新的Adobe Campaign v8** ，具有显着的基础架构、安全性、可投放性和监控增强功能。通过使用[!DNL Snowflake]（一种云数据库技术），Adobe Campaign显着提高了其规模和速度，能够管理更多的客户档案，以及更高的每小时交付率和交易。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)，以了解更多信息。
+* **新的Adobe Campaign v8** 提供了重要的基础架构、安全性、可交付性和监控增强功能。Adobe Campaign v8显着提高了其规模和速度，能够管理更多的客户用户档案，以及更高的每小时交付率和交易。 请参阅[Campaign v8文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html)，以了解更多信息。
 
-* **Adobe Campaign Classic v7 21.1.3版本**:请参阅 [Campaign Classicv7发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)。
+* **Adobe Campaign Classic v7 21.1.3版本：** 在Campaign Classicv7发行说明中 [了解详情](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans)。
 
-* **Adobe Campaign Standard 21.2版本**:请参阅Campaign Standard发 [行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)以了解更多信息。
+* **Adobe Campaign Standard 21.2版本：** 在Campaign Standard发行说明中 [了解更多信息](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hans)。
 
 ### 新的[!UICONTROL Campaign]课程和教程{#tutorials-campaign}
 
