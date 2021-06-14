@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
+source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
 workflow-type: tm+mt
-source-wordcount: '4926'
+source-wordcount: '4930'
 ht-degree: 41%
 
 ---
@@ -51,7 +51,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 | 功能 | 日期 | 描述 |
 | ------- | ------- | ------- |
 | 对AdobeFederated ID的单点登录支持 | 2021 年 6 月 17 日 | 如果您使用Federated ID，则无需输入电子邮件地址或密码即可登录Experience Cloud。 要使用此功能，请将&#x200B;**#/sso:@domain**&#x200B;添加到Experience CloudURL。 <br><br>例如，假定您拥有域 **adobecustomer.** com，并且想要登录Adobe Analytics。URL应为：**https://experience.adobe.com/#/sso:@adobecustomer.com/analytics**。 |
-| Experience League搜索 | 2021 年 6 月 1 日 | Experience League文档搜索已得到改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=en)并使用&#x200B;**[!UICONTROL Search]**&#x200B;字段找到教程、文档、课程等。 |
+| Experience League搜索 | 2021 年 6 月 1 日 | Experience League文档搜索已得到改进。 导航到[Experience League](https://experienceleague.adobe.com/docs/?lang=en)并使用&#x200B;**[!UICONTROL 搜索]**&#x200B;字段找到教程、文档、课程等内容。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -89,7 +89,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 | 2021 年 6 月 | [创建数据类型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 视频 | 了解如何在Adobe Experience Platform中创建您自己的数据类型，以便在Experience Data Model(XDM)模式中使用。 |
 | 2021 年 6 月 | [将数据模型转换为体验数据模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 视频 | 了解数据架构师如何利用他们现有的事务型数据模型并将其转换为体验数据模型。 此视频展示了使用实体 — 关系图的建模方法的不同。 |
 | 2021 年 6 月 | [规划数据模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 视频 | 在开始在Adobe Experience Platform中构建模式之前，了解要执行的操作。 记录您的业务用例、了解您的平台许可证、了解产品防护，并在最终确定数据模型之前确定要摄取的数据。 |
-| 2021 年 6 月 | [塔布洛](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 视频 | 了解如何从支持`PostgreSQL`协议的各种桌面客户端应用程序连接到[!UICONTROL 查询服务]，以及如何使用`PostgreSQL`工具和驱动程序连接和写入查询。 |
+| 2021 年 6 月 | [将表格连接到查询服务](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 视频 | 了解如何从支持`PostgreSQL`协议的各种桌面客户端应用程序连接到[!UICONTROL 查询服务]，以及如何使用`PostgreSQL`工具和驱动程序连接和写入查询。 |
 | 2021 年 6 月 | [Adobe定义的函数](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 视频 | 了解如何在Adobe Experience Platform [!UICONTROL 查询服务]中使用Adobe定义的函数，对体验事件数据执行常见的业务相关任务。 |
 | 2021 年 6 月 | [数据探索](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 视频 | 了解如何使用SQL函数验证摄取的数据、预览数据，以及探索数据的统计和分析属性。 |
 | 2021 年 6 月 | [查询服务概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 视频 | 了解Adobe Experience Platform中的查询服务，以及它如何帮助了解客户行为并生成有影响的洞察。 |
@@ -257,7 +257,7 @@ Audience Manager 中的修复和改进。
 
 * [提交新Experience Manager构思的准则](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/td-p/382376)
 
-* [2021年Adobe峰会与丹·利维私下交谈](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865):每年，每位Adobe员工（从工程师、数据科学家到UX设计师和产品经理）都有机会分享创新想法，以改进品牌与客户交互的方式。加入我们的Adobe“秘密”，我们分享前七个项目，利用人工智能和低代码应用程序等领域的最新技术。
+* [2021年Adobe Summit与丹·利维私下](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/adobe-summit-2021-sneaks-with-dan-levy/td-p/405865):每年，每位Adobe员工（从工程师、数据科学家到UX设计师和产品经理）都有机会分享创新想法，以改进品牌与客户交互的方式。加入我们的Adobe“秘密”，我们分享前七个项目，利用人工智能和低代码应用程序等领域的最新技术。
 
 ### Experience Manager 发行信息
 
