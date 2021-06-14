@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b0ad7a5c45760fba6a1a4e7e0f6dbbedbef93355
+source-git-commit: e198a57703d4be29e32e9b2919af157858651d74
 workflow-type: tm+mt
-source-wordcount: '4913'
+source-wordcount: '4926'
 ht-degree: 41%
 
 ---
@@ -403,7 +403,9 @@ Adobe[!DNL Workfront]是一个统一的工作管理应用程序，用于分享�
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hans)
 * [Document Cloud 学习与支持](https://helpx.adobe.com/cn/support/document-cloud.html)
 
-## ![图标](/assets/creative-cloud-24.png) Creative Cloud Enterprise {#creative-cloud}
+## ![](/assets/creative-cloud-24.png) IconCreative Cloud企业版  {#creative-cloud}
+
+发布的关于企业Creative Cloud的新视频、教程或课程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | ----------| --------- | --------- | --------- |
