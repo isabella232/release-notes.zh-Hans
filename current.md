@@ -6,10 +6,10 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c6aea555356863f7674dcda54fad19ea31394775
+source-git-commit: 4fc39c45e2b9eef506acbbaa04bf7302b53003fa
 workflow-type: tm+mt
-source-wordcount: '4930'
-ht-degree: 41%
+source-wordcount: '4941'
+ht-degree: 40%
 
 ---
 
@@ -80,18 +80,18 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 6 月 | [准备数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 视频 | 了解如何清理、准备和合并来自多个数据集的数据，以使用创建表AS(CTAS)和Spark SQL函数创建数据集，以用于报告和功能板。 |
+| 2021 年 6 月 | [使用查询服务准备数据](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/prepare-data.html) | 视频 | 了解如何清理、准备和合并来自多个数据集的数据，以使用创建表AS(CTAS)和Spark SQL函数创建数据集，以用于报告和功能板。 |
 | 2021 年 6 月 | [在沙箱之间复制架构](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/copy-schemas-between-sandboxes.html) | 视频 | 了解如何使用[!UICONTROL 导出/导入架构API]将架构从一个沙箱复制到Adobe Experience Platform中的另一个沙箱。 在开发沙箱中构建并测试您的模式，然后将其复制到生产环境。 |
 | 2021 年 6 月 | [更新架构](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/update-schemas.html) | 视频 | 了解在Adobe Experience Platform中更新现有模式时要注意的基本事项。 |
 | 2021 年 6 月 | [架构构建块](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/schema-building-blocks.html) | 视频 | 了解体验数据模型(XDM)架构的关键构建基块元素，包括字段、数据类型、架构字段组、类和行为。 |
-| 2021 年 6 月 | [创建类](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 视频 | 了解如何在Adobe Experience Platform中创建类以在Experience Data Model(XDM)模式中使用。 |
+| 2021 年 6 月 | [创建架构类](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-classes.html) | 视频 | 了解如何在Adobe Experience Platform中创建类以在Experience Data Model(XDM)模式中使用。 |
 | 2021 年 6 月 | [配置架构之间的关系](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html) | 视频 | 了解如何在Adobe Experience Platform中配置两个模式之间的关系。 关系允许您将一个数据集用作另一个数据集的查询表。 |
-| 2021 年 6 月 | [创建数据类型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 视频 | 了解如何在Adobe Experience Platform中创建您自己的数据类型，以便在Experience Data Model(XDM)模式中使用。 |
+| 2021 年 6 月 | [创建架构数据类型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/create-data-types.html) | 视频 | 了解如何在Adobe Experience Platform中创建您自己的数据类型，以便在Experience Data Model(XDM)模式中使用。 |
 | 2021 年 6 月 | [将数据模型转换为体验数据模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/convert-your-data-model-to-xdm.html) | 视频 | 了解数据架构师如何利用他们现有的事务型数据模型并将其转换为体验数据模型。 此视频展示了使用实体 — 关系图的建模方法的不同。 |
 | 2021 年 6 月 | [规划数据模型](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/plan-your-data-model.html) | 视频 | 在开始在Adobe Experience Platform中构建模式之前，了解要执行的操作。 记录您的业务用例、了解您的平台许可证、了解产品防护，并在最终确定数据模型之前确定要摄取的数据。 |
 | 2021 年 6 月 | [将表格连接到查询服务](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/psql-client-tableau.html) | 视频 | 了解如何从支持`PostgreSQL`协议的各种桌面客户端应用程序连接到[!UICONTROL 查询服务]，以及如何使用`PostgreSQL`工具和驱动程序连接和写入查询。 |
-| 2021 年 6 月 | [Adobe定义的函数](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 视频 | 了解如何在Adobe Experience Platform [!UICONTROL 查询服务]中使用Adobe定义的函数，对体验事件数据执行常见的业务相关任务。 |
-| 2021 年 6 月 | [数据探索](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 视频 | 了解如何使用SQL函数验证摄取的数据、预览数据，以及探索数据的统计和分析属性。 |
+| 2021 年 6 月 | [Adobe查询服务中定义的函数](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/adobe-defined-functions.html) | 视频 | 了解如何在Adobe Experience Platform [!UICONTROL 查询服务]中使用Adobe定义的函数，对体验事件数据执行常见的业务相关任务。 |
+| 2021 年 6 月 | [使用查询服务进行数据探索](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/explore-data.html) | 视频 | 了解如何使用SQL函数验证摄取的数据、预览数据，以及探索数据的统计和分析属性。 |
 | 2021 年 6 月 | [查询服务概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html) | 视频 | 了解Adobe Experience Platform中的查询服务，以及它如何帮助了解客户行为并生成有影响的洞察。 |
 | 2021 年 6 月 | [查询服务UI概述](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-ui.html) | 视频 | 了解如何在Adobe Experience Platform查询服务中编写和执行查询、查看以前执行的查询，以及访问您的IMS组织内其他用户保存的查询。 |
 | 2021 年 6 月 | [查询 API](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/query-service-api.html) | 视频 | 了解如何使用Adobe Experience Platform [!UICONTROL 查询服务API]编写和执行查询、创建计划查询以及创建查询模板。 |
