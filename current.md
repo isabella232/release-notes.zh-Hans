@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 4fc39c45e2b9eef506acbbaa04bf7302b53003fa
 workflow-type: tm+mt
 source-wordcount: '4941'
-ht-degree: 40%
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 40%
 
 ![横幅](assets/experience-cloud-banner-3.png)
 
-Experience Cloud应用程序和服务会按月更新。 本页是您查找[!DNL Experience Cloud]和[!DNL Experience Platform]最新版本更新、文档和教程的中心位置。 还可查找 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文档。
+Experience Cloud 应用程序和服务每月更新一次。在此页面上可集中查找 [!DNL Experience Cloud] 和 [!DNL Experience Platform] 的最新版本更新、文档和教程。还可查找 [!DNL Creative Cloud for Enterprise] 和 [!DNL Document Cloud] 的新文档。
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Experience Cloud应用程序和服务会按月更新。 本页是您查找[!DNL 
 
 最新更新日期：**2021 年 6 月 14 日**
 
-* [Experience Cloud中心界面组件](#ecloud)
+* [Experience Cloud 中央界面组件](#ecloud)
 * [Adobe 系统状态](#status)
 * [Experience Platform](#platform)
 * [Journey Orchestration](#journey-orch)
@@ -106,7 +106,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 **Journey Orchestration 的更多资源**
 
-[文档](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en)
+[文档](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hans)
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Offer Decisioning {#offer-decisioning}
 
@@ -145,7 +145,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe Analytics 中的修复{#aa-fixes}
+### Adobe Analytics 中的修复 {#aa-fixes}
 
 * 修复了收入实时报表中货币显示不正确的问题。 (AN-254649)
 * 更新了有关[报表中eVar区分大小写的文档](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)。 (AN-246438)
@@ -160,13 +160,13 @@ AN-246344;AN-250035;AN-250354;AN-252482;AN-254661;AN-254965;AN-255424;AN-256515;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 浏览器用户代理反映macOS的操作系统版本不正确 | 2021 年 5 月 19 日 | 当前，所有主要浏览器都会将macOS X 11及更高版本的用户报告错误为使用macOS 10，这是在浏览器的用户代理字符串中记录的。 此问题会影响Adobe Analytics报表，因为它使用用户代理来确定设备信息（如操作系统）。 这种不准确性显然是为了防止某些网站出现兼容性问题。 请参阅此[Bugzilla票证](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)以获取参考。 目前尚不清楚此问题何时或是否会得到修复。<br>某些浏览器最初正确记录了macOS 11，因此可能存在一些与此值匹配的流量。但是，由于报告不准确，因此对操作系统macOS 11的筛选没有用处。<br>此问题很重要，因为从macOS 11上的Safari开始，Apple更新了ITP Cookie到期限制以应用于CNAME实施(请参阅 [WebKit博客文章](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/))。<br>在此更新之前，这些限制仅适用于通过JavaScript设置的客户端Cookie。这种不准确性使得很难评估使用OS 11的流量，因此会受到ITP更改的影响。 您可以在此处](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html#cookies)了解有关Cookie和Adobe Analytics的更多信息。[ |
-| 三种 Analytics API 服务的生命周期终止 | 2021 年 5 月 19 日 | 2021年8月18日，以下Analytics旧版API服务到达其生命周期终止日期并关闭。 当前使用这些服务构建的任何集成在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe提供了[旧版API EOL常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)，以帮助回答您的问题并提供有关如何继续的指导。 使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
-| 2021 ISO地区更新 | 2021 年 5 月 13 日 | Adobe将于2021年5月21日执行2021 ISO区域更新。 预计会在此版本之后看到一些小更新。 |
+| 浏览器用户代理反映的 macOS 操作系统版本有误 | 2021 年 5 月 19 日 | 所有主要浏览器当前都将 macOS X 11 和更高版本的用户错误地报告为使用的是 macOS 10，如浏览器的用户代理字符串中记录的那样。此问题影响 Adobe Analytics 报表，因为它使用用户代理确定操作系统等设备信息。这种不准确性显然是为了防止某些网站发生兼容性问题。请参阅 [Bugzilla 服务单](https://bugs.webkit.org/show_bug.cgi?id=213622&amp;utm_source=convertkit&amp;utm_medium=email&amp;utm_campaign=User+Agent+strings%2C+new+BigQuery+features%2C+custom+Google+Tag+Manager+loader...+%E2%80%93+Simmer+Newsletter+%2311%20-%205873454)以供参考。目前尚不清楚此问题何时或是否会得到修复。<br>某些浏览器最初正确记录了 macOS 11，因此可能有一些流量与此值相符。但是，由于报告得不准确，因此筛选 macOS 11 操作系统并无用处。<br>这个问题有重大意义，因为从 macOS 11 上的 Safari 起，Apple 更新了要适用于 CNAME 实现的 ITP Cookie 到期限制（请参阅 [WebKit 博客帖子](https://webkit.org/blog/11338/cname-cloaking-and-bounce-tracking-defense/)）。<br>在此次更新之前，这些限制仅适用于通过 JavaScript 设置的客户端 Cookie。这种不准确性使得难以评估有多少流量正在使用 macOS 11，并因此受 ITP 变更的影响。可在[此处](https://experienceleague.adobe.com/docs/analytics/technotes/cookies/cookies.html?lang=zh-Hans#cookies)详细了解 Cookie 和 Adobe Analytics。 |
+| 三种 Analytics API 服务的生命周期终止 | 2021 年 5 月 19 日 | 2021 年 8 月 18 日，以下几项 Analytics 旧版 API 服务达到其生命周期结束日期并被关闭。任何使用这些服务构建的当前集成都在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
+| 2021 年 ISO 区域更新 | 2021 年 5 月 13 日 | Adobe 将在 2021 年 5 月 21 日执行 2021 年 ISO 区域更新。预计在这个版本之后将看到小规模更新。 |
 | 完全处理数据源生命周期终止 | 2021 年 4 月 12 日 | Adobe 计划在 2021 年 7 月 31 日弃用完全处理数据源。从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
 | [!UICONTROL Report Builder] 的登录更新 | 2021 年 4 月 9 日 | 2021 年 1 月 14 日，[!UICONTROL Report Builder] 登录更新移除了对传统技术的依赖，与 Experience Cloud 的登录过程保持一致。Experience Cloud 使用 Enterprise ID（电子邮件和密码）。要确保对 [!UICONTROL Report Builder] 的访问不会出现中断，请在 2021 年 7 月 22 日之前将 [!UICONTROL Report Builder] 插件更新到 5.6.47 版本或更新的版本。Report Builder 的 5.6.47 版本及更新的版本仅支持 Experience Cloud 登录，不再支持单点登录。 |
-| Data Feed and Data Warehouse IP 地址更改 | 2021 年 4 月 6 日 | 从 6 月 17 日开始，Data Feeds and Data Warehouse 传递系统将在 Adobe 的数据中心重新进行布置，因此可能会导致您看到的外部 IP 地址发生更改。Adobe 建议您确认，作为您的报告和馈送来源的数据中心的所有 IP CIDR 区块均在您控制的目标系统的防火墙内。[以下是要放入防火墙的IP地址范围的完整允许列表列表](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans#data-collection-and-ftp-ip-address-blocks)。 |
-| 即将推出的 Analytics 菜单更改的通知 | 2021 年 3 月 24 日 | 在 2021 年 4 月 22 日，Adobe 更新了&#x200B;**[!UICONTROL 组件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理员]**&#x200B;下拉菜单，以实现一定程度的性能提升。所有这些页面仍位于&#x200B;**[!UICONTROL 所有组件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理员]**&#x200B;链接下方 — 将从下拉菜单中删除它们。 以下是将从下拉菜单中删除并放在其相应链接页面上的菜单项：<br><br> [!UICONTROL 组件]<ul><li>[!UICONTROL 书签]</li><li>[!UICONTROL 仪表板]</li><li>[!UICONTROL 目标]</li><li>[!UICONTROL 日历活动]</li><li>[!UICONTROL 计划报告]</li><li>[!UICONTROL 报表设置]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理员]<ul><li>[!UICONTROL User Management]</li><li>[!UICONTROL 分类导入器]</li><li>[!UICONTROL 分类规则生成器]</li><li>[!UICONTROL 数据源]</li><li>[!UICONTROL 数据连接器]</li><li>[!UICONTROL 公司设置]</li><li>[!UICONTROL 日志]</li><li>[!UICONTROL 动态标记管理]</li><li>[!UICONTROL 代码管理器]</li><li>[!UICONTROL 通过 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
+| Data Feed and Data Warehouse IP 地址更改 | 2021 年 4 月 6 日 | 从 6 月 17 日开始，Data Feeds and Data Warehouse 传递系统将在 Adobe 的数据中心重新进行布置，因此可能会导致您看到的外部 IP 地址发生更改。Adobe 建议您确认，作为您的报告和馈送来源的数据中心的所有 IP CIDR 区块均在您控制的目标系统的防火墙内。[以下是可放入防火墙允许列表的 IP 地址范围的完整列表](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hans#data-collection-and-ftp-ip-address-blocks)。 |
+| 即将推出的 Analytics 菜单更改的通知 | 2021 年 3 月 24 日 | 在 2021 年 4 月 22 日，Adobe 更新了&#x200B;**[!UICONTROL 组件]**、**[!UICONTROL 工具]**&#x200B;和&#x200B;**[!UICONTROL 管理员]**&#x200B;下拉菜单，以实现一定程度的性能提升。仍可通过&#x200B;**[!UICONTROL 所有组件]**、**[!UICONTROL 所有工具]**&#x200B;和&#x200B;**[!UICONTROL 所有管理员]**&#x200B;链接进入所有这些页面 - 但将从下拉菜单中删除这些页面。以下是将从下拉菜单中删除并放在其相应链接页面上的菜单项：<br><br> [!UICONTROL 组件]<ul><li>[!UICONTROL 书签]</li><li>[!UICONTROL 仪表板]</li><li>[!UICONTROL 目标]</li><li>[!UICONTROL 日历活动]</li><li>[!UICONTROL 计划报告]</li><li>[!UICONTROL 报表设置]</li></ul>[!UICONTROL 工具]<ul><li>[!UICONTROL Recommendations Classic]</li><li>[!UICONTROL Search &amp; Promote]</li></ul>[!UICONTROL 管理员]<ul><li>[!UICONTROL User Management]</li><li>[!UICONTROL 分类导入器]</li><li>[!UICONTROL 分类规则生成器]</li><li>[!UICONTROL 数据源]</li><li>[!UICONTROL 数据连接器]</li><li>[!UICONTROL 公司设置]</li><li>[!UICONTROL 日志]</li><li>[!UICONTROL 动态标记管理]</li><li>[!UICONTROL 代码管理器]</li><li>[!UICONTROL 通过 IP 排除]</li><li>[!UICONTROL 流量管理]</li></ul> |
 | Same-as-SiteCatalyst VISTA 处理开启 | 2021 年 3 月 17 日 | 在 2021 年 6 月 17 日，所有报表包都将更新为将 [!UICONTROL Same-as-SiteCatalyst VISTA Processing] 设置为 ON。此更改影响 Data Warehouse 报表，其中处理数据以匹配处理规则。如有疑问或需要说明，请联系客户关怀团队。 |
 | Reports &amp; Analytics 登陆页面选项 | 2021 年 2 月 19 日 | 2021 年 3 月 25 日，将新的 Reports &amp; Analytics 功能板或其他内容设置为 Adobe Analytics 登陆页面的选项已被移除。如果以前曾将 Reports &amp; Analytics 页面设置为自定义登陆页面，它将保持原样，直到在[!UICONTROL “用户首选项”]中修改登陆页面。 |
 | Adobe Data Connectors 生命周期终止 | 2020 年 7 月 13 日 | Adobe [!UICONTROL Data Connectors] 由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 2021 年 8 月 1 日。[了解详情...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=zh-Hans) |
@@ -200,7 +200,7 @@ AN-246344;AN-250035;AN-250354;AN-252482;AN-254661;AN-254965;AN-255424;AN-256515;
 
 Audience Manager 中的修复和改进。
 
-### 修复和改进 {#aam-fixes-and-improvements}
+### 修复和改进功能 {#aam-fixes-and-improvements}
 
 * 发布了[活动使用情况报表](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/activity-usage-reporting.html?lang=en)的增强功能，该功能现在允许您查看超过一年的数据。 (AAM-58268)
 * Adobe为Audience Manager客户提供Audience ManagerAmazon S3存储段的用户访问密钥。 出于安全原因，密钥在处于不活动状态100天后会自动禁用。 有关更多信息，请参阅[数据收集和产品集成常见问题解答](https://experienceleague.adobe.com/docs/audience-manager/user-guide/faqs/faq-data-collection.html?lang=en)中页面底部的问题。
@@ -211,7 +211,7 @@ Audience Manager 中的修复和改进。
 
 >[!NOTE]
 >
->Adobe建议访问[Experience Manager版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)页面以保持最新的发行信息。
+>Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)页面以及时了解版本信息。
 
 ### Experience Manager产品更新
 
@@ -228,7 +228,7 @@ Audience Manager 中的修复和改进。
 
    Experience Manager 即云服务中的新增功能：
 
-   * **Adobe Experience Manager as a Cloud Service 基础**
+   * **Adobe Experience Manager Sites 即云服务 基础**
 
       * [预发行渠道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/prerelease.html?lang=en):在即将推出的功能投入生产前一个月预览这些功能！
       * [API弃用](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=en):最新已弃用API的列表。
@@ -293,7 +293,7 @@ Audience Manager 中的修复和改进。
 
 ### Experience Manager 的其他帮助资源
 
-* [Experience Manager as a Cloud Service 指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=en)
+* [Experience Manager Sites 即云服务指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=en)
 * [Experience Manager 6.5 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=zh-Hans)
 * [Experience Manager 6.4 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hans)
 * [Experience Manager 6.3 学习和支持主页](https://helpx.adobe.com/cn/support/experience-manager/6-3.html)
@@ -317,11 +317,11 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 * **Adobe Campaign Standard 21.2版本：** 在Campaign Standard发行说明中 [了解更多信息](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hans)。
 
-### 新的[!UICONTROL Campaign]课程和教程{#tutorials-campaign}
+### 新的[!UICONTROL Campaign]课程和教程 {#tutorials-campaign}
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 6 月 | [将Campaign Standard与Analytics集成，以优化电子邮件营销](https://experienceleague.adobe.com/?recommended=Campaign-U-1-2021.1.integration) | Campaign Standard | （课程）了解如何将Campaign Standard与Adobe Analytics集成，以及如何使用实时数据优化电子邮件营销策略。 本课程将向您展示如何在Adobe Analytics中构建Campaign Standard报表。 然后，了解如何使用Experience Cloud触发器和Platform launch根据客户活动配置营销和事务型消息。 |
+| 2021 年 6 月 | [将 Campaign Standard 与 Analytics 集成以优化电子邮件营销](https://experienceleague.adobe.com/?lang=zh-Hans?recommended=Campaign-U-1-2021.1.integration) | Campaign Standard | （课程）了解如何将Campaign Standard与Adobe Analytics集成，以及如何使用实时数据优化电子邮件营销策略。 本课程展示如何在 Adobe Analytics 中构建 Campaign Standard 报表。然后，学习如何使用 Experience Cloud 触发器和 Platform Launch 根据客户活动配置营销和事务性消息。 |
 | 2021 年 6 月 | [Adobe Campaign V8 教程](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html) | Campaign V8 | 本用户指南包含了有关 Adobe Campaign V8 的众多特性和功能的视频和教程。 |
 | 2021 年 6 月 | [创建和设计电子邮件发送](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/content-creation/email/create-and-design-email-deliveries.html) | Campaign V8 | （视频）了解创建电子邮件投放的流程，并了解如何设计和个性化电子邮件内容。 |
 | 2021 年 6 月 | [针对可达性设计电子邮件](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/sending-messages/email/design-emails-for-deliverability.html) | Campaign V8 | （视频）了解如何将投放能力最佳实践应用于电子邮件投放。 |
@@ -334,16 +334,16 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 * Adobe Campaign Standard：[帮助中心](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans) - [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hans) - [最新文档更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=zh-Hans)
 * Adobe Campaign Classic：[帮助中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hans)- [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=zh-Hans)
-* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=en) 的操作方法视频
+* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
 
-## ![](/assets/advertising-cloud.png) IconAdvertising {#adcloud}
+## ![Icon](/assets/advertising-cloud.png) 广告 {#adcloud}
 
-[!DNL Adobe Advertising]的发行说明。
+[!DNL Adobe Advertising] 的发行说明。
 
 * [Advertising DSP 中的新增功能](#adcloud-dsp)
 * [Advertising Search 中的新增功能](#adcloud-search)
 
-### [!DNL Advertising DSP] 中的新增功能 {#adcloud-dsp} 
+### [!DNL Advertising DSP] 中的新增功能   {#adcloud-dsp}
 
 上次更新时间：**2021年6月10日（适用于6月16日版）**
 
@@ -353,13 +353,13 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Search] 中的新增功能 {#adcloud-search} 
+### [!DNL Advertising Search] 中的新增功能   {#adcloud-search}
 
-上次更新时间：**2021年5月19日，适用于5月18日版的**
+上次更新：**2021 年 5 月 19 日发布 5 月 18 日版**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| [!UICONTROL 通知中心测试版] | [!UICONTROL 通知中心测试版]可供所有用户使用。 使用它可订阅有关帐户身份验证错误、触发的自定义警报以及您生成的[!UICONTROL 广告分析]的完成情况的电子邮件和Web通知。<br>您可以通过以下任一方式查看通知：<ul><li>[!UICONTROL Notifications]面板，从任何页面右上角的Notifications链接中打开。</li><li>位于[!UICONTROL 分析和报告>通知中心测试版]的[!UICONTROL 通知中心]。</li></ul><br><b>注意：</b> 由于改进了通知的存储方式，所有现有通知都被清除。 |
+| [!UICONTROL 通知中心 Beta 版] | [!UICONTROL 通知中心 Beta 版]现在向所有用户开放。使用它订阅关于帐户身份验证错误、触发的自定义警报以及完成您生成的 [!UICONTROL Advertising Insights] 的电子邮件和 Web 通知。<br>可从以下任意一项中查看通知：<ul><li>[!UICONTROL “通知”]面板，从任意页面右上角的“通知”链接打开它。</li><li>[!UICONTROL “见解和报表”>“通知中心 Beta 版”]上的[!UICONTROL “通知中心”]。</li></ul><br><b>注意：</b>由于改进了通知的存储方式，因此清除了所有现有的通知。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -389,7 +389,7 @@ Adobe[!DNL Workfront]是一个统一的工作管理应用程序，用于分享�
 
 为 Adobe Document Cloud 发布的新视频、教程或课程。
 
-### Document Cloud课程及教程{#tutorials-doc-cloud}
+### Document Cloud课程和教程 {#tutorials-doc-cloud}
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
@@ -403,7 +403,7 @@ Adobe[!DNL Workfront]是一个统一的工作管理应用程序，用于分享�
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hans)
 * [Document Cloud 学习与支持](https://helpx.adobe.com/cn/support/document-cloud.html)
 
-## ![](/assets/creative-cloud-24.png) IconCreative Cloud企业版  {#creative-cloud}
+## ![](/assets/creative-cloud-24.png) IconCreative Cloud企业版 {#creative-cloud}
 
 发布的关于企业Creative Cloud的新视频、教程或课程。
 
@@ -414,4 +414,4 @@ Adobe[!DNL Workfront]是一个统一的工作管理应用程序，用于分享�
 
 {style=&quot;table-layout:auto&quot;}
 
-有关最新教程，请参阅[企业TutorialsCreative Cloud](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=en) 。
+有关最新教程，请参阅 [Creative Cloud 企业版教程](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/overview.html?lang=zh-Hans)。
