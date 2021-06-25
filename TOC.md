@@ -13,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# Adobe Experience Cloud 的新增功能{#experience-cloud}
+# Adobe Experience Cloud 的新增功能 {#experience-cloud}
 
 + [当前的发行说明](current.md)
 + 以前的发行说明 {#previous}
