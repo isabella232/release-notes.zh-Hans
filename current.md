@@ -6,9 +6,9 @@ last-update: June 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6778e1f9e6d8059d0453eb0cc5e572d16a7a7e7c
+source-git-commit: 99885f10a13d7b51702ffac182362f1abd09f141
 workflow-type: tm+mt
-source-wordcount: '4958'
+source-wordcount: '4984'
 ht-degree: 51%
 
 ---
@@ -226,7 +226,11 @@ Audience Manager 中的修复和改进。
 
 * **Experience Manager 即云服务**
 
-   Experience Manager 即云服务中的新增功能：
+   Experience Manager 即云服务中的新增功能。
+
+   >[!NOTE]
+   >
+   >Experience Manager作为Cloud Service6月版功能现已发布。 要体验新功能，请确保至少Experience Manager2021.6.5561。
 
    * **Adobe Experience Manager Sites 即云服务 基础**
 
