@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fbea6cb1eb34af8d7957451bb7c9117202e002d4
+source-git-commit: 9a3217d27c176834935ae72ae375bda5cdf6c7f2
 workflow-type: tm+mt
-source-wordcount: '3934'
-ht-degree: 46%
+source-wordcount: '4899'
+ht-degree: 38%
 
 ---
 
@@ -203,6 +203,80 @@ Audience Manager 中的修复和改进。
 ## ![图标](/assets/aem.png) Experience Manager {#aem}
 
 Adobe建议您经常访问[Experience Manager版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)以保持最新的发行信息。
+
+* **Experience Manager 即云服务**
+
+   Experience Manager 即云服务中的新增功能：
+
+   * **Adobe Experience Manager as aCloud Service的XML Documentation**
+
+      * **云原生组件内容管理系统**  — 适用于Adobe Experience Manager的XML Documentation可作为Cloud Service使用。获取可让您大规模创作、管理和交付文档和内容的环境。
+      * **AI支持的文档**  — 智能标记功能，可自动从用于元数据标签的文本中识别和提取相关元数据关键字。
+      * **Web编辑器的新外观**  - UI更改的新外观使其更直观。底层架构已从珊瑚变为基于反应的光谱。
+   * **AEM as a Cloud ManagerCloud Service**
+
+      * [!UICONTROL 预] 览服务以滚动方式部署到所有程序。在为[!UICONTROL 预览服务]启用了“计划”后，将在产品中通知客户。 请参阅[访问预览服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service)。
+      * 现在，在生成步骤期间下载的Maven依赖项会在管道运行之间缓存。 此功能将在未来几周为客户启用。
+      * 您现在可以通过[!UICONTROL 编辑程序]对话框编辑程序的名称。
+      * 在项目创建期间和默认的[!UICONTROL 通过管理Git工作流在Push]命令中使用的默认分支名称已更改为`main`。
+      * 界面中的编辑程序体验已刷新。
+      * 质量规则`ImmutableMutableMixCheck`已更新，可将`/oak:index`节点分类为不可变。
+      * 质量规则`CQBP-84andCQBP-84--dependencies`已合并到单个规则中。 作为此整合的一部分，对依赖项的扫描可以更准确地确定部署到Experience Manager运行时的第三方依赖项中的问题。
+      * 为避免混淆，“环境详细信息”页面上的“发布Experience Manager”和“发布调度程序”区段行已进行整合。
+      * 添加了新的代码质量规则来验证`damAssetLucene`索引的结构。 请参阅[自定义DAM资产Lucene Oak索引](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/test-results/custom-code-quality-rules.html?lang=en#oakpal-damAssetLucene-sanity-check)。
+      * 现在，环境详细信息页面会根据需要显示发布和预览服务的多个域名。 请参阅[环境详细信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#viewing-environment)。
+   * **Experience Manager Assets as a Cloud Service**
+
+      资产的新增功能：
+
+      * [!UICONTROL 内容] 自动化功能允许Experience Manager资产使用Adobe Creative Cloud API大规模自动化资产生产。它可显着减少创建同一资产变体所需的时间和迭代次数，从而提高内容速度。 该功能不需要任何编程，也可从DAM内工作。 请参阅[使用Adobe Creative Cloud集成生成资产的变体](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/cc-api-integration.html?lang=en)。
+      * [提供了适用于Adobe Photoshop、Adobe Illustrator和Adobe InDesign的Adobe资产链接3.0](https://helpx.adobe.com/cn/enterprise/using/adobe-asset-link.html) 和适用于Adobe XD的 [AdobeAdobe资产链接2.0](https://helpx.adobe.com/cn/enterprise/using/adobe-asset-link-for-xd.html) 。它支持Assets Essentials，并能够自动作为Cloud Service或Assets Essentials连接到Experience Manager。
+      * 使用[资产批量摄取工具](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/add-assets.html?lang=zh-Hans#asset-bulk-ingestor)可在批量摄取期间添加元数据。
+
+      资产预发行渠道的新增功能：
+
+      * 视图设置经过增强，允许您选择默认视图和默认排序参数。
+      * [!UICONTROL 链接共享]下载功能使用异步下载来提高下载速度。 请参阅[下载使用链接共享共享的资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download)。
+      * 您可以根据属性谓词搜索和筛选文件夹。
+      * Experience Manager资产嵌入PDF查看器以预览支持的文档格式。 它由Adobe Document Cloud提供。 利用此功能，可预览PDF和其他多页文件，而无需进行任何复杂的处理。 它改进了与Experience Manager6.5的功能对等性。预览中提供的控件包括缩放、导航到页面、取消停放控件以及全屏查看。 集成的PDF查看器支持AI、DOCX、INDD、PDF和PSD文件格式。 您可以对资产本身进行注释，但不支持在PDF文件中添加注释和批注。
+      * 用户体验增强功能可显示文件夹中存在的资产数量。 对于文件夹中超过1000个资产，资产显示的资产数量超过1000个。
+      * 您可以将元数据架构直接应用到其“属性”中的文件夹。
+   * **Experience Manager Sites as a Cloud Service**
+
+      新增功能:
+
+      * “发布到预览层”现在在站点管理UI中显示为页面状态。
+      * 现在，发布到预览层会在操作结束时显示预览URL，并在页面属性中保留该URL供以后参考。
+   * **Experience Manager Forms as a Cloud Service**
+
+      新增功能:
+
+      * 元数据架构可以直接应用到文件夹属性。
+      * 资产批量摄取工具允许您在批量摄取期间添加元数据。
+      * 用户体验增强功能可显示文件夹中存在的资产数量。 对于文件夹中超过1000个资产，Experience Manager资产显示的资产数量超过1000个。
+
+      Forms的测试版功能：
+
+      * **Experience ManagerForms作为Cloud Service — 通信**  — 通信API可帮助您结合XDP模板和XML数据以生成各种格式的打印文档。该服务允许您以同步模式生成文档。 利用API，可创建应用程序，以便：
+         * 使用XML数据填充模板文件，以生成文档。
+         * 以各种格式生成输出表单，包括非交互式PDF打印流。
+         * 从XFA表单PDF和Adobe Acrobat表单(AcroForm)生成打印PDF。
+
+      您可以写入[formscsbeta@adobe.com](mailto:formscsbeta@adobe.com)以注册测试版程序。
+
+   * **Experience Manager Screens作为Cloud Service**
+
+      * 批量设备注册管理意味着可以更快、更高效地配置大量播放器设备。
+      * 改进了每个设备、显示和渠道清单视图的搜索和过滤选项。
+      * 设备健康快照通过提供关键状态一目了然来节省时间。
+      * 对象详细信息页面提供了项目中每个对象最相关信息的摘要。
+
+
+
+
+
+
+
 
 ### Experience Manager 发行信息 {#aem-links}
 
