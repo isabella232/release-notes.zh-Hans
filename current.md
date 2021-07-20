@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9a3217d27c176834935ae72ae375bda5cdf6c7f2
+source-git-commit: 722ad9ef37f15c3c6070ccaa66c9b55e25b4e35d
 workflow-type: tm+mt
 source-wordcount: '4899'
 ht-degree: 38%
@@ -23,7 +23,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 7 月 19 日**
+最新更新日期：**2021 年 7 月 20 日**
 
 * [Experience Cloud 中央界面组件](#ecloud)
 * [Adobe 系统状态](#status)
@@ -278,6 +278,17 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
 
 
 
+### Experience Manager 的新课程和教程 {#tutorials-aem}
+
+过去一个月发布的新视频、教程及课程。
+
+| 发布日期 | 名称 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |
+| 2021 年 7 月 | [适用于Adobe Experience Manager的XML Documentation](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/overview.html?lang=en) | 文章 | 了解[!UICONTROL XML文档解决方案]如何提供所有核心CCMS函数，如协作、审阅、翻译、搜索和报告DITA内容。 这些功能通过高效的内容重用和功能强大的工作流，使作者能够在更短的时间内完成更多工作。 |
+| 2021 年 7 月 | [AEM无头GraphQL Postman集合](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html?lang=en) | 视频 | 了解如何在 Adobe Experience Manager (AEM) 中定义和使用内容片段，以便与 GraphQL 一起使用。 |
+
+{style=&quot;table-layout:auto&quot;}
+
 ### Experience Manager 发行信息 {#aem-links}
 
 以下是发行说明和其他发行信息链接，可供Experience Manager:
@@ -294,17 +305,6 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
 * [Experience Manager Dispatcher 发行说明](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=zh-Hans)
 * [Adobe Primetime 发行说明](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
 * [Livefyre 发行说明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
-
-### Experience Manager 的新课程和教程 {#tutorials-aem}
-
-过去一个月发布的新视频、教程及课程。
-
-| 发布日期 | 名称 | 类型 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 7 月 | [适用于Adobe Experience Manager的XML Documentation](https://experienceleague.adobe.com/docs/experience-manager-xml-documentation-learn/tutorials/overview.html?lang=en) | 文章 | 了解[!UICONTROL XML文档解决方案]如何提供所有核心CCMS函数，如协作、审阅、翻译、搜索和报告DITA内容。 这些功能通过高效的内容重用和功能强大的工作流，使作者能够在更短的时间内完成更多工作。 |
-| 2021 年 7 月 | [AEM无头GraphQL Postman集合](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/graphql/video-series/modeling-basics.html?lang=en) | 视频 | 了解如何在 Adobe Experience Manager (AEM) 中定义和使用内容片段，以便与 GraphQL 一起使用。 |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### 其他帮助资源进行Experience Manager
 
