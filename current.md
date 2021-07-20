@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3621c31c456cf7fc9de8ed65991aeab9fc8fedc8
+source-git-commit: a168806cc4b7e5ab5e9d1ab9c71583a4b89c020b
 workflow-type: tm+mt
-source-wordcount: '4909'
+source-wordcount: '4923'
 ht-degree: 38%
 
 ---
@@ -213,6 +213,9 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
       * **云原生组件内容管理系统**  — 适用于Adobe Experience Manager的XML Documentation可作为Cloud Service使用。获取可让您大规模创作、管理和交付文档和内容的环境。
       * **AI支持的文档**  — 智能标记功能，可自动从用于元数据标签的文本中识别和提取相关元数据关键字。
       * **Web编辑器的新外观**  - UI更改的新外观使其更直观。底层架构已从珊瑚变为基于反应的光谱。
+
+      有关更多信息，请访问[Adobe Experience Manager的XML文档](https://www.adobe.com/products/xml-documentation-for-experience-manager.html)。
+
    * **AEM as a Cloud ManagerCloud Service**
 
       * [!UICONTROL 预] 览服务以滚动方式部署到所有程序。在为[!UICONTROL 预览服务]启用了“计划”后，将在产品中通知客户。 请参阅[访问预览服务](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/using-cloud-manager/manage-environments.html?lang=en#access-preview-service)。
