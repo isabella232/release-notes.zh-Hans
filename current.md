@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 7c57afe86724db59e8696b3e034a82d5ba6f9153
+source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
 workflow-type: tm+mt
-source-wordcount: '4923'
-ht-degree: 38%
+source-wordcount: '5139'
+ht-degree: 44%
 
 ---
 
@@ -23,6 +23,14 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
+## Experience League上线
+
+[Adobe Analytics实施 — 提示和技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+
+你在峰会上见过他。 你听说他在Adobe内幕巡演上分享专家建议。 您甚至可能与他合作实施您自己的Adobe Analytics。 现在，Eric Matisoff将他最喜爱的三个Adobe Analytics实施提示引入这次独家Experience League实时讨论。
+
+请加入我们，聆听每个Adobe Analytics实施团队应该了解的具体提示 — 并在聊天面板中让Eric回答您的问题。 这是个现场活动，因此无需提前注册，但请确保将其放在日历上，这样您就不会错过！
+
 最新更新日期：**2021 年 7 月 20 日**
 
 * [Experience Cloud 中央界面组件](#ecloud)
@@ -31,7 +39,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) （更新日期：2021年7月19日）
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)（更新日期：2021 年 7 月 19 日）
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -43,11 +51,11 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [Document Cloud](#doc-cloud)
 * [Creative Cloud 企业版](#creative-cloud)
 
-需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
+需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
-## ![](/assets/ec_appicon_24.png) 图标Experience Cloud中央UI组件 {#ecloud}
+## ![图标](/assets/ec_appicon_24.png) Experience Cloud 中央 UI 组件 {#ecloud}
 
-Experience Cloud中心界面组件包括从统一产品标题访问的更新，例如自助、搜索和用户帐户首选项。 此处提供了人员、位置（位置）和产品管理的更新。
+Experience Cloud中心界面组件包括从统一产品标题访问的更新，例如自助、搜索和用户帐户首选项。 可在此处找到对人员、地点（位置）和产品管理的更新。
 
 | 功能 | 日期 | 描述 |
 | ------- | ------- | -------|
@@ -57,9 +65,9 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 **更多帮助资源**
 
-* [中央接口组件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)和用户管理的管理帮助
-* [Places - Location Service](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的帮助和发行说明
-* 有关[人员 — 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)的帮助。
+* [中央界面组件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)和用户管理的管理帮助
+* [地点 - 位置服务](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的帮助和发行说明
+* [人员 - 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)的相关帮助。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
@@ -69,7 +77,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-包括发行更新信息以及有关Experience Platform和Experience Platform Launch的新文档。
+包括 Experience Platform 和 Experience Platform Launch 的发行更新信息和新文档。
 
 * **2021年6月30日** [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)
 * **2021年5月17日** [Experience Platform数据收集发行说明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (以前称为Experience Platform Launch)
@@ -103,7 +111,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Journey Orchestration {#journey-orch}
 
-凭借Experience Platform，可实时智能化预测每位客户的需求，从而实现跨体验渠道大规模编排客户旅程。
+凭借 Experience Platform，可以实时智能化预测每位客户的需求，从而实现跨体验渠道大规模编排客户历程。
 
 在 [Journey Orchestration 发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hans)中详细了解最新的功能、改进和修复。
 
@@ -128,11 +136,25 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 发行日期：**2021 年 7 月 22 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 的新增功能](#cust-journey)（更新日期：2021 年 7 月 19 日）
+* [Customer Journey Analytics 中的新增功能](#cust-journey)（更新日期：2021 年 7 月 19 日）
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
 * [Analytics 的课程及教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
+
+### 适用于Experience League实时 — Analytics实施的事件通知
+
+与我们一起聆听每个Adobe Analytics实施团队应该了解的具体提示 — 并在聊天面板中让Eric Matisoff回答您的问题。 这是个现场活动，因此无需提前注册，但请确保将其放在日历上，这样您就不会错过！
+
+[Adobe Analytics实施 — 提示和技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+
+**时间：** 2021年7月29日太平洋夏令时上午9点
+
+**Adobe演示者**
+
+* Eric Matisoff，Adobe分析与数据科学的首席宣传员
+* Dasha Fitzpatrick，Adobe首席技术顾问
+* Doug Moore，Adobe技术营销工程师
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
@@ -142,7 +164,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 {style=&quot;table-layout:auto&quot;}
 
-### Customer Journey Analytics 的新增功能 {#cust-journey}
+### Customer Journey Analytics 中的新增功能 {#cust-journey}
 
 | 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目标日期 |
 | ----------- | ---------- | ----- |
@@ -157,7 +179,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 * 修复了工作区项目无法打开（超时）的问题。 (AN-247248)
 * 修复了无法加载位于[!UICONTROL 服务器调用使用情况]下的报表包使用情况数据的问题。 (AN-264215)
 
-#### Adobe Analytics或CJA中的其他修复
+#### Adobe Analytics 或 CJA 中的其他修复
 
 AN-160022;AN-186365;AN-234768(CJA);AN-253041;AN-255098;AN-256319;AN-256566;AN-256903;AN-257111;AN-259614;AN-259960;AN-260422;AN-260926;AN-260962;AN-261310;AN-261442;AN-261483(CJA);AN-261589;AN-261949;AN-262025;AN-262295;AN-262330;AN-262348;AN-262356;AN-262461;AN-262462;AN-262465;AN-262888;AN-262944;AN-262952;AN-262974;AN-263027;AN-263105;AN-263175;AN-263183;AN-263244;AN-263888;AN-263930;AN-263953
 
@@ -176,7 +198,7 @@ AN-160022;AN-186365;AN-234768(CJA);AN-253041;AN-255098;AN-256319;AN-256566;AN-25
 
 有关 AppMeasurement 版本的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
-### Analytics 的新课程和教程 {#tutorials-analytics}
+### Analytics 的新课程及教程 {#tutorials-analytics}
 
 [!DNL Analytics] 和 [!UICONTROL Customer Journey Analytics] 中的新课程、教程和文章。
 
@@ -196,7 +218,7 @@ AN-160022;AN-186365;AN-234768(CJA);AN-253041;AN-255098;AN-256319;AN-256566;AN-25
 
 Audience Manager 中的修复和改进。
 
-### 修复和改进功能 {#aam-fixes-and-improvements}
+### 修复和改进 {#aam-fixes-and-improvements}
 
 * 从Admin Console中删除IMS用户帐户时，如果该用户帐户属于用户组，则不会从Audience Manager中删除该用户帐户。 现在，在从Audience Manager中删除IMS用户帐户时，IMS用户帐户会自动从Admin Console用户组取消映射。 (AAM-57633)
 
@@ -204,9 +226,9 @@ Audience Manager 中的修复和改进。
 
 Adobe建议您经常访问[Experience Manager版本更新和路线图](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/home.html?lang=zh-Hans)以保持最新的发行信息。
 
-* **Experience Manager 即云服务**
+* **Experience Manager as a Cloud Service**
 
-   Experience Manager 即云服务中的新增功能：
+   Experience Manager as a Cloud Service 中的新增功能：
 
    * **Adobe Experience Manager as aCloud Service的XML Documentation**
 
@@ -242,7 +264,7 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
       * [!UICONTROL 链接共享]下载功能使用异步下载来提高下载速度。 请参阅[下载使用链接共享共享的资产](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/download-assets-from-aem.html?lang=en#link-share-download)。
       * 您可以根据属性谓词搜索和筛选文件夹。
       * Experience Manager资产嵌入PDF查看器以预览支持的文档格式。 它由Adobe Document Cloud提供。 利用此功能，可预览PDF和其他多页文件，而无需进行任何复杂的处理。 它改进了与Experience Manager6.5的功能对等性。预览中提供的控件包括缩放、导航到页面、取消停放控件以及全屏查看。 集成的PDF查看器支持AI、DOCX、INDD、PDF和PSD文件格式。 您可以对资产本身进行注释，但不支持在PDF文件中添加注释和批注。
-      * 用户体验增强功能可显示文件夹中存在的资产数量。 对于文件夹中超过1000个资产，资产显示的资产数量超过1000个。
+      * 一项用户体验增强功能显示了文件夹中存在的资源数量。对于文件夹中超过1000个资产，资产显示的资产数量超过1000个。
       * 您可以将元数据架构直接应用到其“属性”中的文件夹。
    * **Experience Manager Sites as a Cloud Service**
 
@@ -254,9 +276,9 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
 
       新增功能:
 
-      * 元数据架构可以直接应用到文件夹属性。
-      * 资产批量摄取工具允许您在批量摄取期间添加元数据。
-      * 用户体验增强功能可显示文件夹中存在的资产数量。 对于文件夹中超过1000个资产，Experience Manager资产显示的资产数量超过1000个。
+      * 可将元数据架构直接应用于文件夹属性。
+      * 在批量提取期间，可使用资源批量提取器工具添加元数据。
+      * 一项用户体验增强功能显示了文件夹中存在的资源数量。如果文件夹中有 1000 多种资源，Experience Manager Assets 将显示 1000+。
 
       Forms的测试版功能：
 
@@ -297,24 +319,24 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
 以下是发行说明和其他发行信息链接，可供Experience Manager:
 
 * [Experience Manager为Cloud Service发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/release-notes/release-notes-current.html?lang=en)
-* [Experience Manager 即云服务版本信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
+* [Experience Manager as a Cloud Service 版本信息](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/home.html?lang=en)
 * [Experience Manager Cloud Manager 发行说明](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/release-notes/release-notes-current.html?lang=en)
-* [Automated Forms Conversion Service 发行说明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=en)
+* [Automated Forms Conversion Service 发行说明](https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/release-notes.html?lang=zh-Hans)
 * [Experience Manager 6.5 Service Pack 发行说明](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/service-pack/sp-release-notes.html?lang=zh-Hans)
 * [Experience Manager 6.4 Cumulative Fix Pack 发行说明](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/cfp-release-notes.html?lang=zh-Hans)
 * [Experience Manager Assets Dynamic Media 发行说明](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html?lang=zh-Hans)
 * [Experience Manager Brand Portal 发行说明](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal-release-notes.html?lang=zh-Hans)
-* [Experience Manager 桌面应用程序发行说明](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=en)
+* [Experience Manager 桌面应用程序发行说明](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html?lang=zh-Hans)
 * [Experience Manager Dispatcher 发行说明](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html?lang=zh-Hans)
 * [Adobe Primetime 发行说明](https://experienceleague.adobe.com/docs/primetime/release-notes/home.html)
 * [Livefyre 发行说明](https://experienceleague.adobe.com/docs/livefyre/using/release-notes/c-rn.html)
 
 ### 其他帮助资源进行Experience Manager
 
-* [Experience Manager Sites 即云服务指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans)
+* [Experience Manager Sites as a Cloud Service 指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans)
 * [Experience Manager 6.5 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=zh-Hans)
 * [Experience Manager 6.4 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hans)
-* [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans)
+* [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
 * [Experience Manager 6.2 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans#previous-updates)
 * [Experience Manager 文档的旧版本](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Cloud Manager 用户指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans)
@@ -333,7 +355,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * [Campaign Standard 发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=zh-Hans)
 * [Campaign Classic 发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans)
 
-### 新的[!UICONTROL Campaign]课程和教程 {#tutorials-campaign}
+### [!UICONTROL Campaign] 的新课程及教程 {#tutorials-campaign}
 
 | 发布日期 | 名称 | 解决方案 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
@@ -348,7 +370,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * Adobe Campaign v8:[帮助中心](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [实施指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 * Adobe Campaign Standard：[帮助中心](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hans) - [最新文档更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
 * Adobe Campaign Classic：[帮助中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)- [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
-* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=en) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
+* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
 
 ## ![Icon](/assets/advertising-cloud.png) 广告 {#adcloud}
 
@@ -357,17 +379,17 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * [Advertising DSP 中的新增功能](#adcloud-dsp)
 * [Advertising Search 中的新增功能](#adcloud-search)
 
-### [!DNL Advertising DSP] 中的新增功能   {#adcloud-dsp}
+### [!DNL Advertising DSP] 中的新增功能 {#adcloud-dsp}
 
-上次更新时间：**2021年6月10日（适用于6月16日版）**
+上次更新日期：**2021 年 6 月 10 日，为 6 月 16 日发布的版本进行更新**
 
 | 功能 | 描述 |
 | -----------| ---------- |
-| 营销活动管理 | （6月16日发布）预测适用于具有投放级别步调和预算的标准展示版面。 |
+| 营销活动管理 | （6 月 16 日版）针对标准展示投放位置推出预测功能，并带有投放位置级展示安排和预算。 |
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Search] 中的新增功能   {#adcloud-search}
+### [!DNL Advertising Search] 中的新增功能 {#adcloud-search}
 
 上次更新：**2021 年 5 月 19 日发布 5 月 18 日版**
 
@@ -394,19 +416,19 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### 核心 Marketo Engage 更新
 
-请参阅[!DNL Marketo Engage] [发行计划](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en) ，了解最新发行计划信息和发行说明。
+有关最新的发布计划信息和发行说明，请参阅[!DNL Marketo Engage] [发布计划](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en)。
 
 ## ![图标](/assets/workfront.png) [!DNL Workfront] {#workfront}
 
-Adobe[!DNL Workfront]是一个统一的工作管理应用程序，用于分享想法、创建内容、管理复杂流程并尽其最大努力。
+Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分享创意、创建内容、管理复杂的流程以及将工作做到尽善尽美。
 
-有关所有产品的最新信息汇总，请参阅[[!DNL Workfront] 发行版](https://one.workfront.com/s/product-releases)页面。
+请参阅[[!DNL Workfront] 版本](https://one.workfront.com/s/product-releases)页面，查看所有产品的最新信息综述。
 
 ## ![图标](/assets/document-cloud-24.png) Document Cloud {#doc-cloud}
 
 为 Adobe Document Cloud 发布的新视频、教程或课程。
 
-### Document Cloud课程和教程 {#tutorials-doc-cloud}
+### Document Cloud 课程和教程 {#tutorials-doc-cloud}
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
@@ -432,14 +454,14 @@ Adobe[!DNL Workfront]是一个统一的工作管理应用程序，用于分享�
 * [Adobe Sign](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/overview.html?lang=zh-Hans)
 * [Document Cloud 学习与支持](https://helpx.adobe.com/cn/support/document-cloud.html)
 
-## ![](/assets/creative-cloud-24.png) IconCreative Cloud企业版 {#creative-cloud}
+## ![图标](/assets/creative-cloud-24.png) Creative Cloud 企业版 {#creative-cloud}
 
-发布的关于企业Creative Cloud的新视频、教程或课程。
+为 Creative Cloud 企业版发布的新视频、教程或课程。
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | ----------| --------- | --------- | --------- |
-| 2021 年 6 月 | [在iPad（和iPhone）上尝试Fresco](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 视频 | 在这个15分钟的动手实践研讨会上，探索与Adobe Fresco一起进行数码绘画的全新世界。 快速学习如何使用图层和剪贴蒙版，以便将绘画和纹理与基本形状保持一致。 |
-| 2021 年 6 月 | [解读图形格式的字母汤](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 视频 | PG、PNG、SVG、GIF和EPS文件都常用于设计，有的用于网页，有的用于演示文稿、出版物和创意项目。 但是……他们什么意思，你该选哪个？ 在这个15分钟的动手练习研讨会上了解。 |
+| 2021 年 6 月 | [在 iPad（和 iPhone）上试用 Fresco](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 视频 | 在这个为时 15 分钟的实践研讨会中，借助 Adobe Fresco 探索全新的数字绘图和绘画世界。快速了解如何使用图层和剪贴蒙版来使绘画和纹理与基本形状保持一致。 |
+| 2021 年 6 月 | [解码图形格式大杂烩](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 视频 | PG、PNG、SVG、GIF 和 EPS 文件都是设计中常用的格式，一些用于网页，另一些则用于演示文稿、出版物和创意项目。不过… 它们代表什么，而您应该选择哪一种呢？在这个为时 15 分钟的实践研讨会中找到答案。 |
 
 {style=&quot;table-layout:auto&quot;}
 
