@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5de9bc92bc3752726b7af80dd0abf91e253a5c33
+source-git-commit: 272c8da44a241b5a8eb5930462cc53b3e6c43297
 workflow-type: tm+mt
-source-wordcount: '5139'
-ht-degree: 44%
+source-wordcount: '5023'
+ht-degree: 45%
 
 ---
 
@@ -22,14 +22,6 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >[!NOTE]
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
-
-## Experience League上线
-
-[Adobe Analytics实施 — 提示和技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
-
-你在峰会上见过他。 你听说他在Adobe内幕巡演上分享专家建议。 您甚至可能与他合作实施您自己的Adobe Analytics。 现在，Eric Matisoff将他最喜爱的三个Adobe Analytics实施提示引入这次独家Experience League实时讨论。
-
-请加入我们，聆听每个Adobe Analytics实施团队应该了解的具体提示 — 并在聊天面板中让Eric回答您的问题。 这是个现场活动，因此无需提前注册，但请确保将其放在日历上，这样您就不会错过！
 
 最新更新日期：**2021 年 7 月 20 日**
 
@@ -51,7 +43,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [Document Cloud](#doc-cloud)
 * [Creative Cloud 企业版](#creative-cloud)
 
-需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
+需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud 中央 UI 组件 {#ecloud}
 
@@ -146,7 +138,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 与我们一起聆听每个Adobe Analytics实施团队应该了解的具体提示 — 并在聊天面板中让Eric Matisoff回答您的问题。 这是个现场活动，因此无需提前注册，但请确保将其放在日历上，这样您就不会错过！
 
-[Adobe Analytics实施 — 提示和技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
+**事件：** [Adobe Analytics实施 — 提示和技巧](https://www.youtube.com/watch?v=lxOvLCzEGBI)
 
 **时间：** 2021年7月29日太平洋夏令时上午9点
 
