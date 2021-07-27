@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 1d747dd10da74db31ce6195c43f6529a2663d1a0
+source-git-commit: 0a6bbad001bc4aeb0b8f6537d87d8d98131af5d5
 workflow-type: tm+mt
-source-wordcount: '5035'
-ht-degree: 45%
+source-wordcount: '5034'
+ht-degree: 44%
 
 ---
 
@@ -70,7 +70,7 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
-包括 Experience Platform 和 Experience Platform Launch 的发行更新信息和新文档。
+包括有关Experience Platform和平台标记的发行更新信息和新文档。
 
 * **2021年6月30日** [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)
 * **2021年5月17日** [Experience Platform标记发行说明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html) (以前称为Experience Platform Launch)
