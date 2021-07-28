@@ -59,8 +59,8 @@ Experience Cloud中心界面组件包括从统一产品标题访问的更新，�
 **更多帮助资源**
 
 * [中央界面组件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en)和用户管理的管理帮助
-* [地点 - 位置服务](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=en)的帮助和发行说明
-* [人员 - 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=en)的相关帮助。
+* [地点 - 位置服务](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=zh-Hans)的帮助和发行说明
+* [人员 - 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=zh-Hans)的相关帮助。
 
 ## ![图标](/assets/adobe.png) Adobe 系统状态 {#status}
 
@@ -330,7 +330,7 @@ Adobe建议您经常访问[Experience Manager版本更新和路线图](https://e
 * [Experience Manager Sites as a Cloud Service 指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans)
 * [Experience Manager 6.5 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=zh-Hans)
 * [Experience Manager 6.4 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hans)
-* [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html)
+* [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-CN)
 * [Experience Manager 6.2 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans#previous-updates)
 * [Experience Manager 文档的旧版本](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
 * [Cloud Manager 用户指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans)
@@ -361,7 +361,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### Campaign 帮助资源
 
-* Adobe Campaign v8:[帮助中心](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html) - [发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [实施指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
+* Adobe Campaign v8:[帮助中心](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-CN) - [发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=en) - [实施指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=en)
 * Adobe Campaign Standard：[帮助中心](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=en) - [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hans) - [最新文档更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=en)
 * Adobe Campaign Classic：[帮助中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=en)- [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=en)
 * Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=en) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
@@ -410,7 +410,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### 核心 Marketo Engage 更新
 
-有关最新的发布计划信息和发行说明，请参阅[!DNL Marketo Engage] [发布计划](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=en)。
+有关最新的发布计划信息和发行说明，请参阅[!DNL Marketo Engage] [发布计划](https://experienceleague.adobe.com/docs/marketo/using/release-notes/release-schedule.html?lang=zh-Hans)。
 
 ## ![图标](/assets/workfront.png) [!DNL Workfront] {#workfront}
 
@@ -454,8 +454,8 @@ Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | ----------| --------- | --------- | --------- |
-| 2021 年 6 月 | [在 iPad（和 iPhone）上试用 Fresco](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html) | 视频 | 在这个为时 15 分钟的实践研讨会中，借助 Adobe Fresco 探索全新的数字绘图和绘画世界。快速了解如何使用图层和剪贴蒙版来使绘画和纹理与基本形状保持一致。 |
-| 2021 年 6 月 | [解码图形格式大杂烩](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html) | 视频 | PG、PNG、SVG、GIF 和 EPS 文件都是设计中常用的格式，一些用于网页，另一些则用于演示文稿、出版物和创意项目。不过… 它们代表什么，而您应该选择哪一种呢？在这个为时 15 分钟的实践研讨会中找到答案。 |
+| 2021 年 6 月 | [在 iPad（和 iPhone）上试用 Fresco](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/frescoworkshop.html?lang=zh-CN) | 视频 | 在这个为时 15 分钟的实践研讨会中，借助 Adobe Fresco 探索全新的数字绘图和绘画世界。快速了解如何使用图层和剪贴蒙版来使绘画和纹理与基本形状保持一致。 |
+| 2021 年 6 月 | [解码图形格式大杂烩](https://experienceleague.adobe.com/docs/creative-cloud-enterprise-learn/cce-learning-hub/cceoverview/ccetutorials/alphabetsoup.html?lang=zh-CN) | 视频 | PG、PNG、SVG、GIF 和 EPS 文件都是设计中常用的格式，一些用于网页，另一些则用于演示文稿、出版物和创意项目。不过… 它们代表什么，而您应该选择哪一种呢？在这个为时 15 分钟的实践研讨会中找到答案。 |
 
 {style=&quot;table-layout:auto&quot;}
 
