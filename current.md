@@ -6,7 +6,7 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b3b30ac28d820aa30482c823ccd537bcf9cdcfb3
+source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
 workflow-type: tm+mt
 source-wordcount: '5036'
 ht-degree: 99%
@@ -32,7 +32,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)  **（更新日期：2021年8月3日）**
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)  **（更新日期：2021年8月10日）**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -130,7 +130,7 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 
 * [Experience League 直播活动通知](#events)
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 中的新增功能](#cust-journey)（更新日期：2021 年 7 月 19 日）
+* [Customer Journey Analytics 中的新增功能](#cust-journey) （更新日期：2021年8月10日）
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics管理员的重要注意事项](#aa-notices)（更新日期：2021年8月3日）
 * [Analytics 的课程及教程](#tutorials-analytics)
@@ -162,7 +162,7 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 
 | 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目标日期 |
 | ----------- | ---------- | ----- |
-| 新的连接信息体验 | 利用此连接 UI 增强功能，您可以知道您的数据是否以及何时可以用于报告。它还允许您跟踪关于处理数据的任何问题。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hans) | 2021 年 8 月 10 日 |
+| 新的连接信息体验 | 利用此连接 UI 增强功能，您可以知道您的数据是否以及何时可以用于报告。它还允许您跟踪关于处理数据的任何问题。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hans) | 2021 年 8 月 19 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
