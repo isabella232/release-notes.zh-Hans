@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: a802b3ea8757944a04c24b3f7b8992e1ffe9bac8
+source-git-commit: 6c6ebfbf878dcdd9db406789f1350e04b42f3d85
 workflow-type: tm+mt
-source-wordcount: '5002'
+source-wordcount: '5004'
 ht-degree: 98%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 8 月 3 日**
+最新更新日期：**2021 年 8 月 11 日**
 
 * [Experience League 直播活动通知](#events) - **2021 年 7 月 29 日**
 * [Experience Cloud 中央界面组件](#ecloud)
@@ -36,7 +36,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising Cloud]](#adcloud)
+* [[!DNL Advertising Cloud]](#adcloud)（更新日期：**2021 年 8 月 11 日**）
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
