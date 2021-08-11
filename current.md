@@ -6,10 +6,10 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 78eda24b09b4fd09e6dbddde9ba32104cca40261
+source-git-commit: a93d9deb8ad36d396899d0b0505b1d6bf9441c3b
 workflow-type: tm+mt
-source-wordcount: '5036'
-ht-degree: 99%
+source-wordcount: '5002'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
-* [[!DNL Advertising]](#adcloud)
+* [[!DNL Advertising Cloud]](#adcloud)
 * [[!DNL Target]](#target)
 * [[!DNL Commerce]](#magento) (Magento)
 * [[!DNL Marketo Engage]](#marketo)
@@ -366,30 +366,30 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * Adobe Campaign Classic：[帮助中心](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=en) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hans)- [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=zh-Hans)
 * Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
 
-## ![Icon](/assets/advertising-cloud.png) 广告 {#adcloud}
+## ![图标](/assets/advertising-cloud.png) Advertising Cloud {#adcloud}
 
-[!DNL Adobe Advertising] 的发行说明。
+[!DNL Adobe Advertising Cloud] 的发行说明。
 
-* [Advertising DSP 中的新增功能](#adcloud-dsp)
-* [Advertising Search 中的新增功能](#adcloud-search)
+* [Advertising Cloud DSP 中的新增功能](#adcloud-dsp)
+* [Advertising Cloud Search 中的新增功能](#adcloud-search)
 
-### [!DNL Advertising DSP] 中的新增功能 {#adcloud-dsp}
+### [!DNL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp}
 
 上次更新日期：**2021 年 6 月 10 日，为 6 月 16 日发布的版本进行更新**
 
 | 功能 | 描述 |
-| -----------| ---------- |
+| ------- | ----------- |
 | 营销活动管理 | （6 月 16 日版）针对标准展示投放位置推出预测功能，并带有投放位置级展示安排和预算。 |
 
 {style=&quot;table-layout:auto&quot;}
 
-### [!DNL Advertising Search] 中的新增功能 {#adcloud-search}
+### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-上次更新：**2021 年 5 月 19 日发布 5 月 18 日版**
+上次更新时间：**对于7月24日版本**
 
 | 功能 | 描述 |
-| -----------| ---------- |
-| [!UICONTROL 通知中心 Beta 版] | [!UICONTROL 通知中心 Beta 版]现在向所有用户开放。使用它订阅关于帐户身份验证错误、触发的自定义警报以及完成您生成的 [!UICONTROL Advertising Insights] 的电子邮件和 Web 通知。<br>可从以下任意一项中查看通知：<ul><li>[!UICONTROL “通知”]面板，从任意页面右上角的“通知”链接打开它。</li><li>[!UICONTROL “见解和报表”>“通知中心 Beta 版”]上的[!UICONTROL “通知中心”]。</li></ul><br><b>注意：</b>由于改进了通知的存储方式，因此清除了所有现有的通知。 |
+| ------- | ----------- |
+| [!UICONTROL 工具] | 如果您的广告商帐户配置为使用混合优化，则Advertising Cloud可以选择将帐户的目标上传到Google Ads和Microsoft Ads作为转化，以便您可以将这些目标用于混合优化。 您可以通过[!UICONTROL Search] > [!UICONTROL Tools] > [!UICONTROL Conversion Upload Setup]启用该功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
