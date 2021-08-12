@@ -6,9 +6,9 @@ last-update: July 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 6c6ebfbf878dcdd9db406789f1350e04b42f3d85
+source-git-commit: 7a9c166e6b3efc239e039f7aa2c2d52a7fadd680
 workflow-type: tm+mt
-source-wordcount: '5004'
+source-wordcount: '5003'
 ht-degree: 98%
 
 ---
@@ -385,11 +385,11 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-上次更新时间：**对于7月24日版本**
+上次更新时间：**8月11日适用于7月24日版**
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| [!UICONTROL 工具] | 如果您的广告商帐户配置为使用混合优化，则Advertising Cloud可以选择将帐户的目标上传到Google Ads和Microsoft Ads作为转化，以便您可以将这些目标用于混合优化。 您可以通过&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Tools]** > **[!UICONTROL Conversion Upload Setup]**&#x200B;启用该功能。 |
+| [!UICONTROL 工具] | 如果您的广告商帐户配置为使用混合优化，则[!DNL Advertising Cloud Search]可以选择将帐户组合的目标上传到Google Ads作为转化，以便您可以将这些目标用于混合优化。 您可以通过&#x200B;**[!UICONTROL Search]** > **[!UICONTROL Tools]** > **[!UICONTROL Conversion Upload Setup]**&#x200B;启用该功能。 |
 
 {style=&quot;table-layout:auto&quot;}
 
