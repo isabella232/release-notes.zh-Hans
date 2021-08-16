@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: cfeac2dbfaef453f24b54450c45d22e737510281
+source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
 workflow-type: tm+mt
-source-wordcount: '4362'
+source-wordcount: '4360'
 ht-degree: 51%
 
 ---
@@ -122,7 +122,7 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 
 [!UICONTROL Offer Decisioning] 是与 Adobe Experience Platform 集成的一项应用程序服务。使用 [!UICONTROL Offer Decisioning] 可在适当的时候将优质的产品和体验提供给您在所有接触点上的客户。
 
-* **2021年6月版：** AI排名允许您创建不同的排名策略（基于您的业务目标）。训练好的模型系统可以使用这些策略来对符合条件的选件进行排名，以显示给定的用户档案。
+* **2021年7月版：** 新的“  概述”选项卡将指导您完成创建选件决策入门的主要步骤。载入后，同一选项卡允许快速访问最新的选件、收藏集和决策。
 
 请参阅 [Offer Decisioning 发行说明](https://experienceleague.adobe.com/docs/offer-decisioning/using/new/release-notes.html?lang=zh-Hans#new)以及时了解最新信息。
 
