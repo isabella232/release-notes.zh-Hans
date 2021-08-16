@@ -6,7 +6,7 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 4bcabafad300591b5dd46afad7032ecb8c9f5bcf
+source-git-commit: cfeac2dbfaef453f24b54450c45d22e737510281
 workflow-type: tm+mt
 source-wordcount: '4362'
 ht-degree: 51%
@@ -65,13 +65,13 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 
 [!UICONTROL Adobe 系统状态]提供关于 Adobe 云产品与服务中断和维护事件的详细信息、状态更新以及电子邮件通知。请访问 [status.adobe.com](https://status.adobe.com/) 查看。
 
-可在 [Adobe 系统状态 - 2020 年 5 月 21 日](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=zh-Hans)上找到 Adobe 系统状态的最新更新，了解最新的发行信息。
+您可以在[2020年5月21日](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/previous/2020/05212020.html?lang=zh-Hans)发行说明中找到Adobe系统状态的最新发行信息。
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 包括 Experience Platform 和 Platform 标记的版本更新信息和新文档。
 
-* **2021年7月28日** [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)
+* **2021年7月28日** [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans) (下一个计划发行版本： **8月19日**)
 * **2021年7月19日** [Experience Platform标记发行说明](https://experienceleague.adobe.com/docs/experience-platform/tags/release-notes/current.html?lang=zh-Hans) (以前称为Experience Platform Launch)
 
 ### Experience Platform 教程和课程 {#tutorials-platform}
@@ -91,7 +91,7 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 
 ### 最新 Journey Optimizer 产品版本
 
-在 [Journey Orchestration 发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en)中详细了解最新的功能、改进和修复。
+有关[Journey Optimizer发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=en)中最新功能、改进和修复的更多信息。
 
 **Journey Optimizer 的更多资源**
 
