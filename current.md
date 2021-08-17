@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c0e65e13f424913c82f6608b24a8f797ee7a0341
+source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
 workflow-type: tm+mt
-source-wordcount: '4360'
+source-wordcount: '4363'
 ht-degree: 51%
 
 ---
@@ -23,7 +23,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 8 月 13 日**
+最新更新日期：**2021 年 8 月 17 日**
 
 * [Experience Cloud 中央界面组件](#ecloud)
 * [Experience Platform](#platform)
@@ -31,7 +31,7 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
 * [Offer Decisioning](#offer-decisioning)
-* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey) 更新日期：**2021年8月17日**
 * [[!DNL Audience Manager]](#aam)
 * [[!DNL Experience Manager]](#aem)
 * [[!DNL Campaign]](#ac)
@@ -135,9 +135,9 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 发行日期：**2021 年 19 月 8 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 中的新增功能](#cust-journey)
+* [Customer Journey Analytics 中的新增功能](#cust-journey)（更新日期：**2021 年 8 月 17 日**）
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics管理员的重要注意事项](#aa-notices)（更新日期：2021年8月3日）
+* [Analytics 管理员的重要注意事项](#aa-notices)
 * [Analytics 的课程及教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -154,7 +154,7 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 | 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/landing/an-releases.html?lang=en) - 目标日期 |
 | ----------- | ---------- | ----- |
 | 新的连接信息体验 | 利用此连接 UI 增强功能，您可以知道您的数据是否以及何时可以用于报告。它还允许您跟踪关于处理数据的任何问题。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hans) | 2021 年 8 月 19 日 |
-| 控制数据视图维度中区分大小写的设置 | 用于控制Customer Journey Analytics是否将维度值视为区分大小写。 这允许删除具有相同值但大小写不同的行。 | 2021 年 8 月 19 日 |
+| 控制数据视图维度中区分大小写的设置 | 用于控制Customer Journey Analytics是否将维度值视为区分大小写。 这允许删除具有相同值但大小写不同的行。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#configure-behavior-settings) | 2021 年 8 月 19 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -333,9 +333,9 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 详细了解最新发布的功能、改进和修复：
 
-* Adobe Campaign Classic v8 8.1.14版本：在[Campaign Classicv8发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)中了解详情
+* [Campaign v8 8.1.14](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html?lang=en)
 * [Campaign Standard 发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en)
-* [Campaign Classic 发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans)
+* [Campaign Classicv7 21.1.3发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=zh-Hans)
 
 <!-- ### New [!UICONTROL Campaign] courses and tutorials {#tutorials-campaign}
 
