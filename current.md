@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 98ff0e6871649fdf5e88c4119de1b21f27de21bf
+source-git-commit: 9b538a541f0211a3026fb3f8bdd7de834bced917
 workflow-type: tm+mt
-source-wordcount: '4363'
-ht-degree: 51%
+source-wordcount: '4444'
+ht-degree: 52%
 
 ---
 
@@ -110,9 +110,9 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 8 月 | [构建历程的简介](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html) | 视频 | 了解在历程画布中构建历程的基础知识。 |
-| 2021 年 8 月 | [设置数据 — 概述](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | 视频 | 了解实时客户配置文件数据以及为Journey Optimizer设置客户配置文件数据所需的步骤。 |
-| 2021 年 8 月 | [映射标识](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | 视频 | 了解如何以及何时将架构字段标记为身份，如何创建命名空间，何时将身份设为主标识，以及如何摄取和验证身份数据。 |
-| 2021 年 8 月 | [用例：突发消息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | 视频 | 了解突发消息的适用用例。 了解如何为突发消息配置旅程以及要应用的最佳实践。 |
+| 2021 年 8 月 | [设置数据 — 概述](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/set-up-data-overview.html) | 视频 | 了解实时客户个人资料数据以及为 Journey Optimizer 设置客户个人资料数据所需的步骤。 |
+| 2021 年 8 月 | [映射身份](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/get-started/data-configuration/map-identities.html) | 视频 | 了解如何以及何时将架构字段标记为身份，如何创建命名空间，何时将某个身份设为主要身份，以及如何摄取和验证身份数据。 |
+| 2021 年 8 月 | [用例：突发消息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-read-burst-message.html) | 视频 | 了解突发消息的适用用例。了解如何为突发消息配置历程以及要应用的最佳实践。 |
 
 **Journey Orchestration 的更多资源**
 
@@ -373,10 +373,11 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-上次更新时间：**2021年8月12日，适用于8月21日版的**
+上次更新时间：**2021年8月20日，适用于8月21日版的**
 
 | 功能 | 描述 |
 | ------- | ----------- |
+| — | 新的Advertising Cloud Javascript测试版标签使用Adobe Experience Cloud ID(ECID)服务以及旧版ef_id和gsurferid来测量转化。 新标记会创建[第一方Experience Clouds_ecid cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，并提供与其他Experience Cloud产品更紧密的集成。<br><br>包含ITP映射的旧版Advertising Cloud Javascript标记将于2021年9月被弃用。<br><br>您的Adobe客户经理将与您联系，以获取更多信息和实施说明。 |
 | [!UICONTROL 组合] | 所有用户都可以使用新的[!UICONTROL 目标测试版]，其中包含自动加权推荐。 新界面包含有关创建目标和设置初始目标权重的更多指导。 权重推荐仅可用于辅助量度。 |
 
 {style=&quot;table-layout:auto&quot;}
