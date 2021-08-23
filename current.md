@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c47b884401c2d9b4cce5d6b56252c58acccc598c
+source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
 workflow-type: tm+mt
-source-wordcount: '4427'
+source-wordcount: '4430'
 ht-degree: 52%
 
 ---
@@ -389,6 +389,8 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 * [云套件](https://devdocs.magento.com/cloud/release-notes/cloud-tools.html)
 
 ## ![图标](/assets/target.png) [!DNL Target] {#target}
+
+上次更新时间：**2021年8月3日**
 
 请参阅[[!DNL Target] 发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hans)了解最新发行信息。
 
