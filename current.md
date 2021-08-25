@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: fd638c92e6804ccdec2adfc9aec1f571c610b798
+source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
 workflow-type: tm+mt
-source-wordcount: '4430'
+source-wordcount: '4445'
 ht-degree: 52%
 
 ---
@@ -23,10 +23,10 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 8 月 20 日**
+最新更新日期：**2021 年 8 月 25 日**
 
 * [Experience Cloud 中央界面组件](#ecloud)
-* [Experience Platform](#platform)
+* [Experience Platform](#platform) (更新 **日期：2021年8月25日**)
 * [Adobe 系统状态](#status)
 * [Journey Optimizer](#journey-opt)
 * [Journey Orchestration](#journey-orch)
@@ -71,7 +71,13 @@ Experience Cloud 中央界面组件包括从统一产品标题访问的更新，
 
 包括 Experience Platform 和 Platform 标记的版本更新信息和新文档。
 
-* **2021年7月28日** [Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans) (下一个计划发行版本 —  **8月25日**)
+**2021年8月25日** ，对Experience Platform中现有功能的更新包括：
+
+* 可观察性洞察
+* Real-time Customer Profile
+* 源
+
+有关详细信息，请参阅[Experience Platform发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)。
 
 ### Experience Platform 教程和课程 {#tutorials-platform}
 
