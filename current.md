@@ -6,10 +6,10 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f1c37e20e20740e60c6e6c72e465c8611e4a60b
+source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
 workflow-type: tm+mt
-source-wordcount: '4445'
-ht-degree: 52%
+source-wordcount: '4503'
+ht-degree: 51%
 
 ---
 
@@ -23,8 +23,9 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 8 月 25 日**
+最新更新日期：**2021 年 8 月 26 日**
 
+* [面向Experience League的活动通知](#events)  -  **2021年8月26日**
 * [Experience Cloud 中央界面组件](#ecloud)
 * [Experience Platform](#platform) (更新 **日期：2021年8月25日**)
 * [Adobe 系统状态](#status)
@@ -44,6 +45,14 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 * [Creative Cloud 企业版](#creative-cloud)
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
+
+## Experience League实时事件通知 — 使下一个受众区段比以往更智能 {#events}
+
+通过Aaron Shields、Yaya Wang和Andres Monroy，了解Experience Platform中的区段生成器！
+
+**事件：** [使下一个受众区段比以往更智能](https://www.youtube.com/watch?v=rogVKsTFbWk)
+
+**时间：** 2021年8月26日太平洋标准时间上午9点00分
 
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud 中央界面组件 {#ecloud}
 
