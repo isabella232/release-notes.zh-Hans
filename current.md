@@ -6,9 +6,9 @@ last-update: August 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8b1a49bf761607dccb2793e0223c072cd6121be3
+source-git-commit: c402b360cc166a76c694b383806a21a34ccd2e60
 workflow-type: tm+mt
-source-wordcount: '4503'
+source-wordcount: '4508'
 ht-degree: 51%
 
 ---
@@ -46,13 +46,11 @@ Experience Cloud 应用程序和服务每月更新一次。在此页面上可集
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
-## Experience League实时事件通知 — 使下一个受众区段比以往更智能 {#events}
+## ![](/assets/experience-league.png) IconExperience League Live {#events}
 
-通过Aaron Shields、Yaya Wang和Andres Monroy，了解Experience Platform中的区段生成器！
+**2021年8月26日**  |  [让下一个受众区段比以往更智能](https://www.youtube.com/watch?v=rogVKsTFbWk)  — 与Doug Moore、Aaron Shields、Yaya Wang和Andres MonroyExperience Platform了解区段生成器！
 
-**事件：** [使下一个受众区段比以往更智能](https://www.youtube.com/watch?v=rogVKsTFbWk)
-
-**时间：** 2021年8月26日太平洋标准时间上午9点00分
+有关更多视频，请访问YouTube上的[Adobe Experience League渠道](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)。
 
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud 中央界面组件 {#ecloud}
 
