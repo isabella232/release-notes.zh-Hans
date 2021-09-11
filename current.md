@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 86c72625cfc50612c0a7cf0c9893b3d6dc4e90f4
+source-git-commit: 462d61e20e2a12671be96cf653d639c07fd6bf96
 workflow-type: tm+mt
-source-wordcount: '6299'
+source-wordcount: '6301'
 ht-degree: 29%
 
 ---
@@ -194,10 +194,12 @@ AN-224899;AN-239753;AN-256295;AN-262122;AN-262449;AN-263969;AN-264665;AN-265223;
 
 功能、修复和新帮助内容，用于Journey Orchestration。
 
+**2021 年 8 月**
+
 * **动态标头：** 您现在可以在HTTP标头参数中传递动态数据。这些参数可由接收历程操作HTTP调用（例如，时间戳或跟踪ID）的集成系统使用。 [了解更多信息...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 * **动态URL路径：** 您现在可以为自定义操作设置动态URL路径。[了解更多信息...](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/action-third-party/url-configuration.html?lang=en)
 
-* **2021年8月**  — 请参阅 [Journey Orchestration发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hans)
+有关详细信息，请参阅[Journey Orchestration发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hans)。
 
 #### 新的Journey Orchestration教程和课程 {#tutorials-ajo}
 
