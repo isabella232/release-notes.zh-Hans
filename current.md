@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: cc9f1d42093c54689b6d15c640879891e4d4ce24
+source-git-commit: 8dbb4ef3665160ade3ec8ffa503c01bd5af64b0e
 workflow-type: tm+mt
-source-wordcount: '6298'
-ht-degree: 29%
+source-wordcount: '6339'
+ht-degree: 34%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 29%
 
 {style=&quot;table-layout:auto&quot;}
 
-有关更多视频，请访问YouTube上的[Adobe Experience League渠道](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)。
+有关更多视频，请访问 YouTube 上的 [Adobe Experience League 频道](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)。
 
 ## ![图标](/assets/ec_appicon_24.png) [!DNL Experience Cloud Central UI Components] 和管理 {#ecloud}
 
@@ -116,20 +116,20 @@ ht-degree: 29%
 
 #### Adobe Analytics中的其他修复
 
-AN-224899;AN-239753;AN-256295;AN-262122;AN-262449;AN-263969;AN-264665;AN-265223;AN-265260;AN-265519;AN-265579;AN-266199;AN-266354;AN-266968;AN-267564;AN-267624;AN-267711;AN-267781;AN-268170;AN-268267;AN-268334;AN-268402;AN-268551;AN-268675;AN-269000;AN-269050;AN-269059;AN-269305;AN-269531
+-224899、AN-239753、AN-256295、AN-262122、AN-262449、AN-263969、AN-264665、AN-265223、AN-265260、AN-265519、AN-265579、AN-、AN-266199、AN-266354、AN-266968、AN-267564、AN-267624、AN-267711、AN-267781、AN-268170、AN-268267、AN-268334、AN-268402、AN-268551、AN-268675、AN-269000、AN-269050、AN-269059、AN-269305、AN-269531
 
 ### [!DNL Analytics] 管理员的重要注意事项 {#aa-notices}
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | Adobe[!UICONTROL Data Connectors]生命周期终止 | 2020 年 8 月 3 日 | Adobe [!UICONTROL 数据连接器]由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 **2021 年 8 月 19 日**。[了解详情...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=zh-Hans) |
-| 完全处理[!UICONTROL 数据源]生命周期终止 | 2021 年 4 月 12 日 | Adobe2021年7月31日&#x200B;**弃用了完全处理数据源**。 从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
+| 完全处理[!UICONTROL 数据源]生命周期终止 | 2021 年 4 月 12 日 | Adobe 已&#x200B;**在 2021 年 7 月 31 日**&#x200B;弃用完全处理数据源。从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### AppMeasurement {#appm}
 
-有关AppMeasurement版本(版本2.22.2)的最新更新，请参阅[AppMeasurement for JavaScript发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
+有关 AppMeasurement 版本（版本 2.22.2）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
 
 ### Analytics 的新课程及教程 {#tutorials-analytics}
 
@@ -163,13 +163,17 @@ AN-224899;AN-239753;AN-256295;AN-262122;AN-262449;AN-263969;AN-264665;AN-265223;
 
 ## ![图标](/assets/audience-manager.png) Audience Manager {#aam}
 
-未更新。
+Audience Manager的新增功能。
+
+| 功能 | 描述 |
+| ------- | ------- |
+| 移动ID数据收集同意 | 添加了对移动ID数据收集同意的支持。 要从此更新中受益，客户必须升级到[AEP Mobile SDK iOS核心2.8.0](https://aep-sdks.gitbook.io/docs/foundation-extensions/mobile-core/mobile-core-release-notes#november-4-2020)或更高版本。 |
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Experience Platform {#platform}
 
 包括Experience Platform和Platform服务([!UICONTROL Journey Orchestration]、[!UICONTROL Offer decisioning]和[!UICONTROL Mobile SDK])的发行更新信息和新文档。
 
-**2021年8月25日** ，对Experience Platform中现有功能的更新包括：
+针对 Experience Platform 中的现有功能的 **2021 年 8 月 25 日**&#x200B;版更新包括：
 
 * **[!UICONTROL 目标]:** 改进了目标营销  人员的可用性，以便将区段无缝激活到现有目标。
 * **[!UICONTROL 可观察性分析]:** 您现在可以订阅与Platform上运行的工作流相关的重要警报。
@@ -201,7 +205,7 @@ AN-224899;AN-239753;AN-256295;AN-262122;AN-262449;AN-263969;AN-264665;AN-265223;
 
 有关详细信息，请参阅[Journey Orchestration发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html?lang=zh-Hans)。
 
-#### 新的Journey Orchestration教程和课程 {#tutorials-ajo}
+#### Journey Orchestration 的新教程和课程 {#tutorials-ajo}
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
@@ -285,7 +289,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
       * [!DNL AEM Forms as a Cloud Service]  — 通信。[通信](https://experienceleague.adobe.com/docs/experience-manager-forms-cloud-service/forms/aem-forms-cloud-service-communications.html?lang=en) API您可以将XDP模板和XML数据组合在一起，以生成各种格式的打印文档。该服务允许您以同步模式生成文档。利用API，可创建有助于您执行以下操作的应用程序：
          * 使用 XML 数据填充模板文件来生成文档。
          * 生成各种格式的输出表单，包括非交互式 PDF 打印流。
-         * 从XFA表单PDF和Adobe Acrobat表单生成打印PDF文件。
+         * 利用 XFA 表单 PDF 和 Adobe Acrobat 表单生成打印版 PDF 文件。
 
          您可以给 [formscsbeta@adobe.com](mailto:formscsbeta@adobe.com) 写信以注册 Beta 计划。
       _Forms预发行渠道中的新增功能_
@@ -331,15 +335,15 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 * [最新Adobe Experience Manager内容Experience League列表 | 2021年9月](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/421751#M29908)
 
-   最新文章的完整列表为[此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/421751#M29908)。
+   [此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/list-of-latest-adobe-experience-manager-content-on-experience/m-p/421751#M29908)提供了最新文章的全面列表。
 
 * [Adobe Experience Cloud](https://www.linkedin.com/company/adobe-experience-cloud/) 社区是连接、吸引和增强Adobe用户能力以为其客户创建改变游戏规则的数字体验的心率。
 
    要查看所有成员的列表，请访问[Adobe博客](https://blog.adobe.com/en/publish/2021/09/02/introducing-the-2021-adobe-community-advisors.html#gs.a6braz)。
 
-* [如何为Experience Manager提交新的功能请求/建议？](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
+* [如何提交针对 Experience Manager 的新功能请求/建议？](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)
 
-   提交Experience Manager功能请求的新流程为“立即启用”。 请参阅[创建构思](https://experienceleaguecommunities.adobe.com/t5/forums/postpage/board-id/adobe-experience-manager-ideas) |此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425)提供了更多[详细信息 | [提交准则](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/m-p/382376#M27427)
+   现已发布提交 Experience Manager 功能请求的新流程。请参阅[提出想法](https://experienceleaguecommunities.adobe.com/t5/forums/postpage/board-id/adobe-experience-manager-ideas) | 更多 [详细信息见此处](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-the-new-process-to-submit-experience-manager-feature/td-p/380425) | [提交指南](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/guidelines-for-submitting-a-new-experience-manager-aem-idea/m-p/382376#M27427)
 
 ### Experience Manager 的新课程和教程 {#tutorials-aem}
 
@@ -392,7 +396,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 详细了解最新发布的功能、改进和修复：
 
 * [Campaign v8 发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/release-notes.html)
-* [Campaign Classicv7发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
+* [Campaign Classic v7 发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html)
 * [Campaign Standard 发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html)
 
 ### [!UICONTROL Campaign] 的新课程及教程 {#tutorials-campaign}
@@ -439,22 +443,22 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ### [!DNL Advertising Cloud DSP] 中的新增功能 {#adcloud-dsp}
 
-上次更新时间：**2021年8月12日，适用于8月11日版的**
+上次更新日期：**2021 年 8 月 12 日发布 8 月 11 日版**
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| [!UICONTROL 投标前可视] 性投放 | [!UICONTROL oracle广告(] Moat)中的竞价前可见性过滤器现在可用于您的版面。 |
+| 投放位置的[!UICONTROL 预竞价可视性] | 来自 Oracle Advertising (Moat) 的[!UICONTROL 预竞价可视性]筛选器现在可用于投放位置。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-上次更新时间：**2021年8月20日，适用于8月21日版的**
+上次更新日期：**2021 年 8 月 20 日发布 8 月 21 日版**
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| — | 新的Advertising Cloud JavaScript测试版标记使用Adobe Experience Cloud ID(ECID)服务以及旧版`ef_id`和`gsurferid`来测量转化。 新标记会创建[第一方Experience Clouds_ecid cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html)，并提供与其他Experience Cloud产品更紧密的集成。<br><br>包含ITP映射的旧版Advertising Cloud JavaScript标记将于2021年9月被弃用。<br><br>您的Adobe客户经理将与您联系，以获取更多信息和实施说明。 |
-| [!UICONTROL 组合] | 所有用户都可以使用新的[!UICONTROL 目标测试版]，其中包含自动加权推荐。 新界面包含有关创建目标和设置初始目标权重的更多指导。 权重推荐仅可用于辅助量度。 |
+| — | 新的Advertising Cloud JavaScript测试版标记使用Adobe Experience Cloud ID(ECID)服务以及旧版`ef_id`和`gsurferid`来测量转化。 新标记创建[第一方 Experience Cloud s_ecid Cookie](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-first-party.html) 并提供与其他 Experience Cloud 产品之间的更紧密集成。<br><br>包含ITP映射的旧版Advertising Cloud JavaScript标记将于2021年9月被弃用。<br><br>您的 Adobe 客户经理将与您联系以提供更多信息和实施说明。 |
+| [!UICONTROL 作品集] | 带自动化权重建议的新 [!UICONTROL Objectives 测试版]已可供所有用户使用。新界面包括有关创建目标和设置初始目标权重的更多指导。权重建议仅适用于辅助指标。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -467,7 +471,7 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 ## ![图标](/assets/target.png) [!DNL Target] {#target}
 
-上次更新时间：**2021年8月3日**
+上次更新日期：**2021 年 8 月 3 日**
 
 请参阅[[!DNL Target] 发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hans)了解最新发行信息。
 
