@@ -6,9 +6,9 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 8dbb4ef3665160ade3ec8ffa503c01bd5af64b0e
+source-git-commit: fcba6592d43896676fff4a62d15756823c8a1b20
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6343'
 ht-degree: 34%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 34%
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-最新更新日期：**2021 年 9 月 10 日**
+最新更新日期：**2021 年 9 月 14 日**
 
 * [[!DNL Experience League] 实时事件](#events)
 * [[!DNL Experience Cloud Central Interface Components] &amp; 管理](#ecloud)
 * [Adobe[!UICONTROL 系统状态]](#status)
 * [[!DNL Adobe Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
-* [[!DNL Adobe Audience Manager]](#aam)
+* [[!DNL Adobe Audience Manager]](#aam) (更新日 **期：2021年9月14日**)
 * [[!DNL Adobe Experience Platform]](#platform)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -163,7 +163,7 @@ ht-degree: 34%
 
 ## ![图标](/assets/audience-manager.png) Audience Manager {#aam}
 
-Audience Manager的新增功能。
+Audience Manager的新增功能 — 更新日期：**2021年9月14日**:
 
 | 功能 | 描述 |
 | ------- | ------- |
