@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: f94180b097c70ad3b4c8b93599c0d26db15892c6
+source-git-commit: 0f0032bbcf0c0fa46caaf1604a0c5aceaffbbe8e
 workflow-type: tm+mt
-source-wordcount: '6343'
-ht-degree: 34%
+source-wordcount: '6485'
+ht-degree: 36%
 
 ---
 
@@ -122,6 +122,7 @@ ht-degree: 34%
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | 2021年10月28日&#x200B;****，以下Analytics旧版API服务将达到其生命周期终止日期并将关闭。 当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://console.adobe.io/home?mv=email#) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | Adobe[!UICONTROL Data Connectors]生命周期终止 | 2020 年 8 月 3 日 | Adobe [!UICONTROL 数据连接器]由传统技术提供支持，而这些技术不再可行或不再受支持。可在 [Adobe Exchange Partner Program](https://partners.adobe.com/exchangeprogram/experiencecloud) 中找到新标准。可使用该标准继续提供和支持任何集成。正式的生命周期结束日期为 **2021 年 8 月 19 日**。[了解详情...](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/data-connectors-eol.html?lang=zh-Hans) |
 | 完全处理[!UICONTROL 数据源]生命周期终止 | 2021 年 4 月 12 日 | Adobe 已&#x200B;**在 2021 年 7 月 31 日**&#x200B;弃用完全处理数据源。从 2021 年 3 月 25 日起，无法再创建此类型的新导入。请使用[批量数据插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 来导入此类型的数据。 |
 
