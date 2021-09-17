@@ -6,10 +6,10 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 0f0032bbcf0c0fa46caaf1604a0c5aceaffbbe8e
+source-git-commit: dfec28cdcc99e9f8840e0eb1dec5c721775d65b8
 workflow-type: tm+mt
-source-wordcount: '6485'
-ht-degree: 36%
+source-wordcount: '6533'
+ht-degree: 35%
 
 ---
 
@@ -97,10 +97,10 @@ ht-degree: 36%
 
 | 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目标日期 |
 | ----------- | ---------- | ----- |
-| 量度去重 | Customer Journey Analytics(CJA)现在可以删除量度的重复实例。 如果某列（本身或另一列）出现相同的值，则可以阻止量度增加。 重复数据删除可防止重要量度的过度计数，并增加对数据的信任。 | 2021 年 9 月 16 日 |
-| 夏令时支持报告 | CJA中的所有数据都以UTC格式存储（不包含特定时区）。 [!UICONTROL CJA] 中的数据查看功能现在可以根据夏令时将数据转换为考虑增加或减少1小时。 | 2021 年 9 月 16 日 |
-| [!UICONTROL 自定义日历] | 允许您为数据视图选择其他日历类型(例如[!UICONTROL retail 4-4-5])。 您可以基于同一连接创建多个数据视图，以便以不同的日历格式查看相同的数据。 | 2021 年 9 月 16 日 |
-| 布尔字段支持 | CJA现在支持布尔字段。 | 2021 年 9 月 16 日 |
+| 量度去重 | Customer Journey Analytics(CJA)现在可以删除量度的重复实例。 如果某列（本身或另一列）出现相同的值，则可以阻止量度增加。 重复数据删除可防止重要量度的过度计数，并增加对数据的信任。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/metric-deduplication.html?lang=en) | 2021 年 9 月 16 日 |
+| 夏令时支持报告 | CJA中的所有数据都以UTC格式存储（不包含特定时区）。 [!UICONTROL CJA] 中的数据查看功能现在可以根据夏令时将数据转换为考虑增加或减少1小时。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 2021 年 9 月 16 日 |
+| [!UICONTROL 自定义日历] | 允许您为数据视图选择其他日历类型(例如[!UICONTROL retail 4-4-5])。 您可以基于同一连接创建多个数据视图，以便以不同的日历格式查看相同的数据。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=en#calendar) | 2021 年 9 月 16 日 |
+| 布尔字段支持 | CJA现在支持布尔字段。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/behavior.html?lang=en) | 2021 年 9 月 16 日 |
 | 新的[!UICONTROL 连接]信息体验 | 此[!UICONTROL 连接] UI增强功能可让您了解数据是否以及何时准备好在报表中使用。 它还允许您跟踪关于处理数据的任何问题。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/manage-connections.html?lang=zh-Hans) | 2021 年 9 月 20 日 |
 
 {style=&quot;table-layout:auto&quot;}
