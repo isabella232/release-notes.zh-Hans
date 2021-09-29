@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 705386fb5b736ff9bf05219162697926821cd686
+source-git-commit: acd15846c8be6d3fd4ad9bdb8688912013d92f74
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -212,7 +212,7 @@ Journey Optimizer 的 **2021 年 8 月**&#x200B;版更新包括：
 
 有关详细信息，请参阅 [Journey Optimizer 发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)。
 
-#### Journey Optimizer的新教程和课程 {#tutorials-ajo}
+### Journey Optimizer的新教程和课程 {#tutorials-ajo}
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
