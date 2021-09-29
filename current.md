@@ -6,7 +6,7 @@ last-update: September 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 9ab0cd435039085791c186a439f16954c317c2df
+source-git-commit: e12356a1860ce775f703426a7bf7e883ad69e404
 workflow-type: tm+mt
 source-wordcount: '6533'
 ht-degree: 98%
@@ -206,8 +206,6 @@ Journey Orchestration 的功能、修复和新帮助内容。
 
 有关详细信息，请参阅 [Journey Orchestration 发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html)。
 
-{style=&quot;table-layout:auto&quot;}
-
 #### Journey Orchestration 的更多资源
 
 [帮助中心](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html) - [发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html) - [最新文档更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html)
@@ -247,6 +245,8 @@ Journey Optimizer 的 **2021 年 8 月**&#x200B;版更新包括：
 | 2021 年 8 月 | [设置客户个人资料数据 - 概述](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/set-up-data-overview.html) | 视频 | 了解实时客户个人资料数据以及为 Journey Optimizer 设置客户个人资料数据所需的步骤。 |
 | 2021 年 8 月 | [映射身份](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/data-configuration/map-identities.html) | 视频 | 了解如何以及何时将架构字段标记为身份，如何创建命名空间，何时将某个身份设为主要身份，以及如何摄取和验证身份数据。 |
 | 2021 年 8 月 | [用例 - 突发消息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html) | 视频 | 了解突发消息的适用用例。了解如何为突发消息配置历程以及要应用的最佳实践。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### Journey Optimizer 的更多资源
 
