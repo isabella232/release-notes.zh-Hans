@@ -5,10 +5,11 @@ doc-type: release notes
 last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
-source-git-commit: ff7a3736e7490af8b815eda72e4ba0b363aef472
+exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
+source-git-commit: 2ad6cb4ae1ae0c9a9414df7c1360a3d4d428f1e5
 workflow-type: tm+mt
-source-wordcount: '5136'
-ht-degree: 40%
+source-wordcount: '5271'
+ht-degree: 39%
 
 ---
 
@@ -339,9 +340,13 @@ Adobe Campaign 提供了一种直观、自动的方式，以通过在线和离�
 
 Adobe Campaign的最新教程和课程。
 
-| 发布日期 | 名称 | 应用程序 | 描述 |
+| 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 10 月 | [使用Adobe Campaign V8为企业用户构建高级营销活动](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | Campaign V8 | 了解如何使用Adobe Campaign V8配置和执行高级营销活动。 了解先决条件、构建和配置高级营销活动、投放，以及管理订阅。 |
+| 2021 年 10 月 | [使用Adobe Campaign V8为企业用户构建高级营销活动](https://experienceleague.adobe.com/?recommended=Campaign-U-1.2021.1.v8) | 课程 | 了解如何使用Adobe Campaign V8配置和执行高级营销活动。 了解先决条件、构建和配置高级营销活动、投放，以及管理订阅。 |
+| 2021 年 10 月 | [在工作流中使用SOAP API — 简介](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 教程 | 了解如何使用Adobe Campaign Soap API并根据通过API收到的数据创建高级交付工作流。 |
+| 2021 年 10 月 | [创建事件](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/create-events.html?lang=en) | 教程 | 了解如何配置事件、指定流端点和事件的有效负载。 |
+| 2021 年 10 月 | [配置数据源](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=en) | 教程 | 了解数据源，并了解如何配置Experience Platform和外部数据源。 |
+| 2021 年 10 月 | [用例 — 突发消息](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-burst-message.html?lang=en) | 教程 | 了解突发消息的适用用例。了解如何为突发消息配置历程以及要应用的最佳实践。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -418,7 +423,7 @@ Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分
 | -----------| ---------- | ---------- | ---------- |
 | 2021 年 10 月 | [什么是数字签名？](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/getting-started/getting-started-signing/sign-with-a-digital-signature.html?lang=en) | 视频 | 了解如何使用Adobe Sign使用来自全球的数字ID。 |
 | 2021 年 10 月 | [Adobe Sign新发件人入门](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/getting-started/getting-started-sending/new-sender.html) | 视频 | 如果您是初次使用Adobe Sign，则可以从本教程开始学习。 本完整的教程重点介绍帮助您快速启动并运行Adobe Sign的所有基础知识。 |
-| 2021 年 10 月 | [将PDF注释加载到InDesign](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/60-second/indesign.html) | 视频 | 在此60秒视频教程中，了解如何在Acrobat共享审阅后将PDF注释加载回InDesign。 此数字工作流可帮助您在创纪录的时间内完成修订。 |
+| 2021 年 10 月 | [将PDF注释加载到InDesign](https://experienceleague.adobe.com/docs/document-cloud-learn/acrobat-learning/60-second/indesign.html) | 视频 | 在此60秒的视频教程中，了解如何在Acrobat共享审阅后将PDF注释加载回InDesign。 此数字工作流可帮助您在创纪录的时间内完成修订。 |
 | 2021 年 10 月 | [从 [!DNL Intesi Group] 获取数字ID（符合条件）](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/intesi/intesi-qualified.html) | 视频 | 了解如何从[!DNL Intesi]组获取合格的数字签名证书。 注册并验证您的身份后，[!DNL Intesi]组会向您发出用于应用Adobe Sign云签名的数字ID问题。 |
 | 2021 年 10 月 | [使用进行签名 [!DNL Intesi Group]](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/intesi/intesi-sign.html) | 视频 | 了解如何使用您的Intesi Group数字ID来验证您的身份，并在文档上授权远程数字签名（云签名）。 |
 | 2021 年 10 月 | [从 [!DNL Intesi Group] 获取数字ID（高级）](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/digital-id/intesi/intesi-advanced.html) | 视频 | 了解如何从英特尔组获取高级数字签名证书。 注册并验证您的身份后，Intesi Group会向您发送用于应用Adobe Sign云签名的数字ID。 |
