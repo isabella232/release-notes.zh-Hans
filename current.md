@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3a7e1b80d25a3b9625ca0ee31a07bae674eda6f
+source-git-commit: bee65444e8ef1c12779c991fa9e199d93b8028f0
 workflow-type: tm+mt
-source-wordcount: '5278'
+source-wordcount: '5361'
 ht-degree: 39%
 
 ---
@@ -48,12 +48,12 @@ ht-degree: 39%
 
 [!DNL Experience League] 现场活动是与 Adobe 专家和特别嘉宾进行讨论，他们帮助向您介绍 Adobe 技术。查看下面的时间表，并参与现场活动或观看以前录制的活动。
 
-| 活动日期 | 活动名称 | 类型 | 描述 |
-| -----------| ---------- | ---------- | ---------- |
-| 2021 年 10 月 21 日 | 待定 | 视频直播活动 | 详细信息即将发布。 |
-| 2021 年 9 月 23 日 | [专家提示让您的假日营销活动引人注目](https://www.youtube.com/watch?v=bsU1lAv0xes) | 视频直播活动 | 就像假日购物越早开始越好一样，计划非常成功的假日营销活动也是越早开始越好。借助 Adobe Campaign，您可以设计、规划和执行营销活动，使您的组织的所有假日愿望都成真。<br>但是，您知道所有有关运行营销活动的提示吗？与Sandra一起参加一次现场讨论，由三位Adobe专家参加，他们拥有大量的集体专业知识来做到这一点。 |
-| 2021 年 8 月 26 日 | [更智能地确定下一个受众区段](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=zh-Hans) | 录制的活动 | 每一个好的营销活动的成功都离不开准确定位受众。利用新的 Adobe Experience Platform [!UICONTROL 区段生成器]，您可以使用各个渠道的个人资料数据和基于时间的用户行为来构建下一个受众区段。要确保您的信息传达给最需要听到的人，没有比这更好的方法了。 |
-| 2021 年 7 月 29 日 | [我喜欢的三个 Adobe Analytics 实施技巧](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=zh-Hans) | 录制的活动 | 您在峰会的舞台上见过他。您曾在 Adobe Insider Tour 听到他分享专家建议。您甚至可能受益于与他合作完成自己的 Adobe Analytics 实施。现在，Eric Matisoff 将在这个专享 Experience League Live 讨论现场分享他喜欢的三个 Adobe Analytics 实施技巧。 |
+| 活动日期 | 时间 | 活动名称 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 2021 年 10 月 21 日 | 中午12点(EST) | [谁点击了？使用Adobe Analytics](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)高级报告链接点击量 | 实时视频事件 | 报告用户与您的Web或移动资产的交互情况是了解客户历程的关键。 通过Adobe Analytics，您可以了解应用程序中每次点击的对象、内容、原因和位置。 向Adobe Analytics专家学习有关使用Activity Map分类和自定义归因以更好地了解用户参与度的主要提示。 |
+| 2021 年 9 月 23 日 | 按需 | [专家提示让您的假日营销活动引人注目](https://www.youtube.com/watch?v=bsU1lAv0xes) | 视频直播活动 | 就像假日购物越早开始越好一样，计划非常成功的假日营销活动也是越早开始越好。借助 Adobe Campaign，您可以设计、规划和执行营销活动，使您的组织的所有假日愿望都成真。<br>但是，您知道所有有关运行营销活动的提示吗？与Sandra一起参加一次现场讨论，由三位Adobe专家参加，他们拥有大量的集体专业知识来做到这一点。 |
+| 2021 年 8 月 26 日 | 按需 | [更智能地确定下一个受众区段](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=zh-Hans) | 录制的活动 | 每一个好的营销活动的成功都离不开准确定位受众。利用新的 Adobe Experience Platform [!UICONTROL 区段生成器]，您可以使用各个渠道的个人资料数据和基于时间的用户行为来构建下一个受众区段。要确保您的信息传达给最需要听到的人，没有比这更好的方法了。 |
+| 2021 年 7 月 29 日 | 按需 | [我喜欢的三个 Adobe Analytics 实施技巧](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=zh-Hans) | 录制的活动 | 您在峰会的舞台上见过他。您曾在 Adobe Insider Tour 听到他分享专家建议。您甚至可能受益于与他合作完成自己的 Adobe Analytics 实施。现在，Eric Matisoff 将在这个专享 Experience League Live 讨论现场分享他喜欢的三个 Adobe Analytics 实施技巧。 |
 
 {style=&quot;table-layout:auto&quot;}
 
