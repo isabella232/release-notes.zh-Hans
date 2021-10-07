@@ -6,9 +6,9 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: f0bc233f66b61333fee0cf07f816918d61c0776e
+source-git-commit: 7cf9cf52da1afbbad7f5457077759b127a2e2312
 workflow-type: tm+mt
-source-wordcount: '5394'
+source-wordcount: '5405'
 ht-degree: 39%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 39%
 
 | 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目标日期 |
 | ----------- | ---------- | ----- |
-| Report Builder支持 | Report Builder是Microsoft® [!DNL Excel]加载项，可让您使用Customer Journey Analytics数据轻松创建、编辑和刷新自定义报表。 借助Report Builder和Excel，您可以使用简单而灵活的拖放UI轻松构建复杂的数据请求。 通过Report BuilderCustomer Journey Analytics，您可以：<ul><li>引用现有工作表单元格，以获取完美的行顺序、日期范围或过滤器</li><li>使用日历、单元格引用或日期数学创建自定义日期</li><li>使用熟悉的Excel格式工具设计表格和可视化图表</li><li>在macOS、Microsoft 365（Web版）和Microsoft Windows上提供</li></ul> | 2021 年 10 月 7 日 |
+| Report Builder支持 | Report Builder是Microsoft® [!DNL Excel]加载项，可让您使用Customer Journey Analytics数据轻松创建、编辑和刷新自定义报表。 借助Report Builder和Excel，您可以使用简单而灵活的拖放UI轻松构建复杂的数据请求。 通过Report BuilderCustomer Journey Analytics，您可以：<ul><li>引用现有工作表单元格，以获取完美的行顺序、日期范围或过滤器</li><li>使用日历、单元格引用或日期数学创建自定义日期</li><li>使用熟悉的Excel格式工具设计表格和可视化图表</li><li>适用于macOS、Microsoft 365（Web版）和Microsoft Windows上的Excel</li></ul>[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-reportbuilder/report-buider-overview.html#) | 2021 年 10 月 7 日 |
 | Analytics功能板的可视化图表 | Analytics [!UICONTROL 功能板]将引入三种新的可视化图表，以便让执行人员和决策者更好地了解其数据。 新的圆环图、折线图和水平条形图都更便于查看各个维度项目的数据，而无需打开详细信息视图。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dashboards/create-scorecard.html?lang=en#apply-visualizations) | 2021 年 10 月 7 日 |
 | Customer Journey Analytics审核日志API | [审核日志](https://adobe.io/cja-apis/docs/endpoints/auditlogs/) API端点允许您从Adobe请求审核日志数据。 它是安全合规性以及审核数据或用户操作的重要部分。 | 2021 年 10 月 7 日 |
 | 快速[!UICONTROL 过滤器生成器] | 允许企业用户在一个简化的在线项目工作流程中快速应用基本区段。 无需转到[!UICONTROL 过滤器生成器]。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html?lang=en) | 2021 年 10 月 21 日 |
