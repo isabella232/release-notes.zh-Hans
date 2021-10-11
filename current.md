@@ -6,7 +6,7 @@ last-update: October 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e3facdc781ebcea6c4e623799ba1c431c83ae05f
+source-git-commit: bc6e1a293674c9554cb5c4bb18e3e39bb8c38213
 workflow-type: tm+mt
 source-wordcount: '5537'
 ht-degree: 38%
@@ -98,7 +98,7 @@ ht-degree: 38%
 | 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) - 目标日期 |
 | ----------- | ---------- | ------- |
 | Analytics功能板的可视化图表 | Analytics [!UICONTROL 功能板]将引入三种新的可视化图表，以便执行人员和决策者更好地了解其数据。 新的[!UICONTROL 圆环图]、[!UICONTROL 折线图]和[!UICONTROL 水平]条形图都可以更轻松地查看各个维度项目的数据，而无需打开详细信息视图。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) | 2021 年 10 月 7 日 |
-| [!UICONTROL 媒体播放逗留时间] | Adobe流媒体播放[!UICONTROL 逗留时间]对查看者参与度提供了有价值的分析，使媒体组织能够通过使用时段划分功能进行高级逗留时间分析，从而逐分钟的用户参与度中获得更深入、更精细的洞察。 您可以观察在特定时间点观看媒体流所花费的时间。 您可以按不同的粒度（包括新的5分钟、15分钟和30分钟粒度）划分播放持续时间。 [了解详情](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
+| [!UICONTROL 媒体播放耗时] | Adobe流媒体播放[!UICONTROL 逗留时间]对查看者参与度提供了有价值的分析，使媒体组织能够通过使用时段划分功能进行高级逗留时间分析，从而逐分钟的用户参与度中获得更深入、更精细的洞察。 您可以观察在特定时间点观看媒体流所花费的时间。 您可以按不同的粒度（包括新的5分钟、15分钟和30分钟粒度）划分播放持续时间。 [了解详情](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 区段生成器] | 允许企业用户在一个简化的在线项目工作流程中快速应用基本区段。 无需转到[!UICONTROL 区段生成器]。 [了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace左边栏搜索改进 | 左边栏搜索将1)除继续考虑组件的新近度和相关性外，将精确匹配优先于广泛匹配。 2)突出显示匹配的字符，使搜索结果更易于理解。 3)更容易找到与维度相关的分类。 4)最后，它支持通配符(`*`)搜索，以便更轻松地找到您需要的特定组件。 注意：通配符搜索在维度项目级别尚不起作用。 | 2021 年 10 月 21 日 |
 | Analysis Workspace暗主题 | 深色主题可作为显示选项使用。 | 2021 年 10 月 21 日 |
@@ -132,7 +132,7 @@ AN-256136;AN-265420;AN-268455;AN-269768;AN-270276;AN-270287;AN-271601;AN-271969;
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | 2021年10月28日&#x200B;****，以下Analytics旧版API服务将达到其生命周期终止日期并被关闭。 当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
+| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | 2021年10月20日&#x200B;****，以下Analytics旧版API服务将达到其生命周期终止日期并被关闭。 当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 
 {style=&quot;table-layout:auto&quot;}
 
