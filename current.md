@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: c22db21d36f9ff7309f1ca835ff3241f87b86286
 workflow-type: tm+mt
 source-wordcount: '4190'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -147,7 +147,7 @@ AN-270649
 
 ### AppMeasurement {#appm}
 
-有关 AppMeasurement 版本（版本 2.22.2）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
+有关 AppMeasurement 版本（版本 2.22.2）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
 ### Analytics 的课程及教程 {#tutorials-analytics}
 
@@ -158,7 +158,7 @@ AN-270649
 | 2021 年 11 月 | [Adobe Analytics中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 视频（已更新） | 在此视频中，了解如何使用容器并听取每种类型容器的一些示例。 |
 | 2021 年 11 月 | [Adobe Analytics中的顺序区段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 视频（已更新） | 了解如何根据网站或应用程序中的一系列行为在Analysis Workspace中构建区段。 |
 | 2021 年 11 月 | [在顺序分段中的序列之前/之后](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 视频（已更新） | 了解如何在Adobe Analytics中进行分段，以便仅从特定用户路径之前或之后的数据获取。 |
-| 2021 年 11 月 | [Report BuilderCustomer Journey Analytics](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 视频 | 借助Report Builder简单灵活的拖放UI，您可以在Excel中从Customer Journey Analytics数据创建复杂的数据查询和自定义报表。 |
+| 2021 年 11 月 | [Customer Journey Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 视频 | 借助 Report Builder 简单灵活的拖放 UI，您可以在 Excel 中从 Customer Journey Analytics 数据创建复杂的数据查询和自定义报表。 |
 | 2021 年 10 月 | [利用可视化项讲述您的数据故事](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 课程 | 了解有关可视化的基础知识，包括如何将可视化添加到项目、将数据导入到其中，以及每个可视化图表可以向您显示的内容。 了解如何配置设置以获取所需的确切数据。此外，获取一些提示和用例以帮助您在常规分析中实施可视化。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -205,7 +205,7 @@ Audience Manager 中的修复和改进。
 
 ### 最新 Journey Optimizer 产品版本
 
-有关最新的功能、改进和修复的详细信息，请参见 [Journey Optimizer 发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html?lang=zh-Hans)。
+有关最新的功能、改进和修复的详细信息，请参见 [Journey Optimizer 发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html)。
 
 ### Journey Optimizer 教程和课程 {#tutorials-ajo}
 
@@ -307,7 +307,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 * [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans)
 * [Experience Manager 6.2 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans#previous-updates)
 * [Experience Manager 文档的旧版本](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
-* [[!DNL Cloud Manager] 用户指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans)
+* [[!DNL Cloud Manager] 《用户指南》](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans)
 * [[!DNL Dynamic Media Classic] 帮助主页](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans)
 * [Experience Manager 文档：最近的更新](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html?lang=zh-Hans#aem-as-a-cloud-service)
 
