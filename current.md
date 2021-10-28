@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 99bb9c88f2aa8b9f62cf2f088671fe60c1e684ab
+source-git-commit: ed5f9c6b35b65bab0c26887788e2232a0e9a6ab5
 workflow-type: tm+mt
-source-wordcount: '4131'
+source-wordcount: '4147'
 ht-degree: 60%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 60%
 | [!UICONTROL 媒体播放耗时] | Adobe 流媒体播放[!UICONTROL 耗时]提供有关查看者参与的有价值见解，并使媒体组织能够通过具备时段分割功能的高级耗时分析，利用以分钟计的用户参与获得更深入、更精细的见解。您可以观察在特定时间点查看媒体流的耗时。您可以按不同粒度（包括新的5分钟、15分钟和30分钟粒度）划分播放持续时间。 [了解详情](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 区段生成器] | 允许商业用户在简化的嵌入式项目工作流中快速应用基本区段。无需转至[!UICONTROL 区段生成器]。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左边栏搜索改进 | 左边栏搜索1)除继续考虑组件的新近度和相关性外，还会将精确匹配优先于广泛匹配。 2) 突出显示匹配的字符以使搜索结果更易于理解。3) 让查找与维度相关的分类变得更加轻松。4) 支持通配符 (`*`) 搜索以更轻松地找到所需的特定组件。注意：通配符搜索在维度项级别尚不可用。 | 2021 年 10 月 21 日 |
-| Analysis Workspace 深色主题 | 深色主题作为显示选项提供。 | 2021 年 10 月 21 日 |
+| 深色主题 | [深色主题作为显示选项提供。](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme) | 2021 年 10 月 21 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -135,7 +135,7 @@ ht-degree: 60%
 | Analysis Workspace中的分钟级日期范围 | 您可以在面板日历的高级设置下应用分钟级日期范围，或在生成自定义日期范围时应用。 如果您报告的日期范围跨越多天，则开始时间适用于第一天，结束时间适用于范围内的最后一天。 | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 筛选器生成器] | 允许商业用户在简化的嵌入式项目工作流中快速应用基本区段。无需转至[!UICONTROL 筛选器生成器]。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左边栏搜索改进 | 左边栏搜索1)除继续考虑组件的新近度和相关性外，还会将精确匹配优先于广泛匹配。 2) 突出显示匹配的字符以使搜索结果更易于理解。3) 让查找与维度相关的分类变得更加轻松。4) 支持通配符 (`*`) 搜索以更轻松地找到所需的特定组件。注意：通配符搜索在维度项级别尚不可用。 | 2021 年 10 月 21 日 |
-| Analysis Workspace 深色主题 | 深色主题作为显示选项提供。 | 2021 年 10 月 21 日 |
+| 深色主题 | [深色主题作为显示选项提供。](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme) | 2021 年 10 月 21 日 |
 | 维分配的回顾窗口 | 向“数据视图”配置中的“持久性”下的维度分配设置添加最多90天的回顾窗口。 [了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021 年 10 月 28 日 |
 
 {style=&quot;table-layout:auto&quot;}
