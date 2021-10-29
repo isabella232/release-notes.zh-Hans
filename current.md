@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 4dfe2c2ab39fe82b40fc87e289d2c55c6ccc6735
+source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
 workflow-type: tm+mt
-source-wordcount: '4456'
-ht-degree: 56%
+source-wordcount: '4513'
+ht-degree: 55%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 56%
 
 | 活动日期 | 时间 | 活动名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
+| 2021 年 11 月 18 日 | TBA | 在Experience Manager中快速创建网站，使其上线速度比以往任何时候都快 | 视频直播活动 | Experience Manager Sites包含几项功能，可加快交付引人入胜的Web体验。 了解如何使用低代码方法通过预定义的网站模板在Adobe Experience Manager中创建网站。 更多细节待定！ |
 | 2021 年 10 月 21 日 | 按需 | [谁点击了？有关 Adobe Analytics 的链接点击的高级报告](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 视频直播活动 | 有关用户与您的 Web 或移动资产的互动的报告是了解客户历程的关键部分。利用 Adobe Analytics，您可以了解应用程序中的每次点击的人员、内容、原因和位置。从 Adobe Analytics 专家那里获得有关使用 Activity Map 分类和自定义属性更好地了解用户参与的重要技巧。 |
 | 2021 年 10 月 4 日 | 按需 | [Adobe开发人员上线](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 视频 | 是否错过了事件或正在查找特定会话的重播？ 在Experience League上找到它们。 开发人员上线展示了最新的技术进步和开发人员工具，为各行业的设计、内容创建工作流程、文档服务和客户体验管理提供强大动力。 查看主旨演讲、了解Analytics API、客户端数据层、Adobe I/O开源项目等。 |
 
