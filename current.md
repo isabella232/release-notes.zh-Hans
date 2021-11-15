@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 88923d059ec73215facae2efc1888b07b2e60fc7
+source-git-commit: f5fa780e217bd43eb835442326692e3a056f16c3
 workflow-type: tm+mt
-source-wordcount: '4513'
-ht-degree: 88%
+source-wordcount: '5070'
+ht-degree: 83%
 
 ---
 
@@ -47,17 +47,43 @@ ht-degree: 88%
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
-## ![图标](/assets/experience-league.png) [!DNL Experience League] 现场活动 {#events}
+## ![图标](/assets/experience-league.png) [!DNL Experience League] 事件 {#events}
 
-[Experience League 实时活动](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en)是与 Adobe 专家和特邀嘉宾进行的讨论，他们帮助向您介绍 Adobe 技术。查看下面的时间表，并参与现场活动或观看以前录制的活动。
+Experience League事件是从Adobe的产品专家那里获取答案的绝佳场所。 看看我们的 _社区问答茶歇_、Experience League实时视频事件（也可按需获取）和Adobe开发人员的实时视频。 计划和事件如下：
+
+### Experience League上线{#exl-live}
+
+[Experience League上线](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) 是由Experience League团队制作的实时流播放节目。 这是与Adobe产品专家联系并学习可在Adobe Experience Cloud应用程序中应用的可操作提示、技巧和策略的机会。
 
 | 活动日期 | 时间 | 活动名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021 年 11 月 18 日 | TBA | 在Experience Manager中快速创建网站，使上线速度比以往更快 | 视频直播活动 | Experience Manager Sites包含几项功能，可加快交付引人入胜的Web体验。 了解如何使用低代码方法通过预定义的网站模板在Adobe Experience Manager中创建网站。 更多细节待定！ |
-| 2021 年 10 月 21 日 | 按需 | [谁点击了？有关 Adobe Analytics 的链接点击的高级报告](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) | 视频直播活动 | 有关用户与您的 Web 或移动资产的互动的报告是了解客户历程的关键部分。利用 Adobe Analytics，您可以了解应用程序中的每次点击的人员、内容、原因和位置。从 Adobe Analytics 专家那里获得有关使用 Activity Map 分类和自定义属性更好地了解用户参与的重要技巧。 |
-| 2021 年 10 月 4 日 | 按需 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 视频 | 错过了活动或者想重放特定会话？在 Experience League 上查找它们。Developers Live 展示了跨行业推动设计、内容创建工作流、文档服务和客户体验管理的最新技术进步和开发人员工具。查看主题演讲，了解 Analytics API、客户端数据层、Adobe I/O 开源项目等内容。 |
+| 2021 年 11 月 18 日 | 中午 12 点（东部标准时间） | [通过在Adobe Experience Manager中快速创建网站，以前所未有的速度上线](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 视频直播活动 | 几天内即可部署功能丰富的个性化Web体验，无需进行后端开发。 了解如何使用低代码方法通过预定义的网站模板在Adobe Experience Manager中创建网站。 与我们一起，与Adobe产品经理Shankari Panchapakesan和Gabriel Walt一起进行现场演示和演示。 你甚至可能会看到一些实时编码！ |
+| 2021 年 10 月 21 日 | 中午 12 点（东部标准时间） | [谁点击了？有关 Adobe Analytics 的链接点击的高级报告](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw) | 按需 | 有关用户与您的 Web 或移动资产的互动的报告是了解客户历程的关键部分。利用 Adobe Analytics，您可以了解应用程序中的每次点击的人员、内容、原因和位置。从 Adobe Analytics 专家那里获得有关使用 Activity Map 分类和自定义属性更好地了解用户参与的重要技巧。 |
+| 2021 年 9 月 23 日 | 按需 | [专家提示让您的假日营销活动引人注目](https://www.youtube.com/watch?v=bsU1lAv0xes) | 视频直播活动 | 就像假日购物越早开始越好一样，计划非常成功的假日营销活动也是越早开始越好。借助 Adobe Campaign，您可以设计、规划和执行营销活动，使您的组织的所有假日愿望都成真。<br>但是您知道让举行的营销活动圆满结束的小贴士吗？请参加 Sandra 的现场讨论，其中邀请了三位在这方面拥有丰富的集体智慧的 Adobe 专家。 |
+| 2021 年 8 月 26 日 | 按需 | [更智能地确定下一个受众区段](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-02.html?lang=zh-Hans) | 录制的活动 | 每一个好的营销活动的成功都离不开准确定位受众。利用新的 Adobe Experience Platform [!UICONTROL 区段生成器]，您可以使用各个渠道的个人资料数据和基于时间的用户行为来构建下一个受众区段。要确保您的信息传达给最需要听到的人，没有比这更好的方法了。 |
+| 2021 年 7 月 29 日 | 按需 | [我喜欢的三个 Adobe Analytics 实施技巧](https://experienceleague.adobe.com/docs/experience-league-live-events/events/episodes/exl-live-episode-01.html?lang=zh-Hans) | 录制的活动 | 您在峰会的舞台上见过他。您曾在 Adobe Insider Tour 听到他分享专家建议。您甚至可能受益于与他合作完成自己的 Adobe Analytics 实施。现在，Eric Matisoff 将在这个专享 Experience League Live 讨论现场分享他喜欢的三个 Adobe Analytics 实施技巧。 |
 
 {style=&quot;table-layout:auto&quot;}
+
+### 社区问答茶歇{#coffee}
+
+与Adobe专家和特邀客人讨论，他们在为您带来Adobe技术方面发挥了重要作用。 社区问答茶歇查看以下时间安排，参加我们的现场活动或观看之前录制的活动。
+
+与特邀访客共处一小时，并在Experience League社区中提交您的问题，您可以在Adobe获得产品专家的回答问题。
+
+| 活动名称 | 日期和时间 | 主题 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 社区问答茶歇 | 11月10日（星期三） @ 8am PT | Adobe Target | 论坛问答 | 与产品经理Cristinel Anastasoaie共处一小时。 获取有关Adobe Target界面、集成、企业权限和工作区的回答问题。 <br>[详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
+|  | 11月11日（星期日） @ 8 am PT | Adobe Target | 论坛问答 | 与产品经理Cristinel Anastasoaie共处一小时。 获取有关Adobe Target界面、集成、企业权限和工作区的回答问题。 <br>[详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696) |
+| 2021 年 11 月 18 日 | TBA | 在Experience Manager中快速创建网站，使上线速度比以往更快 | 视频直播活动 | Experience Manager Sites包含几项功能，可加快交付引人入胜的Web体验。 了解如何使用低代码方法通过预定义的网站模板在Adobe Experience Manager中创建网站。 更多细节待定！ |
+
+{style=&quot;table-layout:auto&quot;}
+
+### Adobe开发人员上线{#dev-live}
+
+| 活动名称 | 日期和时间 | 主题 | 类型 | 描述 |
+| -----------| ---------- | ---------- | ---------- |---------- |
+| 2021 年 10 月 4 日 | 按需 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 视频 | 错过了活动或者想重放特定会话？在 Experience League 上查找它们。Developers Live 展示了跨行业推动设计、内容创建工作流、文档服务和客户体验管理的最新技术进步和开发人员工具。查看主题演讲，了解 Analytics API、客户端数据层、Adobe I/O 开源项目等内容。 |
 
 有关更多视频，请访问 YouTube 上的 [Adobe Experience League 频道](https://www.youtube.com/channel/UCN-7ZEctit8Qu01BWeHQ0Fw)。
 
