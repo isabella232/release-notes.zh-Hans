@@ -13,7 +13,7 @@ ht-degree: 92%
 
 ---
 
-# Adobe Experience Cloud 发行说明 - 2021 年 11 月
+# Adobe Experience Cloud 发行说明 — 2021 年 11 月
 
 ![横幅](assets/experience-cloud-banner-3.png)
 
@@ -105,8 +105,8 @@ Experience League事件是从Adobe的产品专家那里获取答案的绝佳场�
 **关于 [!DNL Experience Cloud Central UI Components] 和管理**&#x200B;的更多帮助资源
 
 * [中央界面组件](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans)和用户管理的管理帮助
-* [地点 - 位置服务](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=zh-Hans)的帮助和发行说明
-* [人员 - 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=zh-Hans)的相关帮助
+* [地点 — 位置服务](https://experienceleague.adobe.com/docs/places/using/release-notes.html?lang=zh-Hans)的帮助和发行说明
+* [人员 — 客户属性和受众库](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services-landing.html?lang=zh-Hans)的相关帮助
 
 ## ![图标](/assets/adobe.png) [!DNL Adobe System Status] {#status}
 
@@ -150,7 +150,7 @@ Experience League事件是从Adobe的产品专家那里获取答案的绝佳场�
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-| 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) - 目标日期 |
+| 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) — 目标日期 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace 中的分钟级日期范围 | 您可以在面板日历的高级设置下或在构建自定义日期范围时应用分钟级日期范围。如果报告的日期范围跨越许多天，则开始时间适用于范围内的第一天，结束时间适用于最后一天。 | 2021 年 10 月 18 日 |
 | [!UICONTROL 媒体播放耗时] | Adobe 流媒体播放[!UICONTROL 耗时]提供有关查看者参与的有价值见解，并使媒体组织能够通过具备时段分割功能的高级耗时分析，利用以分钟计的用户参与获得更深入、更精细的见解。您可以观察在特定时间点查看媒体流的耗时。您可以按不同的粒度分割播放时长，包括新的 5 分钟、15 分钟和 30 分钟粒度。 [了解详情](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
@@ -162,7 +162,7 @@ Experience League事件是从Adobe的产品专家那里获取答案的绝佳场�
 
 ### Customer Journey Analytics 中的新增功能 {#cust-journey}
 
-| 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html) - 目标日期 |
+| 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html) — 目标日期 |
 | ----------- | ---------- | ----- |
 | Analysis Workspace 中的分钟级日期范围 | 您可以在面板日历的高级设置下或在构建自定义日期范围时应用分钟级日期范围。如果报告的日期范围跨越许多天，则开始时间适用于范围内的第一天，结束时间适用于最后一天。 | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 筛选器生成器] | 允许商业用户在简化的嵌入式项目工作流中快速应用基本区段。无需转至[!UICONTROL 筛选器生成器]。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021 年 10 月 21 日 |
@@ -242,7 +242,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 ### 社区
 
-* [Adobe Developers Live](https://developerevents.adobe.com/events/details/adobe-developer-events-developer-experience-presents-adobe-developers-live/?cid=Kautuk) | 2021 年 10 月 4 日 - 5 日 7:00 PDT
+* [Adobe Developers Live](https://developerevents.adobe.com/events/details/adobe-developer-events-developer-experience-presents-adobe-developers-live/?cid=Kautuk) | 2021 年 10 月 4 日-5 日 7:00 PDT
 
    Adobe Developers Live 将具有不同的背景和单一目的的 Adobe 开发人员和体验构建者聚集在一起，以创造令人难以置信的端到端体验。这个为期两天的会议包括重要的开发人员信息更新、技术研讨会和社区关系网建立机会。
 
@@ -288,7 +288,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 ### Experience Manager 的其他帮助资源
 
-* [[!DNL Experience Manager as a Cloud Service] 指南](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans)
+* [[!DNL Experience Manager as a Cloud Service] 《指南》](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=zh-Hans)
 * [Experience Manager 6.5 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/home.html?lang=zh-Hans)
 * [Experience Manager 6.4 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-64.html?lang=zh-Hans)
 * [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans)
@@ -336,7 +336,7 @@ Adobe Campaign 的最新教程和课程
 | 发布日期 | 名称 | 描述 | 类型 | 版本 |
 | -----------| ---------- | ---------- |---------- | ---------- |
 | 2021 年 11 月 | [将 Campaign 连接到作为目标的 Experience Platform](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=en) | 视频 | 了解如何使用 Amazon S3 连接类型将 Adobe Experience Platform 区段激活到目标。 | AEP 和 Campaign V8 |
-| 2021 年 11 月 | [与 Experience Platform 集成 - 概述](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=en) | 视频 | 了解如何在 Campaign 和 Experience Cloud 之间共享数据。 | AEP 和 Campaign V8 |
+| 2021 年 11 月 | [与 Experience Platform 集成 — 概述](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=en) | 视频 | 了解如何在 Campaign 和 Experience Cloud 之间共享数据。 | AEP 和 Campaign V8 |
 | 2021 年 11 月 | [从 Experience Platform 导入收件人数据并发送电子邮件](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=en) | 视频 | 了解如何在 Adobe Campaign 中配置外部帐户，以将收件人数据从 Adobe Experience Platform 导入 Campaign。了解如何创建工作流以上传和定位从 Experience Platform 接收的收件人。 | AEP 和 Campaign V8 |
 | 2021 年 11 月 | [在工作流中使用 SOAP API](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 视频教程 | 了解如何使用 Adobe Campaign Soap API 并根据通过 API 接收的数据创建高级交付工作流。 | Campaign V8 |
 
@@ -344,10 +344,10 @@ Adobe Campaign 的最新教程和课程
 
 ### 营销活动帮助资源
 
-* Adobe Campaign v8：[文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=zh-Hans) - [实施指南](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=zh-Hans)
-* Adobe Campaign Standard：[Campaign Standard 文档](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans) - [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hans) - [最新文档更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=zh-Hans)
-* Adobe Campaign Classic：[Campaign Classic v7 文档](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) - [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hans) - [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=zh-Hans)
-* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
+* Adobe Campaign v8：[文档](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=zh-Hans) — [发行说明](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/whats-new.html?lang=zh-Hans) — [《实施指南》](https://experienceleague.adobe.com/docs/campaign/campaign-v8/implement/implement.html?lang=zh-Hans)
+* Adobe Campaign Standard：[Campaign Standard 文档](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans) — [发行说明](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html) — [操作方法视频](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=zh-Hans) — [发行计划](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-planning.html?lang=zh-Hans) — [最新文档更新](https://experienceleague.adobe.com/docs/campaign-standard/using/documentation-updates.html?lang=zh-Hans)
+* Adobe Campaign Classic：[Campaign Classic v7 文档](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans) — [发行说明](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html) — [操作方法视频](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=zh-Hans) — [最新文档更新](https://experienceleague.adobe.com/docs/campaign-classic/using/documentation-updates.html?lang=zh-Hans)
+* Adobe Campaign 控制面板：[文档](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hans) — [发行说明](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=zh-Hans) - 有关 [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=zh-Hans)/[Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=zh-Hans) 的操作方法视频
 
 ## ![图标](/assets/experience_platform_appicon_24.png) Journey Optimizer {#journey-opt}
 
@@ -371,8 +371,8 @@ Adobe Campaign 的最新教程和课程
 
 ### [!DNL Journey Optimizer] 的更多资源
 
-* [Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [操作方法视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans)
-* [Decision Management 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) - [发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) - [操作方法视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) - [最新文档更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
+* [Journey Optimizer 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/ajo-home.html?lang=zh-Hans) — [发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) — [操作方法视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=zh-Hans)
+* [Decision Management 文档](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) — [发行说明](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/release-notes.html) — [操作方法视频](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/decision-management-configuration/introduction-to-offer-decisioning.html) — [最新文档更新](https://experienceleague.adobe.com/docs/journey-optimizer/using/whats-new/documentation-updates.html)
 
 ## ![图标](/assets/experience_platform_appicon_24.png) [!DNL Journey Orchestration] {#journey-orch}
 
@@ -384,7 +384,7 @@ Adobe Campaign 的最新教程和课程
 
 #### [!DNL Journey Orchestration] 的更多资源
 
-* [Journey Orchestration 文档](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hans) - [发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) - [操作方法视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hans) - [最新文档更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hans)
+* [Journey Orchestration 文档](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hans) — [发行说明](https://experienceleague.adobe.com/docs/journeys/using/release-notes/release-notes.html) — [操作方法视频](https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hans) — [最新文档更新](https://experienceleague.adobe.com/docs/journeys/using/release-notes/documentation-updates.html?lang=zh-Hans)
 
 ## ![图标](/assets/marketo.png) [!DNL Marketo Engage] {#marketo}
 
