@@ -9,7 +9,7 @@ exl-id: null
 source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
 workflow-type: tm+mt
 source-wordcount: '4724'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 92%
 
 发行月份：**2021 年 11 月**
 
-最新更新：**2021 年 11 月 15 日**
+最新更新日期：**2021 年 11 月 15 日**
 
-* [[!DNL Experience League] 事件](#events) （更新日期：2021年11月15日）
+* [[!DNL Experience League] 活动](#events)（2021 年 11 月 15 日更新）
 * [[!DNL Experience Cloud Central Interface Components] 和管理](#ecloud)
 * [Adobe [!UICONTROL 系统状态]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
@@ -47,46 +47,46 @@ ht-degree: 92%
 
 需要帮助？请访问 [Adobe Experience League](https://experienceleague.adobe.com/?lang=zh-Hans/#home)，查找产品和技术文档、Adobe 策划课程、视频教程、快速解答、社区洞察以及由讲师指导的培训。
 
-## ![图标](/assets/experience-league.png) [!DNL Experience League] 事件 {#events}
+## ![图标](/assets/experience-league.png) [!DNL Experience League] 活动 {#events}
 
-Experience League事件是从Adobe的产品专家那里获取答案的绝佳场所。 以下是可用的事件：
+Experience League 活动是从 Adobe 产品专家处获得答案的好地方。下面是开展的活动：
 
-* [Experience League上线](#exl-live):有关YouTube的实时和按需视频事件
-* [社区问答茶歇](#coffee):社区论坛中与产品经理的交流
-* [Adobe开发人员上线](#dev-live):可在Experience League中显示的按需视频事件
+* [Experience League Live](#exl-live)：要查看实时和点播视频活动，请访问 YouTube
+* [社区问答喝咖啡休息时间](#coffee)：在社区论坛中与产品经理聊天
+* [Adobe Developer&#39;s Live](#dev-live)：要查看点播视频活动，请访问 Experience League
 
-计划和事件如下：
+计划和活动如下所示：
 
-### Experience League上线{#exl-live}
+### Experience League Live{#exl-live}
 
-[Experience League上线](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en) 是由Experience League团队制作的实时流播放节目。 这是与Adobe产品专家联系并学习可在Adobe Experience Cloud应用程序中应用的可操作提示、技巧和策略的机会。
+[Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=zh-Hans) 是 Experience League 团队制作的直播节目。利用这个机会，您可以与 Adobe 产品专家联系，并学习可用于 Adobe Experience Cloud 应用程序的可操作性提示、技巧和策略。
 
-即将发生的事件：
+即将开展的活动：
 
 | 活动日期 | 时间 | 活动名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021 年 11 月 18 日 | 中午 12 点（东部标准时间） | [通过在Adobe Experience Manager中快速创建网站，以前所未有的速度上线](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 视频直播活动 | 几天内即可部署功能丰富的个性化Web体验，无需进行后端开发。 了解如何使用低代码方法通过预定义的 [!UICONTROL 网站模板]. 与我们一起，与Adobe产品经理Shankari Panchapakesan、Gabriel Walt和Danny Gordon进行现场演示和演示。 你甚至可能会看到一些实时编码！ |
+| 2021 年 11 月 18 日 | 中午 12 点（东部标准时间） | [利用 Adobe Experience Manager 中的快速网站创建功能，以前所未有的速度上线](https://www.youtube.com/watch?v=7-Lcw5PejhI) | 视频直播活动 | 在几天内部署功能丰富的个性化 Web 体验，无需后端开发。了解如何使用低代码方法通过预定义的[!UICONTROL 网站模板]在 Adobe Experience Manager 中创建网站。加入我们，与 Adobe 产品经理 Shankari Panchapakesan、Gabriel Walt 和 Danny Gordon 一起进行现场展示和演示。您甚至可能会看到现场编写代码！ |
 
 {style=&quot;table-layout:auto&quot;}
 
-对于过去的剧集，请参阅 [Experience League上线](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en).
+要查看精彩回放，请访问 [Experience League Live](https://experienceleague.adobe.com/docs/experience-league-live-events/events/overview.html?lang=en)。
 
-### 社区问答茶歇{#coffee}
+### 社区问答喝咖啡休息时间{#coffee}
 
-与特邀访客共处一小时，并在Experience League社区中提交您的问题，您可以在Adobe获得产品专家的回答问题！
+与特邀嘉宾共度一小时，并在 Experience League 社区中提交您的问题，在此处可以得到 Adobe 产品专家的解答！
 
 | 活动名称 | 日期和时间 | 应用程序 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target — 设置和管理员UI、A4T集成、AEM集成、常规UI  | 12月8日，星期三早8点，品脱 | Adobe Target | 论坛问答 | 我们将与Adobe Target社区的Adobe Target高级产品经理Robert Calangiu(即@Robert_Calangiu)一起，直接与您讨论您有关Adobe Target专业知识领域的问题。 <br>[详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
-| Adobe Campaign — 通过其他应用程序导入数据 | 2021年12月2日，星期四早8点，品脱 | Adobe Campaign | 论坛问答 | 通过其他应用程序导入数据 — 与高级技术顾问Zariely Garcia一起使用技术工作流通过SFTP/API导入数据的最佳实践。 <br>[详细信息](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9). |
+| Adobe Target - 设置和管理 UI、A4T 集成、AEM 集成、常规 UI | 12 月 8 日星期三太平洋时间上午 8 点 | Adobe Target | 论坛问答 | 我们将与 Adobe Target 高级产品经理 Robert Calangiu（又名 @Robert_Calangiu）一起加入 Adobe Target 社区，直接与您讨论与他的专业领域相关的 Adobe Target 问题。<br>[详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign - 通过其他应用程序导入数据 | 2021 年 12 月 2 日星期四太平洋时间上午 8 点 | Adobe Campaign | 论坛问答 | 通过其他应用程序导入数据 - 与高级技术顾问 Zariely Garcia 一起使用技术工作流通过 SFTP/API 导入数据的最佳实践。<br>[详细信息](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9)。 |
 
 {style=&quot;table-layout:auto&quot;}
 
-### Adobe开发人员上线{#dev-live}
+### Adobe Developer&#39;s Live{#dev-live}
 
 | 活动名称 | 日期和时间 | 主题 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 2021年10月4日至5日 | 按需 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=en) | 视频 | 错过了活动或者想重放特定会话？在 Experience League 上查找它们。Developers Live 展示了跨行业推动设计、内容创建工作流、文档服务和客户体验管理的最新技术进步和开发人员工具。查看主题演讲，了解 Analytics API、客户端数据层、Adobe I/O 开源项目等内容。 |
+| 2021 年 10 月 4 日至 5 日 | 按需 | [Adobe Developers Live](https://experienceleague.adobe.com/docs/adobe-developers-live-events/events/2021/oct2021/overview.html?lang=zh-Hans) | 视频 | 错过了活动或者想重放特定会话？在 Experience League 上查找它们。Developers Live 展示了跨行业推动设计、内容创建工作流、文档服务和客户体验管理的最新技术进步和开发人员工具。查看主题演讲，了解 Analytics API、客户端数据层、Adobe I/O 开源项目等内容。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -128,7 +128,7 @@ Experience League事件是从Adobe的产品专家那里获取答案的绝佳场�
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [ 第一方数据上下文中的数据协作 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=en#) | 视频 | 实现体验承诺，访问更少的数据。无论您是广告商、出版商还是代理商，此网络研讨会都有助于在未来无需第三方 Cookie 的情况下开启数据协作的机会。 |
+| 2021 年 11 月 | [ 第一方数据上下文中的数据协作 ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/industry/data-collaboration-in-the-first-party-data-context.html?lang=zh-Hans#) | 视频 | 实现体验承诺，访问更少的数据。无论您是广告商、出版商还是代理商，此网络研讨会都有助于在未来无需第三方 Cookie 的情况下开启数据协作的机会。 |
 | 2021 年 10 月 | [[!DNL Platform] 管理](https://experienceleague.adobe.com/?recommended=ExperiencePlatform-A-1-2021.1.admin) | 课程 | 了解 Experience Platform 的管理活动，包括权限和沙盒管理。 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -150,13 +150,13 @@ Experience League事件是从Adobe的产品专家那里获取答案的绝佳场�
 
 ### Adobe Analytics 中的新增功能 {#aa-features}
 
-| 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=en) — 目标日期 |
+| 功能 | 描述 | [正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) — 目标日期 |
 | ----------- | ---------- | ------- |
 | Analysis Workspace 中的分钟级日期范围 | 您可以在面板日历的高级设置下或在构建自定义日期范围时应用分钟级日期范围。如果报告的日期范围跨越许多天，则开始时间适用于范围内的第一天，结束时间适用于最后一天。 | 2021 年 10 月 18 日 |
-| [!UICONTROL 媒体播放耗时] | Adobe 流媒体播放[!UICONTROL 耗时]提供有关查看者参与的有价值见解，并使媒体组织能够通过具备时段分割功能的高级耗时分析，利用以分钟计的用户参与获得更深入、更精细的见解。您可以观察在特定时间点查看媒体流的耗时。您可以按不同的粒度分割播放时长，包括新的 5 分钟、15 分钟和 30 分钟粒度。 [了解详情](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=en) | 2021 年 10 月 18 日 |
-| 快速[!UICONTROL 区段生成器] | 允许商业用户在简化的嵌入式项目工作流中快速应用基本区段。无需转至[!UICONTROL 区段生成器]。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en) | 2021 年 10 月 21 日 |
+| [!UICONTROL 媒体播放耗时] | Adobe 流媒体播放[!UICONTROL 耗时]提供有关查看者参与的有价值见解，并使媒体组织能够通过具备时段分割功能的高级耗时分析，利用以分钟计的用户参与获得更深入、更精细的见解。您可以观察在特定时间点查看媒体流的耗时。您可以按不同的粒度分割播放时长，包括新的 5 分钟、15 分钟和 30 分钟粒度。 [了解详情](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-panels/media-playback-time-spent.html?lang=zh-Hans) | 2021 年 10 月 18 日 |
+| 快速[!UICONTROL 区段生成器] | 允许商业用户在简化的嵌入式项目工作流中快速应用基本区段。无需转至[!UICONTROL 区段生成器]。[了解详情](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hans) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左边栏搜索改进 | 左边栏搜索会 1) 将精确匹配优先于广泛匹配，并继续考虑组件回访间隔和相关性。2) 突出显示匹配的字符以使搜索结果更易于理解。3) 让查找与维度相关的分类变得更加轻松。4) 支持通配符 (`*`) 搜索以更轻松地找到所需的特定组件。注意：通配符搜索在维度项级别尚不可用。 | 2021 年 10 月 21 日 |
-| 深色主题 | [深色主题](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#dark-theme)作为显示选项提供。 | 2021 年 10 月 21 日 |
+| 深色主题 | [深色主题](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hans#dark-theme)作为显示选项提供。 | 2021 年 10 月 21 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -167,7 +167,7 @@ Experience League事件是从Adobe的产品专家那里获取答案的绝佳场�
 | Analysis Workspace 中的分钟级日期范围 | 您可以在面板日历的高级设置下或在构建自定义日期范围时应用分钟级日期范围。如果报告的日期范围跨越许多天，则开始时间适用于范围内的第一天，结束时间适用于最后一天。 | 2021 年 10 月 18 日 |
 | 快速[!UICONTROL 筛选器生成器] | 允许商业用户在简化的嵌入式项目工作流中快速应用基本区段。无需转至[!UICONTROL 筛选器生成器]。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-components/cja-filters/quick-filters.html) | 2021 年 10 月 21 日 |
 | Analysis Workspace 左边栏搜索改进 | 左边栏搜索会 1) 将精确匹配优先于广泛匹配，并继续考虑组件回访间隔和相关性。2) 突出显示匹配的字符以使搜索结果更易于理解。3) 让查找与维度相关的分类变得更加轻松。4) 支持通配符 (`*`) 搜索以更轻松地找到所需的特定组件。注意：通配符搜索在维度项级别尚不可用。 | 2021 年 10 月 21 日 |
-| 深色主题 | [深色主题](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=en#dark-theme)作为显示选项提供。 | 2021 年 10 月 21 日 |
+| 深色主题 | [深色主题](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/user-preferences.html?lang=zh-Hans#dark-theme)作为显示选项提供。 | 2021 年 10 月 21 日 |
 | 维度分配的回溯时段 | 最多 90 天的回溯时段被添加到数据视图配置中持久性下的维度分配设置中。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html) | 2021 年 10 月 28 日 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -197,13 +197,13 @@ AN-270649
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | **2021 年 10 月 20 日**，以下几项 Analytics 旧版 API 服务将达到其生命周期结束日期并将被关闭。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
-| 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-CN?lang=en) |
+| 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-CN?lang=zh-Hans) |
 
 {style=&quot;table-layout:auto&quot;}
 
 ### AppMeasurement {#appm}
 
-有关 AppMeasurement 版本（版本 2.22.2）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=en)。
+有关 AppMeasurement 版本（版本 2.22.2）的最新更新，请参阅[适用于 JavaScript 的 AppMeasurement 发行说明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hans)。
 
 ### Analytics 的课程及教程 {#tutorials-analytics}
 
@@ -211,9 +211,9 @@ AN-270649
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=en) | 视频（更新） | 在此视频中，了解如何使用容器并聆听每种类型容器的一些示例。 |
-| 2021 年 11 月 | [Adobe Analytics 中的顺序分段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=en#) | 视频（更新） | 了解如何根据站点或应用程序中的行为序列在 Analysis Workspace 中构建区段。 |
-| 2021 年 11 月 | [在顺序分段中的序列之前/之后](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=en) | 视频（更新） | 了解如何在 Adobe Analytics 中进行分段，以便仅获取特定用户路径之前或之后的数据。 |
+| 2021 年 11 月 | [Adobe Analytics 中的区段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hans) | 视频（更新） | 在此视频中，了解如何使用容器并聆听每种类型容器的一些示例。 |
+| 2021 年 11 月 | [Adobe Analytics 中的顺序分段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation.html?lang=zh-Hans#) | 视频（更新） | 了解如何根据站点或应用程序中的行为序列在 Analysis Workspace 中构建区段。 |
+| 2021 年 11 月 | [在顺序分段中的序列之前/之后](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/before-after-sequences-in-sequential-segmentation.html?lang=zh-Hans) | 视频（更新） | 了解如何在 Adobe Analytics 中进行分段，以便仅获取特定用户路径之前或之后的数据。 |
 | 2021 年 11 月 | [Customer Journey Analytics 的 Report Builder](https://experienceleague.adobe.com/docs/customer-journey-analytics-learn/tutorials/report-builder-for-customer-journey-analytics.html) | 视频 | 借助 Report Builder 简单灵活的拖放 UI，您可以在 Excel 中从 Customer Journey Analytics 数据创建复杂的数据查询和自定义报告。 |
 | 2021 年 10 月 | [利用可视化项讲述您的数据故事](https://experienceleague.adobe.com/?recommended=Analytics-U-1-2021.1.visualizations) | 课程 | 了解有关可视化项的基础知识，包括如何将它们添加到项目中、将数据输入其中以及每个可视化项可为您显示的内容。了解如何配置设置以获取所需的确切数据。此外，获取一些提示和用例以帮助您在常规分析中实施可视化。 |
 
@@ -260,12 +260,12 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 | 发布日期 | 名称 | 描述 | 类型 | 版本 |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| 2021 年 11 月 | [Adobe Experience Manager Sites 基础知识](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=en) | 视频系列 | 在这个由五部分组成的网络研讨会系列中，了解如何在 Adobe Experience Manager 中创建丰富且引人入胜的客户体验。在学习基本概念和操作的同时，从内容创作的构建块开始。了解站点管理功能以及在 AEM 中处理数字资产的基础知识。稍后，发现可以通过重用内容并跨渠道交付内容来帮助您节省时间和提高效率的功能。 | AEM Sites |
+| 2021 年 11 月 | [Adobe Experience Manager Sites 基础知识](https://experienceleague.adobe.com/docs/experience-manager-skill-builder/skill-builder/2021/authoring-fundamentals.html?lang=zh-Hans) | 视频系列 | 在这个由五部分组成的网络研讨会系列中，了解如何在 Adobe Experience Manager 中创建丰富且引人入胜的客户体验。在学习基本概念和操作的同时，从内容创作的构建块开始。了解站点管理功能以及在 AEM 中处理数字资产的基础知识。稍后，发现可以通过重用内容并跨渠道交付内容来帮助您节省时间和提高效率的功能。 | AEM Sites |
 | 2021 年 11 月 | [计划迁移至 AEM as a Cloud Service](https://experienceleague.adobe.com/?recommended=ExperienceManager-A-1-2021.1.migration) | 课程 | 了解迁移至 AEM as a Cloud Service 的注意事项，以及简化该过程的可用工具。 | AEM CS |
 | 2021 年 11 月 | [迁移至 AEM as a Cloud Service ](https://experienceleague.adobe.com/?recommended=ExperienceManager-D-1-2021.1.migration) | 课程 | 了解如何成功从 AEM 6 迁移至 Experience Manager as a Cloud Service。 | AEM CS |
-| 2021 年 11 月 | [下载交互式 DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=en#create-custom-servlet) | 视频 | 了解如何下载含有自适应表单数据的交互式 DoR。 | AEM Forms |
-| 2021 年 11 月 | [Adobe Experience Manager as a Cloud Service 专家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=en) | 视频系列 | 从构建 Adobe Experience Manager (AEM) as a Cloud Service 的 Adobe 专家工程师和提供该服务的 Professional Services 团队那里了解相关信息。 与 Adobe 的专家一起探索什么是 AEM as a Cloud Service、它与 AEM 6 的比较以及如何从 AEM 6 迁移至 AEM as a Cloud Service。 | AEM CS |
-| 2021 年 11 月 | [服务用户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=en) | 视频 | 了解如何在 AEM 代码中创建和使用服务用户，以提供对 AEM 存储库的受控编程访问。 | AEM CS |
+| 2021 年 11 月 | [下载交互式 DoR](https://experienceleague.adobe.com/docs/experience-manager-learn/forms/document-services/generate-interactive-dor.html?lang=zh-Hans#create-custom-servlet) | 视频 | 了解如何下载含有自适应表单数据的交互式 DoR。 | AEM Forms |
+| 2021 年 11 月 | [Adobe Experience Manager as a Cloud Service 专家系列](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/aem-experts-series.html?lang=zh-Hans) | 视频系列 | 从构建 Adobe Experience Manager (AEM) as a Cloud Service 的 Adobe 专家工程师和提供该服务的 Professional Services 团队那里了解相关信息。 与 Adobe 的专家一起探索什么是 AEM as a Cloud Service、它与 AEM 6 的比较以及如何从 AEM 6 迁移至 AEM as a Cloud Service。 | AEM CS |
+| 2021 年 11 月 | [服务用户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/developing/advanced/service-users.html?lang=zh-Hans) | 视频 | 了解如何在 AEM 代码中创建和使用服务用户，以提供对 AEM 存储库的受控编程访问。 | AEM CS |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -309,7 +309,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
-| 2021 年 11 月 | [Adobe Commerce 视频和教程](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=en) | 教程首页 | 这些教程资源包括提供主题高级视图的视频系列，以及针对特定任务和流程的各个视频。该集合旨在为后端开发人员、前端开发人员、系统管理员、商家和组织内的其他角色提供有用的内容。 |
+| 2021 年 11 月 | [Adobe Commerce 视频和教程](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/overview.html?lang=zh-Hans) | 教程首页 | 这些教程资源包括提供主题高级视图的视频系列，以及针对特定任务和流程的各个视频。该集合旨在为后端开发人员、前端开发人员、系统管理员、商家和组织内的其他角色提供有用的内容。 |
 
 ## ![图标](/assets/target.png) [!DNL Target] {#target}
 
@@ -335,10 +335,10 @@ Adobe Campaign 的最新教程和课程
 
 | 发布日期 | 名称 | 描述 | 类型 | 版本 |
 | -----------| ---------- | ---------- |---------- | ---------- |
-| 2021 年 11 月 | [将 Campaign 连接到作为目标的 Experience Platform](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=en) | 视频 | 了解如何使用 Amazon S3 连接类型将 Adobe Experience Platform 区段激活到目标。 | AEP 和 Campaign V8 |
-| 2021 年 11 月 | [与 Experience Platform 集成 — 概述](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=en) | 视频 | 了解如何在 Campaign 和 Experience Cloud 之间共享数据。 | AEP 和 Campaign V8 |
-| 2021 年 11 月 | [从 Experience Platform 导入收件人数据并发送电子邮件](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=en) | 视频 | 了解如何在 Adobe Campaign 中配置外部帐户，以将收件人数据从 Adobe Experience Platform 导入 Campaign。了解如何创建工作流以上传和定位从 Experience Platform 接收的收件人。 | AEP 和 Campaign V8 |
-| 2021 年 11 月 | [在工作流中使用 SOAP API](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=en) | 视频教程 | 了解如何使用 Adobe Campaign Soap API 并根据通过 API 接收的数据创建高级交付工作流。 | Campaign V8 |
+| 2021 年 11 月 | [将 Campaign 连接到作为目标的 Experience Platform](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/connect-campaign-to-experience-platform-as-destination.html?lang=zh-Hans) | 视频 | 了解如何使用 Amazon S3 连接类型将 Adobe Experience Platform 区段激活到目标。 | AEP 和 Campaign V8 |
+| 2021 年 11 月 | [与 Experience Platform 集成 — 概述](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/overview.html?lang=zh-Hans) | 视频 | 了解如何在 Campaign 和 Experience Cloud 之间共享数据。 | AEP 和 Campaign V8 |
+| 2021 年 11 月 | [从 Experience Platform 导入收件人数据并发送电子邮件](https://experienceleague.adobe.com/docs/campaign-learn/integrate-with-experience-platform/import-experience-platform-data-into-campaign/import-recipient-data-from-platform.html?lang=zh-Hans) | 视频 | 了解如何在 Adobe Campaign 中配置外部帐户，以将收件人数据从 Adobe Experience Platform 导入 Campaign。了解如何创建工作流以上传和定位从 Experience Platform 接收的收件人。 | AEP 和 Campaign V8 |
+| 2021 年 11 月 | [在工作流中使用 SOAP API](https://experienceleague.adobe.com/docs/campaign-learn/use-soap-apis/introduction.html?lang=zh-Hans) | 视频教程 | 了解如何使用 Adobe Campaign Soap API 并根据通过 API 接收的数据创建高级交付工作流。 | Campaign V8 |
 
 {style=&quot;table-layout:auto&quot;}
 
