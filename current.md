@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: null
-source-git-commit: 6c7006998126d9e8921d32777ddde423b2f3c863
+source-git-commit: 89342047732a95ba2669eb58397d6a1dc936a8a3
 workflow-type: tm+mt
-source-wordcount: '4724'
-ht-degree: 100%
+source-wordcount: '4803'
+ht-degree: 98%
 
 ---
 
@@ -25,13 +25,14 @@ ht-degree: 100%
 
 发行月份：**2021 年 11 月**
 
-最新更新日期：**2021 年 11 月 15 日**
+最新更新日期：**2021 年 11 月 22 日**
 
 * [[!DNL Experience League] 活动](#events)（2021 年 11 月 15 日更新）
 * [[!DNL Experience Cloud Central Interface Components] 和管理](#ecloud)
 * [Adobe [!UICONTROL 系统状态]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
+* [[!DNL Adobe Analytics]](#analytics)（更新日期：2021 年 11 月 22 日）
+* [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL Adobe Commerce]](#magento)
@@ -144,7 +145,7 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 中的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics 管理员的重要注意事项](#aa-notices)
+* [Analytics管理员的重要注意事项](#aa-notices) （更新日期：2021年11月22日）
 * [Analytics 的课程及教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -196,6 +197,7 @@ AN-270649
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
+| “全球+中国”RDC类型 | 2021 年 11 月 22 日 | “全球+中国”是一种新的区域数据收集(RDC)类型，它使用 [!UICONTROL 中国性能优化附加组件包]. 过去，您必须确定数据应路由到中国收集端点还是某个全球收集端点。 现在，您可以选择此RDC **type** 以便Adobe根据用户的地理位置确定最佳收集端点。 |
 | 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | **2021 年 10 月 20 日**，以下几项 Analytics 旧版 API 服务将达到其生命周期结束日期并将被关闭。当前任何使用这些服务构建的集成都将在当日停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-CN?lang=zh-Hans) |
 
