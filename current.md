@@ -1,6 +1,6 @@
 ---
 title: 最新发行说明
-description: 了解  [!DNL Experience Cloud] 产品和服务的最新发行说明、新增功能和新文档。查找有关 [!DNL Experience Cloud], [!DNL Creative Cloud for enterprise]和 [!DNL Document Cloud].
+description: 了解  [!DNL Experience Cloud] 产品和服务的最新发行说明、新增功能和新文档。查找有关  [!DNL Experience Cloud]、 [!DNL Creative Cloud for enterprise] 和  [!DNL Document Cloud] 的新的帮助内容和教程。
 doc-type: release notes
 last-update: November 2021
 author: mfrei
@@ -240,7 +240,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 ### 版本概述视频
 
-* [2021年12月版概述](https://video.tv.adobe.com/v/339278) 新增功能视频。
+* 新功能的 [2021 年 12 月版概述](https://video.tv.adobe.com/v/339278)视频。
 * 新功能的 [2021 年 10 月版概述](https://video.tv.adobe.com/v/338253)视频。
 * 新功能的 [2021 年 9 月版概述](https://video.tv.adobe.com/v/337381)视频。
 
