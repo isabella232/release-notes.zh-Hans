@@ -6,9 +6,9 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: b8afd3888f15c0b6dd63d523a5b2d78227a8a7e1
+source-git-commit: 8908cbcaf8fa0dbcc2f85cb9bbe8386dc9b68adb
 workflow-type: tm+mt
-source-wordcount: '4902'
+source-wordcount: '4903'
 ht-degree: 98%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 98%
 >
 >订阅每月一期的 [Adobe Priority Product Update](https://www.adobe.com/cn/subscription/priority-product-update.html) 即可收到关于此页面更新的电子邮件通知。整月都在维护此页面，因此请定期回来查看 Adobe 企业产品和 Experience League 文档的更新。
 
-发行月份：**2021 年 11 月**
+发布月份： **2021年11月/12月**
 
 最新更新日期：**2022 年 1 月 4 日**
 
@@ -119,7 +119,7 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 
 包括 Experience Platform 和 [!UICONTROL Mobile SDK] 的发行更新信息和新文档。
 
-**2021 年 9 月 29 日**
+**2021年11月17日**
 
 有关所有详细信息，请参阅 [Experience Platform 发行说明](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans)。
 
@@ -317,7 +317,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 ## ![图标](/assets/target.png) [!DNL Target] {#target}
 
-上次更新日期：**2021 年 10 月 20 日**
+上次更新日期：**2022 年 1 月 6 日**
 
 请参阅[[!DNL Target] 发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=zh-Hans)了解最新发行信息。
 
