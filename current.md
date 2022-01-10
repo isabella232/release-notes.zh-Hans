@@ -9,7 +9,7 @@ exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
 source-git-commit: 81cf97e0a4f0280549c23a68b45ff3a7088dd644
 workflow-type: tm+mt
 source-wordcount: '4902'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 97%
 
 发行月份：**2021 年 11 月**
 
-最近更新日期：**2022 年 1 月 4 日**
+最新更新日期：**2022 年 1 月 4 日**
 
 * [[!DNL Experience League] 活动](#events)（2021 年 11 月 15 日更新）
 * [[!DNL Experience Cloud Central Interface Components] 和管理](#ecloud)
 * [Adobe [!UICONTROL 系统状态]](#status)
 * [[!DNL Adobe Experience Platform]](#platform)
-* [[!DNL Adobe Analytics]](#analytics) (**更新日期： 2022年1月4日**)
+* [[!DNL Adobe Analytics]](#analytics)（**2022 年 1 月 4 日更新**）
 * [Customer Journey Analytics](#cust-journey)
 * [[!DNL Adobe Audience Manager]](#aam)
 * [[!DNL Adobe Experience Manager]](#aem)
@@ -145,7 +145,7 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 * [Adobe Analytics 中的新增功能](#aa-features)
 * [Customer Journey Analytics 中的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
-* [Analytics管理员的重要注意事项](#aa-notices) （更新日期：2022年1月4日）
+* [Analytics 管理员的重要注意事项](#aa-notices)（2022 年 1 月 4 日更新）
 * [Analytics 的课程及教程](#tutorials-analytics)
 * [AppMeasurement](#appm)
 
@@ -197,9 +197,9 @@ AN-270649
 
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
-| Reports &amp; Analytics生命周期终止 | 2022 年 1 月 4 日 | 有效 **2023年12月31日**,Adobe打算停用Reports &amp; Analytics及其随附的报表和功能。 支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans). 自2015年Analysis Workspace发布以来，Reports &amp; Analytics的功能和功能已移至Analysis Workspace，并达到工作流对等性的阈值。 [本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf) 说明生命周期终止的过程。 |
+| Reports &amp; Analytics 的生命周期结束 | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。支持 Reports &amp; Analytics 的报表、可视化和底层技术不再满足 Adobe 的技术标准。在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf)解释了生命周期结束的过程。 |
 | “全球 + 中国”RDC 类型 | 2021 年 11 月 22 日 | “全球 + 中国”是一种新的区域数据收集 (RDC) 类型，使用[!UICONTROL 中国性能优化加载项包]为全球客户简化了流量路由。过去，您必须确定是将数据路由到中国收集端点还是全球收集端点之一。现在您可以选择此 RDC **类型**，让 Adobe 根据用户的地理位置确定最佳收集端点。 |
-| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | 开 **2021年10月20日**，以下Analytics旧版API服务已到达其生命周期终止日期并且已关闭。 任何使用这些服务构建的当前集成都在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
+| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | **2021 年 10 月 20 日**，以下几项 Analytics 旧版 API 服务达到其生命周期结束日期并被关闭。任何使用这些服务构建的当前集成都在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hans?lang=zh-Hans) |
 
 {style=&quot;table-layout:auto&quot;}
