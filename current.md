@@ -6,10 +6,10 @@ last-update: November 2021
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 81cf97e0a4f0280549c23a68b45ff3a7088dd644
+source-git-commit: b8afd3888f15c0b6dd63d523a5b2d78227a8a7e1
 workflow-type: tm+mt
 source-wordcount: '4902'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,8 +78,8 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 
 | 活动名称 | 日期和时间 | 应用程序 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| Adobe Target - 设置和管理 UI、A4T 集成、AEM 集成、常规 UI | 12 月 8 日星期三太平洋时间上午 8 点 | Adobe Target | 论坛问答 | 我们将与 Adobe Target 高级产品经理 Robert Calangiu（又名 @Robert_Calangiu）一起加入 Adobe Target 社区，直接与您讨论与他的专业领域相关的 Adobe Target 问题。<br>[详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
-| Adobe Campaign - 通过其他应用程序导入数据 | 2021 年 12 月 2 日星期四太平洋时间上午 8 点 | Adobe Campaign | 论坛问答 | 通过其他应用程序导入数据 - 与高级技术顾问 Zariely Garcia 一起使用技术工作流通过 SFTP/API 导入数据的最佳实践。<br>[详细信息](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9)。 |
+| Adobe Target — 设置和管理员UI、A4T集成、AEM集成、常规UI | 12月8日，星期三早8点，品脱 | Adobe Target | 论坛问答 | 我们将与 Adobe Target 高级产品经理 Robert Calangiu（又名 @Robert_Calangiu）一起加入 Adobe Target 社区，直接与您讨论与他的专业领域相关的 Adobe Target 问题。<br>[详细信息](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697) |
+| Adobe Campaign - 通过其他应用程序导入数据 | 2021 年 12 月 2 日星期四太平洋时间上午 8 点 | Adobe Campaign | 论坛问答 | 通过其他应用程序导入数据 — 与高级技术顾问Zariely Garcia一起使用技术工作流通过SFTP/API导入数据的最佳实践。 <br>[详细信息](https://forms.office.com/Pages/ResponsePage.aspx?id=Wht7-jR7h0OUrtLBeN7O4UuYOxSr9BdGsLPtk3ITDIdUMFYwT0REQTk5RDZPTjlEWFlSUk1XWTBHVy4u&amp;wdLOR=cEEEC3C73-227C-457C-AA83-44CC08D697B9)。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -199,7 +199,7 @@ AN-270649
 | ----------- | ---------- | ---------- |
 | Reports &amp; Analytics 的生命周期结束 | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。支持 Reports &amp; Analytics 的报表、可视化和底层技术不再满足 Adobe 的技术标准。在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hans) 中提供了 Reports &amp; Analytics 的大部分功能。自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf)解释了生命周期结束的过程。 |
 | “全球 + 中国”RDC 类型 | 2021 年 11 月 22 日 | “全球 + 中国”是一种新的区域数据收集 (RDC) 类型，使用[!UICONTROL 中国性能优化加载项包]为全球客户简化了流量路由。过去，您必须确定是将数据路由到中国收集端点还是全球收集端点之一。现在您可以选择此 RDC **类型**，让 Adobe 根据用户的地理位置确定最佳收集端点。 |
-| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | **2021 年 10 月 20 日**，以下几项 Analytics 旧版 API 服务达到其生命周期结束日期并被关闭。任何使用这些服务构建的当前集成都在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe 已提供[旧版 API EOL 常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email)以帮助回答您的问题并提供关于如何继续的指导。使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
+| 三种 Analytics API 服务的生命周期结束 | 2021 年 9 月 16 日 | **2021 年 10 月 20 日**，以下几项 Analytics 旧版 API 服务达到其生命周期结束日期并被关闭。任何使用这些服务构建的当前集成都在当天停止工作。<ul><li>1.3 Analytics API</li><li>1.4 SOAP Analytics API</li><li>旧版 OAuth 身份验证（OAuth 和 JWT）</li></ul>Adobe提供了 [旧版API生命周期终止常见问题解答](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md?mv=email) 以帮助回答您的问题并提供有关如何继续的指导。 使用这些服务的 API 集成可以迁移到 [1.4 Analytics REST API](https://github.com/AdobeDocs/analytics-1.4-apis?mv=email) 或 [2.0 Analytics API](https://github.com/AdobeDocs/analytics-2.0-apis?mv=email)。旧版 OAuth 帐户可迁移到 [Adobe I/O](https://developer.adobe.com/console) Analytics 集成帐户，该帐户可用于访问 1.4 Analytics API 和 2.0 Analytics API。 |
 | 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hans?lang=zh-Hans) |
 
 {style=&quot;table-layout:auto&quot;}
@@ -428,11 +428,11 @@ Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| 自定义报表 | 您现在可以为自定义报表创建和管理 [!DNL Amazon S3] 以及不同类型的 FTP 投放位置（称作 *[!DNL report destinations]*）。在配置报表目标后，您可以将每个新的自定义报表设置为发送到单一目标类型的一个或多个位置，或发送给电子邮件收件人。更新 [!DNL Amazon S3] 和 FTP 凭据将不会中断报表投放。<br><br>您现有的报表仍会发送给指定的电子邮件收件人。要配置针对不同报表目标的投放，请创建具有新目标的新报表。 |
+| 自定义报表 | 您现在可以为自定义报表创建和管理 [!DNL Amazon S3] 以及不同类型的 FTP 投放位置（称作 *[!DNL report destinations]*）。在配置报表目标后，您可以将每个新的自定义报表设置为发送到单一目标类型的一个或多个位置，或发送给电子邮件收件人。更新 [!DNL Amazon S3] 和 FTP 凭据将不会中断报表投放。<br>您现有的报表仍会发送给指定的电子邮件收件人。要配置针对不同报表目标的投放，请创建具有新目标的新报表。 |
 | [!UICONTROL 包]、[!UICONTROL 投放位置]和[!UICONTROL 广告]视图 | 在查看一天的数据时，趋势图现在包含每小时数据。将光标悬停在任意小时上可查看该小时的数据。 |
 | [!UICONTROL 投放位置] | 投放[!UICONTROL 检查器]现在包含[!UICONTROL 库存]选项卡，该选项卡显示投放的所有交易及其关联量度。使用这些信息可快速做出调整或解决问题，而无需生成自定义报表。 |
 | [!UICONTROL 广告] | （有权在其广告中包含 Clearcastclock 编号的用户）如果您使用附加到另一个广告的时钟编号，则 DSP 将不再显示错误。**注意：**&#x200B;最佳实践是为每个视频广告使用唯一的时钟编号。否则，发布者将不会批准所有广告。 |
-| [!UICONTROL 交易 ID] | 用户界面中的[!UICONTROL 交易 ID]设置和其他位置反映了 [!DNL Magnite] SSP 的新品牌化：<br><ul><li>SSP“[!DNL Tremor]”([!DNL Telaria]) 现在为“[!DNL Magnite CTV]。”</li><li>在接下来的几周内，“[!DNL Rubicon]”将更改为“[!DNL Magnite DV+]”，其中 [!DNL DV+] 代表显示、视频和其他格式，例如音频。</li></ul> |
+| [!UICONTROL 交易 ID] | 用户界面中的[!UICONTROL 交易 ID]设置和其他位置反映了 [!DNL Magnite] SSP 的新品牌化：<ul><li>SSP“[!DNL Tremor]”([!DNL Telaria]) 现在为“[!DNL Magnite CTV]。”</li><li>在接下来的几周内，“[!DNL Rubicon]”将更改为“[!DNL Magnite DV+]”，其中 [!DNL DV+] 代表显示、视频和其他格式，例如音频。</li></ul> |
 | [!DNL Freewheel] 计划性保证交易 | 您现在可以从[!UICONTROL 广告]视图中查找 [!DNL Freewheel] 计划性保证交易的广告状态。之前，您只能从[!UICONTROL 交易]视图中查看状态。 |
 
 {style=&quot;table-layout:auto&quot;}
