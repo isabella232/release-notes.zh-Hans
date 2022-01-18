@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e8e9579245a74552a4dc9ee88eb45375162de6e1
+source-git-commit: 1b16256611eb979c223368409f6887d8c6826332
 workflow-type: tm+mt
-source-wordcount: '6416'
-ht-degree: 40%
+source-wordcount: '6587'
+ht-degree: 42%
 
 ---
 
@@ -250,8 +250,8 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
       _Experience Manager Assets预发行渠道中的新增功能_
 
       * Dynamic Media — 您现在可以使用Experience ManagerDynamic Media界面配置 [!UICONTROL 常规设置] 和 [!UICONTROL 发布设置] 而无需浏览Dynamic Media Classic桌面应用程序。
-      * Dynamic Media现在支持MXF视频的摄取、预览、播放和发布。 尚不支持MXF视频的注释和购物视频。
-      * 在远程DAM与Sites部署之间配置连接后，远程DAM上的资产将在Sites部署中可用。 您现在可以执行 [更新、删除、重命名和移动操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) 在远程DAM资产或文件夹上。 更新（如果延迟）将在站点部署中自动提供。
+      * Dynamic Media现在支持MXF视频的摄取、预览、播放和发布。 尚不支持 MXF 视频的注释和可购买视频。
+      * 在配置远程 DAM 和 Sites 部署之间的连接后，远程 DAM 上的资源即可用于 Sites 部署。您现在可以执行 [更新、删除、重命名和移动操作](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/use-assets-across-connected-assets-instances.html?lang=en) 在远程DAM资产或文件夹上。 更新会在 Sites 部署中自动提供，但会有一些延迟。
    * **Experience Manager Forms as a Cloud Service**
 
       _新功能_
@@ -263,13 +263,13 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
       * **AEM Formsas a Cloud Service — 通信**: [通信API](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/using-communications/aem-forms-cloud-service-communications.html?lang=en) 帮助您将模板和XML数据结合起来，以生成各种格式的打印文档。 使用该服务，您可以以同步和批处理模式生成文档。 利用API，可创建应用程序以执行以下操作：
          * 使用 XML 数据填充模板文件（PDF 和 XDP）来生成文档。
          * 生成各种格式的输出表单，包括非交互式 PDF 打印流。
-      * **为使用通信API创建的记录文档和PDF文档自定义字体**:现在，您可以在使用通信API生成的PDF文档中使用品牌批准的字体，以符合您的组织要求。
-      * **Forms门户**:您可以使用 [Forms门户](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) 可在Experience Manager Sites页面上列出已发布的自适应表单。 它有助于网站访客发现所有可用的表单。 此外，访客可以使用 [!UICONTROL Forms门户] 保存并访问自适应表单的草稿，并查看提交的自适应表单的PDF版本。
+      * **使用 Communications API 创建的记录文档和 PDF 文档的自定义字体**：您现在可以在使用 Communications API 生成的 PDF 文档中使用品牌批准的字体，以满足贵企业的要求。
+      * **Forms门户**:您可以使用 [Forms门户](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-forms-portal.html?lang=en) 可在Experience Manager Sites页面上列出已发布的自适应表单。 它可以帮助网站访客发现所有可用表单。此外，访客可以使用 [!UICONTROL Forms门户] 保存并访问自适应表单的草稿，并查看提交的自适应表单的PDF版本。
    * **Cloud Manager**
 
       _新增功能_
 
-      * 用户现在可以使用新的前端管道以加速的方式专门部署前端代码。 请参阅 [Cloud Manager前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end) 以了解更多。
+      * 用户现在可以使用新的前端管道以加速的方式专门部署前端代码。 有关更多信息，请参阅 [Cloud Manager 前端管道](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/cicd-pipelines/introduction-ci-cd-pipelines.html?lang=en#front-end)。
 
          >[!IMPORTANT]
          >
@@ -278,8 +278,8 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
       * 通过以更有效的方式执行代码分析来减少代码质量管道持续时间，而无需构建整个Experience Manager图像。 此更改将在发布后的未来几周逐步推出。
       * Git提交ID现在显示在管道运行详细信息中，从而更便于跟踪已构建的代码。
       * [!UICONTROL 程序创建] 现在可通过公开的API使用。
-      * [!UICONTROL 环境创建] 现在可通过公开的API使用。
-      * 的 `x-request-id` 响应标头现在在API操场上可见 [www.adobe.io](https://www.adobe.io/). 提交客户关怀问题以进行疑难解答时，此标题非常有用。
+      * [!UICONTROL 现在可通过公开的 API 创建环境。]
+      * `x-request-id` 响应标头现已在 [www.adobe.io](https://www.adobe.io/) 上的 API Playground 中可见。在提交客户关怀问题以进行疑难解答时，此标头很有用。
       * 新 [!UICONTROL 活动] 页面可供查看，其中可以查看管道和代码运行等活动及其关联的详细信息。 随着时间的推移，此页面中列出的活动范围将扩展，并且还会显示提供的详细信息。
       * 新 [!UICONTROL 管道] 现在提供了状态弹出窗口的页面，以便轻松查看详细信息摘要。 您可以查看 [!UICONTROL 管道] 及其关联的详细信息一起运行。
       * 的 [!UICONTROL 编辑管道] API现在支持更改部署阶段中使用的环境。
@@ -289,6 +289,28 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 
 
 
+
+### 社区
+
+* **Experience ManagerGEM网络研讨会 — Experience Manageras a Cloud Service** | 2021年审查与2022年展望
+
+   **日期**:2022年1月25日星期二
+   **时间**:上午8:00（太平洋标准时间）或下午5:00（太平洋标准时间）或9:30（太平洋标准时间）
+   **持续时间**:60分钟
+   **成本**:自由！
+
+   * [请在此处登记](https://adobe.ly/3tAh3OC)
+   * [提问](https://adobe.ly/3zJrS0f)
+
+* [宣布2021年社区成员](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/announcing-community-members-of-the-year-2021/td-p/436782)
+
+   我们要向所有参与 [Experience Manager社区](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community) 2021年，他帮助了其他人解决了问题。
+
+   每年，Experience Cloud社区都会向在服务中超越和超越其他领域的成员致敬，并通过“社区年度成员奖”为其他人提供令人难以置信的支持。 我们在此宣布，我们认识到以公开方式作出的努力 [@Asutosh_Jena_](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/7532759)  和 [@Vijayalakshmi_S](https://experienceleaguecommunities.adobe.com/t5/user/viewprofilepage/user-id/11077056) 作为2021年共同体成员。
+
+* [Experience League2022年1月的内容](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/experience-league-content-for-month-of-january-2022/td-p/437137)
+
+   [在Experience League中发布的所有Experience Manager内容的列表](https://adobe.ly/3tuGuRH)
 
 ### Experience Manager 的新课程和教程 {#tutorials-aem}
 
@@ -337,7 +359,7 @@ Adobe 建议访问 [Experience Manager 版本更新和路线图](https://experie
 * [Experience Manager 6.3 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans)
 * [Experience Manager 6.2 学习和支持主页](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans#previous-updates)
 * [Experience Manager 文档的旧版本](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=en#previous-updates)
-* [Dynamic Media Classic 帮助主页](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en)
+* [Dynamic Media Classic 帮助主页](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=zh-Hans)
 * [Experience Manager 文档：最近的更新](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/doc-updates/documentation-updates.html?lang=zh-Hans#aem-as-a-cloud-service)
 
 ## Adobe Experience Manager 的 XML 文档 {#xml-doc}
