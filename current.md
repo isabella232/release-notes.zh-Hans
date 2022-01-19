@@ -78,7 +78,7 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 
 | 活动名称 | 日期 | 应用程序 | 格式 | 描述 |
 | -----------| ---------- | ---------- | ---------- |---------- |
-| 客户历程分析 和Analytics的未来 | 2022年1月18日早8点（太平洋标准时间） | Adobe Analytics,Customer Journey Analytics,Experience Platform | 论坛问答 | 在Analytics社区中为Adobe Analytics的组产品经理Trevor Paulsen发布问题。<br>[详细信息和注册](https://analyticscommunityqacoffeebrea.splashthat.com/?utm_source=community-thread&amp;utm_campaign=coffee_talk_AA&amp;utm_content=220118) |
+| 客户历程分析 和Analytics的未来 | 2022年1月18日早8点（太平洋标准时间） | Adobe Analytics,Customer Journey Analytics,Experience Platform | 论坛问答 | Post your questions in the Analytics Community for Trevor Paulsen, Group Product Manager, Adobe Analytics.<br>[详细信息和注册](https://analyticscommunityqacoffeebrea.splashthat.com/?utm_source=community-thread&amp;utm_campaign=coffee_talk_AA&amp;utm_content=220118) |
 | Adobe Target与Journey Optimizer集成、Adobe Target界面和常规Target主题 | 2022年1月19日早9点（太平洋标准时间） | Adobe Target、Journey Optimizer | 论坛问答 | 与Jon Tehero共处一小时，在Adobe Target社区中提交您的问题。<br>[详细信息和注册](https://communitycoffeebreakadobetarge.splashthat.com/?utm_source=email&amp;utm_campaign=coffee_talk_AT&amp;utm_content=210119) |
 
 {style=&quot;table-layout:auto&quot;}
@@ -187,7 +187,7 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 | 旧版Analytics OAuth允许列表/JWT集成的“终止”扩展的到期 | 2022 年 1 月 14 日 | 2022年5月25日， [Analytics 1.3 API、1.4 SOAP API和旧版Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 提供允许列表用于为使用旧版 [!DNL Analytics] 将其客户端集成迁移到的OAuth/JWT凭据需要额外时间 [Adobe IMS凭据](https://developer.adobe.com/console) 将过期。 此过期时间会影响（但不限于） [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 尚未完成所需IMS迁移的客户。 当前使用旧版 [!DNL Analytics] 通过扩展的OAuth/JWT凭允许列表据，以及在2022年5月25日之前未完成IMS凭据迁移的用户，将无法访问Adobe服务。 实时流客户可以参阅以下内容 [说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) 将其客户端应用程序迁移到IMS凭据时。 [!DNL Campaign] 客户可以联系其Adobe客户团队，以了解如何升级到 [!DNL Campaign]. |
 | Reports &amp; Analytics 的生命周期结束 | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 大多数Reports &amp; Analytics功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). 自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
 | 安全文件传输协议(SFTP)服务升级 | 2022 年 1 月 13 日 | 开 **2022年5月2日**,Adobe Analytics将升级其安全文件传输协议(SFTP)服务，以提高文件传输的安全性。 在实施此更改后，将不再支持某些SFTP客户端配置。 我们还将添加一些连接选项，这些选项将由 **2022年3月1日**. 这仅会影响使用SFTP发送到Adobe Analytics或从Analytics检索到的数据。 FTP协议将不会受到影响。 为避免服务中断，请确保您的SFTP客户端（代码、工具、服务）将符合详细更改 [此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
-| _全球+中国_ RDC类型 | 2021 年 11 月 22 日 | _全球+中国_ 是一种新的区域数据收集(RDC)类型，可使用简化全球客户的流量路由 [!UICONTROL 中国性能优化附加组件包]. 过去，您必须确定是将数据路由到中国收集端点还是全球收集端点之一。现在您可以选择此 RDC *类型*，让 Adobe 根据用户的地理位置确定最佳收集端点。 |
+| _Global + China_ RDC Type | 2021 年 11 月 22 日 | _全球+中国_ 是一种新的区域数据收集(RDC)类型，可使用简化全球客户的流量路由 [!UICONTROL 中国性能优化附加组件包]. 过去，您必须确定是将数据路由到中国收集端点还是全球收集端点之一。现在您可以选择此 RDC *类型*，让 Adobe 根据用户的地理位置确定最佳收集端点。 |
 | 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hans?lang=zh-Hans) |
 
 {style=&quot;table-layout:auto&quot;}
@@ -512,7 +512,7 @@ Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分
 | [!UICONTROL 投放位置] | 投放[!UICONTROL 检查器]现在包含[!UICONTROL 库存]选项卡，该选项卡显示投放的所有交易及其关联量度。使用这些信息可快速做出调整或解决问题，而无需生成自定义报表。 |
 | [!UICONTROL 广告] | （有权在其广告中包含 Clearcastclock 编号的用户）如果您使用附加到另一个广告的时钟编号，则 DSP 将不再显示错误。**注意：**&#x200B;最佳实践是为每个视频广告使用唯一的时钟编号。否则，发布者不会批准所有广告。 |
 | [!UICONTROL 交易 ID] | 用户界面中的[!UICONTROL 交易 ID]设置和其他位置反映了 [!DNL Magnite] SSP 的新品牌化：<br><ul><li>SSP [!DNL Tremor] ([!DNL Telaria])现在 [!DNL Magnite CTV].</li><li>在接下来的几周里， [!DNL Rubicon] 将更改为 [!DNL Magnite DV+]，其中 [!DNL DV+] 表示显示、视频和其他格式，如音频。</li></ul> |
-| [!DNL Freewheel] 以编程方式保证的交易 | 您现在可以找到 [!DNL Freewheel] 以编程方式保证的交易 [!UICONTROL 广告] 中。 之前，您只能从[!UICONTROL 交易]视图中查看状态。 |
+| [!DNL Freewheel] 以编程方式保证的交易 | You can now find the status of ads for [!DNL Freewheel] programmatically guaranteed deals from the [!UICONTROL Ads] view. 之前，您只能从[!UICONTROL 交易]视图中查看状态。 |
 
 {style=&quot;table-layout:auto&quot;}
 
