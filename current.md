@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 5f66a23cec9c0a92528f3ccb96b4a7889fd38b46
+source-git-commit: a5fd2d7d8668a3b75718d24a8af14498e2192a1a
 workflow-type: tm+mt
-source-wordcount: '6585'
+source-wordcount: '6575'
 ht-degree: 42%
 
 ---
@@ -185,8 +185,8 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 | 注意事项 | 添加或更新日期 | 描述 |
 | ----------- | ---------- | ---------- |
 | 旧版Analytics OAuth允许列表/JWT集成的“终止”扩展的到期 | 2022 年 1 月 14 日 | 开 **2022年5月25日**, [Analytics 1.3 API、1.4 SOAP API和旧版Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允许列表“延期”将过期。 它旨在为使用旧版 [!DNL Adobe Analytics] 将其客户端集成迁移到的OAuth/JWT凭据需要额外时间 [Adobe IMS凭据](https://developer.adobe.com/console). 此过期时间会影响（但不限于） [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 尚未完成所需IMS迁移的客户。 当前使用旧版 [!DNL Analytics] 通过扩展的OAuth/JWT凭允许列表据，以及在2022年5月25日之前未完成IMS凭据迁移的用户，将无法访问Adobe服务。 实时流客户可以参阅以下内容 [说明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md) 将其客户端应用程序迁移到IMS凭据时。 [!DNL Campaign] 客户可以联系其Adobe客户团队，以了解如何升级到 [!DNL Campaign]. |
-| Reports &amp; Analytics 的生命周期结束 | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 Reports &amp; Analytics 及其随附的报表和功能。支持Reports &amp; Analytics的报表、可视化图表和基础技术不再满足Adobe的技术标准。 大多数Reports &amp; Analytics功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). 自 2015 年发布 Analysis Workspace 以来，Reports &amp; Analytics 的功能已经转移到 Analysis Workspace，并且已经达到工作流程等同性的阈值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
-| 安全文件传输协议(SFTP)服务升级 | 2022 年 1 月 13 日 | 开 **2022年5月2日**, [!DNL Adobe Analytics] 将升级其安全文件传输协议(SFTP)服务，以提高文件传输的安全性。 在实施此更改后，将不再支持某些SFTP客户端配置。 我们还将添加一些连接选项，这些选项将由 **2022年3月1日**. 这仅会影响使用SFTP发送到Adobe Analytics或从Analytics检索到的数据。 FTP协议将不会受到影响。 为避免服务中断，请确保您的SFTP客户端（代码、工具、服务）将符合详细更改 [此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
+| 终止 [!DNL Reports & Analytics] | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起，Adobe 决定中断 及其随附的报表和功能。[!DNL Reports & Analytics]报表、可视化图表和基础技术 [!DNL Reports & Analytics] 不再满足Adobe的技术标准。 最多 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html). 自2015年Analysis Workspace发布以来， [!DNL Reports & Analytics] 功能和功能已移至Analysis Workspace，并达到了工作流对等性阈值。 [本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)解释了生命周期结束的过程。 |
+| 安全文件传输协议(SFTP)服务升级 | 2022 年 1 月 13 日 | 开 **2022年5月2日**, [!DNL Adobe Analytics] 将升级其安全文件传输协议(SFTP)服务，以提高文件传输的安全性。 此更改完成后，某些 SFTP 客户端配置将不再受支持。我们还将增加一些在 **2022 年 3 月 1 日**&#x200B;之前可用的连接选项。这只会影响使用 SFTP 发送到 Adobe Analytics 的数据或从 Adobe Analytics 中检索的数据。将不会影响 FTP 协议。为避免服务中断，请确保您的SFTP客户端（代码、工具、服务）将符合详细更改 [此处](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html). |
 | _全球+中国_ RDC类型 | 2021 年 11 月 22 日 | _全球+中国_ 是一种新的区域数据收集(RDC)类型，可使用简化全球客户的流量路由 [!UICONTROL 中国性能优化附加组件包]. 过去，您必须确定是将数据路由到中国收集端点还是全球收集端点之一。现在您可以选择此 RDC *类型*，让 Adobe 根据用户的地理位置确定最佳收集端点。 |
 | 数据源中的 Full Processing 生命周期结束 | 2021 年 10 月 18 日 | **2022 年 1 月 31 日**，Adobe 将终止 Full Processing，这使用户能够将离线命中数据提取到 Analytics 中。此功能可通过 [Bulk Data Insertion API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 获得。[了解详情](https://experienceleague.adobe.com/docs/analytics/import/data-sources/data-types-and-categories/datasrc-fullproc-eol.html?lang=zh-Hans?lang=zh-Hans) |
 
@@ -207,8 +207,8 @@ AN-253294;AN-254976;AN-255377;AN-255561;AN-258550;AN-259336;AN-263935;AN-265094;
 | 2022 年 1 月 | [Adobe Analytics中的客户分段策略和最佳实践](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/customer-segmentation-strategies.html?lang=en) | 视频 | 与分析内部人员一起参加星期四的Analytics会议，重点讨论客户分段的基础知识、策略和最佳实践。 |
 | 2022 年 1 月 | [配置付费搜索检测](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-paid-search-detection.html#) | 视频 | 了解如何在Adobe AnalyticsAdmin Console中逐步了解付费搜索检测部分的配置，包括一些建议。 |
 | 2022 年 1 月 | [配置列表变量](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 视频 | 了解如何在Adobe Analytics中配置和使用列表变量以及其原因。 列表变量允许您向eVar中放置多个值。 |
-| 2022 年 1 月 | [配置流量变量(prop)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-traffic-variables-props.html?lang=en) | 视频 | 了解流量变量的配置，也称为 _prop_，在AnalyticsAdmin Console中。 |
-| 2022 年 1 月 | [使用处理规则处理传入数据](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 视频 | 了解Adobe Analytics中的处理规则以及可用于哪些内容。 获取一些有关使用处理规则的提示、示例，甚至警告。 |
+| 2022 年 1 月 | [配置流量变量 (prop)](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-traffic-variables-props.html?lang=en) | 视频 | 了解流量变量的配置，也称为 _prop_，在AnalyticsAdmin Console中。 |
+| 2022 年 1 月 | [使用处理规则处理传入的数据](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 视频 | 了解Adobe Analytics中的处理规则以及可用于哪些内容。 获取一些有关使用处理规则的提示、示例，甚至警告。 |
 | 2022 年 1 月 | [在 Analysis Workspace 中将区段用作维度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=zh-Hans) | 更新了视频 | 了解如何在Analysis Workspace中将区段用作维度来比较和可视化区段。 |
 | 2022 年 1 月 | [区段管理与共享Adobe Analytics](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=en) | 更新了视频 | 在此更新的视频中，了解一些有关共享和管理区段的提示。 |
 | 2022 年 1 月 | [在 Analysis Workspace 中使用区段限制数据](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-to-limit-data-in-analysis-workspace.html?lang=en) | 更新了视频 | 了解在Analysis Workspace中，当用户使用工具时，如何将项目用户限制为特定区段（或区段）。 |
