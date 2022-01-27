@@ -6,9 +6,9 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 3ecd5dfeeee5692b7fb5c5fa4dcac497b3c49ce0
+source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
 workflow-type: tm+mt
-source-wordcount: '6573'
+source-wordcount: '6590'
 ht-degree: 98%
 
 ---
@@ -135,7 +135,6 @@ Experience Platform 和 [!UICONTROL Mobile SDK] 的发行更新信息和新文�
 发行日期：**2022 年 1 月 19 日**
 
 * [Adobe Analytics 中的新增功能](#aa-features)
-* [Customer Journey Analytics 中的新增功能](#cust-journey)
 * [Adobe Analytics 中的修复](#aa-fixes)
 * [Analytics 管理员的重要注意事项](#aa-notices)
 * [Analytics 的课程及教程](#tutorials-analytics)
@@ -148,18 +147,6 @@ Experience Platform 和 [!UICONTROL Mobile SDK] 的发行更新信息和新文�
 | 不适用 |  | 参见[正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hans) |
 
 {style=&quot;table-layout:auto&quot;}
-
-### Customer Journey Analytics 中的新增功能 {#cust-journey}
-
-| 功能 | 描述 | 目标日期 |
-| ----------- | ---------- | ----- |
-| 绑定维度和绑定量度的[!UICONTROL 持久性]选项 | 创建或编辑数据视图时，您可以将维度的持久性绑定到另一个维度或量度。这个概念在 Reports and Analytics 中称为&#x200B;_陈列_，现在 CJA 也支持这个概念。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) | 2022 年 1 月 19 日 |
-| [!UICONTROL 第一个已知]和[!UICONTROL 最后一个已知]分配模型 | 这两个新分配模型采用指定持久性范围（会话、人员或带回溯的自定义时间段）内某个维度的第一个或最后一个观察值。然后它们将分配模型应用于指定范围内的所有事件。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) | 2022 年 1 月 19 日 |
-| [!UICONTROL PersonID] 和 [!UICONTROL PersonID 命名空间]作为维度 | 将 `personID`（或 `customerID` 或任何用于在连接中合并数据集的 ID）公开为数据视图中的维度。此增强功能使您能够从连接拉入 `personID`，更轻松地将其作为维度包含在数据视图中。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional-standard-components) | 2022 年 1 月 19 日 |
-
-{style=&quot;table-layout:auto&quot;}
-
-请参阅[正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html)，了解发行信息。
 
 ### Adobe Analytics 和 Customer Journey Analytics 中的修复 {#aa-fixes}
 
@@ -175,7 +162,7 @@ Experience Platform 和 [!UICONTROL Mobile SDK] 的发行更新信息和新文�
 * 修复了由于夏令时而提前发送计划报表的问题。（AN-276410；AN-276305）
 * 修复了在 Workspace 中无法将项目下载到 `.csv` 文件的问题。(AN-275834)
 
-#### Adobe Analytics 和 CJA 中的其他修复
+#### Adobe Analytics 中的其他修复
 
 AN-253294；AN-254976；AN-255377；AN-255561；AN-258550；AN-259336；AN-263935；AN-265094；AN-269441；AN-269486；AN-269855；AN-271166；AN-271588；AN-272088；AN-272249；AN-272859；AN-272873；AN-272885；AN-273229；AN-273913；AN-274237；AN-274472；AN-274491；AN-274619；AN-274766；AN-275248；AN-275259；AN-275271；AN-275315；AN-275388；AN-275418；AN-275597；AN-275643；AN-275650；AN-275651；AN-275675；AN-275682；AN-275704；AN-275711；AN-275796；AN-275834；AN-275923；AN-275941；AN-276044；AN-276125；AN-276157；AN-276397；AN-276597；AN-276789；AN-276834；AN-276861；AN-276870；AN-276963；AN-276975；AN-277000；AN-277044；AN-277093；AN-277200；AN-277215；AN-277271；AN-277281；AN-277362；AN-277419；AN-277492；AN-277498；AN-277533；AN-277619；AN-277675；AN-277681；AN-277767；AN-277805；AN-277810；AN-277818；AN-277875；AN-277933；AN-277988；AN-278105；AN-278115；AN-278122；AN-278192；AN-278407；AN-278437；AN-278559；AN-278604；AN-278610；AN-278709；AN-278835；AN-278849；AN-278881；AN-279067；AN-279103；AN-279111；AN-279219；AN-279237；AN-279312
 
@@ -218,6 +205,28 @@ AN-253294；AN-254976；AN-255377；AN-255561；AN-258550；AN-259336；AN-26393
 ### Analytics 帮助资源
 
 * [Adobe Analytics 产品文档及教程](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+
+## [!DNL Customer Journey Analytics] {#cja}
+
+* [Customer Journey Analytics 中的新增功能](#cust-journey)
+
+发行日期：**2022 年 1 月 19 日**
+
+### Customer Journey Analytics 中的新增功能 {#cust-journey}
+
+| 功能 | 描述 | 目标日期 |
+| ----------- | ---------- | ----- |
+| 绑定维度和绑定量度的[!UICONTROL 持久性]选项 | 创建或编辑数据视图时，您可以将维度的持久性绑定到另一个维度或量度。这个概念在 Reports and Analytics 中称为&#x200B;_陈列_，现在 CJA 也支持这个概念。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#binding-dimension) | 2022 年 1 月 19 日 |
+| [!UICONTROL 第一个已知]和[!UICONTROL 最后一个已知]分配模型 | 这两个新分配模型采用指定持久性范围（会话、人员或带回溯的自定义时间段）内某个维度的第一个或最后一个观察值。然后它们将分配模型应用于指定范围内的所有事件。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-settings/persistence.html#allocation-settings) | 2022 年 1 月 19 日 |
+| [!UICONTROL PersonID] 和 [!UICONTROL PersonID 命名空间]作为维度 | 将 `personID`（或 `customerID` 或任何用于在连接中合并数据集的 ID）公开为数据视图中的维度。此增强功能使您能够从连接拉入 `personID`，更轻松地将其作为维度包含在数据视图中。[了解详情](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/component-reference.html?lang=en#optional-standard-components) | 2022 年 1 月 19 日 |
+
+{style=&quot;table-layout:auto&quot;}
+
+请参阅[正式发布](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html)，了解发行信息。
+
+### Analytics 帮助资源
+
+* [Customer Journey Analytics 产品文档](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en)
 
 ## ![图标](/assets/audience-manager.png) Audience Manager {#aam}
 
