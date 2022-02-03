@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e50b1d99621d2a32597e7a28c1602decef814ead
+source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
 workflow-type: tm+mt
-source-wordcount: '6590'
-ht-degree: 100%
+source-wordcount: '6611'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **2022 年 1 月**
 
-最新更新日期：**2022 年 1 月 26 日**
+上次更新时间：**2022 年 2 月 3 日**
 
 * [[!DNL Experience League] 活动](#events)
 * [[!DNL Experience Cloud Central Interface Components] 和管理](#ecloud)
@@ -37,7 +37,7 @@ ht-degree: 100%
 * [[!DNL Adobe Experience Manager]](#aem)
 * [[!DNL XML Documentation for Adobe Experience Manager]](#xml-doc)
 * [[!DNL Adobe Commerce]](#magento)
-* [[!DNL Adobe Target]](#target)
+* [[!DNL Adobe Target]](#target) (更新时间：**2022 年 2 月 3 日**)
 * [[!DNL Adobe Campaign]](#ac)
 * [[!DNL Adobe Journey Optimizer]](#journey-opt)
 * [[!DNL Journey Orchestration]](#journey-orch)
@@ -415,9 +415,10 @@ Adobe Experience Manager 的 XML 文档是部署在 AEM 上的应用程序。这
 
 ## ![图标](/assets/target.png) [!DNL Adobe Target] {#target}
 
-上次更新日期：**2022 年 1 月 10 日**
+上次更新时间： **2022年2月1日**
 
-请参阅 [Target 发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en)了解最新发行信息。
+* 有关Adobe Target预发行信息，请参阅 [Adobe Target预发行版](https://experienceleague.adobe.com/docs/target/using/release-notes/target-release-notes.html?lang=en) 发行说明。
+* 有关当前版本信息，请参阅 [Target发行说明](https://experienceleague.adobe.com/docs/target/using/release-notes/release-notes.html?lang=en).
 
 ## ![图标](/assets/campaign.png) [!DNL Adobe Campaign] {#ac}
 
