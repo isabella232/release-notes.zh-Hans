@@ -6,10 +6,10 @@ last-update: January 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: c73e91e379acb34734b4ed3a1d267688ea3f1222
+source-git-commit: 9e16facc25424bb8ce23e35230b7503195cf1a3d
 workflow-type: tm+mt
-source-wordcount: '6611'
-ht-degree: 99%
+source-wordcount: '6534'
+ht-degree: 98%
 
 ---
 
@@ -527,12 +527,11 @@ Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-上次更新日期：**2021 年 10 月 7 日**
+上次更新时间： **2022年2月4日**
 
 | 功能 | 描述 |
 | ------- | ----------- |
-| [!UICONTROL 报告]、[!UICONTROL 通知中心] | （10 月 9 日版）Advertising Cloud Search 在自定义报告或计划报告完成或失败时发送的所有报告电子邮件通知现在都由[!UICONTROL 通知中心]处理。默认情况下为报告启用电子邮件通知和 Web 通知，但您可以选择更改通知设置。更改后：<ul><li>电子邮件收件人仅限于已注册的、经过身份验证的 Advertising Cloud Search 用户且有权访问广告商帐户的用户。此功能可确保不会将机密数据发送给未经授权的用户。</li><li>电子邮件的格式和内容使用[!UICONTROL 通知中心]模板，其中包括报告的更多详细信息，并包括所有报告格式的直接下载链接。</li><li>报告通知是[!UICONTROL 通知中心]中一种新的通知类型，具有自己的通知偏好设置。</li></ul>如果您使用任何自动化方法从电子邮件通知中提取报告，您可能需要更新筛选逻辑以确保过程的连续性。 |
-| 广告见解 | Beta 模式中提供了其他见解。 |
+| [!UICONTROL 批量工作表], [!UICONTROL 通知中心] | （1月22日版）批量工作表的所有电子邮件通知现在由Advertising Cloud Search处理，批量工作表操作完成或失败时，会发送批量工作表 [!UICONTROL 通知中心].<br><br>[!UICONTROL 批量工作表] 是新的通知类型，具有自己的通知首选项，位于 [!UICONTROL 通知中心]. 电子邮件通知和Web通知默认启用，但您可以选择更改通知设置。<br><br>电子邮件通知的格式和内容使用 [!UICONTROL 通知中心] 模板，包括用于关联的批量工作表文件或错误文件的直接下载链接。 |
 
 {style=&quot;table-layout:auto&quot;}
 
