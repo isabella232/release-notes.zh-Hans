@@ -4,9 +4,9 @@ description: Experience Cloud 发行说明
 doc-type: release notes
 last-update: June 2021
 author: mfrei
-source-git-commit: b83f085d9fca7c4ae2b3519d32033a03aec28026
+source-git-commit: e415b562703712157d907d3e3995ff5adad4db1e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '716'
 ht-degree: 86%
 
 ---
@@ -26,13 +26,13 @@ Adobe Experience Cloud 的新增功能和修复。
 >
 >对于在版本发行之后发布的新信息，将使用发布日期进行标记。
 
-最新更新：**2021年9月**
+最新更新： **2021年9月**
 
-* [Experience League实时事件](#events)
+* [Experience League Live 活动](#events)
 * [Experience Cloud 中央界面组件](#ecloud)
+* [Adobe 系统状态](#status)
 * [Experience Platform](#platform)
 * [Experience Platform应用程序服务](#services)
-* [Adobe 系统状态](#status)
 * [Journey Optimizer](#journey-opt)
 * [[!DNL Analytics]](#analytics) 和 [Customer Journey Analytics](#cust-journey)
 * [[!DNL Audience Manager]](#aam)
@@ -55,12 +55,6 @@ Adobe Experience Cloud 的新增功能和修复。
 ## ![图标](/assets/ec_appicon_24.png) Experience Cloud 中央界面组件 {#ecloud}
 
 Experience Cloud 中央界面组件包括从统一产品标题访问的更新，例如自助、搜索和用户帐户偏好设置。可在此处找到对人员、地点（位置）和产品管理的更新。
-
-| 功能 | 日期 | 描述 |
-| ------- | ------- | -------|
-| 功能 | 2021 年 9 月 | 描述 |
-
-{style=&quot;table-layout:auto&quot;}
 
 ### [!UICONTROL 核心服务] {#core-services}
 
@@ -263,7 +257,7 @@ Marketo Engage是一个完整的解决方案，面向希望通过参与复杂购
 
 发行日期：2020 年 2 月 21 日
 
-* **Microsoft® Dynamics在Microsoft® _中更改所有者_ 流程操作：** 直接从Marketo Engage更改潜在客户或联系所有者。
+* **Microsoft® Dynamics _在Microsoft中更改所有者®_ 流量操作：** 直接从Marketo Engage更改潜在客户或联系所有者。
 * **对 API 调用的增强：**
    * 用户管理 API
    * 自定义对象架构 API
