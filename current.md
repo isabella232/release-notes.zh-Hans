@@ -6,7 +6,7 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: e9a119ac8351d6431039b1e0387db1d4875a91bb
+source-git-commit: 85a73da3f5957c5d073d9b0018d1758f14432252
 workflow-type: tm+mt
 source-wordcount: '4933'
 ht-degree: 51%
@@ -96,7 +96,7 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 
 **新增功能**
 
-* Adobe状态现在报告产品级别的事件。 状态云页面和产品页面根据产品级别的事故报告提供了全新的外观和增强的过滤器。 这样，您便可以更轻松地了解产品在 [status.adobe.com](https://status.adobe.com/) 和电子邮件通知中。 如果您未订阅，请使用此链接设置您的个性化订阅首选项 [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage)
+* Adobe状态现在报告产品级别的事件。 状态云页面和产品页面根据产品级别的事故报告提供了全新的外观和增强的过滤器。 这样，您便可以更轻松地了解产品在 [status.adobe.com](https://status.adobe.com/) 和电子邮件通知中。 如果您未订阅，请使用此链接设置您的个性化订阅首选项 [https://status.adobe.com/proactive-notifications/manage](https://status.adobe.com/proactive-notifications/manage).
 
 * 现在，状态主页可使用根据您的授权和产品订阅过滤的事件进行个性化。 请在 **status.adobe.com** > **[!UICONTROL 我的事件]** 选项卡。
 
