@@ -6,9 +6,9 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 85a73da3f5957c5d073d9b0018d1758f14432252
+source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
 workflow-type: tm+mt
-source-wordcount: '4933'
+source-wordcount: '4940'
 ht-degree: 51%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 51%
 
 作为一家体验制造商，您的成功之路始于 [Adobe Experience League](https://experienceleague.adobe.com/?lang=en#home). 您可以找到大量的操作说明文档库、自我指导教程、操作方法视频以及适用于所有级别和角色的课程、在线的同行社区，以及需要时的专家支持。
 
-准备好开始了吗？ [参加5分钟的测验并获胜](https://exploreadobe.com/experience-league-quiz/)!
+准备好开始了吗？ [参加5分钟的测验并获胜](https://exploreadobe.com/experience-league-quiz/?sdid=4NM897N2&amp;mv=email&amp;mv2=nslsp)!
 
 >[!NOTE]
 >
