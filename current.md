@@ -6,9 +6,9 @@ last-update: February 2022
 author: mfrei
 mini-toc-levels: 1
 exl-id: bcbdba6a-9e24-4f84-97ca-65c24ef45707
-source-git-commit: 10b5876c8ea0e21f0e10ea36165c0e3f1dab9665
+source-git-commit: f4b652db4759a65f38afe0fbd6dca07301875277
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4963'
 ht-degree: 51%
 
 ---
@@ -177,7 +177,7 @@ Experience League 活动是从 Adobe 产品专家处获得答案的好地方。�
 | 发布日期 | 名称 | 类型 | 描述 |
 | -----------| ---------- | ---------- | ---------- |
 | 2022 年 2 月 | [使用处理规则处理传入的数据](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/manipulating-incoming-data-with-processing-rules.html?lang=en) | 视频 | 获取Adobe Analytics中处理规则的概述，并了解它们的用途。 了解一些提示、示例，甚至是警告。 |
-| 2022 年 2 月 | [配置列表变量](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 视频 | 当一次必须在eVar（转化变量）中放置多个值时，您要执行什么操作？ 列出要救援的变量！ 了解如何以及为何在 Adobe Analytics 中配置和使用列表变量。 |
+| 2022 年 2 月 | [配置列表变量](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configuring-list-variables.html?lang=en) | 视频 | 当一次必须在eVar（转化变量）中放置多个值时，您要执行什么操作？ 列出要取回的变量！ 了解如何以及为何在 Adobe Analytics 中配置和使用列表变量。 |
 | 2022 年 2 月 | [配置流量分类](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-traffic-classifications.html?lang=en) | 视频 | 了解如何为流量变量配置分类，通常称为 _prop_&#x200B;和 _pagename_，等等。 |
 | 2022 年 2 月 | [配置转化分类](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-conversion-classifications.html?lang=en) | 视频 | 了解如何为转化变量配置分类，也称为 _eVar_. 此配置还适用于产品和列表变量。 |
 
@@ -473,10 +473,11 @@ Adobe [!DNL Workfront] 是一个统一的工作管理应用程序，可用于分
 
 ### [!DNL Advertising Cloud Search] 中的新增功能 {#adcloud-search}
 
-上次更新时间： **2022年2月4日**
+上次更新时间： **2022年2月16日**
 
 | 功能 | 描述 |
 | ------- | ----------- |
+| [!UICONTROL 促销活动], [!UICONTROL 批量处理工作表] | （1月22日发布）([!DNL Microsoft Advertising accounts])您现在可以通过 [!UICONTROL 促销活动] > [!UICONTROL 广告] 查看和从 [!UICONTROL 促销活动] > [!UICONTROL 批量工作表]. |
 | [!UICONTROL 批量工作表], [!UICONTROL 通知中心] | （1月22日版）批量工作表的所有电子邮件通知现在由Advertising Cloud Search处理，批量工作表操作完成或失败时，会发送批量工作表 [!UICONTROL 通知中心].<br><br>[!UICONTROL 批量工作表] 是新的通知类型，具有自己的通知首选项，位于 [!UICONTROL 通知中心]. 电子邮件通知和Web通知默认启用，但您可以选择更改通知设置。<br><br>电子邮件通知的格式和内容使用 [!UICONTROL 通知中心] 模板，包括用于关联的批量工作表文件或错误文件的直接下载链接。 |
 
 {style=&quot;table-layout:auto&quot;}
